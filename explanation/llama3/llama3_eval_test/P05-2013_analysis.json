@@ -1,0 +1,227 @@
+{
+  "doc_key": "P05-2013",
+  "gold_entities": [
+    {
+      "entity": "automatically inducing a  Combinatory Categorial Grammar (CCG) lexicon",
+      "category": "task"
+    },
+    {
+      "entity": "combinatory categorial grammar ccg lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compact lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Turkish dependency treebank",
+      "category": "material"
+    },
+    {
+      "entity": "Turkish",
+      "category": "material"
+    },
+    {
+      "entity": "agglutinating free word order language",
+      "category": "material"
+    },
+    {
+      "entity": "Penn WSJ",
+      "category": "material"
+    },
+    {
+      "entity": "language theories",
+      "category": "method"
+    },
+    {
+      "entity": "CCG principles",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Combinatory Categorial Grammar (CCG)",
+      "category": "method"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "Turkish dependency treebank",
+      "category": "material"
+    },
+    {
+      "entity": "turkish",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "agglutinating free word order language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language theories",
+      "category": "method"
+    },
+    {
+      "entity": "compact lexicon",
+      "category": "metric"
+    },
+    {
+      "entity": "CCG principles",
+      "category": "method"
+    },
+    {
+      "entity": "treebank",
+      "category": "material"
+    },
+    {
+      "entity": "Penn WSJ",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "compact lexicon",
+      "predicted": "compact lexicon",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "Turkish",
+      "predicted": "turkish",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "agglutinating free word order language",
+      "predicted": "agglutinating free word order language",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Turkish dependency treebank",
+      "predicted": "Turkish dependency treebank",
+      "category": "material"
+    },
+    {
+      "gold": "Penn WSJ",
+      "predicted": "Penn WSJ",
+      "category": "material"
+    },
+    {
+      "gold": "language theories",
+      "predicted": "language theories",
+      "category": "method"
+    },
+    {
+      "gold": "CCG principles",
+      "predicted": "CCG principles",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatically inducing a  Combinatory Categorial Grammar (CCG) lexicon",
+      "category": "task"
+    },
+    {
+      "entity": "combinatory categorial grammar ccg lexicon",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Combinatory Categorial Grammar (CCG)",
+      "category": "method"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "treebank",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 2,
+    "material": 4,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 4,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.4444444444444444,
+  "f1": 0.4210526315789474,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

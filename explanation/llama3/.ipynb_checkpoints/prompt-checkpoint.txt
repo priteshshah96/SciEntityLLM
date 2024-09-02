@@ -1,0 +1,131 @@
+Text: "Color is known to be highly discriminative for many object recognition tasks, but is difficult to infer from uncontrolled images in which the illuminant is not known. Traditional methods for color constancy can improve surface re-flectance estimates from such uncalibrated images, but their output depends significantly on the background scene. In many recognition and retrieval applications, we have access to image sets that contain multiple views of the same object in different environments; we show in this paper that correspondences between these images provide important constraints that can improve color constancy. We introduce the multi-view color constancy problem, and present a method to recover estimates of underlying surface re-flectance based on joint estimation of these surface properties and the illuminants present in multiple images. The method can exploit image correspondences obtained by various alignment techniques, and we show examples based on matching local region features. Our results show that multi-view constraints can significantly improve estimates of both scene illuminants and object color (surface reflectance) when compared to a baseline single-view method."
+
+Scientific Entities Identified:
+* object recognition tasks
+- Reasoning: This is a Task, describing a specific application in computer vision.
+* uncontrolled images
+- Reasoning: This is a Material, referring to the type of images used in the study.
+* illuminant
+- Reasoning: This is an OtherScientificTerm, describing a key concept in color analysis.
+* methods
+- Reasoning: This is a Generic term, referring to traditional approaches in the field.
+* color constancy
+- Reasoning: This is a Task, describing the problem of maintaining perceived color under different illuminations.
+* surface re-flectance estimates
+- Reasoning: This is a Method, referring to a technique for estimating object color.
+* uncalibrated images
+- Reasoning: This is a Material, similar to "uncontrolled images" mentioned earlier.
+* background scene
+- Reasoning: This is an OtherScientificTerm, referring to the context in which objects appear.
+* recognition and retrieval applications
+- Reasoning: This is a Task, describing broader applications of the research.
+* color constancy
+- Reasoning: This is a repeated mention of the Task, in a new context.
+* multi-view color constancy problem
+- Reasoning: This is a Task, introducing the specific problem addressed in the paper.
+* method
+- Reasoning: This is a Generic term, referring to the approach presented in the paper.
+* estimates of underlying surface re-flectance
+- Reasoning: This is a Task, describing the goal of the proposed method.
+* surface properties
+- Reasoning: This is an OtherScientificTerm, referring to characteristics of object surfaces.
+* illuminants
+- Reasoning: This is an OtherScientificTerm, a plural form of the earlier "illuminant".
+* method
+- Reasoning: This is a repeated mention of the Generic term, referring to the proposed approach.
+* image correspondences
+- Reasoning: This is an OtherScientificTerm, describing relationships between multiple images.
+* alignment techniques
+- Reasoning: This is a Method, referring to ways of matching images.
+* matching local region features
+- Reasoning: This is an OtherScientificTerm, describing a specific technique for image alignment.
+* multi-view constraints
+- Reasoning: This is an OtherScientificTerm, referring to the key idea of the paper.
+* estimates of both scene illuminants and object color (surface reflectance)
+- Reasoning: This is a Task, describing the outputs of the proposed method.
+* baseline single-view method
+- Reasoning: This is a Method, referring to a comparison approach.
+
+Text: "This paper presents an algorithm for computing optical flow, shape, motion, lighting, and albedo from an image sequence of a rigidly-moving Lambertian object under distant illumination. The problem is formulated in a manner that subsumes structure from motion, multi-view stereo, and photo-metric stereo as special cases. The algorithm utilizes both spatial and temporal intensity variation as cues: the former constrains flow and the latter constrains surface orientation ; combining both cues enables dense reconstruction of both textured and texture-less surfaces. The algorithm works by iteratively estimating affine camera parameters, illumination , shape, and albedo in an alternating fashion. Results are demonstrated on videos of hand-held objects moving in front of a fixed light and camera."
+
+Scientific Entities Identified:
+* algorithm
+- Reasoning: This is a Generic term, referring to the method presented in the paper.
+* computing optical flow, shape, motion, lighting, and albedo
+- Reasoning: This is a Task, describing the main objective of the algorithm.
+* image sequence
+- Reasoning: This is a Material, referring to the input data for the algorithm.
+* rigidly-moving Lambertian object
+- Reasoning: This is a Material, describing the type of object being analyzed.
+* distant illumination
+- Reasoning: This is an OtherScientificTerm, describing the lighting condition.
+* problem
+- Reasoning: This is a Generic term, referring to the overall research question.
+* motion
+- Reasoning: This is a Material, referring to a type of input or analysis.
+* multi-view stereo
+- Reasoning: This is a Material, referring to a related technique.
+* photo-metric stereo
+- Reasoning: This is a Material, referring to another related technique.
+* algorithm
+- Reasoning: This is a repeated mention of the Generic term, now describing its functionality.
+* spatial and temporal intensity variation
+- Reasoning: This is an OtherScientificTerm, describing the types of information used by the algorithm.
+* cues
+- Reasoning: This is a Generic term, referring to the information used by the algorithm.
+* former
+- Reasoning: This is a Generic term, referring back to spatial intensity variation.
+* flow
+- Reasoning: This is an OtherScientificTerm, describing what is constrained by spatial variation.
+* latter
+- Reasoning: This is a Generic term, referring back to temporal intensity variation.
+* surface orientation
+- Reasoning: This is an OtherScientificTerm, describing what is constrained by temporal variation.
+* cues
+- Reasoning: This is a repeated mention of the Generic term, now in the context of combining information.
+* dense reconstruction of both textured and texture-less surfaces
+- Reasoning: This is a Task, describing the outcome of combining the cues.
+* algorithm
+- Reasoning: This is another mention of the Generic term, now describing its implementation.
+* estimating affine camera parameters, illumination , shape, and albedo
+- Reasoning: This is a Method, describing the specific steps of the algorithm.
+* videos of hand-held objects
+- Reasoning: This is a Material, describing the data used to demonstrate results.
+
+Text: "In this paper, we improve an unsupervised learning method using the Expectation-Maximization (EM) algorithm proposed by Nigam et al. for text classification problems in order to apply it to word sense disambiguation (WSD) problems. The improved method stops the EM algorithm at the optimum iteration number. To estimate that number, we propose two methods. In experiments, we solved 50 noun WSD problems in the Japanese Dictionary Task in SENSEVAL2. The score of our method is a match for the best public score of this task. Furthermore, our methods were confirmed to be effective also for verb WSD problems."
+
+Scientific Entities Identified:
+* unsupervised learning method
+- Reasoning: This is a Method, describing the type of learning approach being improved.
+* Expectation-Maximization (EM) algorithm
+- Reasoning: This is a Method, referring to a specific algorithm used in the study.
+* text classification problems
+- Reasoning: This is a Task, describing the original application of the method.
+* it
+- Reasoning: This is a Generic term, referring back to the unsupervised learning method.
+* word sense disambiguation (WSD) problems
+- Reasoning: This is a Task, describing the new application of the method.
+* method
+- Reasoning: This is a Generic term, referring to the improved approach.
+* EM algorithm
+- Reasoning: This is a repeated mention of the Method, now in the context of stopping criteria.
+* optimum iteration number
+- Reasoning: This is an OtherScientificTerm, describing a key concept in the improved method.
+* number
+- Reasoning: This is a Generic term, referring back to the optimum iteration number.
+* noun WSD problems
+- Reasoning: This is a Task, describing a specific type of WSD problem addressed in experiments.
+* Japanese Dictionary Task
+- Reasoning: This is a Task, referring to a specific evaluation framework.
+* SENSEVAL2
+- Reasoning: This is a Material, referring to a specific evaluation campaign or dataset.
+* method
+- Reasoning: This is a repeated mention of the Generic term, now in the context of results.
+* task
+- Reasoning: This is a Generic term, referring back to the Japanese Dictionary Task.
+* methods
+- Reasoning: This is a Generic term, referring to the proposed approaches.
+* verb WSD problems
+- Reasoning: This is a Task, describing another type of WSD problem to which the methods were applied.
+
+Now, for the following text, please identify the scientific entities following the same approach as in the examples above, making sure to include repeated entities when they appear in different contexts, identify both positive and negative counterparts, and provide reasoning for each entity.

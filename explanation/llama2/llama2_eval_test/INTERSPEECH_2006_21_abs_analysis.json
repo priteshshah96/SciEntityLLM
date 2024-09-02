@@ -1,0 +1,279 @@
+{
+  "doc_key": "INTERSPEECH_2006_21_abs",
+  "gold_entities": [
+    {
+      "entity": "language model adaptation methods",
+      "category": "method"
+    },
+    {
+      "entity": "sentence-by-sentence error correction method",
+      "category": "method"
+    },
+    {
+      "entity": "language models",
+      "category": "method"
+    },
+    {
+      "entity": "word list",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word list",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "raw corpus",
+      "category": "material"
+    },
+    {
+      "entity": "raw corpus",
+      "category": "material"
+    },
+    {
+      "entity": "segmented corpus",
+      "category": "material"
+    },
+    {
+      "entity": "preparing a segmented corpus",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition accuracies",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "language model adaptation methods",
+      "category": "task"
+    },
+    {
+      "entity": "word list",
+      "category": "method"
+    },
+    {
+      "entity": "raw corpus",
+      "category": "method"
+    },
+    {
+      "entity": "segmented corpus",
+      "category": "method"
+    },
+    {
+      "entity": "sentence-by-sentence error correction method",
+      "category": "method"
+    },
+    {
+      "entity": "annotator",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatically complicated positions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "productivity",
+      "category": "method"
+    },
+    {
+      "entity": "word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition accuracies",
+      "category": "metric"
+    },
+    {
+      "entity": "methods",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language model adaptation methods",
+      "predicted": "language model adaptation methods",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "word list",
+      "predicted": "word list",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "raw corpus",
+      "predicted": "raw corpus",
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "segmented corpus",
+      "predicted": "segmented corpus",
+      "gold_category": "material",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "sentence-by-sentence error correction method",
+      "predicted": "sentence-by-sentence error correction method",
+      "category": "method"
+    },
+    {
+      "gold": "speech recognition accuracies",
+      "predicted": "speech recognition accuracies",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word list",
+      "predicted": "word",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "raw corpus",
+      "predicted": "corpus",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "language models",
+      "category": "method"
+    },
+    {
+      "entity": "preparing a segmented corpus",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "annotator",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatically complicated positions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "productivity",
+      "category": "method"
+    },
+    {
+      "entity": "methods",
+      "category": "method"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "word list|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "raw corpus|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 2,
+    "material": 3,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 6,
+    "otherscientificterm": 3,
+    "metric": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.2,
+  "f1": 0.17391304347826086,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 13,
+    "exact_matches": 4,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 5,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

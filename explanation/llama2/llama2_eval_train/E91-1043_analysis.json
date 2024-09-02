@@ -1,0 +1,175 @@
+{
+  "doc_key": "E91-1043",
+  "gold_entities": [
+    {
+      "entity": "model of grammatical processing",
+      "category": "method"
+    },
+    {
+      "entity": "uniform processing",
+      "category": "method"
+    },
+    {
+      "entity": "parametrized deduction  process",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "generation",
+      "category": "task"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "model of grammatical processing",
+      "category": "task"
+    },
+    {
+      "entity": "uniform processing",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parametrized deduction process",
+      "category": "method"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "generation",
+      "category": "task"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "model of grammatical processing",
+      "predicted": "model of grammatical processing",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "knowledge sources",
+      "predicted": "knowledge sources",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "uniform processing",
+      "predicted": "uniform processing",
+      "category": "method"
+    },
+    {
+      "gold": "parametrized deduction  process",
+      "predicted": "parametrized deduction process",
+      "category": "method"
+    },
+    {
+      "gold": "parsing",
+      "predicted": "parsing",
+      "category": "task"
+    },
+    {
+      "gold": "generation",
+      "predicted": "generation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "material": 1,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5714285714285714,
+  "recall": 0.5714285714285714,
+  "f1": 0.5714285714285714,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 7,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 0,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

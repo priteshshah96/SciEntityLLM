@@ -1,0 +1,273 @@
+{
+  "doc_key": "CVPR_2014_21_abs",
+  "gold_entities": [
+    {
+      "entity": "personalized parametric model (pose-driven avatar)",
+      "category": "method"
+    },
+    {
+      "entity": "template fitting techniques",
+      "category": "method"
+    },
+    {
+      "entity": "watertight models",
+      "category": "method"
+    },
+    {
+      "entity": "parametric model",
+      "category": "method"
+    },
+    {
+      "entity": "SCAPE method",
+      "category": "method"
+    },
+    {
+      "entity": "parametric model",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic 3D models",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic models",
+      "category": "method"
+    },
+    {
+      "entity": "single depth sensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human template",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global consistency constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "animitable avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single-view depth videos",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "personalized parametric model posedriven avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Depth sensor",
+      "category": "material"
+    },
+    {
+      "entity": "High-quality scans",
+      "category": "material"
+    },
+    {
+      "entity": "Template fitting techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Generic human template",
+      "category": "material"
+    },
+    {
+      "entity": "Global consistency constraints",
+      "category": "method"
+    },
+    {
+      "entity": "parametric model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scape method",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "animitable avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dynamic 3d models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Single-view depth videos",
+      "category": "material"
+    },
+    {
+      "entity": "autonomous pipeline",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "template fitting techniques",
+      "predicted": "Template fitting techniques",
+      "category": "method"
+    },
+    {
+      "gold": "parametric model",
+      "predicted": "parametric model",
+      "category": "method"
+    },
+    {
+      "gold": "SCAPE method",
+      "predicted": "scape method",
+      "category": "method"
+    },
+    {
+      "gold": "dynamic 3D models",
+      "predicted": "dynamic 3d models",
+      "category": "method"
+    },
+    {
+      "gold": "global consistency constraints",
+      "predicted": "Global consistency constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "animitable avatar",
+      "predicted": "animitable avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "single-view depth videos",
+      "predicted": "Single-view depth videos",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "single depth sensor",
+      "predicted": "Depth sensor",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "human template",
+      "predicted": "Generic human template",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "template fitting techniques",
+      "category": "method"
+    },
+    {
+      "entity": "animitable avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single-view depth videos",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "personalized parametric model (pose-driven avatar)",
+      "category": "method"
+    },
+    {
+      "entity": "watertight models",
+      "category": "method"
+    },
+    {
+      "entity": "parametric model",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic models",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "personalized parametric model posedriven avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "High-quality scans",
+      "category": "material"
+    },
+    {
+      "entity": "autonomous pipeline",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "parametric model|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "material": 4,
+    "method": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.08333333333333333,
+  "recall": 0.08333333333333333,
+  "f1": 0.08333333333333333,
+  "category_precision": 0.5833333333333334,
+  "category_recall": 0.5384615384615384,
+  "category_f1": 0.5599999999999999,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 12,
+    "exact_matches": 7,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 3,
+    "generic_entities": 4,
+    "correct_predictions": 1,
+    "correct_categories": 7
+  }
+}

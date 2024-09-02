@@ -1,0 +1,125 @@
+{
+  "gold_entities": [
+    {
+      "entity": "halliday's systemic networks",
+      "category": "Method"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "Method"
+    },
+    {
+      "entity": "feature-based partial descriptions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "featurebased partial descriptions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hallidays systemic networks",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "Method"
+    },
+    {
+      "entity": "np-complete",
+      "category": "Metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "intractability",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "descriptions",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "consistency checking",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "consistency checking",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "consistency checking",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "consistency checking",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "halliday's systemic networks",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hallidays systemic networks",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "feature-based partial descriptions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "featurebased partial descriptions",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "np-complete",
+      "category": "Metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "intractability",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 3,
+    "generated_count": 6,
+    "generic_count": 1,
+    "exact_matches": 1,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

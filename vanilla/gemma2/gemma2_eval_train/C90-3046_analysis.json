@@ -1,0 +1,221 @@
+{
+  "doc_key": "C90-3046",
+  "gold_entities": [
+    {
+      "entity": "sentence analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese sentence analyses",
+      "category": "task"
+    },
+    {
+      "entity": "defeasible reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "argumentation system",
+      "category": "method"
+    },
+    {
+      "entity": "formalization  of  defeasible reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "defeasible reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "arguments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "defeat rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "defeasibility",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "sentence analysis",
+      "category": "task"
+    },
+    {
+      "entity": "defeasible reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "Japanese sentence analyses",
+      "category": "task"
+    },
+    {
+      "entity": "argumentation system",
+      "category": "method"
+    },
+    {
+      "entity": "formalization",
+      "category": "method"
+    },
+    {
+      "entity": "arguments",
+      "category": "method"
+    },
+    {
+      "entity": "defeat rules",
+      "category": "method"
+    },
+    {
+      "entity": "defeasibility",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "sentence analysis",
+      "predicted": "sentence analysis",
+      "category": "task"
+    },
+    {
+      "gold": "Japanese sentence analyses",
+      "predicted": "Japanese sentence analyses",
+      "category": "task"
+    },
+    {
+      "gold": "defeasible reasoning",
+      "predicted": "defeasible reasoning",
+      "category": "method"
+    },
+    {
+      "gold": "argumentation system",
+      "predicted": "argumentation system",
+      "category": "method"
+    },
+    {
+      "gold": "arguments",
+      "predicted": "arguments",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "defeat rules",
+      "predicted": "defeat rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "defeasibility",
+      "predicted": "defeasibility",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "sentence analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese sentence analyses",
+      "category": "task"
+    },
+    {
+      "entity": "defeasible reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "argumentation system",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "defeasible reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "formalization  of  defeasible reasoning",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "formalization",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "defeasible reasoning|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 5,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5,
+  "f1": 0.5,
+  "category_precision": 0.75,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.7058823529411765,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 8,
+    "exact_matches": 7,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 1,
+    "generic_entities": 1,
+    "correct_predictions": 4,
+    "correct_categories": 6
+  }
+}

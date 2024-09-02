@@ -1,0 +1,342 @@
+{
+  "doc_key": "INTERSPEECH_2000_483_abs",
+  "gold_entities": [
+    {
+      "entity": "out-of-domain acoustic training data",
+      "category": "material"
+    },
+    {
+      "entity": "Wallstreet Journal (WSJ) data",
+      "category": "material"
+    },
+    {
+      "entity": "Phonebook domain",
+      "category": "material"
+    },
+    {
+      "entity": "adaptation data",
+      "category": "material"
+    },
+    {
+      "entity": "Phonebook training corpus",
+      "category": "material"
+    },
+    {
+      "entity": "out-of-domain training data",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognizer",
+      "category": "method"
+    },
+    {
+      "entity": "recognizer",
+      "category": "method"
+    },
+    {
+      "entity": "WSJ-trained recognizer",
+      "category": "method"
+    },
+    {
+      "entity": "Phonebook-trained baseline acoustic model",
+      "category": "method"
+    },
+    {
+      "entity": "adaptation and normalization techniques",
+      "category": "method"
+    },
+    {
+      "entity": "common language us english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "microphone vs telephone channel",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "continuous speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "isolated words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mismatch",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Wallstreet Journal",
+      "category": "task"
+    },
+    {
+      "entity": "Phonebook",
+      "category": "task"
+    },
+    {
+      "entity": "us english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "microphone",
+      "category": "material"
+    },
+    {
+      "entity": "telephone channel",
+      "category": "material"
+    },
+    {
+      "entity": "continuous speech",
+      "category": "material"
+    },
+    {
+      "entity": "isolated words",
+      "category": "material"
+    },
+    {
+      "entity": "mismatch in speaking rate",
+      "category": "metric"
+    },
+    {
+      "entity": "adaptation data",
+      "category": "task"
+    },
+    {
+      "entity": "Phonebook training corpus",
+      "category": "task"
+    },
+    {
+      "entity": "out-of-domain training data",
+      "category": "task"
+    },
+    {
+      "entity": "recognition performance",
+      "category": "metric"
+    },
+    {
+      "entity": "acoustic model",
+      "category": "task"
+    },
+    {
+      "entity": "baseline acoustic model",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "adaptation data",
+      "predicted": "adaptation data",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Phonebook training corpus",
+      "predicted": "Phonebook training corpus",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "out-of-domain training data",
+      "predicted": "out-of-domain training data",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "continuous speech",
+      "predicted": "continuous speech",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "isolated words",
+      "predicted": "isolated words",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "Phonebook domain",
+      "predicted": "Phonebook",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Phonebook-trained baseline acoustic model",
+      "predicted": "baseline acoustic model",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "common language us english",
+      "predicted": "us english",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "microphone vs telephone channel",
+      "predicted": "telephone channel",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "recognition",
+      "predicted": "recognition performance",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "out-of-domain acoustic training data",
+      "category": "material"
+    },
+    {
+      "entity": "Wallstreet Journal (WSJ) data",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognizer",
+      "category": "method"
+    },
+    {
+      "entity": "recognizer",
+      "category": "method"
+    },
+    {
+      "entity": "WSJ-trained recognizer",
+      "category": "method"
+    },
+    {
+      "entity": "adaptation and normalization techniques",
+      "category": "method"
+    },
+    {
+      "entity": "mismatch",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Wallstreet Journal",
+      "category": "task"
+    },
+    {
+      "entity": "microphone",
+      "category": "material"
+    },
+    {
+      "entity": "mismatch in speaking rate",
+      "category": "metric"
+    },
+    {
+      "entity": "acoustic model",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "recognition|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 6,
+    "method": 5,
+    "otherscientificterm": 5,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "task": 7,
+    "otherscientificterm": 1,
+    "material": 4,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 14,
+    "exact_matches": 5,
+    "exact_matches_with_category": 0,
+    "partial_matches": 5,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

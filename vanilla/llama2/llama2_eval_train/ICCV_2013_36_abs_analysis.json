@@ -1,0 +1,198 @@
+{
+  "doc_key": "ICCV_2013_36_abs",
+  "gold_entities": [
+    {
+      "entity": "creation of city models",
+      "category": "task"
+    },
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "task"
+    },
+    {
+      "entity": "semantic components",
+      "category": "method"
+    },
+    {
+      "entity": "tiling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tilings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facade textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facades",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Facade",
+      "category": "task"
+    },
+    {
+      "entity": "Image",
+      "category": "task"
+    },
+    {
+      "entity": "semantic components",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Tiling",
+      "category": "method"
+    },
+    {
+      "entity": "Genetic algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "datasets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "building styles",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "semantic components",
+      "predicted": "semantic components",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "tiling",
+      "predicted": "Tiling",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "facade textures",
+      "predicted": "Facade",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "creation of city models",
+      "category": "task"
+    },
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "task"
+    },
+    {
+      "entity": "tilings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facades",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Image",
+      "category": "task"
+    },
+    {
+      "entity": "Genetic algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "datasets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "building styles",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 1,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 3,
+    "method": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 7,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 4,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,289 @@
+{
+  "doc_key": "P80-1004",
+  "gold_entities": [
+    {
+      "entity": "Interpreting  metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "human understanding of natural language",
+      "category": "task"
+    },
+    {
+      "entity": "analyzing metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "metaphor interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "language learning",
+      "category": "task"
+    },
+    {
+      "entity": "generalized metaphor mappings",
+      "category": "method"
+    },
+    {
+      "entity": "recognition network",
+      "category": "method"
+    },
+    {
+      "entity": "basic mapping",
+      "category": "method"
+    },
+    {
+      "entity": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "entity": "implicit intention component",
+      "category": "method"
+    },
+    {
+      "entity": "generalized metaphor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Interpreting metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "human understanding of natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Method of analyzing metaphors",
+      "category": "method"
+    },
+    {
+      "entity": "Generalized metaphor mappings",
+      "category": "metric"
+    },
+    {
+      "entity": "each generalized metaphor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Recognition network",
+      "category": "method"
+    },
+    {
+      "entity": "Basic mapping",
+      "category": "method"
+    },
+    {
+      "entity": "Additional transfer mappings",
+      "category": "method"
+    },
+    {
+      "entity": "implicit intention component",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Method reduces metaphor interpretation",
+      "category": "method"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "Automating certain aspects of language learning",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Interpreting  metaphors",
+      "predicted": "Interpreting metaphors",
+      "category": "task"
+    },
+    {
+      "gold": "human understanding of natural language",
+      "predicted": "human understanding of natural language",
+      "category": "task"
+    },
+    {
+      "gold": "reconstruction",
+      "predicted": "reconstruction",
+      "category": "task"
+    },
+    {
+      "gold": "recognition task",
+      "predicted": "Recognition task",
+      "category": "task"
+    },
+    {
+      "gold": "generalized metaphor mappings",
+      "predicted": "Generalized metaphor mappings",
+      "category": "method"
+    },
+    {
+      "gold": "recognition network",
+      "predicted": "Recognition network",
+      "category": "method"
+    },
+    {
+      "gold": "basic mapping",
+      "predicted": "Basic mapping",
+      "category": "method"
+    },
+    {
+      "gold": "implicit intention component",
+      "predicted": "implicit intention component",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "analyzing metaphors",
+      "predicted": "Method of analyzing metaphors",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "metaphor interpretation",
+      "predicted": "Method reduces metaphor interpretation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "transfer mappings",
+      "predicted": "Additional transfer mappings",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "generalized metaphor",
+      "predicted": "each generalized metaphor",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "Interpreting  metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "recognition network",
+      "category": "method"
+    },
+    {
+      "entity": "basic mapping",
+      "category": "method"
+    },
+    {
+      "entity": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "entity": "generalized metaphor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "language learning",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Automating certain aspects of language learning",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "method": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 4,
+    "method": 5,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 4,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.6923076923076923,
+  "category_recall": 0.6923076923076923,
+  "category_f1": 0.6923076923076923,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 8,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "category_matches": 6,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 1,
+    "generic_entities": 2,
+    "correct_predictions": 0,
+    "correct_categories": 9
+  }
+}

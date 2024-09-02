@@ -1,0 +1,213 @@
+{
+  "doc_key": "P05-1048",
+  "gold_entities": [
+    {
+      "entity": "word sense disambigation models",
+      "category": "method"
+    },
+    {
+      "entity": "Chinese word sense disambiguation model",
+      "category": "method"
+    },
+    {
+      "entity": "IBM statistical MT system",
+      "category": "method"
+    },
+    {
+      "entity": "word sense disambiguation",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation system",
+      "category": "method"
+    },
+    {
+      "entity": "Error analysis",
+      "category": "method"
+    },
+    {
+      "entity": "statistical MT architectures",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation   quality",
+      "category": "metric"
+    },
+    {
+      "entity": "translation quality",
+      "category": "metric"
+    },
+    {
+      "entity": "translation candidates",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word sense disambiguation models",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "method"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "Chinese word sense disambiguation model",
+      "category": "method"
+    },
+    {
+      "entity": "translation candidates",
+      "category": "material"
+    },
+    {
+      "entity": "IBM statistical MT system",
+      "category": "material"
+    },
+    {
+      "entity": "error analysis",
+      "category": "method"
+    },
+    {
+      "entity": "current statistical MT architectures",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "IBM statistical MT system",
+      "predicted": "IBM statistical MT system",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "translation candidates",
+      "predicted": "translation candidates",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Chinese word sense disambiguation model",
+      "predicted": "Chinese word sense disambiguation model",
+      "category": "method"
+    },
+    {
+      "gold": "Error analysis",
+      "predicted": "error analysis",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word sense disambigation models",
+      "predicted": "word sense disambiguation models",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "statistical machine translation system",
+      "predicted": "statistical machine translation",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "statistical MT architectures",
+      "predicted": "current statistical MT architectures",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "translation quality",
+      "predicted": "quality",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "word sense disambiguation",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation   quality",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "metric": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "metric": 1,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.2,
+  "f1": 0.22222222222222224,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 0,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

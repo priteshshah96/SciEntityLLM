@@ -1,0 +1,261 @@
+{
+  "doc_key": "J86-4002",
+  "gold_entities": [
+    {
+      "entity": "human-machine interactions",
+      "category": "task"
+    },
+    {
+      "entity": "miscommunication",
+      "category": "task"
+    },
+    {
+      "entity": "miscommunications",
+      "category": "task"
+    },
+    {
+      "entity": "miscommunication",
+      "category": "task"
+    },
+    {
+      "entity": "reference problems",
+      "category": "task"
+    },
+    {
+      "entity": "failures of reference",
+      "category": "task"
+    },
+    {
+      "entity": "extensional reference",
+      "category": "task"
+    },
+    {
+      "entity": "natural language environment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reference failures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speakers intention",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language environment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "beliefs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "perceptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "backgrounds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "goals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Reference failures",
+      "category": "task"
+    },
+    {
+      "entity": "Misunderstandings",
+      "category": "task"
+    },
+    {
+      "entity": "Communication",
+      "category": "task"
+    },
+    {
+      "entity": "Miscommunication",
+      "category": "task"
+    },
+    {
+      "entity": "Reference problems",
+      "category": "task"
+    },
+    {
+      "entity": "Utterance",
+      "category": "task"
+    },
+    {
+      "entity": "Conversational vehicle",
+      "category": "task"
+    },
+    {
+      "entity": "Extensional reference",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "extensional reference",
+      "predicted": "Extensional reference",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "reference failures",
+      "predicted": "Reference failures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "miscommunication",
+      "predicted": "Miscommunication",
+      "category": "task"
+    },
+    {
+      "gold": "reference problems",
+      "predicted": "Reference problems",
+      "category": "task"
+    },
+    {
+      "gold": "natural language environment",
+      "predicted": "natural language environment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "human-machine interactions",
+      "category": "task"
+    },
+    {
+      "entity": "miscommunication",
+      "category": "task"
+    },
+    {
+      "entity": "miscommunications",
+      "category": "task"
+    },
+    {
+      "entity": "failures of reference",
+      "category": "task"
+    },
+    {
+      "entity": "speakers intention",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "beliefs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "perceptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "backgrounds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "goals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Misunderstandings",
+      "category": "task"
+    },
+    {
+      "entity": "Communication",
+      "category": "task"
+    },
+    {
+      "entity": "Utterance",
+      "category": "task"
+    },
+    {
+      "entity": "Conversational vehicle",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "miscommunication|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "task": 7,
+    "method": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.3,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 9,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

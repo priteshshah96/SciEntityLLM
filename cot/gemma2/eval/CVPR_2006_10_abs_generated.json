@@ -1,0 +1,263 @@
+{
+  "gold_entities": [
+    {
+      "entity": "real data sets",
+      "category": "Material"
+    },
+    {
+      "entity": "support vector machines",
+      "category": "Method"
+    },
+    {
+      "entity": "svms",
+      "category": "Method"
+    },
+    {
+      "entity": "detectors",
+      "category": "Method"
+    },
+    {
+      "entity": "detector",
+      "category": "Method"
+    },
+    {
+      "entity": "linear and kernel svm",
+      "category": "Method"
+    },
+    {
+      "entity": "object detection",
+      "category": "Task"
+    },
+    {
+      "entity": "prior on the distribution of natural images",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "overfitting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "prior on natural images",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hyperplane",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "object detection",
+      "category": "Task"
+    },
+    {
+      "entity": "training examples",
+      "category": "Material"
+    },
+    {
+      "entity": "support vector machines (svms)",
+      "category": "Method"
+    },
+    {
+      "entity": "overfitting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "separating hyperplane",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "wide margin",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "positive half space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural images",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "background",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "real data sets",
+      "category": "Material"
+    },
+    {
+      "entity": "linear svm",
+      "category": "Method"
+    },
+    {
+      "entity": "kernel svm",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "object detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "object detection",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "overfitting",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "overfitting",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "real data sets",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "real data sets",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "object detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "object detection",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "overfitting",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "overfitting",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "real data sets",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "real data sets",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "linear and kernel svm",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "linear svm",
+          "category": "Method"
+        },
+        {
+          "entity": "kernel svm",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "support vector machines",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "support vector machines (svms)",
+        "category": "Method"
+      },
+      "overlap": 0.75
+    },
+    {
+      "gold": {
+        "entity": "prior on the distribution of natural images",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural images",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "svms",
+      "category": "Method"
+    },
+    {
+      "entity": "detectors",
+      "category": "Method"
+    },
+    {
+      "entity": "detector",
+      "category": "Method"
+    },
+    {
+      "entity": "prior on natural images",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hyperplane",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "training examples",
+      "category": "Material"
+    },
+    {
+      "entity": "separating hyperplane",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "wide margin",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "positive half space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "background",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 12,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

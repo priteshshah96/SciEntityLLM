@@ -1,0 +1,308 @@
+{
+  "doc_key": "I05-6010",
+  "gold_entities": [
+    {
+      "entity": "quantifying noun groups  in  German",
+      "category": "task"
+    },
+    {
+      "entity": "theoretical linguistic investigations",
+      "category": "task"
+    },
+    {
+      "entity": "German",
+      "category": "material"
+    },
+    {
+      "entity": "treebank",
+      "category": "material"
+    },
+    {
+      "entity": "tree-bank",
+      "category": "material"
+    },
+    {
+      "entity": "tree-bank",
+      "category": "material"
+    },
+    {
+      "entity": "treebank",
+      "category": "material"
+    },
+    {
+      "entity": "treebank",
+      "category": "material"
+    },
+    {
+      "entity": "German text corpora",
+      "category": "material"
+    },
+    {
+      "entity": "grammar sensu stricto",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "finegrained annotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stochastic parsers",
+      "category": "method"
+    },
+    {
+      "entity": "grammars",
+      "category": "method"
+    },
+    {
+      "entity": "SILVA",
+      "category": "method"
+    },
+    {
+      "entity": "parsing  and  extraction tool",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "quantifying noun groups",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus-based investigations",
+      "category": "method"
+    },
+    {
+      "entity": "grammar sensu stricto",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Annotation",
+      "category": "task"
+    },
+    {
+      "entity": "Treebank",
+      "category": "material"
+    },
+    {
+      "entity": "Stochastic parsers",
+      "category": "method"
+    },
+    {
+      "entity": "Grammars",
+      "category": "material"
+    },
+    {
+      "entity": "source of data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus research",
+      "category": "method"
+    },
+    {
+      "entity": "SILVA",
+      "category": "material"
+    },
+    {
+      "entity": "Parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Extraction tool",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "grammars",
+      "predicted": "Grammars",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "SILVA",
+      "predicted": "SILVA",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "treebank",
+      "predicted": "Treebank",
+      "category": "material"
+    },
+    {
+      "gold": "grammar sensu stricto",
+      "predicted": "grammar sensu stricto",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "stochastic parsers",
+      "predicted": "Stochastic parsers",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "quantifying noun groups  in  German",
+      "predicted": "quantifying noun groups",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "finegrained annotation",
+      "predicted": "Annotation",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "parsing  and  extraction tool",
+      "gold_category": "method",
+      "matched_parts": [
+        {
+          "part": "parsing",
+          "matched": "Parsing",
+          "predicted_category": "method"
+        },
+        {
+          "part": "extraction tool",
+          "matched": "Extraction tool",
+          "predicted_category": "material"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "theoretical linguistic investigations",
+      "category": "task"
+    },
+    {
+      "entity": "German",
+      "category": "material"
+    },
+    {
+      "entity": "treebank",
+      "category": "material"
+    },
+    {
+      "entity": "treebank",
+      "category": "material"
+    },
+    {
+      "entity": "tree-bank",
+      "category": "material"
+    },
+    {
+      "entity": "tree-bank",
+      "category": "material"
+    },
+    {
+      "entity": "German text corpora",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Corpus-based investigations",
+      "category": "method"
+    },
+    {
+      "entity": "source of data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus research",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "treebank|material": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "tree-bank|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 7,
+    "otherscientificterm": 2,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "method": 4,
+    "task": 1,
+    "material": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.2,
+  "f1": 0.22222222222222224,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

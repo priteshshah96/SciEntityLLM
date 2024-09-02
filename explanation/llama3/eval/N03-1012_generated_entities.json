@@ -1,0 +1,260 @@
+{
+  "gold_entities": [
+    {
+      "entity": "german corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "ontoscore",
+      "category": "Method"
+    },
+    {
+      "entity": "ontology",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "speech recognition hypotheses (srh)",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantic coherence",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "speech recognition hypotheses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "srhs",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "ontoscore",
+      "category": "Task"
+    },
+    {
+      "entity": "concepts",
+      "category": "Task"
+    },
+    {
+      "entity": "ontology",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scoring",
+      "category": "Task"
+    },
+    {
+      "entity": "alternative speech recognition hypotheses (srh)",
+      "category": "Material"
+    },
+    {
+      "entity": "semantic coherence",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "annotation experiment",
+      "category": "Method"
+    },
+    {
+      "entity": "human annotators",
+      "category": "Material"
+    },
+    {
+      "entity": "speech recognition hypotheses",
+      "category": "Material"
+    },
+    {
+      "entity": "annotated data",
+      "category": "Material"
+    },
+    {
+      "entity": "german corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "srhs",
+      "category": "Material"
+    },
+    {
+      "entity": "baseline",
+      "category": "Metric"
+    },
+    {
+      "entity": "ontoscore",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ontoscore",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ontoscore",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ontology",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ontology",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "semantic coherence",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic coherence",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "speech recognition hypotheses",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "speech recognition hypotheses",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "german corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "german corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "srhs",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "srhs",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "ontology",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ontology",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "semantic coherence",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic coherence",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "german corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "german corpus",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "speech recognition hypotheses (srh)",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "alternative speech recognition hypotheses (srh)",
+        "category": "Material"
+      },
+      "overlap": 0.8
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "concepts",
+      "category": "Task"
+    },
+    {
+      "entity": "scoring",
+      "category": "Task"
+    },
+    {
+      "entity": "annotation experiment",
+      "category": "Method"
+    },
+    {
+      "entity": "human annotators",
+      "category": "Material"
+    },
+    {
+      "entity": "annotated data",
+      "category": "Material"
+    },
+    {
+      "entity": "baseline",
+      "category": "Metric"
+    },
+    {
+      "entity": "ontoscore",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 14,
+    "generic_count": 4,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

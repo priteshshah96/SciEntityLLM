@@ -1,0 +1,323 @@
+{
+  "doc_key": "INTERSPEECH_2008_21_abs",
+  "gold_entities": [
+    {
+      "entity": "Czech talking head system",
+      "category": "task"
+    },
+    {
+      "entity": "visual speech animation",
+      "category": "task"
+    },
+    {
+      "entity": "animation of visual speech",
+      "category": "task"
+    },
+    {
+      "entity": "lipreading",
+      "category": "task"
+    },
+    {
+      "entity": "forming articulatory trajectories",
+      "category": "task"
+    },
+    {
+      "entity": "synthesis method",
+      "category": "method"
+    },
+    {
+      "entity": "3D animation model",
+      "category": "method"
+    },
+    {
+      "entity": "pseudo-muscular animation schema",
+      "category": "method"
+    },
+    {
+      "entity": "animation schema",
+      "category": "method"
+    },
+    {
+      "entity": "synthesis method",
+      "category": "method"
+    },
+    {
+      "entity": "interpolation technique",
+      "category": "method"
+    },
+    {
+      "entity": "labial coarticulation effects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "selection of articulatory targets",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Parameterization",
+      "category": "method"
+    },
+    {
+      "entity": "Visual speech animation",
+      "category": "task"
+    },
+    {
+      "entity": "3D animation model",
+      "category": "material"
+    },
+    {
+      "entity": "Pseudo-muscular animation schema",
+      "category": "method"
+    },
+    {
+      "entity": "Synthesis method",
+      "category": "method"
+    },
+    {
+      "entity": "Lipreading",
+      "category": "task"
+    },
+    {
+      "entity": "Extension",
+      "category": "method"
+    },
+    {
+      "entity": "Articulatory trajectories",
+      "category": "metric"
+    },
+    {
+      "entity": "Labial coarticulation effects",
+      "category": "metric"
+    },
+    {
+      "entity": "Interpolation technique",
+      "category": "method"
+    },
+    {
+      "entity": "Articulatory targets",
+      "category": "material"
+    },
+    {
+      "entity": "Synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "Human face",
+      "category": "material"
+    },
+    {
+      "entity": "Tongue",
+      "category": "material"
+    },
+    {
+      "entity": "czech talking head system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Data sources",
+      "category": "material"
+    },
+    {
+      "entity": "Animation schema",
+      "category": "method"
+    },
+    {
+      "entity": "Deformations",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Czech talking head system",
+      "predicted": "czech talking head system",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "3D animation model",
+      "predicted": "3D animation model",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "labial coarticulation effects",
+      "predicted": "Labial coarticulation effects",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "visual speech animation",
+      "predicted": "Visual speech animation",
+      "category": "task"
+    },
+    {
+      "gold": "lipreading",
+      "predicted": "Lipreading",
+      "category": "task"
+    },
+    {
+      "gold": "synthesis method",
+      "predicted": "Synthesis method",
+      "category": "method"
+    },
+    {
+      "gold": "pseudo-muscular animation schema",
+      "predicted": "Pseudo-muscular animation schema",
+      "category": "method"
+    },
+    {
+      "gold": "animation schema",
+      "predicted": "Animation schema",
+      "category": "method"
+    },
+    {
+      "gold": "interpolation technique",
+      "predicted": "Interpolation technique",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "forming articulatory trajectories",
+      "predicted": "Articulatory trajectories",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "synthesis method",
+      "predicted": "Synthesis",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "selection of articulatory targets",
+      "predicted": "Articulatory targets",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "animation of visual speech",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Parameterization",
+      "category": "method"
+    },
+    {
+      "entity": "Extension",
+      "category": "method"
+    },
+    {
+      "entity": "Human face",
+      "category": "material"
+    },
+    {
+      "entity": "Tongue",
+      "category": "material"
+    },
+    {
+      "entity": "Data sources",
+      "category": "material"
+    },
+    {
+      "entity": "Deformations",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "synthesis method|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 6,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 6,
+    "task": 3,
+    "material": 5,
+    "metric": 3,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.46153846153846156,
+  "f1": 0.3870967741935484,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 18,
+    "exact_matches": 3,
+    "exact_matches_with_category": 6,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

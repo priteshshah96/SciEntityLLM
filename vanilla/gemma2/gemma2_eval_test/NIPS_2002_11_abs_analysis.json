@@ -1,0 +1,230 @@
+{
+  "doc_key": "NIPS_2002_11_abs",
+  "gold_entities": [
+    {
+      "entity": "clustering",
+      "category": "task"
+    },
+    {
+      "entity": "reasoning",
+      "category": "task"
+    },
+    {
+      "entity": "unified framework",
+      "category": "method"
+    },
+    {
+      "entity": "unification",
+      "category": "method"
+    },
+    {
+      "entity": "impossibility theorem",
+      "category": "method"
+    },
+    {
+      "entity": "well-studied clustering techniques",
+      "category": "method"
+    },
+    {
+      "entity": "single-linkage",
+      "category": "method"
+    },
+    {
+      "entity": "sum-of-pairs",
+      "category": "method"
+    },
+    {
+      "entity": "k-means",
+      "category": "method"
+    },
+    {
+      "entity": "k-median",
+      "category": "method"
+    },
+    {
+      "entity": "clustering function",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Clustering",
+      "category": "task"
+    },
+    {
+      "entity": "Framework",
+      "category": "method"
+    },
+    {
+      "entity": "Reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "Unification",
+      "category": "task"
+    },
+    {
+      "entity": "impossibility theorem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tradeoffs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Single-linkage",
+      "category": "method"
+    },
+    {
+      "entity": "Sum-of-pairs",
+      "category": "method"
+    },
+    {
+      "entity": "K-means",
+      "category": "method"
+    },
+    {
+      "entity": "K-median",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "reasoning",
+      "predicted": "Reasoning",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unification",
+      "predicted": "Unification",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "impossibility theorem",
+      "predicted": "impossibility theorem",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "clustering",
+      "predicted": "Clustering",
+      "category": "task"
+    },
+    {
+      "gold": "single-linkage",
+      "predicted": "Single-linkage",
+      "category": "method"
+    },
+    {
+      "gold": "sum-of-pairs",
+      "predicted": "Sum-of-pairs",
+      "category": "method"
+    },
+    {
+      "gold": "k-means",
+      "predicted": "K-means",
+      "category": "method"
+    },
+    {
+      "gold": "k-median",
+      "predicted": "K-median",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "unified framework",
+      "predicted": "Framework",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "well-studied clustering techniques",
+      "category": "method"
+    },
+    {
+      "entity": "clustering function",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tradeoffs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 8,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 6,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 6,
+      "exact_matches": 2,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.45454545454545453,
+  "recall": 0.45454545454545453,
+  "f1": 0.45454545454545453,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

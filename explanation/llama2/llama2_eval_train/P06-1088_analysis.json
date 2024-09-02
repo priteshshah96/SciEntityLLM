@@ -1,0 +1,355 @@
+{
+  "doc_key": "P06-1088",
+  "gold_entities": [
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "tagging accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "pos tagging accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "newspaper text",
+      "category": "material"
+    },
+    {
+      "entity": "part of speech (pos) tagging",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "ccg parsing",
+      "category": "task"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "multi-tagging approach",
+      "category": "method"
+    },
+    {
+      "entity": "multi-tagging approach",
+      "category": "method"
+    },
+    {
+      "entity": "language processing pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "ccg supertagging",
+      "category": "method"
+    },
+    {
+      "entity": "pos tag ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "finegrained grammatical categories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ccg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "premature ambiguity resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical category ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pos level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pos tags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pos tag ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "part of speech (pos) tagging",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pos tagging",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ccg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tagging accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "pos level",
+      "category": "material"
+    },
+    {
+      "entity": "pos tags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ccg supertagging",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "errors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "part of speech (pos) tagging",
+      "predicted": "part of speech (pos) tagging",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "parser",
+      "predicted": "parser",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "ccg supertagging",
+      "predicted": "ccg supertagging",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "pos level",
+      "predicted": "pos level",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "tagging accuracy",
+      "predicted": "tagging accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "grammar formalisms",
+      "predicted": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "gold": "tag",
+      "predicted": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "ccg",
+      "predicted": "ccg",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "pos tags",
+      "predicted": "pos tags",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "pos tagging accuracy",
+      "predicted": "pos tagging",
+      "score": 0.6666666666666666,
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "newspaper text",
+      "category": "material"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "ccg parsing",
+      "category": "task"
+    },
+    {
+      "entity": "multi-tagging approach",
+      "category": "method"
+    },
+    {
+      "entity": "multi-tagging approach",
+      "category": "method"
+    },
+    {
+      "entity": "language processing pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "pos tag ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pos tag ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "finegrained grammatical categories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "premature ambiguity resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical category ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "errors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "multi-tagging approach|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "pos tag ambiguity|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "metric": 3,
+    "material": 1,
+    "task": 3,
+    "method": 6,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "metric": 2,
+    "method": 2,
+    "otherscientificterm": 7,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.2727272727272727,
+  "f1": 0.3529411764705882,
+  "counts": {
+    "gold_entities": 22,
+    "predicted_entities": 12,
+    "exact_matches": 4,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

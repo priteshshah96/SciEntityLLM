@@ -1,0 +1,208 @@
+{
+  "doc_key": "C88-2130",
+  "gold_entities": [
+    {
+      "entity": "discourse task",
+      "category": "task"
+    },
+    {
+      "entity": "APT",
+      "category": "method"
+    },
+    {
+      "entity": "organizational and discourse strategies",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "process of describing the layout",
+      "category": "task"
+    },
+    {
+      "entity": "apartment or house",
+      "category": "material"
+    },
+    {
+      "entity": "discourse task",
+      "category": "task"
+    },
+    {
+      "entity": "linde 1974",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "method"
+    },
+    {
+      "entity": "program APT",
+      "category": "method"
+    },
+    {
+      "entity": "segments",
+      "category": "metric"
+    },
+    {
+      "entity": "tape-recorded descriptions",
+      "category": "material"
+    },
+    {
+      "entity": "organizational and discourse strategies",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discourse task",
+      "predicted": "discourse task",
+      "category": "task"
+    },
+    {
+      "gold": "organizational and discourse strategies",
+      "predicted": "organizational and discourse strategies",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "APT",
+      "predicted": "program APT",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "discourse task",
+      "category": "task"
+    },
+    {
+      "entity": "organizational and discourse strategies",
+      "category": "method"
+    },
+    {
+      "entity": "APT",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "process of describing the layout",
+      "category": "task"
+    },
+    {
+      "entity": "apartment or house",
+      "category": "material"
+    },
+    {
+      "entity": "linde 1974",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "method"
+    },
+    {
+      "entity": "segments",
+      "category": "metric"
+    },
+    {
+      "entity": "tape-recorded descriptions",
+      "category": "material"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "task": 2,
+    "material": 3,
+    "otherscientificterm": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.6666666666666666,
+  "f1": 0.28571428571428575,
+  "category_precision": 0.2727272727272727,
+  "category_recall": 1.0,
+  "category_f1": 0.42857142857142855,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 8,
+    "generic_entities": 3,
+    "correct_predictions": 2,
+    "correct_categories": 3
+  }
+}

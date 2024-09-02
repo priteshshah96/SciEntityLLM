@@ -1,0 +1,278 @@
+{
+  "doc_key": "P03-1031",
+  "gold_entities": [
+    {
+      "entity": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "entity": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "entity": "spoken dialogue systems",
+      "category": "method"
+    },
+    {
+      "entity": "user utterances",
+      "category": "material"
+    },
+    {
+      "entity": "user utterance",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue corpora",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguity of speech understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse understanding accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "entity": "spoken dialogue systems",
+      "category": "method"
+    },
+    {
+      "entity": "user utterances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context of a dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguity of speech understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "candidates for understanding results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue corpora",
+      "category": "material"
+    },
+    {
+      "entity": "statistical information",
+      "category": "material"
+    },
+    {
+      "entity": "hand-crafted rules",
+      "category": "method"
+    },
+    {
+      "entity": "proposed method",
+      "category": "method"
+    },
+    {
+      "entity": "system",
+      "category": "method"
+    },
+    {
+      "entity": "experiment results",
+      "category": "material"
+    },
+    {
+      "entity": "effectiveness",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "user utterances",
+      "predicted": "user utterances",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "statistical information",
+      "predicted": "statistical information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "discourse understanding process",
+      "predicted": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "gold": "spoken dialogue systems",
+      "predicted": "spoken dialogue systems",
+      "category": "method"
+    },
+    {
+      "gold": "dialogue corpora",
+      "predicted": "dialogue corpora",
+      "category": "material"
+    },
+    {
+      "gold": "ambiguity of speech understanding",
+      "predicted": "ambiguity of speech understanding",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "entity": "user utterance",
+      "category": "material"
+    },
+    {
+      "entity": "user utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse understanding accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "context of a dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "candidates for understanding results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hand-crafted rules",
+      "category": "method"
+    },
+    {
+      "entity": "proposed method",
+      "category": "method"
+    },
+    {
+      "entity": "system",
+      "category": "method"
+    },
+    {
+      "entity": "experiment results",
+      "category": "material"
+    },
+    {
+      "entity": "effectiveness",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "discourse understanding process|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 1,
+    "material": 3,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 5,
+    "otherscientificterm": 4,
+    "material": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.36363636363636365,
+  "f1": 0.33333333333333337,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 7,
+    "generic_entities": 8
+  },
+  "empty_category_entities": []
+}

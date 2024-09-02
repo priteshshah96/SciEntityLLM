@@ -1,0 +1,270 @@
+{
+  "gold_entities": [
+    {
+      "entity": "limited-memory stochastic block bfgs update",
+      "category": "Method"
+    },
+    {
+      "entity": "sketching strategies",
+      "category": "Method"
+    },
+    {
+      "entity": "quasi-newton method",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic block bfgs updates",
+      "category": "Method"
+    },
+    {
+      "entity": "variance reduction approach svrg",
+      "category": "Method"
+    },
+    {
+      "entity": "incorporating enriched curvature information in stochastic approximation methods",
+      "category": "Task"
+    },
+    {
+      "entity": "large-scale logistic regression problems",
+      "category": "Task"
+    },
+    {
+      "entity": "inverse hessian matrix",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hessian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "randomly generated compressed form of the hessian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "batch stochastic gradients",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "stochastic approximation methods",
+      "category": "Task"
+    },
+    {
+      "entity": "limited-memory stochastic block bfgs update",
+      "category": "Method"
+    },
+    {
+      "entity": "enriched curvature information",
+      "category": "Method"
+    },
+    {
+      "entity": "hessian matrix",
+      "category": "Method"
+    },
+    {
+      "entity": "sketch of the hessian",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic block bfgs updates",
+      "category": "Method"
+    },
+    {
+      "entity": "svrg",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "batch stochastic gradients",
+      "category": "Method"
+    },
+    {
+      "entity": "logistic regression problems",
+      "category": "Material"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "limited-memory stochastic block bfgs update",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "limited-memory stochastic block bfgs update",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "stochastic block bfgs updates",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "stochastic block bfgs updates",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "batch stochastic gradients",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "batch stochastic gradients",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "limited-memory stochastic block bfgs update",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "limited-memory stochastic block bfgs update",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "stochastic block bfgs updates",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "stochastic block bfgs updates",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "incorporating enriched curvature information in stochastic approximation methods",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "stochastic approximation methods",
+          "category": "Task"
+        },
+        {
+          "entity": "enriched curvature information",
+          "category": "Method"
+        },
+        {
+          "entity": "state-of-the-art methods",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.5
+    },
+    {
+      "gold": {
+        "entity": "inverse hessian matrix",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "hessian matrix",
+          "category": "Method"
+        },
+        {
+          "entity": "sketch of the hessian",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "variance reduction approach svrg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "svrg",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "large-scale logistic regression problems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "logistic regression problems",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "sketching strategies",
+      "category": "Method"
+    },
+    {
+      "entity": "quasi-newton method",
+      "category": "Method"
+    },
+    {
+      "entity": "hessian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "randomly generated compressed form of the hessian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 10,
+    "generic_count": 5,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

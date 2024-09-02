@@ -1,0 +1,344 @@
+{
+  "gold_entities": [
+    {
+      "entity": "interest point detectors",
+      "category": "Method"
+    },
+    {
+      "entity": "histogram-based representations",
+      "category": "Method"
+    },
+    {
+      "entity": "histogram-based interest point detectors",
+      "category": "Method"
+    },
+    {
+      "entity": "pixel-wise differences in image intensity",
+      "category": "Metric"
+    },
+    {
+      "entity": "repeatability",
+      "category": "Metric"
+    },
+    {
+      "entity": "distinctiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "detecting interest points",
+      "category": "Task"
+    },
+    {
+      "entity": "matching textured scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "space-time interest point detection",
+      "category": "Task"
+    },
+    {
+      "entity": "action classification",
+      "category": "Task"
+    },
+    {
+      "entity": "histogram information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "large-scale structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "distinctive textured patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rotation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "illumination variation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "blur",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "blur and illumination changes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "histogram-based representations",
+      "category": "Method"
+    },
+    {
+      "entity": "interest points",
+      "category": "Task"
+    },
+    {
+      "entity": "pixel-wise differences",
+      "category": "Method"
+    },
+    {
+      "entity": "image regions",
+      "category": "Task"
+    },
+    {
+      "entity": "large-scale structures",
+      "category": "Task"
+    },
+    {
+      "entity": "distinctive textured patterns",
+      "category": "Task"
+    },
+    {
+      "entity": "invariance",
+      "category": "Method"
+    },
+    {
+      "entity": "rotation",
+      "category": "Task"
+    },
+    {
+      "entity": "illumination variation",
+      "category": "Task"
+    },
+    {
+      "entity": "blur",
+      "category": "Task"
+    },
+    {
+      "entity": "matching textured scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "action classification",
+      "category": "Task"
+    },
+    {
+      "entity": "space-time interest points",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "detectors",
+      "category": "Generic"
+    },
+    {
+      "entity": "detectors",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "histogram-based representations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "histogram-based representations",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "large-scale structures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "large-scale structures",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "distinctive textured patterns",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "distinctive textured patterns",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rotation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "rotation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "illumination variation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "illumination variation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "blur",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "blur",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "matching textured scenes",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "matching textured scenes",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "action classification",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "histogram-based representations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "histogram-based representations",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "matching textured scenes",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "matching textured scenes",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "action classification",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "interest point detectors",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "interest points",
+          "category": "Task"
+        },
+        {
+          "entity": "space-time interest points",
+          "category": "Task"
+        }
+      ],
+      "coverage": 0.8333333333333333
+    },
+    {
+      "gold": {
+        "entity": "pixel-wise differences in image intensity",
+        "category": "Metric"
+      },
+      "predicted": [
+        {
+          "entity": "pixel-wise differences",
+          "category": "Method"
+        },
+        {
+          "entity": "image regions",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "histogram-based interest point detectors",
+      "category": "Method"
+    },
+    {
+      "entity": "repeatability",
+      "category": "Metric"
+    },
+    {
+      "entity": "distinctiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "detecting interest points",
+      "category": "Task"
+    },
+    {
+      "entity": "space-time interest point detection",
+      "category": "Task"
+    },
+    {
+      "entity": "histogram information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "blur and illumination changes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "invariance",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 17,
+    "generated_count": 13,
+    "generic_count": 4,
+    "exact_matches": 8,
+    "exact_category_matches": 3,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "gold_entities": [
+    {
+      "entity": "scanning method",
+      "category": "Method"
+    },
+    {
+      "entity": "mi-cro phase shifting",
+      "category": "Method"
+    },
+    {
+      "entity": "modulated phase shifting",
+      "category": "Method"
+    },
+    {
+      "entity": "subpixel accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "subpixel precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "active reconstruction systems",
+      "category": "Task"
+    },
+    {
+      "entity": "dense sub-pixel camera-projector correspondence",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "photometric calibration",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relative geometry",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "zero-crossings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "unstructured patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "gray-level band-pass white noise patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "indirect lighting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scene discontinuities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scene geometry",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "scanning method",
+      "category": "Task"
+    },
+    {
+      "entity": "camera-projector correspondence",
+      "category": "Task"
+    },
+    {
+      "entity": "photometric calibration",
+      "category": "Method"
+    },
+    {
+      "entity": "relative geometry",
+      "category": "Task"
+    },
+    {
+      "entity": "sub-pixel accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "zero-crossings",
+      "category": "Method"
+    },
+    {
+      "entity": "unstructured patterns",
+      "category": "Method"
+    },
+    {
+      "entity": "gray-level band-pass white noise patterns",
+      "category": "Material"
+    },
+    {
+      "entity": "robustness to indirect lighting",
+      "category": "Method"
+    },
+    {
+      "entity": "scene discontinuities",
+      "category": "Method"
+    },
+    {
+      "entity": "active reconstruction systems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "state of the art methods",
+      "category": "Method"
+    },
+    {
+      "entity": "micro phase shifting",
+      "category": "Method"
+    },
+    {
+      "entity": "modulated phase shifting",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "state of the art methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "scanning method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "scanning method",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "photometric calibration",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "photometric calibration",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relative geometry",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "relative geometry",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "zero-crossings",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "zero-crossings",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "unstructured patterns",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "unstructured patterns",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "gray-level band-pass white noise patterns",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "gray-level band-pass white noise patterns",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scene discontinuities",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "scene discontinuities",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "active reconstruction systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "active reconstruction systems",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "modulated phase shifting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "modulated phase shifting",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "modulated phase shifting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "modulated phase shifting",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "dense sub-pixel camera-projector correspondence",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "camera-projector correspondence",
+          "category": "Task"
+        },
+        {
+          "entity": "sub-pixel accuracy",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "mi-cro phase shifting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "micro phase shifting",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "subpixel accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "subpixel precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "indirect lighting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scene geometry",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "robustness to indirect lighting",
+      "category": "Method"
+    },
+    {
+      "entity": "state of the art methods",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 16,
+    "generated_count": 14,
+    "generic_count": 3,
+    "exact_matches": 9,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

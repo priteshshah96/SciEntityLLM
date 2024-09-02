@@ -1,0 +1,229 @@
+{
+  "doc_key": "I05-4008",
+  "gold_entities": [
+    {
+      "entity": "Taiwan Child Language Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Child Language Data Exchange System (CHILDES)",
+      "category": "material"
+    },
+    {
+      "entity": "data collection",
+      "category": "task"
+    },
+    {
+      "entity": "transcription",
+      "category": "task"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "part-of-speech annotation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Taiwan Child Language Corpus",
+      "category": "task"
+    },
+    {
+      "entity": "scripts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recordings",
+      "category": "task"
+    },
+    {
+      "entity": "fourteen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "southern min chinese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "CHILDES",
+      "category": "method"
+    },
+    {
+      "entity": "1.6 million",
+      "category": "metric"
+    },
+    {
+      "entity": "words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data collection",
+      "category": "task"
+    },
+    {
+      "entity": "transcription",
+      "category": "task"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "part-of-speech annotation",
+      "category": "task"
+    },
+    {
+      "entity": "applications",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Taiwan Child Language Corpus",
+      "predicted": "Taiwan Child Language Corpus",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "data collection",
+      "predicted": "data collection",
+      "category": "task"
+    },
+    {
+      "gold": "transcription",
+      "predicted": "transcription",
+      "category": "task"
+    },
+    {
+      "gold": "word segmentation",
+      "predicted": "word segmentation",
+      "category": "task"
+    },
+    {
+      "gold": "part-of-speech annotation",
+      "predicted": "part-of-speech annotation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Child Language Data Exchange System (CHILDES)",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "scripts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recordings",
+      "category": "task"
+    },
+    {
+      "entity": "fourteen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "southern min chinese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "CHILDES",
+      "category": "method"
+    },
+    {
+      "entity": "1.6 million",
+      "category": "metric"
+    },
+    {
+      "entity": "words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "applications",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "task": 4
+  },
+  "predicted_category_counts": {
+    "task": 6,
+    "otherscientificterm": 5,
+    "method": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.6666666666666666,
+  "f1": 0.42105263157894735,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 13,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 8,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

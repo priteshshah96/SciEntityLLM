@@ -1,0 +1,219 @@
+{
+  "gold_entities": [
+    {
+      "entity": "baseline seg-mentation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "convex optimization problem",
+      "category": "Task"
+    },
+    {
+      "entity": "segmenting sequential data",
+      "category": "Task"
+    },
+    {
+      "entity": "real-world tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "speech segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "outliers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "outliers",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "segmenting sequential data",
+      "category": "Task"
+    },
+    {
+      "entity": "convex optimization problem",
+      "category": "Method"
+    },
+    {
+      "entity": "outliers",
+      "category": "Task"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "top-down novel approach",
+      "category": "Method"
+    },
+    {
+      "entity": "consistency results",
+      "category": "Metric"
+    },
+    {
+      "entity": "real-world tasks",
+      "category": "Material"
+    },
+    {
+      "entity": "speech segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "baseline segmentation algorithms",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "algorithms",
+      "category": "Generic"
+    },
+    {
+      "entity": "problem",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "segmenting sequential data",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "segmenting sequential data",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "convex optimization problem",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "convex optimization problem",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "outliers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "outliers",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "real-world tasks",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "real-world tasks",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "speech segmentation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "speech segmentation",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "segmenting sequential data",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "segmenting sequential data",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "speech segmentation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "speech segmentation",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "baseline seg-mentation algorithms",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "algorithms",
+          "category": "Method"
+        },
+        {
+          "entity": "baseline segmentation algorithms",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.6666666666666665
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "outliers",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "top-down novel approach",
+      "category": "Method"
+    },
+    {
+      "entity": "consistency results",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "outliers": 2
+  },
+  "distinct_repeated_entities": [
+    "outliers"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 9,
+    "generic_count": 3,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

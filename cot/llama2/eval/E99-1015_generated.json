@@ -1,0 +1,196 @@
+{
+  "gold_entities": [
+    {
+      "entity": "training resources",
+      "category": "Material"
+    },
+    {
+      "entity": "scientific articles",
+      "category": "Material"
+    },
+    {
+      "entity": "annotation scheme",
+      "category": "Method"
+    },
+    {
+      "entity": "rhetorical moves of argumentation",
+      "category": "Method"
+    },
+    {
+      "entity": "automatic abstracting systems",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "building robust automatic abstracting systems",
+      "category": "Task"
+    },
+    {
+      "entity": "training resources",
+      "category": "Material"
+    },
+    {
+      "entity": "annotation scheme",
+      "category": "Method"
+    },
+    {
+      "entity": "scientific articles",
+      "category": "Material"
+    },
+    {
+      "entity": "rhetorical moves of argumentation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "categories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "stability",
+      "category": "Metric"
+    },
+    {
+      "entity": "reproducibility",
+      "category": "Metric"
+    },
+    {
+      "entity": "intuitiveness",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "resource",
+      "category": "Generic"
+    },
+    {
+      "entity": "scheme",
+      "category": "Generic"
+    },
+    {
+      "entity": "scheme",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "training resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scientific articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scientific articles",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rhetorical moves of argumentation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "rhetorical moves of argumentation",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "training resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scientific articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scientific articles",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "automatic abstracting systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "building robust automatic abstracting systems",
+        "category": "Task"
+      },
+      "overlap": 0.6
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "categories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "stability",
+      "category": "Metric"
+    },
+    {
+      "entity": "reproducibility",
+      "category": "Metric"
+    },
+    {
+      "entity": "intuitiveness",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 9,
+    "generic_count": 3,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

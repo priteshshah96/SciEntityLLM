@@ -1,0 +1,301 @@
+{
+  "doc_key": "W06-1605",
+  "gold_entities": [
+    {
+      "entity": "concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coarsegrained concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conceptconcept matrix",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distributional measures of word co-occurrences",
+      "category": "method"
+    },
+    {
+      "entity": "concept-distance measures",
+      "category": "method"
+    },
+    {
+      "entity": "distributional word-distance measures",
+      "category": "method"
+    },
+    {
+      "entity": "WordNet-based measures",
+      "category": "method"
+    },
+    {
+      "entity": "distributional concept-distance measures",
+      "category": "method"
+    },
+    {
+      "entity": "ranking  word pairs  in order of  semantic distance",
+      "category": "task"
+    },
+    {
+      "entity": "correcting  real-word spelling errors",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "distance",
+      "category": "metric"
+    },
+    {
+      "entity": "concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distributional measures",
+      "category": "method"
+    },
+    {
+      "entity": "word co-occurrences",
+      "category": "metric"
+    },
+    {
+      "entity": "categories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "concept-concept matrix",
+      "category": "material"
+    },
+    {
+      "entity": "concept-distance measures",
+      "category": "metric"
+    },
+    {
+      "entity": "traditional distributional word-distance measures",
+      "category": "method"
+    },
+    {
+      "entity": "tasks",
+      "category": "task"
+    },
+    {
+      "entity": "word pairs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic distance",
+      "category": "metric"
+    },
+    {
+      "entity": "real-word spelling errors",
+      "category": "task"
+    },
+    {
+      "entity": "WordNet-based measures",
+      "category": "method"
+    },
+    {
+      "entity": "jiang and conrath",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "concepts",
+      "predicted": "concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "concept-distance measures",
+      "predicted": "concept-distance measures",
+      "category": "method"
+    },
+    {
+      "gold": "WordNet-based measures",
+      "predicted": "WordNet-based measures",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "distributional word-distance measures",
+      "predicted": "traditional distributional word-distance measures",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "distributional concept-distance measures",
+      "predicted": "distributional measures",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "correcting  real-word spelling errors",
+      "predicted": "real-word spelling errors",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "WordNet-based measures",
+      "category": "method"
+    },
+    {
+      "entity": "distributional word-distance measures",
+      "category": "method"
+    },
+    {
+      "entity": "distributional concept-distance measures",
+      "category": "method"
+    },
+    {
+      "entity": "correcting  real-word spelling errors",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "coarsegrained concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conceptconcept matrix",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distributional measures of word co-occurrences",
+      "category": "method"
+    },
+    {
+      "entity": "ranking  word pairs  in order of  semantic distance",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "distance",
+      "category": "metric"
+    },
+    {
+      "entity": "word co-occurrences",
+      "category": "metric"
+    },
+    {
+      "entity": "categories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "concept-concept matrix",
+      "category": "material"
+    },
+    {
+      "entity": "tasks",
+      "category": "task"
+    },
+    {
+      "entity": "word pairs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic distance",
+      "category": "metric"
+    },
+    {
+      "entity": "jiang and conrath",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "method": 5,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "metric": 4,
+    "otherscientificterm": 4,
+    "method": 3,
+    "material": 2,
+    "task": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.13333333333333333,
+  "recall": 0.2,
+  "f1": 0.16,
+  "category_precision": 0.5333333333333333,
+  "category_recall": 0.8,
+  "category_f1": 0.64,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 15,
+    "exact_matches": 3,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 9,
+    "generic_entities": 3,
+    "correct_predictions": 2,
+    "correct_categories": 8
+  }
+}

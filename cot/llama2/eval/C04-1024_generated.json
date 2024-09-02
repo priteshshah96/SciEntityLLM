@@ -1,0 +1,219 @@
+{
+  "gold_entities": [
+    {
+      "entity": "bit-vector-based cky-style parser",
+      "category": "Method"
+    },
+    {
+      "entity": "parser",
+      "category": "Method"
+    },
+    {
+      "entity": "parse forest representation",
+      "category": "Method"
+    },
+    {
+      "entity": "large treebank grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "parser",
+      "category": "Method"
+    },
+    {
+      "entity": "bit-vector operations",
+      "category": "Method"
+    },
+    {
+      "entity": "parser",
+      "category": "Method"
+    },
+    {
+      "entity": "context-free parsing",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "efficient bit-vector-based cky-style parser",
+      "category": "Method"
+    },
+    {
+      "entity": "context-free parsing",
+      "category": "Task"
+    },
+    {
+      "entity": "parse forest representation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complete set of possible analyses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "bit-vector operations",
+      "category": "Method"
+    },
+    {
+      "entity": "parallelise",
+      "category": "Method"
+    },
+    {
+      "entity": "basic parsing operations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "long input sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "treebank grammars",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "analyses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "most probable one",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "context-free parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "context-free parsing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parse forest representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "parse forest representation",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bit-vector operations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bit-vector operations",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "context-free parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "context-free parsing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bit-vector operations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bit-vector operations",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "bit-vector-based cky-style parser",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "efficient bit-vector-based cky-style parser",
+        "category": "Method"
+      },
+      "overlap": 0.75
+    },
+    {
+      "gold": {
+        "entity": "large treebank grammars",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "treebank grammars",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "parser",
+      "category": "Method"
+    },
+    {
+      "entity": "parser",
+      "category": "Method"
+    },
+    {
+      "entity": "parser",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "complete set of possible analyses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parallelise",
+      "category": "Method"
+    },
+    {
+      "entity": "basic parsing operations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "long input sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "analyses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "most probable one",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "parser": 3
+  },
+  "distinct_repeated_entities": [
+    "parser"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 11,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 3
+  }
+}

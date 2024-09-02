@@ -1,0 +1,318 @@
+{
+  "doc_key": "IJCAI_2016_423_abs",
+  "gold_entities": [
+    {
+      "entity": "Learning video representation",
+      "category": "task"
+    },
+    {
+      "entity": "video recognition tasks",
+      "category": "task"
+    },
+    {
+      "entity": "retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "classification",
+      "category": "task"
+    },
+    {
+      "entity": "highlight detection",
+      "category": "task"
+    },
+    {
+      "entity": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local and holistic contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local temporal relationship of adjacent frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graph structure of the video",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priori",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrinsic representation of a video frame",
+      "category": "method"
+    },
+    {
+      "entity": "deep video representation",
+      "category": "method"
+    },
+    {
+      "entity": "triplet sampling mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "deep representations",
+      "category": "method"
+    },
+    {
+      "entity": "end-to-end deep convolutional neu-ral network architecture",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "video representation",
+      "category": "task"
+    },
+    {
+      "entity": "video",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frame",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "holistic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local temporal relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "adjacent frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deep representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "triplet sampling mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "graph structure",
+      "category": "material"
+    },
+    {
+      "entity": "video frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highlight detection",
+      "category": "metric"
+    },
+    {
+      "entity": "video recognition tasks",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "highlight detection",
+      "predicted": "highlight detection",
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "video recognition tasks",
+      "predicted": "video recognition tasks",
+      "category": "task"
+    },
+    {
+      "gold": "triplet sampling mechanism",
+      "predicted": "triplet sampling mechanism",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Learning video representation",
+      "predicted": "video representation",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "context information",
+      "predicted": "context",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "local temporal relationship of adjacent frames",
+      "predicted": "local temporal relationship",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "deep video representation",
+      "predicted": "deep representation",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "classification",
+      "category": "task"
+    },
+    {
+      "entity": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local and holistic contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graph structure of the video",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priori",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrinsic representation of a video frame",
+      "category": "method"
+    },
+    {
+      "entity": "deep representations",
+      "category": "method"
+    },
+    {
+      "entity": "end-to-end deep convolutional neu-ral network architecture",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "video",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frame",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "holistic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "adjacent frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graph structure",
+      "category": "material"
+    },
+    {
+      "entity": "video frames",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "otherscientificterm": 6,
+    "method": 5
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 9,
+    "method": 1,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.125,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 6,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

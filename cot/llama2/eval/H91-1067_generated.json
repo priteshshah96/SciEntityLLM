@@ -1,0 +1,216 @@
+{
+  "gold_entities": [
+    {
+      "entity": "tagged text corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "subcategorization dictionary",
+      "category": "Material"
+    },
+    {
+      "entity": "false positive rates",
+      "category": "Metric"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "program",
+      "category": "Method"
+    },
+    {
+      "entity": "tagged text corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "Task"
+    },
+    {
+      "entity": "verb",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "total occurrences",
+      "category": "Metric"
+    },
+    {
+      "entity": "false positive rates",
+      "category": "Metric"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "nlp community",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dictionaries",
+      "category": "Method"
+    },
+    {
+      "entity": "training corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "large subcategorization dictionary",
+      "category": "Task"
+    },
+    {
+      "entity": "specific corpora",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "program",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "tagged text corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "tagged text corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "subcategorization frames",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "subcategorization frames",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "false positive rates",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "false positive rates",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "subcategorization frames",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "subcategorization frames",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "tagged text corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "tagged text corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "false positive rates",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "false positive rates",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "subcategorization frames",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "subcategorization frames",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "subcategorization dictionary",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "large subcategorization dictionary",
+        "category": "Task"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "program",
+      "category": "Method"
+    },
+    {
+      "entity": "verb",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "total occurrences",
+      "category": "Metric"
+    },
+    {
+      "entity": "nlp community",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dictionaries",
+      "category": "Method"
+    },
+    {
+      "entity": "training corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "specific corpora",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "subcategorization frames": 2
+  },
+  "distinct_repeated_entities": [
+    "subcategorization frames"
+  ],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 12,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

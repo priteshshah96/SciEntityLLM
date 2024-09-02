@@ -1,0 +1,243 @@
+{
+  "gold_entities": [
+    {
+      "entity": "distributional measures of word co-occurrences",
+      "category": "Method"
+    },
+    {
+      "entity": "concept-distance measures",
+      "category": "Method"
+    },
+    {
+      "entity": "distributional word-distance measures",
+      "category": "Method"
+    },
+    {
+      "entity": "wordnet-based measures",
+      "category": "Method"
+    },
+    {
+      "entity": "distributional concept-distance measures",
+      "category": "Method"
+    },
+    {
+      "entity": "ranking word pairs in order of semantic distance",
+      "category": "Task"
+    },
+    {
+      "entity": "correcting real-word spelling errors",
+      "category": "Task"
+    },
+    {
+      "entity": "concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coarse-grained concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "concept-concept matrix",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "framework",
+      "category": "Method"
+    },
+    {
+      "entity": "distance",
+      "category": "Task"
+    },
+    {
+      "entity": "concepts",
+      "category": "Material"
+    },
+    {
+      "entity": "distributional measures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "word co-occurrences",
+      "category": "Method"
+    },
+    {
+      "entity": "categories",
+      "category": "Material"
+    },
+    {
+      "entity": "distance values",
+      "category": "Task"
+    },
+    {
+      "entity": "traditional distributional worddistance measures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "ranking",
+      "category": "Task"
+    },
+    {
+      "entity": "spelling errors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "wordnetbased measures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "jiang and conrath",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "tasks",
+      "category": "Generic"
+    },
+    {
+      "entity": "task",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "concepts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "concepts",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "distributional measures of word co-occurrences",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "distributional measures",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "word co-occurrences",
+          "category": "Method"
+        },
+        {
+          "entity": "traditional distributional worddistance measures",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "wordnetbased measures",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 3.0
+    },
+    {
+      "gold": {
+        "entity": "ranking word pairs in order of semantic distance",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "distance",
+          "category": "Task"
+        },
+        {
+          "entity": "distance values",
+          "category": "Task"
+        },
+        {
+          "entity": "ranking",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "correcting real-word spelling errors",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "spelling errors",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "concept-distance measures",
+      "category": "Method"
+    },
+    {
+      "entity": "distributional word-distance measures",
+      "category": "Method"
+    },
+    {
+      "entity": "wordnet-based measures",
+      "category": "Method"
+    },
+    {
+      "entity": "distributional concept-distance measures",
+      "category": "Method"
+    },
+    {
+      "entity": "coarse-grained concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "concept-concept matrix",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "framework",
+      "category": "Method"
+    },
+    {
+      "entity": "categories",
+      "category": "Material"
+    },
+    {
+      "entity": "tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "jiang and conrath",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 13,
+    "generic_count": 3,
+    "exact_matches": 1,
+    "exact_category_matches": 0,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

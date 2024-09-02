@@ -1,0 +1,255 @@
+{
+  "gold_entities": [
+    {
+      "entity": "information sources",
+      "category": "Material"
+    },
+    {
+      "entity": "new domains",
+      "category": "Material"
+    },
+    {
+      "entity": "spoken language understanding system",
+      "category": "Method"
+    },
+    {
+      "entity": "intelligent mobile agents",
+      "category": "Method"
+    },
+    {
+      "entity": "mobile, intelligent agent",
+      "category": "Method"
+    },
+    {
+      "entity": "listen-communicate-show (lcs)",
+      "category": "Task"
+    },
+    {
+      "entity": "human interaction with data sources",
+      "category": "Task"
+    },
+    {
+      "entity": "lcs-marine",
+      "category": "Task"
+    },
+    {
+      "entity": "lcs-marine",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "listen-communicate-show",
+      "category": "Task"
+    },
+    {
+      "entity": "spoken language understanding system",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intelligent mobile agents",
+      "category": "Material"
+    },
+    {
+      "entity": "users",
+      "category": "Material"
+    },
+    {
+      "entity": "information sources",
+      "category": "Material"
+    },
+    {
+      "entity": "lcs-marine",
+      "category": "Method"
+    },
+    {
+      "entity": "mobile, intelligent agent",
+      "category": "Material"
+    },
+    {
+      "entity": "database",
+      "category": "Material"
+    },
+    {
+      "entity": "requestors",
+      "category": "Material"
+    },
+    {
+      "entity": "request",
+      "category": "Metric"
+    },
+    {
+      "entity": "field exercises",
+      "category": "Method"
+    },
+    {
+      "entity": "new domains",
+      "category": "Material"
+    },
+    {
+      "entity": "tactical personnel",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "spoken language understanding system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "spoken language understanding system",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "intelligent mobile agents",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "intelligent mobile agents",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "information sources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "information sources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lcs-marine",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "lcs-marine",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "mobile, intelligent agent",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "mobile, intelligent agent",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "new domains",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "new domains",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "information sources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "information sources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "new domains",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "new domains",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "listen-communicate-show (lcs)",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "listen-communicate-show",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "human interaction with data sources",
+      "category": "Task"
+    },
+    {
+      "entity": "lcs-marine",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "users",
+      "category": "Material"
+    },
+    {
+      "entity": "database",
+      "category": "Material"
+    },
+    {
+      "entity": "requestors",
+      "category": "Material"
+    },
+    {
+      "entity": "request",
+      "category": "Metric"
+    },
+    {
+      "entity": "field exercises",
+      "category": "Method"
+    },
+    {
+      "entity": "tactical personnel",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "lcs-marine": 2
+  },
+  "distinct_repeated_entities": [
+    "lcs-marine"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 13,
+    "generic_count": 2,
+    "exact_matches": 6,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

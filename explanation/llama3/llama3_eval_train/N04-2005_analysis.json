@@ -1,0 +1,245 @@
+{
+  "doc_key": "N04-2005",
+  "gold_entities": [
+    {
+      "entity": "translation  of  English text  into  American Sign Language (ASL) animation",
+      "category": "task"
+    },
+    {
+      "entity": "MT architectural designs",
+      "category": "method"
+    },
+    {
+      "entity": "semantic representation",
+      "category": "method"
+    },
+    {
+      "entity": "virtual reality 3D scene modeling software",
+      "category": "method"
+    },
+    {
+      "entity": "multi-pathway MT architecture design",
+      "category": "method"
+    },
+    {
+      "entity": "spatially complex asl phenomena",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interlingua",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transfer",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "translation",
+      "category": "task"
+    },
+    {
+      "entity": "English text",
+      "category": "material"
+    },
+    {
+      "entity": "American Sign Language (ASL)",
+      "category": "material"
+    },
+    {
+      "entity": "ASL animation",
+      "category": "material"
+    },
+    {
+      "entity": "traditional MT architectural designs",
+      "category": "method"
+    },
+    {
+      "entity": "semantic representation",
+      "category": "method"
+    },
+    {
+      "entity": "virtual reality 3D scene modeling software",
+      "category": "material"
+    },
+    {
+      "entity": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interlingua",
+      "category": "method"
+    },
+    {
+      "entity": "multi-pathway MT architecture design",
+      "category": "method"
+    },
+    {
+      "entity": "transfer",
+      "category": "method"
+    },
+    {
+      "entity": "direct approaches",
+      "category": "method"
+    },
+    {
+      "entity": "single system",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "virtual reality 3D scene modeling software",
+      "predicted": "virtual reality 3D scene modeling software",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "interlingua",
+      "predicted": "interlingua",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "transfer",
+      "predicted": "transfer",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "semantic representation",
+      "predicted": "semantic representation",
+      "category": "method"
+    },
+    {
+      "gold": "multi-pathway MT architecture design",
+      "predicted": "multi-pathway MT architecture design",
+      "category": "method"
+    },
+    {
+      "gold": "classifier predicates",
+      "predicted": "classifier predicates",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "MT architectural designs",
+      "predicted": "traditional MT architectural designs",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "translation  of  English text  into  American Sign Language (ASL) animation",
+      "category": "task"
+    },
+    {
+      "entity": "spatially complex asl phenomena",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "translation",
+      "category": "task"
+    },
+    {
+      "entity": "English text",
+      "category": "material"
+    },
+    {
+      "entity": "American Sign Language (ASL)",
+      "category": "material"
+    },
+    {
+      "entity": "ASL animation",
+      "category": "material"
+    },
+    {
+      "entity": "direct approaches",
+      "category": "method"
+    },
+    {
+      "entity": "single system",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 5,
+    "method": 6,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23076923076923078,
+  "recall": 0.3333333333333333,
+  "f1": 0.27272727272727276,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 13,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

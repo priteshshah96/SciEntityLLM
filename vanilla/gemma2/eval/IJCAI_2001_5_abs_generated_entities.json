@@ -1,0 +1,363 @@
+{
+  "gold_entities": [
+    {
+      "entity": "knowledge bases",
+      "category": "Material"
+    },
+    {
+      "entity": "kb",
+      "category": "Material"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "kanal",
+      "category": "Method"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "interdepen-dency models",
+      "category": "Method"
+    },
+    {
+      "entity": "kanal",
+      "category": "Method"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "science and engineering fields",
+      "category": "Task"
+    },
+    {
+      "entity": "checking process models",
+      "category": "Task"
+    },
+    {
+      "entity": "checking and refining planning knowledge",
+      "category": "Task"
+    },
+    {
+      "entity": "automated plan generation",
+      "category": "Task"
+    },
+    {
+      "entity": "ontologies",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "errors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "fixes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "\"helping end users build and check process models\"",
+      "category": "Task"
+    },
+    {
+      "entity": "process models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ai researchers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "knowledge bases",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ontologies",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "\"checking process models\"",
+      "category": "Task"
+    },
+    {
+      "entity": "planning knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "\"automated plan generation\"",
+      "category": "Method"
+    },
+    {
+      "entity": "\"author process information\"",
+      "category": "Task"
+    },
+    {
+      "entity": "\"kanal\"",
+      "category": "Method"
+    },
+    {
+      "entity": "pieces of information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "interdependency models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "\"errors\"",
+      "category": "Metric"
+    },
+    {
+      "entity": "\"fixes\"",
+      "category": "Method"
+    },
+    {
+      "entity": "sources of the errors",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "complementary approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "them",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "process models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "process models",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "knowledge bases",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "knowledge bases",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ontologies",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ontologies",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "rules",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "ontologies",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ontologies",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "rules",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "process models",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "\"helping end users build and check process models\"",
+          "category": "Task"
+        },
+        {
+          "entity": "\"checking process models\"",
+          "category": "Task"
+        },
+        {
+          "entity": "\"author process information\"",
+          "category": "Task"
+        },
+        {
+          "entity": "interdependency models",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.2916666666666665
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "checking and refining planning knowledge",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "planning knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "kb",
+      "category": "Material"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "kanal",
+      "category": "Method"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "interdepen-dency models",
+      "category": "Method"
+    },
+    {
+      "entity": "kanal",
+      "category": "Method"
+    },
+    {
+      "entity": "process models",
+      "category": "Method"
+    },
+    {
+      "entity": "science and engineering fields",
+      "category": "Task"
+    },
+    {
+      "entity": "checking process models",
+      "category": "Task"
+    },
+    {
+      "entity": "automated plan generation",
+      "category": "Task"
+    },
+    {
+      "entity": "errors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "fixes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "ai researchers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "\"automated plan generation\"",
+      "category": "Method"
+    },
+    {
+      "entity": "\"kanal\"",
+      "category": "Method"
+    },
+    {
+      "entity": "pieces of information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "\"errors\"",
+      "category": "Metric"
+    },
+    {
+      "entity": "\"fixes\"",
+      "category": "Method"
+    },
+    {
+      "entity": "sources of the errors",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "process models": 5,
+    "kanal": 2
+  },
+  "distinct_repeated_entities": [
+    "process models",
+    "kanal"
+  ],
+  "counts": {
+    "gold_count": 18,
+    "generated_count": 16,
+    "generic_count": 4,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 7
+  }
+}

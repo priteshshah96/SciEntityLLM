@@ -1,0 +1,290 @@
+{
+  "doc_key": "W04-2703",
+  "gold_entities": [
+    {
+      "entity": "large scale discourse-level annotation",
+      "category": "task"
+    },
+    {
+      "entity": "extraction of useful  syntactic and semantic features",
+      "category": "task"
+    },
+    {
+      "entity": "Penn Discourse TreeBank (PDTB)",
+      "category": "material"
+    },
+    {
+      "entity": "PDTB",
+      "category": "material"
+    },
+    {
+      "entity": "Penn TreeBank",
+      "category": "material"
+    },
+    {
+      "entity": "Propbank",
+      "category": "material"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse connectives",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interannotator variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "practical algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "inter-annotator agreement",
+      "category": "metric"
+    },
+    {
+      "entity": "level of agreement",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Penn Discourse TreeBank (PDTB)",
+      "category": "task"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse connectives",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arguments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Penn TreeBank",
+      "category": "material"
+    },
+    {
+      "entity": "Propbank",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic features",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic features",
+      "category": "metric"
+    },
+    {
+      "entity": "practical algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "inter-annotator agreement",
+      "category": "metric"
+    },
+    {
+      "entity": "level of agreement",
+      "category": "metric"
+    },
+    {
+      "entity": "types of interannotator variation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Penn Discourse TreeBank (PDTB)",
+      "predicted": "Penn Discourse TreeBank (PDTB)",
+      "category": "material"
+    },
+    {
+      "gold": "Penn TreeBank",
+      "predicted": "Penn TreeBank",
+      "category": "material"
+    },
+    {
+      "gold": "Propbank",
+      "predicted": "Propbank",
+      "category": "material"
+    },
+    {
+      "gold": "discourse structure",
+      "predicted": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse connectives",
+      "predicted": "discourse connectives",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "practical algorithms",
+      "predicted": "practical algorithms",
+      "category": "method"
+    },
+    {
+      "gold": "inter-annotator agreement",
+      "predicted": "inter-annotator agreement",
+      "category": "metric"
+    },
+    {
+      "gold": "level of agreement",
+      "predicted": "level of agreement",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "interannotator variation",
+      "predicted": "types of interannotator variation",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "Penn TreeBank",
+      "category": "material"
+    },
+    {
+      "entity": "Propbank",
+      "category": "material"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse connectives",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "practical algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "inter-annotator agreement",
+      "category": "metric"
+    },
+    {
+      "entity": "level of agreement",
+      "category": "metric"
+    },
+    {
+      "entity": "interannotator variation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "large scale discourse-level annotation",
+      "category": "task"
+    },
+    {
+      "entity": "extraction of useful  syntactic and semantic features",
+      "category": "task"
+    },
+    {
+      "entity": "PDTB",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "arguments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic features",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 4,
+    "otherscientificterm": 3,
+    "method": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 4,
+    "material": 2,
+    "metric": 4,
+    "method": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5833333333333334,
+  "recall": 0.5833333333333334,
+  "f1": 0.5833333333333334,
+  "category_precision": 0.75,
+  "category_recall": 0.75,
+  "category_f1": 0.75,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 12,
+    "exact_matches": 8,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 8,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 1,
+    "correct_predictions": 7,
+    "correct_categories": 9
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "doc_key": "ECCV_2016_99_abs",
+  "gold_entities": [
+    {
+      "entity": "Human action recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Online action detection",
+      "category": "task"
+    },
+    {
+      "entity": "online action detection",
+      "category": "task"
+    },
+    {
+      "entity": "regression optimization",
+      "category": "task"
+    },
+    {
+      "entity": "well-segmented 3D skeleton data",
+      "category": "material"
+    },
+    {
+      "entity": "untrimmed stream",
+      "category": "material"
+    },
+    {
+      "entity": "streaming skeleton data",
+      "category": "material"
+    },
+    {
+      "entity": "streaming video dataset",
+      "category": "material"
+    },
+    {
+      "entity": "G3D dataset",
+      "category": "material"
+    },
+    {
+      "entity": "action type",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "action positions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "action type",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal localization information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "joint classification and regression optimization objective",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "longrange temporal dynamics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational efficiency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+      "category": "method"
+    },
+    {
+      "entity": "deep Long Short-Term Memory (LSTM) subnetwork",
+      "category": "method"
+    },
+    {
+      "entity": "sliding window design",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Human action recognition",
+      "category": "task"
+    },
+    {
+      "entity": "3D skeleton data",
+      "category": "material"
+    },
+    {
+      "entity": "long shortterm memory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Streaming skeleton data",
+      "category": "material"
+    },
+    {
+      "entity": "Online action detection",
+      "category": "task"
+    },
+    {
+      "entity": "action type",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal localization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optimization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "forecasting",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Human action recognition",
+      "predicted": "Human action recognition",
+      "category": "task"
+    },
+    {
+      "gold": "Online action detection",
+      "predicted": "Online action detection",
+      "category": "task"
+    },
+    {
+      "gold": "streaming skeleton data",
+      "predicted": "Streaming skeleton data",
+      "category": "material"
+    },
+    {
+      "gold": "action type",
+      "predicted": "action type",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "regression optimization",
+      "predicted": "optimization",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "well-segmented 3D skeleton data",
+      "predicted": "3D skeleton data",
+      "score": 0.75,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "temporal localization information",
+      "predicted": "temporal localization",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "online action detection",
+      "category": "task"
+    },
+    {
+      "entity": "untrimmed stream",
+      "category": "material"
+    },
+    {
+      "entity": "streaming video dataset",
+      "category": "material"
+    },
+    {
+      "entity": "G3D dataset",
+      "category": "material"
+    },
+    {
+      "entity": "action type",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "action positions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "joint classification and regression optimization objective",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "longrange temporal dynamics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational efficiency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+      "category": "method"
+    },
+    {
+      "entity": "deep Long Short-Term Memory (LSTM) subnetwork",
+      "category": "method"
+    },
+    {
+      "entity": "sliding window design",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "long shortterm memory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "forecasting",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "action type|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "material": 5,
+    "otherscientificterm": 7,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 2,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.21052631578947367,
+  "f1": 0.27586206896551724,
+  "counts": {
+    "gold_entities": 19,
+    "predicted_entities": 10,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 12,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

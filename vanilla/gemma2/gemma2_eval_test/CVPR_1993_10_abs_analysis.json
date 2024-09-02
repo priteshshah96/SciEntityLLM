@@ -1,0 +1,362 @@
+{
+  "doc_key": "CVPR_1993_10_abs",
+  "gold_entities": [
+    {
+      "entity": "model-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "discrete motor control representation",
+      "category": "method"
+    },
+    {
+      "entity": "motor control representation",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic representation",
+      "category": "method"
+    },
+    {
+      "entity": "on-line cursive handwriting analysis and recognition",
+      "category": "task"
+    },
+    {
+      "entity": "on-line handwriting",
+      "category": "task"
+    },
+    {
+      "entity": "cycloidal pen motion",
+      "category": "task"
+    },
+    {
+      "entity": "word spotting",
+      "category": "task"
+    },
+    {
+      "entity": "matching of cursive scripts",
+      "category": "task"
+    },
+    {
+      "entity": "cursive handwriting recognition",
+      "category": "task"
+    },
+    {
+      "entity": "constant linear drift",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pen trajectory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "writing intelligibility",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cycloidal motion parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "continuous pen motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arbitrary handwriting",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Model-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "On-line cursive handwriting analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Modulation",
+      "category": "method"
+    },
+    {
+      "entity": "Cycloidal pen motion",
+      "category": "method"
+    },
+    {
+      "entity": "Oscillations",
+      "category": "method"
+    },
+    {
+      "entity": "Linear drift",
+      "category": "method"
+    },
+    {
+      "entity": "Amplitude modulation",
+      "category": "method"
+    },
+    {
+      "entity": "Phase lag modulation",
+      "category": "method"
+    },
+    {
+      "entity": "Pen trajectory",
+      "category": "metric"
+    },
+    {
+      "entity": "Quantization",
+      "category": "method"
+    },
+    {
+      "entity": "Writing intelligibility",
+      "category": "metric"
+    },
+    {
+      "entity": "Discrete motor control representation",
+      "category": "metric"
+    },
+    {
+      "entity": "Continuous pen motion",
+      "category": "metric"
+    },
+    {
+      "entity": "Word spotting",
+      "category": "task"
+    },
+    {
+      "entity": "Matching",
+      "category": "task"
+    },
+    {
+      "entity": "Cursive script recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Experiments",
+      "category": "task"
+    },
+    {
+      "entity": "potential",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discrete motor control representation",
+      "predicted": "Discrete motor control representation",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "cycloidal pen motion",
+      "predicted": "Cycloidal pen motion",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "pen trajectory",
+      "predicted": "Pen trajectory",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "writing intelligibility",
+      "predicted": "Writing intelligibility",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "continuous pen motion",
+      "predicted": "Continuous pen motion",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "model-based approach",
+      "predicted": "Model-based approach",
+      "category": "method"
+    },
+    {
+      "gold": "word spotting",
+      "predicted": "Word spotting",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "cursive handwriting recognition",
+      "predicted": "Cursive script recognition",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "constant linear drift",
+      "predicted": "Linear drift",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "on-line cursive handwriting analysis and recognition",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "on-line cursive handwriting analysis",
+          "matched": "On-line cursive handwriting analysis",
+          "predicted_category": "task"
+        },
+        {
+          "part": "recognition",
+          "matched": "Recognition",
+          "predicted_category": "task"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "motor control representation",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic representation",
+      "category": "method"
+    },
+    {
+      "entity": "on-line handwriting",
+      "category": "task"
+    },
+    {
+      "entity": "matching of cursive scripts",
+      "category": "task"
+    },
+    {
+      "entity": "cycloidal motion parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arbitrary handwriting",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Modulation",
+      "category": "method"
+    },
+    {
+      "entity": "Oscillations",
+      "category": "method"
+    },
+    {
+      "entity": "Amplitude modulation",
+      "category": "method"
+    },
+    {
+      "entity": "Phase lag modulation",
+      "category": "method"
+    },
+    {
+      "entity": "Quantization",
+      "category": "method"
+    },
+    {
+      "entity": "Matching",
+      "category": "task"
+    },
+    {
+      "entity": "Experiments",
+      "category": "task"
+    },
+    {
+      "entity": "potential",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 6,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 8,
+    "task": 6,
+    "metric": 4,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 1
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 8,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.10526315789473684,
+  "recall": 0.125,
+  "f1": 0.11428571428571428,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 19,
+    "exact_matches": 5,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 8,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

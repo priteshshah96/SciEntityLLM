@@ -1,0 +1,204 @@
+{
+  "gold_entities": [
+    {
+      "entity": "training resources",
+      "category": "Material"
+    },
+    {
+      "entity": "scientific articles",
+      "category": "Material"
+    },
+    {
+      "entity": "annotation scheme",
+      "category": "Method"
+    },
+    {
+      "entity": "rhetorical moves of argumentation",
+      "category": "Method"
+    },
+    {
+      "entity": "automatic abstracting systems",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "robust automatic abstracting systems",
+      "category": "Task"
+    },
+    {
+      "entity": "training resources",
+      "category": "Material"
+    },
+    {
+      "entity": "annotation scheme",
+      "category": "Method"
+    },
+    {
+      "entity": "scientific articles",
+      "category": "Material"
+    },
+    {
+      "entity": "seven categories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rhetorical moves of argumentation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "Metric"
+    },
+    {
+      "entity": "stable",
+      "category": "Metric"
+    },
+    {
+      "entity": "reproducible",
+      "category": "Metric"
+    },
+    {
+      "entity": "intuitive to use",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "resource",
+      "category": "Generic"
+    },
+    {
+      "entity": "scheme",
+      "category": "Generic"
+    },
+    {
+      "entity": "scheme",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "training resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scientific articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scientific articles",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rhetorical moves of argumentation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "rhetorical moves of argumentation",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "training resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "annotation scheme",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scientific articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scientific articles",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "automatic abstracting systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "robust automatic abstracting systems",
+        "category": "Task"
+      },
+      "overlap": 0.75
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "seven categories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "Metric"
+    },
+    {
+      "entity": "stable",
+      "category": "Metric"
+    },
+    {
+      "entity": "reproducible",
+      "category": "Metric"
+    },
+    {
+      "entity": "intuitive to use",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 10,
+    "generic_count": 3,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

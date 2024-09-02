@@ -1,0 +1,228 @@
+{
+  "doc_key": "A92-1010",
+  "gold_entities": [
+    {
+      "entity": "cognitively well-motivated interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "natural language generation",
+      "category": "task"
+    },
+    {
+      "entity": "display of graphical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphical information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "graphical information",
+      "category": "metric"
+    },
+    {
+      "entity": "information",
+      "category": "metric"
+    },
+    {
+      "entity": "natural language generation",
+      "category": "method"
+    },
+    {
+      "entity": "interaction",
+      "category": "task"
+    },
+    {
+      "entity": "cognitive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interface",
+      "category": "material"
+    },
+    {
+      "entity": "expectations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "design",
+      "category": "method"
+    },
+    {
+      "entity": "research",
+      "category": "task"
+    },
+    {
+      "entity": "problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "solution",
+      "category": "task"
+    },
+    {
+      "entity": "integration",
+      "category": "method"
+    },
+    {
+      "entity": "augmentation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language generation",
+      "predicted": "natural language generation",
+      "category": "task"
+    },
+    {
+      "gold": "graphical information",
+      "predicted": "graphical information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "cognitively well-motivated interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "display of graphical information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "information",
+      "category": "metric"
+    },
+    {
+      "entity": "interaction",
+      "category": "task"
+    },
+    {
+      "entity": "cognitive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interface",
+      "category": "material"
+    },
+    {
+      "entity": "expectations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "design",
+      "category": "method"
+    },
+    {
+      "entity": "research",
+      "category": "task"
+    },
+    {
+      "entity": "problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "solution",
+      "category": "task"
+    },
+    {
+      "entity": "integration",
+      "category": "method"
+    },
+    {
+      "entity": "augmentation",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "metric": 2,
+    "method": 4,
+    "task": 3,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.2857142857142857,
+  "category_recall": 1.0,
+  "category_f1": 0.4444444444444445,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 12,
+    "generic_entities": 1,
+    "correct_predictions": 0,
+    "correct_categories": 4
+  }
+}

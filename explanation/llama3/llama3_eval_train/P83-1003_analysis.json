@@ -1,0 +1,225 @@
+{
+  "doc_key": "P83-1003",
+  "gold_entities": [
+    {
+      "entity": "GPSG grammatical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "parsing method",
+      "category": "method"
+    },
+    {
+      "entity": "GPSG",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "schematic variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "crossed serial dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dutch subordinate clauses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constructions",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "GPSG grammatical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "category labels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "schematic variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "crossed serial dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dutch subordinate clauses",
+      "category": "material"
+    },
+    {
+      "entity": "constructions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjunction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsing method",
+      "category": "method"
+    },
+    {
+      "entity": "GPSG",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "dutch subordinate clauses",
+      "predicted": "Dutch subordinate clauses",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "constructions",
+      "predicted": "constructions",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "GPSG grammatical formalism",
+      "predicted": "GPSG grammatical formalism",
+      "category": "method"
+    },
+    {
+      "gold": "grammar",
+      "predicted": "grammar",
+      "category": "method"
+    },
+    {
+      "gold": "parsing method",
+      "predicted": "parsing method",
+      "category": "method"
+    },
+    {
+      "gold": "GPSG",
+      "predicted": "GPSG",
+      "category": "method"
+    },
+    {
+      "gold": "nonterminals",
+      "predicted": "nonterminals",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "schematic variables",
+      "predicted": "schematic variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "crossed serial dependencies",
+      "predicted": "crossed serial dependencies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "category labels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjunction",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 7,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5833333333333334,
+  "recall": 0.7777777777777778,
+  "f1": 0.6666666666666666,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

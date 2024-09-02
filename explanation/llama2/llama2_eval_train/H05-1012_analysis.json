@@ -1,0 +1,246 @@
+{
+  "doc_key": "H05-1012",
+  "gold_entities": [
+    {
+      "entity": "maximum entropy word alignment algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "supervised and unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic model",
+      "category": "method"
+    },
+    {
+      "entity": "word alignment techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Arabic-English",
+      "category": "material"
+    },
+    {
+      "entity": "supervised training data",
+      "category": "material"
+    },
+    {
+      "entity": "training material",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "alignment",
+      "category": "task"
+    },
+    {
+      "entity": "link decisions",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation tests",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human annotation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "maximum entropy word alignment algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Arabic-English",
+      "category": "material"
+    },
+    {
+      "entity": "supervised training data",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "word alignment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "link decisions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "traditional word alignment techniques",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "human annotation performance",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "link decisions",
+      "predicted": "link decisions",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "maximum entropy word alignment algorithm",
+      "predicted": "maximum entropy word alignment algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "Arabic-English",
+      "predicted": "Arabic-English",
+      "category": "material"
+    },
+    {
+      "gold": "supervised training data",
+      "predicted": "supervised training data",
+      "category": "material"
+    },
+    {
+      "gold": "machine translation",
+      "predicted": "machine translation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word alignment techniques",
+      "predicted": "traditional word alignment techniques",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "alignment",
+      "predicted": "word alignment",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "human annotation",
+      "predicted": "human annotation performance",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "supervised and unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic model",
+      "category": "method"
+    },
+    {
+      "entity": "training material",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation tests",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "material": 3,
+    "task": 3,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "material": 3,
+    "task": 1,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4444444444444444,
+  "recall": 0.3333333333333333,
+  "f1": 0.380952380952381,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

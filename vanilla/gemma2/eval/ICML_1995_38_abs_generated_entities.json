@@ -1,0 +1,359 @@
+{
+  "gold_entities": [
+    {
+      "entity": "domain-speciic models of actions",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "action model formalism",
+      "category": "Method"
+    },
+    {
+      "entity": "re-active agent",
+      "category": "Method"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "Method"
+    },
+    {
+      "entity": "golem",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "Method"
+    },
+    {
+      "entity": "methods",
+      "category": "Metric"
+    },
+    {
+      "entity": "learning in autonomous agents",
+      "category": "Task"
+    },
+    {
+      "entity": "planning systems",
+      "category": "Task"
+    },
+    {
+      "entity": "simulated construction",
+      "category": "Task"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "Task"
+    },
+    {
+      "entity": "domain expert",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "learning",
+      "category": "Task"
+    },
+    {
+      "entity": "autonomous agents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domainspecific models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "actions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "planning systems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "methods",
+      "category": "Method"
+    },
+    {
+      "entity": "agent",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "experience",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "observation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain expert",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "action models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "formalism",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reactive agent",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "Method"
+    },
+    {
+      "entity": "training instances",
+      "category": "Task"
+    },
+    {
+      "entity": "golem",
+      "category": "Method"
+    },
+    {
+      "entity": "simulated construction",
+      "category": "Material"
+    },
+    {
+      "entity": "office domains",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "planning systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "planning systems",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "methods",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "methods",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "domain expert",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain expert",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "action models",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "golem",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "golem",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "simulated construction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "simulated construction",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "domain expert",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain expert",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "golem",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "golem",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "domain-speciic models of actions",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "domainspecific models",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "actions",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "re-active agent",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "agent",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "reactive agent",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "learning in autonomous agents",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "learning",
+          "category": "Task"
+        },
+        {
+          "entity": "autonomous agents",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "action model formalism",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "formalism",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "Method"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "experience",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "observation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "training instances",
+      "category": "Task"
+    },
+    {
+      "entity": "office domains",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "action models": 2
+  },
+  "distinct_repeated_entities": [
+    "action models"
+  ],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 18,
+    "generic_count": 1,
+    "exact_matches": 7,
+    "exact_category_matches": 3,
+    "split_matches": 3,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

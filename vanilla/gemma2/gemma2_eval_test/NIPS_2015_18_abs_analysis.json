@@ -1,0 +1,306 @@
+{
+  "doc_key": "NIPS_2015_18_abs",
+  "gold_entities": [
+    {
+      "entity": "modeling problems",
+      "category": "task"
+    },
+    {
+      "entity": "P\u00f3lya-gamma augmentation",
+      "category": "task"
+    },
+    {
+      "entity": "discrete data",
+      "category": "material"
+    },
+    {
+      "entity": "nucleotides in a DNA sequence",
+      "category": "material"
+    },
+    {
+      "entity": "text documents",
+      "category": "material"
+    },
+    {
+      "entity": "multinomial or categorical distributions",
+      "category": "method"
+    },
+    {
+      "entity": "multinomial distributions",
+      "category": "method"
+    },
+    {
+      "entity": "Dirichlet-multinomial formulation",
+      "category": "method"
+    },
+    {
+      "entity": "logistic stick-breaking representation",
+      "category": "method"
+    },
+    {
+      "entity": "multinomial distribution",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian inference techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Gaussian models",
+      "category": "method"
+    },
+    {
+      "entity": "nucleotide",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dna strand",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "preceding nucleotides",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "latent variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "jointly gaussian likelihoods",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "minimal overhead",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "DNA sequence",
+      "category": "material"
+    },
+    {
+      "entity": "Children's names",
+      "category": "material"
+    },
+    {
+      "entity": "Text documents",
+      "category": "material"
+    },
+    {
+      "entity": "Nucleotides",
+      "category": "material"
+    },
+    {
+      "entity": "Multinomial distributions",
+      "category": "method"
+    },
+    {
+      "entity": "Categorical distributions",
+      "category": "method"
+    },
+    {
+      "entity": "Dirichlet-multinomial formulation",
+      "category": "method"
+    },
+    {
+      "entity": "Logistic stick-breaking representation",
+      "category": "method"
+    },
+    {
+      "entity": "P\u00f3lya-gamma augmentation",
+      "category": "method"
+    },
+    {
+      "entity": "latent variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "jointly gaussian likelihoods",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Bayesian inference techniques",
+      "category": "method"
+    },
+    {
+      "entity": "gaussian models",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "P\u00f3lya-gamma augmentation",
+      "predicted": "P\u00f3lya-gamma augmentation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "Gaussian models",
+      "predicted": "gaussian models",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "text documents",
+      "predicted": "Text documents",
+      "category": "material"
+    },
+    {
+      "gold": "multinomial distributions",
+      "predicted": "Multinomial distributions",
+      "category": "method"
+    },
+    {
+      "gold": "Dirichlet-multinomial formulation",
+      "predicted": "Dirichlet-multinomial formulation",
+      "category": "method"
+    },
+    {
+      "gold": "logistic stick-breaking representation",
+      "predicted": "Logistic stick-breaking representation",
+      "category": "method"
+    },
+    {
+      "gold": "Bayesian inference techniques",
+      "predicted": "Bayesian inference techniques",
+      "category": "method"
+    },
+    {
+      "gold": "latent variables",
+      "predicted": "latent variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "jointly gaussian likelihoods",
+      "predicted": "jointly gaussian likelihoods",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multinomial or categorical distributions",
+      "predicted": "Categorical distributions",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "preceding nucleotides",
+      "predicted": "Nucleotides",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "modeling problems",
+      "category": "task"
+    },
+    {
+      "entity": "discrete data",
+      "category": "material"
+    },
+    {
+      "entity": "nucleotides in a DNA sequence",
+      "category": "material"
+    },
+    {
+      "entity": "multinomial distribution",
+      "category": "method"
+    },
+    {
+      "entity": "nucleotide",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dna strand",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "minimal overhead",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "DNA sequence",
+      "category": "material"
+    },
+    {
+      "entity": "Children's names",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 3,
+    "method": 7,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "material": 4,
+    "method": 6,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5384615384615384,
+  "recall": 0.3888888888888889,
+  "f1": 0.45161290322580644,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,279 @@
+{
+  "doc_key": "P03-1070",
+  "gold_entities": [
+    {
+      "entity": "verbal and nonverbal means",
+      "category": "method"
+    },
+    {
+      "entity": "embodied conversational agents",
+      "category": "method"
+    },
+    {
+      "entity": "ECA",
+      "category": "method"
+    },
+    {
+      "entity": "grounding",
+      "category": "task"
+    },
+    {
+      "entity": "common ground",
+      "category": "task"
+    },
+    {
+      "entity": "human-computer interaction",
+      "category": "task"
+    },
+    {
+      "entity": "direction-giving task",
+      "category": "task"
+    },
+    {
+      "entity": "eye gaze",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "head nods",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "attentional focus",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonverbal behaviors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue move",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "negative feedback",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verbal and nonverbal grounding acts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue state",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "verbal and nonverbal means",
+      "category": "task"
+    },
+    {
+      "entity": "grounding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "embodied conversational agents",
+      "category": "method"
+    },
+    {
+      "entity": "common ground",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "humancomputer interaction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "eye gaze",
+      "category": "material"
+    },
+    {
+      "entity": "head nods",
+      "category": "material"
+    },
+    {
+      "entity": "attentional focus",
+      "category": "material"
+    },
+    {
+      "entity": "direction-giving task",
+      "category": "task"
+    },
+    {
+      "entity": "dialogue move",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "negative feedback",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ECA",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue state",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "verbal and nonverbal means",
+      "predicted": "verbal and nonverbal means",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "grounding",
+      "predicted": "grounding",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "common ground",
+      "predicted": "common ground",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "eye gaze",
+      "predicted": "eye gaze",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "head nods",
+      "predicted": "head nods",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "attentional focus",
+      "predicted": "attentional focus",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "dialogue state",
+      "predicted": "dialogue state",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "embodied conversational agents",
+      "predicted": "embodied conversational agents",
+      "category": "method"
+    },
+    {
+      "gold": "ECA",
+      "predicted": "ECA",
+      "category": "method"
+    },
+    {
+      "gold": "direction-giving task",
+      "predicted": "direction-giving task",
+      "category": "task"
+    },
+    {
+      "gold": "dialogue move",
+      "predicted": "dialogue move",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "negative feedback",
+      "predicted": "negative feedback",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "human-computer interaction",
+      "category": "task"
+    },
+    {
+      "entity": "nonverbal behaviors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verbal and nonverbal grounding acts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "humancomputer interaction",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 4,
+    "otherscientificterm": 8
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5,
+    "method": 2,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 5,
+      "exact_matches": 4,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.38461538461538464,
+  "recall": 0.3333333333333333,
+  "f1": 0.3571428571428571,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 7,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

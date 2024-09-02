@@ -1,0 +1,211 @@
+{
+  "doc_key": "H01-1070",
+  "gold_entities": [
+    {
+      "entity": "n-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "error-correction rules",
+      "category": "method"
+    },
+    {
+      "entity": "rule-reduction algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Thai key prediction",
+      "category": "task"
+    },
+    {
+      "entity": "Thai-English language identification",
+      "category": "task"
+    },
+    {
+      "entity": "language identification",
+      "category": "task"
+    },
+    {
+      "entity": "key prediction",
+      "category": "task"
+    },
+    {
+      "entity": "mutual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "errorcorrection rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "n-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "error-correction rules",
+      "category": "method"
+    },
+    {
+      "entity": "Thai key prediction",
+      "category": "task"
+    },
+    {
+      "entity": "Thai-English language identification",
+      "category": "task"
+    },
+    {
+      "entity": "rule-reduction algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "mutual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "language identification",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "key prediction",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language identification",
+      "predicted": "language identification",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "key prediction",
+      "predicted": "key prediction",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "n-gram models",
+      "predicted": "n-gram models",
+      "category": "method"
+    },
+    {
+      "gold": "error-correction rules",
+      "predicted": "error-correction rules",
+      "category": "method"
+    },
+    {
+      "gold": "rule-reduction algorithm",
+      "predicted": "rule-reduction algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "Thai key prediction",
+      "predicted": "Thai key prediction",
+      "category": "task"
+    },
+    {
+      "gold": "Thai-English language identification",
+      "predicted": "Thai-English language identification",
+      "category": "task"
+    },
+    {
+      "gold": "mutual information",
+      "predicted": "mutual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "errorcorrection rules",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 4,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 2,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.7777777777777778,
+  "recall": 0.7,
+  "f1": 0.7368421052631577,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 0,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

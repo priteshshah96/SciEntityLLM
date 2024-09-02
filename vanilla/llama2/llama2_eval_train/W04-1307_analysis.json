@@ -1,0 +1,171 @@
+{
+  "doc_key": "W04-1307",
+  "gold_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "realistic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "material"
+    },
+    {
+      "entity": "linguistics",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Computational model",
+      "category": "task"
+    },
+    {
+      "entity": "Word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Realistic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "Statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Acquisition",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computational model",
+      "predicted": "Computational model",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "cognitive psychology",
+      "predicted": "cognitive psychology",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "linguistics",
+      "predicted": "linguistics",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "statistical learning mechanisms",
+      "predicted": "Statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "gold": "word segmentation",
+      "predicted": "Word segmentation",
+      "category": "task"
+    },
+    {
+      "gold": "realistic acquisition",
+      "predicted": "Realistic acquisition",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Acquisition",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 1,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.5,
+  "f1": 0.4615384615384615,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 7,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 1,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

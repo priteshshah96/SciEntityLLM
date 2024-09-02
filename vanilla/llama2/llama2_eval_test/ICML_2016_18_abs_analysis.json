@@ -1,0 +1,272 @@
+{
+  "doc_key": "ICML_2016_18_abs",
+  "gold_entities": [
+    {
+      "entity": "Object Recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "categorization of objects",
+      "category": "task"
+    },
+    {
+      "entity": "estimating object pose",
+      "category": "task"
+    },
+    {
+      "entity": "object category recognition",
+      "category": "task"
+    },
+    {
+      "entity": "object pose estimation",
+      "category": "task"
+    },
+    {
+      "entity": "object recognition",
+      "category": "task"
+    },
+    {
+      "entity": "pose estimation",
+      "category": "task"
+    },
+    {
+      "entity": "view-invariant representation",
+      "category": "method"
+    },
+    {
+      "entity": "deep archi-tectures",
+      "category": "method"
+    },
+    {
+      "entity": "Deep learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "Convolutional Neural Networks (CNN) architectures",
+      "category": "method"
+    },
+    {
+      "entity": "CNN models",
+      "category": "method"
+    },
+    {
+      "entity": "layers of distributed representations",
+      "category": "method"
+    },
+    {
+      "entity": "CNNs",
+      "category": "method"
+    },
+    {
+      "entity": "object category representations",
+      "category": "method"
+    },
+    {
+      "entity": "pose information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object pose information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-view datasets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Object Recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Object pose estimation",
+      "category": "task"
+    },
+    {
+      "entity": "Convolutional Neural Networks (CNN)",
+      "category": "method"
+    },
+    {
+      "entity": "Layers",
+      "category": "method"
+    },
+    {
+      "entity": "distributed representations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multi-view datasets",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "layers",
+      "predicted": "Layers",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "object pose estimation",
+      "predicted": "Object pose estimation",
+      "category": "task"
+    },
+    {
+      "gold": "object recognition",
+      "predicted": "Object Recognition",
+      "category": "task"
+    },
+    {
+      "gold": "multi-view datasets",
+      "predicted": "Multi-view datasets",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Convolutional Neural Networks (CNN) architectures",
+      "predicted": "Convolutional Neural Networks (CNN)",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "layers of distributed representations",
+      "predicted": "distributed representations",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Object Recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "categorization of objects",
+      "category": "task"
+    },
+    {
+      "entity": "estimating object pose",
+      "category": "task"
+    },
+    {
+      "entity": "object category recognition",
+      "category": "task"
+    },
+    {
+      "entity": "pose estimation",
+      "category": "task"
+    },
+    {
+      "entity": "view-invariant representation",
+      "category": "method"
+    },
+    {
+      "entity": "deep archi-tectures",
+      "category": "method"
+    },
+    {
+      "entity": "Deep learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "CNN models",
+      "category": "method"
+    },
+    {
+      "entity": "CNNs",
+      "category": "method"
+    },
+    {
+      "entity": "object category representations",
+      "category": "method"
+    },
+    {
+      "entity": "pose information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object pose information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "method": 8,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.15789473684210525,
+  "f1": 0.23999999999999996,
+  "counts": {
+    "gold_entities": 19,
+    "predicted_entities": 6,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 13,
+    "extra_entities": 0,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

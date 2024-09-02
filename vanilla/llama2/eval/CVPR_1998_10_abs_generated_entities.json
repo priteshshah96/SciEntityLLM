@@ -1,0 +1,291 @@
+{
+  "gold_entities": [
+    {
+      "entity": "localized motion estimates",
+      "category": "Method"
+    },
+    {
+      "entity": "motion model",
+      "category": "Method"
+    },
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "compact description of a video sequence",
+      "category": "Task"
+    },
+    {
+      "entity": "video browsing and retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "compression",
+      "category": "Task"
+    },
+    {
+      "entity": "mosaicing",
+      "category": "Task"
+    },
+    {
+      "entity": "visual summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "content summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "image map",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dominant motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lack of temporal consistency",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal consistency",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "validity of the dominant motion assumption",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dominant motion assumption",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "oscillation between different scene interpretations and poor registration",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "generic temporal constraint",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "compact description",
+      "category": "Task"
+    },
+    {
+      "entity": "video sequence",
+      "category": "Task"
+    },
+    {
+      "entity": "image map",
+      "category": "Method"
+    },
+    {
+      "entity": "dominant motion",
+      "category": "Method"
+    },
+    {
+      "entity": "register",
+      "category": "Task"
+    },
+    {
+      "entity": "temporally localized motion estimates",
+      "category": "Method"
+    },
+    {
+      "entity": "scene interpretations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "meaningful content summarization",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "domains",
+      "category": "Generic"
+    },
+    {
+      "entity": "representation",
+      "category": "Generic"
+    },
+    {
+      "entity": "task",
+      "category": "Generic"
+    },
+    {
+      "entity": "estimates",
+      "category": "Generic"
+    },
+    {
+      "entity": "oscillation",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "image map",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "image map",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dominant motion",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dominant motion",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "robustness",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "robustness",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "robustness",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "robustness",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "compact description of a video sequence",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "compact description",
+          "category": "Task"
+        },
+        {
+          "entity": "video sequence",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "localized motion estimates",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "temporally localized motion estimates",
+        "category": "Method"
+      },
+      "overlap": 0.75
+    },
+    {
+      "gold": {
+        "entity": "content summarization",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "meaningful content summarization",
+        "category": "Task"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "oscillation between different scene interpretations and poor registration",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "scene interpretations",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "motion model",
+      "category": "Method"
+    },
+    {
+      "entity": "video browsing and retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "compression",
+      "category": "Task"
+    },
+    {
+      "entity": "mosaicing",
+      "category": "Task"
+    },
+    {
+      "entity": "visual summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "lack of temporal consistency",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal consistency",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "validity of the dominant motion assumption",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dominant motion assumption",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "generic temporal constraint",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "register",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 17,
+    "generated_count": 9,
+    "generic_count": 5,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

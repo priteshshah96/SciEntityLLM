@@ -1,0 +1,266 @@
+{
+  "doc_key": "P06-4011",
+  "gold_entities": [
+    {
+      "entity": "computational analysis of move structures",
+      "category": "task"
+    },
+    {
+      "entity": "digital learning",
+      "category": "task"
+    },
+    {
+      "entity": "Web-based computer-assisted academic writing",
+      "category": "task"
+    },
+    {
+      "entity": "abstracts  of  research articles",
+      "category": "material"
+    },
+    {
+      "entity": "abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "abstract moves",
+      "category": "material"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    },
+    {
+      "entity": "prototype  concordancer",
+      "category": "method"
+    },
+    {
+      "entity": "CARE",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computational analysis",
+      "category": "task"
+    },
+    {
+      "entity": "move structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "move",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    },
+    {
+      "entity": "abstract moves",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "concordancer",
+      "category": "method"
+    },
+    {
+      "entity": "CARE",
+      "category": "method"
+    },
+    {
+      "entity": "movetagged abstracts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "digital learning",
+      "category": "material"
+    },
+    {
+      "entity": "Web-based computer-assisted academic writing",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "digital learning",
+      "predicted": "digital learning",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "abstract moves",
+      "predicted": "abstract moves",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Web-based computer-assisted academic writing",
+      "predicted": "Web-based computer-assisted academic writing",
+      "category": "task"
+    },
+    {
+      "gold": "abstracts",
+      "predicted": "abstracts",
+      "category": "material"
+    },
+    {
+      "gold": "rhetorical functions",
+      "predicted": "rhetorical functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "language model",
+      "predicted": "language model",
+      "category": "method"
+    },
+    {
+      "gold": "CARE",
+      "predicted": "CARE",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "prototype  concordancer",
+      "predicted": "concordancer",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "computational analysis of move structures",
+      "category": "task"
+    },
+    {
+      "entity": "abstracts  of  research articles",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "computational analysis",
+      "category": "task"
+    },
+    {
+      "entity": "move structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "move",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "movetagged abstracts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 5,
+    "otherscientificterm": 1,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 6,
+    "material": 2,
+    "method": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.38461538461538464,
+  "recall": 0.4166666666666667,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 5,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

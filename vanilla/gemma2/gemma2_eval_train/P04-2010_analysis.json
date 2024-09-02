@@ -1,0 +1,294 @@
+{
+  "doc_key": "P04-2010",
+  "gold_entities": [
+    {
+      "entity": "ensemble learning approach",
+      "category": "method"
+    },
+    {
+      "entity": "Boosting",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "decision-tree classifier",
+      "category": "method"
+    },
+    {
+      "entity": "standalone system",
+      "category": "method"
+    },
+    {
+      "entity": "preprocessing modules",
+      "category": "method"
+    },
+    {
+      "entity": "german pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unannotated text",
+      "category": "material"
+    },
+    {
+      "entity": "textual domain",
+      "category": "material"
+    },
+    {
+      "entity": "manual annotation process",
+      "category": "task"
+    },
+    {
+      "entity": "open-domain question answering",
+      "category": "task"
+    },
+    {
+      "entity": "text summarisation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Ensemble learning",
+      "category": "method"
+    },
+    {
+      "entity": "Resolving German pronouns",
+      "category": "task"
+    },
+    {
+      "entity": "Boosting",
+      "category": "method"
+    },
+    {
+      "entity": "hypotheses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "Decision-tree classifier",
+      "category": "method"
+    },
+    {
+      "entity": "standalone system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Preprocessing modules",
+      "category": "method"
+    },
+    {
+      "entity": "manual annotation process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Unannotated text",
+      "category": "material"
+    },
+    {
+      "entity": "textual domain",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Open-domain question answering",
+      "category": "task"
+    },
+    {
+      "entity": "Text summarisation",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Boosting",
+      "predicted": "Boosting",
+      "category": "method"
+    },
+    {
+      "gold": "classifiers",
+      "predicted": "Classifiers",
+      "category": "method"
+    },
+    {
+      "gold": "decision-tree classifier",
+      "predicted": "Decision-tree classifier",
+      "category": "method"
+    },
+    {
+      "gold": "standalone system",
+      "predicted": "standalone system",
+      "category": "method"
+    },
+    {
+      "gold": "preprocessing modules",
+      "predicted": "Preprocessing modules",
+      "category": "method"
+    },
+    {
+      "gold": "unannotated text",
+      "predicted": "Unannotated text",
+      "category": "material"
+    },
+    {
+      "gold": "textual domain",
+      "predicted": "textual domain",
+      "category": "material"
+    },
+    {
+      "gold": "manual annotation process",
+      "predicted": "manual annotation process",
+      "category": "task"
+    },
+    {
+      "gold": "open-domain question answering",
+      "predicted": "Open-domain question answering",
+      "category": "task"
+    },
+    {
+      "gold": "text summarisation",
+      "predicted": "Text summarisation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "ensemble learning approach",
+      "predicted": "Ensemble learning",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "german pronouns",
+      "predicted": "Resolving German pronouns",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "Boosting",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "decision-tree classifier",
+      "category": "method"
+    },
+    {
+      "entity": "preprocessing modules",
+      "category": "method"
+    },
+    {
+      "entity": "unannotated text",
+      "category": "material"
+    },
+    {
+      "entity": "open-domain question answering",
+      "category": "task"
+    },
+    {
+      "entity": "text summarisation",
+      "category": "task"
+    },
+    {
+      "entity": "ensemble learning approach",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "pronouns",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "hypotheses",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 2,
+    "material": 2,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "task": 3,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 5,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07692307692307693,
+  "recall": 0.07692307692307693,
+  "f1": 0.07692307692307693,
+  "category_precision": 0.8461538461538461,
+  "category_recall": 0.8461538461538461,
+  "category_f1": 0.8461538461538461,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 10,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 8,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 1,
+    "generic_entities": 3,
+    "correct_predictions": 1,
+    "correct_categories": 11
+  }
+}

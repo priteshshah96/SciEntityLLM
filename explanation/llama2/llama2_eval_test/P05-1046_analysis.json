@@ -1,0 +1,303 @@
+{
+  "doc_key": "P05-1046",
+  "gold_entities": [
+    {
+      "entity": "information extraction techniques",
+      "category": "method"
+    },
+    {
+      "entity": "hidden Markov models (HMMs)",
+      "category": "method"
+    },
+    {
+      "entity": "generative model",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised HMM learning",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "supervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "semi-supervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "supervised training data",
+      "category": "material"
+    },
+    {
+      "entity": "classified advertisements",
+      "category": "material"
+    },
+    {
+      "entity": "bibliographic citations",
+      "category": "material"
+    },
+    {
+      "entity": "field structured text",
+      "category": "material"
+    },
+    {
+      "entity": "unlabeled examples",
+      "category": "material"
+    },
+    {
+      "entity": "labeled examples",
+      "category": "material"
+    },
+    {
+      "entity": "labeled data",
+      "category": "material"
+    },
+    {
+      "entity": "field structured extraction tasks",
+      "category": "task"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracies",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "information extraction techniques",
+      "category": "task"
+    },
+    {
+      "entity": "supervised training data",
+      "category": "material"
+    },
+    {
+      "entity": "field structured extraction tasks",
+      "category": "task"
+    },
+    {
+      "entity": "classified advertisements",
+      "category": "task"
+    },
+    {
+      "entity": "bibliographic citations",
+      "category": "task"
+    },
+    {
+      "entity": "hidden Markov models (HMMs)",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised HMM learning",
+      "category": "method"
+    },
+    {
+      "entity": "semi-supervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "accuracies",
+      "category": "method"
+    },
+    {
+      "entity": "unlabeled examples",
+      "category": "material"
+    },
+    {
+      "entity": "labeled data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "information extraction techniques",
+      "predicted": "information extraction techniques",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "classified advertisements",
+      "predicted": "classified advertisements",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "bibliographic citations",
+      "predicted": "bibliographic citations",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "accuracies",
+      "predicted": "accuracies",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "hidden Markov models (HMMs)",
+      "predicted": "hidden Markov models (HMMs)",
+      "category": "method"
+    },
+    {
+      "gold": "unsupervised HMM learning",
+      "predicted": "unsupervised HMM learning",
+      "category": "method"
+    },
+    {
+      "gold": "semi-supervised methods",
+      "predicted": "semi-supervised methods",
+      "category": "method"
+    },
+    {
+      "gold": "supervised training data",
+      "predicted": "supervised training data",
+      "category": "material"
+    },
+    {
+      "gold": "unlabeled examples",
+      "predicted": "unlabeled examples",
+      "category": "material"
+    },
+    {
+      "gold": "labeled data",
+      "predicted": "labeled data",
+      "category": "material"
+    },
+    {
+      "gold": "field structured extraction tasks",
+      "predicted": "field structured extraction tasks",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "generative model",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "supervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "field structured text",
+      "category": "material"
+    },
+    {
+      "entity": "labeled examples",
+      "category": "material"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "prior knowledge|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "material": 7,
+    "task": 1,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "material": 3,
+    "method": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.6363636363636364,
+  "recall": 0.3888888888888889,
+  "f1": 0.4827586206896552,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "exact_matches_with_category": 7,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 0,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

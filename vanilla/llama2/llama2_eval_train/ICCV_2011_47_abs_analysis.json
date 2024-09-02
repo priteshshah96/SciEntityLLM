@@ -1,0 +1,220 @@
+{
+  "doc_key": "ICCV_2011_47_abs",
+  "gold_entities": [
+    {
+      "entity": "detecting 3D objects",
+      "category": "task"
+    },
+    {
+      "entity": "multimodalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dense depth map",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complementary object information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "time consuming training stage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "untextured objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "templates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commodity hardware",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single modalities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "object",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Image",
+      "category": "method"
+    },
+    {
+      "entity": "depth map",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Modalities",
+      "category": "method"
+    },
+    {
+      "entity": "Template",
+      "category": "method"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    },
+    {
+      "entity": "clutter",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "texture",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "image",
+      "predicted": "Image",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "modalities",
+      "predicted": "Modalities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "dense depth map",
+      "predicted": "depth map",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "detecting 3D objects",
+      "category": "task"
+    },
+    {
+      "entity": "multimodalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complementary object information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "time consuming training stage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "untextured objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "templates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commodity hardware",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single modalities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "object",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Template",
+      "category": "method"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    },
+    {
+      "entity": "clutter",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "texture",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 10
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 4,
+    "method": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 5,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

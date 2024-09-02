@@ -1,0 +1,307 @@
+{
+  "doc_key": "P04-2005",
+  "gold_entities": [
+    {
+      "entity": "automatically acquiring  English topic signatures",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language Processing (NLP) applications",
+      "category": "task"
+    },
+    {
+      "entity": "Word Sense Disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "entity": "Text Summarisation",
+      "category": "task"
+    },
+    {
+      "entity": "WSD task",
+      "category": "task"
+    },
+    {
+      "entity": "concept",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word sense",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic signature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic signatures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic signatures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese text",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "WSD datasets",
+      "category": "material"
+    },
+    {
+      "entity": "second-order vector cooccurrence algorithm",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "English topic signatures",
+      "category": "task"
+    },
+    {
+      "entity": "concept",
+      "category": "method"
+    },
+    {
+      "entity": "word sense",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language processing nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Word Sense Disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "entity": "text summarisation",
+      "category": "task"
+    },
+    {
+      "entity": "chinese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "vector cooccurrence algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "standard WSD datasets",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "concept",
+      "predicted": "concept",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "Chinese",
+      "predicted": "chinese",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Word Sense Disambiguation (WSD)",
+      "predicted": "Word Sense Disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "gold": "Text Summarisation",
+      "predicted": "text summarisation",
+      "category": "task"
+    },
+    {
+      "gold": "word sense",
+      "predicted": "word sense",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Web",
+      "predicted": "Web",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "automatically acquiring  English topic signatures",
+      "predicted": "English topic signatures",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "WSD datasets",
+      "predicted": "standard WSD datasets",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "second-order vector cooccurrence algorithm",
+      "predicted": "vector cooccurrence algorithm",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Natural Language Processing (NLP) applications",
+      "category": "task"
+    },
+    {
+      "entity": "WSD task",
+      "category": "task"
+    },
+    {
+      "entity": "topic signature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic signatures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic signatures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese text",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "natural language processing nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "topic signatures|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "otherscientificterm": 6,
+    "material": 5,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.23529411764705882,
+  "f1": 0.27586206896551724,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

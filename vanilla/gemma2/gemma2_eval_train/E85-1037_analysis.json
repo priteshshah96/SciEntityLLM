@@ -1,0 +1,235 @@
+{
+  "doc_key": "E85-1037",
+  "gold_entities": [
+    {
+      "entity": "Systemic grammar",
+      "category": "method"
+    },
+    {
+      "entity": "AI problem solving techniques",
+      "category": "method"
+    },
+    {
+      "entity": "systemic grammar",
+      "category": "method"
+    },
+    {
+      "entity": "systemic grammar",
+      "category": "method"
+    },
+    {
+      "entity": "problem solving",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic theory",
+      "category": "method"
+    },
+    {
+      "entity": "AI text generation",
+      "category": "task"
+    },
+    {
+      "entity": "text generation",
+      "category": "task"
+    },
+    {
+      "entity": "text generation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "systemic grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "AI text generation",
+      "category": "task"
+    },
+    {
+      "entity": "Implementations",
+      "category": "method"
+    },
+    {
+      "entity": "Systemic text generation",
+      "category": "task"
+    },
+    {
+      "entity": "AI problem solving techniques",
+      "category": "method"
+    },
+    {
+      "entity": "systemic grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "problem solving",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "alternatives",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Text generation",
+      "category": "task"
+    },
+    {
+      "entity": "linguistic theory",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Systemic grammar",
+      "predicted": "systemic grammar",
+      "category": "method"
+    },
+    {
+      "gold": "AI problem solving techniques",
+      "predicted": "AI problem solving techniques",
+      "category": "method"
+    },
+    {
+      "gold": "systemic grammar",
+      "predicted": "systemic grammar",
+      "category": "method"
+    },
+    {
+      "gold": "problem solving",
+      "predicted": "problem solving",
+      "category": "method"
+    },
+    {
+      "gold": "linguistic theory",
+      "predicted": "linguistic theory",
+      "category": "method"
+    },
+    {
+      "gold": "AI text generation",
+      "predicted": "AI text generation",
+      "category": "task"
+    },
+    {
+      "gold": "text generation",
+      "predicted": "Text generation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "text generation",
+      "predicted": "Systemic text generation",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "AI problem solving techniques",
+      "category": "method"
+    },
+    {
+      "entity": "AI text generation",
+      "category": "task"
+    },
+    {
+      "entity": "text generation",
+      "category": "task"
+    },
+    {
+      "entity": "text generation",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "systemic grammar",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Implementations",
+      "category": "method"
+    },
+    {
+      "entity": "alternatives",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "systemic grammar|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "text generation|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 3,
+    "method": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.2857142857142857,
+  "f1": 0.25,
+  "category_precision": 0.5,
+  "category_recall": 0.5555555555555556,
+  "category_f1": 0.5263157894736842,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 3,
+    "correct_predictions": 2,
+    "correct_categories": 5
+  }
+}

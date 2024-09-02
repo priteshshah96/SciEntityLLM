@@ -1,0 +1,288 @@
+{
+  "doc_key": "CVPR_2005_18_abs",
+  "gold_entities": [
+    {
+      "entity": "embedding methods",
+      "category": "method"
+    },
+    {
+      "entity": "closed-form segmentation solution",
+      "category": "method"
+    },
+    {
+      "entity": "subspace-segmentation methods",
+      "category": "method"
+    },
+    {
+      "entity": "3-D reconstruction",
+      "category": "method"
+    },
+    {
+      "entity": "3-D reconstruction",
+      "category": "method"
+    },
+    {
+      "entity": "segmenting feature points of piece-wise planar structures",
+      "category": "task"
+    },
+    {
+      "entity": "homographies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "higherdimensional real or complex space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "homography",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complex bilinear form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "real quadratic form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "homographies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "piecewise planar scene",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "2-D images",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "homography",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "perspective image",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Embedding",
+      "category": "method"
+    },
+    {
+      "entity": "real or complex space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Subspace-segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "3-D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "piecewise planar scene",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Closed-form solution",
+      "category": "method"
+    },
+    {
+      "entity": "algebraic properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relations of homographies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "3-D reconstruction",
+      "predicted": "3-D reconstruction",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "homography",
+      "predicted": "homography",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "piecewise planar scene",
+      "predicted": "piecewise planar scene",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "embedding methods",
+      "predicted": "Embedding",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "closed-form segmentation solution",
+      "predicted": "Closed-form solution",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "subspace-segmentation methods",
+      "predicted": "Subspace-segmentation",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "higherdimensional real or complex space",
+      "predicted": "real or complex space",
+      "score": 0.8,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "3-D reconstruction",
+      "category": "method"
+    },
+    {
+      "entity": "segmenting feature points of piece-wise planar structures",
+      "category": "task"
+    },
+    {
+      "entity": "homographies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "homographies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complex bilinear form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "real quadratic form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "2-D images",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "perspective image",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "algebraic properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relations of homographies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "3-D reconstruction|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "homographies|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "task": 1,
+    "otherscientificterm": 7,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "method": 3,
+    "task": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.14285714285714285,
+  "f1": 0.16,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

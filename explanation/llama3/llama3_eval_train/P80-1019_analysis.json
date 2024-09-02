@@ -1,0 +1,273 @@
+{
+  "doc_key": "P80-1019",
+  "gold_entities": [
+    {
+      "entity": "natural language interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personal computers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphics displays",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "decoding",
+      "category": "method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "method"
+    },
+    {
+      "entity": "robust  communication procedures",
+      "category": "method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "literal meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "nonliteral aspects of communication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "communication procedures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "direct imitation of human performance",
+      "category": "method"
+    },
+    {
+      "entity": "powerful personal computers",
+      "category": "material"
+    },
+    {
+      "entity": "integral graphics displays",
+      "category": "material"
+    },
+    {
+      "entity": "human communication needs",
+      "category": "material"
+    },
+    {
+      "entity": "interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "traditional natural language interfaces",
+      "category": "method"
+    },
+    {
+      "entity": "judicious mixture",
+      "category": "method"
+    },
+    {
+      "entity": "techniques",
+      "category": "method"
+    },
+    {
+      "entity": "methods",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language interfaces",
+      "predicted": "natural language interfaces",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "natural language interfaces",
+      "predicted": "natural language interfaces",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "natural language interfaces",
+      "predicted": "traditional natural language interfaces",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "personal computers",
+      "predicted": "powerful personal computers",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "graphics displays",
+      "predicted": "integral graphics displays",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "non-literal aspects of communication",
+      "predicted": "nonliteral aspects of communication",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "robust  communication procedures",
+      "predicted": "communication procedures",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "decoding",
+      "category": "method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "literal meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "direct imitation of human performance",
+      "category": "method"
+    },
+    {
+      "entity": "human communication needs",
+      "category": "material"
+    },
+    {
+      "entity": "interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "judicious mixture",
+      "category": "method"
+    },
+    {
+      "entity": "techniques",
+      "category": "method"
+    },
+    {
+      "entity": "methods",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "natural language interfaces|otherscientificterm": {
+      "count": 3,
+      "exact": 2,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "non-literal aspects of communication|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 5,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5,
+    "method": 4,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 5,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,233 @@
+{
+  "doc_key": "C92-4199",
+  "gold_entities": [
+    {
+      "entity": "Word Identification",
+      "category": "task"
+    },
+    {
+      "entity": "Chinese Natural Language Processing",
+      "category": "task"
+    },
+    {
+      "entity": "title-driven name recognition",
+      "category": "task"
+    },
+    {
+      "entity": "adaptive dynamic word formation",
+      "category": "task"
+    },
+    {
+      "entity": "identification of 2-character and 3-character Chinese names without title",
+      "category": "task"
+    },
+    {
+      "entity": "name identification",
+      "category": "task"
+    },
+    {
+      "entity": "sublanguage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unknown words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personal names",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Chinese newspapers",
+      "category": "material"
+    },
+    {
+      "entity": "NTHU's statistic-based system",
+      "category": "method"
+    },
+    {
+      "entity": "WI systems",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Word Identification",
+      "category": "task"
+    },
+    {
+      "entity": "chinese natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sublanguage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "title-driven name recognition",
+      "category": "method"
+    },
+    {
+      "entity": "adaptive dynamic word formation",
+      "category": "method"
+    },
+    {
+      "entity": "identification of 2-character and 3-character Chinese names without title",
+      "category": "method"
+    },
+    {
+      "entity": "nthus statisticbased system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wi systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "name identification",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Chinese Natural Language Processing",
+      "predicted": "chinese natural language processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "title-driven name recognition",
+      "predicted": "title-driven name recognition",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "adaptive dynamic word formation",
+      "predicted": "adaptive dynamic word formation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "identification of 2-character and 3-character Chinese names without title",
+      "predicted": "identification of 2-character and 3-character Chinese names without title",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "WI systems",
+      "predicted": "wi systems",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Word Identification",
+      "predicted": "Word Identification",
+      "category": "task"
+    },
+    {
+      "gold": "name identification",
+      "predicted": "name identification",
+      "category": "task"
+    },
+    {
+      "gold": "sublanguage",
+      "predicted": "sublanguage",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unknown words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personal names",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Chinese newspapers",
+      "category": "material"
+    },
+    {
+      "entity": "NTHU's statistic-based system",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "nthus statisticbased system",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 6,
+    "otherscientificterm": 3,
+    "material": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 4,
+    "method": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 4,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.25,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 9,
+    "exact_matches": 5,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 1,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

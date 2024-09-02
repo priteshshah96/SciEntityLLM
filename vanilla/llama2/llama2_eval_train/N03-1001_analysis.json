@@ -1,0 +1,285 @@
+{
+  "doc_key": "N03-1001",
+  "gold_entities": [
+    {
+      "entity": "utterance classification",
+      "category": "task"
+    },
+    {
+      "entity": "utterance classification",
+      "category": "task"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "material"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "material"
+    },
+    {
+      "entity": "spoken language system domains",
+      "category": "material"
+    },
+    {
+      "entity": "domain independent acoustic models",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "word-trigram recognition",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised training",
+      "category": "method"
+    },
+    {
+      "entity": "phone n-gram model",
+      "category": "method"
+    },
+    {
+      "entity": "phone-string classifier",
+      "category": "method"
+    },
+    {
+      "entity": "classification accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Utterance classification",
+      "category": "task"
+    },
+    {
+      "entity": "Manual transcription",
+      "category": "task"
+    },
+    {
+      "entity": "Acoustic models",
+      "category": "method"
+    },
+    {
+      "entity": "Off-the-shelf classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "Phone n-gram model",
+      "category": "method"
+    },
+    {
+      "entity": "Phone-string classifier",
+      "category": "method"
+    },
+    {
+      "entity": "Spoken language system domains",
+      "category": "material"
+    },
+    {
+      "entity": "Recognition",
+      "category": "method"
+    },
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "domains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "surprisingly close",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "manual transcription",
+      "predicted": "Manual transcription",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "utterance classification",
+      "predicted": "Utterance classification",
+      "category": "task"
+    },
+    {
+      "gold": "spoken language system domains",
+      "predicted": "Spoken language system domains",
+      "category": "material"
+    },
+    {
+      "gold": "phone n-gram model",
+      "predicted": "Phone n-gram model",
+      "category": "method"
+    },
+    {
+      "gold": "phone-string classifier",
+      "predicted": "Phone-string classifier",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "domain independent acoustic models",
+      "predicted": "Acoustic models",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "classifiers",
+      "predicted": "Off-the-shelf classifiers",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "word-trigram recognition",
+      "predicted": "Recognition",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "utterance classification",
+      "category": "task"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "material"
+    },
+    {
+      "entity": "unsupervised training",
+      "category": "method"
+    },
+    {
+      "entity": "classification accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "domains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "surprisingly close",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "utterance classification|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "manual transcription|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 3,
+    "method": 6,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 5,
+    "material": 2,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.3333333333333333,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 12,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 4,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

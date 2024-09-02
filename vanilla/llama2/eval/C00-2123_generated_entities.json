@@ -1,0 +1,213 @@
+{
+  "gold_entities": [
+    {
+      "entity": "verbmobil task",
+      "category": "Material"
+    },
+    {
+      "entity": "german-english",
+      "category": "Material"
+    },
+    {
+      "entity": "dynamic programming (dp)",
+      "category": "Method"
+    },
+    {
+      "entity": "dp-based solution",
+      "category": "Method"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "Method"
+    },
+    {
+      "entity": "search algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical machine translation (mt)",
+      "category": "Task"
+    },
+    {
+      "entity": "limited-domain spoken-language task",
+      "category": "Task"
+    },
+    {
+      "entity": "word reordering",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "search procedure",
+      "category": "Task"
+    },
+    {
+      "entity": "dynamic programming",
+      "category": "Method"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "Task"
+    },
+    {
+      "entity": "word reordering",
+      "category": "Method"
+    },
+    {
+      "entity": "source language",
+      "category": "Task"
+    },
+    {
+      "entity": "target language",
+      "category": "Task"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "Method"
+    },
+    {
+      "entity": "limited-domain spoken-language task",
+      "category": "Task"
+    },
+    {
+      "entity": "verbmobil task",
+      "category": "Task"
+    },
+    {
+      "entity": "experimental tests",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "search procedure",
+      "category": "Generic"
+    },
+    {
+      "entity": "technique",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "traveling salesman problem",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "traveling salesman problem",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word reordering",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "word reordering",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "limited-domain spoken-language task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "limited-domain spoken-language task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "verbmobil task",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "verbmobil task",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "limited-domain spoken-language task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "limited-domain spoken-language task",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "dynamic programming (dp)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dynamic programming",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "german-english",
+      "category": "Material"
+    },
+    {
+      "entity": "dp-based solution",
+      "category": "Method"
+    },
+    {
+      "entity": "search algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical machine translation (mt)",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "search procedure",
+      "category": "Task"
+    },
+    {
+      "entity": "source language",
+      "category": "Task"
+    },
+    {
+      "entity": "target language",
+      "category": "Task"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "Method"
+    },
+    {
+      "entity": "experimental tests",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

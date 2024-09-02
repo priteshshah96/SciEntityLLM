@@ -1,0 +1,290 @@
+{
+  "gold_entities": [
+    {
+      "entity": "semantic components",
+      "category": "Method"
+    },
+    {
+      "entity": "creation of city models",
+      "category": "Task"
+    },
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "Task"
+    },
+    {
+      "entity": "tiling",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tilings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "facade textures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "facades",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "city models",
+      "category": "Task"
+    },
+    {
+      "entity": "virtual or as-built",
+      "category": "Material"
+    },
+    {
+      "entity": "facade images",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantic components",
+      "category": "Method"
+    },
+    {
+      "entity": "tiling",
+      "category": "Method"
+    },
+    {
+      "entity": "novel tilings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "facade textures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occluded parts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "overall structure",
+      "category": "Metric"
+    },
+    {
+      "entity": "detailed textures",
+      "category": "Metric"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "building styles",
+      "category": "Material"
+    },
+    {
+      "entity": "potential of the method",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "multiple standard datasets",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "semantic components",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "semantic components",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "tiling",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "tiling",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "facade textures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "facade textures",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "inpainted parts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "inpainted parts",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "semantic components",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "semantic components",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "facade textures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "facade textures",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "inpainted parts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "inpainted parts",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "creation of city models",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "city models",
+          "category": "Task"
+        },
+        {
+          "entity": "potential of the method",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "synthesizing complex, photo-realistic facade images",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "facade images",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "occluded parts inpainted",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "occluded parts",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "tilings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "facades",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "virtual or as-built",
+      "category": "Material"
+    },
+    {
+      "entity": "novel tilings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "overall structure",
+      "category": "Metric"
+    },
+    {
+      "entity": "detailed textures",
+      "category": "Metric"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "building styles",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 15,
+    "generic_count": 4,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

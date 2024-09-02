@@ -1,0 +1,249 @@
+{
+  "doc_key": "E89-1016",
+  "gold_entities": [
+    {
+      "entity": "evaluation of Natural Language systems",
+      "category": "task"
+    },
+    {
+      "entity": "data retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "database access",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language systems",
+      "category": "method"
+    },
+    {
+      "entity": "Wizard of Oz technique",
+      "category": "method"
+    },
+    {
+      "entity": "prototype Natural Language system",
+      "category": "method"
+    },
+    {
+      "entity": "Natural Language systems",
+      "category": "method"
+    },
+    {
+      "entity": "nl requirements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual reference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "task dialogues",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Task",
+      "category": "task"
+    },
+    {
+      "entity": "natural language systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "data retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "laboratory study",
+      "category": "method"
+    },
+    {
+      "entity": "Wizard of Oz technique",
+      "category": "method"
+    },
+    {
+      "entity": "NL requirements",
+      "category": "material"
+    },
+    {
+      "entity": "task dialogues",
+      "category": "material"
+    },
+    {
+      "entity": "prototype Natural Language system",
+      "category": "material"
+    },
+    {
+      "entity": "database access",
+      "category": "task"
+    },
+    {
+      "entity": "contextual reference",
+      "category": "material"
+    },
+    {
+      "entity": "structure of the information source",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Natural Language systems",
+      "predicted": "natural language systems",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "prototype Natural Language system",
+      "predicted": "prototype Natural Language system",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "nl requirements",
+      "predicted": "NL requirements",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "contextual reference",
+      "predicted": "contextual reference",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "data retrieval",
+      "predicted": "data retrieval",
+      "category": "task"
+    },
+    {
+      "gold": "database access",
+      "predicted": "database access",
+      "category": "task"
+    },
+    {
+      "gold": "Wizard of Oz technique",
+      "predicted": "Wizard of Oz technique",
+      "category": "method"
+    },
+    {
+      "gold": "task dialogues",
+      "predicted": "task dialogues",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "evaluation of Natural Language systems",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language systems",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Task",
+      "category": "task"
+    },
+    {
+      "entity": "evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "laboratory study",
+      "category": "method"
+    },
+    {
+      "entity": "structure of the information source",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "Natural Language systems|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "method": 4,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "otherscientificterm": 1,
+    "method": 2,
+    "material": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4,
+  "f1": 0.3636363636363636,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 12,
+    "exact_matches": 4,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 9
+  },
+  "empty_category_entities": []
+}

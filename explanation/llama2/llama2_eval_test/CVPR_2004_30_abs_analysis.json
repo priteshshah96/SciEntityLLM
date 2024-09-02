@@ -1,0 +1,281 @@
+{
+  "doc_key": "CVPR_2004_30_abs",
+  "gold_entities": [
+    {
+      "entity": "Background modeling",
+      "category": "task"
+    },
+    {
+      "entity": "vision systems",
+      "category": "task"
+    },
+    {
+      "entity": "detection",
+      "category": "task"
+    },
+    {
+      "entity": "modeling and subtraction of such scenes",
+      "category": "task"
+    },
+    {
+      "entity": "modeling of the dynamic characteristics",
+      "category": "task"
+    },
+    {
+      "entity": "computation of features",
+      "category": "task"
+    },
+    {
+      "entity": "density estimation",
+      "category": "task"
+    },
+    {
+      "entity": "static or quasistatic structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "persistent dynamic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optical flow",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "higher dimensional space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "datadependent bandwidth",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "kernels",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "vision systems",
+      "category": "task"
+    },
+    {
+      "entity": "scenes",
+      "category": "material"
+    },
+    {
+      "entity": "static or quasistatic structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dynamic behavior in time",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optical flow",
+      "category": "method"
+    },
+    {
+      "entity": "kernels",
+      "category": "material"
+    },
+    {
+      "entity": "data-dependent bandwidth",
+      "category": "method"
+    },
+    {
+      "entity": "higher dimensional space",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "experiments",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "optical flow",
+      "predicted": "optical flow",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "higher dimensional space",
+      "predicted": "higher dimensional space",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "kernels",
+      "predicted": "kernels",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "vision systems",
+      "predicted": "vision systems",
+      "category": "task"
+    },
+    {
+      "gold": "static or quasistatic structures",
+      "predicted": "static or quasistatic structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Background modeling",
+      "category": "task"
+    },
+    {
+      "entity": "detection",
+      "category": "task"
+    },
+    {
+      "entity": "modeling and subtraction of such scenes",
+      "category": "task"
+    },
+    {
+      "entity": "modeling of the dynamic characteristics",
+      "category": "task"
+    },
+    {
+      "entity": "computation of features",
+      "category": "task"
+    },
+    {
+      "entity": "density estimation",
+      "category": "task"
+    },
+    {
+      "entity": "persistent dynamic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "datadependent bandwidth",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "scenes",
+      "category": "material"
+    },
+    {
+      "entity": "dynamic behavior in time",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data-dependent bandwidth",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "experiments",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "otherscientificterm": 7,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 2,
+    "otherscientificterm": 2,
+    "method": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 7,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.13333333333333333,
+  "f1": 0.16,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

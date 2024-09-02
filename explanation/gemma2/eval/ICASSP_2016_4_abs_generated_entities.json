@@ -1,0 +1,367 @@
+{
+  "gold_entities": [
+    {
+      "entity": "high-temporal resolution, intracranial eeg data",
+      "category": "Material"
+    },
+    {
+      "entity": "manifold",
+      "category": "Material"
+    },
+    {
+      "entity": "linear methods",
+      "category": "Method"
+    },
+    {
+      "entity": "analysis of discrete events",
+      "category": "Task"
+    },
+    {
+      "entity": "dimensionality reduction",
+      "category": "Task"
+    },
+    {
+      "entity": "assessing feasibility of classification",
+      "category": "Task"
+    },
+    {
+      "entity": "classification",
+      "category": "Task"
+    },
+    {
+      "entity": "dimensionality reduction",
+      "category": "Task"
+    },
+    {
+      "entity": "hfo analysis",
+      "category": "Task"
+    },
+    {
+      "entity": "clinical use of hfo features",
+      "category": "Task"
+    },
+    {
+      "entity": "high frequency oscillations (hfos)",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "epileptic brain tissue and activity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hfos",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linear manifold",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "manifold",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "bounds",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "bayes classification error",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hfos",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hfo features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discrete events",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "action potentials",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multi-unit activity",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "high frequency oscillations (hfos)",
+      "category": "Task"
+    },
+    {
+      "entity": "epileptic brain tissue and activity",
+      "category": "Material"
+    },
+    {
+      "entity": "biomarker",
+      "category": "Task"
+    },
+    {
+      "entity": "intracranial eeg data",
+      "category": "Material"
+    },
+    {
+      "entity": "dimensionality reduction",
+      "category": "Method"
+    },
+    {
+      "entity": "manifold",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linear manifold",
+      "category": "Method"
+    },
+    {
+      "entity": "classification",
+      "category": "Task"
+    },
+    {
+      "entity": "bayes classification error",
+      "category": "Metric"
+    },
+    {
+      "entity": "seizures",
+      "category": "Material"
+    },
+    {
+      "entity": "other processes",
+      "category": "Material"
+    },
+    {
+      "entity": "action potentials",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-unit activity",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "those",
+      "category": "Generic"
+    },
+    {
+      "entity": "those",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "high frequency oscillations (hfos)",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "high frequency oscillations (hfos)",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "epileptic brain tissue and activity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "epileptic brain tissue and activity",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dimensionality reduction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "dimensionality reduction",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "manifold",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "manifold",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "linear manifold",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "linear manifold",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "classification",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayes classification error",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "bayes classification error",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action potentials",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "action potentials",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multi-unit activity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "multi-unit activity",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "classification",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "high-temporal resolution, intracranial eeg data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "intracranial eeg data",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "linear methods",
+      "category": "Method"
+    },
+    {
+      "entity": "analysis of discrete events",
+      "category": "Task"
+    },
+    {
+      "entity": "assessing feasibility of classification",
+      "category": "Task"
+    },
+    {
+      "entity": "dimensionality reduction",
+      "category": "Task"
+    },
+    {
+      "entity": "hfo analysis",
+      "category": "Task"
+    },
+    {
+      "entity": "clinical use of hfo features",
+      "category": "Task"
+    },
+    {
+      "entity": "hfos",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "manifold",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "bounds",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hfos",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hfo features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discrete events",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "biomarker",
+      "category": "Task"
+    },
+    {
+      "entity": "seizures",
+      "category": "Material"
+    },
+    {
+      "entity": "other processes",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "manifold": 2,
+    "dimensionality reduction": 2,
+    "hfos": 2
+  },
+  "distinct_repeated_entities": [
+    "manifold",
+    "dimensionality reduction",
+    "hfos"
+  ],
+  "counts": {
+    "gold_count": 23,
+    "generated_count": 13,
+    "generic_count": 2,
+    "exact_matches": 9,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 3,
+    "repeated_entities": 6
+  }
+}

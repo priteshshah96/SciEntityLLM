@@ -1,0 +1,292 @@
+{
+  "doc_key": "N03-2017",
+  "gold_entities": [
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "English phrases",
+      "category": "material"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Word alignment",
+      "category": "method"
+    },
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English phrases",
+      "category": "material"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Alignment quality",
+      "category": "metric"
+    },
+    {
+      "entity": "disjoint phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Significant improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "Results",
+      "category": "material"
+    },
+    {
+      "entity": "Quality",
+      "category": "metric"
+    },
+    {
+      "entity": "intervals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Phrases",
+      "category": "material"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "disjoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "overlapping",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Mapping",
+      "category": "task"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "material"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "task"
+    },
+    {
+      "entity": "Constraint",
+      "category": "method"
+    },
+    {
+      "entity": "quality",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "word alignment",
+      "predicted": "Word alignment",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "syntaxbased constraint",
+      "predicted": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "cohesion constraint",
+      "predicted": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "English phrases",
+      "predicted": "English phrases",
+      "category": "material"
+    },
+    {
+      "gold": "French sentence",
+      "predicted": "French sentence",
+      "category": "material"
+    },
+    {
+      "gold": "alignment quality",
+      "predicted": "Alignment quality",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "disjoint phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Significant improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "Results",
+      "category": "material"
+    },
+    {
+      "entity": "Quality",
+      "category": "metric"
+    },
+    {
+      "entity": "intervals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Phrases",
+      "category": "material"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "disjoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "overlapping",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Mapping",
+      "category": "task"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "material"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "task"
+    },
+    {
+      "entity": "Constraint",
+      "category": "method"
+    },
+    {
+      "entity": "quality",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "task": 1,
+    "material": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 7,
+    "material": 6,
+    "metric": 3,
+    "task": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23809523809523808,
+  "recall": 0.8333333333333334,
+  "f1": 0.37037037037037035,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 21,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 15,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

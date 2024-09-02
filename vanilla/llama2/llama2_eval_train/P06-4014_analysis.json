@@ -1,0 +1,188 @@
+{
+  "doc_key": "P06-4014",
+  "gold_entities": [
+    {
+      "entity": "LOGON MT demonstrator",
+      "category": "method"
+    },
+    {
+      "entity": "general-purpose NLP components",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic processes",
+      "category": "method"
+    },
+    {
+      "entity": "demonstrator",
+      "category": "task"
+    },
+    {
+      "entity": "hand-built, symbolic resources",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Logon MT",
+      "category": "method"
+    },
+    {
+      "entity": "nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "Pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "Output quality",
+      "category": "metric"
+    },
+    {
+      "entity": "Symbolic resources",
+      "category": "material"
+    },
+    {
+      "entity": "Stochastic processes",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "stochastic processes",
+      "predicted": "Stochastic processes",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "LOGON MT demonstrator",
+      "predicted": "Logon MT",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "machine translation pipeline",
+      "predicted": "Machine translation",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "general-purpose NLP components",
+      "category": "method"
+    },
+    {
+      "entity": "demonstrator",
+      "category": "task"
+    },
+    {
+      "entity": "hand-built, symbolic resources",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "Output quality",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 1,
+    "task": 1,
+    "metric": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.16666666666666666,
+  "f1": 0.15384615384615383,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 7,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,239 @@
+{
+  "gold_entities": [
+    {
+      "entity": "training examples",
+      "category": "Material"
+    },
+    {
+      "entity": "weakly supervised algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "parameter tuning",
+      "category": "Method"
+    },
+    {
+      "entity": "security domain",
+      "category": "Task"
+    },
+    {
+      "entity": "identifying rare behaviours of interest",
+      "category": "Task"
+    },
+    {
+      "entity": "detection of abnormal behaviours",
+      "category": "Task"
+    },
+    {
+      "entity": "rare behaviours of interest",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "behaviours",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "global context",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pragmatic aspects",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "security domain",
+      "category": "Task"
+    },
+    {
+      "entity": "behaviours of interest",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "training examples",
+      "category": "Material"
+    },
+    {
+      "entity": "global context",
+      "category": "Method"
+    },
+    {
+      "entity": "abnormal behaviours",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pragmatic aspects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parameter tuning",
+      "category": "Method"
+    },
+    {
+      "entity": "real-time performance",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "behaviours",
+      "category": "Generic"
+    },
+    {
+      "entity": "they",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "security domain",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "security domain",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training examples",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training examples",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "global context",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "global context",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pragmatic aspects",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "pragmatic aspects",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parameter tuning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "parameter tuning",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "security domain",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "security domain",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training examples",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training examples",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pragmatic aspects",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "pragmatic aspects",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parameter tuning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "parameter tuning",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "identifying rare behaviours of interest",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "behaviours of interest",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "abnormal behaviours",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "weakly supervised algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "detection of abnormal behaviours",
+      "category": "Task"
+    },
+    {
+      "entity": "rare behaviours of interest",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "behaviours",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "real-time performance",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 8,
+    "generic_count": 2,
+    "exact_matches": 5,
+    "exact_category_matches": 4,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

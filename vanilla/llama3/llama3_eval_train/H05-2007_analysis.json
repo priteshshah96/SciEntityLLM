@@ -1,0 +1,230 @@
+{
+  "doc_key": "H05-2007",
+  "gold_entities": [
+    {
+      "entity": "systematic patterns in translation data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patterns in machine translation output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "part-of-speech tag sequences",
+      "category": "material"
+    },
+    {
+      "entity": "diagnostic tool",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation systems",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "partofspeech tag sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Machine translation systems",
+      "category": "material"
+    },
+    {
+      "entity": "Diagnostic tool",
+      "category": "material"
+    },
+    {
+      "entity": "Machine translation output",
+      "category": "material"
+    },
+    {
+      "entity": "Translation data",
+      "category": "material"
+    },
+    {
+      "entity": "systematic patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Developers",
+      "category": "task"
+    },
+    {
+      "entity": "Intended for",
+      "category": "method"
+    },
+    {
+      "entity": "Incorporate",
+      "category": "method"
+    },
+    {
+      "entity": "Describe",
+      "category": "method"
+    },
+    {
+      "entity": "Identify",
+      "category": "task"
+    },
+    {
+      "entity": "Analyze",
+      "category": "task"
+    },
+    {
+      "entity": "Demonstrate",
+      "category": "method"
+    },
+    {
+      "entity": "Explore",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "diagnostic tool",
+      "predicted": "Diagnostic tool",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "machine translation systems",
+      "predicted": "Machine translation systems",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "patterns in machine translation output",
+      "predicted": "Machine translation output",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "part-of-speech tag sequences",
+      "predicted": "partofspeech tag sequences",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "systematic patterns in translation data",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Translation data",
+      "category": "material"
+    },
+    {
+      "entity": "systematic patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Developers",
+      "category": "task"
+    },
+    {
+      "entity": "Intended for",
+      "category": "method"
+    },
+    {
+      "entity": "Incorporate",
+      "category": "method"
+    },
+    {
+      "entity": "Describe",
+      "category": "method"
+    },
+    {
+      "entity": "Identify",
+      "category": "task"
+    },
+    {
+      "entity": "Analyze",
+      "category": "task"
+    },
+    {
+      "entity": "Demonstrate",
+      "category": "method"
+    },
+    {
+      "entity": "Explore",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "material": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "material": 4,
+    "task": 4,
+    "method": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 10,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

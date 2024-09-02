@@ -1,0 +1,111 @@
+{
+  "gold_entities": [
+    {
+      "entity": "discourse segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "abduction of temporal relations",
+      "category": "Task"
+    },
+    {
+      "entity": "temporal anaphora resolution",
+      "category": "Task"
+    },
+    {
+      "entity": "discourse segments",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "discourse segments",
+      "category": "Task"
+    },
+    {
+      "entity": "abduction",
+      "category": "Method"
+    },
+    {
+      "entity": "temporal relations",
+      "category": "Metric"
+    },
+    {
+      "entity": "temporal anaphora resolution",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "discourse segments",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "discourse segments",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "temporal anaphora resolution",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "temporal anaphora resolution",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "abduction of temporal relations",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "abduction",
+          "category": "Method"
+        },
+        {
+          "entity": "temporal relations",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "discourse segmentation",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 4,
+    "generated_count": 4,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 0,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "doc_key": "P80-1004",
+  "gold_entities": [
+    {
+      "entity": "Interpreting  metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "human understanding of natural language",
+      "category": "task"
+    },
+    {
+      "entity": "analyzing metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "metaphor interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "language learning",
+      "category": "task"
+    },
+    {
+      "entity": "generalized metaphor mappings",
+      "category": "method"
+    },
+    {
+      "entity": "recognition network",
+      "category": "method"
+    },
+    {
+      "entity": "basic mapping",
+      "category": "method"
+    },
+    {
+      "entity": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "entity": "implicit intention component",
+      "category": "method"
+    },
+    {
+      "entity": "generalized metaphor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "interpreting metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "human understanding of natural language",
+      "category": "material"
+    },
+    {
+      "entity": "method of analyzing metaphors",
+      "category": "method"
+    },
+    {
+      "entity": "generalized metaphor mappings",
+      "category": "method"
+    },
+    {
+      "entity": "generalized metaphor",
+      "category": "method"
+    },
+    {
+      "entity": "recognition network",
+      "category": "method"
+    },
+    {
+      "entity": "basic mapping",
+      "category": "method"
+    },
+    {
+      "entity": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "entity": "implicit intention component",
+      "category": "method"
+    },
+    {
+      "entity": "metaphor interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recognition task",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language learning",
+      "category": "method"
+    },
+    {
+      "entity": "automating certain aspects of language learning",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "human understanding of natural language",
+      "predicted": "human understanding of natural language",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "reconstruction",
+      "predicted": "reconstruction",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "recognition task",
+      "predicted": "recognition task",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "language learning",
+      "predicted": "language learning",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "generalized metaphor",
+      "predicted": "generalized metaphor",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Interpreting  metaphors",
+      "predicted": "interpreting metaphors",
+      "category": "task"
+    },
+    {
+      "gold": "metaphor interpretation",
+      "predicted": "metaphor interpretation",
+      "category": "task"
+    },
+    {
+      "gold": "generalized metaphor mappings",
+      "predicted": "generalized metaphor mappings",
+      "category": "method"
+    },
+    {
+      "gold": "recognition network",
+      "predicted": "recognition network",
+      "category": "method"
+    },
+    {
+      "gold": "basic mapping",
+      "predicted": "basic mapping",
+      "category": "method"
+    },
+    {
+      "gold": "transfer mappings",
+      "predicted": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "gold": "implicit intention component",
+      "predicted": "implicit intention component",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "analyzing metaphors",
+      "predicted": "method of analyzing metaphors",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "automating certain aspects of language learning",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "method": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 1,
+    "method": 9,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 4,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5384615384615384,
+  "f1": 0.5185185185185186,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 14,
+    "exact_matches": 5,
+    "exact_matches_with_category": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

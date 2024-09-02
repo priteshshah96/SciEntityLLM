@@ -1,0 +1,279 @@
+{
+  "doc_key": "P05-1057",
+  "gold_entities": [
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "log-linear models",
+      "category": "method"
+    },
+    {
+      "entity": "Log-linear models",
+      "category": "method"
+    },
+    {
+      "entity": "statistical alignment models",
+      "category": "method"
+    },
+    {
+      "entity": "log-linear models",
+      "category": "method"
+    },
+    {
+      "entity": "IBM translation models",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "feature functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ibm model 3 alignment probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pos correspondence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bilingual dictionary coverage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "log-linear models",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "source language sentence",
+      "category": "material"
+    },
+    {
+      "entity": "target language sentence",
+      "category": "material"
+    },
+    {
+      "entity": "log-linear models",
+      "category": "method"
+    },
+    {
+      "entity": "statistical alignment models",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "IBM Model 3 alignment probabilities",
+      "category": "material"
+    },
+    {
+      "entity": "pos correspondence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bilingual dictionary coverage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "log-linear models",
+      "category": "method"
+    },
+    {
+      "entity": "IBM translation models",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "knowledge sources",
+      "predicted": "knowledge sources",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "ibm model 3 alignment probabilities",
+      "predicted": "IBM Model 3 alignment probabilities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "word alignment",
+      "predicted": "word alignment",
+      "category": "task"
+    },
+    {
+      "gold": "log-linear models",
+      "predicted": "log-linear models",
+      "category": "method"
+    },
+    {
+      "gold": "log-linear models",
+      "predicted": "log-linear models",
+      "category": "method"
+    },
+    {
+      "gold": "Log-linear models",
+      "predicted": "log-linear models",
+      "category": "method"
+    },
+    {
+      "gold": "statistical alignment models",
+      "predicted": "statistical alignment models",
+      "category": "method"
+    },
+    {
+      "gold": "IBM translation models",
+      "predicted": "IBM translation models",
+      "category": "method"
+    },
+    {
+      "gold": "feature functions",
+      "predicted": "feature functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "syntactic information",
+      "predicted": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "pos correspondence",
+      "predicted": "pos correspondence",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "bilingual dictionary coverage",
+      "predicted": "bilingual dictionary coverage",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "features",
+      "predicted": "features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "source language sentence",
+      "category": "material"
+    },
+    {
+      "entity": "target language sentence",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "log-linear models|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 5,
+    "material": 1,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 5,
+    "otherscientificterm": 6,
+    "material": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.7333333333333333,
+  "recall": 0.8461538461538461,
+  "f1": 0.7857142857142856,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 15,
+    "exact_matches": 2,
+    "exact_matches_with_category": 11,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

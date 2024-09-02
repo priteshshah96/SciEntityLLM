@@ -1,0 +1,173 @@
+{
+  "doc_key": "A97-1028",
+  "gold_entities": [
+    {
+      "entity": "Named Entity task",
+      "category": "task"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "task"
+    },
+    {
+      "entity": "statistical analysis",
+      "category": "method"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "method"
+    },
+    {
+      "entity": "Named Entity corpora",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Named Entity task",
+      "category": "task"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "statistical profile",
+      "category": "method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Named Entity task",
+      "predicted": "Named Entity task",
+      "category": "task"
+    },
+    {
+      "gold": "lower bound estimation",
+      "predicted": "lower bound estimation",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "information extraction task",
+      "category": "task"
+    },
+    {
+      "entity": "statistical analysis",
+      "category": "method"
+    },
+    {
+      "entity": "Named Entity corpora",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "statistical profile",
+      "category": "method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 2,
+    "method": 3,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.4,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 7,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

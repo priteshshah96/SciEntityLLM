@@ -1,0 +1,199 @@
+{
+  "gold_entities": [
+    {
+      "entity": "chinese text corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "characters-based chinese collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "word-based system",
+      "category": "Method"
+    },
+    {
+      "entity": "character-based collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "auxiliary module of automatic segmentation",
+      "category": "Method"
+    },
+    {
+      "entity": "avoiding pre-processing distortion",
+      "category": "Task"
+    },
+    {
+      "entity": "accessing sub-lexical information",
+      "category": "Task"
+    },
+    {
+      "entity": "word-based collocational properties",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "characters-based collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "word-based system",
+      "category": "Method"
+    },
+    {
+      "entity": "wordbreaks",
+      "category": "Metric"
+    },
+    {
+      "entity": "chinese text corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "pre-processing distortion",
+      "category": "Metric"
+    },
+    {
+      "entity": "sublexical information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "word-based collocational properties",
+      "category": "Metric"
+    },
+    {
+      "entity": "automatic segmentation",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "word-based system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "word-based system",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "chinese text corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "chinese text corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word-based collocational properties",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "word-based collocational properties",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "word-based system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "word-based system",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "chinese text corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "chinese text corpora",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "characters-based chinese collocation system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "characters-based collocation system",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "auxiliary module of automatic segmentation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "automatic segmentation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "avoiding pre-processing distortion",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "pre-processing distortion",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "character-based collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "accessing sub-lexical information",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "wordbreaks",
+      "category": "Metric"
+    },
+    {
+      "entity": "sublexical information",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 8,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

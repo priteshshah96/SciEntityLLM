@@ -1,0 +1,229 @@
+{
+  "gold_entities": [
+    {
+      "entity": "knowledgebases",
+      "category": "Material"
+    },
+    {
+      "entity": "japanese patent claim sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "document oriented preference sets(dops)",
+      "category": "Method"
+    },
+    {
+      "entity": "dops system",
+      "category": "Method"
+    },
+    {
+      "entity": "disambiguation of the dependency structure",
+      "category": "Task"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain targeted preference knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "document oriented preference setsdops",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dependency structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "target document",
+      "category": "Material"
+    },
+    {
+      "entity": "other documents",
+      "category": "Material"
+    },
+    {
+      "entity": "domain targeted preference knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "knowledgebases",
+      "category": "Material"
+    },
+    {
+      "entity": "implementation",
+      "category": "Method"
+    },
+    {
+      "entity": "empirical results",
+      "category": "Metric"
+    },
+    {
+      "entity": "analysis of dependency structures",
+      "category": "Task"
+    },
+    {
+      "entity": "japanese patent claim sentences",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "domain targeted preference knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain targeted preference knowledge",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "knowledgebases",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "knowledgebases",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "japanese patent claim sentences",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "japanese patent claim sentences",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "domain targeted preference knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain targeted preference knowledge",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "knowledgebases",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "knowledgebases",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "japanese patent claim sentences",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "japanese patent claim sentences",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "document oriented preference sets(dops)",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "document oriented preference setsdops",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "target document",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.25
+    },
+    {
+      "gold": {
+        "entity": "disambiguation of the dependency structure",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "dependency structure",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "analysis of dependency structures",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dops system",
+      "category": "Method"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "sentences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "other documents",
+      "category": "Material"
+    },
+    {
+      "entity": "implementation",
+      "category": "Method"
+    },
+    {
+      "entity": "empirical results",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 11,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 3,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

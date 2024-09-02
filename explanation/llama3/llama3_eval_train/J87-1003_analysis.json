@@ -1,0 +1,314 @@
+{
+  "doc_key": "J87-1003",
+  "gold_entities": [
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "French",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "coordinations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strictly syntactic crossserial agreement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reflexive pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical gender",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Interchange Lemma",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "trans-context-free",
+      "category": "task"
+    },
+    {
+      "entity": "coordinations",
+      "category": "method"
+    },
+    {
+      "entity": "crossserial agreement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nouns",
+      "category": "material"
+    },
+    {
+      "entity": "reflexive pronouns",
+      "category": "material"
+    },
+    {
+      "entity": "grammatical number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical gender",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Interchange Lemma",
+      "category": "method"
+    },
+    {
+      "entity": "Ogden et al.",
+      "category": "material"
+    },
+    {
+      "entity": "grammatical sentences",
+      "category": "material"
+    },
+    {
+      "entity": "respectively",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coordinate phrases",
+      "category": "material"
+    },
+    {
+      "entity": "conjuncts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scope",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constructions",
+      "category": "material"
+    },
+    {
+      "entity": "arguments",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "coordinations",
+      "predicted": "coordinations",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "nouns",
+      "predicted": "nouns",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "reflexive pronouns",
+      "predicted": "reflexive pronouns",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "English",
+      "predicted": "English",
+      "category": "material"
+    },
+    {
+      "gold": "grammatical number",
+      "predicted": "grammatical number",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "grammatical gender",
+      "predicted": "grammatical gender",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Interchange Lemma",
+      "predicted": "Interchange Lemma",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "strictly syntactic crossserial agreement",
+      "predicted": "crossserial agreement",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "French",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "trans-context-free",
+      "category": "task"
+    },
+    {
+      "entity": "number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Ogden et al.",
+      "category": "material"
+    },
+    {
+      "entity": "grammatical sentences",
+      "category": "material"
+    },
+    {
+      "entity": "respectively",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coordinate phrases",
+      "category": "material"
+    },
+    {
+      "entity": "conjuncts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scope",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constructions",
+      "category": "material"
+    },
+    {
+      "entity": "arguments",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "English|material": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "material": 5,
+    "otherscientificterm": 6,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "material": 8,
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 7
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 5,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 7,
+      "exact_matches": 3,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.3333333333333333,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 18,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 10,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

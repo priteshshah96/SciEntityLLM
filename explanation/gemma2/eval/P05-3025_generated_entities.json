@@ -1,0 +1,199 @@
+{
+  "gold_entities": [
+    {
+      "entity": "mt systems",
+      "category": "Method"
+    },
+    {
+      "entity": "visualization method",
+      "category": "Method"
+    },
+    {
+      "entity": "mt system",
+      "category": "Method"
+    },
+    {
+      "entity": "syntax-based decoder",
+      "category": "Method"
+    },
+    {
+      "entity": "interactively visualizing and directing the process of translating",
+      "category": "Task"
+    },
+    {
+      "entity": "syntax-based statistical machine translation (mt)",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "interactively visualizing and directing the process of translating a sentence",
+      "category": "Method"
+    },
+    {
+      "entity": "syntax-based statistical machine translation (mt)",
+      "category": "Method"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "Metric"
+    },
+    {
+      "entity": "other mt systems",
+      "category": "Material"
+    },
+    {
+      "entity": "visualization method",
+      "category": "Method"
+    },
+    {
+      "entity": "conceptual and practical problems",
+      "category": "Task"
+    },
+    {
+      "entity": "syntax-based decoder",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "syntax-based statistical machine translation (mt)",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "syntax-based statistical machine translation (mt)",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "visualization method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "visualization method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "visualization method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "visualization method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "interactively visualizing and directing the process of translating",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "interactively visualizing and directing the process of translating a sentence",
+          "category": "Method"
+        },
+        {
+          "entity": "strengths and weaknesses",
+          "category": "Metric"
+        },
+        {
+          "entity": "conceptual and practical problems",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.3833333333333333
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "mt systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "other mt systems",
+        "category": "Material"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "mt system",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "model",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 8,
+    "generic_count": 5,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

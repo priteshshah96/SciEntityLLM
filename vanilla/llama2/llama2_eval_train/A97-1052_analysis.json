@@ -1,0 +1,196 @@
+{
+  "doc_key": "A97-1052",
+  "gold_entities": [
+    {
+      "entity": "subcategorization dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relative frequency of occurrence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subcategorization dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "textual corpora",
+      "category": "material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Subcategorization dictionary",
+      "category": "method"
+    },
+    {
+      "entity": "Textual corpora",
+      "category": "material"
+    },
+    {
+      "entity": "comprehensive set of subcategorization classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple complementation patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Parser",
+      "category": "task"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "subcategorization dictionary",
+      "predicted": "Subcategorization dictionary",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "parser",
+      "predicted": "Parser",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "textual corpora",
+      "predicted": "Textual corpora",
+      "category": "material"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "Accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "subcategorization dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relative frequency of occurrence",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "comprehensive set of subcategorization classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple complementation patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "subcategorization dictionary|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "material": 1,
+    "metric": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "material": 1,
+    "otherscientificterm": 3,
+    "metric": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.3333333333333333,
+  "f1": 0.30769230769230765,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 7,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

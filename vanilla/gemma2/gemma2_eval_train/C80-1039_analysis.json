@@ -1,0 +1,187 @@
+{
+  "doc_key": "C80-1039",
+  "gold_entities": [
+    {
+      "entity": "FROFF",
+      "category": "method"
+    },
+    {
+      "entity": "typing location",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commands",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mathematical expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "FROFF",
+      "category": "method"
+    },
+    {
+      "entity": "fonts",
+      "category": "material"
+    },
+    {
+      "entity": "character",
+      "category": "metric"
+    },
+    {
+      "entity": "typing location",
+      "category": "metric"
+    },
+    {
+      "entity": "width",
+      "category": "metric"
+    },
+    {
+      "entity": "line length",
+      "category": "metric"
+    },
+    {
+      "entity": "commands",
+      "category": "method"
+    },
+    {
+      "entity": "rules",
+      "category": "method"
+    },
+    {
+      "entity": "mathematical expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "FROFF",
+      "predicted": "FROFF",
+      "category": "method"
+    },
+    {
+      "gold": "typing location",
+      "predicted": "typing location",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "commands",
+      "predicted": "commands",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "rules",
+      "predicted": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "mathematical expressions",
+      "predicted": "mathematical expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "FROFF",
+      "category": "method"
+    },
+    {
+      "entity": "mathematical expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "fonts",
+      "category": "material"
+    },
+    {
+      "entity": "character",
+      "category": "metric"
+    },
+    {
+      "entity": "width",
+      "category": "metric"
+    },
+    {
+      "entity": "line length",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 1,
+    "metric": 4,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.4,
+  "f1": 0.2857142857142857,
+  "category_precision": 0.2222222222222222,
+  "category_recall": 0.4,
+  "category_f1": 0.2857142857142857,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 9,
+    "exact_matches": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 1,
+    "correct_predictions": 2,
+    "correct_categories": 2
+  }
+}

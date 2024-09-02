@@ -1,0 +1,329 @@
+{
+  "gold_entities": [
+    {
+      "entity": "kernels",
+      "category": "Method"
+    },
+    {
+      "entity": "background modeling",
+      "category": "Task"
+    },
+    {
+      "entity": "vision systems",
+      "category": "Task"
+    },
+    {
+      "entity": "detection",
+      "category": "Task"
+    },
+    {
+      "entity": "modeling and subtraction of such scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "modeling of the dynamic characteristics",
+      "category": "Task"
+    },
+    {
+      "entity": "computation of features",
+      "category": "Task"
+    },
+    {
+      "entity": "density estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "static or quasi-static structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "persistent dynamic behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "optical flow",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "feature",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "higher dimensional space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "data-dependent bandwidth",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "background modeling",
+      "category": "Task"
+    },
+    {
+      "entity": "optical flow",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "density estimation using kernels",
+      "category": "Method"
+    },
+    {
+      "entity": "datadependent bandwidth",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "higher dimensional space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "persistent dynamic behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scene subtraction",
+      "category": "Task"
+    },
+    {
+      "entity": "detection performance",
+      "category": "Metric"
+    },
+    {
+      "entity": "vision systems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "static structures",
+      "category": "Material"
+    },
+    {
+      "entity": "quasi-static structures",
+      "category": "Material"
+    },
+    {
+      "entity": "time",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "kernels",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "scene",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "scenes",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "background modeling",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "background modeling",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "optical flow",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "optical flow",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "higher dimensional space",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "higher dimensional space",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "persistent dynamic behavior",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "persistent dynamic behavior",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "vision systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "vision systems",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "kernels",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kernels",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "background modeling",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "background modeling",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "optical flow",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "optical flow",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "higher dimensional space",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "higher dimensional space",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "persistent dynamic behavior",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "persistent dynamic behavior",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "static or quasi-static structures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "static structures",
+          "category": "Material"
+        },
+        {
+          "entity": "quasi-static structures",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "detection",
+      "category": "Task"
+    },
+    {
+      "entity": "modeling and subtraction of such scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "modeling of the dynamic characteristics",
+      "category": "Task"
+    },
+    {
+      "entity": "computation of features",
+      "category": "Task"
+    },
+    {
+      "entity": "density estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "feature",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "data-dependent bandwidth",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "density estimation using kernels",
+      "category": "Method"
+    },
+    {
+      "entity": "datadependent bandwidth",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scene subtraction",
+      "category": "Task"
+    },
+    {
+      "entity": "detection performance",
+      "category": "Metric"
+    },
+    {
+      "entity": "time",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 15,
+    "generated_count": 13,
+    "generic_count": 4,
+    "exact_matches": 6,
+    "exact_category_matches": 4,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

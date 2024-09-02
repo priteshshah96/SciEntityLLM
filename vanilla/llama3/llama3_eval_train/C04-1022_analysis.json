@@ -1,0 +1,272 @@
+{
+  "doc_key": "C04-1022",
+  "gold_entities": [
+    {
+      "entity": "Statistical language modeling",
+      "category": "method"
+    },
+    {
+      "entity": "factored language models",
+      "category": "method"
+    },
+    {
+      "entity": "entirely data-driven model selection procedure",
+      "category": "method"
+    },
+    {
+      "entity": "genetic search",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge-based and random selection procedures",
+      "category": "method"
+    },
+    {
+      "entity": "morphologically rich languages",
+      "category": "material"
+    },
+    {
+      "entity": "Arabic",
+      "category": "material"
+    },
+    {
+      "entity": "Turkish",
+      "category": "material"
+    },
+    {
+      "entity": "conditioning variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morphological or syntactic features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language modeling tasks",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "statistical language modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morphologically rich languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Factored language models",
+      "category": "method"
+    },
+    {
+      "entity": "conditioning variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "preceding words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morphological or syntactic features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Large space of models",
+      "category": "metric"
+    },
+    {
+      "entity": "Data-driven model selection procedure",
+      "category": "task"
+    },
+    {
+      "entity": "Genetic search",
+      "category": "method"
+    },
+    {
+      "entity": "Knowledge-based selection procedures",
+      "category": "method"
+    },
+    {
+      "entity": "Random selection procedures",
+      "category": "method"
+    },
+    {
+      "entity": "Language modeling tasks",
+      "category": "task"
+    },
+    {
+      "entity": "Arabic",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Statistical language modeling",
+      "predicted": "statistical language modeling",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "morphologically rich languages",
+      "predicted": "morphologically rich languages",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "factored language models",
+      "predicted": "Factored language models",
+      "category": "method"
+    },
+    {
+      "gold": "genetic search",
+      "predicted": "Genetic search",
+      "category": "method"
+    },
+    {
+      "gold": "Arabic",
+      "predicted": "Arabic",
+      "category": "material"
+    },
+    {
+      "gold": "conditioning variables",
+      "predicted": "conditioning variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "morphological or syntactic features",
+      "predicted": "morphological or syntactic features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "model parameters",
+      "predicted": "model parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "language modeling tasks",
+      "predicted": "Language modeling tasks",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "entirely data-driven model selection procedure",
+      "predicted": "Data-driven model selection procedure",
+      "score": 0.8,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "knowledge-based and random selection procedures",
+      "predicted": "Knowledge-based selection procedures",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Turkish",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "preceding words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Large space of models",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "material": 3,
+    "otherscientificterm": 3,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "method": 4,
+    "metric": 1,
+    "task": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5833333333333334,
+  "f1": 0.5384615384615384,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

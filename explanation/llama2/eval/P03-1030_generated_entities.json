@@ -1,0 +1,274 @@
+{
+  "gold_entities": [
+    {
+      "entity": "performance enhancing techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "part of speech tagging",
+      "category": "Method"
+    },
+    {
+      "entity": "similarity measures",
+      "category": "Method"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall",
+      "category": "Metric"
+    },
+    {
+      "entity": "link detection",
+      "category": "Task"
+    },
+    {
+      "entity": "topic detection and tracking tasks of new event detection",
+      "category": "Task"
+    },
+    {
+      "entity": "story link detection",
+      "category": "Task"
+    },
+    {
+      "entity": "new event detection",
+      "category": "Task"
+    },
+    {
+      "entity": "information retrieval task",
+      "category": "Task"
+    },
+    {
+      "entity": "expanded stop lists",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "link detection",
+      "category": "Task"
+    },
+    {
+      "entity": "topic detection and tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "new event detection",
+      "category": "Task"
+    },
+    {
+      "entity": "information retrieval task",
+      "category": "Method"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall",
+      "category": "Metric"
+    },
+    {
+      "entity": "part of speech tagging",
+      "category": "Method"
+    },
+    {
+      "entity": "similarity measures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "stop lists",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "systems",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "link detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "link detection",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "new event detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "new event detection",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "information retrieval task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information retrieval task",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "recall",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "recall",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "part of speech tagging",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "part of speech tagging",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "similarity measures",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "similarity measures",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "link detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "link detection",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "new event detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "new event detection",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "recall",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "recall",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "part of speech tagging",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "part of speech tagging",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "topic detection and tracking tasks of new event detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "topic detection and tracking",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "expanded stop lists",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "stop lists",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "performance enhancing techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "story link detection",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "experimental results",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 10,
+    "generic_count": 1,
+    "exact_matches": 7,
+    "exact_category_matches": 5,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

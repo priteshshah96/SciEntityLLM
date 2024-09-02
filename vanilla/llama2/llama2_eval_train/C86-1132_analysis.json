@@ -1,0 +1,208 @@
+{
+  "doc_key": "C86-1132",
+  "gold_entities": [
+    {
+      "entity": "RAREAS",
+      "category": "method"
+    },
+    {
+      "entity": "RAREAS",
+      "category": "method"
+    },
+    {
+      "entity": "marine weather forecasts",
+      "category": "task"
+    },
+    {
+      "entity": "formatted weather data",
+      "category": "material"
+    },
+    {
+      "entity": "natural sublanguages  with  stereotyped text structure",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual or multi-lingual texts",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic and nonlinguistic knowledge",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "RAREAS",
+      "category": "task"
+    },
+    {
+      "entity": "weather data",
+      "category": "method"
+    },
+    {
+      "entity": "natural sublanguages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stereotyped text structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal adverbs",
+      "category": "metric"
+    },
+    {
+      "entity": "meteorological events",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "RAREAS",
+      "predicted": "RAREAS",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "formatted weather data",
+      "predicted": "weather data",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "natural sublanguages  with  stereotyped text structure",
+      "predicted": "stereotyped text structure",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "linguistic and nonlinguistic knowledge",
+      "predicted": "linguistic knowledge",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "RAREAS",
+      "category": "method"
+    },
+    {
+      "entity": "marine weather forecasts",
+      "category": "task"
+    },
+    {
+      "entity": "bilingual or multi-lingual texts",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "natural sublanguages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal adverbs",
+      "category": "metric"
+    },
+    {
+      "entity": "meteorological events",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "RAREAS|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 1,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

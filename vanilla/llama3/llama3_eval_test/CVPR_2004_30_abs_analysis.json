@@ -1,0 +1,296 @@
+{
+  "doc_key": "CVPR_2004_30_abs",
+  "gold_entities": [
+    {
+      "entity": "Background modeling",
+      "category": "task"
+    },
+    {
+      "entity": "vision systems",
+      "category": "task"
+    },
+    {
+      "entity": "detection",
+      "category": "task"
+    },
+    {
+      "entity": "modeling and subtraction of such scenes",
+      "category": "task"
+    },
+    {
+      "entity": "modeling of the dynamic characteristics",
+      "category": "task"
+    },
+    {
+      "entity": "computation of features",
+      "category": "task"
+    },
+    {
+      "entity": "density estimation",
+      "category": "task"
+    },
+    {
+      "entity": "static or quasistatic structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "persistent dynamic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optical flow",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "higher dimensional space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "datadependent bandwidth",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "kernels",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Background modeling",
+      "category": "task"
+    },
+    {
+      "entity": "optical flow",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Density estimation using kernels",
+      "category": "method"
+    },
+    {
+      "entity": "datadependent bandwidth",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "higher dimensional space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "persistent dynamic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Scene subtraction",
+      "category": "task"
+    },
+    {
+      "entity": "Detection performance",
+      "category": "metric"
+    },
+    {
+      "entity": "vision systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Static structures",
+      "category": "material"
+    },
+    {
+      "entity": "Quasi-static structures",
+      "category": "material"
+    },
+    {
+      "entity": "time",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Kernels",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "vision systems",
+      "predicted": "vision systems",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "kernels",
+      "predicted": "Kernels",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Background modeling",
+      "predicted": "Background modeling",
+      "category": "task"
+    },
+    {
+      "gold": "persistent dynamic behavior",
+      "predicted": "persistent dynamic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "optical flow",
+      "predicted": "optical flow",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "higher dimensional space",
+      "predicted": "higher dimensional space",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "datadependent bandwidth",
+      "predicted": "datadependent bandwidth",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "detection",
+      "predicted": "Detection performance",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "density estimation",
+      "predicted": "Density estimation using kernels",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "static or quasistatic structures",
+      "predicted": "Static structures",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "modeling and subtraction of such scenes",
+      "category": "task"
+    },
+    {
+      "entity": "modeling of the dynamic characteristics",
+      "category": "task"
+    },
+    {
+      "entity": "computation of features",
+      "category": "task"
+    },
+    {
+      "entity": "feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Scene subtraction",
+      "category": "task"
+    },
+    {
+      "entity": "Quasi-static structures",
+      "category": "material"
+    },
+    {
+      "entity": "time",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "otherscientificterm": 7,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 6,
+    "method": 1,
+    "metric": 1,
+    "material": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.38461538461538464,
+  "recall": 0.3333333333333333,
+  "f1": 0.3571428571428571,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

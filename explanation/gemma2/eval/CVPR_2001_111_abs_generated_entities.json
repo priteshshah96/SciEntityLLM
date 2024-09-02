@@ -1,0 +1,267 @@
+{
+  "gold_entities": [
+    {
+      "entity": "local non-negative matrix factorization (lnmf)",
+      "category": "Method"
+    },
+    {
+      "entity": "nmf",
+      "category": "Method"
+    },
+    {
+      "entity": "non-subtractive (part-based) representation of images",
+      "category": "Method"
+    },
+    {
+      "entity": "lnmf",
+      "category": "Method"
+    },
+    {
+      "entity": "nmf and pca methods",
+      "category": "Method"
+    },
+    {
+      "entity": "lnmf",
+      "category": "Method"
+    },
+    {
+      "entity": "spatially localized, parts-based subspace representation of visual patterns",
+      "category": "Task"
+    },
+    {
+      "entity": "learning",
+      "category": "Task"
+    },
+    {
+      "entity": "face representation and recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "objective function",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lo-calization constraint",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-negativity constraint",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "localized features",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "local non-negative matrix factorization (lnmf)",
+      "category": "Method"
+    },
+    {
+      "entity": "spatially localized, parts-based subspace representation",
+      "category": "Method"
+    },
+    {
+      "entity": "visual patterns",
+      "category": "Material"
+    },
+    {
+      "entity": "objective function",
+      "category": "Method"
+    },
+    {
+      "entity": "localization constraint",
+      "category": "Method"
+    },
+    {
+      "entity": "non-negativity constraint",
+      "category": "Method"
+    },
+    {
+      "entity": "basis components",
+      "category": "Method"
+    },
+    {
+      "entity": "face representation and recognition",
+      "category": "Method"
+    },
+    {
+      "entity": "nmf",
+      "category": "Method"
+    },
+    {
+      "entity": "pca",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "local non-negative matrix factorization (lnmf)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "local non-negative matrix factorization (lnmf)",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "objective function",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "objective function",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "non-negativity constraint",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "non-negativity constraint",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "face representation and recognition",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "face representation and recognition",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "nmf",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "nmf",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "local non-negative matrix factorization (lnmf)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "local non-negative matrix factorization (lnmf)",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "nmf",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "nmf",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "spatially localized, parts-based subspace representation of visual patterns",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "spatially localized, parts-based subspace representation",
+          "category": "Method"
+        },
+        {
+          "entity": "visual patterns",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "nmf and pca methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "pca",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "non-subtractive (part-based) representation of images",
+      "category": "Method"
+    },
+    {
+      "entity": "lnmf",
+      "category": "Method"
+    },
+    {
+      "entity": "lnmf",
+      "category": "Method"
+    },
+    {
+      "entity": "learning",
+      "category": "Task"
+    },
+    {
+      "entity": "lo-calization constraint",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "localized features",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "localization constraint",
+      "category": "Method"
+    },
+    {
+      "entity": "basis components",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {
+    "lnmf": 2
+  },
+  "distinct_repeated_entities": [
+    "lnmf"
+  ],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

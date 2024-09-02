@@ -1,0 +1,308 @@
+{
+  "doc_key": "INTERSPEECH_2007_20_abs",
+  "gold_entities": [
+    {
+      "entity": "dialogue management",
+      "category": "method"
+    },
+    {
+      "entity": "information navigation system",
+      "category": "task"
+    },
+    {
+      "entity": "generating responses or confirmations",
+      "category": "task"
+    },
+    {
+      "entity": "minimization of Bayes risk",
+      "category": "task"
+    },
+    {
+      "entity": "spoken dialogue system \" Dialogue Navigator for Kyoto City \"",
+      "category": "task"
+    },
+    {
+      "entity": "document knowledge base",
+      "category": "material"
+    },
+    {
+      "entity": "nbest candidates of asr",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "correct information presentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "redundant turns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "questionanswering capability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information access",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reward",
+      "category": "metric"
+    },
+    {
+      "entity": "penalty",
+      "category": "metric"
+    },
+    {
+      "entity": "success rate of retrieval",
+      "category": "metric"
+    },
+    {
+      "entity": "average number of turns",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "dialogue management",
+      "category": "task"
+    },
+    {
+      "entity": "document knowledge base",
+      "category": "material"
+    },
+    {
+      "entity": "Automatic Speech Recognition (ASR)",
+      "category": "method"
+    },
+    {
+      "entity": "nbest candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reward",
+      "category": "metric"
+    },
+    {
+      "entity": "penalty",
+      "category": "metric"
+    },
+    {
+      "entity": "Bayes risk",
+      "category": "method"
+    },
+    {
+      "entity": "question-answering capability",
+      "category": "material"
+    },
+    {
+      "entity": "spoken dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "Kyoto City",
+      "category": "material"
+    },
+    {
+      "entity": "success rate of retrieval",
+      "category": "metric"
+    },
+    {
+      "entity": "average number of turns for information access",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "dialogue management",
+      "predicted": "dialogue management",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "document knowledge base",
+      "predicted": "document knowledge base",
+      "category": "material"
+    },
+    {
+      "gold": "contextual information",
+      "predicted": "contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "reward",
+      "predicted": "reward",
+      "category": "metric"
+    },
+    {
+      "gold": "penalty",
+      "predicted": "penalty",
+      "category": "metric"
+    },
+    {
+      "gold": "success rate of retrieval",
+      "predicted": "success rate of retrieval",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "minimization of Bayes risk",
+      "predicted": "Bayes risk",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "nbest candidates of asr",
+      "predicted": "nbest candidates",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "average number of turns",
+      "predicted": "average number of turns for information access",
+      "score": 0.5714285714285714,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "information navigation system",
+      "category": "task"
+    },
+    {
+      "entity": "generating responses or confirmations",
+      "category": "task"
+    },
+    {
+      "entity": "spoken dialogue system \" Dialogue Navigator for Kyoto City \"",
+      "category": "task"
+    },
+    {
+      "entity": "correct information presentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "redundant turns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "questionanswering capability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information access",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Automatic Speech Recognition (ASR)",
+      "category": "method"
+    },
+    {
+      "entity": "question-answering capability",
+      "category": "material"
+    },
+    {
+      "entity": "spoken dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "Kyoto City",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "task": 4,
+    "material": 1,
+    "otherscientificterm": 6,
+    "metric": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "method": 3,
+    "otherscientificterm": 2,
+    "metric": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.38461538461538464,
+  "recall": 0.3125,
+  "f1": 0.3448275862068966,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 13,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 4,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,276 @@
+{
+  "doc_key": "H93-1076",
+  "gold_entities": [
+    {
+      "entity": "speech and text image processing",
+      "category": "task"
+    },
+    {
+      "entity": "document-oriented applications",
+      "category": "task"
+    },
+    {
+      "entity": "voice editing and indexing",
+      "category": "task"
+    },
+    {
+      "entity": "scanned-document content retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "signal-based document processing functionality",
+      "category": "task"
+    },
+    {
+      "entity": "recognition technology",
+      "category": "method"
+    },
+    {
+      "entity": "text processors",
+      "category": "method"
+    },
+    {
+      "entity": "speech and text-image recognition",
+      "category": "method"
+    },
+    {
+      "entity": "text-image editor",
+      "category": "method"
+    },
+    {
+      "entity": "wordspotter",
+      "category": "method"
+    },
+    {
+      "entity": "decoding framework",
+      "category": "method"
+    },
+    {
+      "entity": "audio and scanned image data",
+      "category": "material"
+    },
+    {
+      "entity": "documents with signal content",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "speech and text image processing",
+      "category": "task"
+    },
+    {
+      "entity": "Xerox PARC",
+      "category": "material"
+    },
+    {
+      "entity": "text processors",
+      "category": "method"
+    },
+    {
+      "entity": "audio and scanned image data",
+      "category": "material"
+    },
+    {
+      "entity": "speech and textimage recognition",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "document-oriented applications",
+      "category": "task"
+    },
+    {
+      "entity": "arbitrary userspecified information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "documents with signal content",
+      "category": "material"
+    },
+    {
+      "entity": "text-image editor",
+      "category": "method"
+    },
+    {
+      "entity": "wordspotter",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "decoding framework",
+      "category": "method"
+    },
+    {
+      "entity": "scanned-document content retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "signalbased document processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "key concepts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "wordspotter",
+      "predicted": "wordspotter",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "documents with signal content",
+      "predicted": "documents with signal content",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "speech and text image processing",
+      "predicted": "speech and text image processing",
+      "category": "task"
+    },
+    {
+      "gold": "document-oriented applications",
+      "predicted": "document-oriented applications",
+      "category": "task"
+    },
+    {
+      "gold": "scanned-document content retrieval",
+      "predicted": "scanned-document content retrieval",
+      "category": "task"
+    },
+    {
+      "gold": "text processors",
+      "predicted": "text processors",
+      "category": "method"
+    },
+    {
+      "gold": "text-image editor",
+      "predicted": "text-image editor",
+      "category": "method"
+    },
+    {
+      "gold": "decoding framework",
+      "predicted": "decoding framework",
+      "category": "method"
+    },
+    {
+      "gold": "audio and scanned image data",
+      "predicted": "audio and scanned image data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speech and text-image recognition",
+      "predicted": "speech and textimage recognition",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "voice editing and indexing",
+      "category": "task"
+    },
+    {
+      "entity": "signal-based document processing functionality",
+      "category": "task"
+    },
+    {
+      "entity": "recognition technology",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Xerox PARC",
+      "category": "material"
+    },
+    {
+      "entity": "arbitrary userspecified information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "signalbased document processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "key concepts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 6,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "material": 3,
+    "method": 3,
+    "otherscientificterm": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5384615384615384,
+  "f1": 0.5185185185185186,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 4,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

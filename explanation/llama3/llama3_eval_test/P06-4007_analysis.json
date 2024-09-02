@@ -1,0 +1,204 @@
+{
+  "doc_key": "P06-4007",
+  "gold_entities": [
+    {
+      "entity": "FERRET",
+      "category": "method"
+    },
+    {
+      "entity": "interactive question-answering (Q/A) system",
+      "category": "method"
+    },
+    {
+      "entity": "FERRET",
+      "category": "method"
+    },
+    {
+      "entity": "Q/A",
+      "category": "method"
+    },
+    {
+      "entity": "predictive questioning",
+      "category": "method"
+    },
+    {
+      "entity": "integrating  automatic Q/A  applications into real-world environments",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "FERRET",
+      "category": "material"
+    },
+    {
+      "entity": "interactive question-answering (Q/A) system",
+      "category": "task"
+    },
+    {
+      "entity": "automatic Q/A applications",
+      "category": "method"
+    },
+    {
+      "entity": "predictive questioning",
+      "category": "method"
+    },
+    {
+      "entity": "questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "answers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "FERRET",
+      "predicted": "FERRET",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "interactive question-answering (Q/A) system",
+      "predicted": "interactive question-answering (Q/A) system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "predictive questioning",
+      "predicted": "predictive questioning",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "FERRET",
+      "category": "method"
+    },
+    {
+      "entity": "Q/A",
+      "category": "method"
+    },
+    {
+      "entity": "integrating  automatic Q/A  applications into real-world environments",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "automatic Q/A applications",
+      "category": "method"
+    },
+    {
+      "entity": "questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "answers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "FERRET|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "material": 2,
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.16666666666666666,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,329 @@
+{
+  "gold_entities": [
+    {
+      "entity": "speech",
+      "category": "Material"
+    },
+    {
+      "entity": "gesture",
+      "category": "Material"
+    },
+    {
+      "entity": "multimodal content",
+      "category": "Material"
+    },
+    {
+      "entity": "smartkom",
+      "category": "Method"
+    },
+    {
+      "entity": "multimodal dialog system",
+      "category": "Method"
+    },
+    {
+      "entity": "smartkom",
+      "category": "Method"
+    },
+    {
+      "entity": "computational methods",
+      "category": "Method"
+    },
+    {
+      "entity": "situated delegation-oriented dialog paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "smartkom architecture",
+      "category": "Method"
+    },
+    {
+      "entity": "smartkom demonstrator",
+      "category": "Method"
+    },
+    {
+      "entity": "spontaneous speech understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "video-based recognition of natural gestures",
+      "category": "Task"
+    },
+    {
+      "entity": "integration and mutual disambiguation of multimodal input and output",
+      "category": "Task"
+    },
+    {
+      "entity": "semantic and pragmatic level",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "smartkom",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "virtual communication assistant",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "graphical display",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "xml-based markup language",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "multimodal dialog system",
+      "category": "Task"
+    },
+    {
+      "entity": "speech, gesture, and mimics",
+      "category": "Material"
+    },
+    {
+      "entity": "spontaneous speech understanding",
+      "category": "Method"
+    },
+    {
+      "entity": "video-based recognition",
+      "category": "Method"
+    },
+    {
+      "entity": "natural gestures",
+      "category": "Material"
+    },
+    {
+      "entity": "multimodal input and output",
+      "category": "Task"
+    },
+    {
+      "entity": "semantic and pragmatic level",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "situated delegation-oriented dialog paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "virtual communication assistant",
+      "category": "Material"
+    },
+    {
+      "entity": "xml-based markup language",
+      "category": "Method"
+    },
+    {
+      "entity": "multimodal content",
+      "category": "Material"
+    },
+    {
+      "entity": "first fully operational smartkom demonstrator",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "multimodal dialog system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "multimodal dialog system",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spontaneous speech understanding",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "spontaneous speech understanding",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "semantic and pragmatic level",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic and pragmatic level",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "situated delegation-oriented dialog paradigm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "situated delegation-oriented dialog paradigm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "virtual communication assistant",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "virtual communication assistant",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "xml-based markup language",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "xml-based markup language",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multimodal content",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "multimodal content",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "semantic and pragmatic level",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic and pragmatic level",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "situated delegation-oriented dialog paradigm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "situated delegation-oriented dialog paradigm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multimodal content",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "multimodal content",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "video-based recognition of natural gestures",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "video-based recognition",
+          "category": "Method"
+        },
+        {
+          "entity": "natural gestures",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "integration and mutual disambiguation of multimodal input and output",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "speech, gesture, and mimics",
+          "category": "Material"
+        },
+        {
+          "entity": "multimodal input and output",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "speech",
+      "category": "Material"
+    },
+    {
+      "entity": "gesture",
+      "category": "Material"
+    },
+    {
+      "entity": "smartkom",
+      "category": "Method"
+    },
+    {
+      "entity": "smartkom",
+      "category": "Method"
+    },
+    {
+      "entity": "computational methods",
+      "category": "Method"
+    },
+    {
+      "entity": "smartkom architecture",
+      "category": "Method"
+    },
+    {
+      "entity": "smartkom demonstrator",
+      "category": "Method"
+    },
+    {
+      "entity": "smartkom",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "graphical display",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "first fully operational smartkom demonstrator",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "smartkom": 3
+  },
+  "distinct_repeated_entities": [
+    "smartkom"
+  ],
+  "counts": {
+    "gold_count": 18,
+    "generated_count": 12,
+    "generic_count": 0,
+    "exact_matches": 7,
+    "exact_category_matches": 3,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 3
+  }
+}

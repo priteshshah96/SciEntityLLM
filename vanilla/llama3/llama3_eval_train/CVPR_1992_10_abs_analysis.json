@@ -1,0 +1,351 @@
+{
+  "doc_key": "CVPR_1992_10_abs",
+  "gold_entities": [
+    {
+      "entity": "labeling curvilinear structure",
+      "category": "task"
+    },
+    {
+      "entity": "image description",
+      "category": "task"
+    },
+    {
+      "entity": "line drawings",
+      "category": "material"
+    },
+    {
+      "entity": "edge images",
+      "category": "material"
+    },
+    {
+      "entity": "image data",
+      "category": "material"
+    },
+    {
+      "entity": "curveelement tokens",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatiallyindexed and scaleindexed data structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image contour",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local curveelement attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "small-to-large scale grouping procedure",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "CURVE-ELEMENT",
+      "category": "material"
+    },
+    {
+      "entity": "spatiallyindexed data structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scaleindexed data structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "labeling",
+      "category": "method"
+    },
+    {
+      "entity": "circular arcs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "edge images",
+      "category": "material"
+    },
+    {
+      "entity": "line drawings",
+      "category": "material"
+    },
+    {
+      "entity": "greedy",
+      "category": "method"
+    },
+    {
+      "entity": "best-first strategy",
+      "category": "method"
+    },
+    {
+      "entity": "small-to-large scale grouping procedure",
+      "category": "method"
+    },
+    {
+      "entity": "image contour",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image description",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "CURVE-ELEMENT tokens",
+      "category": "material"
+    },
+    {
+      "entity": "image data",
+      "category": "material"
+    },
+    {
+      "entity": "spatiallyindexed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scaleindexed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image",
+      "category": "material"
+    },
+    {
+      "entity": "segment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contour",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local curveelement attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image description is rich and redundant",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image contour may be described by multiple tokens at different scales",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image contour may be described by more than one token at any given scale",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "portions of the image based on local CURVE-ELEMENT attributes",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "image description",
+      "predicted": "image description",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "line drawings",
+      "predicted": "line drawings",
+      "category": "material"
+    },
+    {
+      "gold": "edge images",
+      "predicted": "edge images",
+      "category": "material"
+    },
+    {
+      "gold": "image data",
+      "predicted": "image data",
+      "category": "material"
+    },
+    {
+      "gold": "image contour",
+      "predicted": "image contour",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "local curveelement attributes",
+      "predicted": "local curveelement attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "small-to-large scale grouping procedure",
+      "predicted": "small-to-large scale grouping procedure",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [
+    {
+      "gold": "spatiallyindexed and scaleindexed data structure",
+      "gold_category": "otherscientificterm",
+      "matched_parts": [
+        {
+          "part": "spatiallyindexed",
+          "matched": "spatiallyindexed",
+          "predicted_category": "otherscientificterm"
+        },
+        {
+          "part": "scaleindexed data structure",
+          "matched": "scaleindexed data structure",
+          "predicted_category": "otherscientificterm"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "labeling curvilinear structure",
+      "category": "task"
+    },
+    {
+      "entity": "curveelement tokens",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "CURVE-ELEMENT",
+      "category": "material"
+    },
+    {
+      "entity": "spatiallyindexed data structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "labeling",
+      "category": "method"
+    },
+    {
+      "entity": "circular arcs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "greedy",
+      "category": "method"
+    },
+    {
+      "entity": "best-first strategy",
+      "category": "method"
+    },
+    {
+      "entity": "CURVE-ELEMENT tokens",
+      "category": "material"
+    },
+    {
+      "entity": "scaleindexed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image",
+      "category": "material"
+    },
+    {
+      "entity": "segment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contour",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image description is rich and redundant",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image contour may be described by multiple tokens at different scales",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image contour may be described by more than one token at any given scale",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "portions of the image based on local CURVE-ELEMENT attributes",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 3,
+    "otherscientificterm": 4,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "material": 6,
+    "otherscientificterm": 13,
+    "task": 2,
+    "method": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 13,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.24,
+  "recall": 0.6,
+  "f1": 0.34285714285714286,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 25,
+    "exact_matches": 1,
+    "exact_matches_with_category": 6,
+    "partial_matches": 0,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 16,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,280 @@
+{
+  "doc_key": "H92-1036",
+  "gold_entities": [
+    {
+      "entity": "maximum a posteriori estimation",
+      "category": "method"
+    },
+    {
+      "entity": "continuous density hidden Markov models (CDHMM)",
+      "category": "method"
+    },
+    {
+      "entity": "MLE reestimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "forward-backward algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "segmental k-means algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "HMM with Gaussian mixture observation densities",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian learning",
+      "category": "method"
+    },
+    {
+      "entity": "MAP estimation approach",
+      "category": "method"
+    },
+    {
+      "entity": "reestimation formulas",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition  applications",
+      "category": "task"
+    },
+    {
+      "entity": "parameter smoothing",
+      "category": "task"
+    },
+    {
+      "entity": "speaker adaptation",
+      "category": "task"
+    },
+    {
+      "entity": "speaker group modeling",
+      "category": "task"
+    },
+    {
+      "entity": "corrective training",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "maximum a posteriori estimation",
+      "category": "method"
+    },
+    {
+      "entity": "continuous density hidden Markov models (CDHMM)",
+      "category": "method"
+    },
+    {
+      "entity": "MLE reestimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "forward-backward algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "segmental k-means algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "reestimation formulas",
+      "category": "material"
+    },
+    {
+      "entity": "HMM with Gaussian mixture observation densities",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian learning",
+      "category": "method"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "parameter smoothing",
+      "category": "material"
+    },
+    {
+      "entity": "speaker adaptation",
+      "category": "material"
+    },
+    {
+      "entity": "speaker group modeling",
+      "category": "material"
+    },
+    {
+      "entity": "corrective training",
+      "category": "material"
+    },
+    {
+      "entity": "MAP estimation approach",
+      "category": "method"
+    },
+    {
+      "entity": "experimental results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "reestimation formulas",
+      "predicted": "reestimation formulas",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "parameter smoothing",
+      "predicted": "parameter smoothing",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "speaker adaptation",
+      "predicted": "speaker adaptation",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "speaker group modeling",
+      "predicted": "speaker group modeling",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "corrective training",
+      "predicted": "corrective training",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "maximum a posteriori estimation",
+      "predicted": "maximum a posteriori estimation",
+      "category": "method"
+    },
+    {
+      "gold": "continuous density hidden Markov models (CDHMM)",
+      "predicted": "continuous density hidden Markov models (CDHMM)",
+      "category": "method"
+    },
+    {
+      "gold": "MLE reestimation algorithms",
+      "predicted": "MLE reestimation algorithms",
+      "category": "method"
+    },
+    {
+      "gold": "forward-backward algorithm",
+      "predicted": "forward-backward algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "segmental k-means algorithm",
+      "predicted": "segmental k-means algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "HMM with Gaussian mixture observation densities",
+      "predicted": "HMM with Gaussian mixture observation densities",
+      "category": "method"
+    },
+    {
+      "gold": "Bayesian learning",
+      "predicted": "Bayesian learning",
+      "category": "method"
+    },
+    {
+      "gold": "MAP estimation approach",
+      "predicted": "MAP estimation approach",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speech recognition  applications",
+      "predicted": "speech recognition",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "experimental results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "otherscientificterm": 1,
+    "task": 5
+  },
+  "predicted_category_counts": {
+    "method": 8,
+    "material": 6,
+    "task": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 4,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 8,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5333333333333333,
+  "recall": 0.5714285714285714,
+  "f1": 0.5517241379310344,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 15,
+    "exact_matches": 5,
+    "exact_matches_with_category": 8,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,276 @@
+{
+  "doc_key": "IJCAI_2001_12_abs",
+  "gold_entities": [
+    {
+      "entity": "web interfaces",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "Na\u00a8\u0131ve Bayes mixture models",
+      "category": "method"
+    },
+    {
+      "entity": "mixtures of Markov models",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "desktop pcs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deep link structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web visitor behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wireless web navigation",
+      "category": "task"
+    },
+    {
+      "entity": "savings of shortcut links",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "wireless PDAs",
+      "category": "material"
+    },
+    {
+      "entity": "cell phones",
+      "category": "material"
+    },
+    {
+      "entity": "pagers",
+      "category": "material"
+    },
+    {
+      "entity": "web interfaces",
+      "category": "material"
+    },
+    {
+      "entity": "desktop PCs",
+      "category": "material"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "wireless web navigation",
+      "category": "task"
+    },
+    {
+      "entity": "shortcut links",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "learned model of web visitor behavior",
+      "category": "method"
+    },
+    {
+      "entity": "Na\u00a8\u0131ve Bayes mixture models",
+      "category": "method"
+    },
+    {
+      "entity": "mixtures of Markov models",
+      "category": "method"
+    },
+    {
+      "entity": "empirical evidence",
+      "category": "metric"
+    },
+    {
+      "entity": "navigational effort",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "web interfaces",
+      "predicted": "web interfaces",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "desktop pcs",
+      "predicted": "desktop PCs",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "MINPATH",
+      "predicted": "MINPATH",
+      "category": "method"
+    },
+    {
+      "gold": "Na\u00a8\u0131ve Bayes mixture models",
+      "predicted": "Na\u00a8\u0131ve Bayes mixture models",
+      "category": "method"
+    },
+    {
+      "gold": "mixtures of Markov models",
+      "predicted": "mixtures of Markov models",
+      "category": "method"
+    },
+    {
+      "gold": "wireless web navigation",
+      "predicted": "wireless web navigation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "web visitor behavior",
+      "predicted": "learned model of web visitor behavior",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "savings of shortcut links",
+      "predicted": "shortcut links",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "deep link structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "wireless PDAs",
+      "category": "material"
+    },
+    {
+      "entity": "cell phones",
+      "category": "material"
+    },
+    {
+      "entity": "pagers",
+      "category": "material"
+    },
+    {
+      "entity": "empirical evidence",
+      "category": "metric"
+    },
+    {
+      "entity": "navigational effort",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "MINPATH|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 3,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "material": 5,
+    "method": 4,
+    "task": 1,
+    "otherscientificterm": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.36363636363636365,
+  "f1": 0.33333333333333337,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,165 @@
+{
+  "doc_key": "H05-1101",
+  "gold_entities": [
+    {
+      "entity": "computational problems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "exponential time lowerbound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "probabilistic translation models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Computational problems",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic contextfree grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NP",
+      "category": "task"
+    },
+    {
+      "entity": "Exponential time",
+      "category": "metric"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computational problems",
+      "predicted": "Computational problems",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "probabilistic translation models",
+      "predicted": "probabilistic translation models",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "exponential time lowerbound",
+      "predicted": "Exponential time",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "probabilistic context-free grammars",
+      "predicted": "probabilistic contextfree grammars",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "machine translation",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "NP",
+      "category": "task"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 6,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,323 @@
+{
+  "doc_key": "P08-1105",
+  "gold_entities": [
+    {
+      "entity": "Topical blog post retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "ranking  blog posts",
+      "category": "task"
+    },
+    {
+      "entity": "topical blog post retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "blog posts",
+      "category": "material"
+    },
+    {
+      "entity": "blog posts",
+      "category": "material"
+    },
+    {
+      "entity": "blogs",
+      "category": "material"
+    },
+    {
+      "entity": "TREC Blog track test set",
+      "category": "material"
+    },
+    {
+      "entity": "relevance",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval effectiveness",
+      "category": "metric"
+    },
+    {
+      "entity": "textual credibility indicators",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "credibility indicators",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "retrieval process",
+      "category": "method"
+    },
+    {
+      "entity": "retrieval approach",
+      "category": "method"
+    },
+    {
+      "entity": "language models",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Topical blog post retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "Blog posts",
+      "category": "material"
+    },
+    {
+      "entity": "relevance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Textual credibility indicators",
+      "category": "material"
+    },
+    {
+      "entity": "Post level",
+      "category": "method"
+    },
+    {
+      "entity": "Blog level",
+      "category": "method"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Language models",
+      "category": "material"
+    },
+    {
+      "entity": "Retrieval approach",
+      "category": "method"
+    },
+    {
+      "entity": "TREC Blog track test set",
+      "category": "metric"
+    },
+    {
+      "entity": "Retrieval effectiveness",
+      "category": "metric"
+    },
+    {
+      "entity": "Estimation",
+      "category": "method"
+    },
+    {
+      "entity": "Integration",
+      "category": "method"
+    },
+    {
+      "entity": "Combining",
+      "category": "method"
+    },
+    {
+      "entity": "individual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "underlying",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "TREC Blog track test set",
+      "predicted": "TREC Blog track test set",
+      "gold_category": "material",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "relevance",
+      "predicted": "relevance",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "textual credibility indicators",
+      "predicted": "Textual credibility indicators",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "language models",
+      "predicted": "Language models",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Topical blog post retrieval",
+      "predicted": "Topical blog post retrieval",
+      "category": "task"
+    },
+    {
+      "gold": "blog posts",
+      "predicted": "Blog posts",
+      "category": "material"
+    },
+    {
+      "gold": "retrieval effectiveness",
+      "predicted": "Retrieval effectiveness",
+      "category": "metric"
+    },
+    {
+      "gold": "retrieval approach",
+      "predicted": "Retrieval approach",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "ranking  blog posts",
+      "category": "task"
+    },
+    {
+      "entity": "topical blog post retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "blog posts",
+      "category": "material"
+    },
+    {
+      "entity": "blogs",
+      "category": "material"
+    },
+    {
+      "entity": "credibility indicators",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "retrieval process",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Post level",
+      "category": "method"
+    },
+    {
+      "entity": "Blog level",
+      "category": "method"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Estimation",
+      "category": "method"
+    },
+    {
+      "entity": "Integration",
+      "category": "method"
+    },
+    {
+      "entity": "Combining",
+      "category": "method"
+    },
+    {
+      "entity": "individual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "underlying",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "blog posts|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 4,
+    "metric": 2,
+    "otherscientificterm": 2,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 4,
+    "method": 6,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.2857142857142857,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 16,
+    "exact_matches": 4,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 8,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

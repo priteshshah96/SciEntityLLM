@@ -1,0 +1,221 @@
+{
+  "doc_key": "N03-3010",
+  "gold_entities": [
+    {
+      "entity": "Cooperative Model",
+      "category": "method"
+    },
+    {
+      "entity": "Finite State Model (FSM)",
+      "category": "method"
+    },
+    {
+      "entity": "Statistical Learning Model (SLM)",
+      "category": "method"
+    },
+    {
+      "entity": "FSM",
+      "category": "method"
+    },
+    {
+      "entity": "Statistical approach",
+      "category": "method"
+    },
+    {
+      "entity": "Cooperative Model",
+      "category": "method"
+    },
+    {
+      "entity": "natural language understanding",
+      "category": "task"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "task"
+    },
+    {
+      "entity": "language understanding",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Cooperative Model",
+      "category": "method"
+    },
+    {
+      "entity": "natural language understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "material"
+    },
+    {
+      "entity": "Finite State Model (FSM)",
+      "category": "method"
+    },
+    {
+      "entity": "Statistical Learning Model (SLM)",
+      "category": "method"
+    },
+    {
+      "entity": "language understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Cooperative Model",
+      "category": "method"
+    },
+    {
+      "entity": "FSM",
+      "category": "method"
+    },
+    {
+      "entity": "SLM",
+      "category": "method"
+    },
+    {
+      "entity": "language understanding",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language understanding",
+      "predicted": "natural language understanding",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "dialogue system",
+      "predicted": "dialogue system",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "language understanding",
+      "predicted": "language understanding",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Cooperative Model",
+      "predicted": "Cooperative Model",
+      "category": "method"
+    },
+    {
+      "gold": "Cooperative Model",
+      "predicted": "Cooperative Model",
+      "category": "method"
+    },
+    {
+      "gold": "Finite State Model (FSM)",
+      "predicted": "Finite State Model (FSM)",
+      "category": "method"
+    },
+    {
+      "gold": "Statistical Learning Model (SLM)",
+      "predicted": "Statistical Learning Model (SLM)",
+      "category": "method"
+    },
+    {
+      "gold": "FSM",
+      "predicted": "FSM",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Statistical approach",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "language understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "SLM",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "Cooperative Model|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "method": 6,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5555555555555556,
+  "f1": 0.5263157894736842,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

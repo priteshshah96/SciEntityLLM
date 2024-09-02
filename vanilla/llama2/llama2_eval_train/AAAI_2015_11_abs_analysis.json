@@ -1,0 +1,203 @@
+{
+  "doc_key": "AAAI_2015_11_abs",
+  "gold_entities": [
+    {
+      "entity": "convex optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "segmenting sequential data",
+      "category": "task"
+    },
+    {
+      "entity": "real-world tasks",
+      "category": "task"
+    },
+    {
+      "entity": "speech segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "baseline seg-mentation algorithms",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Segmenting",
+      "category": "task"
+    },
+    {
+      "entity": "Data",
+      "category": "task"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Consistency",
+      "category": "metric"
+    },
+    {
+      "entity": "Robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "Speech segmentation",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "speech segmentation",
+      "predicted": "Speech segmentation",
+      "category": "task"
+    },
+    {
+      "gold": "outliers",
+      "predicted": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Robustness",
+      "predicted": "Robustness",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "convex optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "segmenting sequential data",
+      "category": "task"
+    },
+    {
+      "entity": "real-world tasks",
+      "category": "task"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "baseline seg-mentation algorithms",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Segmenting",
+      "category": "task"
+    },
+    {
+      "entity": "Data",
+      "category": "task"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Consistency",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "outliers|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 2,
+    "metric": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 1,
+    "method": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.375,
+  "f1": 0.39999999999999997,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 7,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

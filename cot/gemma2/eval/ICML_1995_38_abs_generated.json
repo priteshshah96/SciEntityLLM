@@ -1,0 +1,322 @@
+{
+  "gold_entities": [
+    {
+      "entity": "domain-speciic models of actions",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "action model formalism",
+      "category": "Method"
+    },
+    {
+      "entity": "re-active agent",
+      "category": "Method"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "Method"
+    },
+    {
+      "entity": "golem",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "Method"
+    },
+    {
+      "entity": "methods",
+      "category": "Metric"
+    },
+    {
+      "entity": "learning in autonomous agents",
+      "category": "Task"
+    },
+    {
+      "entity": "planning systems",
+      "category": "Task"
+    },
+    {
+      "entity": "simulated construction",
+      "category": "Task"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "Task"
+    },
+    {
+      "entity": "domain expert",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "autonomous agents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain-specific models of actions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "planning systems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "action models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "experience",
+      "category": "Material"
+    },
+    {
+      "entity": "domain expert",
+      "category": "Material"
+    },
+    {
+      "entity": "action model formalism",
+      "category": "Method"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "Method"
+    },
+    {
+      "entity": "training instances",
+      "category": "Material"
+    },
+    {
+      "entity": "golem",
+      "category": "Method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "Method"
+    },
+    {
+      "entity": "simulated construction domains",
+      "category": "Material"
+    },
+    {
+      "entity": "simulated office domains",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "planning systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "planning systems",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "action models",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "domain expert",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain expert",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action model formalism",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "action model formalism",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "golem",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "golem",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "integrated learning system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "integrated learning system",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "action model formalism",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "action model formalism",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "golem",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "golem",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "integrated learning system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "integrated learning system",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "simulated construction",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "simulated construction domains",
+          "category": "Material"
+        },
+        {
+          "entity": "simulated office domains",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "domain-speciic models of actions",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "domain-specific models of actions",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.75
+    },
+    {
+      "gold": {
+        "entity": "learning in autonomous agents",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "autonomous agents",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "re-active agent",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "methods",
+      "category": "Metric"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "experience",
+      "category": "Material"
+    },
+    {
+      "entity": "training instances",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "action models": 2
+  },
+  "distinct_repeated_entities": [
+    "action models"
+  ],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 13,
+    "generic_count": 1,
+    "exact_matches": 7,
+    "exact_category_matches": 4,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

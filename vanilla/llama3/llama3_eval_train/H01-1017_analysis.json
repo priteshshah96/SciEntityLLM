@@ -1,0 +1,292 @@
+{
+  "doc_key": "H01-1017",
+  "gold_entities": [
+    {
+      "entity": "mixed-initiative speech dialogue interactions",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue systems",
+      "category": "method"
+    },
+    {
+      "entity": "distributed message-passing infrastructure",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue systems",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "dialogue systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "DARPA Communicator program",
+      "category": "material"
+    },
+    {
+      "entity": "distributed message-passing infrastructure",
+      "category": "method"
+    },
+    {
+      "entity": "Communicator participants",
+      "category": "material"
+    },
+    {
+      "entity": "software infrastructure",
+      "category": "material"
+    },
+    {
+      "entity": "mixedinitiative speech dialogue interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "robust dialogue systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "engaging human users",
+      "category": "task"
+    },
+    {
+      "entity": "presentation",
+      "category": "task"
+    },
+    {
+      "entity": "requirements",
+      "category": "metric"
+    },
+    {
+      "entity": "features",
+      "category": "metric"
+    },
+    {
+      "entity": "speech dialogue interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human users",
+      "category": "material"
+    },
+    {
+      "entity": "speech dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "infrastructure",
+      "category": "method"
+    },
+    {
+      "entity": "message-passing",
+      "category": "method"
+    },
+    {
+      "entity": "initiative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "capabilities",
+      "category": "metric"
+    },
+    {
+      "entity": "development",
+      "category": "task"
+    },
+    {
+      "entity": "funding",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "dialogue systems",
+      "predicted": "dialogue systems",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "distributed message-passing infrastructure",
+      "predicted": "distributed message-passing infrastructure",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "mixed-initiative speech dialogue interactions",
+      "predicted": "speech dialogue interactions",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "dialogue systems",
+      "predicted": "robust dialogue systems",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "DARPA Communicator program",
+      "category": "material"
+    },
+    {
+      "entity": "Communicator participants",
+      "category": "material"
+    },
+    {
+      "entity": "software infrastructure",
+      "category": "material"
+    },
+    {
+      "entity": "mixedinitiative speech dialogue interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "engaging human users",
+      "category": "task"
+    },
+    {
+      "entity": "presentation",
+      "category": "task"
+    },
+    {
+      "entity": "requirements",
+      "category": "metric"
+    },
+    {
+      "entity": "features",
+      "category": "metric"
+    },
+    {
+      "entity": "human users",
+      "category": "material"
+    },
+    {
+      "entity": "speech dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "infrastructure",
+      "category": "method"
+    },
+    {
+      "entity": "message-passing",
+      "category": "method"
+    },
+    {
+      "entity": "initiative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "capabilities",
+      "category": "metric"
+    },
+    {
+      "entity": "development",
+      "category": "task"
+    },
+    {
+      "entity": "funding",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "dialogue systems|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 7,
+    "material": 4,
+    "method": 3,
+    "task": 4,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.047619047619047616,
+  "recall": 0.25,
+  "f1": 0.08,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 21,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 17,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

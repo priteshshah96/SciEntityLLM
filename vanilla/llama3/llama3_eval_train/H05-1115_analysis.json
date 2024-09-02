@@ -1,0 +1,347 @@
+{
+  "doc_key": "H05-1115",
+  "gold_entities": [
+    {
+      "entity": "question-focused sentence retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "sentence retrieval problem",
+      "category": "task"
+    },
+    {
+      "entity": "generic summarization",
+      "category": "task"
+    },
+    {
+      "entity": "news articles",
+      "category": "material"
+    },
+    {
+      "entity": "multi-event stories",
+      "category": "material"
+    },
+    {
+      "entity": "stochastic, graph-based method",
+      "category": "method"
+    },
+    {
+      "entity": "idfweighted word overlap",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "TRDR score",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Annotators",
+      "category": "task"
+    },
+    {
+      "entity": "questionfocused sentence retrieval",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Complex news articles",
+      "category": "material"
+    },
+    {
+      "entity": "multievent stories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Judges",
+      "category": "task"
+    },
+    {
+      "entity": "sentence retrieval problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Stochastic, graph-based method",
+      "category": "method"
+    },
+    {
+      "entity": "textual units",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generic summarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Topic-sensitive version",
+      "category": "method"
+    },
+    {
+      "entity": "Baseline",
+      "category": "method"
+    },
+    {
+      "entity": "IDF-weighted word overlap",
+      "category": "method"
+    },
+    {
+      "entity": "TRDR score",
+      "category": "metric"
+    },
+    {
+      "entity": "similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Input question",
+      "category": "material"
+    },
+    {
+      "entity": "Word overlap",
+      "category": "method"
+    },
+    {
+      "entity": "timesensitive questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Story",
+      "category": "material"
+    },
+    {
+      "entity": "Answer",
+      "category": "material"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Word",
+      "category": "material"
+    },
+    {
+      "entity": "Overlap",
+      "category": "method"
+    },
+    {
+      "entity": "Graph",
+      "category": "material"
+    },
+    {
+      "entity": "Method",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "sentence retrieval problem",
+      "predicted": "sentence retrieval problem",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "generic summarization",
+      "predicted": "generic summarization",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "stochastic, graph-based method",
+      "predicted": "Stochastic, graph-based method",
+      "category": "method"
+    },
+    {
+      "gold": "TRDR score",
+      "predicted": "TRDR score",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "question-focused sentence retrieval",
+      "predicted": "questionfocused sentence retrieval",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "news articles",
+      "predicted": "Complex news articles",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "idfweighted word overlap",
+      "predicted": "Word overlap",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multi-event stories",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Annotators",
+      "category": "task"
+    },
+    {
+      "entity": "multievent stories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Judges",
+      "category": "task"
+    },
+    {
+      "entity": "textual units",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Topic-sensitive version",
+      "category": "method"
+    },
+    {
+      "entity": "Baseline",
+      "category": "method"
+    },
+    {
+      "entity": "IDF-weighted word overlap",
+      "category": "method"
+    },
+    {
+      "entity": "similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Input question",
+      "category": "material"
+    },
+    {
+      "entity": "timesensitive questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Story",
+      "category": "material"
+    },
+    {
+      "entity": "Answer",
+      "category": "material"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Word",
+      "category": "material"
+    },
+    {
+      "entity": "Overlap",
+      "category": "method"
+    },
+    {
+      "entity": "Graph",
+      "category": "material"
+    },
+    {
+      "entity": "Method",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 2,
+    "method": 1,
+    "otherscientificterm": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 7,
+    "material": 8,
+    "method": 7,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.08,
+  "recall": 0.25,
+  "f1": 0.12121212121212122,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 25,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 18,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

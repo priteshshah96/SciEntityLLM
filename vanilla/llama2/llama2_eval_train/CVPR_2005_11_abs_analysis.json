@@ -1,0 +1,286 @@
+{
+  "doc_key": "CVPR_2005_11_abs",
+  "gold_entities": [
+    {
+      "entity": "real-time system",
+      "category": "method"
+    },
+    {
+      "entity": "multiple object tracking in dynamic scenes",
+      "category": "task"
+    },
+    {
+      "entity": "tracking",
+      "category": "task"
+    },
+    {
+      "entity": "longduration and complete occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "motion of objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frame rate",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image size",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "longduration and complete occlusions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "changing background",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "video sequences",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Object tracking",
+      "category": "task"
+    },
+    {
+      "entity": "Real-time system",
+      "category": "task"
+    },
+    {
+      "entity": "dynamic scenes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Frame rate",
+      "category": "metric"
+    },
+    {
+      "entity": "Image size",
+      "category": "metric"
+    },
+    {
+      "entity": "Video sequences",
+      "category": "material"
+    },
+    {
+      "entity": "indoor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "outdoor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Extensive experiments",
+      "category": "task"
+    },
+    {
+      "entity": "demonstrated",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "changing background",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "real-time system",
+      "predicted": "Real-time system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "frame rate",
+      "predicted": "Frame rate",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "image size",
+      "predicted": "Image size",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "shape",
+      "predicted": "shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "changing background",
+      "predicted": "changing background",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "video sequences",
+      "predicted": "Video sequences",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "tracking",
+      "predicted": "Object tracking",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multiple object tracking in dynamic scenes",
+      "category": "task"
+    },
+    {
+      "entity": "longduration and complete occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "motion of objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "longduration and complete occlusions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dynamic scenes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "indoor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "outdoor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Extensive experiments",
+      "category": "task"
+    },
+    {
+      "entity": "demonstrated",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "task": 2,
+    "otherscientificterm": 8,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 8,
+    "metric": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 8,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.25,
+  "f1": 0.23076923076923075,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,228 @@
+{
+  "doc_key": "P06-1053",
+  "gold_entities": [
+    {
+      "entity": "psycholinguistic literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coordinate structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parallel structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "incremental probabilistic parser",
+      "category": "method"
+    },
+    {
+      "entity": "human data",
+      "category": "material"
+    },
+    {
+      "entity": "parsing accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "psycholinguistic literature",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "incremental probabilistic parser",
+      "category": "method"
+    },
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "coordinate structures",
+      "category": "material"
+    },
+    {
+      "entity": "parallel structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human data",
+      "category": "material"
+    },
+    {
+      "entity": "parsing accuracy",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "psycholinguistic literature",
+      "predicted": "psycholinguistic literature",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "coordinate structures",
+      "predicted": "coordinate structures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "syntactic priming",
+      "predicted": "syntactic priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "priming",
+      "predicted": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "rules",
+      "predicted": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "parallel structures",
+      "predicted": "parallel structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "incremental probabilistic parser",
+      "predicted": "incremental probabilistic parser",
+      "category": "method"
+    },
+    {
+      "gold": "human data",
+      "predicted": "human data",
+      "category": "material"
+    },
+    {
+      "gold": "parsing accuracy",
+      "predicted": "parsing accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "sentences",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "priming|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 1,
+    "material": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "material": 4,
+    "otherscientificterm": 4,
+    "method": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.7,
+  "recall": 0.7,
+  "f1": 0.7,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

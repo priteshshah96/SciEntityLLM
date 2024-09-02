@@ -1,0 +1,244 @@
+{
+  "doc_key": "E91-1043",
+  "gold_entities": [
+    {
+      "entity": "model of grammatical processing",
+      "category": "method"
+    },
+    {
+      "entity": "uniform processing",
+      "category": "method"
+    },
+    {
+      "entity": "parametrized deduction  process",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "generation",
+      "category": "task"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "generation",
+      "category": "task"
+    },
+    {
+      "entity": "uniform processing",
+      "category": "method"
+    },
+    {
+      "entity": "parametrized deduction",
+      "category": "method"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model of grammatical processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "deduction process",
+      "category": "method"
+    },
+    {
+      "entity": "flexible and efficient",
+      "category": "metric"
+    },
+    {
+      "entity": "single process (Material)  \"",
+      "category": "task"
+    },
+    {
+      "entity": "interleaved tasks",
+      "category": "method"
+    },
+    {
+      "entity": "strongly interleaved",
+      "category": "metric"
+    },
+    {
+      "entity": "grammatical processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single  process  (Material)  \"",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "model of grammatical processing",
+      "predicted": "model of grammatical processing",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "uniform processing",
+      "predicted": "uniform processing",
+      "category": "method"
+    },
+    {
+      "gold": "knowledge sources",
+      "predicted": "knowledge sources",
+      "category": "material"
+    },
+    {
+      "gold": "parsing",
+      "predicted": "parsing",
+      "category": "task"
+    },
+    {
+      "gold": "generation",
+      "predicted": "generation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "parametrized deduction  process",
+      "predicted": "parametrized deduction",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "deduction process",
+      "category": "method"
+    },
+    {
+      "entity": "flexible and efficient",
+      "category": "metric"
+    },
+    {
+      "entity": "single process (Material)  \"",
+      "category": "task"
+    },
+    {
+      "entity": "interleaved tasks",
+      "category": "method"
+    },
+    {
+      "entity": "strongly interleaved",
+      "category": "metric"
+    },
+    {
+      "entity": "grammatical processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single  process  (Material)  \"",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "material": 1,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 4,
+    "otherscientificterm": 3,
+    "material": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.5714285714285714,
+  "f1": 0.38095238095238093,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

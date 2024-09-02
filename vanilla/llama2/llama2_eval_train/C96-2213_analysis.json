@@ -1,0 +1,203 @@
+{
+  "doc_key": "C96-2213",
+  "gold_entities": [
+    {
+      "entity": "Natural Language Processing (NLP) system",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing",
+      "category": "task"
+    },
+    {
+      "entity": "new domain",
+      "category": "material"
+    },
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "lexicalized grammar",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid system",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "corpus-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "idiosyncracies of the new sublanguage",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "NLP",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing",
+      "category": "task"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "idiosyncracies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain",
+      "category": "task"
+    },
+    {
+      "entity": "corpus-based approach",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "syntactic parsing",
+      "predicted": "syntactic parsing",
+      "category": "task"
+    },
+    {
+      "gold": "grammar",
+      "predicted": "grammar",
+      "category": "method"
+    },
+    {
+      "gold": "corpus-based approach",
+      "predicted": "corpus-based approach",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "new domain",
+      "predicted": "domain",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Natural Language Processing (NLP) system",
+      "category": "task"
+    },
+    {
+      "entity": "lexicalized grammar",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid system",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "idiosyncracies of the new sublanguage",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "NLP",
+      "category": "task"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "idiosyncracies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "method": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "material": 1,
+    "method": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.3333333333333333,
+  "f1": 0.375,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 7,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

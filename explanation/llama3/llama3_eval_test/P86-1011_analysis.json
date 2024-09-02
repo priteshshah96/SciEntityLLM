@@ -1,0 +1,161 @@
+{
+  "doc_key": "P86-1011",
+  "gold_entities": [
+    {
+      "entity": "grammatical formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Head Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic expressiveness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Head Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "weak equivalence",
+      "category": "metric"
+    },
+    {
+      "entity": "linguistic expressiveness",
+      "category": "metric"
+    },
+    {
+      "entity": "formalisms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Head Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "formalisms",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "linguistic expressiveness",
+      "predicted": "linguistic expressiveness",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Tree Adjoining Grammars",
+      "predicted": "Tree Adjoining Grammars",
+      "category": "method"
+    },
+    {
+      "gold": "Head Grammars",
+      "predicted": "Head Grammars",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "grammatical formalisms",
+      "predicted": "formalisms",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Head Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "weak equivalence",
+      "category": "metric"
+    },
+    {
+      "entity": "formalisms",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "metric": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.5,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

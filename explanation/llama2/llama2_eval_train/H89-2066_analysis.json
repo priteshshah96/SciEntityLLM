@@ -1,0 +1,266 @@
+{
+  "doc_key": "H89-2066",
+  "gold_entities": [
+    {
+      "entity": "spoken language system",
+      "category": "method"
+    },
+    {
+      "entity": "robust and high-performance speech recognition system",
+      "category": "method"
+    },
+    {
+      "entity": "segment-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "recognition system",
+      "category": "method"
+    },
+    {
+      "entity": "voice input",
+      "category": "material"
+    },
+    {
+      "entity": "continuous speech",
+      "category": "material"
+    },
+    {
+      "entity": "interactive problem solving",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "speech understanding",
+      "category": "task"
+    },
+    {
+      "entity": "phonetic recognition",
+      "category": "task"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "spoken language understanding",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "spoken language system",
+      "category": "task"
+    },
+    {
+      "entity": "voice input",
+      "category": "method"
+    },
+    {
+      "entity": "interactive problem solving",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "method"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "method"
+    },
+    {
+      "entity": "segment-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "phonetic recognition",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "DoD",
+      "category": "material"
+    },
+    {
+      "entity": "speech understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segment-based approach",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "spoken language system",
+      "predicted": "spoken language system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "voice input",
+      "predicted": "voice input",
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "speech recognition",
+      "predicted": "speech recognition",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "speech understanding",
+      "predicted": "speech understanding",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "phonetic recognition",
+      "predicted": "phonetic recognition",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "segment-based approach",
+      "predicted": "segment-based approach",
+      "category": "method"
+    },
+    {
+      "gold": "interactive problem solving",
+      "predicted": "interactive problem solving",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "score": 1.0,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "robust and high-performance speech recognition system",
+      "category": "method"
+    },
+    {
+      "entity": "recognition system",
+      "category": "method"
+    },
+    {
+      "entity": "continuous speech",
+      "category": "material"
+    },
+    {
+      "entity": "spoken language understanding",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "segment-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "DoD",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "natural language processing|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "material": 2,
+    "task": 7
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 5,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 4,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.15384615384615385,
+  "f1": 0.16666666666666669,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 11,
+    "exact_matches": 6,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

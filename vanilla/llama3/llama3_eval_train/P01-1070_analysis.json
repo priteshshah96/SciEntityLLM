@@ -1,0 +1,241 @@
+{
+  "doc_key": "P01-1070",
+  "gold_entities": [
+    {
+      "entity": "supervised machine learning",
+      "category": "method"
+    },
+    {
+      "entity": "statistical models  of  WH-questions",
+      "category": "method"
+    },
+    {
+      "entity": "shallow linguistic features of questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users informational goals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training and testing factors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "whquestions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shallow linguistic features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users informational goals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predictive performance",
+      "category": "metric"
+    },
+    {
+      "entity": "training and testing factors",
+      "category": "method"
+    },
+    {
+      "entity": "target variables",
+      "category": "material"
+    },
+    {
+      "entity": "machine learning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "supervised machine learning",
+      "category": "method"
+    },
+    {
+      "entity": "set of experiments",
+      "category": "task"
+    },
+    {
+      "entity": "construction of statistical models",
+      "category": "task"
+    },
+    {
+      "entity": "statistical models of WH-questions",
+      "category": "material"
+    },
+    {
+      "entity": "predictive performance of our models",
+      "category": "metric"
+    },
+    {
+      "entity": "predictive performance of our models including the influence of various training and testing factors",
+      "category": "method"
+    },
+    {
+      "entity": "relationships among the target variables",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "statistical models  of  WH-questions",
+      "predicted": "statistical models of WH-questions",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "training and testing factors",
+      "predicted": "training and testing factors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "supervised machine learning",
+      "predicted": "supervised machine learning",
+      "category": "method"
+    },
+    {
+      "gold": "users informational goals",
+      "predicted": "users informational goals",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "shallow linguistic features of questions",
+      "predicted": "shallow linguistic features",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "whquestions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predictive performance",
+      "category": "metric"
+    },
+    {
+      "entity": "target variables",
+      "category": "material"
+    },
+    {
+      "entity": "machine learning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "set of experiments",
+      "category": "task"
+    },
+    {
+      "entity": "construction of statistical models",
+      "category": "task"
+    },
+    {
+      "entity": "predictive performance of our models",
+      "category": "metric"
+    },
+    {
+      "entity": "predictive performance of our models including the influence of various training and testing factors",
+      "category": "method"
+    },
+    {
+      "entity": "relationships among the target variables",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "metric": 2,
+    "method": 3,
+    "material": 2,
+    "task": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.13333333333333333,
+  "recall": 0.4,
+  "f1": 0.2,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 15,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 10,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

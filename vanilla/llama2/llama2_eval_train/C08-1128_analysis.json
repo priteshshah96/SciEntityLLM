@@ -1,0 +1,295 @@
+{
+  "doc_key": "C08-1128",
+  "gold_entities": [
+    {
+      "entity": "Chinese text",
+      "category": "material"
+    },
+    {
+      "entity": "manually annotated data",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "translation",
+      "category": "task"
+    },
+    {
+      "entity": "segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "Chinese word segmenter",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian semi-supervised Chinese word segmentation model",
+      "category": "method"
+    },
+    {
+      "entity": "MT system",
+      "category": "method"
+    },
+    {
+      "entity": "monolingual and bilingual information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "chinese text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "delimiters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word segmenter",
+      "category": "task"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "translation",
+      "category": "task"
+    },
+    {
+      "entity": "Bayesian",
+      "category": "method"
+    },
+    {
+      "entity": "semi-supervised",
+      "category": "method"
+    },
+    {
+      "entity": "Chinese",
+      "category": "material"
+    },
+    {
+      "entity": "monolingual",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual",
+      "category": "material"
+    },
+    {
+      "entity": "experiment",
+      "category": "task"
+    },
+    {
+      "entity": "data",
+      "category": "material"
+    },
+    {
+      "entity": "environment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Chinese text",
+      "predicted": "chinese text",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "word segmentation",
+      "predicted": "word segmentation",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "MT",
+      "predicted": "MT",
+      "category": "task"
+    },
+    {
+      "gold": "translation",
+      "predicted": "translation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Chinese word segmenter",
+      "predicted": "word segmenter",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "manually annotated data",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Bayesian semi-supervised Chinese word segmentation model",
+      "category": "method"
+    },
+    {
+      "entity": "MT system",
+      "category": "method"
+    },
+    {
+      "entity": "monolingual and bilingual information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "delimiters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Bayesian",
+      "category": "method"
+    },
+    {
+      "entity": "semi-supervised",
+      "category": "method"
+    },
+    {
+      "entity": "Chinese",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual",
+      "category": "material"
+    },
+    {
+      "entity": "experiment",
+      "category": "task"
+    },
+    {
+      "entity": "data",
+      "category": "material"
+    },
+    {
+      "entity": "environment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "MT|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "task": 5,
+    "method": 4,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 4,
+    "task": 5,
+    "method": 2,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.13333333333333333,
+  "recall": 0.16666666666666666,
+  "f1": 0.14814814814814814,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 15,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 9,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

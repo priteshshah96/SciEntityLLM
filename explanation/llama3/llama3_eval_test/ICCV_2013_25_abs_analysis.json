@@ -1,0 +1,299 @@
+{
+  "doc_key": "ICCV_2013_25_abs",
+  "gold_entities": [
+    {
+      "entity": "scanning method",
+      "category": "method"
+    },
+    {
+      "entity": "mi-cro phase shifting",
+      "category": "method"
+    },
+    {
+      "entity": "modulated phase shifting",
+      "category": "method"
+    },
+    {
+      "entity": "dense subpixel cameraprojector correspondence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "photometric calibration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relative geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "zerocrossings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unstructured patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graylevel bandpass white noise patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "indirect lighting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scene discontinuities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scene geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Subpixel accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "subpixel precision",
+      "category": "metric"
+    },
+    {
+      "entity": "active reconstruction systems",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "scanning method",
+      "category": "method"
+    },
+    {
+      "entity": "dense sub-pixel camera-projector correspondence",
+      "category": "method"
+    },
+    {
+      "entity": "photometric calibration",
+      "category": "method"
+    },
+    {
+      "entity": "preliminary knowledge of their relative geometry",
+      "category": "method"
+    },
+    {
+      "entity": "zero-crossings",
+      "category": "method"
+    },
+    {
+      "entity": "unstructured patterns",
+      "category": "method"
+    },
+    {
+      "entity": "gray-level band-pass white noise patterns",
+      "category": "method"
+    },
+    {
+      "entity": "indirect lighting",
+      "category": "method"
+    },
+    {
+      "entity": "scene discontinuities",
+      "category": "method"
+    },
+    {
+      "entity": "subpixel precision",
+      "category": "method"
+    },
+    {
+      "entity": "scene geometry",
+      "category": "method"
+    },
+    {
+      "entity": "active reconstruction systems",
+      "category": "method"
+    },
+    {
+      "entity": "mi-cro phase shifting",
+      "category": "method"
+    },
+    {
+      "entity": "modulated phase shifting",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "photometric calibration",
+      "predicted": "photometric calibration",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unstructured patterns",
+      "predicted": "unstructured patterns",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "indirect lighting",
+      "predicted": "indirect lighting",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "scene discontinuities",
+      "predicted": "scene discontinuities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "scene geometry",
+      "predicted": "scene geometry",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "subpixel precision",
+      "predicted": "subpixel precision",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "active reconstruction systems",
+      "predicted": "active reconstruction systems",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "scanning method",
+      "predicted": "scanning method",
+      "category": "method"
+    },
+    {
+      "gold": "mi-cro phase shifting",
+      "predicted": "mi-cro phase shifting",
+      "category": "method"
+    },
+    {
+      "gold": "modulated phase shifting",
+      "predicted": "modulated phase shifting",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dense subpixel cameraprojector correspondence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relative geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "zerocrossings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graylevel bandpass white noise patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Subpixel accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dense sub-pixel camera-projector correspondence",
+      "category": "method"
+    },
+    {
+      "entity": "preliminary knowledge of their relative geometry",
+      "category": "method"
+    },
+    {
+      "entity": "zero-crossings",
+      "category": "method"
+    },
+    {
+      "entity": "gray-level band-pass white noise patterns",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 9,
+    "metric": 3,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 14
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 14,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 0,
+      "exact_matches": 5,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.1875,
+  "f1": 0.19999999999999998,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 14,
+    "exact_matches": 7,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

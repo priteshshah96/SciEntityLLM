@@ -1,0 +1,313 @@
+{
+  "gold_entities": [
+    {
+      "entity": "training method",
+      "category": "Method"
+    },
+    {
+      "entity": "localized phrase-based prediction model",
+      "category": "Method"
+    },
+    {
+      "entity": "log-linear block bigram model",
+      "category": "Method"
+    },
+    {
+      "entity": "training algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical machine translation (smt)",
+      "category": "Task"
+    },
+    {
+      "entity": "local phrase re-ordering",
+      "category": "Task"
+    },
+    {
+      "entity": "arabic-english translation task",
+      "category": "Task"
+    },
+    {
+      "entity": "maximum likelihood criterion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "real-valued features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "language model score",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "binary features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "training method",
+      "category": "Method"
+    },
+    {
+      "entity": "localized phrase-based prediction model",
+      "category": "Task"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "block",
+      "category": "Task"
+    },
+    {
+      "entity": "orientation",
+      "category": "Task"
+    },
+    {
+      "entity": "maximum likelihood criterion",
+      "category": "Method"
+    },
+    {
+      "entity": "log-linear block bigram model",
+      "category": "Method"
+    },
+    {
+      "entity": "real-valued features",
+      "category": "Method"
+    },
+    {
+      "entity": "language model score",
+      "category": "Method"
+    },
+    {
+      "entity": "binary features",
+      "category": "Method"
+    },
+    {
+      "entity": "block bigram features",
+      "category": "Method"
+    },
+    {
+      "entity": "features",
+      "category": "Method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "millions of features",
+      "category": "Method"
+    },
+    {
+      "entity": "standard arabic-english translation task",
+      "category": "Task"
+    },
+    {
+      "entity": "baseline",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "training method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "training method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "localized phrase-based prediction model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "localized phrase-based prediction model",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "maximum likelihood criterion",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "maximum likelihood criterion",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "log-linear block bigram model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "log-linear block bigram model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "real-valued features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "real-valued features",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "language model score",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "language model score",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "binary features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "binary features",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "features",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "training method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "training method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "log-linear block bigram model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "log-linear block bigram model",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "statistical machine translation (smt)",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "statistical machine translation",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "standard arabic-english translation task",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "training algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "algorithm",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "local phrase re-ordering",
+      "category": "Task"
+    },
+    {
+      "entity": "arabic-english translation task",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "block",
+      "category": "Task"
+    },
+    {
+      "entity": "orientation",
+      "category": "Task"
+    },
+    {
+      "entity": "block bigram features",
+      "category": "Method"
+    },
+    {
+      "entity": "millions of features",
+      "category": "Method"
+    },
+    {
+      "entity": "baseline",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 16,
+    "generic_count": 3,
+    "exact_matches": 8,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

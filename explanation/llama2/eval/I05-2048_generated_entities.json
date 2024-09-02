@@ -1,0 +1,265 @@
+{
+  "gold_entities": [
+    {
+      "entity": "statistical machine translation (smt)",
+      "category": "Method"
+    },
+    {
+      "entity": "smt",
+      "category": "Method"
+    },
+    {
+      "entity": "rule-based translation systems",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "Method"
+    },
+    {
+      "entity": "smt system",
+      "category": "Method"
+    },
+    {
+      "entity": "smt",
+      "category": "Method"
+    },
+    {
+      "entity": "sttk",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical machine translation tool kit",
+      "category": "Method"
+    },
+    {
+      "entity": "sttk",
+      "category": "Method"
+    },
+    {
+      "entity": "smt system",
+      "category": "Method"
+    },
+    {
+      "entity": "rule-based and example based machine translation modules",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "Task"
+    },
+    {
+      "entity": "translation systems",
+      "category": "Task"
+    },
+    {
+      "entity": "translation system",
+      "category": "Task"
+    },
+    {
+      "entity": "multi engine machine translation system",
+      "category": "Task"
+    },
+    {
+      "entity": "new language pairs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "new domains",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "statistical machine translation (smt)",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language processing (nlp)",
+      "category": "Task"
+    },
+    {
+      "entity": "rule-based translation systems",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical machine translation tool kit (sttk)",
+      "category": "Method"
+    },
+    {
+      "entity": "cmu's smt system",
+      "category": "Method"
+    },
+    {
+      "entity": "multi engine machine translation system",
+      "category": "Method"
+    },
+    {
+      "entity": "source code",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "tool kit",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "statistical machine translation (smt)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "statistical machine translation (smt)",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rule-based translation systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "rule-based translation systems",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multi engine machine translation system",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "multi engine machine translation system",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "rule-based translation systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "rule-based translation systems",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "smt system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "cmu's smt system",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "statistical machine translation tool kit",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "statistical machine translation tool kit (sttk)",
+        "category": "Method"
+      },
+      "overlap": 0.8333333333333334
+    },
+    {
+      "gold": {
+        "entity": "natural language processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language processing (nlp)",
+        "category": "Task"
+      },
+      "overlap": 0.75
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "smt",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "Method"
+    },
+    {
+      "entity": "smt",
+      "category": "Method"
+    },
+    {
+      "entity": "sttk",
+      "category": "Method"
+    },
+    {
+      "entity": "sttk",
+      "category": "Method"
+    },
+    {
+      "entity": "smt system",
+      "category": "Method"
+    },
+    {
+      "entity": "rule-based and example based machine translation modules",
+      "category": "Method"
+    },
+    {
+      "entity": "translation systems",
+      "category": "Task"
+    },
+    {
+      "entity": "translation system",
+      "category": "Task"
+    },
+    {
+      "entity": "new language pairs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "new domains",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "source code",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "smt": 2,
+    "smt system": 2,
+    "sttk": 2
+  },
+  "distinct_repeated_entities": [
+    "smt",
+    "smt system",
+    "sttk"
+  ],
+  "counts": {
+    "gold_count": 17,
+    "generated_count": 7,
+    "generic_count": 2,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 3,
+    "repeated_entities": 6
+  }
+}

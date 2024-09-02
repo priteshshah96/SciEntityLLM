@@ -1,0 +1,228 @@
+{
+  "doc_key": "ICCV_2011_50_abs",
+  "gold_entities": [
+    {
+      "entity": "security domain",
+      "category": "task"
+    },
+    {
+      "entity": "identifying rare behaviours of interest",
+      "category": "task"
+    },
+    {
+      "entity": "detection of abnormal behaviours",
+      "category": "task"
+    },
+    {
+      "entity": "rare behaviours of interest",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "behaviours",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pragmatic aspects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training examples",
+      "category": "material"
+    },
+    {
+      "entity": "weakly supervised algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "parameter tuning",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "security domain",
+      "category": "task"
+    },
+    {
+      "entity": "rare behaviours of interest",
+      "category": "task"
+    },
+    {
+      "entity": "training examples",
+      "category": "material"
+    },
+    {
+      "entity": "weakly supervised algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "abnormal behaviours",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global context",
+      "category": "method"
+    },
+    {
+      "entity": "real time performance",
+      "category": "metric"
+    },
+    {
+      "entity": "parameter tuning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pragmatic aspects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "rare behaviours of interest",
+      "predicted": "rare behaviours of interest",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "global context",
+      "predicted": "global context",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "parameter tuning",
+      "predicted": "parameter tuning",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "security domain",
+      "predicted": "security domain",
+      "category": "task"
+    },
+    {
+      "gold": "pragmatic aspects",
+      "predicted": "pragmatic aspects",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Training examples",
+      "predicted": "training examples",
+      "category": "material"
+    },
+    {
+      "gold": "weakly supervised algorithm",
+      "predicted": "weakly supervised algorithm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "detection of abnormal behaviours",
+      "predicted": "abnormal behaviours",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "identifying rare behaviours of interest",
+      "category": "task"
+    },
+    {
+      "entity": "behaviours",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "real time performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "otherscientificterm": 4,
+    "material": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 1,
+    "method": 2,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4444444444444444,
+  "recall": 0.4,
+  "f1": 0.4210526315789474,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

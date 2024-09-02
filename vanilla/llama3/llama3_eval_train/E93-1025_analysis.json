@@ -1,0 +1,279 @@
+{
+  "doc_key": "E93-1025",
+  "gold_entities": [
+    {
+      "entity": "analysis of  ellipsis resolution",
+      "category": "task"
+    },
+    {
+      "entity": "identity-of-relations analyses",
+      "category": "task"
+    },
+    {
+      "entity": "role linking",
+      "category": "task"
+    },
+    {
+      "entity": "discourse copying phenomena",
+      "category": "task"
+    },
+    {
+      "entity": "discourse copying algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "full nps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "referential elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ellipsis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "ellipsis resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Discourse copying algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "identityofrelations analyses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Full NPs",
+      "category": "material"
+    },
+    {
+      "entity": "Role linking",
+      "category": "method"
+    },
+    {
+      "entity": "Predictions",
+      "category": "metric"
+    },
+    {
+      "entity": "Ellipsis",
+      "category": "material"
+    },
+    {
+      "entity": "Discourse copying phenomena",
+      "category": "material"
+    },
+    {
+      "entity": "Referential elements",
+      "category": "material"
+    },
+    {
+      "entity": "NPs",
+      "category": "material"
+    },
+    {
+      "entity": "5-hydroxytryptophan (5-HTP)",
+      "category": "material"
+    },
+    {
+      "entity": "5-hydroxyindoleacetic acid (5-HIAA)",
+      "category": "material"
+    },
+    {
+      "entity": "Serotonin",
+      "category": "material"
+    },
+    {
+      "entity": "Rats",
+      "category": "material"
+    },
+    {
+      "entity": "Brain",
+      "category": "material"
+    },
+    {
+      "entity": "behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Levels",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "role linking",
+      "predicted": "Role linking",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "discourse copying phenomena",
+      "predicted": "Discourse copying phenomena",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "full nps",
+      "predicted": "Full NPs",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "referential elements",
+      "predicted": "Referential elements",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "ellipsis",
+      "predicted": "Ellipsis",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "discourse copying algorithm",
+      "predicted": "Discourse copying algorithm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "analysis of  ellipsis resolution",
+      "predicted": "ellipsis resolution",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "identity-of-relations analyses",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "identityofrelations analyses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Predictions",
+      "category": "metric"
+    },
+    {
+      "entity": "NPs",
+      "category": "material"
+    },
+    {
+      "entity": "5-hydroxytryptophan (5-HTP)",
+      "category": "material"
+    },
+    {
+      "entity": "5-hydroxyindoleacetic acid (5-HIAA)",
+      "category": "material"
+    },
+    {
+      "entity": "Serotonin",
+      "category": "material"
+    },
+    {
+      "entity": "Rats",
+      "category": "material"
+    },
+    {
+      "entity": "Brain",
+      "category": "material"
+    },
+    {
+      "entity": "behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Levels",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 1,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "method": 2,
+    "material": 10,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 10,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.058823529411764705,
+  "recall": 0.125,
+  "f1": 0.07999999999999999,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 17,
+    "exact_matches": 5,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 10,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

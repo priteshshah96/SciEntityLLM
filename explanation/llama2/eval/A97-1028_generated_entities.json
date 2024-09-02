@@ -1,0 +1,167 @@
+{
+  "gold_entities": [
+    {
+      "entity": "named entity corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "statistical analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "Method"
+    },
+    {
+      "entity": "named entity task",
+      "category": "Task"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "named entity task",
+      "category": "Task"
+    },
+    {
+      "entity": "corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "languages",
+      "category": "Material"
+    },
+    {
+      "entity": "statistical profile",
+      "category": "Method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "statistical profile",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "analysis",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "named entity task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "named entity task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lower bound estimation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lower bound estimation",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "named entity task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "named entity task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lower bound estimation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lower bound estimation",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "named entity corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "corpora",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "statistical analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "languages",
+      "category": "Material"
+    },
+    {
+      "entity": "statistical profile",
+      "category": "Method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 7,
+    "generic_count": 3,
+    "exact_matches": 2,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

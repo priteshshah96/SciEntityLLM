@@ -1,0 +1,195 @@
+{
+  "doc_key": "P05-2013",
+  "gold_entities": [
+    {
+      "entity": "automatically inducing a  Combinatory Categorial Grammar (CCG) lexicon",
+      "category": "task"
+    },
+    {
+      "entity": "combinatory categorial grammar ccg lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compact lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Turkish dependency treebank",
+      "category": "material"
+    },
+    {
+      "entity": "Turkish",
+      "category": "material"
+    },
+    {
+      "entity": "agglutinating free word order language",
+      "category": "material"
+    },
+    {
+      "entity": "Penn WSJ",
+      "category": "material"
+    },
+    {
+      "entity": "language theories",
+      "category": "method"
+    },
+    {
+      "entity": "CCG principles",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Combinatory Categorial Grammar",
+      "category": "task"
+    },
+    {
+      "entity": "Turkish dependency treebank",
+      "category": "task"
+    },
+    {
+      "entity": "agglutinating free word order language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Penn WSJ",
+      "category": "material"
+    },
+    {
+      "entity": "treebank",
+      "category": "task"
+    },
+    {
+      "entity": "ccg principles",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Turkish dependency treebank",
+      "predicted": "Turkish dependency treebank",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "agglutinating free word order language",
+      "predicted": "agglutinating free word order language",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "CCG principles",
+      "predicted": "ccg principles",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Penn WSJ",
+      "predicted": "Penn WSJ",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "combinatory categorial grammar ccg lexicon",
+      "predicted": "Combinatory Categorial Grammar",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatically inducing a  Combinatory Categorial Grammar (CCG) lexicon",
+      "category": "task"
+    },
+    {
+      "entity": "compact lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Turkish",
+      "category": "material"
+    },
+    {
+      "entity": "language theories",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "treebank",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 2,
+    "material": 4,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.1111111111111111,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 6,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

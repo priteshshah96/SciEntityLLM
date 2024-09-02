@@ -1,0 +1,314 @@
+{
+  "doc_key": "H93-1076",
+  "gold_entities": [
+    {
+      "entity": "speech and text image processing",
+      "category": "task"
+    },
+    {
+      "entity": "document-oriented applications",
+      "category": "task"
+    },
+    {
+      "entity": "voice editing and indexing",
+      "category": "task"
+    },
+    {
+      "entity": "scanned-document content retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "signal-based document processing functionality",
+      "category": "task"
+    },
+    {
+      "entity": "recognition technology",
+      "category": "method"
+    },
+    {
+      "entity": "text processors",
+      "category": "method"
+    },
+    {
+      "entity": "speech and text-image recognition",
+      "category": "method"
+    },
+    {
+      "entity": "text-image editor",
+      "category": "method"
+    },
+    {
+      "entity": "wordspotter",
+      "category": "method"
+    },
+    {
+      "entity": "decoding framework",
+      "category": "method"
+    },
+    {
+      "entity": "audio and scanned image data",
+      "category": "material"
+    },
+    {
+      "entity": "documents with signal content",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "text image processing",
+      "category": "method"
+    },
+    {
+      "entity": "recognition technology",
+      "category": "method"
+    },
+    {
+      "entity": "documentoriented applications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text processors",
+      "category": "method"
+    },
+    {
+      "entity": "audio data",
+      "category": "material"
+    },
+    {
+      "entity": "scanned image data",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "method"
+    },
+    {
+      "entity": "text-image recognition",
+      "category": "method"
+    },
+    {
+      "entity": "documents with signal content",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text-image editor",
+      "category": "task"
+    },
+    {
+      "entity": "wordspotter",
+      "category": "task"
+    },
+    {
+      "entity": "voice editing",
+      "category": "task"
+    },
+    {
+      "entity": "indexing",
+      "category": "task"
+    },
+    {
+      "entity": "decoding framework",
+      "category": "task"
+    },
+    {
+      "entity": "scanned-document content retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "signalbased document processing",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "scanned-document content retrieval",
+      "predicted": "scanned-document content retrieval",
+      "category": "task"
+    },
+    {
+      "gold": "recognition technology",
+      "predicted": "recognition technology",
+      "category": "method"
+    },
+    {
+      "gold": "text processors",
+      "predicted": "text processors",
+      "category": "method"
+    },
+    {
+      "gold": "text-image editor",
+      "predicted": "text-image editor",
+      "category": "method"
+    },
+    {
+      "gold": "wordspotter",
+      "predicted": "wordspotter",
+      "category": "method"
+    },
+    {
+      "gold": "decoding framework",
+      "predicted": "decoding framework",
+      "category": "method"
+    },
+    {
+      "gold": "documents with signal content",
+      "predicted": "documents with signal content",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speech and text-image recognition",
+      "predicted": "speech recognition",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "voice editing and indexing",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "voice editing",
+          "matched": "voice editing",
+          "predicted_category": "task"
+        },
+        {
+          "part": "indexing",
+          "matched": "indexing",
+          "predicted_category": "task"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "category_matches": [
+    {
+      "entity": "scanned-document content retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "recognition technology",
+      "category": "method"
+    },
+    {
+      "entity": "text processors",
+      "category": "method"
+    },
+    {
+      "entity": "documents with signal content",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "voice editing and indexing",
+      "category": "task"
+    },
+    {
+      "entity": "speech and text-image recognition",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "speech and text image processing",
+      "category": "task"
+    },
+    {
+      "entity": "document-oriented applications",
+      "category": "task"
+    },
+    {
+      "entity": "signal-based document processing functionality",
+      "category": "task"
+    },
+    {
+      "entity": "audio and scanned image data",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "documentoriented applications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "audio data",
+      "category": "material"
+    },
+    {
+      "entity": "signalbased document processing",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 6,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "otherscientificterm": 3,
+    "material": 2,
+    "task": 6
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 5,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 6,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 1
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.3076923076923077,
+  "f1": 0.27586206896551724,
+  "category_precision": 0.75,
+  "category_recall": 0.9230769230769231,
+  "category_f1": 0.8275862068965517,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 16,
+    "exact_matches": 7,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "category_matches": 6,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 3,
+    "generic_entities": 6,
+    "correct_predictions": 4,
+    "correct_categories": 12
+  }
+}

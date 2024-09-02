@@ -1,0 +1,189 @@
+{
+  "doc_key": "P01-1070",
+  "gold_entities": [
+    {
+      "entity": "supervised machine learning",
+      "category": "method"
+    },
+    {
+      "entity": "statistical models  of  WH-questions",
+      "category": "method"
+    },
+    {
+      "entity": "shallow linguistic features of questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users informational goals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training and testing factors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "supervised machine learning",
+      "category": "method"
+    },
+    {
+      "entity": "statistical models",
+      "category": "method"
+    },
+    {
+      "entity": "whquestions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shallow linguistic features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predictive performance",
+      "category": "metric"
+    },
+    {
+      "entity": "training and testing factors",
+      "category": "material"
+    },
+    {
+      "entity": "target variables",
+      "category": "material"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "training and testing factors",
+      "predicted": "training and testing factors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "supervised machine learning",
+      "predicted": "supervised machine learning",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "statistical models  of  WH-questions",
+      "predicted": "statistical models",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "shallow linguistic features of questions",
+      "predicted": "shallow linguistic features",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "users informational goals",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "whquestions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predictive performance",
+      "category": "metric"
+    },
+    {
+      "entity": "target variables",
+      "category": "material"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 4,
+    "metric": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.2,
+  "f1": 0.14285714285714285,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

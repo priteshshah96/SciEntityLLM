@@ -1,0 +1,344 @@
+{
+  "doc_key": "ICASSP_2011_588_abs",
+  "gold_entities": [
+    {
+      "entity": "measurable signals",
+      "category": "material"
+    },
+    {
+      "entity": "real data",
+      "category": "material"
+    },
+    {
+      "entity": "frequency components",
+      "category": "method"
+    },
+    {
+      "entity": "frequency components",
+      "category": "method"
+    },
+    {
+      "entity": "heuristics",
+      "category": "method"
+    },
+    {
+      "entity": "estimation method",
+      "category": "method"
+    },
+    {
+      "entity": "rotational speed of the engine",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vibrations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "electrical system voltage level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambient sound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gears",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gear scale factors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speed measurements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speed and related states of the vehicle",
+      "category": "task"
+    },
+    {
+      "entity": "estimation problem",
+      "category": "task"
+    },
+    {
+      "entity": "maximum likelihood estimation problem",
+      "category": "task"
+    },
+    {
+      "entity": "numerical evaluation of the estimator",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Speed",
+      "category": "metric"
+    },
+    {
+      "entity": "Rotational speed",
+      "category": "metric"
+    },
+    {
+      "entity": "Frequency components",
+      "category": "metric"
+    },
+    {
+      "entity": "Vibrations",
+      "category": "metric"
+    },
+    {
+      "entity": "Electrical system voltage level",
+      "category": "metric"
+    },
+    {
+      "entity": "Ambient sound",
+      "category": "metric"
+    },
+    {
+      "entity": "Gear scale factors",
+      "category": "metric"
+    },
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "Speed measurements",
+      "category": "metric"
+    },
+    {
+      "entity": "Signal measurements",
+      "category": "metric"
+    },
+    {
+      "entity": "Maximum likelihood estimation",
+      "category": "method"
+    },
+    {
+      "entity": "Heuristics",
+      "category": "method"
+    },
+    {
+      "entity": "Numerical evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "Measurement campaign",
+      "category": "task"
+    },
+    {
+      "entity": "Real data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "real data",
+      "predicted": "Real data",
+      "category": "material"
+    },
+    {
+      "gold": "frequency components",
+      "predicted": "Frequency components",
+      "category": "method"
+    },
+    {
+      "gold": "heuristics",
+      "predicted": "Heuristics",
+      "category": "method"
+    },
+    {
+      "gold": "vibrations",
+      "predicted": "Vibrations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "electrical system voltage level",
+      "predicted": "Electrical system voltage level",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "ambient sound",
+      "predicted": "Ambient sound",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "speed",
+      "predicted": "Speed",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "gear scale factors",
+      "predicted": "Gear scale factors",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "speed measurements",
+      "predicted": "Speed measurements",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "maximum likelihood estimation problem",
+      "predicted": "Maximum likelihood estimation",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "real data",
+      "category": "material"
+    },
+    {
+      "entity": "heuristics",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "measurable signals",
+      "category": "material"
+    },
+    {
+      "entity": "frequency components",
+      "category": "method"
+    },
+    {
+      "entity": "estimation method",
+      "category": "method"
+    },
+    {
+      "entity": "rotational speed of the engine",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gears",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speed and related states of the vehicle",
+      "category": "task"
+    },
+    {
+      "entity": "estimation problem",
+      "category": "task"
+    },
+    {
+      "entity": "numerical evaluation of the estimator",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Rotational speed",
+      "category": "metric"
+    },
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "Signal measurements",
+      "category": "metric"
+    },
+    {
+      "entity": "Numerical evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "Measurement campaign",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "frequency components|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "method": 4,
+    "otherscientificterm": 8,
+    "task": 4
+  },
+  "predicted_category_counts": {
+    "metric": 9,
+    "material": 2,
+    "method": 3,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 9,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 0,
+      "exact_matches": 6,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.4,
+  "category_recall": 0.3333333333333333,
+  "category_f1": 0.3636363636363636,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 15,
+    "exact_matches": 9,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 5,
+    "generic_entities": 3,
+    "correct_predictions": 0,
+    "correct_categories": 6
+  }
+}

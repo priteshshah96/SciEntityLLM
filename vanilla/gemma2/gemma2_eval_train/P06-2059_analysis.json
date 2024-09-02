@@ -1,0 +1,213 @@
+{
+  "doc_key": "P06-2059",
+  "gold_entities": [
+    {
+      "entity": "building  polarity-tagged corpus",
+      "category": "task"
+    },
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    },
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    },
+    {
+      "entity": "layout structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic pattern",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "building",
+      "category": "task"
+    },
+    {
+      "entity": "polarity-tagged corpus",
+      "category": "material"
+    },
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "automatic",
+      "category": "method"
+    },
+    {
+      "entity": "layout structures",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic pattern",
+      "category": "material"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "126,610 sentences",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "HTML documents",
+      "predicted": "HTML documents",
+      "category": "material"
+    },
+    {
+      "gold": "layout structures",
+      "predicted": "layout structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "linguistic pattern",
+      "predicted": "linguistic pattern",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "building  polarity-tagged corpus",
+      "predicted": "polarity-tagged corpus",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "building",
+      "category": "task"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "automatic",
+      "category": "method"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "126,610 sentences",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "HTML documents|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 6,
+    "method": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.25,
+  "f1": 0.14285714285714288,
+  "category_precision": 0.3,
+  "category_recall": 0.6,
+  "category_f1": 0.4,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 6,
+    "correct_predictions": 1,
+    "correct_categories": 3
+  }
+}

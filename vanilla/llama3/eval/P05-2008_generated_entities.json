@@ -1,0 +1,271 @@
+{
+  "gold_entities": [
+    {
+      "entity": "training and test data",
+      "category": "Material"
+    },
+    {
+      "entity": "training data",
+      "category": "Material"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "sentiment classification",
+      "category": "Task"
+    },
+    {
+      "entity": "emoticons",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "sentiment classification",
+      "category": "Task"
+    },
+    {
+      "entity": "machine learning",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "training data",
+      "category": "Material"
+    },
+    {
+      "entity": "test data",
+      "category": "Material"
+    },
+    {
+      "entity": "topic",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "time",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "emoticons",
+      "category": "Material"
+    },
+    {
+      "entity": "labeled data",
+      "category": "Material"
+    },
+    {
+      "entity": "preliminary experiments",
+      "category": "Task"
+    },
+    {
+      "entity": "reasonable success",
+      "category": "Metric"
+    },
+    {
+      "entity": "general feeling",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "subject",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "piece of text",
+      "category": "Material"
+    },
+    {
+      "entity": "author",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "text data",
+      "category": "Material"
+    },
+    {
+      "entity": "traditional machine learning techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "match",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "potential",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "independent",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "problem",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "emoticons",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "emoticons",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training data",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "training and test data",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "test data",
+          "category": "Material"
+        },
+        {
+          "entity": "labeled data",
+          "category": "Material"
+        },
+        {
+          "entity": "text data",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "machine learning",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "traditional machine learning techniques",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.75
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "topic",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "time",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "preliminary experiments",
+      "category": "Task"
+    },
+    {
+      "entity": "reasonable success",
+      "category": "Metric"
+    },
+    {
+      "entity": "general feeling",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "subject",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "piece of text",
+      "category": "Material"
+    },
+    {
+      "entity": "author",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "match",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "potential",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "independent",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 20,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

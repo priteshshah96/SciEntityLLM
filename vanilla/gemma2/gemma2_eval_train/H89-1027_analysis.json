@@ -1,0 +1,239 @@
+{
+  "doc_key": "H89-1027",
+  "gold_entities": [
+    {
+      "entity": "phonetically-based spoken language understanding system",
+      "category": "method"
+    },
+    {
+      "entity": "SUMMIT",
+      "category": "method"
+    },
+    {
+      "entity": "heuristic rules",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge engineering",
+      "category": "method"
+    },
+    {
+      "entity": "mathematical tools",
+      "category": "method"
+    },
+    {
+      "entity": "decision strategies",
+      "category": "method"
+    },
+    {
+      "entity": "speech knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "summit",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phoneticallybased spoken language understanding system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "heuristic rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge engineering",
+      "category": "method"
+    },
+    {
+      "entity": "speech knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "formal framework",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mathematical tools",
+      "category": "method"
+    },
+    {
+      "entity": "features",
+      "category": "material"
+    },
+    {
+      "entity": "decision strategies",
+      "category": "method"
+    },
+    {
+      "entity": "speech data",
+      "category": "material"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "SUMMIT",
+      "predicted": "summit",
+      "category": "method"
+    },
+    {
+      "gold": "heuristic rules",
+      "predicted": "heuristic rules",
+      "category": "method"
+    },
+    {
+      "gold": "knowledge engineering",
+      "predicted": "knowledge engineering",
+      "category": "method"
+    },
+    {
+      "gold": "mathematical tools",
+      "predicted": "mathematical tools",
+      "category": "method"
+    },
+    {
+      "gold": "decision strategies",
+      "predicted": "decision strategies",
+      "category": "method"
+    },
+    {
+      "gold": "speech knowledge",
+      "predicted": "speech knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "features",
+      "predicted": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "speech data",
+      "predicted": "speech data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "phonetically-based spoken language understanding system",
+      "predicted": "phoneticallybased spoken language understanding system",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "knowledge engineering",
+      "category": "method"
+    },
+    {
+      "entity": "mathematical tools",
+      "category": "method"
+    },
+    {
+      "entity": "decision strategies",
+      "category": "method"
+    },
+    {
+      "entity": "speech knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech data",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "formal framework",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "method": 3,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 5,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.45454545454545453,
+  "recall": 0.5555555555555556,
+  "f1": 0.5,
+  "category_precision": 0.5454545454545454,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.6,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 11,
+    "exact_matches": 8,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 2,
+    "generic_entities": 3,
+    "correct_predictions": 5,
+    "correct_categories": 6
+  }
+}

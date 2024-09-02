@@ -1,0 +1,305 @@
+{
+  "doc_key": "I05-2048",
+  "gold_entities": [
+    {
+      "entity": "Statistical machine translation (SMT)",
+      "category": "method"
+    },
+    {
+      "entity": "SMT",
+      "category": "method"
+    },
+    {
+      "entity": "rule-based translation systems",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "method"
+    },
+    {
+      "entity": "SMT system",
+      "category": "method"
+    },
+    {
+      "entity": "SMT",
+      "category": "method"
+    },
+    {
+      "entity": "STTK",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation tool kit",
+      "category": "method"
+    },
+    {
+      "entity": "STTK",
+      "category": "method"
+    },
+    {
+      "entity": "SMT system",
+      "category": "method"
+    },
+    {
+      "entity": "rule-based and example based machine translation modules",
+      "category": "method"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "translation systems",
+      "category": "task"
+    },
+    {
+      "entity": "translation system",
+      "category": "task"
+    },
+    {
+      "entity": "multi engine machine translation system",
+      "category": "task"
+    },
+    {
+      "entity": "new language pairs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "new domains",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Statistical machine translation (SMT)",
+      "category": "task"
+    },
+    {
+      "entity": "natural language processing nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Rule-based translation systems",
+      "category": "task"
+    },
+    {
+      "entity": "Rule-based machine translation modules",
+      "category": "task"
+    },
+    {
+      "entity": "Example-based machine translation modules",
+      "category": "task"
+    },
+    {
+      "entity": "Multi-engine machine translation system",
+      "category": "task"
+    },
+    {
+      "entity": "Source code",
+      "category": "material"
+    },
+    {
+      "entity": "STTK",
+      "category": "method"
+    },
+    {
+      "entity": "cmu",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Statistical machine translation (SMT)",
+      "predicted": "Statistical machine translation (SMT)",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "rule-based translation systems",
+      "predicted": "Rule-based translation systems",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "STTK",
+      "predicted": "STTK",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "rule-based and example based machine translation modules",
+      "predicted": "Rule-based machine translation modules",
+      "score": 0.5714285714285714,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing nlp",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "translation system",
+      "predicted": "Multi-engine machine translation system",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "SMT",
+      "category": "method"
+    },
+    {
+      "entity": "SMT",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "method"
+    },
+    {
+      "entity": "SMT system",
+      "category": "method"
+    },
+    {
+      "entity": "SMT system",
+      "category": "method"
+    },
+    {
+      "entity": "STTK",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation tool kit",
+      "category": "method"
+    },
+    {
+      "entity": "translation systems",
+      "category": "task"
+    },
+    {
+      "entity": "multi engine machine translation system",
+      "category": "task"
+    },
+    {
+      "entity": "new language pairs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "new domains",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Example-based machine translation modules",
+      "category": "task"
+    },
+    {
+      "entity": "Source code",
+      "category": "material"
+    },
+    {
+      "entity": "cmu",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "SMT|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "SMT system|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "STTK|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "method": 11,
+    "task": 4,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "otherscientificterm": 2,
+    "material": 1,
+    "method": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 11,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.058823529411764705,
+  "f1": 0.07692307692307691,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

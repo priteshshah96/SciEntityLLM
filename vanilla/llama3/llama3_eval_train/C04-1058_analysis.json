@@ -1,0 +1,244 @@
+{
+  "doc_key": "C04-1058",
+  "gold_entities": [
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "maximum entropy classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "boosting",
+      "category": "method"
+    },
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "error correction mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "N-fold Templated Piped Correction, or NTPC (\"nitpick\")",
+      "category": "method"
+    },
+    {
+      "entity": "error corrector",
+      "category": "method"
+    },
+    {
+      "entity": "NTPC",
+      "category": "method"
+    },
+    {
+      "entity": "language processing tasks",
+      "category": "task"
+    },
+    {
+      "entity": "occams razor argument",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "maximum entropy classifier",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Boosting",
+      "category": "method"
+    },
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "Language processing task",
+      "category": "task"
+    },
+    {
+      "entity": "Error correction mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "Unseen data",
+      "category": "material"
+    },
+    {
+      "entity": "Test set",
+      "category": "material"
+    },
+    {
+      "entity": "Base classifier",
+      "category": "material"
+    },
+    {
+      "entity": "NTPC",
+      "category": "method"
+    },
+    {
+      "entity": "Error corrector",
+      "category": "method"
+    },
+    {
+      "entity": "Base model",
+      "category": "material"
+    },
+    {
+      "entity": "occams razor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "boosting",
+      "predicted": "Boosting",
+      "category": "method"
+    },
+    {
+      "gold": "SVMs",
+      "predicted": "SVMs",
+      "category": "method"
+    },
+    {
+      "gold": "error corrector",
+      "predicted": "Error corrector",
+      "category": "method"
+    },
+    {
+      "gold": "NTPC",
+      "predicted": "NTPC",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "maximum entropy classifiers",
+      "predicted": "maximum entropy classifier",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "error correction mechanisms",
+      "predicted": "Error correction mechanism",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "language processing tasks",
+      "predicted": "Language processing task",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "occams razor argument",
+      "predicted": "occams razor",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "N-fold Templated Piped Correction, or NTPC (\"nitpick\")",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Unseen data",
+      "category": "material"
+    },
+    {
+      "entity": "Test set",
+      "category": "material"
+    },
+    {
+      "entity": "Base classifier",
+      "category": "material"
+    },
+    {
+      "entity": "Base model",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "task": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "method": 5,
+    "task": 1,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4,
+  "f1": 0.3636363636363636,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 12,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

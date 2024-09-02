@@ -1,0 +1,302 @@
+{
+  "doc_key": "INTERSPEECH_2013_21_abs",
+  "gold_entities": [
+    {
+      "entity": "lack of structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "labeled data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complex tree structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discriminative models posterior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sparse selectional preferences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lack of structures in traditional n-gram models",
+      "category": "task"
+    },
+    {
+      "entity": "weakly supervised dependency parser",
+      "category": "task"
+    },
+    {
+      "entity": "n-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian inference",
+      "category": "method"
+    },
+    {
+      "entity": "annotated training corpus",
+      "category": "material"
+    },
+    {
+      "entity": "unlabeled corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English and Czech newspaper texts",
+      "category": "material"
+    },
+    {
+      "entity": "French broadcast news transcriptions",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Weakly supervised dependency parser",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian inference",
+      "category": "method"
+    },
+    {
+      "entity": "Labeled data",
+      "category": "material"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "target unlabeled corpus",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Sparse selectional preferences",
+      "category": "metric"
+    },
+    {
+      "entity": "head word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "task"
+    },
+    {
+      "entity": "Czech",
+      "category": "task"
+    },
+    {
+      "entity": "French",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "labeled data",
+      "predicted": "Labeled data",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "sparse selectional preferences",
+      "predicted": "Sparse selectional preferences",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "weakly supervised dependency parser",
+      "predicted": "Weakly supervised dependency parser",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "handcrafted rules",
+      "predicted": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Bayesian inference",
+      "predicted": "Bayesian inference",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "unlabeled corpus",
+      "predicted": "target unlabeled corpus",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "lack of structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complex tree structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discriminative models posterior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lack of structures in traditional n-gram models",
+      "category": "task"
+    },
+    {
+      "entity": "n-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "annotated training corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English and Czech newspaper texts",
+      "category": "material"
+    },
+    {
+      "entity": "French broadcast news transcriptions",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "head word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Czech",
+      "category": "task"
+    },
+    {
+      "entity": "French",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 9,
+    "task": 2,
+    "method": 2,
+    "material": 4
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "material": 1,
+    "otherscientificterm": 4,
+    "metric": 1,
+    "task": 3
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.11764705882352941,
+  "f1": 0.14285714285714285,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

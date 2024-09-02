@@ -1,0 +1,280 @@
+{
+  "doc_key": "C88-1007",
+  "gold_entities": [
+    {
+      "entity": "Unification Categorial Grammar (UCG)",
+      "category": "method"
+    },
+    {
+      "entity": "Isomorphic Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Isomorphic Grammars approach",
+      "category": "method"
+    },
+    {
+      "entity": "textual representation",
+      "category": "method"
+    },
+    {
+      "entity": "Machine Translation",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "MT system  design",
+      "category": "task"
+    },
+    {
+      "entity": "monolingual UCG",
+      "category": "task"
+    },
+    {
+      "entity": "translation relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "isomorphic derivations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bidirectional englishspanish fragment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Unification Categorial Grammar (UCG)",
+      "category": "task"
+    },
+    {
+      "entity": "Isomorphic Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Machine Translation",
+      "category": "task"
+    },
+    {
+      "entity": "Source Language (SL)",
+      "category": "task"
+    },
+    {
+      "entity": "Target Language (TL)",
+      "category": "task"
+    },
+    {
+      "entity": "Derivations",
+      "category": "method"
+    },
+    {
+      "entity": "Translation relation",
+      "category": "task"
+    },
+    {
+      "entity": "Isomorphism",
+      "category": "method"
+    },
+    {
+      "entity": "semantic questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "monolingual ucg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Bi-directional English-Spanish fragment",
+      "category": "material"
+    },
+    {
+      "entity": "implemented",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "problems",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Unification Categorial Grammar (UCG)",
+      "predicted": "Unification Categorial Grammar (UCG)",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "monolingual UCG",
+      "predicted": "monolingual ucg",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "translation relation",
+      "predicted": "Translation relation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Isomorphic Grammars",
+      "predicted": "Isomorphic Grammars",
+      "category": "method"
+    },
+    {
+      "gold": "Machine Translation",
+      "predicted": "Machine Translation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "isomorphic derivations",
+      "predicted": "Derivations",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Isomorphic Grammars approach",
+      "category": "method"
+    },
+    {
+      "entity": "textual representation",
+      "category": "method"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "MT system  design",
+      "category": "task"
+    },
+    {
+      "entity": "translation relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bidirectional englishspanish fragment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Source Language (SL)",
+      "category": "task"
+    },
+    {
+      "entity": "Target Language (TL)",
+      "category": "task"
+    },
+    {
+      "entity": "Isomorphism",
+      "category": "method"
+    },
+    {
+      "entity": "semantic questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Bi-directional English-Spanish fragment",
+      "category": "material"
+    },
+    {
+      "entity": "implemented",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "problems",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "translation relation|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 4,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "method": 3,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.16666666666666666,
+  "f1": 0.16,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 13,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 7,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,260 @@
+{
+  "doc_key": "P06-2110",
+  "gold_entities": [
+    {
+      "entity": "similarity between words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dictionarybased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lsabased and the cooccurrencebased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "LSA-based, cooccurrence-based and dictionary-based methods",
+      "category": "method"
+    },
+    {
+      "entity": "constructing word vectors",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "similarity",
+      "category": "task"
+    },
+    {
+      "entity": "word vectors",
+      "category": "method"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "LSA-based",
+      "category": "method"
+    },
+    {
+      "entity": "cooccurrence-based",
+      "category": "method"
+    },
+    {
+      "entity": "dictionary-based",
+      "category": "method"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vectors",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "word vectors",
+      "predicted": "word vectors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "taxonomic similarity",
+      "predicted": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "associative similarity",
+      "predicted": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "vector space model",
+      "predicted": "vector space model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "taxonomic similarity",
+      "predicted": "similarity",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "associative similarity",
+      "predicted": "similarity",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "LSA-based, cooccurrence-based and dictionary-based methods",
+      "gold_category": "method",
+      "matched_parts": [
+        {
+          "part": "LSA-based",
+          "matched": "LSA-based",
+          "predicted_category": "method"
+        },
+        {
+          "part": "cooccurrence-based",
+          "matched": "cooccurrence-based",
+          "predicted_category": "method"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "similarity between words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dictionarybased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lsabased and the cooccurrencebased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constructing word vectors",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dictionary-based",
+      "category": "method"
+    },
+    {
+      "entity": "word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vectors",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "taxonomic similarity|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "associative similarity|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 8,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 6,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.2727272727272727,
+  "f1": 0.2727272727272727,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

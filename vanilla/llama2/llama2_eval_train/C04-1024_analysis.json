@@ -1,0 +1,237 @@
+{
+  "doc_key": "C04-1024",
+  "gold_entities": [
+    {
+      "entity": "bit-vector-based CKY-style parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parse forest representation",
+      "category": "method"
+    },
+    {
+      "entity": "large treebank grammars",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "bit-vector operations",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "context-free parsing",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "CKY-style parser",
+      "category": "method"
+    },
+    {
+      "entity": "bit-vector-based",
+      "category": "method"
+    },
+    {
+      "entity": "parse forest",
+      "category": "method"
+    },
+    {
+      "entity": "compact",
+      "category": "metric"
+    },
+    {
+      "entity": "parse",
+      "category": "task"
+    },
+    {
+      "entity": "bit-vector operations",
+      "category": "method"
+    },
+    {
+      "entity": "basic parsing operations",
+      "category": "method"
+    },
+    {
+      "entity": "long input sentences",
+      "category": "task"
+    },
+    {
+      "entity": "treebank grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analyses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "most probable one",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "bit-vector operations",
+      "predicted": "bit-vector operations",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "bit-vector-based CKY-style parser",
+      "predicted": "CKY-style parser",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "parse forest representation",
+      "predicted": "parse forest",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "large treebank grammars",
+      "predicted": "treebank grammars",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "context-free parsing",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "bit-vector-based",
+      "category": "method"
+    },
+    {
+      "entity": "compact",
+      "category": "metric"
+    },
+    {
+      "entity": "parse",
+      "category": "task"
+    },
+    {
+      "entity": "basic parsing operations",
+      "category": "method"
+    },
+    {
+      "entity": "long input sentences",
+      "category": "task"
+    },
+    {
+      "entity": "analyses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "most probable one",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "parser|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "metric": 1,
+    "task": 2,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.125,
+  "f1": 0.10526315789473685,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 11,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

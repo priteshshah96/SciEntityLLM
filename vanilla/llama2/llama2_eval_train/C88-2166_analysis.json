@@ -1,0 +1,198 @@
+{
+  "doc_key": "C88-2166",
+  "gold_entities": [
+    {
+      "entity": "natural language system",
+      "category": "method"
+    },
+    {
+      "entity": "COMPLEX",
+      "category": "method"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural Language Processing (NLP) systems",
+      "category": "task"
+    },
+    {
+      "entity": "machine-readable dictionaries (MRD's)",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Lexicon",
+      "category": "task"
+    },
+    {
+      "entity": "Computational lexicon",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language Processing",
+      "category": "task"
+    },
+    {
+      "entity": "Machine-readable dictionaries",
+      "category": "material"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "explicit information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "implicit information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computational lexicon",
+      "predicted": "Computational lexicon",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "shared lexical information",
+      "predicted": "shared lexical information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "natural language system",
+      "predicted": "Natural Language Processing",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "computational lexicon",
+      "predicted": "Lexicon",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "COMPLEX",
+      "category": "method"
+    },
+    {
+      "entity": "Natural Language Processing (NLP) systems",
+      "category": "task"
+    },
+    {
+      "entity": "machine-readable dictionaries (MRD's)",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Machine-readable dictionaries",
+      "category": "material"
+    },
+    {
+      "entity": "explicit information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "implicit information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "computational lexicon|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3,
+    "task": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "material": 1,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.14285714285714285,
+  "f1": 0.14285714285714285,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

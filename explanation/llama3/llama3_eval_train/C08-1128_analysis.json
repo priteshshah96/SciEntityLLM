@@ -1,0 +1,264 @@
+{
+  "doc_key": "C08-1128",
+  "gold_entities": [
+    {
+      "entity": "Chinese text",
+      "category": "material"
+    },
+    {
+      "entity": "manually annotated data",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "translation",
+      "category": "task"
+    },
+    {
+      "entity": "segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "Chinese word segmenter",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian semi-supervised Chinese word segmentation model",
+      "category": "method"
+    },
+    {
+      "entity": "MT system",
+      "category": "method"
+    },
+    {
+      "entity": "monolingual and bilingual information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Chinese text",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation (MT)",
+      "category": "task"
+    },
+    {
+      "entity": "Chinese word segmenter",
+      "category": "method"
+    },
+    {
+      "entity": "manually annotated data",
+      "category": "material"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian semi-supervised Chinese word segmentation model",
+      "category": "method"
+    },
+    {
+      "entity": "monolingual and bilingual information",
+      "category": "material"
+    },
+    {
+      "entity": "segmentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "MT",
+      "category": "method"
+    },
+    {
+      "entity": "state-of-the-art MT system",
+      "category": "method"
+    },
+    {
+      "entity": "small and large data environment",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "MT",
+      "predicted": "MT",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "segmentation",
+      "predicted": "segmentation",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "monolingual and bilingual information",
+      "predicted": "monolingual and bilingual information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Chinese text",
+      "predicted": "Chinese text",
+      "category": "material"
+    },
+    {
+      "gold": "manually annotated data",
+      "predicted": "manually annotated data",
+      "category": "material"
+    },
+    {
+      "gold": "Chinese word segmenter",
+      "predicted": "Chinese word segmenter",
+      "category": "method"
+    },
+    {
+      "gold": "word segmentation",
+      "predicted": "word segmentation",
+      "category": "method"
+    },
+    {
+      "gold": "Bayesian semi-supervised Chinese word segmentation model",
+      "predicted": "Bayesian semi-supervised Chinese word segmentation model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "MT system",
+      "predicted": "state-of-the-art MT system",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "translation",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "machine translation (MT)",
+      "category": "task"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "small and large data environment",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "MT|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "task": 5,
+    "method": 4,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "material": 4,
+    "task": 1,
+    "method": 6,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 0.4166666666666667,
+  "f1": 0.4166666666666667,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

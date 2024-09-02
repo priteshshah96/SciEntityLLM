@@ -1,0 +1,231 @@
+{
+  "gold_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "image data",
+      "category": "Material"
+    },
+    {
+      "entity": "low-level feature analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian statistics",
+      "category": "Method"
+    },
+    {
+      "entity": "automated segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "shape constrained image segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "robust-ness requirement in image understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "shape information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mixtures of feature distributions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "texture",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "probabilistic shape knowledge",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "shape information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "feature analysis",
+      "category": "Task"
+    },
+    {
+      "entity": "image segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "bayesian statistics",
+      "category": "Method"
+    },
+    {
+      "entity": "probabilistic shape knowledge",
+      "category": "Method"
+    },
+    {
+      "entity": "robustness requirement",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguous segmentations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "shape information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "shape information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "probabilistic shape knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "probabilistic shape knowledge",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "shape information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "shape information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "robust-ness requirement in image understanding",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "image segmentation",
+          "category": "Task"
+        },
+        {
+          "entity": "robustness requirement",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "low-level feature analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "feature analysis",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "image data",
+      "category": "Material"
+    },
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "automated segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "shape constrained image segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "mixtures of feature distributions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "texture",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "ambiguous segmentations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "doc_key": "P05-1028",
+  "gold_entities": [
+    {
+      "entity": "corpus study",
+      "category": "task"
+    },
+    {
+      "entity": "information graphic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sightimpaired users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information graphics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphic interpretation system",
+      "category": "method"
+    },
+    {
+      "entity": "shallow processing",
+      "category": "method"
+    },
+    {
+      "entity": "communicative signals",
+      "category": "material"
+    },
+    {
+      "entity": "graphic's caption",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Corpus",
+      "category": "task"
+    },
+    {
+      "entity": "Information graphic",
+      "category": "task"
+    },
+    {
+      "entity": "Captions",
+      "category": "method"
+    },
+    {
+      "entity": "Communicative signals",
+      "category": "method"
+    },
+    {
+      "entity": "Shallow processing",
+      "category": "method"
+    },
+    {
+      "entity": "sightimpaired users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "project",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "information graphic",
+      "predicted": "Information graphic",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "communicative signals",
+      "predicted": "Communicative signals",
+      "gold_category": "material",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "sightimpaired users",
+      "predicted": "sightimpaired users",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "shallow processing",
+      "predicted": "Shallow processing",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "corpus study",
+      "predicted": "Corpus",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "information graphics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphic interpretation system",
+      "category": "method"
+    },
+    {
+      "entity": "graphic's caption",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Captions",
+      "category": "method"
+    },
+    {
+      "entity": "project",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 3,
+    "method": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 3,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.25,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 7,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

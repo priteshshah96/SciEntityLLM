@@ -1,0 +1,159 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ferret",
+      "category": "Method"
+    },
+    {
+      "entity": "interactive question-answering (q/a) system",
+      "category": "Method"
+    },
+    {
+      "entity": "ferret",
+      "category": "Method"
+    },
+    {
+      "entity": "q/a",
+      "category": "Method"
+    },
+    {
+      "entity": "predictive questioning",
+      "category": "Method"
+    },
+    {
+      "entity": "integrating automatic q/a applications into real-world environments",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "ferret",
+      "category": "Task"
+    },
+    {
+      "entity": "q/a",
+      "category": "Task"
+    },
+    {
+      "entity": "predictive questioning",
+      "category": "Method"
+    },
+    {
+      "entity": "questions",
+      "category": "Task"
+    },
+    {
+      "entity": "answers",
+      "category": "Task"
+    },
+    {
+      "entity": "user interactions",
+      "category": "Method"
+    },
+    {
+      "entity": "scenario",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ferret",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ferret",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "q/a",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "q/a",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "interactive question-answering (q/a) system",
+      "category": "Method"
+    },
+    {
+      "entity": "ferret",
+      "category": "Method"
+    },
+    {
+      "entity": "integrating automatic q/a applications into real-world environments",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "questions",
+      "category": "Task"
+    },
+    {
+      "entity": "answers",
+      "category": "Task"
+    },
+    {
+      "entity": "user interactions",
+      "category": "Method"
+    },
+    {
+      "entity": "scenario",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "ferret": 2
+  },
+  "distinct_repeated_entities": [
+    "ferret"
+  ],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

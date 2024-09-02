@@ -1,0 +1,229 @@
+{
+  "doc_key": "J86-1002",
+  "gold_entities": [
+    {
+      "entity": "error correction",
+      "category": "task"
+    },
+    {
+      "entity": "Error correction",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "ill-formed input",
+      "category": "material"
+    },
+    {
+      "entity": "stereotypic dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue acquisition and tracking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "voice interactive system",
+      "category": "method"
+    },
+    {
+      "entity": "error correction methodology",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "error correction",
+      "category": "method"
+    },
+    {
+      "entity": "ill-formed input",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsing",
+      "category": "method"
+    },
+    {
+      "entity": "meanings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "evidence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stereotypic dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "voice interactive system",
+      "category": "method"
+    },
+    {
+      "entity": "tests",
+      "category": "material"
+    },
+    {
+      "entity": "power",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "error correction",
+      "predicted": "error correction",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "parsing",
+      "predicted": "parsing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "stereotypic dialogue",
+      "predicted": "stereotypic dialogue",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "ill-formed input",
+      "predicted": "ill-formed input",
+      "category": "material"
+    },
+    {
+      "gold": "dialogue patterns",
+      "predicted": "dialogue patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "voice interactive system",
+      "predicted": "voice interactive system",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Error correction",
+      "category": "task"
+    },
+    {
+      "entity": "dialogue acquisition and tracking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "error correction methodology",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "meanings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "evidence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "tests",
+      "category": "material"
+    },
+    {
+      "entity": "power",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 2,
+    "otherscientificterm": 1,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "material": 2,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.3333333333333333,
+  "f1": 0.3,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

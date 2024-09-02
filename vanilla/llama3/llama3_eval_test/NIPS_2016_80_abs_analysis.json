@@ -1,0 +1,326 @@
+{
+  "doc_key": "NIPS_2016_80_abs",
+  "gold_entities": [
+    {
+      "entity": "nearest neighbor (NN) search",
+      "category": "task"
+    },
+    {
+      "entity": "NN search",
+      "category": "task"
+    },
+    {
+      "entity": "distance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "1 distance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distancepreserving embedding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "random-projection based methods",
+      "category": "method"
+    },
+    {
+      "entity": "locality-sensitive hashing (LSH)",
+      "category": "method"
+    },
+    {
+      "entity": "random projection trees",
+      "category": "method"
+    },
+    {
+      "entity": "LSH",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "nearest neighbor",
+      "category": "task"
+    },
+    {
+      "entity": "distance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "embedding",
+      "category": "method"
+    },
+    {
+      "entity": "locality-sensitive hashing",
+      "category": "material"
+    },
+    {
+      "entity": "random projection trees",
+      "category": "material"
+    },
+    {
+      "entity": "2 distance",
+      "category": "metric"
+    },
+    {
+      "entity": "1 distance",
+      "category": "metric"
+    },
+    {
+      "entity": "random-projection based methods",
+      "category": "method"
+    },
+    {
+      "entity": "locality-sensitive hashing",
+      "category": "method"
+    },
+    {
+      "entity": "distance-preserving",
+      "category": "method"
+    },
+    {
+      "entity": "points",
+      "category": "material"
+    },
+    {
+      "entity": "2 2",
+      "category": "material"
+    },
+    {
+      "entity": "LSH",
+      "category": "material"
+    },
+    {
+      "entity": "NN search",
+      "category": "task"
+    },
+    {
+      "entity": "exact",
+      "category": "method"
+    },
+    {
+      "entity": "nearest neighbor search",
+      "category": "task"
+    },
+    {
+      "entity": "hashing",
+      "category": "method"
+    },
+    {
+      "entity": "projection trees",
+      "category": "material"
+    },
+    {
+      "entity": "random projection",
+      "category": "method"
+    },
+    {
+      "entity": "embedding points",
+      "category": "task"
+    },
+    {
+      "entity": "random projection trees",
+      "category": "method"
+    },
+    {
+      "entity": "distance-preserving embedding",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "1 distance",
+      "predicted": "1 distance",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "random projection trees",
+      "predicted": "random projection trees",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "LSH",
+      "predicted": "LSH",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "NN search",
+      "predicted": "NN search",
+      "category": "task"
+    },
+    {
+      "gold": "distance",
+      "predicted": "distance",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "random-projection based methods",
+      "predicted": "random-projection based methods",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "distancepreserving embedding",
+      "predicted": "embedding",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "nearest neighbor (NN) search",
+      "category": "task"
+    },
+    {
+      "entity": "locality-sensitive hashing (LSH)",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "nearest neighbor",
+      "category": "task"
+    },
+    {
+      "entity": "locality-sensitive hashing",
+      "category": "material"
+    },
+    {
+      "entity": "2 distance",
+      "category": "metric"
+    },
+    {
+      "entity": "locality-sensitive hashing",
+      "category": "method"
+    },
+    {
+      "entity": "distance-preserving",
+      "category": "method"
+    },
+    {
+      "entity": "points",
+      "category": "material"
+    },
+    {
+      "entity": "2 2",
+      "category": "material"
+    },
+    {
+      "entity": "exact",
+      "category": "method"
+    },
+    {
+      "entity": "nearest neighbor search",
+      "category": "task"
+    },
+    {
+      "entity": "hashing",
+      "category": "method"
+    },
+    {
+      "entity": "projection trees",
+      "category": "material"
+    },
+    {
+      "entity": "random projection",
+      "category": "method"
+    },
+    {
+      "entity": "embedding points",
+      "category": "task"
+    },
+    {
+      "entity": "random projection trees",
+      "category": "method"
+    },
+    {
+      "entity": "distance-preserving embedding",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 3,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "otherscientificterm": 1,
+    "method": 9,
+    "material": 6,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 9,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.13636363636363635,
+  "recall": 0.3333333333333333,
+  "f1": 0.1935483870967742,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 22,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 15,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,217 @@
+{
+  "doc_key": "N06-2038",
+  "gold_entities": [
+    {
+      "entity": "information extraction",
+      "category": "task"
+    },
+    {
+      "entity": "token classification task",
+      "category": "task"
+    },
+    {
+      "entity": "tagging strategies",
+      "category": "method"
+    },
+    {
+      "entity": "tagging strategies",
+      "category": "method"
+    },
+    {
+      "entity": "Begin/After tagging",
+      "category": "method"
+    },
+    {
+      "entity": "BIA",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Information extraction",
+      "category": "task"
+    },
+    {
+      "entity": "Token classification",
+      "category": "task"
+    },
+    {
+      "entity": "Tagging strategies",
+      "category": "method"
+    },
+    {
+      "entity": "Combine",
+      "category": "method"
+    },
+    {
+      "entity": "Tokens",
+      "category": "material"
+    },
+    {
+      "entity": "literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Relative performances",
+      "category": "metric"
+    },
+    {
+      "entity": "best",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Begin/After",
+      "category": "method"
+    },
+    {
+      "entity": "BIA",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "information extraction",
+      "predicted": "Information extraction",
+      "category": "task"
+    },
+    {
+      "gold": "tagging strategies",
+      "predicted": "Tagging strategies",
+      "category": "method"
+    },
+    {
+      "gold": "BIA",
+      "predicted": "BIA",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "token classification task",
+      "predicted": "Token classification",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Begin/After tagging",
+      "predicted": "Begin/After",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "tagging strategies",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Combine",
+      "category": "method"
+    },
+    {
+      "entity": "Tokens",
+      "category": "material"
+    },
+    {
+      "entity": "literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Relative performances",
+      "category": "metric"
+    },
+    {
+      "entity": "best",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "tagging strategies|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "material": 1,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.5,
+  "f1": 0.37499999999999994,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 10,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

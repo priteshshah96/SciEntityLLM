@@ -1,0 +1,207 @@
+{
+  "doc_key": "CVPR_2003_21_abs",
+  "gold_entities": [
+    {
+      "entity": "projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "Projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "3d geometrical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d points and cameras",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image coordinates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rational quartic curve",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "-  Projective reconstruction",
+      "category": "method"
+    },
+    {
+      "entity": "-  3D geometrical configuration",
+      "category": "metric"
+    },
+    {
+      "entity": "-  correspondences",
+      "category": "task"
+    },
+    {
+      "entity": "-  image coordinates",
+      "category": "metric"
+    },
+    {
+      "entity": "-  projective transform",
+      "category": "method"
+    },
+    {
+      "entity": "critical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "-  twisted cubic",
+      "category": "material"
+    },
+    {
+      "entity": "-  rational quartic curve",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "partial_matches": [
+    {
+      "gold": "projective reconstruction",
+      "predicted": "-  Projective reconstruction",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "3d geometrical configuration",
+      "predicted": "-  3D geometrical configuration",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "image coordinates",
+      "predicted": "-  image coordinates",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "rational quartic curve",
+      "predicted": "-  rational quartic curve",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "3d points and cameras",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "-  correspondences",
+      "category": "task"
+    },
+    {
+      "entity": "-  projective transform",
+      "category": "method"
+    },
+    {
+      "entity": "critical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "-  twisted cubic",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "metric": 2,
+    "task": 1,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.375,
+  "category_recall": 0.42857142857142855,
+  "category_f1": 0.39999999999999997,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "category_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 4,
+    "generic_entities": 0,
+    "correct_predictions": 0,
+    "correct_categories": 3
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "doc_key": "C04-1058",
+  "gold_entities": [
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "maximum entropy classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "boosting",
+      "category": "method"
+    },
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "error correction mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "N-fold Templated Piped Correction, or NTPC (\"nitpick\")",
+      "category": "method"
+    },
+    {
+      "entity": "error corrector",
+      "category": "method"
+    },
+    {
+      "entity": "NTPC",
+      "category": "method"
+    },
+    {
+      "entity": "language processing tasks",
+      "category": "task"
+    },
+    {
+      "entity": "occams razor argument",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "maximum entropy classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "boosting",
+      "category": "method"
+    },
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "error correction mechanisms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "test set",
+      "category": "material"
+    },
+    {
+      "entity": "base classifier",
+      "category": "method"
+    },
+    {
+      "entity": "N-fold Templated Piped Correction",
+      "category": "method"
+    },
+    {
+      "entity": "occams razor argument",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "more complex models",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "error correction mechanisms",
+      "predicted": "error correction mechanisms",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "maximum entropy classifiers",
+      "predicted": "maximum entropy classifiers",
+      "category": "method"
+    },
+    {
+      "gold": "boosting",
+      "predicted": "boosting",
+      "category": "method"
+    },
+    {
+      "gold": "SVMs",
+      "predicted": "SVMs",
+      "category": "method"
+    },
+    {
+      "gold": "occams razor argument",
+      "predicted": "occams razor argument",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "N-fold Templated Piped Correction, or NTPC (\"nitpick\")",
+      "category": "method"
+    },
+    {
+      "entity": "error corrector",
+      "category": "method"
+    },
+    {
+      "entity": "NTPC",
+      "category": "method"
+    },
+    {
+      "entity": "language processing tasks",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "test set",
+      "category": "material"
+    },
+    {
+      "entity": "base classifier",
+      "category": "method"
+    },
+    {
+      "entity": "more complex models",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "task": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4444444444444444,
+  "recall": 0.4,
+  "f1": 0.4210526315789474,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

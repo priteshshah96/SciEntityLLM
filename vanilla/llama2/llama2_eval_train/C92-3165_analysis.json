@@ -1,0 +1,181 @@
+{
+  "doc_key": "C92-3165",
+  "gold_entities": [
+    {
+      "entity": "speech understanding",
+      "category": "task"
+    },
+    {
+      "entity": "generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Parsing",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbol",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unknown words",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Interactive method",
+      "category": "task"
+    },
+    {
+      "entity": "Generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "entity": "unidentified portion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unknown words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Pilot system",
+      "category": "task"
+    },
+    {
+      "entity": "user",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "generalized LR parsing",
+      "predicted": "Generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "gold": "unknown words",
+      "predicted": "unknown words",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "speech understanding",
+      "category": "task"
+    },
+    {
+      "entity": "Parsing",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbol",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Interactive method",
+      "category": "task"
+    },
+    {
+      "entity": "unidentified portion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Pilot system",
+      "category": "task"
+    },
+    {
+      "entity": "user",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 3,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 1,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.3333333333333333,
+  "f1": 0.30769230769230765,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 7,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

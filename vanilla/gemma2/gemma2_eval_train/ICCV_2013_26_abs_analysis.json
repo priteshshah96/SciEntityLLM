@@ -1,0 +1,314 @@
+{
+  "doc_key": "ICCV_2013_26_abs",
+  "gold_entities": [
+    {
+      "entity": "coarse-to-fine energy minimization strategy",
+      "category": "method"
+    },
+    {
+      "entity": "energy minimization algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "graph cuts",
+      "category": "method"
+    },
+    {
+      "entity": "belief propagation",
+      "category": "method"
+    },
+    {
+      "entity": "hierarchical approaches",
+      "category": "method"
+    },
+    {
+      "entity": "semantic video segmenta-tion",
+      "category": "task"
+    },
+    {
+      "entity": "hierarchical abstraction of the supervoxel graph",
+      "category": "task"
+    },
+    {
+      "entity": "inference",
+      "category": "task"
+    },
+    {
+      "entity": "hierarchy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coarser graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "finest graph",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "energy function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatiotemporal continuity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image and video data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "energy minimization",
+      "category": "method"
+    },
+    {
+      "entity": "semantic video segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "supervoxel graph",
+      "category": "material"
+    },
+    {
+      "entity": "hierarchical abstraction",
+      "category": "method"
+    },
+    {
+      "entity": "energy function",
+      "category": "metric"
+    },
+    {
+      "entity": "graph cuts",
+      "category": "method"
+    },
+    {
+      "entity": "belief propagation",
+      "category": "method"
+    },
+    {
+      "entity": "speedups",
+      "category": "metric"
+    },
+    {
+      "entity": "spatiotemporal continuity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "datasets",
+      "category": "material"
+    },
+    {
+      "entity": "image data",
+      "category": "material"
+    },
+    {
+      "entity": "video data",
+      "category": "material"
+    },
+    {
+      "entity": "existing hierarchical approaches",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "graph cuts",
+      "predicted": "graph cuts",
+      "category": "method"
+    },
+    {
+      "gold": "belief propagation",
+      "predicted": "belief propagation",
+      "category": "method"
+    },
+    {
+      "gold": "energy function",
+      "predicted": "energy function",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "spatiotemporal continuity",
+      "predicted": "spatiotemporal continuity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "coarse-to-fine energy minimization strategy",
+      "predicted": "energy minimization",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "hierarchical approaches",
+      "predicted": "existing hierarchical approaches",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "semantic video segmenta-tion",
+      "predicted": "semantic video segmentation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "image and video data",
+      "predicted": "image data",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "graph cuts",
+      "category": "method"
+    },
+    {
+      "entity": "belief propagation",
+      "category": "method"
+    },
+    {
+      "entity": "spatiotemporal continuity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coarse-to-fine energy minimization strategy",
+      "category": "method"
+    },
+    {
+      "entity": "semantic video segmenta-tion",
+      "category": "task"
+    },
+    {
+      "entity": "image and video data",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "energy minimization algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "hierarchical abstraction of the supervoxel graph",
+      "category": "task"
+    },
+    {
+      "entity": "inference",
+      "category": "task"
+    },
+    {
+      "entity": "hierarchy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coarser graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "finest graph",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "supervoxel graph",
+      "category": "material"
+    },
+    {
+      "entity": "hierarchical abstraction",
+      "category": "method"
+    },
+    {
+      "entity": "speedups",
+      "category": "metric"
+    },
+    {
+      "entity": "datasets",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "task": 3,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "task": 1,
+    "material": 4,
+    "metric": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23076923076923078,
+  "recall": 0.21428571428571427,
+  "f1": 0.22222222222222224,
+  "category_precision": 0.6153846153846154,
+  "category_recall": 0.5714285714285714,
+  "category_f1": 0.5925925925925927,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 13,
+    "exact_matches": 4,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "category_matches": 6,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 4,
+    "generic_entities": 8,
+    "correct_predictions": 3,
+    "correct_categories": 8
+  }
+}

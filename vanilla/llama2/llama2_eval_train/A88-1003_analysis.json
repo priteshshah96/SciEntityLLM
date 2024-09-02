@@ -1,0 +1,190 @@
+{
+  "doc_key": "A88-1003",
+  "gold_entities": [
+    {
+      "entity": "pronominal anaphora resolution module",
+      "category": "method"
+    },
+    {
+      "entity": "Lucy",
+      "category": "method"
+    },
+    {
+      "entity": "English understanding system",
+      "category": "method"
+    },
+    {
+      "entity": "blackboard-like architecture",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Pronominal anaphora resolution module",
+      "category": "method"
+    },
+    {
+      "entity": "lucy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English understanding system",
+      "category": "task"
+    },
+    {
+      "entity": "Anaphora resolution",
+      "category": "metric"
+    },
+    {
+      "entity": "theories of anaphora resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Blackboard-like architecture",
+      "category": "method"
+    },
+    {
+      "entity": "individual partial theories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Candidate antecedents",
+      "category": "task"
+    },
+    {
+      "entity": "Propose",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluate",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Lucy",
+      "predicted": "lucy",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "English understanding system",
+      "predicted": "English understanding system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "anaphora resolution",
+      "predicted": "Anaphora resolution",
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "pronominal anaphora resolution module",
+      "predicted": "Pronominal anaphora resolution module",
+      "category": "method"
+    },
+    {
+      "gold": "blackboard-like architecture",
+      "predicted": "Blackboard-like architecture",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "theories of anaphora resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "individual partial theories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Candidate antecedents",
+      "category": "task"
+    },
+    {
+      "entity": "Propose",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluate",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 3,
+    "task": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.4,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 5,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

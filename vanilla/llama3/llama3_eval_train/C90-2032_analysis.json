@@ -1,0 +1,273 @@
+{
+  "doc_key": "C90-2032",
+  "gold_entities": [
+    {
+      "entity": "document oriented preference sets(DoPS)",
+      "category": "method"
+    },
+    {
+      "entity": "DoPS system",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation of the  dependency structure",
+      "category": "task"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain targeted preference knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese patent claim sentences",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "dependency structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Document oriented preference sets (DoPS)",
+      "category": "material"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "Domain targeted preference knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese patent claim sentences",
+      "category": "material"
+    },
+    {
+      "entity": "Analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "Extraction",
+      "category": "method"
+    },
+    {
+      "entity": "Preference knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Target document",
+      "category": "material"
+    },
+    {
+      "entity": "Other documents",
+      "category": "material"
+    },
+    {
+      "entity": "Complicated knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "Empirical results",
+      "category": "metric"
+    },
+    {
+      "entity": "Implementation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "document oriented preference sets(DoPS)",
+      "predicted": "Document oriented preference sets (DoPS)",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "domain targeted preference knowledge",
+      "predicted": "Domain targeted preference knowledge",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "dependency structures",
+      "predicted": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "knowledgebases",
+      "predicted": "Knowledgebases",
+      "category": "material"
+    },
+    {
+      "gold": "Japanese patent claim sentences",
+      "predicted": "Japanese patent claim sentences",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "DoPS system",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation of the  dependency structure",
+      "category": "task"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dependency structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "Analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "Extraction",
+      "category": "method"
+    },
+    {
+      "entity": "Preference knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Target document",
+      "category": "material"
+    },
+    {
+      "entity": "Other documents",
+      "category": "material"
+    },
+    {
+      "entity": "Complicated knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "Empirical results",
+      "category": "metric"
+    },
+    {
+      "entity": "Implementation",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "material": 9,
+    "task": 2,
+    "method": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1875,
+  "recall": 0.375,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 16,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 11,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

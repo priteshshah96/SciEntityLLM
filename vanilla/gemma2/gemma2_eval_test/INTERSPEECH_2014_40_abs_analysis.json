@@ -1,0 +1,291 @@
+{
+  "doc_key": "INTERSPEECH_2014_40_abs",
+  "gold_entities": [
+    {
+      "entity": "fundamental frequency f0 contour of speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech f0 contours",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "remarkable feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fujisakimodel parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "raw f0 contours",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fujisakimodel parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text input",
+      "category": "material"
+    },
+    {
+      "entity": "text input",
+      "category": "material"
+    },
+    {
+      "entity": "text-to-speech synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "statistical model",
+      "category": "method"
+    },
+    {
+      "entity": "Fujisaki model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical methods",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning",
+      "category": "method"
+    },
+    {
+      "entity": "parameter training algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "decision tree-based context clustering",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "F0 contour",
+      "category": "metric"
+    },
+    {
+      "entity": "text input",
+      "category": "material"
+    },
+    {
+      "entity": "speech F0 contours",
+      "category": "metric"
+    },
+    {
+      "entity": "discrete-time Fujisaki model",
+      "category": "method"
+    },
+    {
+      "entity": "Fujisaki-model parameters",
+      "category": "metric"
+    },
+    {
+      "entity": "raw F0 contours",
+      "category": "metric"
+    },
+    {
+      "entity": "statistical learning",
+      "category": "method"
+    },
+    {
+      "entity": "decision tree-based context clustering",
+      "category": "method"
+    },
+    {
+      "entity": "context-dependent model",
+      "category": "method"
+    },
+    {
+      "entity": "parameter training algorithm",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "speech f0 contours",
+      "predicted": "speech F0 contours",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "raw f0 contours",
+      "predicted": "raw F0 contours",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "text input",
+      "predicted": "text input",
+      "category": "material"
+    },
+    {
+      "gold": "statistical learning",
+      "predicted": "statistical learning",
+      "category": "method"
+    },
+    {
+      "gold": "parameter training algorithm",
+      "predicted": "parameter training algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "decision tree-based context clustering",
+      "predicted": "decision tree-based context clustering",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Fujisaki model",
+      "predicted": "discrete-time Fujisaki model",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "fundamental frequency f0 contour of speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "remarkable feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fujisakimodel parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fujisakimodel parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text input",
+      "category": "material"
+    },
+    {
+      "entity": "text-to-speech synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "statistical model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical methods",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "F0 contour",
+      "category": "metric"
+    },
+    {
+      "entity": "Fujisaki-model parameters",
+      "category": "metric"
+    },
+    {
+      "entity": "context-dependent model",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "fujisakimodel parameters|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "text input|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 6,
+    "material": 2,
+    "task": 1,
+    "method": 6
+  },
+  "predicted_category_counts": {
+    "metric": 4,
+    "material": 1,
+    "method": 5
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.26666666666666666,
+  "f1": 0.32,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 3,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

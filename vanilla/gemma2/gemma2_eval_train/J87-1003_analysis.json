@@ -1,0 +1,309 @@
+{
+  "doc_key": "J87-1003",
+  "gold_entities": [
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "French",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "coordinations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strictly syntactic crossserial agreement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reflexive pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical gender",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Interchange Lemma",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coordinations",
+      "category": "method"
+    },
+    {
+      "entity": "strict cross-serial agreement",
+      "category": "method"
+    },
+    {
+      "entity": "agreement",
+      "category": "method"
+    },
+    {
+      "entity": "number",
+      "category": "metric"
+    },
+    {
+      "entity": "nouns",
+      "category": "material"
+    },
+    {
+      "entity": "reflexive pronouns",
+      "category": "material"
+    },
+    {
+      "entity": "grammatical number",
+      "category": "metric"
+    },
+    {
+      "entity": "gender",
+      "category": "metric"
+    },
+    {
+      "entity": "french",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interchange lemma",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical sentences",
+      "category": "task"
+    },
+    {
+      "entity": "coordinate phrases",
+      "category": "task"
+    },
+    {
+      "entity": "conjuncts",
+      "category": "material"
+    },
+    {
+      "entity": "constructions",
+      "category": "task"
+    },
+    {
+      "entity": "scope",
+      "category": "task"
+    },
+    {
+      "entity": "arguments",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "English",
+      "predicted": "english",
+      "category": "material"
+    },
+    {
+      "gold": "French",
+      "predicted": "french",
+      "category": "material"
+    },
+    {
+      "gold": "coordinations",
+      "predicted": "coordinations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "nouns",
+      "predicted": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "reflexive pronouns",
+      "predicted": "reflexive pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "grammatical number",
+      "predicted": "grammatical number",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Interchange Lemma",
+      "predicted": "interchange lemma",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "grammatical gender",
+      "predicted": "gender",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "strictly syntactic crossserial agreement",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "strict cross-serial agreement",
+      "category": "method"
+    },
+    {
+      "entity": "agreement",
+      "category": "method"
+    },
+    {
+      "entity": "number",
+      "category": "metric"
+    },
+    {
+      "entity": "grammatical sentences",
+      "category": "task"
+    },
+    {
+      "entity": "coordinate phrases",
+      "category": "task"
+    },
+    {
+      "entity": "conjuncts",
+      "category": "material"
+    },
+    {
+      "entity": "constructions",
+      "category": "task"
+    },
+    {
+      "entity": "scope",
+      "category": "task"
+    },
+    {
+      "entity": "arguments",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "English|material": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "material": 5,
+    "otherscientificterm": 6,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "method": 3,
+    "metric": 3,
+    "material": 3,
+    "task": 5
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.4117647058823529,
+  "category_recall": 0.5833333333333334,
+  "category_f1": 0.4827586206896552,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 17,
+    "exact_matches": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 9,
+    "generic_entities": 1,
+    "correct_predictions": 0,
+    "correct_categories": 7
+  }
+}

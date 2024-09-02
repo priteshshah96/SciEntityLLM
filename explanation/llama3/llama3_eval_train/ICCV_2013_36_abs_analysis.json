@@ -1,0 +1,229 @@
+{
+  "doc_key": "ICCV_2013_36_abs",
+  "gold_entities": [
+    {
+      "entity": "creation of city models",
+      "category": "task"
+    },
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "task"
+    },
+    {
+      "entity": "semantic components",
+      "category": "method"
+    },
+    {
+      "entity": "tiling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tilings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facade textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facades",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "city models",
+      "category": "task"
+    },
+    {
+      "entity": "photo-realistic facade images",
+      "category": "method"
+    },
+    {
+      "entity": "single example",
+      "category": "method"
+    },
+    {
+      "entity": "semantic components",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tiling",
+      "category": "method"
+    },
+    {
+      "entity": "facade textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "facade",
+      "category": "method"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "method"
+    },
+    {
+      "entity": "building styles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "semantic components",
+      "predicted": "semantic components",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "tiling",
+      "predicted": "tiling",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "facade textures",
+      "predicted": "facade textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "inpainted parts",
+      "predicted": "inpainted parts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "creation of city models",
+      "predicted": "city models",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "task"
+    },
+    {
+      "entity": "tilings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facades",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "single example",
+      "category": "method"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "facade",
+      "category": "method"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "method"
+    },
+    {
+      "entity": "building styles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 1,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 7,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.2222222222222222,
+  "f1": 0.1904761904761905,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 6,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

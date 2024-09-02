@@ -1,0 +1,296 @@
+{
+  "doc_key": "ICCV_2005_50_abs",
+  "gold_entities": [
+    {
+      "entity": "object category recognition",
+      "category": "task"
+    },
+    {
+      "entity": "supervision",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object category",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "visual words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intraclass variability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unrelated images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image search engines",
+      "category": "method"
+    },
+    {
+      "entity": "TSI-pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "search engines",
+      "category": "method"
+    },
+    {
+      "entity": "hand prepared datasets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "object category recognition",
+      "category": "task"
+    },
+    {
+      "entity": "datasets",
+      "category": "material"
+    },
+    {
+      "entity": "training images",
+      "category": "material"
+    },
+    {
+      "entity": "manual preparation",
+      "category": "method"
+    },
+    {
+      "entity": "supervision",
+      "category": "method"
+    },
+    {
+      "entity": "image search engines",
+      "category": "material"
+    },
+    {
+      "entity": "raw output",
+      "category": "method"
+    },
+    {
+      "entity": "translation",
+      "category": "method"
+    },
+    {
+      "entity": "scale invariant",
+      "category": "method"
+    },
+    {
+      "entity": "intraclass variability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unrelated images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "TSI-pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "visual words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "standard test sets",
+      "category": "material"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "supervision",
+      "predicted": "supervision",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "image search engines",
+      "predicted": "image search engines",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "object category recognition",
+      "predicted": "object category recognition",
+      "category": "task"
+    },
+    {
+      "gold": "visual words",
+      "predicted": "visual words",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "intraclass variability",
+      "predicted": "intraclass variability",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "unrelated images",
+      "predicted": "unrelated images",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "TSI-pLSA",
+      "predicted": "TSI-pLSA",
+      "category": "method"
+    },
+    {
+      "gold": "pLSA",
+      "predicted": "pLSA",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "object category",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "search engines",
+      "category": "method"
+    },
+    {
+      "entity": "hand prepared datasets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "datasets",
+      "category": "material"
+    },
+    {
+      "entity": "training images",
+      "category": "material"
+    },
+    {
+      "entity": "manual preparation",
+      "category": "method"
+    },
+    {
+      "entity": "raw output",
+      "category": "method"
+    },
+    {
+      "entity": "translation",
+      "category": "method"
+    },
+    {
+      "entity": "scale invariant",
+      "category": "method"
+    },
+    {
+      "entity": "standard test sets",
+      "category": "material"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 6,
+    "method": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 4,
+    "method": 7,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.375,
+  "recall": 0.5,
+  "f1": 0.42857142857142855,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 16,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 8,
+    "generic_entities": 8
+  },
+  "empty_category_entities": []
+}

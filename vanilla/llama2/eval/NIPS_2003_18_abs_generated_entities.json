@@ -1,0 +1,316 @@
+{
+  "gold_entities": [
+    {
+      "entity": "uncalibrated 2d tracking data",
+      "category": "Material"
+    },
+    {
+      "entity": "missing data",
+      "category": "Material"
+    },
+    {
+      "entity": "rigid component",
+      "category": "Method"
+    },
+    {
+      "entity": "gaussian distribution",
+      "category": "Method"
+    },
+    {
+      "entity": "gaussian",
+      "category": "Method"
+    },
+    {
+      "entity": "learning the time-varying shape of a non-rigid 3d object",
+      "category": "Task"
+    },
+    {
+      "entity": "shape motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rotation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "translation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-rigid deformation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "arbitrary deformations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "object shape",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "3d shape and motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal smoothness in object shape",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "time-varying shape",
+      "category": "Task"
+    },
+    {
+      "entity": "non-rigid 3d object",
+      "category": "Task"
+    },
+    {
+      "entity": "2d tracking data",
+      "category": "Material"
+    },
+    {
+      "entity": "gaussian distribution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rotation",
+      "category": "Method"
+    },
+    {
+      "entity": "translation",
+      "category": "Method"
+    },
+    {
+      "entity": "deformation",
+      "category": "Method"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "ill-posed",
+      "category": "Method"
+    },
+    {
+      "entity": "arbitrary deformations",
+      "category": "Method"
+    },
+    {
+      "entity": "object shape",
+      "category": "Task"
+    },
+    {
+      "entity": "time frame",
+      "category": "Task"
+    },
+    {
+      "entity": "parameters",
+      "category": "Method"
+    },
+    {
+      "entity": "missing data points",
+      "category": "Task"
+    },
+    {
+      "entity": "temporal smoothness",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "gaussian distribution",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "gaussian distribution",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rotation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "rotation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "translation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "translation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "reconstruction",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "reconstruction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "arbitrary deformations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "arbitrary deformations",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "object shape",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "object shape",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "uncalibrated 2d tracking data",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "2d tracking data",
+          "category": "Material"
+        },
+        {
+          "entity": "missing data points",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.3333333333333333
+    },
+    {
+      "gold": {
+        "entity": "learning the time-varying shape of a non-rigid 3d object",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "time-varying shape",
+          "category": "Task"
+        },
+        {
+          "entity": "non-rigid 3d object",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "non-rigid deformation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "deformation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "temporal smoothness in object shape",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "temporal smoothness",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "missing data",
+      "category": "Material"
+    },
+    {
+      "entity": "rigid component",
+      "category": "Method"
+    },
+    {
+      "entity": "gaussian",
+      "category": "Method"
+    },
+    {
+      "entity": "shape motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "3d shape and motion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "ill-posed",
+      "category": "Method"
+    },
+    {
+      "entity": "time frame",
+      "category": "Task"
+    },
+    {
+      "entity": "parameters",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 15,
+    "generated_count": 15,
+    "generic_count": 4,
+    "exact_matches": 6,
+    "exact_category_matches": 0,
+    "split_matches": 2,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

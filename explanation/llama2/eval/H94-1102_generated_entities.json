@@ -1,0 +1,289 @@
+{
+  "gold_entities": [
+    {
+      "entity": "arpa large-vocabulary csr corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "continuous speech recognition (csr) techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "spoken language technology",
+      "category": "Method"
+    },
+    {
+      "entity": "csr",
+      "category": "Method"
+    },
+    {
+      "entity": "acoustic modelling",
+      "category": "Method"
+    },
+    {
+      "entity": "rapid search",
+      "category": "Method"
+    },
+    {
+      "entity": "recognition-time adaptation techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "large-vocabulary csr",
+      "category": "Method"
+    },
+    {
+      "entity": "spoken language systems (sls)",
+      "category": "Task"
+    },
+    {
+      "entity": "military and civilian computer-based systems",
+      "category": "Task"
+    },
+    {
+      "entity": "speech recognition and understanding systems",
+      "category": "Task"
+    },
+    {
+      "entity": "military and civilian systems",
+      "category": "Task"
+    },
+    {
+      "entity": "mobile military command and control",
+      "category": "Task"
+    },
+    {
+      "entity": "military application tasks",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "continuous speech recognition (csr)",
+      "category": "Task"
+    },
+    {
+      "entity": "spoken language systems (sls)",
+      "category": "Method"
+    },
+    {
+      "entity": "military and civilian computer-based systems",
+      "category": "Material"
+    },
+    {
+      "entity": "speech recognition and understanding systems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "robust speech recognition",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "largevocabulary csr",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "acoustic modelling",
+      "category": "Method"
+    },
+    {
+      "entity": "rapid search",
+      "category": "Method"
+    },
+    {
+      "entity": "recognition-time adaptation",
+      "category": "Method"
+    },
+    {
+      "entity": "arpa large-vocabulary csr corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "military application tasks",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "techniques",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "spoken language systems (sls)",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "spoken language systems (sls)",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "military and civilian computer-based systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "military and civilian computer-based systems",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "speech recognition and understanding systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "speech recognition and understanding systems",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "acoustic modelling",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "acoustic modelling",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rapid search",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "rapid search",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "arpa large-vocabulary csr corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "arpa large-vocabulary csr corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "military application tasks",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "military application tasks",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "acoustic modelling",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "acoustic modelling",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rapid search",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "rapid search",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "arpa large-vocabulary csr corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "arpa large-vocabulary csr corpora",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "continuous speech recognition (csr) techniques",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "continuous speech recognition (csr)",
+          "category": "Task"
+        },
+        {
+          "entity": "robust speech recognition",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.6666666666666665
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "recognition-time adaptation techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "recognition-time adaptation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "spoken language technology",
+      "category": "Method"
+    },
+    {
+      "entity": "csr",
+      "category": "Method"
+    },
+    {
+      "entity": "large-vocabulary csr",
+      "category": "Method"
+    },
+    {
+      "entity": "military and civilian systems",
+      "category": "Task"
+    },
+    {
+      "entity": "mobile military command and control",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "largevocabulary csr",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 7,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

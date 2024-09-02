@@ -1,0 +1,247 @@
+{
+  "gold_entities": [
+    {
+      "entity": "german",
+      "category": "Material"
+    },
+    {
+      "entity": "negra corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "unlexicalized parser",
+      "category": "Method"
+    },
+    {
+      "entity": "smoothing",
+      "category": "Method"
+    },
+    {
+      "entity": "suffix analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "smoothing",
+      "category": "Method"
+    },
+    {
+      "entity": "unlexicalized parser",
+      "category": "Method"
+    },
+    {
+      "entity": "smoothing",
+      "category": "Method"
+    },
+    {
+      "entity": "parsing",
+      "category": "Method"
+    },
+    {
+      "entity": "labelled bracket f-score",
+      "category": "Metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "unlexicalized parser",
+      "category": "Task"
+    },
+    {
+      "entity": "smoothing",
+      "category": "Method"
+    },
+    {
+      "entity": "suffix analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "labelled bracket f-score",
+      "category": "Metric"
+    },
+    {
+      "entity": "negra corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "interplay",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "model",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "unlexicalized parser",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "unlexicalized parser",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "smoothing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "smoothing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "suffix analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "suffix analysis",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "labelled bracket f-score",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "labelled bracket f-score",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "negra corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "negra corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "smoothing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "smoothing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "suffix analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "suffix analysis",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "labelled bracket f-score",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "labelled bracket f-score",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "negra corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "negra corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "german",
+      "category": "Material"
+    },
+    {
+      "entity": "smoothing",
+      "category": "Method"
+    },
+    {
+      "entity": "unlexicalized parser",
+      "category": "Method"
+    },
+    {
+      "entity": "smoothing",
+      "category": "Method"
+    },
+    {
+      "entity": "parsing",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "interplay",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "unlexicalized parser": 2,
+    "smoothing": 3
+  },
+  "distinct_repeated_entities": [
+    "unlexicalized parser",
+    "smoothing"
+  ],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 6,
+    "exact_category_matches": 5,
+    "split_matches": 0,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 5
+  }
+}

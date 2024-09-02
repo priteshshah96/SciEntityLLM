@@ -1,0 +1,364 @@
+{
+  "doc_key": "ICASSP_2016_14_abs",
+  "gold_entities": [
+    {
+      "entity": "mobile speech application",
+      "category": "task"
+    },
+    {
+      "entity": "speaker DOA estimation accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "interference robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "compact physical size",
+      "category": "metric"
+    },
+    {
+      "entity": "SIR",
+      "category": "metric"
+    },
+    {
+      "entity": "acoustic vector sensor (AVS)",
+      "category": "method"
+    },
+    {
+      "entity": "DOA estimation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "robust speaker DOA estimation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "inter-sensor data ratio model",
+      "category": "method"
+    },
+    {
+      "entity": "AVS",
+      "category": "method"
+    },
+    {
+      "entity": "bispectrum domain (BISDR)",
+      "category": "method"
+    },
+    {
+      "entity": "bispectrum",
+      "category": "method"
+    },
+    {
+      "entity": "bispectrum mask",
+      "category": "method"
+    },
+    {
+      "entity": "BISDR",
+      "category": "method"
+    },
+    {
+      "entity": "nonspeech interferences nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "zero value of gaussian process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distribution of speech and nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speaker doa cues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech sparsity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bispectrum amplitude",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nsi conditions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "DOA estimation",
+      "category": "task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compact physical size",
+      "category": "material"
+    },
+    {
+      "entity": "acoustic vector sensor (AVS)",
+      "category": "material"
+    },
+    {
+      "entity": "bispectrum domain (BISDR)",
+      "category": "method"
+    },
+    {
+      "entity": "gaussian process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech sparsity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bispectrum amplitude",
+      "category": "metric"
+    },
+    {
+      "entity": "signal-to-interference ratio (SIR)",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "compact physical size",
+      "predicted": "compact physical size",
+      "category": "metric"
+    },
+    {
+      "gold": "acoustic vector sensor (AVS)",
+      "predicted": "acoustic vector sensor (AVS)",
+      "category": "method"
+    },
+    {
+      "gold": "bispectrum domain (BISDR)",
+      "predicted": "bispectrum domain (BISDR)",
+      "category": "method"
+    },
+    {
+      "gold": "speech sparsity",
+      "predicted": "speech sparsity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "bispectrum amplitude",
+      "predicted": "bispectrum amplitude",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speaker DOA estimation accuracy",
+      "predicted": "DOA estimation",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "interference robustness",
+      "predicted": "robustness",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "bispectrum domain (BISDR)",
+      "category": "method"
+    },
+    {
+      "entity": "speech sparsity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "mobile speech application",
+      "category": "task"
+    },
+    {
+      "entity": "SIR",
+      "category": "metric"
+    },
+    {
+      "entity": "DOA estimation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "robust speaker DOA estimation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "inter-sensor data ratio model",
+      "category": "method"
+    },
+    {
+      "entity": "AVS",
+      "category": "method"
+    },
+    {
+      "entity": "bispectrum",
+      "category": "method"
+    },
+    {
+      "entity": "bispectrum mask",
+      "category": "method"
+    },
+    {
+      "entity": "BISDR",
+      "category": "method"
+    },
+    {
+      "entity": "nonspeech interferences nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "zero value of gaussian process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distribution of speech and nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speaker doa cues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nsi conditions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "interference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gaussian process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "signal-to-interference ratio (SIR)",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "nsi|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "metric": 4,
+    "method": 9,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "metric": 3,
+    "otherscientificterm": 4,
+    "material": 2,
+    "method": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 9,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.09090909090909091,
+  "f1": 0.12121212121212123,
+  "category_precision": 0.8181818181818182,
+  "category_recall": 0.391304347826087,
+  "category_f1": 0.5294117647058824,
+  "counts": {
+    "gold_entities": 23,
+    "predicted_entities": 11,
+    "exact_matches": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 16,
+    "extra_entities": 4,
+    "generic_entities": 3,
+    "correct_predictions": 2,
+    "correct_categories": 9
+  }
+}

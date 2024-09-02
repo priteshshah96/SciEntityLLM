@@ -1,0 +1,228 @@
+{
+  "doc_key": "P06-1013",
+  "gold_entities": [
+    {
+      "entity": "Combination methods",
+      "category": "method"
+    },
+    {
+      "entity": "system combination",
+      "category": "method"
+    },
+    {
+      "entity": "voting- and arbiter-based combination strategies",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised WSD systems",
+      "category": "method"
+    },
+    {
+      "entity": "combination methods",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised WSD",
+      "category": "task"
+    },
+    {
+      "entity": "predominant senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "raw text",
+      "category": "material"
+    },
+    {
+      "entity": "SemCor  and  Senseval-3 data sets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Combination methods",
+      "category": "method"
+    },
+    {
+      "entity": "System performance",
+      "category": "metric"
+    },
+    {
+      "entity": "System combination",
+      "category": "method"
+    },
+    {
+      "entity": "Voting-based combination",
+      "category": "method"
+    },
+    {
+      "entity": "Arbiter-based combination",
+      "category": "method"
+    },
+    {
+      "entity": "predominant senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Raw text",
+      "category": "material"
+    },
+    {
+      "entity": "SemCor",
+      "category": "material"
+    },
+    {
+      "entity": "Senseval-3",
+      "category": "material"
+    },
+    {
+      "entity": "ensembles",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Combination methods",
+      "predicted": "Combination methods",
+      "category": "method"
+    },
+    {
+      "gold": "system combination",
+      "predicted": "System combination",
+      "category": "method"
+    },
+    {
+      "gold": "predominant senses",
+      "predicted": "predominant senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "raw text",
+      "predicted": "Raw text",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "voting- and arbiter-based combination strategies",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised WSD systems",
+      "category": "method"
+    },
+    {
+      "entity": "combination methods",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised WSD",
+      "category": "task"
+    },
+    {
+      "entity": "SemCor  and  Senseval-3 data sets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "System performance",
+      "category": "metric"
+    },
+    {
+      "entity": "Voting-based combination",
+      "category": "method"
+    },
+    {
+      "entity": "Arbiter-based combination",
+      "category": "method"
+    },
+    {
+      "entity": "Senseval-3",
+      "category": "material"
+    },
+    {
+      "entity": "ensembles",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "task": 1,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "metric": 1,
+    "otherscientificterm": 2,
+    "material": 3
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.4444444444444444,
+  "f1": 0.4210526315789474,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

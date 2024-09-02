@@ -1,0 +1,212 @@
+{
+  "doc_key": "INTERSPEECH_2007_31_abs",
+  "gold_entities": [
+    {
+      "entity": "HMM-based TTS system",
+      "category": "method"
+    },
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "German speech",
+      "category": "material"
+    },
+    {
+      "entity": "football announcements",
+      "category": "material"
+    },
+    {
+      "entity": "expressive speech",
+      "category": "material"
+    },
+    {
+      "entity": "intelligible neutral German speech",
+      "category": "material"
+    },
+    {
+      "entity": "football dataset",
+      "category": "material"
+    },
+    {
+      "entity": "context features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "HMM-based TTS system",
+      "category": "method"
+    },
+    {
+      "entity": "German speech",
+      "category": "material"
+    },
+    {
+      "entity": "context features",
+      "category": "method"
+    },
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "football announcements",
+      "category": "material"
+    },
+    {
+      "entity": "expressive speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intelligible",
+      "category": "metric"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "expressivity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dataset",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "expressive speech",
+      "predicted": "expressive speech",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "context features",
+      "predicted": "context features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "HMM-based TTS system",
+      "predicted": "HMM-based TTS system",
+      "category": "method"
+    },
+    {
+      "gold": "HMMs",
+      "predicted": "HMMs",
+      "category": "method"
+    },
+    {
+      "gold": "German speech",
+      "predicted": "German speech",
+      "category": "material"
+    },
+    {
+      "gold": "football announcements",
+      "predicted": "football announcements",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "football dataset",
+      "predicted": "dataset",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "intelligible neutral German speech",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "intelligible",
+      "category": "metric"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "expressivity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "material": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 3,
+    "otherscientificterm": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.5,
+  "f1": 0.4444444444444445,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

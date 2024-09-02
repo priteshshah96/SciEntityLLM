@@ -1,0 +1,292 @@
+{
+  "doc_key": "C02-1120",
+  "gold_entities": [
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "expectation-maximization (EM) based word-clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "associative relationships between verb phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario consistency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Q&A systems",
+      "category": "task"
+    },
+    {
+      "entity": "Q&A system",
+      "category": "task"
+    },
+    {
+      "entity": "large-scale database",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese verb phrases",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "associative relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Q&A systems",
+      "category": "task"
+    },
+    {
+      "entity": "query",
+      "category": "task"
+    },
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "description",
+      "category": "material"
+    },
+    {
+      "entity": "large-scale database",
+      "category": "material"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario consistency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expectation-maximization (EM)",
+      "category": "method"
+    },
+    {
+      "entity": "word-clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Japanese verb phrases",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "unsupervised learning method",
+      "predicted": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "gold": "associative relationship",
+      "predicted": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "scenario consistency",
+      "predicted": "scenario consistency",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Q&A systems",
+      "predicted": "Q&A systems",
+      "category": "task"
+    },
+    {
+      "gold": "large-scale database",
+      "predicted": "large-scale database",
+      "category": "material"
+    },
+    {
+      "gold": "Japanese verb phrases",
+      "predicted": "Japanese verb phrases",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "expectation-maximization (EM) based word-clustering algorithm",
+      "predicted": "word-clustering algorithm",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario consistency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Q&A systems",
+      "category": "task"
+    },
+    {
+      "entity": "large-scale database",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese verb phrases",
+      "category": "material"
+    },
+    {
+      "entity": "expectation-maximization (EM) based word-clustering algorithm",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "associative relationships between verb phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Q&A system",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "associative relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "query",
+      "category": "task"
+    },
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "description",
+      "category": "material"
+    },
+    {
+      "entity": "expectation-maximization (EM)",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "unsupervised learning method|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "associative relationship|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 4,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "task": 2,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.6666666666666666,
+  "f1": 0.5714285714285715,
+  "category_precision": 0.8333333333333334,
+  "category_recall": 0.9090909090909091,
+  "category_f1": 0.8695652173913043,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 12,
+    "exact_matches": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 7,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 5,
+    "generic_entities": 2,
+    "correct_predictions": 6,
+    "correct_categories": 10
+  }
+}

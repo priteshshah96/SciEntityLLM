@@ -1,0 +1,292 @@
+{
+  "doc_key": "IJCAI_2001_12_abs",
+  "gold_entities": [
+    {
+      "entity": "web interfaces",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "Na\u00a8\u0131ve Bayes mixture models",
+      "category": "method"
+    },
+    {
+      "entity": "mixtures of Markov models",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "desktop pcs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deep link structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web visitor behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wireless web navigation",
+      "category": "task"
+    },
+    {
+      "entity": "savings of shortcut links",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "wireless PDAs",
+      "category": "task"
+    },
+    {
+      "entity": "cell phones",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pagers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web interfaces",
+      "category": "method"
+    },
+    {
+      "entity": "graphics",
+      "category": "material"
+    },
+    {
+      "entity": "tables",
+      "category": "material"
+    },
+    {
+      "entity": "deep link structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "web visitor behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predictive models",
+      "category": "method"
+    },
+    {
+      "entity": "nave bayes mixture models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mixtures of markov models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "empirical evidence",
+      "category": "material"
+    },
+    {
+      "entity": "shortcut links",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "savings of shortcut links",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "few best links",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "mixtures of Markov models",
+      "predicted": "mixtures of markov models",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "savings of shortcut links",
+      "predicted": "savings of shortcut links",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "web interfaces",
+      "predicted": "web interfaces",
+      "category": "method"
+    },
+    {
+      "gold": "MINPATH",
+      "predicted": "MINPATH",
+      "category": "method"
+    },
+    {
+      "gold": "deep link structures",
+      "predicted": "deep link structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "web visitor behavior",
+      "predicted": "web visitor behavior",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Na\u00a8\u0131ve Bayes mixture models",
+      "predicted": "nave bayes mixture models",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "MINPATH",
+      "category": "method"
+    },
+    {
+      "entity": "desktop pcs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wireless web navigation",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "wireless PDAs",
+      "category": "task"
+    },
+    {
+      "entity": "cell phones",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pagers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphics",
+      "category": "material"
+    },
+    {
+      "entity": "tables",
+      "category": "material"
+    },
+    {
+      "entity": "predictive models",
+      "category": "method"
+    },
+    {
+      "entity": "empirical evidence",
+      "category": "material"
+    },
+    {
+      "entity": "shortcut links",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "few best links",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "MINPATH|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 3,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 9,
+    "method": 3,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.36363636363636365,
+  "f1": 0.2962962962962963,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 16,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 9,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

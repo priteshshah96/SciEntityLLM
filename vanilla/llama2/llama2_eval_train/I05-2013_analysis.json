@@ -1,0 +1,235 @@
+{
+  "doc_key": "I05-2013",
+  "gold_entities": [
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution system",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "modular  syntactic analysis system",
+      "category": "method"
+    },
+    {
+      "entity": "raw text  in  French",
+      "category": "material"
+    },
+    {
+      "entity": "anaphoric occurrences of il",
+      "category": "task"
+    },
+    {
+      "entity": "precision rate",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "ILIMP",
+      "category": "task"
+    },
+    {
+      "entity": "raw text",
+      "category": "task"
+    },
+    {
+      "entity": "french",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphora resolution system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "antecedent",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expletive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "precision rate",
+      "category": "metric"
+    },
+    {
+      "entity": "errors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modular syntactic analysis system",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "ILIMP",
+      "predicted": "ILIMP",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "anaphora resolution system",
+      "predicted": "anaphora resolution system",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "modular  syntactic analysis system",
+      "predicted": "modular syntactic analysis system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "precision rate",
+      "predicted": "precision rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "raw text  in  French",
+      "predicted": "raw text",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "anaphoric occurrences of il",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "french",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "antecedent",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expletive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "errors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "ILIMP|method": {
+      "count": 4,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "material": 1,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 5,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 0,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.1111111111111111,
+  "f1": 0.1111111111111111,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 4,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

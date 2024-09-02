@@ -1,0 +1,281 @@
+{
+  "doc_key": "P05-1058",
+  "gold_entities": [
+    {
+      "entity": "alignment adaptation approach",
+      "category": "method"
+    },
+    {
+      "entity": "alignment adaptation",
+      "category": "method"
+    },
+    {
+      "entity": "statistical word alignment models",
+      "category": "method"
+    },
+    {
+      "entity": "domain-specific (in-domain) word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "in-domain word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "large-scale  out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "small-scale  in-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    },
+    {
+      "entity": "relative error rate reduction",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Alignment adaptation",
+      "category": "task"
+    },
+    {
+      "entity": "Domain-specific",
+      "category": "task"
+    },
+    {
+      "entity": "In-domain",
+      "category": "task"
+    },
+    {
+      "entity": "Out-of-domain",
+      "category": "task"
+    },
+    {
+      "entity": "Statistical word alignment models",
+      "category": "method"
+    },
+    {
+      "entity": "Large-scale",
+      "category": "method"
+    },
+    {
+      "entity": "Small-scale",
+      "category": "method"
+    },
+    {
+      "entity": "Precision",
+      "category": "metric"
+    },
+    {
+      "entity": "Recall",
+      "category": "metric"
+    },
+    {
+      "entity": "Relative error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "stateoftheart technologies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "alignment adaptation",
+      "predicted": "Alignment adaptation",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "statistical word alignment models",
+      "predicted": "Statistical word alignment models",
+      "category": "method"
+    },
+    {
+      "gold": "precision",
+      "predicted": "Precision",
+      "category": "metric"
+    },
+    {
+      "gold": "recall",
+      "predicted": "Recall",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "out-of-domain corpus",
+      "predicted": "Out-of-domain",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "relative error rate reduction",
+      "predicted": "Relative error rate",
+      "score": 0.75,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "alignment adaptation approach",
+      "category": "method"
+    },
+    {
+      "entity": "domain-specific (in-domain) word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "in-domain word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "large-scale  out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "small-scale  in-domain corpus",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Domain-specific",
+      "category": "task"
+    },
+    {
+      "entity": "In-domain",
+      "category": "task"
+    },
+    {
+      "entity": "Large-scale",
+      "category": "method"
+    },
+    {
+      "entity": "Small-scale",
+      "category": "method"
+    },
+    {
+      "entity": "stateoftheart technologies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "domain-specific word alignment|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 4,
+    "material": 3,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 3,
+    "metric": 3,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.23076923076923078,
+  "f1": 0.24999999999999994,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

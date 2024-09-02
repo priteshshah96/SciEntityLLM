@@ -1,0 +1,237 @@
+{
+  "doc_key": "C02-1071",
+  "gold_entities": [
+    {
+      "entity": "deep processing",
+      "category": "task"
+    },
+    {
+      "entity": "linguistic processing",
+      "category": "task"
+    },
+    {
+      "entity": "shallow techniques",
+      "category": "method"
+    },
+    {
+      "entity": "NLP system",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic PoS tagger and chunker",
+      "category": "method"
+    },
+    {
+      "entity": "broad coverage unification based grammar of Spanish",
+      "category": "method"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "deep processing",
+      "category": "method"
+    },
+    {
+      "entity": "shallow techniques",
+      "category": "method"
+    },
+    {
+      "entity": "NLP system",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic PoS tagger and chunker",
+      "category": "method"
+    },
+    {
+      "entity": "broad coverage unification based grammar",
+      "category": "method"
+    },
+    {
+      "entity": "Spanish",
+      "category": "material"
+    },
+    {
+      "entity": "efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "linguistic processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "grammar",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "deep processing",
+      "predicted": "deep processing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "linguistic processing",
+      "predicted": "linguistic processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "shallow techniques",
+      "predicted": "shallow techniques",
+      "category": "method"
+    },
+    {
+      "gold": "NLP system",
+      "predicted": "NLP system",
+      "category": "method"
+    },
+    {
+      "gold": "linguistic PoS tagger and chunker",
+      "predicted": "linguistic PoS tagger and chunker",
+      "category": "method"
+    },
+    {
+      "gold": "robustness",
+      "predicted": "robustness",
+      "category": "metric"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "precision",
+      "predicted": "precision",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "broad coverage unification based grammar of Spanish",
+      "predicted": "broad coverage unification based grammar",
+      "score": 0.7142857142857143,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Spanish",
+      "category": "material"
+    },
+    {
+      "entity": "efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "grammar",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "material": 1,
+    "metric": 4,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.6666666666666666,
+  "f1": 0.5714285714285715,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

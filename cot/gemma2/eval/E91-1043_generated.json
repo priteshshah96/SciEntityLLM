@@ -1,0 +1,215 @@
+{
+  "gold_entities": [
+    {
+      "entity": "knowledge sources",
+      "category": "Material"
+    },
+    {
+      "entity": "model of grammatical processing",
+      "category": "Method"
+    },
+    {
+      "entity": "uniform processing",
+      "category": "Method"
+    },
+    {
+      "entity": "parametrized deduction process",
+      "category": "Method"
+    },
+    {
+      "entity": "parsing",
+      "category": "Task"
+    },
+    {
+      "entity": "generation",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "grammatical processing",
+      "category": "Task"
+    },
+    {
+      "entity": "uniform processing",
+      "category": "Method"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parsing",
+      "category": "Task"
+    },
+    {
+      "entity": "generation",
+      "category": "Task"
+    },
+    {
+      "entity": "parametrized deduction process",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "tasks",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "uniform processing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "uniform processing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "knowledge sources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "knowledge sources",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "parsing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "generation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "generation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parametrized deduction process",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "parametrized deduction process",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language processing",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "uniform processing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "uniform processing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "parsing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "generation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "generation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parametrized deduction process",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "parametrized deduction process",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language processing",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "model of grammatical processing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "grammatical processing",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 7,
+    "generic_count": 2,
+    "exact_matches": 6,
+    "exact_category_matches": 5,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

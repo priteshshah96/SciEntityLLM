@@ -1,0 +1,164 @@
+{
+  "doc_key": "N03-4004",
+  "gold_entities": [
+    {
+      "entity": "TAP-XL Automated Analyst's Assistant",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual, multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "human language technology",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "TAP-XL Automated Analyst's Assistant",
+      "category": "method"
+    },
+    {
+      "entity": "english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multilingual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "human language technology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topical report",
+      "category": "task"
+    },
+    {
+      "entity": "translingual reach",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "TAP-XL Automated Analyst's Assistant",
+      "predicted": "TAP-XL Automated Analyst's Assistant",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "human language technology",
+      "predicted": "human language technology",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [],
+  "split_matches": [
+    {
+      "gold": "multilingual, multimedia data",
+      "gold_category": "material",
+      "matched_parts": [
+        {
+          "part": "multilingual",
+          "matched": "multilingual",
+          "predicted_category": "otherscientificterm"
+        },
+        {
+          "part": "multimedia data",
+          "matched": "multimedia data",
+          "predicted_category": "material"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topical report",
+      "category": "task"
+    },
+    {
+      "entity": "translingual reach",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 4,
+    "material": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 7,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 0,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

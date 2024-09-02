@@ -1,0 +1,258 @@
+{
+  "gold_entities": [
+    {
+      "entity": "geometric correspondence data",
+      "category": "Material"
+    },
+    {
+      "entity": "photometric and geometric data",
+      "category": "Material"
+    },
+    {
+      "entity": "structured-light methods",
+      "category": "Method"
+    },
+    {
+      "entity": "photogeometric structured light",
+      "category": "Method"
+    },
+    {
+      "entity": "structured light method",
+      "category": "Method"
+    },
+    {
+      "entity": "photometric methods",
+      "category": "Method"
+    },
+    {
+      "entity": "photometric processing",
+      "category": "Method"
+    },
+    {
+      "entity": "photogeometric optimization",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-view 3d model",
+      "category": "Method"
+    },
+    {
+      "entity": "robust 3d reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "recovered surface detail",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "structured-light setup",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "structured-light methods",
+      "category": "Task"
+    },
+    {
+      "entity": "geometric correspondence data",
+      "category": "Task"
+    },
+    {
+      "entity": "photometric methods",
+      "category": "Task"
+    },
+    {
+      "entity": "photometric processing",
+      "category": "Method"
+    },
+    {
+      "entity": "surface detail",
+      "category": "Metric"
+    },
+    {
+      "entity": "self-calibration",
+      "category": "Method"
+    },
+    {
+      "entity": "photogeometric optimization",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-view 3d model",
+      "category": "Task"
+    },
+    {
+      "entity": "multiple cameras",
+      "category": "Material"
+    },
+    {
+      "entity": "projectors",
+      "category": "Material"
+    },
+    {
+      "entity": "geometric data",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "framework",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "structured-light methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "structured-light methods",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "geometric correspondence data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "geometric correspondence data",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "photometric methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "photometric methods",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "photometric processing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "photometric processing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "photogeometric optimization",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "photogeometric optimization",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multi-view 3d model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "multi-view 3d model",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "photometric processing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "photometric processing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "photogeometric optimization",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "photogeometric optimization",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "photometric and geometric data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "geometric data",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "recovered surface detail",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "surface detail",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "photogeometric structured light",
+      "category": "Method"
+    },
+    {
+      "entity": "structured light method",
+      "category": "Method"
+    },
+    {
+      "entity": "robust 3d reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "structured-light setup",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "self-calibration",
+      "category": "Method"
+    },
+    {
+      "entity": "multiple cameras",
+      "category": "Material"
+    },
+    {
+      "entity": "projectors",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 6,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

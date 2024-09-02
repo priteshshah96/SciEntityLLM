@@ -1,0 +1,182 @@
+{
+  "gold_entities": [
+    {
+      "entity": "mt systems",
+      "category": "Method"
+    },
+    {
+      "entity": "visualization method",
+      "category": "Method"
+    },
+    {
+      "entity": "mt system",
+      "category": "Method"
+    },
+    {
+      "entity": "syntax-based decoder",
+      "category": "Method"
+    },
+    {
+      "entity": "interactively visualizing and directing the process of translating",
+      "category": "Task"
+    },
+    {
+      "entity": "syntax-based statistical machine translation (mt)",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "interactive visualization",
+      "category": "Task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "Task"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "syntax-based statistical machine translation",
+      "category": "Method"
+    },
+    {
+      "entity": "model's strengths and weaknesses",
+      "category": "Metric"
+    },
+    {
+      "entity": "other mt systems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "user",
+      "category": "Task"
+    },
+    {
+      "entity": "decoder",
+      "category": "Method"
+    },
+    {
+      "entity": "acl",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "syntax-based statistical machine translation",
+          "category": "Method"
+        },
+        {
+          "entity": "decoder",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "mt systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "other mt systems",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "syntax-based statistical machine translation (mt)",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "machine translation",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "visualization method",
+      "category": "Method"
+    },
+    {
+      "entity": "mt system",
+      "category": "Method"
+    },
+    {
+      "entity": "interactively visualizing and directing the process of translating",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "interactive visualization",
+      "category": "Task"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "model's strengths and weaknesses",
+      "category": "Metric"
+    },
+    {
+      "entity": "user",
+      "category": "Task"
+    },
+    {
+      "entity": "acl",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 9,
+    "generic_count": 5,
+    "exact_matches": 0,
+    "exact_category_matches": 0,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "doc_key": "C92-1052",
+  "gold_entities": [
+    {
+      "entity": "discourse segments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "abduction  of  temporal relations",
+      "category": "task"
+    },
+    {
+      "entity": "temporal anaphora resolution",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "discourse segments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "abduction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal anaphora resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Discourse segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Method",
+      "category": "method"
+    },
+    {
+      "entity": "Previous work",
+      "category": "material"
+    },
+    {
+      "entity": "area",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphora",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "temporal anaphora resolution",
+      "predicted": "temporal anaphora resolution",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "discourse segments",
+      "predicted": "discourse segments",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse segmentation",
+      "predicted": "Discourse segmentation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "abduction  of  temporal relations",
+      "predicted": "temporal relations",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "abduction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Method",
+      "category": "method"
+    },
+    {
+      "entity": "Previous work",
+      "category": "material"
+    },
+    {
+      "entity": "area",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphora",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 1,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 7,
+    "task": 1,
+    "method": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.5,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

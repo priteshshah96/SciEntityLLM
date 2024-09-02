@@ -1,0 +1,275 @@
+{
+  "gold_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "image data",
+      "category": "Material"
+    },
+    {
+      "entity": "low-level feature analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian statistics",
+      "category": "Method"
+    },
+    {
+      "entity": "automated segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "shape constrained image segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "robust-ness requirement in image understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "shape information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mixtures of feature distributions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "texture",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "probabilistic shape knowledge",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "automated segmentation of images",
+      "category": "Task"
+    },
+    {
+      "entity": "semantically meaningful parts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shape information",
+      "category": "Method"
+    },
+    {
+      "entity": "low-level feature analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "novel method of shape constrained image segmentation",
+      "category": "Method"
+    },
+    {
+      "entity": "mixtures of feature distributions",
+      "category": "Method"
+    },
+    {
+      "entity": "probabilistic shape knowledge",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian statistics",
+      "category": "Method"
+    },
+    {
+      "entity": "robust-ness requirement",
+      "category": "Metric"
+    },
+    {
+      "entity": "image understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "ambiguous segmentations",
+      "category": "Material"
+    },
+    {
+      "entity": "semantically meaningful segments",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "shape information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "shape information",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "low-level feature analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "low-level feature analysis",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "mixtures of feature distributions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "mixtures of feature distributions",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "probabilistic shape knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "probabilistic shape knowledge",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "low-level feature analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "low-level feature analysis",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian statistics",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "shape constrained image segmentation",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "automated segmentation of images",
+          "category": "Task"
+        },
+        {
+          "entity": "novel method of shape constrained image segmentation",
+          "category": "Method"
+        },
+        {
+          "entity": "image understanding",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.3214285714285714
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "robust-ness requirement in image understanding",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "robust-ness requirement",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "image data",
+      "category": "Material"
+    },
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "automated segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "texture",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "semantically meaningful parts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguous segmentations",
+      "category": "Material"
+    },
+    {
+      "entity": "semantically meaningful segments",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 12,
+    "generic_count": 1,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

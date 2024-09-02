@@ -1,0 +1,180 @@
+{
+  "doc_key": "C90-3007",
+  "gold_entities": [
+    {
+      "entity": "featurebased partial descriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Halliday's systemic networks",
+      "category": "method"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "feature-based partial descriptions",
+      "category": "method"
+    },
+    {
+      "entity": "Halliday's systemic networks",
+      "category": "material"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "method"
+    },
+    {
+      "entity": "npcomplete",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intractability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "intractability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature-based partial descriptions",
+      "category": "method"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "method"
+    },
+    {
+      "entity": "npcomplete",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intractability",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Halliday's systemic networks",
+      "predicted": "Halliday's systemic networks",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "consistency checking",
+      "predicted": "consistency checking",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "featurebased partial descriptions",
+      "predicted": "feature-based partial descriptions",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "feature-based partial descriptions",
+      "category": "method"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "method"
+    },
+    {
+      "entity": "npcomplete",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "npcomplete",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intractability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intractability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intractability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "material": 1,
+    "otherscientificterm": 5
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.3333333333333333,
+  "f1": 0.14285714285714288,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 8,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

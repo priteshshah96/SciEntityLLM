@@ -1,0 +1,230 @@
+{
+  "doc_key": "C86-1105",
+  "gold_entities": [
+    {
+      "entity": "hierarchical relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "superordinate hyponym relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synonym relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "definition sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hierarchical relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "thesaurus construction",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese language dictionary",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "hierarchical relations",
+      "category": "task"
+    },
+    {
+      "entity": "superordinate hyponym relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synonym relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "thesaurus construction",
+      "category": "task"
+    },
+    {
+      "entity": "dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Shinmeikai Kokugojiten",
+      "category": "material"
+    },
+    {
+      "entity": "Sansei-do",
+      "category": "material"
+    },
+    {
+      "entity": "machine readable form",
+      "category": "material"
+    },
+    {
+      "entity": "definition sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mechanical extraction",
+      "category": "method"
+    },
+    {
+      "entity": "estimation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "hierarchical relations",
+      "predicted": "hierarchical relations",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "superordinate hyponym relation",
+      "predicted": "superordinate hyponym relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "synonym relation",
+      "predicted": "synonym relation",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "definition sentences",
+      "predicted": "definition sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "thesaurus construction",
+      "predicted": "thesaurus construction",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "hierarchical relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Japanese language dictionary",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Shinmeikai Kokugojiten",
+      "category": "material"
+    },
+    {
+      "entity": "Sansei-do",
+      "category": "material"
+    },
+    {
+      "entity": "machine readable form",
+      "category": "material"
+    },
+    {
+      "entity": "mechanical extraction",
+      "category": "method"
+    },
+    {
+      "entity": "estimation",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "hierarchical relations|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 6,
+    "task": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 3,
+    "material": 4,
+    "method": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.5,
+  "f1": 0.4210526315789474,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

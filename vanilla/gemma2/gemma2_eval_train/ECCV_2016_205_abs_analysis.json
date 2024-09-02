@@ -1,0 +1,296 @@
+{
+  "doc_key": "ECCV_2016_205_abs",
+  "gold_entities": [
+    {
+      "entity": "monocular nonrigid 3D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "3D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "joint problem of non-rigid image registration and depth estimation",
+      "category": "task"
+    },
+    {
+      "entity": "3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "Template-based methods",
+      "category": "method"
+    },
+    {
+      "entity": "Non-rigid Structure from Motion techniques",
+      "category": "method"
+    },
+    {
+      "entity": "3D shape model",
+      "category": "method"
+    },
+    {
+      "entity": "template-free approach",
+      "category": "method"
+    },
+    {
+      "entity": "surface isometry",
+      "category": "method"
+    },
+    {
+      "entity": "poorlytextured surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shape template",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "poorlytextured surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "poorlytextured deformable surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "video sequence",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "3D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "Monocular",
+      "category": "method"
+    },
+    {
+      "entity": "Non-rigid",
+      "category": "method"
+    },
+    {
+      "entity": "3D shape model",
+      "category": "material"
+    },
+    {
+      "entity": "Template-based methods",
+      "category": "method"
+    },
+    {
+      "entity": "Non-rigid Structure from Motion",
+      "category": "method"
+    },
+    {
+      "entity": "Poorly-textured surfaces",
+      "category": "material"
+    },
+    {
+      "entity": "surface isometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Non-rigid image registration",
+      "category": "method"
+    },
+    {
+      "entity": "Depth estimation",
+      "category": "method"
+    },
+    {
+      "entity": "stateoftheart techniques",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "3D reconstruction",
+      "predicted": "3D reconstruction",
+      "category": "task"
+    },
+    {
+      "gold": "Template-based methods",
+      "predicted": "Template-based methods",
+      "category": "method"
+    },
+    {
+      "gold": "3D shape model",
+      "predicted": "3D shape model",
+      "category": "method"
+    },
+    {
+      "gold": "surface isometry",
+      "predicted": "surface isometry",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Non-rigid Structure from Motion techniques",
+      "predicted": "Non-rigid Structure from Motion",
+      "score": 0.8,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "3D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "Template-based methods",
+      "category": "method"
+    },
+    {
+      "entity": "Non-rigid Structure from Motion techniques",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "monocular nonrigid 3D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "joint problem of non-rigid image registration and depth estimation",
+      "category": "task"
+    },
+    {
+      "entity": "3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "template-free approach",
+      "category": "method"
+    },
+    {
+      "entity": "poorlytextured surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "poorlytextured surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shape template",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "poorlytextured deformable surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "video sequence",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Monocular",
+      "category": "method"
+    },
+    {
+      "entity": "Non-rigid",
+      "category": "method"
+    },
+    {
+      "entity": "Poorly-textured surfaces",
+      "category": "material"
+    },
+    {
+      "entity": "Non-rigid image registration",
+      "category": "method"
+    },
+    {
+      "entity": "stateoftheart techniques",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "poorlytextured surfaces|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 5,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 6,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 6,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.14285714285714285,
+  "f1": 0.16,
+  "category_precision": 0.8181818181818182,
+  "category_recall": 0.6,
+  "category_f1": 0.6923076923076923,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 5,
+    "generic_entities": 6,
+    "correct_predictions": 2,
+    "correct_categories": 9
+  }
+}

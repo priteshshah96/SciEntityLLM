@@ -1,0 +1,302 @@
+{
+  "doc_key": "CVPR_2008_258_abs",
+  "gold_entities": [
+    {
+      "entity": "unsupervised seg-mentation of whole objects",
+      "category": "task"
+    },
+    {
+      "entity": "partial scene segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "entity": "soft binary mattes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypothesized object boundary fragments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "delineation of scene objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spectral clustering",
+      "category": "method"
+    },
+    {
+      "entity": "image matting",
+      "category": "method"
+    },
+    {
+      "entity": "boundary detection",
+      "category": "method"
+    },
+    {
+      "entity": "dataset of scenes",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "unsupervised segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "whole objects",
+      "category": "task"
+    },
+    {
+      "entity": "partial scene segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "soft, binary mattes",
+      "category": "material"
+    },
+    {
+      "entity": "hypothesized object boundary fragments",
+      "category": "material"
+    },
+    {
+      "entity": "segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "entity": "groups of images",
+      "category": "material"
+    },
+    {
+      "entity": "evaluation metrics",
+      "category": "metric"
+    },
+    {
+      "entity": "accurate and parsimonious delineation",
+      "category": "metric"
+    },
+    {
+      "entity": "scene objects",
+      "category": "material"
+    },
+    {
+      "entity": "spectral clustering",
+      "category": "method"
+    },
+    {
+      "entity": "image matting",
+      "category": "method"
+    },
+    {
+      "entity": "boundary detection",
+      "category": "method"
+    },
+    {
+      "entity": "dataset of scenes",
+      "category": "material"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "entity": "top-down knowledge",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "partial scene segmentation",
+      "predicted": "partial scene segmentation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "hypothesized object boundary fragments",
+      "predicted": "hypothesized object boundary fragments",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "unsupervised object discovery",
+      "predicted": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "gold": "unsupervised object discovery",
+      "predicted": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "gold": "spectral clustering",
+      "predicted": "spectral clustering",
+      "category": "method"
+    },
+    {
+      "gold": "image matting",
+      "predicted": "image matting",
+      "category": "method"
+    },
+    {
+      "gold": "boundary detection",
+      "predicted": "boundary detection",
+      "category": "method"
+    },
+    {
+      "gold": "dataset of scenes",
+      "predicted": "dataset of scenes",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "soft binary mattes",
+      "predicted": "soft, binary mattes",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "delineation of scene objects",
+      "predicted": "scene objects",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unsupervised seg-mentation of whole objects",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "unsupervised segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "whole objects",
+      "category": "task"
+    },
+    {
+      "entity": "segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "groups of images",
+      "category": "material"
+    },
+    {
+      "entity": "evaluation metrics",
+      "category": "metric"
+    },
+    {
+      "entity": "accurate and parsimonious delineation",
+      "category": "metric"
+    },
+    {
+      "entity": "top-down knowledge",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "unsupervised object discovery|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 3,
+    "method": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "method": 4,
+    "material": 6,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.35294117647058826,
+  "recall": 0.5454545454545454,
+  "f1": 0.42857142857142855,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 17,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 7,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

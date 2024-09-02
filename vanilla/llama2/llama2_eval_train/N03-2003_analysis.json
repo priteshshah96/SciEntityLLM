@@ -1,0 +1,175 @@
+{
+  "doc_key": "N03-2003",
+  "gold_entities": [
+    {
+      "entity": "language modeling",
+      "category": "method"
+    },
+    {
+      "entity": "class-dependent interpolation  of  N-grams",
+      "category": "method"
+    },
+    {
+      "entity": "conversational speech",
+      "category": "material"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "training data",
+      "category": "task"
+    },
+    {
+      "entity": "language modeling",
+      "category": "task"
+    },
+    {
+      "entity": "conversational speech",
+      "category": "task"
+    },
+    {
+      "entity": "sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "ngrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "class-dependent interpolation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language modeling",
+      "predicted": "language modeling",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "conversational speech",
+      "predicted": "conversational speech",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "class-dependent interpolation  of  N-grams",
+      "predicted": "class-dependent interpolation",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "recognition task",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "training data",
+      "category": "task"
+    },
+    {
+      "entity": "sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "ngrams",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "material": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 3,
+    "material": 1,
+    "method": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 5,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,183 @@
+prompt_template = """
+Extract the scientific entities from the following text by following these steps. Think through each step carefully and explain your reasoning as you go.
+
+Step 1: Carefully read the given text.
+
+Step 2: Identify potential scientific entities in the text. Consider:
+   - Main scientific subjects and objects in each sentence
+   - Precise and technical nouns or noun phrases
+   - Terms specific to scientific or technical domains
+
+Step 3: For each potential entity, determine its category:
+   - Task: The specific scientific or technical task being discussed
+   - Method: Techniques, algorithms, or approaches used
+   - Metric: Measures used to evaluate performance
+   - Material: Datasets, resources, or tools used in the research
+   - OtherScientificTerm: Any other relevant scientific concepts or terminology
+
+   Explain your reasoning for each categorization.
+
+Step 4: Check for abbreviations and repeated mentions:
+   - Include both full forms and abbreviations when present
+   - Note each instance of repeated entities, even in slightly different contexts
+
+Step 5: Compile your list of scientific entities. For each entity, provide:
+   - The entity itself
+   - Its category
+   - A brief explanation of why it's considered a scientific entity and its category
+
+Step 6: Review your list:
+   - Discuss any entities you're unsure about
+   - Consider if any entities could fit multiple categories and explain your final choice
+
+Step 7: Summarize your overall approach and any challenges encountered.
+
+Here are two examples demonstrating this process:
+
+Example 1:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Analysis:
+Step 1: I've read the text carefully.
+Step 2: Potential entities: categorizing unknown words, system, multi-component architecture, unknown words, names, spelling errors, decision tree architecture, live closed captions.
+Step 3-5: Let's categorize each entity:
+
+* categorizing unknown words
+- Category: Task
+- Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* system
+- Category: OtherScientificTerm
+- Reasoning: This refers to the overall solution being introduced, but it's too general to be a specific method.
+
+* multi-component architecture
+- Category: Method
+- Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+- Category: OtherScientificTerm
+- Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+- Category: OtherScientificTerm
+- Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+- Category: OtherScientificTerm
+- Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+- Category: Method
+- Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+- Category: Material
+- Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Step 6: I'm confident about most categorizations. The "system" could potentially be considered a Method, but I chose OtherScientificTerm as it's more of a general concept than a specific technique.
+
+Step 7: The main challenge was distinguishing between OtherScientificTerm and more specific categories like Task or Method. I focused on the specificity and role of each term in the research process to make these distinctions.
+
+Example 2:
+Text: "An attempt has been made to use an Augmented Transition Network as a procedural dialog model. The development of such a model appears to be important in several respects: as a device to represent and to use different dialog schemata proposed in empirical conversation analysis; as a device to represent and to use models of verbal interaction; as a device combining knowledge about dialog schemata and about verbal interaction with knowledge about task-oriented and goal-directed dialogs. A standard ATN should be further developed in order to account for the verbal interactions of task-oriented dialogs."
+
+Analysis:
+Step 1: I've carefully read the text.
+Step 2: Potential entities: Augmented Transition Network, procedural dialog model, dialog schemata, empirical conversation analysis, verbal interaction, task-oriented dialogs, goal-directed dialogs, ATN.
+Step 3-5: Let's categorize each entity:
+
+* Augmented Transition Network
+- Category: Method
+- Reasoning: This is a specific technique used to create the dialog model, representing a methodological approach.
+
+* procedural dialog model
+- Category: Method
+- Reasoning: This describes the type of model being developed, which is a specific approach to modeling dialogs.
+
+* dialog schemata
+- Category: OtherScientificTerm
+- Reasoning: This refers to structures in dialog modeling, a key concept in the field.
+
+* empirical conversation analysis
+- Category: Method
+- Reasoning: This is an approach to studying conversations, representing a research methodology.
+
+* verbal interaction
+- Category: OtherScientificTerm
+- Reasoning: This is a key concept in dialog modeling, representing a fundamental aspect of communication.
+
+* task-oriented dialogs
+- Category: Material
+- Reasoning: This describes a type of dialog being studied, representing a specific dataset or subject of research.
+
+* goal-directed dialogs
+- Category: Material
+- Reasoning: Similar to task-oriented dialogs, this represents another type of dialog being studied.
+
+* ATN
+- Category: Method
+- Reasoning: This is an abbreviation for Augmented Transition Network, maintaining the same categorization as its full form.
+
+Step 6: The categorization of "task-oriented dialogs" and "goal-directed dialogs" as Material could be debated. They could potentially be considered OtherScientificTerms if viewed as concepts rather than specific research subjects.
+
+Step 7: The main challenge was distinguishing between Methods and OtherScientificTerms, especially for concepts that describe approaches but aren't as specific as algorithms or techniques. I focused on how directly each term related to the research process to make these distinctions.
+
+Example 3:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain , there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are " execution-contingent, " i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Analysis:
+Step 1: I've carefully read the text.
+Step 2: Potential entities: auction domains, combinatorial auctions, individual rationality (IR), core-selecting payment rules, ex-post core-selecting, execution-contingent rules, IR violations, computational Bayes-Nash equilibrium analysis, efficiency, ex-post IR violations.
+Step 3-5: Let's categorize each entity:
+
+* auction domains
+- Category: Task
+- Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+- Category: Method
+- Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+- Category: OtherScientificTerm
+- Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+- Category: Method
+- Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* ex-post core-selecting
+- Category: OtherScientificTerm
+- Reasoning: This is a property of payment rules, representing a specific concept in auction theory.
+
+* execution-contingent rules
+- Category: Method
+- Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+- Category: Metric
+- Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+- Category: Method
+- Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+- Category: Metric
+- Reasoning: This is used as a measure of performance for the auction rules.
+
+* ex-post IR violations
+- Category: Metric
+- Reasoning: This is another measure used to evaluate the performance of the rules.
+
+Step 6: The categorization of "IR violations" and "ex-post IR violations" as Metrics could be debated. They could potentially be considered OtherScientificTerms if viewed as concepts rather than specific measures. However, in this context, they seem to be used primarily as performance indicators.
+
+Step 7: The main challenge was distinguishing between Methods and OtherScientificTerms, especially for concepts that describe approaches but aren't as specific as algorithms or techniques. I focused on how directly each term related to the research process and whether it represented a specific approach or a more general concept to make these distinctions.
+
+Now, please apply this process to the following text:
+
+Text: "{text}"
+
+Scientific Entities Identified:
+[Provide your step-by-step analysis here]
+"""

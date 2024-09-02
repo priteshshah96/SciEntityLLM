@@ -1,0 +1,281 @@
+{
+  "gold_entities": [
+    {
+      "entity": "labelme data set",
+      "category": "Material"
+    },
+    {
+      "entity": "one-class classification",
+      "category": "Method"
+    },
+    {
+      "entity": "patch-based clustering algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "one-class classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "clustering of patches",
+      "category": "Method"
+    },
+    {
+      "entity": "scene representation",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "region selection algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "baseline global feature-based approach",
+      "category": "Method"
+    },
+    {
+      "entity": "classification of outdoor scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "scene classification",
+      "category": "Task"
+    },
+    {
+      "entity": "uniform color and texture properties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "codebook of region types",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "one-class classification",
+      "category": "Method"
+    },
+    {
+      "entity": "patch-based clustering",
+      "category": "Method"
+    },
+    {
+      "entity": "region types",
+      "category": "Metric"
+    },
+    {
+      "entity": "codebook",
+      "category": "Metric"
+    },
+    {
+      "entity": "bag of individual regions",
+      "category": "Method"
+    },
+    {
+      "entity": "bag of region pairs",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "region selection algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "labelme data set",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "models",
+      "category": "Generic"
+    },
+    {
+      "entity": "models",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "one-class classification",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "one-class classification",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian classifiers",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian classifiers",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "region selection algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "region selection algorithm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "labelme data set",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "labelme data set",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "one-class classification",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "one-class classification",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian classifiers",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian classifiers",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "region selection algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "region selection algorithm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "labelme data set",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "labelme data set",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "clustering of patches",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "patch-based clustering",
+          "category": "Method"
+        },
+        {
+          "entity": "bag of individual regions",
+          "category": "Method"
+        },
+        {
+          "entity": "bag of region pairs",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.0
+    },
+    {
+      "gold": {
+        "entity": "codebook of region types",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "region types",
+          "category": "Metric"
+        },
+        {
+          "entity": "codebook",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "patch-based clustering algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "one-class classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "scene representation",
+      "category": "Method"
+    },
+    {
+      "entity": "baseline global feature-based approach",
+      "category": "Method"
+    },
+    {
+      "entity": "classification of outdoor scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "scene classification",
+      "category": "Task"
+    },
+    {
+      "entity": "uniform color and texture properties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 9,
+    "generic_count": 2,
+    "exact_matches": 4,
+    "exact_category_matches": 4,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

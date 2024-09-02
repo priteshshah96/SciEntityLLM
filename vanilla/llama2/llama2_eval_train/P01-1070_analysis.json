@@ -1,0 +1,178 @@
+{
+  "doc_key": "P01-1070",
+  "gold_entities": [
+    {
+      "entity": "supervised machine learning",
+      "category": "method"
+    },
+    {
+      "entity": "statistical models  of  WH-questions",
+      "category": "method"
+    },
+    {
+      "entity": "shallow linguistic features of questions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users informational goals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training and testing factors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "whquestions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical models",
+      "category": "task"
+    },
+    {
+      "entity": "shallow linguistic features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training",
+      "category": "task"
+    },
+    {
+      "entity": "testing",
+      "category": "task"
+    },
+    {
+      "entity": "predictive performance",
+      "category": "metric"
+    },
+    {
+      "entity": "target variables",
+      "category": "task"
+    },
+    {
+      "entity": "informational goals",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "statistical models  of  WH-questions",
+      "predicted": "statistical models",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "shallow linguistic features of questions",
+      "predicted": "shallow linguistic features",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "users informational goals",
+      "predicted": "informational goals",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "supervised machine learning",
+      "category": "method"
+    },
+    {
+      "entity": "training and testing factors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "whquestions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "testing",
+      "category": "task"
+    },
+    {
+      "entity": "predictive performance",
+      "category": "metric"
+    },
+    {
+      "entity": "target variables",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 5,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

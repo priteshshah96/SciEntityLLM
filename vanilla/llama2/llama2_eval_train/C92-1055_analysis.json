@@ -1,0 +1,225 @@
+{
+  "doc_key": "C92-1055",
+  "gold_entities": [
+    {
+      "entity": "adaptive learning procedure",
+      "category": "method"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical approaches",
+      "category": "method"
+    },
+    {
+      "entity": "maximum likelihood method",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic ambiguity resolution",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "insufficient training data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "approximation error",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "separation margin",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy rate",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Syntactic ambiguity resolution",
+      "category": "task"
+    },
+    {
+      "entity": "language model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Maximum likelihood method",
+      "category": "method"
+    },
+    {
+      "entity": "Training corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Separation margin",
+      "category": "metric"
+    },
+    {
+      "entity": "Accuracy rate",
+      "category": "metric"
+    },
+    {
+      "entity": "Test",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language model",
+      "predicted": "language model",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "separation margin",
+      "predicted": "Separation margin",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "maximum likelihood method",
+      "predicted": "Maximum likelihood method",
+      "category": "method"
+    },
+    {
+      "gold": "syntactic ambiguity resolution",
+      "predicted": "Syntactic ambiguity resolution",
+      "category": "task"
+    },
+    {
+      "gold": "accuracy rate",
+      "predicted": "Accuracy rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "adaptive learning procedure",
+      "category": "method"
+    },
+    {
+      "entity": "statistical approaches",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "insufficient training data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "approximation error",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Training corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Test",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 2,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "method": 1,
+    "material": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.2727272727272727,
+  "f1": 0.33333333333333326,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 7,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 2,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

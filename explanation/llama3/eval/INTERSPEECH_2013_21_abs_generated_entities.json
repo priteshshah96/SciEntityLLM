@@ -1,0 +1,361 @@
+{
+  "gold_entities": [
+    {
+      "entity": "annotated training corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "unlabeled corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english and czech newspaper texts",
+      "category": "Material"
+    },
+    {
+      "entity": "french broadcast news transcriptions",
+      "category": "Material"
+    },
+    {
+      "entity": "n-gram models",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian inference",
+      "category": "Method"
+    },
+    {
+      "entity": "lack of structures in traditional n-gram models",
+      "category": "Task"
+    },
+    {
+      "entity": "weakly supervised dependency parser",
+      "category": "Task"
+    },
+    {
+      "entity": "lack of structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "speech syntax",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "labeled data",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hand-crafted rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntactic knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complex tree structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discriminative model's posterior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sparse se-lectional preferences",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "n-gram models",
+      "category": "Method"
+    },
+    {
+      "entity": "weakly supervised dependency parser",
+      "category": "Method"
+    },
+    {
+      "entity": "annotated training corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "hand-crafted rules",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian inference",
+      "category": "Method"
+    },
+    {
+      "entity": "complex tree structures",
+      "category": "Material"
+    },
+    {
+      "entity": "discriminative model",
+      "category": "Method"
+    },
+    {
+      "entity": "posterior",
+      "category": "Metric"
+    },
+    {
+      "entity": "sparse selectional preferences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "head word",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dependents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "english",
+      "category": "Material"
+    },
+    {
+      "entity": "czech",
+      "category": "Material"
+    },
+    {
+      "entity": "french",
+      "category": "Material"
+    },
+    {
+      "entity": "broadcast news transcriptions",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "them",
+      "category": "Generic"
+    },
+    {
+      "entity": "posterior",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "n-gram models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "n-gram models",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "weakly supervised dependency parser",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "weakly supervised dependency parser",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "annotated training corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "annotated training corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hand-crafted rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "hand-crafted rules",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian inference",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian inference",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "complex tree structures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "complex tree structures",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "n-gram models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "n-gram models",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "annotated training corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "annotated training corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian inference",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian inference",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "english and czech newspaper texts",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "english",
+          "category": "Material"
+        },
+        {
+          "entity": "czech",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "french broadcast news transcriptions",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "french",
+          "category": "Material"
+        },
+        {
+          "entity": "broadcast news transcriptions",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "discriminative model's posterior",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "discriminative model",
+          "category": "Method"
+        },
+        {
+          "entity": "posterior",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "sparse se-lectional preferences",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "sparse selectional preferences",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "unlabeled corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "lack of structures in traditional n-gram models",
+      "category": "Task"
+    },
+    {
+      "entity": "lack of structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "speech syntax",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "labeled data",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntactic knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rules",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "head word",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dependents",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 17,
+    "generated_count": 15,
+    "generic_count": 3,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 3,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

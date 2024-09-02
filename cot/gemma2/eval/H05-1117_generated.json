@@ -1,0 +1,261 @@
+{
+  "gold_entities": [
+    {
+      "entity": "trec 2003 and trec 2004 qa tracks",
+      "category": "Material"
+    },
+    {
+      "entity": "pourpre",
+      "category": "Metric"
+    },
+    {
+      "entity": "pourpre",
+      "category": "Metric"
+    },
+    {
+      "entity": "automatic evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic evaluation of machine translation and document summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "Task"
+    },
+    {
+      "entity": "document summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "automatically evaluating answers to definition questions",
+      "category": "Task"
+    },
+    {
+      "entity": "rankings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "official rankings",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "automatic evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "Task"
+    },
+    {
+      "entity": "document summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "pourpre",
+      "category": "Method"
+    },
+    {
+      "entity": "answers to definition questions",
+      "category": "Task"
+    },
+    {
+      "entity": "scoring system output",
+      "category": "Task"
+    },
+    {
+      "entity": "trec 2003 and trec 2004 qa tracks",
+      "category": "Material"
+    },
+    {
+      "entity": "rankings",
+      "category": "Metric"
+    },
+    {
+      "entity": "official rankings",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "measure",
+      "category": "Generic"
+    },
+    {
+      "entity": "metric",
+      "category": "Generic"
+    },
+    {
+      "entity": "metrics",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "automatic evaluation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "automatic evaluation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine translation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "machine translation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "document summarization",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "document summarization",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pourpre",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "pourpre",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "trec 2003 and trec 2004 qa tracks",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "trec 2003 and trec 2004 qa tracks",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rankings",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "rankings",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "official rankings",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "official rankings",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "automatic evaluation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "automatic evaluation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine translation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "machine translation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "document summarization",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "document summarization",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "trec 2003 and trec 2004 qa tracks",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "trec 2003 and trec 2004 qa tracks",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "automatically evaluating answers to definition questions",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "answers to definition questions",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "pourpre",
+      "category": "Metric"
+    },
+    {
+      "entity": "automatic evaluation of machine translation and document summarization",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "scoring system output",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "pourpre": 2
+  },
+  "distinct_repeated_entities": [
+    "pourpre"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 9,
+    "generic_count": 4,
+    "exact_matches": 7,
+    "exact_category_matches": 4,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

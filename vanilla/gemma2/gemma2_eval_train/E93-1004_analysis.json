@@ -1,0 +1,225 @@
+{
+  "doc_key": "E93-1004",
+  "gold_entities": [
+    {
+      "entity": "modal language LT",
+      "category": "method"
+    },
+    {
+      "entity": "extension  LT (LF)",
+      "category": "method"
+    },
+    {
+      "entity": "grammatical frameworks",
+      "category": "method"
+    },
+    {
+      "entity": "GPSG",
+      "category": "method"
+    },
+    {
+      "entity": "LT (LF)",
+      "category": "method"
+    },
+    {
+      "entity": "modal languages",
+      "category": "method"
+    },
+    {
+      "entity": "constraint formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "constraints on trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraints on trees decorated with feature structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "modal language LT",
+      "category": "method"
+    },
+    {
+      "entity": "trees",
+      "category": "material"
+    },
+    {
+      "entity": "feature structures",
+      "category": "material"
+    },
+    {
+      "entity": "extension LT (LF)",
+      "category": "method"
+    },
+    {
+      "entity": "constraints",
+      "category": "method"
+    },
+    {
+      "entity": "languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical frameworks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modal languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraint formalisms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic theorising",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "modal language LT",
+      "predicted": "modal language LT",
+      "category": "method"
+    },
+    {
+      "gold": "extension  LT (LF)",
+      "predicted": "extension LT (LF)",
+      "category": "method"
+    },
+    {
+      "gold": "grammatical frameworks",
+      "predicted": "grammatical frameworks",
+      "category": "method"
+    },
+    {
+      "gold": "GPSG",
+      "predicted": "gpsg",
+      "category": "method"
+    },
+    {
+      "gold": "modal languages",
+      "predicted": "modal languages",
+      "category": "method"
+    },
+    {
+      "gold": "constraint formalisms",
+      "predicted": "constraint formalisms",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "modal language LT",
+      "category": "method"
+    },
+    {
+      "entity": "extension  LT (LF)",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "LT (LF)",
+      "category": "method"
+    },
+    {
+      "entity": "constraints on trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraints on trees decorated with feature structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "trees",
+      "category": "material"
+    },
+    {
+      "entity": "feature structures",
+      "category": "material"
+    },
+    {
+      "entity": "constraints",
+      "category": "method"
+    },
+    {
+      "entity": "languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic theorising",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 2,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 6,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.1111111111111111,
+  "f1": 0.09999999999999999,
+  "category_precision": 0.45454545454545453,
+  "category_recall": 0.5555555555555556,
+  "category_f1": 0.5,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 11,
+    "exact_matches": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 1,
+    "correct_predictions": 1,
+    "correct_categories": 5
+  }
+}

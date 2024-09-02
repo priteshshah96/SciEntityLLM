@@ -1,0 +1,344 @@
+{
+  "gold_entities": [
+    {
+      "entity": "discrete data",
+      "category": "Material"
+    },
+    {
+      "entity": "nucleotides in a dna sequence",
+      "category": "Material"
+    },
+    {
+      "entity": "text documents",
+      "category": "Material"
+    },
+    {
+      "entity": "multinomial or categorical distributions",
+      "category": "Method"
+    },
+    {
+      "entity": "multinomial distributions",
+      "category": "Method"
+    },
+    {
+      "entity": "dirichlet-multinomial formulation",
+      "category": "Method"
+    },
+    {
+      "entity": "logistic stick-breaking representation",
+      "category": "Method"
+    },
+    {
+      "entity": "multinomial distribution",
+      "category": "Method"
+    },
+    {
+      "entity": "bayesian inference techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "gaussian models",
+      "category": "Method"
+    },
+    {
+      "entity": "modeling problems",
+      "category": "Task"
+    },
+    {
+      "entity": "p\u00f3lya-gamma augmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "nucleotide",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dna strand",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "preceding nucleotides",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "latent variables",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "jointly gaussian likelihoods",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "minimal overhead",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "multinomial distribution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "categorical distribution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "nucleotides",
+      "category": "Material"
+    },
+    {
+      "entity": "dna sequence",
+      "category": "Material"
+    },
+    {
+      "entity": "text documents",
+      "category": "Material"
+    },
+    {
+      "entity": "dependency",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dirichletmultinomial formulation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "logistic stick-breaking representation",
+      "category": "Method"
+    },
+    {
+      "entity": "p\u00f3lya-gamma augmentation",
+      "category": "Method"
+    },
+    {
+      "entity": "latent variables",
+      "category": "Material"
+    },
+    {
+      "entity": "gaussian likelihoods",
+      "category": "Metric"
+    },
+    {
+      "entity": "bayesian inference techniques",
+      "category": "Task"
+    },
+    {
+      "entity": "gaussian models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multinomial distribution reformulation",
+      "category": "Task"
+    },
+    {
+      "entity": "latent variables jointly gaussian likelihoods",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "multinomial distribution",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "multinomial distribution",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "text documents",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "text documents",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "logistic stick-breaking representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "logistic stick-breaking representation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "p\u00f3lya-gamma augmentation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "p\u00f3lya-gamma augmentation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "latent variables",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "latent variables",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bayesian inference techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bayesian inference techniques",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "gaussian models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "gaussian models",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "text documents",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "text documents",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "logistic stick-breaking representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "logistic stick-breaking representation",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "nucleotides in a dna sequence",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "nucleotides",
+          "category": "Material"
+        },
+        {
+          "entity": "dna sequence",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "multinomial or categorical distributions",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "categorical distribution",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "multinomial distribution reformulation",
+          "category": "Task"
+        }
+      ],
+      "coverage": 0.8333333333333333
+    },
+    {
+      "gold": {
+        "entity": "jointly gaussian likelihoods",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "gaussian likelihoods",
+          "category": "Metric"
+        },
+        {
+          "entity": "latent variables jointly gaussian likelihoods",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.6
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "discrete data",
+      "category": "Material"
+    },
+    {
+      "entity": "multinomial distributions",
+      "category": "Method"
+    },
+    {
+      "entity": "dirichlet-multinomial formulation",
+      "category": "Method"
+    },
+    {
+      "entity": "modeling problems",
+      "category": "Task"
+    },
+    {
+      "entity": "nucleotide",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dna strand",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "preceding nucleotides",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "minimal overhead",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dependency",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dirichletmultinomial formulation",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 18,
+    "generated_count": 15,
+    "generic_count": 0,
+    "exact_matches": 7,
+    "exact_category_matches": 2,
+    "split_matches": 3,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

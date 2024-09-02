@@ -1,0 +1,252 @@
+{
+  "doc_key": "A97-1027",
+  "gold_entities": [
+    {
+      "entity": "morphological component",
+      "category": "method"
+    },
+    {
+      "entity": "NLP-system for Dutch (Dutch Medical Language Processor - DMLP)",
+      "category": "method"
+    },
+    {
+      "entity": "language independent modules",
+      "category": "method"
+    },
+    {
+      "entity": "LSP-MLP system (Linguistic String Project - Medical Language Processor)",
+      "category": "method"
+    },
+    {
+      "entity": "HyperText Mark-Up Language (HTML) technology",
+      "category": "method"
+    },
+    {
+      "entity": "idiosyncrasies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patient discharge summary pds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "highlighting of relevant information",
+      "category": "task"
+    },
+    {
+      "entity": "medical administrative purposes",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "NLP-system",
+      "category": "method"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "Medical Language Processor",
+      "category": "method"
+    },
+    {
+      "entity": "LSP-MLP system",
+      "category": "method"
+    },
+    {
+      "entity": "new york university",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language independent modules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language independent developments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "idiosyncrasies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patient discharge summary",
+      "category": "task"
+    },
+    {
+      "entity": "HTML",
+      "category": "method"
+    },
+    {
+      "entity": "hospital environment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language independent modules",
+      "predicted": "language independent modules",
+      "category": "method"
+    },
+    {
+      "gold": "idiosyncrasies",
+      "predicted": "idiosyncrasies",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Dutch",
+      "predicted": "Dutch",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "patient discharge summary pds",
+      "predicted": "patient discharge summary",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "idiosyncrasies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "morphological component",
+      "category": "method"
+    },
+    {
+      "entity": "NLP-system for Dutch (Dutch Medical Language Processor - DMLP)",
+      "category": "method"
+    },
+    {
+      "entity": "LSP-MLP system (Linguistic String Project - Medical Language Processor)",
+      "category": "method"
+    },
+    {
+      "entity": "HyperText Mark-Up Language (HTML) technology",
+      "category": "method"
+    },
+    {
+      "entity": "highlighting of relevant information",
+      "category": "task"
+    },
+    {
+      "entity": "medical administrative purposes",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "NLP-system",
+      "category": "method"
+    },
+    {
+      "entity": "Medical Language Processor",
+      "category": "method"
+    },
+    {
+      "entity": "LSP-MLP system",
+      "category": "method"
+    },
+    {
+      "entity": "new york university",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language independent developments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "HTML",
+      "category": "method"
+    },
+    {
+      "entity": "hospital environment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "otherscientificterm": 2,
+    "material": 1,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "material": 1,
+    "otherscientificterm": 5,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.2,
+  "f1": 0.1904761904761905,
+  "category_precision": 0.7272727272727273,
+  "category_recall": 0.8,
+  "category_f1": 0.761904761904762,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 7,
+    "generic_entities": 5,
+    "correct_predictions": 2,
+    "correct_categories": 8
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "doc_key": "P03-1002",
+  "gold_entities": [
+    {
+      "entity": "IE paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "IE paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "inductive decision tree learning",
+      "category": "method"
+    },
+    {
+      "entity": "predicateargument structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predicateargument structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automatically identifying  predicate argument structures",
+      "category": "task"
+    },
+    {
+      "entity": "IE",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "IE",
+      "category": "task"
+    },
+    {
+      "entity": "predicateargument structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Inductive decision tree learning",
+      "category": "method"
+    },
+    {
+      "entity": "Features",
+      "category": "material"
+    },
+    {
+      "entity": "Metric",
+      "category": "metric"
+    },
+    {
+      "entity": "otherscientificterm",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ie paradigm",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "IE results",
+      "category": "metric"
+    },
+    {
+      "entity": "High quality",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "IE paradigm",
+      "predicted": "ie paradigm",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "features",
+      "predicted": "Features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "inductive decision tree learning",
+      "predicted": "Inductive decision tree learning",
+      "category": "method"
+    },
+    {
+      "gold": "predicateargument structures",
+      "predicted": "predicateargument structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "IE",
+      "predicted": "IE",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "IE paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "predicateargument structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automatically identifying  predicate argument structures",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Metric",
+      "category": "metric"
+    },
+    {
+      "entity": "otherscientificterm",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "IE results",
+      "category": "metric"
+    },
+    {
+      "entity": "High quality",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "IE paradigm|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "predicateargument structures|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 3,
+    "method": 1,
+    "material": 1,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.375,
+  "f1": 0.35294117647058826,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 4,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

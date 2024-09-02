@@ -1,0 +1,223 @@
+{
+  "gold_entities": [
+    {
+      "entity": "structured dictionary",
+      "category": "Material"
+    },
+    {
+      "entity": "linguistic databases",
+      "category": "Material"
+    },
+    {
+      "entity": "editor",
+      "category": "Method"
+    },
+    {
+      "entity": "editor",
+      "category": "Method"
+    },
+    {
+      "entity": "linguistic theory",
+      "category": "Method"
+    },
+    {
+      "entity": "editor",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "Task"
+    },
+    {
+      "entity": "coherence rules",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "editor",
+      "category": "Method"
+    },
+    {
+      "entity": "dictionary",
+      "category": "Material"
+    },
+    {
+      "entity": "lexicologists",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linguistic theory",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lexicons",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "grammars",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coherence rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "interface",
+      "category": "Method"
+    },
+    {
+      "entity": "browsing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "editing",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "dictionary",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "editor",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "editor",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "linguistic theory",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "linguistic theory",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language processing",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "coherence rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "coherence rules",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "editor",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "editor",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "coherence rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "coherence rules",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "structured dictionary",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "dictionary",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "linguistic databases",
+      "category": "Material"
+    },
+    {
+      "entity": "editor",
+      "category": "Method"
+    },
+    {
+      "entity": "editor",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "lexicologists",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lexicons",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "grammars",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "interface",
+      "category": "Method"
+    },
+    {
+      "entity": "browsing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "editing",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "editor": 3
+  },
+  "distinct_repeated_entities": [
+    "editor"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 3
+  }
+}

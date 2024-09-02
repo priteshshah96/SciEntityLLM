@@ -1,0 +1,207 @@
+{
+  "doc_key": "E99-1029",
+  "gold_entities": [
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "feature structure unification",
+      "category": "method"
+    },
+    {
+      "entity": "lexicalized grammars of English",
+      "category": "method"
+    },
+    {
+      "entity": "LEXSYS",
+      "category": "method"
+    },
+    {
+      "entity": "XTAG",
+      "category": "method"
+    },
+    {
+      "entity": "grammars",
+      "category": "method"
+    },
+    {
+      "entity": "extended domain of locality edol",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "edol",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "task"
+    },
+    {
+      "entity": "Extended Domain of Locality",
+      "category": "method"
+    },
+    {
+      "entity": "Feature Structure Unification",
+      "category": "method"
+    },
+    {
+      "entity": "Parsing",
+      "category": "task"
+    },
+    {
+      "entity": "lexicalized grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "LEXSYS",
+      "category": "material"
+    },
+    {
+      "entity": "XTAG",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Tree Adjoining Grammars",
+      "predicted": "Tree Adjoining Grammars",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "LEXSYS",
+      "predicted": "LEXSYS",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "XTAG",
+      "predicted": "XTAG",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "feature structure unification",
+      "predicted": "Feature Structure Unification",
+      "category": "method"
+    },
+    {
+      "gold": "parsing",
+      "predicted": "Parsing",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "lexicalized grammars of English",
+      "predicted": "lexicalized grammars",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "extended domain of locality edol",
+      "predicted": "Extended Domain of Locality",
+      "score": 0.8,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "grammars",
+      "category": "method"
+    },
+    {
+      "entity": "edol",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "english",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "otherscientificterm": 2,
+    "material": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.2222222222222222,
+  "f1": 0.23529411764705882,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 8,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

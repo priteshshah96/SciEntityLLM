@@ -1,0 +1,277 @@
+{
+  "doc_key": "J97-1004",
+  "gold_entities": [
+    {
+      "entity": "explanation system",
+      "category": "method"
+    },
+    {
+      "entity": "robust explanation system",
+      "category": "method"
+    },
+    {
+      "entity": "explanation system",
+      "category": "method"
+    },
+    {
+      "entity": "multisentential discourse plans",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse plans",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multisentential and multiparagraph explanations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "explanation generation",
+      "category": "task"
+    },
+    {
+      "entity": "semantically rich, large-scale knowledge bases",
+      "category": "material"
+    },
+    {
+      "entity": "large-scale knowledge base",
+      "category": "material"
+    },
+    {
+      "entity": "botanical anatomy",
+      "category": "material"
+    },
+    {
+      "entity": "physiology",
+      "category": "material"
+    },
+    {
+      "entity": "development",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Explanation system",
+      "category": "task"
+    },
+    {
+      "entity": "Domain knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Multisentential discourse plans",
+      "category": "method"
+    },
+    {
+      "entity": "Discourse plans",
+      "category": "material"
+    },
+    {
+      "entity": "Explanation generation",
+      "category": "task"
+    },
+    {
+      "entity": "Semantically rich, large-scale knowledge bases",
+      "category": "material"
+    },
+    {
+      "entity": "Robust explanation system",
+      "category": "task"
+    },
+    {
+      "entity": "Multisentential and multi-paragraph explanations",
+      "category": "material"
+    },
+    {
+      "entity": "Large-scale knowledge base",
+      "category": "material"
+    },
+    {
+      "entity": "botanical anatomy physiology and development",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Evaluation methodology",
+      "category": "method"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "explanation system",
+      "predicted": "Explanation system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "robust explanation system",
+      "predicted": "Robust explanation system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "multisentential discourse plans",
+      "predicted": "Multisentential discourse plans",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "discourse plans",
+      "predicted": "Discourse plans",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "explanation generation",
+      "predicted": "Explanation generation",
+      "category": "task"
+    },
+    {
+      "gold": "semantically rich, large-scale knowledge bases",
+      "predicted": "Semantically rich, large-scale knowledge bases",
+      "category": "material"
+    },
+    {
+      "gold": "large-scale knowledge base",
+      "predicted": "Large-scale knowledge base",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multisentential and multiparagraph explanations",
+      "predicted": "Multisentential and multi-paragraph explanations",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "explanation system",
+      "category": "method"
+    },
+    {
+      "entity": "botanical anatomy",
+      "category": "material"
+    },
+    {
+      "entity": "physiology",
+      "category": "material"
+    },
+    {
+      "entity": "development",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Domain knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "botanical anatomy physiology and development",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Evaluation methodology",
+      "category": "method"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "explanation system|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "task": 1,
+    "material": 5
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "material": 5,
+    "method": 2,
+    "otherscientificterm": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.25,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 12,
+    "exact_matches": 4,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

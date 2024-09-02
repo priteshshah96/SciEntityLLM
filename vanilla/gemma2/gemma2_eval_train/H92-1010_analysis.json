@@ -1,0 +1,152 @@
+{
+  "doc_key": "H92-1010",
+  "gold_entities": [
+    {
+      "entity": "speech processing",
+      "category": "task"
+    },
+    {
+      "entity": "Human-Machine Communication",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language Processing",
+      "category": "task"
+    },
+    {
+      "entity": "Non Verbal and Multimodal Communication",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Speech Processing",
+      "category": "method"
+    },
+    {
+      "entity": "humanmachine communication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "non verbal and multimodal communication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Commercial Applications",
+      "category": "task"
+    },
+    {
+      "entity": "international collaborations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "limsi",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "speech processing",
+      "predicted": "Speech Processing",
+      "category": "task"
+    },
+    {
+      "gold": "Natural Language Processing",
+      "predicted": "natural language processing",
+      "category": "task"
+    },
+    {
+      "gold": "Non Verbal and Multimodal Communication",
+      "predicted": "non verbal and multimodal communication",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Human-Machine Communication",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "humanmachine communication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Commercial Applications",
+      "category": "task"
+    },
+    {
+      "entity": "international collaborations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "limsi",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 5,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.14285714285714285,
+  "category_recall": 0.25,
+  "category_f1": 0.18181818181818182,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 7,
+    "exact_matches": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 0,
+    "correct_predictions": 0,
+    "correct_categories": 1
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "doc_key": "INTERSPEECH_2001_31_abs",
+  "gold_entities": [
+    {
+      "entity": "blind estimation of reverberation times",
+      "category": "task"
+    },
+    {
+      "entity": "robust automatic speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "reverberant enclosures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reverberant environments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reverberation time",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reverberated speech utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "artificial reverberant conditions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "simulated and real reverberant environments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical model of short-term log-energy sequences",
+      "category": "method"
+    },
+    {
+      "entity": "Maximum Likelihood estimate of the room full-band reverberation time",
+      "category": "method"
+    },
+    {
+      "entity": "model selection",
+      "category": "method"
+    },
+    {
+      "entity": "acoustic model",
+      "category": "method"
+    },
+    {
+      "entity": "channel normaliza-tion techniques",
+      "category": "method"
+    },
+    {
+      "entity": "echo-free speech",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "reverberation times",
+      "category": "task"
+    },
+    {
+      "entity": "reverberant enclosures",
+      "category": "material"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "statistical model",
+      "category": "method"
+    },
+    {
+      "entity": "shortterm logenergy sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "echofree speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "maximum likelihood estimate",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "room fullband reverberation time",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "acoustic model",
+      "category": "method"
+    },
+    {
+      "entity": "library of models",
+      "category": "material"
+    },
+    {
+      "entity": "channel normalization techniques",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition experiments",
+      "category": "task"
+    },
+    {
+      "entity": "simulated environments",
+      "category": "material"
+    },
+    {
+      "entity": "real reverberant environments",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "reverberant enclosures",
+      "predicted": "reverberant enclosures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "acoustic model",
+      "predicted": "acoustic model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Speech recognition",
+      "predicted": "speech recognition experiments",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "reverberation time",
+      "predicted": "room fullband reverberation time",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "channel normaliza-tion techniques",
+      "predicted": "channel normalization techniques",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "blind estimation of reverberation times",
+      "category": "task"
+    },
+    {
+      "entity": "robust automatic speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "reverberant environments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reverberated speech utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "artificial reverberant conditions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "simulated and real reverberant environments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical model of short-term log-energy sequences",
+      "category": "method"
+    },
+    {
+      "entity": "Maximum Likelihood estimate of the room full-band reverberation time",
+      "category": "method"
+    },
+    {
+      "entity": "model selection",
+      "category": "method"
+    },
+    {
+      "entity": "echo-free speech",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "reverberation times",
+      "category": "task"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "statistical model",
+      "category": "method"
+    },
+    {
+      "entity": "shortterm logenergy sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "echofree speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "maximum likelihood estimate",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "library of models",
+      "category": "material"
+    },
+    {
+      "entity": "simulated environments",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "otherscientificterm": 6,
+    "method": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 4,
+    "method": 3,
+    "otherscientificterm": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07142857142857142,
+  "recall": 0.06666666666666667,
+  "f1": 0.0689655172413793,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 8,
+    "generic_entities": 8
+  },
+  "empty_category_entities": []
+}

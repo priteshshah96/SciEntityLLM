@@ -1,0 +1,309 @@
+{
+  "gold_entities": [
+    {
+      "entity": "massive, possibly multilingual, audio and textual document sources",
+      "category": "Material"
+    },
+    {
+      "entity": "information retrieval engine",
+      "category": "Method"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall rates",
+      "category": "Metric"
+    },
+    {
+      "entity": "information distillation",
+      "category": "Task"
+    },
+    {
+      "entity": "document retrieval for distillation",
+      "category": "Task"
+    },
+    {
+      "entity": "nist automatic content extraction (ace) task",
+      "category": "Task"
+    },
+    {
+      "entity": "information extraction annotations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "distillation queries",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "annotation elements",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ace events",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "information extraction",
+      "category": "Method"
+    },
+    {
+      "entity": "document retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "distillation",
+      "category": "Method"
+    },
+    {
+      "entity": "query",
+      "category": "Task"
+    },
+    {
+      "entity": "massive document sources",
+      "category": "Material"
+    },
+    {
+      "entity": "multilingual",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "audio document sources",
+      "category": "Material"
+    },
+    {
+      "entity": "textual document sources",
+      "category": "Material"
+    },
+    {
+      "entity": "information extraction annotations",
+      "category": "Material"
+    },
+    {
+      "entity": "document set",
+      "category": "Material"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall rates",
+      "category": "Metric"
+    },
+    {
+      "entity": "query templates",
+      "category": "Task"
+    },
+    {
+      "entity": "nist automatic content extraction (ace) task",
+      "category": "Task"
+    },
+    {
+      "entity": "ace events",
+      "category": "Task"
+    },
+    {
+      "entity": "information retrieval engine",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "information extraction annotations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "information extraction annotations",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "recall rates",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "recall rates",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "nist automatic content extraction (ace) task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "nist automatic content extraction (ace) task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ace events",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ace events",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "information retrieval engine",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "information retrieval engine",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "recall rates",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "recall rates",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "nist automatic content extraction (ace) task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "nist automatic content extraction (ace) task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "information retrieval engine",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "information retrieval engine",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "massive, possibly multilingual, audio and textual document sources",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "document retrieval",
+          "category": "Task"
+        },
+        {
+          "entity": "massive document sources",
+          "category": "Material"
+        },
+        {
+          "entity": "audio document sources",
+          "category": "Material"
+        },
+        {
+          "entity": "textual document sources",
+          "category": "Material"
+        },
+        {
+          "entity": "document set",
+          "category": "Material"
+        }
+      ],
+      "coverage": 3.6666666666666665
+    },
+    {
+      "gold": {
+        "entity": "information distillation",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "information extraction",
+          "category": "Method"
+        },
+        {
+          "entity": "distillation",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "document retrieval for distillation",
+      "category": "Task"
+    },
+    {
+      "entity": "distillation queries",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "annotation elements",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "query",
+      "category": "Task"
+    },
+    {
+      "entity": "multilingual",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "query templates",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 16,
+    "generic_count": 0,
+    "exact_matches": 6,
+    "exact_category_matches": 4,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

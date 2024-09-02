@@ -1,0 +1,359 @@
+{
+  "gold_entities": [
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "Method"
+    },
+    {
+      "entity": "analytical expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "markov chains",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "step-size and eligibility trace parameters",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "offline updates over trials",
+      "category": "Task"
+    },
+    {
+      "entity": "absorbing markov chains",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "Material"
+    },
+    {
+      "entity": "bias",
+      "category": "Metric"
+    },
+    {
+      "entity": "variance",
+      "category": "Metric"
+    },
+    {
+      "entity": "estimators",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "step-size",
+      "category": "Metric"
+    },
+    {
+      "entity": "eligibility trace parameters",
+      "category": "Material"
+    },
+    {
+      "entity": "trials",
+      "category": "Task"
+    },
+    {
+      "entity": "chain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "choice",
+      "category": "Task"
+    },
+    {
+      "entity": "expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "analytical",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "classes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "various",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "td",
+      "category": "Method"
+    },
+    {
+      "entity": "parameters",
+      "category": "Material"
+    },
+    {
+      "entity": "representation",
+      "category": "Material"
+    },
+    {
+      "entity": "manner",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "table",
+      "category": "Material"
+    },
+    {
+      "entity": "update",
+      "category": "Task"
+    },
+    {
+      "entity": "offline",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "absorbing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "markov",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "chains",
+      "category": "Task"
+    },
+    {
+      "entity": "eligibility",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "trace",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lookup table representations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lookup table representations",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "learning curve behavior",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "learning curve behavior",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "learning curve behavior",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "learning curve behavior",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "analytical expressions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "expressions",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "analytical",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "markov chains",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "absorbing markov chains",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "markov",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "chains",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.6666666666666665
+    },
+    {
+      "gold": {
+        "entity": "step-size and eligibility trace parameters",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "step-size",
+          "category": "Metric"
+        },
+        {
+          "entity": "eligibility trace parameters",
+          "category": "Material"
+        },
+        {
+          "entity": "parameters",
+          "category": "Material"
+        },
+        {
+          "entity": "eligibility",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "trace",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 5.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "offline updates over trials",
+      "category": "Task"
+    },
+    {
+      "entity": "bias",
+      "category": "Metric"
+    },
+    {
+      "entity": "variance",
+      "category": "Metric"
+    },
+    {
+      "entity": "estimators",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "trials",
+      "category": "Task"
+    },
+    {
+      "entity": "chain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "choice",
+      "category": "Task"
+    },
+    {
+      "entity": "classes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "various",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "td",
+      "category": "Method"
+    },
+    {
+      "entity": "representation",
+      "category": "Material"
+    },
+    {
+      "entity": "manner",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "table",
+      "category": "Material"
+    },
+    {
+      "entity": "update",
+      "category": "Task"
+    },
+    {
+      "entity": "offline",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "absorbing",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 30,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 3,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

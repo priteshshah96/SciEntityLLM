@@ -1,0 +1,253 @@
+{
+  "gold_entities": [
+    {
+      "entity": "electronic newsgroup discussions",
+      "category": "Material"
+    },
+    {
+      "entity": "clustering process",
+      "category": "Method"
+    },
+    {
+      "entity": "filtering mechanism",
+      "category": "Method"
+    },
+    {
+      "entity": "clustering and filtering processes",
+      "category": "Method"
+    },
+    {
+      "entity": "electronic discussions",
+      "category": "Task"
+    },
+    {
+      "entity": "help-desk applications",
+      "category": "Task"
+    },
+    {
+      "entity": "electronic discussions",
+      "category": "Task"
+    },
+    {
+      "entity": "coarse-level clustering",
+      "category": "Task"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "electronic discussions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "helpdesk applications",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "summaries",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "clustering process",
+      "category": "Method"
+    },
+    {
+      "entity": "filtering mechanism",
+      "category": "Method"
+    },
+    {
+      "entity": "electronic newsgroup discussions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "performance",
+      "category": "Metric"
+    },
+    {
+      "entity": "experiments",
+      "category": "Task"
+    },
+    {
+      "entity": "coarse-level clustering",
+      "category": "Method"
+    },
+    {
+      "entity": "simple information retrieval",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "experiments",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "electronic discussions",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "electronic discussions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "clustering process",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "clustering process",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "filtering mechanism",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "filtering mechanism",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "electronic newsgroup discussions",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "electronic newsgroup discussions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "coarse-level clustering",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "coarse-level clustering",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "clustering process",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "clustering process",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "filtering mechanism",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "filtering mechanism",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "information retrieval",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "simple information retrieval",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "clustering and filtering processes",
+      "category": "Method"
+    },
+    {
+      "entity": "help-desk applications",
+      "category": "Task"
+    },
+    {
+      "entity": "electronic discussions",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "helpdesk applications",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "summaries",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "performance",
+      "category": "Metric"
+    },
+    {
+      "entity": "experiments",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "electronic discussions": 2
+  },
+  "distinct_repeated_entities": [
+    "electronic discussions"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "doc_key": "P83-1004",
+  "gold_entities": [
+    {
+      "entity": "Metagrammatical formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "Unconstrained MPS grammars",
+      "category": "method"
+    },
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "contextfree phrase structure rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "metarules mps grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntax of natural languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational tractability and explanatory adequacy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "context-free phrase structure rules",
+      "category": "method"
+    },
+    {
+      "entity": "metarules (MPS grammars)",
+      "category": "method"
+    },
+    {
+      "entity": "computational tractability",
+      "category": "metric"
+    },
+    {
+      "entity": "explanatory adequacy",
+      "category": "metric"
+    },
+    {
+      "entity": "unconstrained MPS grammars",
+      "category": "method"
+    },
+    {
+      "entity": "none",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "new directions for research",
+      "category": "task"
+    },
+    {
+      "entity": "alternative metagrammatical formalisms",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Metagrammatical formalisms",
+      "predicted": "metagrammatical formalisms",
+      "category": "method"
+    },
+    {
+      "gold": "Unconstrained MPS grammars",
+      "predicted": "unconstrained MPS grammars",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "metagrammatical formalisms",
+      "predicted": "alternative metagrammatical formalisms",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "contextfree phrase structure rules",
+      "predicted": "context-free phrase structure rules",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "computational tractability and explanatory adequacy",
+      "gold_category": "metric",
+      "matched_parts": [
+        {
+          "part": "computational tractability",
+          "matched": "computational tractability",
+          "predicted_category": "metric"
+        },
+        {
+          "part": "explanatory adequacy",
+          "matched": "explanatory adequacy",
+          "predicted_category": "metric"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "metarules mps grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntax of natural languages",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "metarules (MPS grammars)",
+      "category": "method"
+    },
+    {
+      "entity": "none",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "new directions for research",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "metric": 2,
+    "otherscientificterm": 2,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.2857142857142857,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 9,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

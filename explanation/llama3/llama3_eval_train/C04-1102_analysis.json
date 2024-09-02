@@ -1,0 +1,228 @@
+{
+  "doc_key": "C04-1102",
+  "gold_entities": [
+    {
+      "entity": "detection method",
+      "category": "method"
+    },
+    {
+      "entity": "edit distance",
+      "category": "method"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "orthographic variants",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "string similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "F-measure",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "detection method",
+      "category": "task"
+    },
+    {
+      "entity": "orthographic variants",
+      "category": "method"
+    },
+    {
+      "entity": "transliteration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "similarities",
+      "category": "method"
+    },
+    {
+      "entity": "string similarity",
+      "category": "method"
+    },
+    {
+      "entity": "edit distance",
+      "category": "metric"
+    },
+    {
+      "entity": "contextual similarity",
+      "category": "method"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "F-measure",
+      "category": "method"
+    },
+    {
+      "entity": "open test",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "detection method",
+      "predicted": "detection method",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "edit distance",
+      "predicted": "edit distance",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "orthographic variants",
+      "predicted": "orthographic variants",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "string similarity",
+      "predicted": "string similarity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "contextual similarity",
+      "predicted": "contextual similarity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "transliteration",
+      "predicted": "transliteration",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "F-measure",
+      "predicted": "F-measure",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "vector space model",
+      "predicted": "vector space model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "similarities",
+      "category": "method"
+    },
+    {
+      "entity": "open test",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 6,
+    "otherscientificterm": 1,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.125,
+  "f1": 0.10526315789473685,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 11,
+    "exact_matches": 7,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

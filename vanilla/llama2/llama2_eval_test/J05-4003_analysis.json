@@ -1,0 +1,265 @@
+{
+  "doc_key": "J05-4003",
+  "gold_entities": [
+    {
+      "entity": "discovering parallel sentences",
+      "category": "task"
+    },
+    {
+      "entity": "comparable, non-parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "parallel data",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese, Arabic, and English non-parallel newspaper corpora",
+      "category": "material"
+    },
+    {
+      "entity": "parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "scarce  resources",
+      "category": "material"
+    },
+    {
+      "entity": "maximum entropy classifier",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation system",
+      "category": "method"
+    },
+    {
+      "entity": "MT system",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Novel method",
+      "category": "task"
+    },
+    {
+      "entity": "Maximum entropy classifier",
+      "category": "method"
+    },
+    {
+      "entity": "Parallel sentences",
+      "category": "task"
+    },
+    {
+      "entity": "Non-parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese",
+      "category": "material"
+    },
+    {
+      "entity": "Arabic",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Statistical machine translation system",
+      "category": "task"
+    },
+    {
+      "entity": "mt system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Small parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Large non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "language pairs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "statistical machine translation system",
+      "predicted": "Statistical machine translation system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "MT system",
+      "predicted": "mt system",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "parallel corpus",
+      "predicted": "Parallel corpus",
+      "category": "material"
+    },
+    {
+      "gold": "non-parallel corpus",
+      "predicted": "Non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "gold": "maximum entropy classifier",
+      "predicted": "Maximum entropy classifier",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "discovering parallel sentences",
+      "predicted": "Parallel sentences",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "Chinese, Arabic, and English non-parallel newspaper corpora",
+      "gold_category": "material",
+      "matched_parts": [
+        {
+          "part": "Chinese",
+          "matched": "Chinese",
+          "predicted_category": "material"
+        },
+        {
+          "part": "Arabic",
+          "matched": "Arabic",
+          "predicted_category": "material"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "comparable, non-parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "parallel data",
+      "category": "material"
+    },
+    {
+      "entity": "scarce  resources",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Novel method",
+      "category": "task"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Small parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Large non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "language pairs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 6,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 1,
+    "material": 8,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 6,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.3,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

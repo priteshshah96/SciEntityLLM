@@ -1,0 +1,330 @@
+{
+  "doc_key": "P05-1056",
+  "gold_entities": [
+    {
+      "entity": "Sentence boundary detection",
+      "category": "task"
+    },
+    {
+      "entity": "detecting  sentence boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "speech",
+      "category": "material"
+    },
+    {
+      "entity": "textual and prosodic  knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "conversational  telephone speech",
+      "category": "material"
+    },
+    {
+      "entity": "broadcast news speech",
+      "category": "material"
+    },
+    {
+      "entity": "NIST sentence boundary detection task",
+      "category": "material"
+    },
+    {
+      "entity": "speech",
+      "category": "material"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human transcriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden Markov model (HMM) and maximum entropy (Maxent) classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "conditional random field (CRF)",
+      "category": "method"
+    },
+    {
+      "entity": "CRF  model",
+      "category": "method"
+    },
+    {
+      "entity": "HMM and Max-ent models",
+      "category": "method"
+    },
+    {
+      "entity": "three-way voting",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "sentence boundary detection",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "method"
+    },
+    {
+      "entity": "HMM",
+      "category": "method"
+    },
+    {
+      "entity": "Maxent",
+      "category": "method"
+    },
+    {
+      "entity": "CRF",
+      "category": "method"
+    },
+    {
+      "entity": "NIST",
+      "category": "task"
+    },
+    {
+      "entity": "human transcriptions",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "material"
+    },
+    {
+      "entity": "three-way voting",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "knowledge sources",
+      "predicted": "knowledge sources",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "speech recognition output",
+      "predicted": "speech recognition output",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "human transcriptions",
+      "predicted": "human transcriptions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "classifiers",
+      "predicted": "classifiers",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Sentence boundary detection",
+      "predicted": "sentence boundary detection",
+      "category": "task"
+    },
+    {
+      "gold": "three-way voting",
+      "predicted": "three-way voting",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speech",
+      "predicted": "speech recognition",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "CRF  model",
+      "predicted": "CRF",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "detecting  sentence boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "speech",
+      "category": "material"
+    },
+    {
+      "entity": "textual and prosodic  knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "conversational  telephone speech",
+      "category": "material"
+    },
+    {
+      "entity": "broadcast news speech",
+      "category": "material"
+    },
+    {
+      "entity": "NIST sentence boundary detection task",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden Markov model (HMM) and maximum entropy (Maxent) classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "conditional random field (CRF)",
+      "category": "method"
+    },
+    {
+      "entity": "HMM and Max-ent models",
+      "category": "method"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Maxent",
+      "category": "method"
+    },
+    {
+      "entity": "NIST",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "speech|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "speech recognition output|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 7,
+    "otherscientificterm": 3,
+    "method": 6,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 5,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.10526315789473684,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 19,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 2,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

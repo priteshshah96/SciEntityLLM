@@ -1,0 +1,154 @@
+{
+  "doc_key": "H92-1010",
+  "gold_entities": [
+    {
+      "entity": "speech processing",
+      "category": "task"
+    },
+    {
+      "entity": "Human-Machine Communication",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language Processing",
+      "category": "task"
+    },
+    {
+      "entity": "Non Verbal and Multimodal Communication",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "limsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech processing",
+      "category": "task"
+    },
+    {
+      "entity": "humanmachine communication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "non verbal and multimodal communication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commercial applications",
+      "category": "material"
+    },
+    {
+      "entity": "international collaborations",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Natural Language Processing",
+      "predicted": "natural language processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Non Verbal and Multimodal Communication",
+      "predicted": "non verbal and multimodal communication",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "speech processing",
+      "predicted": "speech processing",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Human-Machine Communication",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "limsi",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "humanmachine communication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commercial applications",
+      "category": "material"
+    },
+    {
+      "entity": "international collaborations",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.25,
+  "f1": 0.18181818181818182,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 7,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

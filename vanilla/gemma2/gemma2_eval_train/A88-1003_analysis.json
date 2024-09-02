@@ -1,0 +1,171 @@
+{
+  "doc_key": "A88-1003",
+  "gold_entities": [
+    {
+      "entity": "pronominal anaphora resolution module",
+      "category": "method"
+    },
+    {
+      "entity": "Lucy",
+      "category": "method"
+    },
+    {
+      "entity": "English understanding system",
+      "category": "method"
+    },
+    {
+      "entity": "blackboard-like architecture",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "pronominal anaphora resolution module",
+      "category": "task"
+    },
+    {
+      "entity": "Lucy",
+      "category": "material"
+    },
+    {
+      "entity": "English understanding system",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "blackboardlike architecture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partial theories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "antecedents",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "pronominal anaphora resolution module",
+      "predicted": "pronominal anaphora resolution module",
+      "category": "method"
+    },
+    {
+      "gold": "Lucy",
+      "predicted": "Lucy",
+      "category": "method"
+    },
+    {
+      "gold": "English understanding system",
+      "predicted": "English understanding system",
+      "category": "method"
+    },
+    {
+      "gold": "anaphora resolution",
+      "predicted": "anaphora resolution",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "English understanding system",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "blackboard-like architecture",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "blackboardlike architecture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partial theories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "antecedents",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 1,
+    "method": 1,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.2,
+  "f1": 0.16666666666666666,
+  "category_precision": 0.2857142857142857,
+  "category_recall": 0.4,
+  "category_f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 7,
+    "exact_matches": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 1,
+    "correct_predictions": 1,
+    "correct_categories": 2
+  }
+}

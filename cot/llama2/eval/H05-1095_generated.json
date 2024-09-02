@@ -1,0 +1,265 @@
+{
+  "gold_entities": [
+    {
+      "entity": "non-contiguous phrases",
+      "category": "Material"
+    },
+    {
+      "entity": "word-aligned corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "phrase-based statistical machine translation method",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical translation model",
+      "category": "Method"
+    },
+    {
+      "entity": "training method",
+      "category": "Method"
+    },
+    {
+      "entity": "beam-search decoder",
+      "category": "Method"
+    },
+    {
+      "entity": "maximization of translation accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "nist evaluation metric",
+      "category": "Metric"
+    },
+    {
+      "entity": "translations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "phrase-based statistical machine translation method",
+      "category": "Task"
+    },
+    {
+      "entity": "non-contiguous phrases",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "statistical translation model",
+      "category": "Method"
+    },
+    {
+      "entity": "word-aligned corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "nist evaluation metric",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "beam-search decoder",
+      "category": "Method"
+    },
+    {
+      "entity": "training method",
+      "category": "Method"
+    },
+    {
+      "entity": "translation accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "generalize",
+      "category": "Task"
+    },
+    {
+      "entity": "experimental results",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "training data",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "phrases",
+      "category": "Generic"
+    },
+    {
+      "entity": "phrases",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "phrase-based statistical machine translation method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "phrase-based statistical machine translation method",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "non-contiguous phrases",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "non-contiguous phrases",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "statistical translation model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "statistical translation model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word-aligned corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "word-aligned corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "nist evaluation metric",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "nist evaluation metric",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "beam-search decoder",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "beam-search decoder",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "training method",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "statistical translation model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "statistical translation model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word-aligned corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "word-aligned corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "beam-search decoder",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "beam-search decoder",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "training method",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "maximization of translation accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "translation accuracy",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "translations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "generalize",
+      "category": "Task"
+    },
+    {
+      "entity": "experimental results",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "training data",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 11,
+    "generic_count": 4,
+    "exact_matches": 7,
+    "exact_category_matches": 4,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

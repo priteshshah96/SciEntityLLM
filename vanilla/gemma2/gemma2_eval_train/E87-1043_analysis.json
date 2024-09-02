@@ -1,0 +1,210 @@
+{
+  "doc_key": "E87-1043",
+  "gold_entities": [
+    {
+      "entity": "verb forms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deictic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aspectual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeltheoretic semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analysis of  verb form meanings",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "verb forms",
+      "category": "method"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "present",
+      "category": "metric"
+    },
+    {
+      "entity": "past",
+      "category": "metric"
+    },
+    {
+      "entity": "future",
+      "category": "metric"
+    },
+    {
+      "entity": "deictic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aspectual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "habituality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeltheoretic semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "verb forms",
+      "predicted": "verb forms",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "deictic information",
+      "predicted": "deictic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "aspectual information",
+      "predicted": "aspectual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "modeltheoretic semantics",
+      "predicted": "modeltheoretic semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "deictic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aspectual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeltheoretic semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "analysis of  verb form meanings",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "present",
+      "category": "metric"
+    },
+    {
+      "entity": "past",
+      "category": "metric"
+    },
+    {
+      "entity": "future",
+      "category": "metric"
+    },
+    {
+      "entity": "habituality",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 7,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.6,
+  "f1": 0.37499999999999994,
+  "category_precision": 0.36363636363636365,
+  "category_recall": 0.8,
+  "category_f1": 0.5000000000000001,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 7,
+    "generic_entities": 2,
+    "correct_predictions": 3,
+    "correct_categories": 4
+  }
+}

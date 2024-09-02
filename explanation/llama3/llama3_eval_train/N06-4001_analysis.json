@@ -1,0 +1,233 @@
+{
+  "doc_key": "N06-4001",
+  "gold_entities": [
+    {
+      "entity": "interactive corpus exploration tool",
+      "category": "method"
+    },
+    {
+      "entity": "InfoMagnets",
+      "category": "method"
+    },
+    {
+      "entity": "InfoMagnets",
+      "category": "method"
+    },
+    {
+      "entity": "educational tool",
+      "category": "method"
+    },
+    {
+      "entity": "exploratory corpus analysis",
+      "category": "task"
+    },
+    {
+      "entity": "text mining",
+      "category": "task"
+    },
+    {
+      "entity": "protocol analysis",
+      "category": "task"
+    },
+    {
+      "entity": "tutorial dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "on-line communities",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "interactive corpus exploration tool",
+      "category": "material"
+    },
+    {
+      "entity": "infomagnets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "exploratory corpus analysis",
+      "category": "task"
+    },
+    {
+      "entity": "text mining",
+      "category": "method"
+    },
+    {
+      "entity": "language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "behavioral patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tutorial dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "on-line communities",
+      "category": "material"
+    },
+    {
+      "entity": "educational tool",
+      "category": "material"
+    },
+    {
+      "entity": "protocol analysis",
+      "category": "method"
+    },
+    {
+      "entity": "Educational Research Methods course",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "interactive corpus exploration tool",
+      "predicted": "interactive corpus exploration tool",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "InfoMagnets",
+      "predicted": "infomagnets",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "educational tool",
+      "predicted": "educational tool",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "text mining",
+      "predicted": "text mining",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "protocol analysis",
+      "predicted": "protocol analysis",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "exploratory corpus analysis",
+      "predicted": "exploratory corpus analysis",
+      "category": "task"
+    },
+    {
+      "gold": "tutorial dialogue",
+      "predicted": "tutorial dialogue",
+      "category": "material"
+    },
+    {
+      "gold": "on-line communities",
+      "predicted": "on-line communities",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "InfoMagnets",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "behavioral patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Educational Research Methods course",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "InfoMagnets|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "material": 5,
+    "otherscientificterm": 3,
+    "task": 1,
+    "method": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.3333333333333333,
+  "f1": 0.3,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 11,
+    "exact_matches": 5,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

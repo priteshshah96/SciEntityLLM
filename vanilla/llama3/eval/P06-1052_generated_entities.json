@@ -1,0 +1,296 @@
+{
+  "gold_entities": [
+    {
+      "entity": "equivalent readings",
+      "category": "Material"
+    },
+    {
+      "entity": "underspecified semantic representation (usr)",
+      "category": "Method"
+    },
+    {
+      "entity": "usr",
+      "category": "Method"
+    },
+    {
+      "entity": "underspecified chart representations",
+      "category": "Method"
+    },
+    {
+      "entity": "usrs",
+      "category": "Method"
+    },
+    {
+      "entity": "large-scale grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "redundancy elimination problem",
+      "category": "Task"
+    },
+    {
+      "entity": "scope ambiguity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dominance graphs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "degree of ambiguity",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "redundancy elimination problem",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "underspecified semantic representation",
+      "category": "Material"
+    },
+    {
+      "entity": "scope ambiguity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mutually equivalent readings",
+      "category": "Metric"
+    },
+    {
+      "entity": "underspecified chart representations",
+      "category": "Material"
+    },
+    {
+      "entity": "dominance graphs",
+      "category": "Material"
+    },
+    {
+      "entity": "large-scale grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "Metric"
+    },
+    {
+      "entity": "underspecified",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "representations",
+      "category": "Material"
+    },
+    {
+      "entity": "readings",
+      "category": "Metric"
+    },
+    {
+      "entity": "grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "runtime",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "redundancy elimination problem",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "redundancy elimination problem",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scope ambiguity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "scope ambiguity",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "underspecified chart representations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "underspecified chart representations",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dominance graphs",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dominance graphs",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "large-scale grammars",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "large-scale grammars",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "scope ambiguity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "scope ambiguity",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "large-scale grammars",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "large-scale grammars",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "equivalent readings",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "mutually equivalent readings",
+          "category": "Metric"
+        },
+        {
+          "entity": "readings",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.6666666666666665
+    },
+    {
+      "gold": {
+        "entity": "underspecified semantic representation (usr)",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "underspecified semantic representation",
+          "category": "Material"
+        },
+        {
+          "entity": "underspecified",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "degree of ambiguity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ambiguity",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "usr",
+      "category": "Method"
+    },
+    {
+      "entity": "usrs",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "representations",
+      "category": "Material"
+    },
+    {
+      "entity": "grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "runtime",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 15,
+    "generic_count": 5,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

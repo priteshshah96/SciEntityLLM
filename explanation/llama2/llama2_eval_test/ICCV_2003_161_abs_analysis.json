@@ -1,0 +1,303 @@
+{
+  "doc_key": "ICCV_2003_161_abs",
+  "gold_entities": [
+    {
+      "entity": "perception of transparent objects",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "real scenes",
+      "category": "material"
+    },
+    {
+      "entity": "transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transparent object",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shapes and the poses of transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "known motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "refractive indices",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shapes of the objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "vision",
+      "category": "task"
+    },
+    {
+      "entity": "transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image",
+      "category": "material"
+    },
+    {
+      "entity": "observer",
+      "category": "method"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pose",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "refractive indices",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "simulations",
+      "category": "method"
+    },
+    {
+      "entity": "scenes",
+      "category": "material"
+    },
+    {
+      "entity": "objects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "transparent objects",
+      "predicted": "transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "features",
+      "predicted": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "refractive indices",
+      "predicted": "refractive indices",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "model-based approach",
+      "predicted": "model-based approach",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "real scenes",
+      "predicted": "scenes",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "transparent objects",
+      "predicted": "objects",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "multiple layers",
+      "predicted": "layers",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "perception of transparent objects",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transparent object",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shapes and the poses of transparent objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "known motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shapes of the objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "vision",
+      "category": "task"
+    },
+    {
+      "entity": "image",
+      "category": "material"
+    },
+    {
+      "entity": "observer",
+      "category": "method"
+    },
+    {
+      "entity": "pose",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "simulations",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "transparent objects|otherscientificterm": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 2,
+    "otherscientificterm": 10,
+    "method": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 6,
+    "material": 2,
+    "method": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.26666666666666666,
+  "f1": 0.2962962962962963,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 12,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 5,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

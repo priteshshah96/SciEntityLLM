@@ -1,0 +1,342 @@
+{
+  "doc_key": "CVPR_2001_110_abs",
+  "gold_entities": [
+    {
+      "entity": "Representing images with layers",
+      "category": "method"
+    },
+    {
+      "entity": "mean-shift based clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "video compression",
+      "category": "task"
+    },
+    {
+      "entity": "motion analysis",
+      "category": "task"
+    },
+    {
+      "entity": "3D scene analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Global optimality",
+      "category": "task"
+    },
+    {
+      "entity": "layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "homographies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "planar patches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scene",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "low dimensional linear subspace",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subspace",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "noise",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subspace constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "images",
+      "category": "task"
+    },
+    {
+      "entity": "layers",
+      "category": "method"
+    },
+    {
+      "entity": "video compression",
+      "category": "material"
+    },
+    {
+      "entity": "motion analysis",
+      "category": "material"
+    },
+    {
+      "entity": "3D scene analysis",
+      "category": "material"
+    },
+    {
+      "entity": "homographies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "planar patches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linear subspace",
+      "category": "method"
+    },
+    {
+      "entity": "clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "mean-shift based clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "global optimality",
+      "category": "metric"
+    },
+    {
+      "entity": "subspace constraint",
+      "category": "method"
+    },
+    {
+      "entity": "experimental results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "video compression",
+      "predicted": "video compression",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "motion analysis",
+      "predicted": "motion analysis",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "3D scene analysis",
+      "predicted": "3D scene analysis",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "Global optimality",
+      "predicted": "global optimality",
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "layers",
+      "predicted": "layers",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "subspace constraint",
+      "predicted": "subspace constraint",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "images",
+      "predicted": "images",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "mean-shift based clustering algorithm",
+      "predicted": "mean-shift based clustering algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "homographies",
+      "predicted": "homographies",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "planar patches",
+      "predicted": "planar patches",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "low dimensional linear subspace",
+      "predicted": "linear subspace",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Representing images with layers",
+      "category": "method"
+    },
+    {
+      "entity": "layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scene",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subspace",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "noise",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "experimental results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "layers|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "images|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 4,
+    "otherscientificterm": 11,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 5,
+    "material": 4,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 4,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 11,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23076923076923078,
+  "recall": 0.15789473684210525,
+  "f1": 0.18749999999999997,
+  "counts": {
+    "gold_entities": 19,
+    "predicted_entities": 13,
+    "exact_matches": 7,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

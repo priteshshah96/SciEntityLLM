@@ -1,0 +1,265 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ie module",
+      "category": "Method"
+    },
+    {
+      "entity": "facile, a eu project for multilingual text classification and ie",
+      "category": "Method"
+    },
+    {
+      "entity": "full parsing",
+      "category": "Task"
+    },
+    {
+      "entity": "information extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "unambiguous structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "argumental relations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "modifier attachment",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "global parse tree",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "full parsing",
+      "category": "Method"
+    },
+    {
+      "entity": "information extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "texts",
+      "category": "Material"
+    },
+    {
+      "entity": "rules",
+      "category": "Method"
+    },
+    {
+      "entity": "chunks",
+      "category": "Material"
+    },
+    {
+      "entity": "argumental relations",
+      "category": "Method"
+    },
+    {
+      "entity": "modifier attachment",
+      "category": "Method"
+    },
+    {
+      "entity": "global parse tree",
+      "category": "Metric"
+    },
+    {
+      "entity": "languages",
+      "category": "Material"
+    },
+    {
+      "entity": "domains",
+      "category": "Material"
+    },
+    {
+      "entity": "ie module",
+      "category": "Material"
+    },
+    {
+      "entity": "facile",
+      "category": "Material"
+    },
+    {
+      "entity": "eu project",
+      "category": "Task"
+    },
+    {
+      "entity": "multilingual text classification",
+      "category": "Task"
+    },
+    {
+      "entity": "ie",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "full parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "full parsing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "information extraction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information extraction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "rules",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "argumental relations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "argumental relations",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "modifier attachment",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "modifier attachment",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "global parse tree",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "global parse tree",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ie module",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ie module",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "information extraction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information extraction",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "facile, a eu project for multilingual text classification and ie",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "eu project",
+          "category": "Task"
+        },
+        {
+          "entity": "multilingual text classification",
+          "category": "Task"
+        },
+        {
+          "entity": "ie",
+          "category": "Task"
+        }
+      ],
+      "coverage": 3.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unambiguous structures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "texts",
+      "category": "Material"
+    },
+    {
+      "entity": "chunks",
+      "category": "Material"
+    },
+    {
+      "entity": "languages",
+      "category": "Material"
+    },
+    {
+      "entity": "domains",
+      "category": "Material"
+    },
+    {
+      "entity": "facile",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 15,
+    "generic_count": 3,
+    "exact_matches": 7,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "doc_key": "P06-2001",
+  "gold_entities": [
+    {
+      "entity": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "entity": "comma checker",
+      "category": "method"
+    },
+    {
+      "entity": "grammar checker",
+      "category": "method"
+    },
+    {
+      "entity": "Basque",
+      "category": "material"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    },
+    {
+      "entity": "placing  commas",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "entity": "comma checker",
+      "category": "method"
+    },
+    {
+      "entity": "grammar checker",
+      "category": "method"
+    },
+    {
+      "entity": "Basque",
+      "category": "material"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "words",
+      "category": "material"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    },
+    {
+      "entity": "task of placing commas",
+      "category": "task"
+    },
+    {
+      "entity": "commas",
+      "category": "task"
+    },
+    {
+      "entity": "bigger corpus",
+      "category": "material"
+    },
+    {
+      "entity": "more homogeneous corpus",
+      "category": "material"
+    },
+    {
+      "entity": "author",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "machine learning techniques",
+      "predicted": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "gold": "comma checker",
+      "predicted": "comma checker",
+      "category": "method"
+    },
+    {
+      "gold": "grammar checker",
+      "predicted": "grammar checker",
+      "category": "method"
+    },
+    {
+      "gold": "Basque",
+      "predicted": "Basque",
+      "category": "material"
+    },
+    {
+      "gold": "precision",
+      "predicted": "precision",
+      "category": "metric"
+    },
+    {
+      "gold": "recall",
+      "predicted": "recall",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "placing  commas",
+      "predicted": "task of placing commas",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "words",
+      "category": "material"
+    },
+    {
+      "entity": "commas",
+      "category": "task"
+    },
+    {
+      "entity": "bigger corpus",
+      "category": "material"
+    },
+    {
+      "entity": "more homogeneous corpus",
+      "category": "material"
+    },
+    {
+      "entity": "author",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "precision|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "recall|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "material": 1,
+    "metric": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 5,
+    "metric": 2,
+    "task": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.46153846153846156,
+  "recall": 0.6666666666666666,
+  "f1": 0.5454545454545455,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 13,
+    "exact_matches": 0,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

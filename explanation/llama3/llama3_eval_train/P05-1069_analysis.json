@@ -1,0 +1,309 @@
+{
+  "doc_key": "P05-1069",
+  "gold_entities": [
+    {
+      "entity": "training method",
+      "category": "method"
+    },
+    {
+      "entity": "localized phrase-based prediction model",
+      "category": "method"
+    },
+    {
+      "entity": "log-linear block bigram model",
+      "category": "method"
+    },
+    {
+      "entity": "training algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation (SMT)",
+      "category": "task"
+    },
+    {
+      "entity": "local phrase re-ordering",
+      "category": "task"
+    },
+    {
+      "entity": "Arabic-English translation task",
+      "category": "task"
+    },
+    {
+      "entity": "maximum likelihood criterion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "realvalued features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language model score",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "binary features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "training method",
+      "category": "task"
+    },
+    {
+      "entity": "localized phrase-based prediction model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation (SMT)",
+      "category": "task"
+    },
+    {
+      "entity": "blocks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "orientation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local phrase reordering",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "maximum likelihood criterion",
+      "category": "method"
+    },
+    {
+      "entity": "log-linear block bigram model",
+      "category": "method"
+    },
+    {
+      "entity": "realvalued features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language model score",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "binary features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "block bigram features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "millions of features",
+      "category": "material"
+    },
+    {
+      "entity": "baseline",
+      "category": "material"
+    },
+    {
+      "entity": "Arabic-English translation task",
+      "category": "task"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "18.6%",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "training method",
+      "predicted": "training method",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "maximum likelihood criterion",
+      "predicted": "maximum likelihood criterion",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "localized phrase-based prediction model",
+      "predicted": "localized phrase-based prediction model",
+      "category": "method"
+    },
+    {
+      "gold": "log-linear block bigram model",
+      "predicted": "log-linear block bigram model",
+      "category": "method"
+    },
+    {
+      "gold": "training algorithm",
+      "predicted": "training algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "statistical machine translation (SMT)",
+      "predicted": "statistical machine translation (SMT)",
+      "category": "task"
+    },
+    {
+      "gold": "Arabic-English translation task",
+      "predicted": "Arabic-English translation task",
+      "category": "task"
+    },
+    {
+      "gold": "realvalued features",
+      "predicted": "realvalued features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "language model score",
+      "predicted": "language model score",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "binary features",
+      "predicted": "binary features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "features",
+      "predicted": "features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "local phrase re-ordering",
+      "predicted": "local phrase reordering",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "blocks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "orientation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "block bigram features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "millions of features",
+      "category": "material"
+    },
+    {
+      "entity": "baseline",
+      "category": "material"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "18.6%",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 3,
+    "otherscientificterm": 5
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 4,
+    "otherscientificterm": 8,
+    "material": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 8,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.47368421052631576,
+  "recall": 0.75,
+  "f1": 0.5806451612903226,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 19,
+    "exact_matches": 2,
+    "exact_matches_with_category": 9,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 7,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

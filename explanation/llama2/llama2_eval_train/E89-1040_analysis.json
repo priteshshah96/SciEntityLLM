@@ -1,0 +1,257 @@
+{
+  "doc_key": "E89-1040",
+  "gold_entities": [
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "translation",
+      "category": "task"
+    },
+    {
+      "entity": "translation  of  anaphoric relations",
+      "category": "task"
+    },
+    {
+      "entity": "translation  of  anaphoric relations",
+      "category": "task"
+    },
+    {
+      "entity": "anaphoric component",
+      "category": "method"
+    },
+    {
+      "entity": "Mimo formalism",
+      "category": "method"
+    },
+    {
+      "entity": "anaphoric component",
+      "category": "method"
+    },
+    {
+      "entity": "strict compositionality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mimo",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic phenomena",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "whmovement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "the passive and the binding of reflexives and pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "whmovement",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "formalism",
+      "category": "method"
+    },
+    {
+      "entity": "compositionality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphoric component",
+      "category": "method"
+    },
+    {
+      "entity": "mimo",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphoric relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "whmovement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "passive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "binding of reflexives and pronouns",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "machine translation",
+      "predicted": "machine translation",
+      "category": "task"
+    },
+    {
+      "gold": "anaphoric component",
+      "predicted": "anaphoric component",
+      "category": "method"
+    },
+    {
+      "gold": "mimo",
+      "predicted": "mimo",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "whmovement",
+      "predicted": "whmovement",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "translation  of  anaphoric relations",
+      "predicted": "anaphoric relations",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Mimo formalism",
+      "predicted": "formalism",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "strict compositionality",
+      "predicted": "compositionality",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "the passive and the binding of reflexives and pronouns",
+      "predicted": "binding of reflexives and pronouns",
+      "score": 0.7142857142857143,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "translation",
+      "category": "task"
+    },
+    {
+      "entity": "translation  of  anaphoric relations",
+      "category": "task"
+    },
+    {
+      "entity": "anaphoric component",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic phenomena",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "whmovement",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "passive",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "translation  of  anaphoric relations|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "anaphoric component|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "whmovement|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 3,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4444444444444444,
+  "recall": 0.3076923076923077,
+  "f1": 0.3636363636363637,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 9,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

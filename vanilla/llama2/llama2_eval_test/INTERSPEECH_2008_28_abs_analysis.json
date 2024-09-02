@@ -1,0 +1,381 @@
+{
+  "doc_key": "INTERSPEECH_2008_28_abs",
+  "gold_entities": [
+    {
+      "entity": "encoding sound",
+      "category": "task"
+    },
+    {
+      "entity": "neuronal processing",
+      "category": "task"
+    },
+    {
+      "entity": "phase locking in the auditory nerve (AN)",
+      "category": "task"
+    },
+    {
+      "entity": "auditory processing",
+      "category": "task"
+    },
+    {
+      "entity": "analog pressure wave",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discrete nerveaction potentials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inner hair cell synapse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "an fibers anfs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "onset neurons ons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "auditory brainstem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anfbased and onbased auditory features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msg modulationfiltered spectrogram auditory features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pool models",
+      "category": "method"
+    },
+    {
+      "entity": "visual inspection",
+      "category": "method"
+    },
+    {
+      "entity": "automatic speech recognition (ASR)",
+      "category": "method"
+    },
+    {
+      "entity": "offset adaptation (OA) model",
+      "category": "method"
+    },
+    {
+      "entity": "OA",
+      "category": "method"
+    },
+    {
+      "entity": "OA",
+      "category": "method"
+    },
+    {
+      "entity": "Multi-layer perceptrons (MLPs)",
+      "category": "method"
+    },
+    {
+      "entity": "Gaussian mixture models (GMMs)",
+      "category": "method"
+    },
+    {
+      "entity": "MLPs",
+      "category": "method"
+    },
+    {
+      "entity": "ASR accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Anal pressure wave",
+      "category": "task"
+    },
+    {
+      "entity": "Nerve-action potentials",
+      "category": "task"
+    },
+    {
+      "entity": "Inner hair cell synapse",
+      "category": "method"
+    },
+    {
+      "entity": "Dead time period",
+      "category": "task"
+    },
+    {
+      "entity": "Offset adaptation",
+      "category": "method"
+    },
+    {
+      "entity": "Auditory nerve",
+      "category": "material"
+    },
+    {
+      "entity": "auditory brainstem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "onset neurons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multi-layer perceptrons",
+      "category": "method"
+    },
+    {
+      "entity": "Gaussian mixture models",
+      "category": "method"
+    },
+    {
+      "entity": "Modulation-filtered SpectroGram",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "inner hair cell synapse",
+      "predicted": "Inner hair cell synapse",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "auditory brainstem",
+      "predicted": "auditory brainstem",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "analog pressure wave",
+      "predicted": "Anal pressure wave",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "onset neurons ons",
+      "predicted": "onset neurons",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Gaussian mixture models (GMMs)",
+      "predicted": "Gaussian mixture models",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "encoding sound",
+      "category": "task"
+    },
+    {
+      "entity": "neuronal processing",
+      "category": "task"
+    },
+    {
+      "entity": "phase locking in the auditory nerve (AN)",
+      "category": "task"
+    },
+    {
+      "entity": "auditory processing",
+      "category": "task"
+    },
+    {
+      "entity": "discrete nerveaction potentials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "an fibers anfs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anfbased and onbased auditory features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msg modulationfiltered spectrogram auditory features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pool models",
+      "category": "method"
+    },
+    {
+      "entity": "visual inspection",
+      "category": "method"
+    },
+    {
+      "entity": "automatic speech recognition (ASR)",
+      "category": "method"
+    },
+    {
+      "entity": "offset adaptation (OA) model",
+      "category": "method"
+    },
+    {
+      "entity": "OA",
+      "category": "method"
+    },
+    {
+      "entity": "OA",
+      "category": "method"
+    },
+    {
+      "entity": "Multi-layer perceptrons (MLPs)",
+      "category": "method"
+    },
+    {
+      "entity": "MLPs",
+      "category": "method"
+    },
+    {
+      "entity": "ASR accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Nerve-action potentials",
+      "category": "task"
+    },
+    {
+      "entity": "Dead time period",
+      "category": "task"
+    },
+    {
+      "entity": "Offset adaptation",
+      "category": "method"
+    },
+    {
+      "entity": "Auditory nerve",
+      "category": "material"
+    },
+    {
+      "entity": "Multi-layer perceptrons",
+      "category": "method"
+    },
+    {
+      "entity": "Modulation-filtered SpectroGram",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "features|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "OA|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 10,
+    "method": 9,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 4,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 9,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.041666666666666664,
+  "f1": 0.05714285714285715,
+  "counts": {
+    "gold_entities": 24,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 19,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

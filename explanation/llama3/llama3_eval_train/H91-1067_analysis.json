@@ -1,0 +1,211 @@
+{
+  "doc_key": "H91-1067",
+  "gold_entities": [
+    {
+      "entity": "tagged text corpus",
+      "category": "material"
+    },
+    {
+      "entity": "subcategorization dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "False positive rates",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "implemented program",
+      "category": "method"
+    },
+    {
+      "entity": "tagged text corpus",
+      "category": "material"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verb",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occurrences",
+      "category": "metric"
+    },
+    {
+      "entity": "training corpus",
+      "category": "material"
+    },
+    {
+      "entity": "false positive rates",
+      "category": "metric"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subcategorization dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "NLP community",
+      "category": "material"
+    },
+    {
+      "entity": "dictionaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "tagged text corpus",
+      "predicted": "tagged text corpus",
+      "category": "material"
+    },
+    {
+      "gold": "subcategorization dictionary",
+      "predicted": "subcategorization dictionary",
+      "category": "material"
+    },
+    {
+      "gold": "subcategorization frames",
+      "predicted": "subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "subcategorization frames",
+      "predicted": "subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "False positive rates",
+      "predicted": "false positive rates",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "implemented program",
+      "category": "method"
+    },
+    {
+      "entity": "verb",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occurrences",
+      "category": "metric"
+    },
+    {
+      "entity": "training corpus",
+      "category": "material"
+    },
+    {
+      "entity": "NLP community",
+      "category": "material"
+    },
+    {
+      "entity": "dictionaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "subcategorization frames|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "material": 5,
+    "otherscientificterm": 4,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 1.0,
+  "f1": 0.5882352941176471,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 12,
+    "exact_matches": 0,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 7,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

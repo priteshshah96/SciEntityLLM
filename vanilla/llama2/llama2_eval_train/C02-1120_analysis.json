@@ -1,0 +1,271 @@
+{
+  "doc_key": "C02-1120",
+  "gold_entities": [
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "expectation-maximization (EM) based word-clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "associative relationships between verb phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario consistency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Q&A systems",
+      "category": "task"
+    },
+    {
+      "entity": "Q&A system",
+      "category": "task"
+    },
+    {
+      "entity": "large-scale database",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese verb phrases",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Unsupervised learning",
+      "category": "task"
+    },
+    {
+      "entity": "Associative relationships",
+      "category": "task"
+    },
+    {
+      "entity": "verb phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "qa systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largescale database",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Expectation-maximization",
+      "category": "method"
+    },
+    {
+      "entity": "Word-clustering algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Japanese verb phrases",
+      "category": "material"
+    },
+    {
+      "entity": "Petrol",
+      "category": "material"
+    },
+    {
+      "entity": "Japan",
+      "category": "material"
+    },
+    {
+      "entity": "Saudi Arabia",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Japanese verb phrases",
+      "predicted": "Japanese verb phrases",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "unsupervised learning method",
+      "predicted": "Unsupervised learning",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "expectation-maximization (EM) based word-clustering algorithm",
+      "predicted": "Word-clustering algorithm",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unsupervised learning method",
+      "category": "method"
+    },
+    {
+      "entity": "associative relationships between verb phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative relationship",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario consistency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Q&A systems",
+      "category": "task"
+    },
+    {
+      "entity": "Q&A system",
+      "category": "task"
+    },
+    {
+      "entity": "large-scale database",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Associative relationships",
+      "category": "task"
+    },
+    {
+      "entity": "verb phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "qa systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largescale database",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Expectation-maximization",
+      "category": "method"
+    },
+    {
+      "entity": "Petrol",
+      "category": "material"
+    },
+    {
+      "entity": "Japan",
+      "category": "material"
+    },
+    {
+      "entity": "Saudi Arabia",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "unsupervised learning method|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "associative relationship|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 4,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 3,
+    "method": 2,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.09090909090909091,
+  "f1": 0.09090909090909091,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 11,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 8,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

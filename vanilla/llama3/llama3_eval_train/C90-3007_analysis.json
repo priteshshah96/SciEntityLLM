@@ -1,0 +1,311 @@
+{
+  "doc_key": "C90-3007",
+  "gold_entities": [
+    {
+      "entity": "featurebased partial descriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Halliday's systemic networks",
+      "category": "method"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Feature-based partial descriptions",
+      "category": "material"
+    },
+    {
+      "entity": "hallidays systemic networks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Consistency checking",
+      "category": "task"
+    },
+    {
+      "entity": "NP-complete",
+      "category": "metric"
+    },
+    {
+      "entity": "Intractability",
+      "category": "metric"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "unpleasant consequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Descriptions",
+      "category": "material"
+    },
+    {
+      "entity": "Networks",
+      "category": "material"
+    },
+    {
+      "entity": "Operation",
+      "category": "task"
+    },
+    {
+      "entity": "Properties",
+      "category": "metric"
+    },
+    {
+      "entity": "systemic networks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Partial descriptions",
+      "category": "material"
+    },
+    {
+      "entity": "Checking",
+      "category": "task"
+    },
+    {
+      "entity": "np",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "halliday",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Consistency",
+      "category": "metric"
+    },
+    {
+      "entity": "Intractable",
+      "category": "metric"
+    },
+    {
+      "entity": "Consequences",
+      "category": "material"
+    },
+    {
+      "entity": "sometimes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Alleviate",
+      "category": "task"
+    },
+    {
+      "entity": "Unpleasant",
+      "category": "metric"
+    },
+    {
+      "entity": "Description",
+      "category": "material"
+    },
+    {
+      "entity": "hallidays",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "systemic",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "consistency checking",
+      "predicted": "Consistency checking",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "featurebased partial descriptions",
+      "predicted": "Partial descriptions",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "Halliday's systemic networks",
+      "predicted": "systemic networks",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Feature-based partial descriptions",
+      "category": "material"
+    },
+    {
+      "entity": "hallidays systemic networks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NP-complete",
+      "category": "metric"
+    },
+    {
+      "entity": "Intractability",
+      "category": "metric"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "unpleasant consequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Descriptions",
+      "category": "material"
+    },
+    {
+      "entity": "Networks",
+      "category": "material"
+    },
+    {
+      "entity": "Operation",
+      "category": "task"
+    },
+    {
+      "entity": "Properties",
+      "category": "metric"
+    },
+    {
+      "entity": "Checking",
+      "category": "task"
+    },
+    {
+      "entity": "np",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "halliday",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Consistency",
+      "category": "metric"
+    },
+    {
+      "entity": "Intractable",
+      "category": "metric"
+    },
+    {
+      "entity": "Consequences",
+      "category": "material"
+    },
+    {
+      "entity": "sometimes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Alleviate",
+      "category": "task"
+    },
+    {
+      "entity": "Unpleasant",
+      "category": "metric"
+    },
+    {
+      "entity": "Description",
+      "category": "material"
+    },
+    {
+      "entity": "hallidays",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "systemic",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "material": 6,
+    "otherscientificterm": 8,
+    "task": 4,
+    "metric": 6,
+    "method": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 25,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 22,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

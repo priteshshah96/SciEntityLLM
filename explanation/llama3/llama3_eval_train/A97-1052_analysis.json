@@ -1,0 +1,232 @@
+{
+  "doc_key": "A97-1052",
+  "gold_entities": [
+    {
+      "entity": "subcategorization dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relative frequency of occurrence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subcategorization dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "textual corpora",
+      "category": "material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "subcategorization dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "textual corpora",
+      "category": "material"
+    },
+    {
+      "entity": "dictionary entry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relative frequency of occurrence",
+      "category": "metric"
+    },
+    {
+      "entity": "subcategorization classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple complementation patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "previous approaches",
+      "category": "method"
+    },
+    {
+      "entity": "subcategorization classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "subcategorization dictionary",
+      "predicted": "subcategorization dictionary",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "relative frequency of occurrence",
+      "predicted": "relative frequency of occurrence",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "textual corpora",
+      "predicted": "textual corpora",
+      "category": "material"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "parser",
+      "predicted": "parser",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "subcategorization dictionary",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dictionary entry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subcategorization classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subcategorization classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple complementation patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "previous approaches",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "subcategorization dictionary|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "material": 1,
+    "metric": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "material": 3,
+    "otherscientificterm": 5,
+    "metric": 3,
+    "method": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23076923076923078,
+  "recall": 0.5,
+  "f1": 0.3157894736842105,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 8,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

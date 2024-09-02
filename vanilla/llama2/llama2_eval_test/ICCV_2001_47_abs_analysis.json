@@ -1,0 +1,310 @@
+{
+  "doc_key": "ICCV_2001_47_abs",
+  "gold_entities": [
+    {
+      "entity": "priori geometric constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "objective function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "triangulations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vertices",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structural or numerical constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priori knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "differential features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3\u2013D stereo reconstruction scheme",
+      "category": "method"
+    },
+    {
+      "entity": "iterative deformation of a 3\u2013D surface mesh",
+      "category": "method"
+    },
+    {
+      "entity": "anisotropic meshing",
+      "category": "method"
+    },
+    {
+      "entity": "non-quadratic approach",
+      "category": "method"
+    },
+    {
+      "entity": "reconstruction process",
+      "category": "method"
+    },
+    {
+      "entity": "constrained optimization scheme",
+      "category": "method"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "3\u2013D reconstruction",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Hypertessellation",
+      "category": "task"
+    },
+    {
+      "entity": "Stereo reconstruction scheme",
+      "category": "task"
+    },
+    {
+      "entity": "3\u2013D surface mesh",
+      "category": "material"
+    },
+    {
+      "entity": "Anisotropic meshing",
+      "category": "method"
+    },
+    {
+      "entity": "Non-quadratic approach to regularization",
+      "category": "method"
+    },
+    {
+      "entity": "Constrained optimization scheme",
+      "category": "method"
+    },
+    {
+      "entity": "differential features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object shape",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "object shape",
+      "predicted": "object shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "differential features",
+      "predicted": "differential features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "anisotropic meshing",
+      "predicted": "Anisotropic meshing",
+      "category": "method"
+    },
+    {
+      "gold": "constrained optimization scheme",
+      "predicted": "Constrained optimization scheme",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "3\u2013D stereo reconstruction scheme",
+      "predicted": "Stereo reconstruction scheme",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "non-quadratic approach",
+      "predicted": "Non-quadratic approach to regularization",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "priori geometric constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "objective function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "triangulations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vertices",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structural or numerical constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priori knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "iterative deformation of a 3\u2013D surface mesh",
+      "category": "method"
+    },
+    {
+      "entity": "reconstruction process",
+      "category": "method"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "3\u2013D reconstruction",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Hypertessellation",
+      "category": "task"
+    },
+    {
+      "entity": "3\u2013D surface mesh",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "reconstruction|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 12,
+    "method": 6,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 1,
+    "method": 3,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 12,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.19047619047619047,
+  "f1": 0.27586206896551724,
+  "counts": {
+    "gold_entities": 21,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 15,
+    "extra_entities": 2,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

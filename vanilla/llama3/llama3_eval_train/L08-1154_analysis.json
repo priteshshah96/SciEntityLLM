@@ -1,0 +1,303 @@
+{
+  "doc_key": "L08-1154",
+  "gold_entities": [
+    {
+      "entity": "internal and contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain specific terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "delimiters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "term frequency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hard rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "term extraction",
+      "category": "task"
+    },
+    {
+      "entity": "Chinese term extraction",
+      "category": "task"
+    },
+    {
+      "entity": "new term extraction",
+      "category": "task"
+    },
+    {
+      "entity": "domain lexicon expansion",
+      "category": "task"
+    },
+    {
+      "entity": "resource-limited domains",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "term candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "internal and contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain specific terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Term extraction",
+      "category": "task"
+    },
+    {
+      "entity": "Delimiters",
+      "category": "material"
+    },
+    {
+      "entity": "Term frequency",
+      "category": "metric"
+    },
+    {
+      "entity": "hard rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Domain knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    },
+    {
+      "entity": "Domains",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese term extraction",
+      "category": "task"
+    },
+    {
+      "entity": "New term extraction",
+      "category": "task"
+    },
+    {
+      "entity": "Domain lexicon expansion",
+      "category": "task"
+    },
+    {
+      "entity": "Evaluations",
+      "category": "method"
+    },
+    {
+      "entity": "Experiments",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "delimiters",
+      "predicted": "Delimiters",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "term frequency",
+      "predicted": "Term frequency",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "domain knowledge",
+      "predicted": "Domain knowledge",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "internal and contextual information",
+      "predicted": "internal and contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "domain specific terms",
+      "predicted": "domain specific terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "features",
+      "predicted": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hard rules",
+      "predicted": "hard rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "term extraction",
+      "predicted": "Term extraction",
+      "category": "task"
+    },
+    {
+      "gold": "Chinese term extraction",
+      "predicted": "Chinese term extraction",
+      "category": "task"
+    },
+    {
+      "gold": "new term extraction",
+      "predicted": "New term extraction",
+      "category": "task"
+    },
+    {
+      "gold": "domain lexicon expansion",
+      "predicted": "Domain lexicon expansion",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "resource-limited domains",
+      "predicted": "Domains",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "term candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluations",
+      "category": "method"
+    },
+    {
+      "entity": "Experiments",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "features|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 8,
+    "task": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 4,
+    "material": 3,
+    "metric": 1,
+    "method": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 5,
+      "exact_matches": 3,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.6153846153846154,
+  "f1": 0.5517241379310345,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 16,
+    "exact_matches": 3,
+    "exact_matches_with_category": 8,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 8
+  },
+  "empty_category_entities": []
+}

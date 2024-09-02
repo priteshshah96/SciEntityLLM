@@ -1,0 +1,162 @@
+{
+  "doc_key": "IJCAI_2013_4_abs",
+  "gold_entities": [
+    {
+      "entity": "high-level program execution",
+      "category": "task"
+    },
+    {
+      "entity": "high-level program execution",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "High-level program execution",
+      "category": "task"
+    },
+    {
+      "entity": "multiagent settings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "related work",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "completed work",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "future work",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Approaches",
+      "category": "method"
+    },
+    {
+      "entity": "Expected contributions",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "high-level program execution",
+      "predicted": "High-level program execution",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "high-level program execution",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "high-level program execution",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "multiagent settings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "related work",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "completed work",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "future work",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Approaches",
+      "category": "method"
+    },
+    {
+      "entity": "Expected contributions",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "high-level program execution|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 4,
+    "method": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.14285714285714285,
+  "category_recall": 0.5,
+  "category_f1": 0.22222222222222224,
+  "counts": {
+    "gold_entities": 2,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 0,
+    "correct_predictions": 0,
+    "correct_categories": 1
+  }
+}

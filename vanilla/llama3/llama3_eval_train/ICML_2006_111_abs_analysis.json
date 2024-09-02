@@ -1,0 +1,288 @@
+{
+  "doc_key": "ICML_2006_111_abs",
+  "gold_entities": [
+    {
+      "entity": "Boosting methods",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifier",
+      "category": "method"
+    },
+    {
+      "entity": "boosting algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "arc-gv",
+      "category": "method"
+    },
+    {
+      "entity": "AdaBoost",
+      "category": "method"
+    },
+    {
+      "entity": "arc-gv",
+      "category": "method"
+    },
+    {
+      "entity": "base classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "margins theory",
+      "category": "method"
+    },
+    {
+      "entity": "margins distribution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "base-classifier complexity",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Boosting methods",
+      "category": "method"
+    },
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "Classifiers",
+      "category": "material"
+    },
+    {
+      "entity": "Margins",
+      "category": "metric"
+    },
+    {
+      "entity": "schapire et al",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "AdaBoost",
+      "category": "material"
+    },
+    {
+      "entity": "Arc-gv",
+      "category": "material"
+    },
+    {
+      "entity": "Base classifiers",
+      "category": "material"
+    },
+    {
+      "entity": "complexity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experiments",
+      "category": "task"
+    },
+    {
+      "entity": "Finding",
+      "category": "metric"
+    },
+    {
+      "entity": "Paper",
+      "category": "material"
+    },
+    {
+      "entity": "Results",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "classifiers",
+      "predicted": "Classifiers",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "arc-gv",
+      "predicted": "Arc-gv",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "AdaBoost",
+      "predicted": "AdaBoost",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "base classifiers",
+      "predicted": "Base classifiers",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "complexity",
+      "predicted": "complexity",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Boosting methods",
+      "predicted": "Boosting methods",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "margins theory",
+      "predicted": "Margins",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "classifier",
+      "category": "method"
+    },
+    {
+      "entity": "boosting algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "arc-gv",
+      "category": "method"
+    },
+    {
+      "entity": "margins distribution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "base-classifier complexity",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "schapire et al",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experiments",
+      "category": "task"
+    },
+    {
+      "entity": "Finding",
+      "category": "metric"
+    },
+    {
+      "entity": "Paper",
+      "category": "material"
+    },
+    {
+      "entity": "Results",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "arc-gv|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 9,
+    "otherscientificterm": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "material": 6,
+    "metric": 3,
+    "otherscientificterm": 2,
+    "task": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 9,
+      "predicted": 1,
+      "exact_matches": 4,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07692307692307693,
+  "recall": 0.08333333333333333,
+  "f1": 0.08,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 13,
+    "exact_matches": 5,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

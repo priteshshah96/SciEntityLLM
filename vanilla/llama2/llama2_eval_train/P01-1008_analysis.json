@@ -1,0 +1,258 @@
+{
+  "doc_key": "P01-1008",
+  "gold_entities": [
+    {
+      "entity": "paraphrasing",
+      "category": "method"
+    },
+    {
+      "entity": "manual or semi-automatic methods",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised learning algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "interpretation and generation of natural language",
+      "category": "task"
+    },
+    {
+      "entity": "identification of paraphrases",
+      "category": "task"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrasal and single word lexical paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus of multiple English translations",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "paraphrasing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Manual",
+      "category": "method"
+    },
+    {
+      "entity": "Semi-automatic",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Translations",
+      "category": "material"
+    },
+    {
+      "entity": "Source",
+      "category": "material"
+    },
+    {
+      "entity": "Phrasal",
+      "category": "metric"
+    },
+    {
+      "entity": "Single",
+      "category": "metric"
+    },
+    {
+      "entity": "Lexical",
+      "category": "metric"
+    },
+    {
+      "entity": "Syntactic",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "paraphrasing",
+      "predicted": "paraphrasing",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "syntactic paraphrases",
+      "predicted": "Syntactic",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "manual or semi-automatic methods",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised learning algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "interpretation and generation of natural language",
+      "category": "task"
+    },
+    {
+      "entity": "identification of paraphrases",
+      "category": "task"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrasal and single word lexical paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus of multiple English translations",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "generation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Manual",
+      "category": "method"
+    },
+    {
+      "entity": "Semi-automatic",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Translations",
+      "category": "material"
+    },
+    {
+      "entity": "Source",
+      "category": "material"
+    },
+    {
+      "entity": "Single",
+      "category": "metric"
+    },
+    {
+      "entity": "Lexical",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 2,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "method": 2,
+    "material": 4,
+    "metric": 4
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 13,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 9,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

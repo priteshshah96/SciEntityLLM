@@ -1,0 +1,237 @@
+{
+  "gold_entities": [
+    {
+      "entity": "vector space model",
+      "category": "Method"
+    },
+    {
+      "entity": "lsa-based, cooccurrence-based and dictionary-based methods",
+      "category": "Method"
+    },
+    {
+      "entity": "constructing word vectors",
+      "category": "Task"
+    },
+    {
+      "entity": "similarity between words",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "word vectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dictionary-based word vectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lsa-based and the cooccurrence-based word vectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "similarity",
+      "category": "Task"
+    },
+    {
+      "entity": "word vectors",
+      "category": "Method"
+    },
+    {
+      "entity": "vector space model",
+      "category": "Method"
+    },
+    {
+      "entity": "lsa-based",
+      "category": "Method"
+    },
+    {
+      "entity": "cooccurrence-based",
+      "category": "Method"
+    },
+    {
+      "entity": "dictionary-based",
+      "category": "Method"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "Metric"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "Metric"
+    },
+    {
+      "entity": "word",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "methods",
+      "category": "Generic"
+    },
+    {
+      "entity": "similarity",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "word vectors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "word vectors",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "vector space model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "vector space model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "taxonomic similarity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "taxonomic similarity",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "associative similarity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "associative similarity",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "vector space model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "vector space model",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "lsa-based, cooccurrence-based and dictionary-based methods",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "cooccurrence-based",
+          "category": "Method"
+        },
+        {
+          "entity": "dictionary-based",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "lsa-based and the cooccurrence-based word vectors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "lsa-based",
+          "category": "Method"
+        },
+        {
+          "entity": "word",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "similarity between words",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "similarity",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "constructing word vectors",
+      "category": "Task"
+    },
+    {
+      "entity": "dictionary-based word vectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "taxonomic similarity": 2,
+    "associative similarity": 2
+  },
+  "distinct_repeated_entities": [
+    "taxonomic similarity",
+    "associative similarity"
+  ],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 9,
+    "generic_count": 2,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

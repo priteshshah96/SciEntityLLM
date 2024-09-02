@@ -1,0 +1,214 @@
+{
+  "gold_entities": [
+    {
+      "entity": "named entity corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "statistical analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "Method"
+    },
+    {
+      "entity": "named entity task",
+      "category": "Task"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "statistical profile",
+      "category": "Metric"
+    },
+    {
+      "entity": "named entity task",
+      "category": "Task"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "Task"
+    },
+    {
+      "entity": "corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "languages",
+      "category": "Material"
+    },
+    {
+      "entity": "results",
+      "category": "Metric"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "Metric"
+    },
+    {
+      "entity": "named entity corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "analysis",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "statistical profile",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "analysis",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "named entity task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "named entity task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "information extraction task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information extraction task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lower bound estimation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lower bound estimation",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "named entity corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "named entity corpora",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "named entity task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "named entity task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "information extraction task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information extraction task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "named entity corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "named entity corpora",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "statistical analysis",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "statistical profile",
+          "category": "Metric"
+        },
+        {
+          "entity": "analysis",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "languages",
+      "category": "Material"
+    },
+    {
+      "entity": "results",
+      "category": "Metric"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 11,
+    "generic_count": 3,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

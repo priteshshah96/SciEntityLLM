@@ -1,0 +1,278 @@
+{
+  "doc_key": "C86-1021",
+  "gold_entities": [
+    {
+      "entity": "interlingual approach",
+      "category": "method"
+    },
+    {
+      "entity": "Mu-project",
+      "category": "method"
+    },
+    {
+      "entity": "transfer approach",
+      "category": "method"
+    },
+    {
+      "entity": "interlingual approach",
+      "category": "method"
+    },
+    {
+      "entity": "Multiple Layer of Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Multiple Layer Presentation",
+      "category": "method"
+    },
+    {
+      "entity": "Lexicon Driven Processing",
+      "category": "method"
+    },
+    {
+      "entity": "Form-Oriented Dictionary Description",
+      "category": "method"
+    },
+    {
+      "entity": "natural language understanding",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "interlingual approach",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "natural language understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vagueness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Transfer approach",
+      "category": "method"
+    },
+    {
+      "entity": "Mu-project",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Multiple Layer of Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Multiple Layer Presentation",
+      "category": "method"
+    },
+    {
+      "entity": "Lexicon Driven Processing",
+      "category": "method"
+    },
+    {
+      "entity": "Form-Oriented Dictionary Description",
+      "category": "method"
+    },
+    {
+      "entity": "current system",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "interlingual approach",
+      "predicted": "interlingual approach",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Mu-project",
+      "predicted": "Mu-project",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "natural language understanding",
+      "predicted": "natural language understanding",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "transfer approach",
+      "predicted": "Transfer approach",
+      "category": "method"
+    },
+    {
+      "gold": "Multiple Layer of Grammars",
+      "predicted": "Multiple Layer of Grammars",
+      "category": "method"
+    },
+    {
+      "gold": "Multiple Layer Presentation",
+      "predicted": "Multiple Layer Presentation",
+      "category": "method"
+    },
+    {
+      "gold": "Lexicon Driven Processing",
+      "predicted": "Lexicon Driven Processing",
+      "category": "method"
+    },
+    {
+      "gold": "Form-Oriented Dictionary Description",
+      "predicted": "Form-Oriented Dictionary Description",
+      "category": "method"
+    },
+    {
+      "gold": "machine translation",
+      "predicted": "Machine translation",
+      "category": "task"
+    },
+    {
+      "gold": "Japanese",
+      "predicted": "Japanese",
+      "category": "material"
+    },
+    {
+      "gold": "English",
+      "predicted": "English",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "interlingual approach",
+      "category": "method"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vagueness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "current system",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "interlingual approach|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "task": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 2,
+    "method": 5,
+    "material": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 8,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5714285714285714,
+  "recall": 0.6153846153846154,
+  "f1": 0.5925925925925927,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 14,
+    "exact_matches": 3,
+    "exact_matches_with_category": 8,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 8
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,229 @@
+{
+  "doc_key": "P06-1053",
+  "gold_entities": [
+    {
+      "entity": "psycholinguistic literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coordinate structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parallel structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "incremental probabilistic parser",
+      "category": "method"
+    },
+    {
+      "entity": "human data",
+      "category": "material"
+    },
+    {
+      "entity": "parsing accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "psycholinguistic literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Syntactic priming",
+      "category": "task"
+    },
+    {
+      "entity": "Incremental probabilistic parser",
+      "category": "method"
+    },
+    {
+      "entity": "Priming of rules",
+      "category": "method"
+    },
+    {
+      "entity": "parallel structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Reading time advantage",
+      "category": "metric"
+    },
+    {
+      "entity": "human data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Parsing accuracy",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "syntactic priming",
+      "predicted": "Syntactic priming",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "human data",
+      "predicted": "human data",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "psycholinguistic literature",
+      "predicted": "psycholinguistic literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "parallel structures",
+      "predicted": "parallel structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "incremental probabilistic parser",
+      "predicted": "Incremental probabilistic parser",
+      "category": "method"
+    },
+    {
+      "gold": "parsing accuracy",
+      "predicted": "Parsing accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priming",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coordinate structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Priming of rules",
+      "category": "method"
+    },
+    {
+      "entity": "Reading time advantage",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "priming|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 1,
+    "material": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "task": 1,
+    "method": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.4,
+  "f1": 0.4444444444444445,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

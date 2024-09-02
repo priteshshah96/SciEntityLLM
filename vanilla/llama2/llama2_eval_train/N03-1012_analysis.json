@@ -1,0 +1,226 @@
+{
+  "doc_key": "N03-1012",
+  "gold_entities": [
+    {
+      "entity": "ONTOSCORE",
+      "category": "method"
+    },
+    {
+      "entity": "ontology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition hypotheses srh",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic coherence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition hypotheses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "srhs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "German corpus",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "ONTOSCORE",
+      "category": "task"
+    },
+    {
+      "entity": "ontology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "SRH",
+      "category": "task"
+    },
+    {
+      "entity": "semantic coherence",
+      "category": "metric"
+    },
+    {
+      "entity": "annotation experiment",
+      "category": "task"
+    },
+    {
+      "entity": "human annotators",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "German corpus",
+      "category": "material"
+    },
+    {
+      "entity": "2.284 SRHs",
+      "category": "material"
+    },
+    {
+      "entity": "54.55%",
+      "category": "metric"
+    },
+    {
+      "entity": "baseline",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "ONTOSCORE",
+      "predicted": "ONTOSCORE",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "semantic coherence",
+      "predicted": "semantic coherence",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "ontology",
+      "predicted": "ontology",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "German corpus",
+      "predicted": "German corpus",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "srhs",
+      "predicted": "2.284 SRHs",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "speech recognition hypotheses srh",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition hypotheses",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "SRH",
+      "category": "task"
+    },
+    {
+      "entity": "annotation experiment",
+      "category": "task"
+    },
+    {
+      "entity": "human annotators",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "54.55%",
+      "category": "metric"
+    },
+    {
+      "entity": "baseline",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 4,
+    "metric": 2,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.2857142857142857,
+  "f1": 0.2222222222222222,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

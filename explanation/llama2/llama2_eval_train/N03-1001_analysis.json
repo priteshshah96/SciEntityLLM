@@ -1,0 +1,260 @@
+{
+  "doc_key": "N03-1001",
+  "gold_entities": [
+    {
+      "entity": "utterance classification",
+      "category": "task"
+    },
+    {
+      "entity": "utterance classification",
+      "category": "task"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "material"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "material"
+    },
+    {
+      "entity": "spoken language system domains",
+      "category": "material"
+    },
+    {
+      "entity": "domain independent acoustic models",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "word-trigram recognition",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised training",
+      "category": "method"
+    },
+    {
+      "entity": "phone n-gram model",
+      "category": "method"
+    },
+    {
+      "entity": "phone-string classifier",
+      "category": "method"
+    },
+    {
+      "entity": "classification accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "utterance classification",
+      "category": "method"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "method"
+    },
+    {
+      "entity": "domain-independent acoustic models",
+      "category": "method"
+    },
+    {
+      "entity": "off-the-shelf classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "wordtrigram recognition",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phone n-gram model",
+      "category": "method"
+    },
+    {
+      "entity": "phone-string classifier",
+      "category": "method"
+    },
+    {
+      "entity": "spoken language system domains",
+      "category": "material"
+    },
+    {
+      "entity": "classification accuracy",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "utterance classification",
+      "predicted": "utterance classification",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "manual transcription",
+      "predicted": "manual transcription",
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "classification accuracy",
+      "predicted": "classification accuracy",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "spoken language system domains",
+      "predicted": "spoken language system domains",
+      "category": "material"
+    },
+    {
+      "gold": "phone n-gram model",
+      "predicted": "phone n-gram model",
+      "category": "method"
+    },
+    {
+      "gold": "phone-string classifier",
+      "predicted": "phone-string classifier",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "classifiers",
+      "predicted": "off-the-shelf classifiers",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "utterance classification",
+      "category": "task"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "material"
+    },
+    {
+      "entity": "domain independent acoustic models",
+      "category": "method"
+    },
+    {
+      "entity": "word-trigram recognition",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised training",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "domain-independent acoustic models",
+      "category": "method"
+    },
+    {
+      "entity": "wordtrigram recognition",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "utterance classification|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "manual transcription|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 3,
+    "method": 6,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.25,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 2,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

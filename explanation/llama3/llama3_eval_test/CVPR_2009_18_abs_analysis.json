@@ -1,0 +1,311 @@
+{
+  "doc_key": "CVPR_2009_18_abs",
+  "gold_entities": [
+    {
+      "entity": "detecting interest points",
+      "category": "task"
+    },
+    {
+      "entity": "matching textured scenes",
+      "category": "task"
+    },
+    {
+      "entity": "space-time interest point detection",
+      "category": "task"
+    },
+    {
+      "entity": "action classification",
+      "category": "task"
+    },
+    {
+      "entity": "histogram information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largescale structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distinctive textured patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "blur",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "blur and illumination changes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interest point detectors",
+      "category": "method"
+    },
+    {
+      "entity": "histogram-based representations",
+      "category": "method"
+    },
+    {
+      "entity": "histogram-based interest point detectors",
+      "category": "method"
+    },
+    {
+      "entity": "pixel-wise differences in image intensity",
+      "category": "metric"
+    },
+    {
+      "entity": "repeatability",
+      "category": "metric"
+    },
+    {
+      "entity": "distinctiveness",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "detecting interest points",
+      "category": "task"
+    },
+    {
+      "entity": "histogram information",
+      "category": "method"
+    },
+    {
+      "entity": "interest point detectors",
+      "category": "method"
+    },
+    {
+      "entity": "histogram-based representations",
+      "category": "method"
+    },
+    {
+      "entity": "image regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "neighborhood",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largescale structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "textured patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rotation",
+      "category": "metric"
+    },
+    {
+      "entity": "illumination variation",
+      "category": "metric"
+    },
+    {
+      "entity": "blur",
+      "category": "metric"
+    },
+    {
+      "entity": "repeatability",
+      "category": "metric"
+    },
+    {
+      "entity": "distinctiveness",
+      "category": "metric"
+    },
+    {
+      "entity": "space-time interest point detection",
+      "category": "method"
+    },
+    {
+      "entity": "action classification",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "space-time interest point detection",
+      "predicted": "space-time interest point detection",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "action classification",
+      "predicted": "action classification",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "histogram information",
+      "predicted": "histogram information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "rotation",
+      "predicted": "rotation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "illumination variation",
+      "predicted": "illumination variation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "blur",
+      "predicted": "blur",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "detecting interest points",
+      "predicted": "detecting interest points",
+      "category": "task"
+    },
+    {
+      "gold": "largescale structures",
+      "predicted": "largescale structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "interest point detectors",
+      "predicted": "interest point detectors",
+      "category": "method"
+    },
+    {
+      "gold": "histogram-based representations",
+      "predicted": "histogram-based representations",
+      "category": "method"
+    },
+    {
+      "gold": "repeatability",
+      "predicted": "repeatability",
+      "category": "metric"
+    },
+    {
+      "gold": "distinctiveness",
+      "predicted": "distinctiveness",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "distinctive textured patterns",
+      "predicted": "textured patterns",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "matching textured scenes",
+      "category": "task"
+    },
+    {
+      "entity": "blur and illumination changes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "histogram-based interest point detectors",
+      "category": "method"
+    },
+    {
+      "entity": "pixel-wise differences in image intensity",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "image regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "neighborhood",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 7,
+    "method": 3,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 5,
+    "otherscientificterm": 4,
+    "metric": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 4,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.35294117647058826,
+  "f1": 0.37500000000000006,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 15,
+    "exact_matches": 6,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 2,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

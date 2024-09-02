@@ -1,0 +1,90 @@
+prompt_template = """
+You are an expert in natural language processing and scientific text analysis. Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+
+1. Read the given text carefully.
+2. Identify and list scientific entities found in the text.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+5. Use the following format for each entity:
+   * Entity Name
+     Category: [Category]
+     Reasoning: [Reasoning]
+
+Here are two examples demonstrating this process:
+
+Example 1:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Now, apply this process to the following new text and identify at least 5 scientific entities:
+
+Text: "{text}"
+
+Scientific Entities Identified:
+"""

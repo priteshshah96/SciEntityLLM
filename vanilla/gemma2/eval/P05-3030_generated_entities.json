@@ -1,0 +1,189 @@
+{
+  "gold_entities": [
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "free-content encyclopedia",
+      "category": "Material"
+    },
+    {
+      "entity": "organizing reading materials",
+      "category": "Task"
+    },
+    {
+      "entity": "vocabulary learning",
+      "category": "Task"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "reading materials",
+      "category": "Material"
+    },
+    {
+      "entity": "vocabulary learning",
+      "category": "Task"
+    },
+    {
+      "entity": "texts",
+      "category": "Material"
+    },
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "Metric"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Metric"
+    },
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "Metric"
+    },
+    {
+      "entity": "web site",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "vocabulary learning",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "vocabulary learning",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "target vocabulary",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "target vocabulary",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "vocabulary learning",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "vocabulary learning",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "organizing reading materials",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "reading materials",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "free-content encyclopedia",
+      "category": "Material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "texts",
+      "category": "Material"
+    },
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Metric"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "Metric"
+    },
+    {
+      "entity": "web site",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "entity_metrics": {
+    "precision": 0.12803556393110335,
+    "recall": 0.14902020117266365,
+    "f1_score": 0.12973574031987606
+  },
+  "exact_match_metrics": {
+    "precision": 0.12803556393110335,
+    "recall": 0.14902020117266365,
+    "f1_score": 0.12973574031987606
+  },
+  "category_metrics": {
+    "precision": 0.32975914009173224,
+    "recall": 0.4749620771661894,
+    "f1_score": 0.36295713141462416
+  },
+  "counts": {
+    "documents_processed": 100,
+    "total_gold_entities": 1685,
+    "total_predicted_entities": 2218,
+    "total_exact_matches": 878,
+    "total_partial_matches": 194,
+    "total_split_matches": 13,
+    "total_combined_partial_split_matches": 207,
+    "total_category_matches": 365,
+    "total_missing_entities": 600,
+    "total_extra_entities": 1112,
+    "total_repeated_gold_entities": 160,
+    "total_generic_entities": 241,
+    "total_generic_entity_matches": 0
+  },
+  "gold_category_counts": {
+    "Metric": 71,
+    "Task": 263,
+    "OtherScientificTerm": 522,
+    "Method": 430,
+    "Material": 158
+  },
+  "predicted_category_counts": {
+    "Task": 354,
+    "Metric": 239,
+    "Other-Scientific-Term": 642,
+    "Material": 611,
+    "Method": 372
+  },
+  "all_gold_category_counts": {
+    "Metric": 71,
+    "Generic": 241,
+    "Task": 263,
+    "OtherScientificTerm": 522,
+    "Method": 430,
+    "Material": 158
+  },
+  "all_predicted_category_counts": {
+    "Task": 354,
+    "Metric": 239,
+    "Other-Scientific-Term": 642,
+    "Material": 611,
+    "Method": 372
+  }
+}

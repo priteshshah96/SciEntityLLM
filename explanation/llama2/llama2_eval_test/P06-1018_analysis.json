@@ -1,0 +1,279 @@
+{
+  "doc_key": "P06-1018",
+  "gold_entities": [
+    {
+      "entity": "mathematical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "rewriting systems",
+      "category": "method"
+    },
+    {
+      "entity": "dependency grammars",
+      "category": "method"
+    },
+    {
+      "entity": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "elementary structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lfg",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "generic mathematical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "products of them",
+      "category": "method"
+    },
+    {
+      "entity": "polarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "elementary structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "saturation",
+      "category": "metric"
+    },
+    {
+      "entity": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "rewriting systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lfg",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "rewriting systems",
+      "predicted": "rewriting systems",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "dependency grammars",
+      "predicted": "dependency grammars",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "grammar formalisms",
+      "predicted": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "gold": "strings",
+      "predicted": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "trees",
+      "predicted": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "dags",
+      "predicted": "dags",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "graphs",
+      "predicted": "graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "polarization",
+      "predicted": "polarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "elementary structures",
+      "predicted": "elementary structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "tag",
+      "predicted": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hpsg",
+      "predicted": "hpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "lfg",
+      "predicted": "lfg",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "mathematical formalism",
+      "predicted": "generic mathematical formalism",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "products of them",
+      "category": "method"
+    },
+    {
+      "entity": "objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "saturation",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 13,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 13,
+      "exact_matches": 0,
+      "exact_matches_with_category": 9,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5882352941176471,
+  "recall": 0.7692307692307693,
+  "f1": 0.6666666666666667,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 17,
+    "exact_matches": 2,
+    "exact_matches_with_category": 10,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,317 @@
+{
+  "doc_key": "E06-1035",
+  "gold_entities": [
+    {
+      "entity": "predicting  segment boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "predicting top-level topic shifts",
+      "category": "task"
+    },
+    {
+      "entity": "identifying subtopic boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "predicting top-level and predicting subtopic boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "predicting  subtopic boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "predicting top-level boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "spoken multiparty dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "asr output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human transcription",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicalcohesion and conversational features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational cues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cue phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "overlapping speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transcription errors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asr output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicalcohesion and conversational features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical cohesion-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "machine learning approach",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Segment boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "Topic shifts",
+      "category": "task"
+    },
+    {
+      "entity": "Subtopic boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "ASR output",
+      "category": "material"
+    },
+    {
+      "entity": "Human transcription",
+      "category": "material"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical cohesion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cue phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "overlapping speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transcription errors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "asr output",
+      "predicted": "ASR output",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "human transcription",
+      "predicted": "Human transcription",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "features",
+      "predicted": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "cue phrases",
+      "predicted": "cue phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "overlapping speech",
+      "predicted": "overlapping speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "transcription errors",
+      "predicted": "transcription errors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "predicting  segment boundaries",
+      "predicted": "Segment boundaries",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "predicting top-level topic shifts",
+      "predicted": "Topic shifts",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "identifying subtopic boundaries",
+      "predicted": "Subtopic boundaries",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "predicting top-level and predicting subtopic boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "predicting  subtopic boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "predicting top-level boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "spoken multiparty dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "asr output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicalcohesion and conversational features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicalcohesion and conversational features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational cues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical cohesion-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "machine learning approach",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "lexical cohesion",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "asr output|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "lexicalcohesion and conversational features|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 6,
+    "material": 1,
+    "otherscientificterm": 10,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "material": 2,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 6,
+      "exact_matches": 2,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.21052631578947367,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 19,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 1,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

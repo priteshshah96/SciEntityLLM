@@ -1,0 +1,191 @@
+{
+  "gold_entities": [
+    {
+      "entity": "html documents",
+      "category": "Material"
+    },
+    {
+      "entity": "html documents",
+      "category": "Material"
+    },
+    {
+      "entity": "building polarity-tagged corpus",
+      "category": "Task"
+    },
+    {
+      "entity": "layout structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linguistic pattern",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "polarity-tagged corpus",
+      "category": "Method"
+    },
+    {
+      "entity": "html documents",
+      "category": "Method"
+    },
+    {
+      "entity": "method",
+      "category": "Task"
+    },
+    {
+      "entity": "layout structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linguistic patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Task"
+    },
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "sentences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "126,610 sentences",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "them",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "html documents",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "html documents",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "layout structures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "layout structures",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "layout structures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "layout structures",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "building polarity-tagged corpus",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "polarity-tagged corpus",
+          "category": "Method"
+        },
+        {
+          "entity": "corpus",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "html documents",
+      "category": "Material"
+    },
+    {
+      "entity": "linguistic pattern",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "method",
+      "category": "Task"
+    },
+    {
+      "entity": "linguistic patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Task"
+    },
+    {
+      "entity": "sentences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "126,610 sentences",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {
+    "html documents": 2
+  },
+  "distinct_repeated_entities": [
+    "html documents"
+  ],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 9,
+    "generic_count": 6,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

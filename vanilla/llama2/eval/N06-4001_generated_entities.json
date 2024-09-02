@@ -1,0 +1,203 @@
+{
+  "gold_entities": [
+    {
+      "entity": "tutorial dialogue",
+      "category": "Material"
+    },
+    {
+      "entity": "on-line communities",
+      "category": "Material"
+    },
+    {
+      "entity": "interactive corpus exploration tool",
+      "category": "Method"
+    },
+    {
+      "entity": "infomagnets",
+      "category": "Method"
+    },
+    {
+      "entity": "infomagnets",
+      "category": "Method"
+    },
+    {
+      "entity": "educational tool",
+      "category": "Method"
+    },
+    {
+      "entity": "exploratory corpus analysis",
+      "category": "Task"
+    },
+    {
+      "entity": "text mining",
+      "category": "Task"
+    },
+    {
+      "entity": "protocol analysis",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "infomagnets",
+      "category": "Task"
+    },
+    {
+      "entity": "text mining",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tutorial dialogue",
+      "category": "Task"
+    },
+    {
+      "entity": "on-line communities",
+      "category": "Task"
+    },
+    {
+      "entity": "language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "behavioral patterns",
+      "category": "Task"
+    },
+    {
+      "entity": "protocol analysis",
+      "category": "Task"
+    },
+    {
+      "entity": "educational research methods",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "domains",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "infomagnets",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "infomagnets",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "text mining",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "text mining",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "tutorial dialogue",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "tutorial dialogue",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "on-line communities",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "on-line communities",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "protocol analysis",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "protocol analysis",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "protocol analysis",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "protocol analysis",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "interactive corpus exploration tool",
+      "category": "Method"
+    },
+    {
+      "entity": "infomagnets",
+      "category": "Method"
+    },
+    {
+      "entity": "educational tool",
+      "category": "Method"
+    },
+    {
+      "entity": "exploratory corpus analysis",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "behavioral patterns",
+      "category": "Task"
+    },
+    {
+      "entity": "educational research methods",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "infomagnets": 2
+  },
+  "distinct_repeated_entities": [
+    "infomagnets"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 8,
+    "generic_count": 3,
+    "exact_matches": 5,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "gold_entities": [
+    {
+      "entity": "first-order autoregressive model",
+      "category": "Method"
+    },
+    {
+      "entity": "separation method",
+      "category": "Method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+      "category": "Task"
+    },
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "Task"
+    },
+    {
+      "entity": "nonstationarity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "original signals",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cram\u00e9r-rao lower bound)",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "blind separation",
+      "category": "Task"
+    },
+    {
+      "entity": "underdetermined instantaneous mixtures",
+      "category": "Material"
+    },
+    {
+      "entity": "independent signals",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "nonstationarity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "piecewise stationary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "varying variances",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "epochs",
+      "category": "Material"
+    },
+    {
+      "entity": "iid",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "first-order autoregressive model",
+      "category": "Method"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "Material"
+    },
+    {
+      "entity": "separation method",
+      "category": "Method"
+    },
+    {
+      "entity": "cram\u00e9r-rao lower bound",
+      "category": "Method"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "Method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "signals",
+      "category": "Generic"
+    },
+    {
+      "entity": "signals",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "assumed model",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "nonstationarity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "nonstationarity",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural speech signals",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural speech signals",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "separation method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "separation method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "separation accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "separation accuracy",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "nonstationarity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "nonstationarity",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "separation method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "separation method",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "blind separation",
+          "category": "Task"
+        },
+        {
+          "entity": "underdetermined instantaneous mixtures",
+          "category": "Material"
+        },
+        {
+          "entity": "independent signals",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 3.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "cram\u00e9r-rao lower bound)",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "cram\u00e9r-rao lower bound",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "Task"
+    },
+    {
+      "entity": "original signals",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "piecewise stationary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "varying variances",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "epochs",
+      "category": "Material"
+    },
+    {
+      "entity": "iid",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 14,
+    "generic_count": 7,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

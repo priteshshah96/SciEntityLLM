@@ -1,0 +1,282 @@
+{
+  "doc_key": "P05-1032",
+  "gold_entities": [
+    {
+      "entity": "data structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "memory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrase translations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "suffix arraybased data structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrase-based statistical machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "retrieval  of arbitrarily long  phrases",
+      "category": "task"
+    },
+    {
+      "entity": "decoder",
+      "category": "method"
+    },
+    {
+      "entity": "sampling",
+      "category": "method"
+    },
+    {
+      "entity": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "average retrieval times",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval time",
+      "category": "metric"
+    },
+    {
+      "entity": "translation quality",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "data structure",
+      "category": "method"
+    },
+    {
+      "entity": "phrase-based statistical machine translation",
+      "category": "method"
+    },
+    {
+      "entity": "retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "phrases",
+      "category": "material"
+    },
+    {
+      "entity": "memory",
+      "category": "metric"
+    },
+    {
+      "entity": "decoder",
+      "category": "material"
+    },
+    {
+      "entity": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "average retrieval times",
+      "category": "metric"
+    },
+    {
+      "entity": "phrase translations",
+      "category": "task"
+    },
+    {
+      "entity": "suffix array-based data structure",
+      "category": "method"
+    },
+    {
+      "entity": "sampling",
+      "category": "method"
+    },
+    {
+      "entity": "retrieval time",
+      "category": "metric"
+    },
+    {
+      "entity": "translation quality",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "data structure",
+      "predicted": "data structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "memory",
+      "predicted": "memory",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "phrase translations",
+      "predicted": "phrase translations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "phrase-based statistical machine translation",
+      "predicted": "phrase-based statistical machine translation",
+      "category": "task"
+    },
+    {
+      "gold": "decoder",
+      "predicted": "decoder",
+      "category": "method"
+    },
+    {
+      "gold": "sampling",
+      "predicted": "sampling",
+      "category": "method"
+    },
+    {
+      "gold": "computational complexity",
+      "predicted": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "gold": "average retrieval times",
+      "predicted": "average retrieval times",
+      "category": "metric"
+    },
+    {
+      "gold": "retrieval time",
+      "predicted": "retrieval time",
+      "category": "metric"
+    },
+    {
+      "gold": "translation quality",
+      "predicted": "translation quality",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "suffix arraybased data structure",
+      "predicted": "suffix array-based data structure",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "sampling",
+      "category": "method"
+    },
+    {
+      "entity": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "average retrieval times",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval time",
+      "category": "metric"
+    },
+    {
+      "entity": "translation quality",
+      "category": "metric"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "retrieval  of arbitrarily long  phrases",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "phrases",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "task": 2,
+    "method": 2,
+    "metric": 4
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "task": 2,
+    "material": 2,
+    "metric": 5
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.38461538461538464,
+  "recall": 0.4166666666666667,
+  "f1": 0.4,
+  "category_precision": 0.6153846153846154,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.64,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 13,
+    "exact_matches": 10,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 0,
+    "correct_predictions": 5,
+    "correct_categories": 8
+  }
+}

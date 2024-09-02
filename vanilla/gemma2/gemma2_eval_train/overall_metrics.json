@@ -1,0 +1,1996 @@
+{
+  "total_documents": 350,
+  "entity_metrics": {
+    "precision": 0.2187120291616039,
+    "recall": 0.23215821152192606,
+    "f1_score": 0.22523461939520334
+  },
+  "category_metrics": {
+    "precision": 0.6000405022276225,
+    "recall": 0.6369303525365434,
+    "f1_score": 0.6179353493222105
+  },
+  "total_counts": {
+    "gold_entities": 4652,
+    "predicted_entities": 4938,
+    "exact_matches": 2417,
+    "partial_matches": 550,
+    "split_matches": 18,
+    "category_matches": 1786,
+    "generic_matches": 0,
+    "missing_entities": 1667,
+    "extra_entities": 1854,
+    "generic_entities": 950,
+    "correct_predictions": 1080,
+    "correct_categories": 2963
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 542,
+      "predicted": 820,
+      "exact_matches": 299,
+      "partial_matches": 63,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 1448,
+      "predicted": 1332,
+      "exact_matches": 788,
+      "partial_matches": 164,
+      "split_matches": 6
+    },
+    "otherscientificterm": {
+      "gold": 1537,
+      "predicted": 1390,
+      "exact_matches": 753,
+      "partial_matches": 185,
+      "split_matches": 2
+    },
+    "metric": {
+      "gold": 231,
+      "predicted": 742,
+      "exact_matches": 146,
+      "partial_matches": 18,
+      "split_matches": 2
+    },
+    "task": {
+      "gold": 894,
+      "predicted": 654,
+      "exact_matches": 431,
+      "partial_matches": 120,
+      "split_matches": 7
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 321,
+    "total_repeated_entities": 757
+  },
+  "repeated_entities": {
+    "SLS systems|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "subcategorization dictionary|otherscientificterm": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "spelling correction|task": {
+      "count": 3,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "agglutinative languages|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "edges|otherscientificterm": {
+      "count": 5,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "electronic discussions|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "Hilbert style proof system|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "full unification|task": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "outliers|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "base classifiers|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "data representation|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "ensemble construction|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "resampling pairwise constraints|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "pairwise constraints|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "EuroWordNet|material": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "parser|method": {
+      "count": 5,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "unsupervised learning method|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "associative relationship|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "MT|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "natural language presuppositions|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "hierarchical relations|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "conditional independencies|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "verma constraints|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "dormant independencies|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "causal graph|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "defeasible reasoning|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "RAREAS|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "interlingual approach|method": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "language acquisition|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "linguistic representation|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "lexical hierarchy|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "linguistic concepts|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "computational lexicon|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "translation relation|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "inflection|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "English|material": {
+      "count": 5,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "Czech|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "deterministic parser|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "deterministic parsers|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "connectionist component|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "segmentation of complex scenes|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "coherent surfaces|otherscientificterm": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "wordsense distinctions|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "syntactic cues|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "word senses|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "accuracy|metric": {
+      "count": 8,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "layers|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "images|material": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "LNMF|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "dynamical model|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "particle-filter style tracker|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "intrinsic object structure|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "positions|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "velocities|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "appearance|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "global variables|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "translation|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "3-D reconstruction|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "homographies|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "tracking|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "vocabulary tree|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "quantization|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "flow field|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "HMHH|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "multi-label classification problems|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "hypergraph regularization|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "bn model parameters|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "BK algorithm|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "subgraphs|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "ptz cameras|otherscientificterm": {
+      "count": 4,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "relative positioning|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "orientation|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "automated surveillance systems|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "pixel accuracy|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "computational complexity|metric": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "ordinal manifold|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "one sense per collocation observation|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "fluorescence|otherscientificterm": {
+      "count": 6,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "geometric context of video|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "per-object 3D reconstructions|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "discriminative cooccurrence patterns|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "point cloud matching|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "class structures|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "SIFT|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "evaluation measures|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "human judgment|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "facial displays|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "cross-validation|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "SI-Nets|method": {
+      "count": 3,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "KL-Conc|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "systemic grammar|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "text generation|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "asr output|otherscientificterm": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "lexicalcohesion and conversational features|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "parametric model|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "translation  of  anaphoric relations|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "anaphoric component|method": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "whmovement|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "meaning of the tenses|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "system of relevant times|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "derived words|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "temporal connective|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "quantified sentences|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "animated GIFs|material": {
+      "count": 3,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "natural language descriptions|material": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "poorlytextured surfaces|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "dialogue systems|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "Comparator|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "Common Answer Specification|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "discriminative patches|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "unsupervised mid-level visual representation|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "dialog systems|task": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "DPGs|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "natural images|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "syntactic parsing of diagrams|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "diagram question answering|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "joint filter|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "guidance image|material": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "tensor method|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "visual representation|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "human pose|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "cluster tree|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "temporal consistency|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "LM|method": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "nlp structures|otherscientificterm": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "POURPRE|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "natural language processing|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "parsing|task": {
+      "count": 3,
+      "exact": 2,
+      "partial": 1,
+      "split": 0
+    },
+    "board|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "subcategorization frames|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "discourse|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "HBG|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "P-CFG|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "parse tree|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "parse|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "sense resolution|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "WordNet|material": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "polysemous word|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "treebank|material": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "tree-bank|material": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "BLEU|metric": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "word segmentation problem|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "character level|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "SMT models|method": {
+      "count": 4,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "dedicated  WSD models|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "WSD   accuracy|metric": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "shift-reduce dependency parsers|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "paraphrase|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "paraphrases|otherscientificterm": {
+      "count": 11,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "pkopen|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "msropen|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "honorifics|material": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "ranks|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "ILIMP|method": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "IR|task": {
+      "count": 5,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "ASR|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "paraphrasing method|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "bilingual corpora|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "generalized translation knowledge|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "low bit rates|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "frequency components|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "background maintenance|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "Wallflower|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "noise|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "reverberation|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "nsi|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "SMT|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "SMT system|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "STTK|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "search space|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "hfos|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "data annotation|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "recognition|task": {
+      "count": 5,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "arc-gv|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "Ant-Q|method": {
+      "count": 5,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "localizing functional objects|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "functional objects|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "change detection methods|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "approximate model|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "reallife trials|otherscientificterm": {
+      "count": 4,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "nearoptimal performance|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "MINPATH|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "hypothesis network|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "internal model|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "conjugate priors|otherscientificterm": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "conjugate prior|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "high-level program execution|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "disk|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "RCC-8|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "QCN|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "SHORTSTR2|method": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "STR2+|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "constraint|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "short supports|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "process models|method": {
+      "count": 5,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "KANAL|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "language model|method": {
+      "count": 4,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "intermediate domain|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "speaker verification system|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "SmartKom|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "pronunciation variation|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "speech processes|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "synthesis method|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "i-vector challenge|material": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "automatic image annotation|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "annotation|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "keywords|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "blobtokens|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "Maximum Entropy Model|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "blogs|material": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "Keyword Search|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "mwes|otherscientificterm": {
+      "count": 7,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "lexical units|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "tagging|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "lemmatization|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "SVC|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "speech quality|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "real-time VC|method": {
+      "count": 3,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "dsp|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "NAM|material": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "HMMs|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "decoder|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "word matches|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "class of languages|otherscientificterm": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "reduplication|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "context-free languages|material": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "restricted vocabulary|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "editor|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "hip hop lyrics|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "explanation system|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "features|otherscientificterm": {
+      "count": 9,
+      "exact": 3,
+      "partial": 0,
+      "split": 0
+    },
+    "boosting approach|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "ranking|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "tree|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "F-measure|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "utterance classification|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "manual transcription|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "classifier|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "word error rate|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "sentence plans|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "SPoT|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "SPR|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "PAKTUS|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "answering agents|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "out-of-domain  bilingual corpus|material": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "hubs|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "Cooperative Model|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "successive learners|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "blocks|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "temporal expressions|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "tagging strategies|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "formal analysis|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "search engine|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "operational semantics|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "InfoMagnets|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "hidden layer|otherscientificterm": {
+      "count": 4,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "npv|otherscientificterm": {
+      "count": 4,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "clustering framework|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "factor analysis|method": {
+      "count": 5,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "unsupervised linear regression|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "product analysis|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "distributed hidden variables|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "classification|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "learning algorithms|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "Identity uncertainty|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "citation matching|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "citations|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "local smoothness|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "retrieval accuracy|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "stochastic attention networks|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "action attributes|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "IE paradigm|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "predicateargument structures|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "montague semantics|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "HDAG Kernel|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "face detection|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "AdaBoost|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "detection rates|metric": {
+      "count": 3,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "rank|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "user modeling|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "cooperative responses|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "discourse understanding process|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "manually sense-tagged data|material": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "LTAG|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "HPSG|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "PCFG-LA|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "stemmer|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "log-linear models|method": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "domain-specific word alignment|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "sentiment|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "sense priors|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "well calibrated probabilities|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "correlation measure|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "HTML documents|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "precision|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "recall|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "taxonomic similarity|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "associative similarity|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "multi-tagging approach|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "pos tag ambiguity|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "written and spoken language|material": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "spoken language|material": {
+      "count": 4,
+      "exact": 3,
+      "partial": 0,
+      "split": 0
+    },
+    "subcategorization cues|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "punctuation|otherscientificterm": {
+      "count": 3,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "natural language interfaces|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "non-literal aspects of communication|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "lexical substitutions|otherscientificterm": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "construction-specific approach|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "ambiguity|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "construction|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "parsing strategies|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "morphology|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "syntactic dependencies LAS|metric": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "semantic dependencies F1|metric": {
+      "count": 2,
+      "exact": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "mesh|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "English-to-Japanese dictionary|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "syntactic roles|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "categorization task|task": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "adhoc task|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "NormF|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "TUIT|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  }
+}

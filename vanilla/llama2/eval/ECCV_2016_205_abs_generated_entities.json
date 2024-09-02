@@ -1,0 +1,279 @@
+{
+  "gold_entities": [
+    {
+      "entity": "video sequence",
+      "category": "Material"
+    },
+    {
+      "entity": "template-based methods",
+      "category": "Method"
+    },
+    {
+      "entity": "non-rigid structure from motion techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "3d shape model",
+      "category": "Method"
+    },
+    {
+      "entity": "template-free approach",
+      "category": "Method"
+    },
+    {
+      "entity": "surface isometry",
+      "category": "Method"
+    },
+    {
+      "entity": "monocular nonrigid 3d reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "3d reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "joint problem of non-rigid image registration and depth estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "3d reconstructions",
+      "category": "Task"
+    },
+    {
+      "entity": "poorly-textured surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shape template",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "poorly-textured surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "poorly-textured, deformable surface",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "non-rigid structure from motion techniques",
+      "category": "Task"
+    },
+    {
+      "entity": "3d shape model",
+      "category": "Task"
+    },
+    {
+      "entity": "surface isometry",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "depth estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "image registration",
+      "category": "Task"
+    },
+    {
+      "entity": "video sequence",
+      "category": "Material"
+    },
+    {
+      "entity": "poorlytextured surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "deformable surface",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "stateoftheart techniques",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approaches",
+      "category": "Generic"
+    },
+    {
+      "entity": "ones",
+      "category": "Generic"
+    },
+    {
+      "entity": "they",
+      "category": "Generic"
+    },
+    {
+      "entity": "ones",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "state-of-the-art techniques",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "non-rigid structure from motion techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "non-rigid structure from motion techniques",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "3d shape model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "3d shape model",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "surface isometry",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "surface isometry",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "video sequence",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "video sequence",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "video sequence",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "video sequence",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "joint problem of non-rigid image registration and depth estimation",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "depth estimation",
+          "category": "Task"
+        },
+        {
+          "entity": "image registration",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "poorly-textured, deformable surface",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "deformable surface",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "template-based methods",
+      "category": "Method"
+    },
+    {
+      "entity": "template-free approach",
+      "category": "Method"
+    },
+    {
+      "entity": "monocular nonrigid 3d reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "3d reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "3d reconstructions",
+      "category": "Task"
+    },
+    {
+      "entity": "poorly-textured surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shape template",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "poorly-textured surfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "poorlytextured surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "stateoftheart techniques",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "poorly-textured surfaces": 2
+  },
+  "distinct_repeated_entities": [
+    "poorly-textured surfaces"
+  ],
+  "counts": {
+    "gold_count": 15,
+    "generated_count": 9,
+    "generic_count": 6,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

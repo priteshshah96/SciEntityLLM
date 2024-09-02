@@ -1,0 +1,250 @@
+{
+  "doc_key": "H01-1055",
+  "gold_entities": [
+    {
+      "entity": "Automatic Speech Recognition technology",
+      "category": "method"
+    },
+    {
+      "entity": "hand-crafting  knowledge-based generation systems",
+      "category": "method"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    },
+    {
+      "entity": "natural language generation community",
+      "category": "task"
+    },
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    },
+    {
+      "entity": "generation",
+      "category": "task"
+    },
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    },
+    {
+      "entity": "system response",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Automatic Speech Recognition",
+      "category": "method"
+    },
+    {
+      "entity": "Dialog Systems",
+      "category": "task"
+    },
+    {
+      "entity": "Speech Recognition",
+      "category": "method"
+    },
+    {
+      "entity": "user",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "system response",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural Language Generation",
+      "category": "method"
+    },
+    {
+      "entity": "Generation",
+      "category": "method"
+    },
+    {
+      "entity": "Machine Learning Techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Knowledge-Based Generation Systems",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "machine learning techniques",
+      "predicted": "Machine Learning Techniques",
+      "category": "method"
+    },
+    {
+      "gold": "dialog systems",
+      "predicted": "Dialog Systems",
+      "category": "task"
+    },
+    {
+      "gold": "speech recognition",
+      "predicted": "Speech Recognition",
+      "category": "task"
+    },
+    {
+      "gold": "generation",
+      "predicted": "Generation",
+      "category": "task"
+    },
+    {
+      "gold": "system response",
+      "predicted": "system response",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Automatic Speech Recognition technology",
+      "predicted": "Automatic Speech Recognition",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "hand-crafting  knowledge-based generation systems",
+      "predicted": "Knowledge-Based Generation Systems",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "natural language generation community",
+      "predicted": "Natural Language Generation",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    },
+    {
+      "entity": "system response",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Automatic Speech Recognition technology",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    },
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    },
+    {
+      "entity": "dialog systems",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "user",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "dialog systems|task": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 7,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "task": 1,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 1,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.125,
+  "f1": 0.11764705882352941,
+  "category_precision": 0.5555555555555556,
+  "category_recall": 0.45454545454545453,
+  "category_f1": 0.5,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 9,
+    "exact_matches": 5,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 1,
+    "generic_entities": 1,
+    "correct_predictions": 1,
+    "correct_categories": 5
+  }
+}

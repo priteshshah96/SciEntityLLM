@@ -1,0 +1,309 @@
+{
+  "doc_key": "CVPR_2012_10_abs",
+  "gold_entities": [
+    {
+      "entity": "Automated facial expression recognition",
+      "category": "task"
+    },
+    {
+      "entity": "dynamic ordinal regression",
+      "category": "task"
+    },
+    {
+      "entity": "simultaneous dynamic recognition",
+      "category": "task"
+    },
+    {
+      "entity": "intensity estimation of facial expressions",
+      "category": "task"
+    },
+    {
+      "entity": "temporal evolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intensity of the observed facial displays",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrinsic topology of multidimensional continuous facial",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ordinal manifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hcorf parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ordinal manifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multidimensional (multi-class) continuous facial behaviour data",
+      "category": "material"
+    },
+    {
+      "entity": "spontaneous facial affect data",
+      "category": "material"
+    },
+    {
+      "entity": "binary classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "Hidden Conditional Ordinal Random Field (H-CORF) framework",
+      "category": "method"
+    },
+    {
+      "entity": "the proposed method",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Automated facial expression recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Temporal evolution",
+      "category": "metric"
+    },
+    {
+      "entity": "Intensity",
+      "category": "metric"
+    },
+    {
+      "entity": "Multidimensional continuous facial behaviour data",
+      "category": "metric"
+    },
+    {
+      "entity": "Binary classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "intrinsic topology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ordinal manifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hidden Conditional Ordinal Random Field (H-CORF)",
+      "category": "method"
+    },
+    {
+      "entity": "Dynamic ordinal regression",
+      "category": "method"
+    },
+    {
+      "entity": "Spontaneous facial affect data",
+      "category": "material"
+    },
+    {
+      "entity": "Deliberate facial affect data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Automated facial expression recognition",
+      "predicted": "Automated facial expression recognition",
+      "category": "task"
+    },
+    {
+      "gold": "dynamic ordinal regression",
+      "predicted": "Dynamic ordinal regression",
+      "category": "task"
+    },
+    {
+      "gold": "temporal evolution",
+      "predicted": "Temporal evolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "ordinal manifold",
+      "predicted": "ordinal manifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "spontaneous facial affect data",
+      "predicted": "Spontaneous facial affect data",
+      "category": "material"
+    },
+    {
+      "gold": "binary classifiers",
+      "predicted": "Binary classifiers",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multidimensional (multi-class) continuous facial behaviour data",
+      "predicted": "Multidimensional continuous facial behaviour data",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "Hidden Conditional Ordinal Random Field (H-CORF) framework",
+      "predicted": "Hidden Conditional Ordinal Random Field (H-CORF)",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "Automated facial expression recognition",
+      "category": "task"
+    },
+    {
+      "entity": "ordinal manifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spontaneous facial affect data",
+      "category": "material"
+    },
+    {
+      "entity": "binary classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "Hidden Conditional Ordinal Random Field (H-CORF) framework",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "simultaneous dynamic recognition",
+      "category": "task"
+    },
+    {
+      "entity": "intensity estimation of facial expressions",
+      "category": "task"
+    },
+    {
+      "entity": "intensity of the observed facial displays",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrinsic topology of multidimensional continuous facial",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ordinal manifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hcorf parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "the proposed method",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Intensity",
+      "category": "metric"
+    },
+    {
+      "entity": "intrinsic topology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Deliberate facial affect data",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "ordinal manifold|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 6,
+    "material": 2,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "metric": 3,
+    "method": 3,
+    "otherscientificterm": 2,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.14285714285714285,
+  "f1": 0.16,
+  "category_precision": 0.7272727272727273,
+  "category_recall": 0.5333333333333333,
+  "category_f1": 0.6153846153846153,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 11,
+    "exact_matches": 6,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 3,
+    "generic_entities": 4,
+    "correct_predictions": 2,
+    "correct_categories": 8
+  }
+}

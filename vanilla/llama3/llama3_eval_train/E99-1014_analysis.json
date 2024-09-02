@@ -1,0 +1,277 @@
+{
+  "doc_key": "E99-1014",
+  "gold_entities": [
+    {
+      "entity": "full parsing",
+      "category": "task"
+    },
+    {
+      "entity": "Information Extraction",
+      "category": "task"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unambiguous structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "argumental relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modifier attachment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global parse tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "IE module",
+      "category": "method"
+    },
+    {
+      "entity": "FACILE, a EU project for multilingual text classification and IE",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "full parsing",
+      "category": "task"
+    },
+    {
+      "entity": "Information Extraction",
+      "category": "task"
+    },
+    {
+      "entity": "rules",
+      "category": "method"
+    },
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "chunks",
+      "category": "material"
+    },
+    {
+      "entity": "argumental relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modifier attachment",
+      "category": "task"
+    },
+    {
+      "entity": "global parse tree",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    },
+    {
+      "entity": "IE module",
+      "category": "material"
+    },
+    {
+      "entity": "FACILE",
+      "category": "material"
+    },
+    {
+      "entity": "EU project",
+      "category": "material"
+    },
+    {
+      "entity": "multilingual text classification",
+      "category": "task"
+    },
+    {
+      "entity": "cascades",
+      "category": "method"
+    },
+    {
+      "entity": "deterministic analysis",
+      "category": "method"
+    },
+    {
+      "entity": "unambiguous structures",
+      "category": "material"
+    },
+    {
+      "entity": "sequence",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "rules",
+      "predicted": "rules",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unambiguous structures",
+      "predicted": "unambiguous structures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "modifier attachment",
+      "predicted": "modifier attachment",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "global parse tree",
+      "predicted": "global parse tree",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "IE module",
+      "predicted": "IE module",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "full parsing",
+      "predicted": "full parsing",
+      "category": "task"
+    },
+    {
+      "gold": "Information Extraction",
+      "predicted": "Information Extraction",
+      "category": "task"
+    },
+    {
+      "gold": "argumental relations",
+      "predicted": "argumental relations",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "FACILE, a EU project for multilingual text classification and IE",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "chunks",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    },
+    {
+      "entity": "EU project",
+      "category": "material"
+    },
+    {
+      "entity": "multilingual text classification",
+      "category": "task"
+    },
+    {
+      "entity": "cascades",
+      "category": "method"
+    },
+    {
+      "entity": "deterministic analysis",
+      "category": "method"
+    },
+    {
+      "entity": "sequence",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 4,
+    "material": 9,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 4,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.3333333333333333,
+  "f1": 0.2222222222222222,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 18,
+    "exact_matches": 5,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 9,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

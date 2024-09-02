@@ -1,0 +1,287 @@
+{
+  "gold_entities": [
+    {
+      "entity": "text collections",
+      "category": "Material"
+    },
+    {
+      "entity": "pharmaceutical news archive",
+      "category": "Material"
+    },
+    {
+      "entity": "information extraction (ie) systems",
+      "category": "Method"
+    },
+    {
+      "entity": "text browser",
+      "category": "Method"
+    },
+    {
+      "entity": "ie-enhanced text browsers",
+      "category": "Method"
+    },
+    {
+      "entity": "qualitative user evaluation",
+      "category": "Metric"
+    },
+    {
+      "entity": "named entity annotations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenario templates",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "information extraction (ie)",
+      "category": "Task"
+    },
+    {
+      "entity": "named entity annotations",
+      "category": "Material"
+    },
+    {
+      "entity": "scenario templates",
+      "category": "Material"
+    },
+    {
+      "entity": "text collections",
+      "category": "Material"
+    },
+    {
+      "entity": "text browser",
+      "category": "Method"
+    },
+    {
+      "entity": "prototype system",
+      "category": "Method"
+    },
+    {
+      "entity": "information workers",
+      "category": "Material"
+    },
+    {
+      "entity": "pharmaceutical news archive",
+      "category": "Material"
+    },
+    {
+      "entity": "industry watch",
+      "category": "Task"
+    },
+    {
+      "entity": "qualitative user evaluation",
+      "category": "Method"
+    },
+    {
+      "entity": "interface",
+      "category": "Material"
+    },
+    {
+      "entity": "users",
+      "category": "Material"
+    },
+    {
+      "entity": "ieenhanced text browsers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "interface",
+      "category": "Material"
+    },
+    {
+      "entity": "users",
+      "category": "Material"
+    },
+    {
+      "entity": "ieenhanced text browsers",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "outputs",
+      "category": "Generic"
+    },
+    {
+      "entity": "prototype system",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "named entity annotations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "named entity annotations",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scenario templates",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "scenario templates",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "text collections",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "text collections",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "text browser",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "text browser",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pharmaceutical news archive",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "pharmaceutical news archive",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "qualitative user evaluation",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "qualitative user evaluation",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "text collections",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "text collections",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "text browser",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "text browser",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pharmaceutical news archive",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "pharmaceutical news archive",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "information extraction (ie) systems",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "information extraction (ie)",
+          "category": "Task"
+        },
+        {
+          "entity": "information workers",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "ie-enhanced text browsers",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "ieenhanced text browsers",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "ieenhanced text browsers",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.3333333333333333
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "prototype system",
+      "category": "Method"
+    },
+    {
+      "entity": "industry watch",
+      "category": "Task"
+    },
+    {
+      "entity": "interface",
+      "category": "Material"
+    },
+    {
+      "entity": "users",
+      "category": "Material"
+    },
+    {
+      "entity": "interface",
+      "category": "Material"
+    },
+    {
+      "entity": "users",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 16,
+    "generic_count": 3,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

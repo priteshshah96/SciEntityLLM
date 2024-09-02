@@ -1,0 +1,273 @@
+{
+  "doc_key": "INTERSPEECH_2014_31_abs",
+  "gold_entities": [
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "NIST Speaker Recognition Evaluations (SREs)",
+      "category": "material"
+    },
+    {
+      "entity": "SRE series",
+      "category": "material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "audio recordings",
+      "category": "material"
+    },
+    {
+      "entity": "SRE",
+      "category": "material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "fixedlength feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lowdimensional space ivectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "audio processing field",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "i-vector challenge",
+      "category": "task"
+    },
+    {
+      "entity": "NIST",
+      "category": "material"
+    },
+    {
+      "entity": "Speaker Recognition Evaluations (SREs)",
+      "category": "material"
+    },
+    {
+      "entity": "ivectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lowdimensional space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "audio recordings",
+      "category": "material"
+    },
+    {
+      "entity": "participants",
+      "category": "material"
+    },
+    {
+      "entity": "audio processing field",
+      "category": "material"
+    },
+    {
+      "entity": "2012 SRE",
+      "category": "material"
+    },
+    {
+      "entity": "baseline system",
+      "category": "material"
+    },
+    {
+      "entity": "leading system",
+      "category": "material"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "approximate 37%",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "i-vector challenge",
+      "predicted": "i-vector challenge",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "audio processing field",
+      "predicted": "audio processing field",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "audio recordings",
+      "predicted": "audio recordings",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "NIST Speaker Recognition Evaluations (SREs)",
+      "predicted": "Speaker Recognition Evaluations (SREs)",
+      "score": 0.75,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "SRE",
+      "predicted": "2012 SRE",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "fixedlength feature vectors",
+      "predicted": "feature vectors",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "lowdimensional space ivectors",
+      "predicted": "lowdimensional space",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "SRE series",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "NIST",
+      "category": "material"
+    },
+    {
+      "entity": "ivectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "participants",
+      "category": "material"
+    },
+    {
+      "entity": "baseline system",
+      "category": "material"
+    },
+    {
+      "entity": "leading system",
+      "category": "material"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "approximate 37%",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "i-vector challenge|material": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "material": 7,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 8,
+    "otherscientificterm": 3,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 7,
+      "predicted": 8,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07142857142857142,
+  "recall": 0.1,
+  "f1": 0.08333333333333333,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

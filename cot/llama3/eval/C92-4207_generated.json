@@ -1,0 +1,165 @@
+{
+  "gold_entities": [
+    {
+      "entity": "japanese",
+      "category": "Material"
+    },
+    {
+      "entity": "natural language texts",
+      "category": "Material"
+    },
+    {
+      "entity": "geometric model",
+      "category": "Method"
+    },
+    {
+      "entity": "computer program sprint",
+      "category": "Method"
+    },
+    {
+      "entity": "spatial descriptions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "qualitative spatial constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "numerical constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial attributes of the entities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial concepts",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "spatial descriptions",
+      "category": "Method"
+    },
+    {
+      "entity": "japanese . in order to understand the described world , the authors try to reconstruct the geometric model of the global scene from the scenic descriptions drawing a space.",
+      "category": "Material"
+    },
+    {
+      "entity": "computer program sprint , which takes natural language texts and produces a model of the described world .",
+      "category": "Material"
+    },
+    {
+      "entity": "qualitative spatial constraints from the text , and represent them as the numerical constraints on the spatial attributes of the entities .",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "maximally plausible interpretation from a chunk of information accumulated as the constraints.",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporary belief about the world .",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "spatial descriptions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "spatial descriptions",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "spatial attributes of the entities",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "japanese . in order to understand the described world , the authors try to reconstruct the geometric model of the global scene from the scenic descriptions drawing a space.",
+          "category": "Material"
+        },
+        {
+          "entity": "computer program sprint , which takes natural language texts and produces a model of the described world .",
+          "category": "Material"
+        },
+        {
+          "entity": "qualitative spatial constraints from the text , and represent them as the numerical constraints on the spatial attributes of the entities .",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "maximally plausible interpretation from a chunk of information accumulated as the constraints.",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "temporary belief about the world .",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 0.8218954248366013
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "japanese",
+      "category": "Material"
+    },
+    {
+      "entity": "natural language texts",
+      "category": "Material"
+    },
+    {
+      "entity": "geometric model",
+      "category": "Method"
+    },
+    {
+      "entity": "computer program sprint",
+      "category": "Method"
+    },
+    {
+      "entity": "qualitative spatial constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "numerical constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial concepts",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 6,
+    "generic_count": 2,
+    "exact_matches": 1,
+    "exact_category_matches": 0,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

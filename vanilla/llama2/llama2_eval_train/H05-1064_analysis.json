@@ -1,0 +1,315 @@
+{
+  "doc_key": "H05-1064",
+  "gold_entities": [
+    {
+      "entity": "nlp structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hiddenvariable assignments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nlp structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parse trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reranking approaches",
+      "category": "method"
+    },
+    {
+      "entity": "conditional log-linear model",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic programming",
+      "category": "method"
+    },
+    {
+      "entity": "base parser",
+      "category": "method"
+    },
+    {
+      "entity": "Collins (2000) reranker",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative training criterion",
+      "category": "metric"
+    },
+    {
+      "entity": "F-measure",
+      "category": "metric"
+    },
+    {
+      "entity": "parse reranking",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "- Method",
+      "category": "task"
+    },
+    {
+      "entity": "- Conditional log-linear model",
+      "category": "method"
+    },
+    {
+      "entity": "- Hidden variables",
+      "category": "method"
+    },
+    {
+      "entity": "lexical items",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "- Discriminative training criterion",
+      "category": "method"
+    },
+    {
+      "entity": "- Dynamic programming",
+      "category": "method"
+    },
+    {
+      "entity": "exponential number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "- F-measure",
+      "category": "metric"
+    },
+    {
+      "entity": "base parser",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "collins 2000 reranker",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nlp structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parse trees",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "base parser",
+      "predicted": "base parser",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "nlp structures",
+      "predicted": "nlp structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "word clusters",
+      "predicted": "word clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "word senses",
+      "predicted": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "parse trees",
+      "predicted": "parse trees",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "hidden variables",
+      "predicted": "- Hidden variables",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "conditional log-linear model",
+      "predicted": "- Conditional log-linear model",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "dynamic programming",
+      "predicted": "- Dynamic programming",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "discriminative training criterion",
+      "predicted": "- Discriminative training criterion",
+      "score": 0.75,
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "F-measure",
+      "predicted": "- F-measure",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "nlp structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hiddenvariable assignments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reranking approaches",
+      "category": "method"
+    },
+    {
+      "entity": "Collins (2000) reranker",
+      "category": "method"
+    },
+    {
+      "entity": "parse reranking",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "- Method",
+      "category": "task"
+    },
+    {
+      "entity": "lexical items",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "exponential number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "collins 2000 reranker",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "nlp structures|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 5,
+    "metric": 2,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 8,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.25,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 5,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 4,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

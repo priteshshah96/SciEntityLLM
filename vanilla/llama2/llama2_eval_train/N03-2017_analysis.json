@@ -1,0 +1,168 @@
+{
+  "doc_key": "N03-2017",
+  "gold_entities": [
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "English phrases",
+      "category": "material"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "cohesion constraint",
+      "category": "method"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "english phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "french sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "cohesion constraint",
+      "predicted": "cohesion constraint",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "English phrases",
+      "predicted": "english phrases",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "French sentence",
+      "predicted": "french sentence",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "word alignment",
+      "predicted": "word alignment",
+      "category": "task"
+    },
+    {
+      "gold": "alignment quality",
+      "predicted": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "task": 1,
+    "material": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "task": 1,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.3333333333333333,
+  "f1": 0.3636363636363636,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 5,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 0,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,160 @@
+{
+  "doc_key": "E99-1015",
+  "gold_entities": [
+    {
+      "entity": "automatic abstracting systems",
+      "category": "task"
+    },
+    {
+      "entity": "training resources",
+      "category": "material"
+    },
+    {
+      "entity": "scientific articles",
+      "category": "material"
+    },
+    {
+      "entity": "annotation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "rhetorical moves  of  argumentation",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "rhetorical moves",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training resources",
+      "category": "task"
+    },
+    {
+      "entity": "Annotation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "Scientific articles",
+      "category": "material"
+    },
+    {
+      "entity": "consistent way",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Automatic abstracting systems",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "training resources",
+      "predicted": "Training resources",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "automatic abstracting systems",
+      "predicted": "Automatic abstracting systems",
+      "category": "task"
+    },
+    {
+      "gold": "scientific articles",
+      "predicted": "Scientific articles",
+      "category": "material"
+    },
+    {
+      "gold": "annotation scheme",
+      "predicted": "Annotation scheme",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "rhetorical moves  of  argumentation",
+      "predicted": "rhetorical moves",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "consistent way",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 2,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 2,
+    "method": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.6,
+  "f1": 0.5454545454545454,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 6,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 1,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

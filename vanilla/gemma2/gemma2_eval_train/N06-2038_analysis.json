@@ -1,0 +1,187 @@
+{
+  "doc_key": "N06-2038",
+  "gold_entities": [
+    {
+      "entity": "information extraction",
+      "category": "task"
+    },
+    {
+      "entity": "token classification task",
+      "category": "task"
+    },
+    {
+      "entity": "tagging strategies",
+      "category": "method"
+    },
+    {
+      "entity": "tagging strategies",
+      "category": "method"
+    },
+    {
+      "entity": "Begin/After tagging",
+      "category": "method"
+    },
+    {
+      "entity": "BIA",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Token classification task",
+      "category": "task"
+    },
+    {
+      "entity": "Information extraction",
+      "category": "task"
+    },
+    {
+      "entity": "Tagging strategies",
+      "category": "method"
+    },
+    {
+      "entity": "Tokens",
+      "category": "material"
+    },
+    {
+      "entity": "Begin/After tagging",
+      "category": "method"
+    },
+    {
+      "entity": "bia",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "information extraction",
+      "predicted": "Information extraction",
+      "category": "task"
+    },
+    {
+      "gold": "token classification task",
+      "predicted": "Token classification task",
+      "category": "task"
+    },
+    {
+      "gold": "tagging strategies",
+      "predicted": "Tagging strategies",
+      "category": "method"
+    },
+    {
+      "gold": "Begin/After tagging",
+      "predicted": "Begin/After tagging",
+      "category": "method"
+    },
+    {
+      "gold": "BIA",
+      "predicted": "bia",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "information extraction",
+      "category": "task"
+    },
+    {
+      "entity": "token classification task",
+      "category": "task"
+    },
+    {
+      "entity": "tagging strategies",
+      "category": "method"
+    },
+    {
+      "entity": "Begin/After tagging",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "tagging strategies",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Tokens",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "tagging strategies|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.2,
+  "f1": 0.1818181818181818,
+  "category_precision": 0.6666666666666666,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.6666666666666666,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 6,
+    "exact_matches": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 1,
+    "generic_entities": 4,
+    "correct_predictions": 1,
+    "correct_categories": 4
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "doc_key": "C92-3165",
+  "gold_entities": [
+    {
+      "entity": "speech understanding",
+      "category": "task"
+    },
+    {
+      "entity": "generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Parsing",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbol",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unknown words",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "robust interactive method",
+      "category": "task"
+    },
+    {
+      "entity": "speech understanding",
+      "category": "task"
+    },
+    {
+      "entity": "generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "left to right",
+      "category": "method"
+    },
+    {
+      "entity": "minor errors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fake non-terminal symbol",
+      "category": "method"
+    },
+    {
+      "entity": "unidentified portion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "re-utterance",
+      "category": "method"
+    },
+    {
+      "entity": "parse record",
+      "category": "material"
+    },
+    {
+      "entity": "first utterance",
+      "category": "material"
+    },
+    {
+      "entity": "user",
+      "category": "material"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    },
+    {
+      "entity": "unknown words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "pilot system",
+      "category": "material"
+    },
+    {
+      "entity": "effectiveness",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Parsing",
+      "predicted": "parsing",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "speech understanding",
+      "predicted": "speech understanding",
+      "category": "task"
+    },
+    {
+      "gold": "generalized LR parsing",
+      "predicted": "generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "gold": "unknown words",
+      "predicted": "unknown words",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbol",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "robust interactive method",
+      "category": "task"
+    },
+    {
+      "entity": "left to right",
+      "category": "method"
+    },
+    {
+      "entity": "minor errors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fake non-terminal symbol",
+      "category": "method"
+    },
+    {
+      "entity": "unidentified portion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "re-utterance",
+      "category": "method"
+    },
+    {
+      "entity": "parse record",
+      "category": "material"
+    },
+    {
+      "entity": "first utterance",
+      "category": "material"
+    },
+    {
+      "entity": "user",
+      "category": "material"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    },
+    {
+      "entity": "dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "pilot system",
+      "category": "material"
+    },
+    {
+      "entity": "effectiveness",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 3,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 4,
+    "otherscientificterm": 3,
+    "material": 6,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.17647058823529413,
+  "recall": 0.5,
+  "f1": 0.2608695652173913,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 17,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 13,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

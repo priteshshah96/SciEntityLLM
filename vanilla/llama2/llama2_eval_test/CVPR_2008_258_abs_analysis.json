@@ -1,0 +1,296 @@
+{
+  "doc_key": "CVPR_2008_258_abs",
+  "gold_entities": [
+    {
+      "entity": "unsupervised seg-mentation of whole objects",
+      "category": "task"
+    },
+    {
+      "entity": "partial scene segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "entity": "soft binary mattes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypothesized object boundary fragments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "delineation of scene objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spectral clustering",
+      "category": "method"
+    },
+    {
+      "entity": "image matting",
+      "category": "method"
+    },
+    {
+      "entity": "boundary detection",
+      "category": "method"
+    },
+    {
+      "entity": "dataset of scenes",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Image",
+      "category": "material"
+    },
+    {
+      "entity": "scene",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypothesized",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "best",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Metrics",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "Accurate",
+      "category": "method"
+    },
+    {
+      "entity": "Parsimonious",
+      "category": "method"
+    },
+    {
+      "entity": "Boundary",
+      "category": "method"
+    },
+    {
+      "entity": "Spectral",
+      "category": "method"
+    },
+    {
+      "entity": "Clustering",
+      "category": "method"
+    },
+    {
+      "entity": "Matting",
+      "category": "method"
+    },
+    {
+      "entity": "Object discovery",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "unsupervised object discovery",
+      "predicted": "Object discovery",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "spectral clustering",
+      "predicted": "Spectral",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "image matting",
+      "predicted": "Image",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "boundary detection",
+      "predicted": "Boundary",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unsupervised seg-mentation of whole objects",
+      "category": "task"
+    },
+    {
+      "entity": "partial scene segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "task"
+    },
+    {
+      "entity": "soft binary mattes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypothesized object boundary fragments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "delineation of scene objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dataset of scenes",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "scene",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypothesized",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "best",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Metrics",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "Accurate",
+      "category": "method"
+    },
+    {
+      "entity": "Parsimonious",
+      "category": "method"
+    },
+    {
+      "entity": "Clustering",
+      "category": "method"
+    },
+    {
+      "entity": "Matting",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "unsupervised object discovery|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 3,
+    "method": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 1,
+    "otherscientificterm": 4,
+    "method": 8
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 15,
+    "exact_matches": 0,
+    "exact_matches_with_category": 0,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 11,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

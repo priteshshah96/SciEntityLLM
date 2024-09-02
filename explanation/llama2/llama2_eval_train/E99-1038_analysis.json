@@ -1,0 +1,248 @@
+{
+  "doc_key": "E99-1038",
+  "gold_entities": [
+    {
+      "entity": "cognitopragmatic nature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge store",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "determination process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "social and cognitive psychology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fda",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourselevel construct",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "a file card model of  discourse model  and  knowledge store",
+      "category": "method"
+    },
+    {
+      "entity": "discourse model",
+      "category": "method"
+    },
+    {
+      "entity": "programmable algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "FDA",
+      "category": "method"
+    },
+    {
+      "entity": "speech synthesis systems",
+      "category": "method"
+    },
+    {
+      "entity": "concept-to-speech systems",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "focus",
+      "category": "task"
+    },
+    {
+      "entity": "discourse",
+      "category": "method"
+    },
+    {
+      "entity": "cognitopragmatic nature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "determination process",
+      "category": "task"
+    },
+    {
+      "entity": "file card model",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge store",
+      "category": "material"
+    },
+    {
+      "entity": "fda",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourselevel construct",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech synthesis systems",
+      "category": "material"
+    },
+    {
+      "entity": "concept-to-speech systems",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discourse",
+      "predicted": "discourse",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "knowledge store",
+      "predicted": "knowledge store",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "determination process",
+      "predicted": "determination process",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "speech synthesis systems",
+      "predicted": "speech synthesis systems",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "concept-to-speech systems",
+      "predicted": "concept-to-speech systems",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "cognitopragmatic nature",
+      "predicted": "cognitopragmatic nature",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "fda",
+      "predicted": "fda",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourselevel construct",
+      "predicted": "discourselevel construct",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "social and cognitive psychology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "a file card model of  discourse model  and  knowledge store",
+      "category": "method"
+    },
+    {
+      "entity": "discourse model",
+      "category": "method"
+    },
+    {
+      "entity": "programmable algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "FDA",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "focus",
+      "category": "task"
+    },
+    {
+      "entity": "file card model",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 6
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 3,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.23076923076923078,
+  "f1": 0.2608695652173913,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 10,
+    "exact_matches": 5,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

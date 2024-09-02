@@ -1,0 +1,215 @@
+{
+  "doc_key": "NIPS_2002_11_abs",
+  "gold_entities": [
+    {
+      "entity": "clustering",
+      "category": "task"
+    },
+    {
+      "entity": "reasoning",
+      "category": "task"
+    },
+    {
+      "entity": "unified framework",
+      "category": "method"
+    },
+    {
+      "entity": "unification",
+      "category": "method"
+    },
+    {
+      "entity": "impossibility theorem",
+      "category": "method"
+    },
+    {
+      "entity": "well-studied clustering techniques",
+      "category": "method"
+    },
+    {
+      "entity": "single-linkage",
+      "category": "method"
+    },
+    {
+      "entity": "sum-of-pairs",
+      "category": "method"
+    },
+    {
+      "entity": "k-means",
+      "category": "method"
+    },
+    {
+      "entity": "k-median",
+      "category": "method"
+    },
+    {
+      "entity": "clustering function",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "clustering",
+      "category": "task"
+    },
+    {
+      "entity": "clustering function",
+      "category": "method"
+    },
+    {
+      "entity": "impossibility theorem",
+      "category": "method"
+    },
+    {
+      "entity": "properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single-linkage",
+      "category": "method"
+    },
+    {
+      "entity": "sum-of-pairs",
+      "category": "method"
+    },
+    {
+      "entity": "k-means",
+      "category": "method"
+    },
+    {
+      "entity": "k-median",
+      "category": "method"
+    },
+    {
+      "entity": "tradeoffs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "clustering function",
+      "predicted": "clustering function",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "clustering",
+      "predicted": "clustering",
+      "category": "task"
+    },
+    {
+      "gold": "impossibility theorem",
+      "predicted": "impossibility theorem",
+      "category": "method"
+    },
+    {
+      "gold": "single-linkage",
+      "predicted": "single-linkage",
+      "category": "method"
+    },
+    {
+      "gold": "sum-of-pairs",
+      "predicted": "sum-of-pairs",
+      "category": "method"
+    },
+    {
+      "gold": "k-means",
+      "predicted": "k-means",
+      "category": "method"
+    },
+    {
+      "gold": "k-median",
+      "predicted": "k-median",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "reasoning",
+      "category": "task"
+    },
+    {
+      "entity": "unified framework",
+      "category": "method"
+    },
+    {
+      "entity": "unification",
+      "category": "method"
+    },
+    {
+      "entity": "well-studied clustering techniques",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tradeoffs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 8,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 6,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 8,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.6666666666666666,
+  "recall": 0.5454545454545454,
+  "f1": 0.6,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

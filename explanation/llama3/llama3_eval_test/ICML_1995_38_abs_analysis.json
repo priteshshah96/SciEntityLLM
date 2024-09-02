@@ -1,0 +1,288 @@
+{
+  "doc_key": "ICML_1995_38_abs",
+  "gold_entities": [
+    {
+      "entity": "learning in autonomous agents",
+      "category": "task"
+    },
+    {
+      "entity": "planning systems",
+      "category": "task"
+    },
+    {
+      "entity": "simulated construction",
+      "category": "task"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "task"
+    },
+    {
+      "entity": "domain-speciic models of actions",
+      "category": "method"
+    },
+    {
+      "entity": "action models",
+      "category": "method"
+    },
+    {
+      "entity": "action model formalism",
+      "category": "method"
+    },
+    {
+      "entity": "re-active agent",
+      "category": "method"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "GOLEM",
+      "category": "method"
+    },
+    {
+      "entity": "action models",
+      "category": "method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "method"
+    },
+    {
+      "entity": "domain expert",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "methods",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "autonomous agents",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific models of actions",
+      "category": "method"
+    },
+    {
+      "entity": "planning systems",
+      "category": "material"
+    },
+    {
+      "entity": "action models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain expert",
+      "category": "material"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "GOLEM",
+      "category": "method"
+    },
+    {
+      "entity": "training instances",
+      "category": "material"
+    },
+    {
+      "entity": "experience",
+      "category": "material"
+    },
+    {
+      "entity": "observation",
+      "category": "material"
+    },
+    {
+      "entity": "simulated construction and ooce domains",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "planning systems",
+      "predicted": "planning systems",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "action models",
+      "predicted": "action models",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "domain expert",
+      "predicted": "domain expert",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "noise-handling mechanisms",
+      "predicted": "noise-handling mechanisms",
+      "category": "method"
+    },
+    {
+      "gold": "GOLEM",
+      "predicted": "GOLEM",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "learning in autonomous agents",
+      "predicted": "autonomous agents",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "domain-speciic models of actions",
+      "predicted": "domain-specific models of actions",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "simulated construction",
+      "category": "task"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "task"
+    },
+    {
+      "entity": "action models",
+      "category": "method"
+    },
+    {
+      "entity": "action model formalism",
+      "category": "method"
+    },
+    {
+      "entity": "re-active agent",
+      "category": "method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "method"
+    },
+    {
+      "entity": "methods",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "training instances",
+      "category": "material"
+    },
+    {
+      "entity": "experience",
+      "category": "material"
+    },
+    {
+      "entity": "observation",
+      "category": "material"
+    },
+    {
+      "entity": "simulated construction and ooce domains",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "action models|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 8,
+    "otherscientificterm": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 3,
+    "material": 6,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 8,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.14285714285714285,
+  "f1": 0.16,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 4,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

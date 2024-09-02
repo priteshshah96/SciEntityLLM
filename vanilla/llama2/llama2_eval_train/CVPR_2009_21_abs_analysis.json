@@ -1,0 +1,326 @@
+{
+  "doc_key": "CVPR_2009_21_abs",
+  "gold_entities": [
+    {
+      "entity": "computer vision applications",
+      "category": "task"
+    },
+    {
+      "entity": "image classification",
+      "category": "task"
+    },
+    {
+      "entity": "video indexing",
+      "category": "task"
+    },
+    {
+      "entity": "multi-label classification problems",
+      "category": "task"
+    },
+    {
+      "entity": "multi-label classification problems",
+      "category": "task"
+    },
+    {
+      "entity": "optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "multi-label classification approach",
+      "category": "method"
+    },
+    {
+      "entity": "SVM like learning system",
+      "category": "method"
+    },
+    {
+      "entity": "Rank-HLapSVM",
+      "category": "method"
+    },
+    {
+      "entity": "dual coordinate descent method",
+      "category": "method"
+    },
+    {
+      "entity": "hypergraph regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypergraph",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypergraph regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ImageCLEF",
+      "category": "material"
+    },
+    {
+      "entity": "Me-diaMill",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Image classification",
+      "category": "task"
+    },
+    {
+      "entity": "Video indexing",
+      "category": "task"
+    },
+    {
+      "entity": "Multi-label classification",
+      "category": "task"
+    },
+    {
+      "entity": "Hypergraph",
+      "category": "method"
+    },
+    {
+      "entity": "Regularization",
+      "category": "method"
+    },
+    {
+      "entity": "SVM",
+      "category": "method"
+    },
+    {
+      "entity": "Dual coordinate descent",
+      "category": "method"
+    },
+    {
+      "entity": "Optimization",
+      "category": "method"
+    },
+    {
+      "entity": "Coordinate descent",
+      "category": "method"
+    },
+    {
+      "entity": "Datasets",
+      "category": "material"
+    },
+    {
+      "entity": "ImageCLEF",
+      "category": "material"
+    },
+    {
+      "entity": "MediaMill",
+      "category": "material"
+    },
+    {
+      "entity": "training instances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "instances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "categories",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "hypergraph",
+      "predicted": "Hypergraph",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "image classification",
+      "predicted": "Image classification",
+      "category": "task"
+    },
+    {
+      "gold": "video indexing",
+      "predicted": "Video indexing",
+      "category": "task"
+    },
+    {
+      "gold": "ImageCLEF",
+      "predicted": "ImageCLEF",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multi-label classification problems",
+      "predicted": "Multi-label classification",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "optimization problem",
+      "predicted": "Optimization",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "dual coordinate descent method",
+      "predicted": "Dual coordinate descent",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "hypergraph regularization",
+      "predicted": "Regularization",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "computer vision applications",
+      "category": "task"
+    },
+    {
+      "entity": "multi-label classification problems",
+      "category": "task"
+    },
+    {
+      "entity": "multi-label classification approach",
+      "category": "method"
+    },
+    {
+      "entity": "SVM like learning system",
+      "category": "method"
+    },
+    {
+      "entity": "Rank-HLapSVM",
+      "category": "method"
+    },
+    {
+      "entity": "hypergraph regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Me-diaMill",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "SVM",
+      "category": "method"
+    },
+    {
+      "entity": "Coordinate descent",
+      "category": "method"
+    },
+    {
+      "entity": "Datasets",
+      "category": "material"
+    },
+    {
+      "entity": "MediaMill",
+      "category": "material"
+    },
+    {
+      "entity": "training instances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "instances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "categories",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "multi-label classification problems|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "hypergraph regularization|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 6,
+    "method": 4,
+    "otherscientificterm": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 6,
+    "material": 3,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.2,
+  "f1": 0.20000000000000004,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

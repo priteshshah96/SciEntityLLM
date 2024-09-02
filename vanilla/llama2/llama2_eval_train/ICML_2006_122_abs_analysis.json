@@ -1,0 +1,310 @@
+{
+  "doc_key": "ICML_2006_122_abs",
+  "gold_entities": [
+    {
+      "entity": "model-based policy search approach",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "approximate model",
+      "category": "method"
+    },
+    {
+      "entity": "approximate model",
+      "category": "method"
+    },
+    {
+      "entity": "reinforcement learning (RL)",
+      "category": "task"
+    },
+    {
+      "entity": "high-dimensional continuous-state tasks",
+      "category": "task"
+    },
+    {
+      "entity": "model-free RL",
+      "category": "task"
+    },
+    {
+      "entity": "policy evaluations",
+      "category": "task"
+    },
+    {
+      "entity": "policies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "markov decision process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "policy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nearoptimal performance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nearoptimal performance",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Markov decision process",
+      "category": "task"
+    },
+    {
+      "entity": "model",
+      "category": "method"
+    },
+    {
+      "entity": "simulation",
+      "category": "method"
+    },
+    {
+      "entity": "real-life trials",
+      "category": "material"
+    },
+    {
+      "entity": "approximate model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "near-optimal performance",
+      "category": "metric"
+    },
+    {
+      "entity": "theoretical results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "empirical results",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "approximate model",
+      "predicted": "approximate model",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "markov decision process",
+      "predicted": "Markov decision process",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "approximate model",
+      "predicted": "model",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "model-based policy search approach",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "reinforcement learning (RL)",
+      "category": "task"
+    },
+    {
+      "entity": "high-dimensional continuous-state tasks",
+      "category": "task"
+    },
+    {
+      "entity": "model-free RL",
+      "category": "task"
+    },
+    {
+      "entity": "policy evaluations",
+      "category": "task"
+    },
+    {
+      "entity": "policies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "policy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reallife trials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nearoptimal performance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nearoptimal performance",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "simulation",
+      "category": "method"
+    },
+    {
+      "entity": "real-life trials",
+      "category": "material"
+    },
+    {
+      "entity": "near-optimal performance",
+      "category": "metric"
+    },
+    {
+      "entity": "theoretical results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "empirical results",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "approximate model|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "reallife trials|otherscientificterm": {
+      "count": 4,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "nearoptimal performance|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 8
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 4,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "material": 1,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 14,
+    "extra_entities": 5,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

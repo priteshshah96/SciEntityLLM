@@ -1,0 +1,273 @@
+{
+  "doc_key": "J05-4003",
+  "gold_entities": [
+    {
+      "entity": "discovering parallel sentences",
+      "category": "task"
+    },
+    {
+      "entity": "comparable, non-parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "parallel data",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese, Arabic, and English non-parallel newspaper corpora",
+      "category": "material"
+    },
+    {
+      "entity": "parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "scarce  resources",
+      "category": "material"
+    },
+    {
+      "entity": "maximum entropy classifier",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation system",
+      "category": "method"
+    },
+    {
+      "entity": "MT system",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "parallel sentences",
+      "category": "task"
+    },
+    {
+      "entity": "comparable, non-parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "maximum entropy classifier",
+      "category": "method"
+    },
+    {
+      "entity": "translations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Chinese",
+      "category": "material"
+    },
+    {
+      "entity": "Arabic",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "statistical machine translation system",
+      "category": "method"
+    },
+    {
+      "entity": "mt system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parallel data",
+      "category": "material"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "performance",
+      "category": "task"
+    },
+    {
+      "entity": "resources",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "MT system",
+      "predicted": "mt system",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "comparable, non-parallel corpora",
+      "predicted": "comparable, non-parallel corpora",
+      "category": "material"
+    },
+    {
+      "gold": "parallel data",
+      "predicted": "parallel data",
+      "category": "material"
+    },
+    {
+      "gold": "non-parallel corpus",
+      "predicted": "non-parallel corpus",
+      "category": "material"
+    },
+    {
+      "gold": "maximum entropy classifier",
+      "predicted": "maximum entropy classifier",
+      "category": "method"
+    },
+    {
+      "gold": "statistical machine translation system",
+      "predicted": "statistical machine translation system",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "discovering parallel sentences",
+      "predicted": "parallel sentences",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "scarce  resources",
+      "predicted": "resources",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "Chinese, Arabic, and English non-parallel newspaper corpora",
+      "gold_category": "material",
+      "matched_parts": [
+        {
+          "part": "Chinese",
+          "matched": "Chinese",
+          "predicted_category": "material"
+        },
+        {
+          "part": "Arabic",
+          "matched": "Arabic",
+          "predicted_category": "material"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "parallel corpus",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "translations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "performance",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 6,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 7,
+    "method": 2,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 6,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.35714285714285715,
+  "recall": 0.5,
+  "f1": 0.41666666666666663,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

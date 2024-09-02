@@ -1,0 +1,195 @@
+{
+  "doc_key": "I05-5009",
+  "gold_entities": [
+    {
+      "entity": "latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "latent variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "Paraphrases",
+      "category": "material"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Likelihood",
+      "category": "metric"
+    },
+    {
+      "entity": "variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Model",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "paraphrases",
+      "predicted": "Paraphrases",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "latent variable model",
+      "predicted": "Latent variable model",
+      "category": "method"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "Accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "latent variable",
+      "predicted": "variable",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "topic information",
+      "predicted": "topic",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Likelihood",
+      "category": "metric"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Model",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "material": 3,
+    "otherscientificterm": 3,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.3333333333333333,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

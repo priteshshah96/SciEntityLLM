@@ -1,0 +1,270 @@
+{
+  "gold_entities": [
+    {
+      "entity": "dataset of scenes",
+      "category": "Material"
+    },
+    {
+      "entity": "spectral clustering",
+      "category": "Method"
+    },
+    {
+      "entity": "image matting",
+      "category": "Method"
+    },
+    {
+      "entity": "boundary detection",
+      "category": "Method"
+    },
+    {
+      "entity": "unsupervised seg-mentation of whole objects",
+      "category": "Task"
+    },
+    {
+      "entity": "partial scene segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "Task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "Task"
+    },
+    {
+      "entity": "soft, binary mattes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hypothesized object boundary fragments",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "delineation of scene objects",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "object boundary fragments",
+      "category": "Material"
+    },
+    {
+      "entity": "scene segmentation",
+      "category": "Method"
+    },
+    {
+      "entity": "object discovery",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spectral clustering",
+      "category": "Method"
+    },
+    {
+      "entity": "image matting",
+      "category": "Method"
+    },
+    {
+      "entity": "boundary detection",
+      "category": "Method"
+    },
+    {
+      "entity": "evaluation metrics",
+      "category": "Material"
+    },
+    {
+      "entity": "segmentations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenes",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "mattes",
+      "category": "Generic"
+    },
+    {
+      "entity": "contemporary methods",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "spectral clustering",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "spectral clustering",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "image matting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "image matting",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "boundary detection",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "boundary detection",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "spectral clustering",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "spectral clustering",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "image matting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "image matting",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "boundary detection",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "boundary detection",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "partial scene segmentation",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "segmentation",
+          "category": "Task"
+        },
+        {
+          "entity": "scene segmentation",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "unsupervised object discovery",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "object boundary fragments",
+          "category": "Material"
+        },
+        {
+          "entity": "object discovery",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.3333333333333333
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "dataset of scenes",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scenes",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "unsupervised seg-mentation of whole objects",
+      "category": "Task"
+    },
+    {
+      "entity": "unsupervised object discovery",
+      "category": "Task"
+    },
+    {
+      "entity": "soft, binary mattes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hypothesized object boundary fragments",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "delineation of scene objects",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "evaluation metrics",
+      "category": "Material"
+    },
+    {
+      "entity": "segmentations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "unsupervised object discovery": 2
+  },
+  "distinct_repeated_entities": [
+    "unsupervised object discovery"
+  ],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 10,
+    "generic_count": 4,
+    "exact_matches": 3,
+    "exact_category_matches": 3,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

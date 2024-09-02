@@ -1,0 +1,184 @@
+{
+  "doc_key": "INTERSPEECH_2001_28_abs",
+  "gold_entities": [
+    {
+      "entity": "speaker verification system",
+      "category": "method"
+    },
+    {
+      "entity": "speaker verification system",
+      "category": "method"
+    },
+    {
+      "entity": "user evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "Hidden Markov Models",
+      "category": "method"
+    },
+    {
+      "entity": "speech data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "speaker verification system",
+      "category": "method"
+    },
+    {
+      "entity": "system concepts",
+      "category": "task"
+    },
+    {
+      "entity": "implementation issues",
+      "category": "method"
+    },
+    {
+      "entity": "user evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "speech data",
+      "category": "material"
+    },
+    {
+      "entity": "data base",
+      "category": "material"
+    },
+    {
+      "entity": "hidden markov models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "chapter 4",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Hidden Markov Models",
+      "predicted": "hidden markov models",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "speaker verification system",
+      "predicted": "speaker verification system",
+      "category": "method"
+    },
+    {
+      "gold": "user evaluation",
+      "predicted": "user evaluation",
+      "category": "method"
+    },
+    {
+      "gold": "speech data",
+      "predicted": "speech data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "speaker verification system",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "system concepts",
+      "category": "task"
+    },
+    {
+      "entity": "implementation issues",
+      "category": "method"
+    },
+    {
+      "entity": "data base",
+      "category": "material"
+    },
+    {
+      "entity": "chapter 4",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "speaker verification system|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.375,
+  "recall": 0.6,
+  "f1": 0.4615384615384615,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

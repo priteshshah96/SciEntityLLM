@@ -1,0 +1,284 @@
+{
+  "doc_key": "P08-2034",
+  "gold_entities": [
+    {
+      "entity": "Lyric-based song sentiment classification",
+      "category": "task"
+    },
+    {
+      "entity": "lyric-based song sentiment classification task",
+      "category": "task"
+    },
+    {
+      "entity": "vector space model (VSM)-based text classification approach",
+      "category": "method"
+    },
+    {
+      "entity": "sentiment vector space model (s-VSM)",
+      "category": "method"
+    },
+    {
+      "entity": "s-VSM model",
+      "category": "method"
+    },
+    {
+      "entity": "VSM model",
+      "category": "method"
+    },
+    {
+      "entity": "song lyrics",
+      "category": "material"
+    },
+    {
+      "entity": "Song lyric",
+      "category": "material"
+    },
+    {
+      "entity": "song lyric document",
+      "category": "material"
+    },
+    {
+      "entity": "sentiment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "negations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modifiers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentiment keywords",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentiment",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Vector Space Model (VSM)",
+      "category": "method"
+    },
+    {
+      "entity": "Sentiment Vector Space Model (s-VSM)",
+      "category": "method"
+    },
+    {
+      "entity": "Lyric-based song sentiment classification",
+      "category": "task"
+    },
+    {
+      "entity": "Song sentiment",
+      "category": "metric"
+    },
+    {
+      "entity": "lighthearted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "heavyhearted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Nouns",
+      "category": "material"
+    },
+    {
+      "entity": "Verbs",
+      "category": "material"
+    },
+    {
+      "entity": "Negations",
+      "category": "material"
+    },
+    {
+      "entity": "Modifiers",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "negations",
+      "predicted": "Negations",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "modifiers",
+      "predicted": "Modifiers",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Lyric-based song sentiment classification",
+      "predicted": "Lyric-based song sentiment classification",
+      "category": "task"
+    },
+    {
+      "gold": "sentiment vector space model (s-VSM)",
+      "predicted": "Sentiment Vector Space Model (s-VSM)",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "sentiment",
+      "predicted": "Song sentiment",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "lyric-based song sentiment classification task",
+      "category": "task"
+    },
+    {
+      "entity": "vector space model (VSM)-based text classification approach",
+      "category": "method"
+    },
+    {
+      "entity": "s-VSM model",
+      "category": "method"
+    },
+    {
+      "entity": "VSM model",
+      "category": "method"
+    },
+    {
+      "entity": "song lyrics",
+      "category": "material"
+    },
+    {
+      "entity": "Song lyric",
+      "category": "material"
+    },
+    {
+      "entity": "song lyric document",
+      "category": "material"
+    },
+    {
+      "entity": "sentiment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentiment keywords",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Vector Space Model (VSM)",
+      "category": "method"
+    },
+    {
+      "entity": "lighthearted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "heavyhearted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Nouns",
+      "category": "material"
+    },
+    {
+      "entity": "Verbs",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "sentiment|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "material": 3,
+    "otherscientificterm": 5
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 1,
+    "metric": 1,
+    "otherscientificterm": 2,
+    "material": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.14285714285714285,
+  "f1": 0.16666666666666666,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 5,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

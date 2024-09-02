@@ -1,0 +1,244 @@
+{
+  "doc_key": "CVPR_2003_21_abs",
+  "gold_entities": [
+    {
+      "entity": "projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "Projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "3d geometrical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d points and cameras",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image coordinates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rational quartic curve",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "multiple images",
+      "category": "material"
+    },
+    {
+      "entity": "camera moving in a straight line",
+      "category": "material"
+    },
+    {
+      "entity": "projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "3d geometrical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cameras",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "correspondences between points in the images",
+      "category": "method"
+    },
+    {
+      "entity": "critical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projective transform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image coordinates",
+      "category": "material"
+    },
+    {
+      "entity": "cameras lying on a straight line",
+      "category": "material"
+    },
+    {
+      "entity": "points lying on a twisted cubic",
+      "category": "material"
+    },
+    {
+      "entity": "rational quartic curve",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "image coordinates",
+      "predicted": "image coordinates",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "rational quartic curve",
+      "predicted": "rational quartic curve",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "projective reconstruction",
+      "predicted": "projective reconstruction",
+      "category": "task"
+    },
+    {
+      "gold": "Projective reconstruction",
+      "predicted": "projective reconstruction",
+      "category": "task"
+    },
+    {
+      "gold": "3d geometrical configuration",
+      "predicted": "3d geometrical configuration",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "images",
+      "predicted": "multiple images",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "3d points and cameras",
+      "gold_category": "otherscientificterm",
+      "matched_parts": [
+        {
+          "part": "3d points",
+          "matched": "3d points",
+          "predicted_category": "otherscientificterm"
+        },
+        {
+          "part": "cameras",
+          "matched": "cameras",
+          "predicted_category": "otherscientificterm"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "camera moving in a straight line",
+      "category": "material"
+    },
+    {
+      "entity": "correspondences between points in the images",
+      "category": "method"
+    },
+    {
+      "entity": "critical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projective transform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cameras lying on a straight line",
+      "category": "material"
+    },
+    {
+      "entity": "points lying on a twisted cubic",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 6,
+    "otherscientificterm": 5,
+    "method": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.42857142857142855,
+  "f1": 0.2857142857142857,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

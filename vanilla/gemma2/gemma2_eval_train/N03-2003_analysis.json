@@ -1,0 +1,198 @@
+{
+  "doc_key": "N03-2003",
+  "gold_entities": [
+    {
+      "entity": "language modeling",
+      "category": "method"
+    },
+    {
+      "entity": "class-dependent interpolation  of  N-grams",
+      "category": "method"
+    },
+    {
+      "entity": "conversational speech",
+      "category": "material"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "training data",
+      "category": "metric"
+    },
+    {
+      "entity": "language modeling",
+      "category": "method"
+    },
+    {
+      "entity": "conversational speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web",
+      "category": "material"
+    },
+    {
+      "entity": "style",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "class-dependent interpolation",
+      "category": "method"
+    },
+    {
+      "entity": "N-grams",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language modeling",
+      "predicted": "language modeling",
+      "category": "method"
+    },
+    {
+      "gold": "conversational speech",
+      "predicted": "conversational speech",
+      "category": "material"
+    },
+    {
+      "gold": "recognition task",
+      "predicted": "recognition task",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "class-dependent interpolation  of  N-grams",
+      "predicted": "class-dependent interpolation",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "language modeling",
+      "category": "method"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "class-dependent interpolation  of  N-grams",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "training data",
+      "category": "metric"
+    },
+    {
+      "entity": "web",
+      "category": "material"
+    },
+    {
+      "entity": "style",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "N-grams",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "material": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "metric": 2,
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.5,
+  "f1": 0.30769230769230765,
+  "category_precision": 0.4444444444444444,
+  "category_recall": 1.0,
+  "category_f1": 0.6153846153846153,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 5,
+    "generic_entities": 0,
+    "correct_predictions": 2,
+    "correct_categories": 4
+  }
+}

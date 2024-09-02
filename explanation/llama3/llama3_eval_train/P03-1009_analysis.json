@@ -1,0 +1,241 @@
+{
+  "doc_key": "P03-1009",
+  "gold_entities": [
+    {
+      "entity": "clustering",
+      "category": "method"
+    },
+    {
+      "entity": "Information Bottleneck  and  nearest neighbour  methods",
+      "category": "method"
+    },
+    {
+      "entity": "inducing  semantic verb classes",
+      "category": "task"
+    },
+    {
+      "entity": "clustering  subcategorization frame (SCF)  distributions",
+      "category": "task"
+    },
+    {
+      "entity": "clustering  polysemic verbs",
+      "category": "task"
+    },
+    {
+      "entity": "semantically classifying   undisambiguated SCF data",
+      "category": "task"
+    },
+    {
+      "entity": "undisambiguated  corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "polysemic verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polysemy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clusters",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "clustering",
+      "category": "method"
+    },
+    {
+      "entity": "semantic verb classes",
+      "category": "task"
+    },
+    {
+      "entity": "corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "subcategorization frame (SCF) distributions",
+      "category": "material"
+    },
+    {
+      "entity": "Information Bottleneck",
+      "category": "method"
+    },
+    {
+      "entity": "nearest neighbour",
+      "category": "method"
+    },
+    {
+      "entity": "polysemic verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "evaluation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "polysemy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantically classifying",
+      "category": "task"
+    },
+    {
+      "entity": "undisambiguated SCF data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "clustering",
+      "predicted": "clustering",
+      "category": "method"
+    },
+    {
+      "gold": "polysemic verbs",
+      "predicted": "polysemic verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "polysemy",
+      "predicted": "polysemy",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "clusters",
+      "predicted": "clusters",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "inducing  semantic verb classes",
+      "predicted": "semantic verb classes",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "clustering  subcategorization frame (SCF)  distributions",
+      "predicted": "subcategorization frame (SCF) distributions",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "semantically classifying   undisambiguated SCF data",
+      "predicted": "undisambiguated SCF data",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "undisambiguated  corpus data",
+      "predicted": "corpus data",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Information Bottleneck  and  nearest neighbour  methods",
+      "category": "method"
+    },
+    {
+      "entity": "clustering  polysemic verbs",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "nearest neighbour",
+      "category": "method"
+    },
+    {
+      "entity": "evaluation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "semantically classifying",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 4,
+    "material": 1,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "task": 2,
+    "material": 3,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4,
+  "f1": 0.3636363636363636,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 12,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

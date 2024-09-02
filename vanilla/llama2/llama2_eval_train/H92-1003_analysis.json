@@ -1,0 +1,173 @@
+{
+  "doc_key": "H92-1003",
+  "gold_entities": [
+    {
+      "entity": "spoken language corpus",
+      "category": "material"
+    },
+    {
+      "entity": "spontaneous speech",
+      "category": "material"
+    },
+    {
+      "entity": "ATIS (Air Travel Information System) domain",
+      "category": "task"
+    },
+    {
+      "entity": "multi-site common evaluation of speech, natural language and spoken language",
+      "category": "task"
+    },
+    {
+      "entity": "multi-site data collection paradigm",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "spoken language corpus",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "air travel information system atis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multi-site ATIS Data COllection Working group (MADCOW)",
+      "category": "task"
+    },
+    {
+      "entity": "Multi-site data collection paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "Collection of 12,000 utterances",
+      "category": "metric"
+    },
+    {
+      "entity": "spontaneous speech",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "spoken language corpus",
+      "predicted": "spoken language corpus",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "spontaneous speech",
+      "predicted": "spontaneous speech",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "multi-site data collection paradigm",
+      "predicted": "Multi-site data collection paradigm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "ATIS (Air Travel Information System) domain",
+      "category": "task"
+    },
+    {
+      "entity": "multi-site common evaluation of speech, natural language and spoken language",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "air travel information system atis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multi-site ATIS Data COllection Working group (MADCOW)",
+      "category": "task"
+    },
+    {
+      "entity": "Collection of 12,000 utterances",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "task": 2,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "task": 1,
+    "method": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.2,
+  "f1": 0.1818181818181818,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 6,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,272 @@
+{
+  "doc_key": "ICCV_2013_36_abs",
+  "gold_entities": [
+    {
+      "entity": "creation of city models",
+      "category": "task"
+    },
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "task"
+    },
+    {
+      "entity": "semantic components",
+      "category": "method"
+    },
+    {
+      "entity": "tiling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tilings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facade textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facades",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "city models",
+      "category": "task"
+    },
+    {
+      "entity": "virtual or as-built",
+      "category": "material"
+    },
+    {
+      "entity": "facade images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic components",
+      "category": "method"
+    },
+    {
+      "entity": "tiling",
+      "category": "method"
+    },
+    {
+      "entity": "novel tilings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "facade textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded parts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "overall structure",
+      "category": "metric"
+    },
+    {
+      "entity": "detailed textures",
+      "category": "metric"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "material"
+    },
+    {
+      "entity": "building styles",
+      "category": "material"
+    },
+    {
+      "entity": "potential of the method",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "tiling",
+      "predicted": "tiling",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "semantic components",
+      "predicted": "semantic components",
+      "category": "method"
+    },
+    {
+      "gold": "facade textures",
+      "predicted": "facade textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "inpainted parts",
+      "predicted": "inpainted parts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "creation of city models",
+      "predicted": "city models",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "tilings",
+      "predicted": "novel tilings",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "occluded parts inpainted",
+      "predicted": "occluded parts",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "task"
+    },
+    {
+      "entity": "facades",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "virtual or as-built",
+      "category": "material"
+    },
+    {
+      "entity": "facade images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "overall structure",
+      "category": "metric"
+    },
+    {
+      "entity": "detailed textures",
+      "category": "metric"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "material"
+    },
+    {
+      "entity": "building styles",
+      "category": "material"
+    },
+    {
+      "entity": "potential of the method",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 1,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 5,
+    "method": 4,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.3333333333333333,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 8,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

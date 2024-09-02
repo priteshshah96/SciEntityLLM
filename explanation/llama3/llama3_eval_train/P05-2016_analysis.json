@@ -1,0 +1,172 @@
+{
+  "doc_key": "P05-2016",
+  "gold_entities": [
+    {
+      "entity": "Czech-English statistical machine translation system",
+      "category": "method"
+    },
+    {
+      "entity": "tree-to-tree translation  of  dependency structures",
+      "category": "task"
+    },
+    {
+      "entity": "bilingual resource",
+      "category": "material"
+    },
+    {
+      "entity": "sentence-aligned parallel corpus",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Czech-English statistical machine translation system",
+      "category": "task"
+    },
+    {
+      "entity": "tree-to-tree translation",
+      "category": "method"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bilingual resource",
+      "category": "material"
+    },
+    {
+      "entity": "sentence-aligned parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "monolingual resources",
+      "category": "material"
+    },
+    {
+      "entity": "evaluation method",
+      "category": "method"
+    },
+    {
+      "entity": "benchmark system",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Czech-English statistical machine translation system",
+      "predicted": "Czech-English statistical machine translation system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "bilingual resource",
+      "predicted": "bilingual resource",
+      "category": "material"
+    },
+    {
+      "gold": "sentence-aligned parallel corpus",
+      "predicted": "sentence-aligned parallel corpus",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "tree-to-tree translation  of  dependency structures",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "tree-to-tree translation",
+      "category": "method"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "monolingual resources",
+      "category": "material"
+    },
+    {
+      "entity": "evaluation method",
+      "category": "method"
+    },
+    {
+      "entity": "benchmark system",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "task": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 1,
+    "material": 4
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.5,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

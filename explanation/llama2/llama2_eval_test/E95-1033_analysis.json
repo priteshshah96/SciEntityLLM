@@ -1,0 +1,207 @@
+{
+  "doc_key": "E95-1033",
+  "gold_entities": [
+    {
+      "entity": "sentencelevel and textlevel anaphora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "textlevel anaphora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency-based grammar model",
+      "category": "method"
+    },
+    {
+      "entity": "GB's binding theory",
+      "category": "method"
+    },
+    {
+      "entity": "Grosz-Sidner-style focus model",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution  within  sentence boundaries",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "sentence-level anaphora",
+      "category": "task"
+    },
+    {
+      "entity": "text-level anaphora",
+      "category": "task"
+    },
+    {
+      "entity": "dependency-based grammar model",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "criteria",
+      "category": "method"
+    },
+    {
+      "entity": "major concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "binding theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "groszsidnerstyle focus model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text boundaries",
+      "category": "material"
+    },
+    {
+      "entity": "focus model",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "dependency-based grammar model",
+      "predicted": "dependency-based grammar model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "GB's binding theory",
+      "predicted": "binding theory",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Grosz-Sidner-style focus model",
+      "predicted": "focus model",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "sentencelevel and textlevel anaphora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "textlevel anaphora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphora resolution  within  sentence boundaries",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "sentence-level anaphora",
+      "category": "task"
+    },
+    {
+      "entity": "text-level anaphora",
+      "category": "task"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "criteria",
+      "category": "method"
+    },
+    {
+      "entity": "major concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "groszsidnerstyle focus model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text boundaries",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "method": 3,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.16666666666666666,
+  "f1": 0.125,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 10,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,269 @@
+{
+  "doc_key": "N03-1018",
+  "gold_entities": [
+    {
+      "entity": "generative probabilistic optical character recognition (OCR) model",
+      "category": "method"
+    },
+    {
+      "entity": "noisy channel framework",
+      "category": "method"
+    },
+    {
+      "entity": "finite-state models",
+      "category": "method"
+    },
+    {
+      "entity": "ocr system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "output of blackbox ocr systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ocr systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "error correction",
+      "category": "task"
+    },
+    {
+      "entity": "post-processing",
+      "category": "task"
+    },
+    {
+      "entity": "NLP tasks",
+      "category": "task"
+    },
+    {
+      "entity": "automatic extraction  of  translation lexicons",
+      "category": "task"
+    },
+    {
+      "entity": "character and word error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "printed text",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "generative probabilistic ocr model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "noisy channel framework",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "True text",
+      "category": "material"
+    },
+    {
+      "entity": "Noisy output",
+      "category": "material"
+    },
+    {
+      "entity": "OCR system",
+      "category": "material"
+    },
+    {
+      "entity": "Error correction",
+      "category": "task"
+    },
+    {
+      "entity": "Post-processing",
+      "category": "task"
+    },
+    {
+      "entity": "nlp tasks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Finite-state models",
+      "category": "method"
+    },
+    {
+      "entity": "Character and word error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "Automatic extraction",
+      "category": "task"
+    },
+    {
+      "entity": "Translation lexicons",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "noisy channel framework",
+      "predicted": "noisy channel framework",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "ocr system",
+      "predicted": "OCR system",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "NLP tasks",
+      "predicted": "nlp tasks",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "finite-state models",
+      "predicted": "Finite-state models",
+      "category": "method"
+    },
+    {
+      "gold": "error correction",
+      "predicted": "Error correction",
+      "category": "task"
+    },
+    {
+      "gold": "post-processing",
+      "predicted": "Post-processing",
+      "category": "task"
+    },
+    {
+      "gold": "character and word error rate",
+      "predicted": "Character and word error rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "generative probabilistic optical character recognition (OCR) model",
+      "category": "method"
+    },
+    {
+      "entity": "output of blackbox ocr systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ocr systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automatic extraction  of  translation lexicons",
+      "category": "task"
+    },
+    {
+      "entity": "printed text",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "generative probabilistic ocr model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "True text",
+      "category": "material"
+    },
+    {
+      "entity": "Noisy output",
+      "category": "material"
+    },
+    {
+      "entity": "Automatic extraction",
+      "category": "task"
+    },
+    {
+      "entity": "Translation lexicons",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "task": 4,
+    "metric": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "material": 4,
+    "task": 3,
+    "method": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.3333333333333333,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

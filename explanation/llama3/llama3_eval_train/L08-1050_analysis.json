@@ -1,0 +1,269 @@
+{
+  "doc_key": "L08-1050",
+  "gold_entities": [
+    {
+      "entity": "language corpus annotation scenario",
+      "category": "material"
+    },
+    {
+      "entity": "Czech",
+      "category": "material"
+    },
+    {
+      "entity": "Prague Dependency Treebank 2.0",
+      "category": "material"
+    },
+    {
+      "entity": "Penn Discourse Treebank 2",
+      "category": "material"
+    },
+    {
+      "entity": "Prague Dependency Treebank",
+      "category": "material"
+    },
+    {
+      "entity": "discourse relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactically motivated relations in discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntacticosemantic tectogrammatical annotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence-boundary-crossing representation",
+      "category": "task"
+    },
+    {
+      "entity": "discourse level  of  annotation",
+      "category": "task"
+    },
+    {
+      "entity": "Praguian dependency-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "Penn discourse annotation",
+      "category": "method"
+    },
+    {
+      "entity": "analysis and classification of  discourse connectives",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "language corpus annotation scenario",
+      "category": "task"
+    },
+    {
+      "entity": "discourse relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Czech",
+      "category": "material"
+    },
+    {
+      "entity": "syntactically motivated relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Prague Dependency Treebank 2.0",
+      "category": "material"
+    },
+    {
+      "entity": "Penn Discourse Treebank 2",
+      "category": "material"
+    },
+    {
+      "entity": "syntacticosemantic tectogrammatical annotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentenceboundarycrossing representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Praguian dependency-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "Penn discourse annotation",
+      "category": "method"
+    },
+    {
+      "entity": "discourse connectives",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language corpus annotation scenario",
+      "predicted": "language corpus annotation scenario",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Czech",
+      "predicted": "Czech",
+      "category": "material"
+    },
+    {
+      "gold": "Prague Dependency Treebank 2.0",
+      "predicted": "Prague Dependency Treebank 2.0",
+      "category": "material"
+    },
+    {
+      "gold": "Penn Discourse Treebank 2",
+      "predicted": "Penn Discourse Treebank 2",
+      "category": "material"
+    },
+    {
+      "gold": "discourse relations",
+      "predicted": "discourse relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "syntacticosemantic tectogrammatical annotation",
+      "predicted": "syntacticosemantic tectogrammatical annotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Praguian dependency-based approach",
+      "predicted": "Praguian dependency-based approach",
+      "category": "method"
+    },
+    {
+      "gold": "Penn discourse annotation",
+      "predicted": "Penn discourse annotation",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "syntactically motivated relations in discourse",
+      "predicted": "syntactically motivated relations",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse level  of  annotation",
+      "predicted": "discourse level",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Prague Dependency Treebank",
+      "category": "material"
+    },
+    {
+      "entity": "sentence-boundary-crossing representation",
+      "category": "task"
+    },
+    {
+      "entity": "analysis and classification of  discourse connectives",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentenceboundarycrossing representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse connectives",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 5,
+    "otherscientificterm": 3,
+    "task": 2,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 7,
+    "material": 3,
+    "method": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5384615384615384,
+  "recall": 0.5384615384615384,
+  "f1": 0.5384615384615384,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 1,
+    "exact_matches_with_category": 7,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

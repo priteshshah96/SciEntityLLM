@@ -1,0 +1,310 @@
+{
+  "doc_key": "NIPS_2003_18_abs",
+  "gold_entities": [
+    {
+      "entity": "learning the time-varying shape of a non-rigid 3D object",
+      "category": "task"
+    },
+    {
+      "entity": "uncalibrated 2D tracking data",
+      "category": "material"
+    },
+    {
+      "entity": "missing data",
+      "category": "material"
+    },
+    {
+      "entity": "shape motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonrigid deformation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arbitrary deformations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d shape and motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal smoothness in object shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rigid component",
+      "category": "method"
+    },
+    {
+      "entity": "Gaussian distribution",
+      "category": "method"
+    },
+    {
+      "entity": "Gaussian",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Time-varying shape",
+      "category": "task"
+    },
+    {
+      "entity": "Non-rigid 3D object",
+      "category": "task"
+    },
+    {
+      "entity": "2D tracking data",
+      "category": "material"
+    },
+    {
+      "entity": "gaussian distribution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Rotation",
+      "category": "method"
+    },
+    {
+      "entity": "Translation",
+      "category": "method"
+    },
+    {
+      "entity": "Deformation",
+      "category": "method"
+    },
+    {
+      "entity": "Reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "Ill-posed",
+      "category": "method"
+    },
+    {
+      "entity": "Arbitrary deformations",
+      "category": "method"
+    },
+    {
+      "entity": "Object shape",
+      "category": "task"
+    },
+    {
+      "entity": "Time frame",
+      "category": "task"
+    },
+    {
+      "entity": "Parameters",
+      "category": "method"
+    },
+    {
+      "entity": "Missing data points",
+      "category": "task"
+    },
+    {
+      "entity": "Temporal smoothness",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "rotation",
+      "predicted": "Rotation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "translation",
+      "predicted": "Translation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "reconstruction",
+      "predicted": "Reconstruction",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "arbitrary deformations",
+      "predicted": "Arbitrary deformations",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "object shape",
+      "predicted": "Object shape",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Gaussian distribution",
+      "predicted": "gaussian distribution",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "uncalibrated 2D tracking data",
+      "predicted": "2D tracking data",
+      "score": 0.75,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "missing data",
+      "predicted": "Missing data points",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "nonrigid deformation",
+      "predicted": "Deformation",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "learning the time-varying shape of a non-rigid 3D object",
+      "category": "task"
+    },
+    {
+      "entity": "shape motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d shape and motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal smoothness in object shape",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rigid component",
+      "category": "method"
+    },
+    {
+      "entity": "Gaussian",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Time-varying shape",
+      "category": "task"
+    },
+    {
+      "entity": "Non-rigid 3D object",
+      "category": "task"
+    },
+    {
+      "entity": "Ill-posed",
+      "category": "method"
+    },
+    {
+      "entity": "Time frame",
+      "category": "task"
+    },
+    {
+      "entity": "Parameters",
+      "category": "method"
+    },
+    {
+      "entity": "Temporal smoothness",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 2,
+    "otherscientificterm": 9,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 6,
+    "material": 1,
+    "otherscientificterm": 1,
+    "method": 7
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 1,
+      "exact_matches": 5,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 15,
+    "exact_matches": 6,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 6,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

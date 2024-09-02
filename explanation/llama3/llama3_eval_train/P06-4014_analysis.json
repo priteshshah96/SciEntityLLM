@@ -1,0 +1,190 @@
+{
+  "doc_key": "P06-4014",
+  "gold_entities": [
+    {
+      "entity": "LOGON MT demonstrator",
+      "category": "method"
+    },
+    {
+      "entity": "general-purpose NLP components",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic processes",
+      "category": "method"
+    },
+    {
+      "entity": "demonstrator",
+      "category": "task"
+    },
+    {
+      "entity": "hand-built, symbolic resources",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "LOGON MT demonstrator",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "output quality",
+      "category": "metric"
+    },
+    {
+      "entity": "hand-built, symbolic resources",
+      "category": "material"
+    },
+    {
+      "entity": "stochastic processes",
+      "category": "method"
+    },
+    {
+      "entity": "NLP components",
+      "category": "material"
+    },
+    {
+      "entity": "general-purpose NLP components",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "output quality",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "LOGON MT demonstrator",
+      "predicted": "LOGON MT demonstrator",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "general-purpose NLP components",
+      "predicted": "general-purpose NLP components",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "machine translation pipeline",
+      "predicted": "machine translation pipeline",
+      "category": "method"
+    },
+    {
+      "gold": "stochastic processes",
+      "predicted": "stochastic processes",
+      "category": "method"
+    },
+    {
+      "gold": "hand-built, symbolic resources",
+      "predicted": "hand-built, symbolic resources",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "demonstrator",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "machine translation pipeline",
+      "category": "method"
+    },
+    {
+      "entity": "output quality",
+      "category": "metric"
+    },
+    {
+      "entity": "output quality",
+      "category": "metric"
+    },
+    {
+      "entity": "NLP components",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "material": 4,
+    "method": 3,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.5,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,197 @@
+{
+  "doc_key": "N03-2017",
+  "gold_entities": [
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "English phrases",
+      "category": "material"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "syntax-based constraint",
+      "category": "method"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "method"
+    },
+    {
+      "entity": "English phrases",
+      "category": "material"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "intervals",
+      "category": "metric"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "cohesion constraint",
+      "predicted": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "word alignment",
+      "predicted": "word alignment",
+      "category": "task"
+    },
+    {
+      "gold": "English phrases",
+      "predicted": "English phrases",
+      "category": "material"
+    },
+    {
+      "gold": "French sentence",
+      "predicted": "French sentence",
+      "category": "material"
+    },
+    {
+      "gold": "alignment quality",
+      "predicted": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "English phrases",
+      "category": "material"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "syntax-based constraint",
+      "category": "method"
+    },
+    {
+      "entity": "intervals",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "task": 1,
+    "material": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 1,
+    "material": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5714285714285714,
+  "recall": 0.6666666666666666,
+  "f1": 0.6153846153846153,
+  "category_precision": 0.5714285714285714,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.6153846153846153,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 7,
+    "exact_matches": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 4,
+    "correct_predictions": 4,
+    "correct_categories": 4
+  }
+}

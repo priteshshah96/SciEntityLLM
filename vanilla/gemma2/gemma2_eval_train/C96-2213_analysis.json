@@ -1,0 +1,240 @@
+{
+  "doc_key": "C96-2213",
+  "gold_entities": [
+    {
+      "entity": "Natural Language Processing (NLP) system",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing",
+      "category": "task"
+    },
+    {
+      "entity": "new domain",
+      "category": "material"
+    },
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "lexicalized grammar",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid system",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "corpus-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "idiosyncracies of the new sublanguage",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "NLP system",
+      "category": "method"
+    },
+    {
+      "entity": "domain",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic parsing",
+      "category": "method"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "sublanguage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicalized grammar",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid system",
+      "category": "method"
+    },
+    {
+      "entity": "traditional knowledge-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "corpus-based approach",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "syntactic parsing",
+      "predicted": "syntactic parsing",
+      "category": "task"
+    },
+    {
+      "gold": "grammar",
+      "predicted": "grammar",
+      "category": "method"
+    },
+    {
+      "gold": "lexicalized grammar",
+      "predicted": "lexicalized grammar",
+      "category": "method"
+    },
+    {
+      "gold": "hybrid system",
+      "predicted": "hybrid system",
+      "category": "method"
+    },
+    {
+      "gold": "corpus-based approach",
+      "predicted": "corpus-based approach",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "new domain",
+      "predicted": "domain",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "knowledge-based techniques",
+      "predicted": "traditional knowledge-based techniques",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "lexicalized grammar",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid system",
+      "category": "method"
+    },
+    {
+      "entity": "corpus-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge-based techniques",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Natural Language Processing (NLP) system",
+      "category": "task"
+    },
+    {
+      "entity": "idiosyncracies of the new sublanguage",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "NLP system",
+      "category": "method"
+    },
+    {
+      "entity": "lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "sublanguage",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "method": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 7,
+      "exact_matches": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.4444444444444444,
+  "f1": 0.4210526315789474,
+  "category_precision": 0.7,
+  "category_recall": 0.7777777777777778,
+  "category_f1": 0.7368421052631577,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 0,
+    "correct_predictions": 4,
+    "correct_categories": 7
+  }
+}

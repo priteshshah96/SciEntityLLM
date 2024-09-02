@@ -1,0 +1,195 @@
+{
+  "gold_entities": [
+    {
+      "entity": "large datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "large datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "high-capacity models",
+      "category": "Method"
+    },
+    {
+      "entity": "computer vision",
+      "category": "Task"
+    },
+    {
+      "entity": "pixel-level labels",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pixel-accurate semantic label maps",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "modern computer games",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "computer vision",
+      "category": "Task"
+    },
+    {
+      "entity": "high-capacity models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "large datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "pixel-level labels",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantic label maps",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "computer games",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "computer vision",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "computer vision",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "high-capacity models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "high-capacity models",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "large datasets",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "large datasets",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pixel-level labels",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "pixel-level labels",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "computer vision",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "computer vision",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "large datasets",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "large datasets",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pixel-level labels",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "pixel-level labels",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "pixel-accurate semantic label maps",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic label maps",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "modern computer games",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "computer games",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "large datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "images",
+      "category": "Material"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "large datasets": 2
+  },
+  "distinct_repeated_entities": [
+    "large datasets"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 6,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

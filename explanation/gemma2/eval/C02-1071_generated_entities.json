@@ -1,0 +1,274 @@
+{
+  "gold_entities": [
+    {
+      "entity": "shallow techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "nlp system",
+      "category": "Method"
+    },
+    {
+      "entity": "linguistic pos tagger and chunker",
+      "category": "Method"
+    },
+    {
+      "entity": "broad coverage unification based grammar of spanish",
+      "category": "Method"
+    },
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "deep processing",
+      "category": "Task"
+    },
+    {
+      "entity": "linguistic processing",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "deep processing",
+      "category": "Method"
+    },
+    {
+      "entity": "shallow techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "nlp system",
+      "category": "Task"
+    },
+    {
+      "entity": "linguistic pos tagger",
+      "category": "Method"
+    },
+    {
+      "entity": "chunker",
+      "category": "Method"
+    },
+    {
+      "entity": "broad coverage unification based grammar of spanish",
+      "category": "Material"
+    },
+    {
+      "entity": "efficiency",
+      "category": "Metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "Metric"
+    },
+    {
+      "entity": "linguistic processing",
+      "category": "Task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "grammar",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "deep processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "deep processing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "shallow techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "shallow techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "nlp system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "nlp system",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "broad coverage unification based grammar of spanish",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "broad coverage unification based grammar of spanish",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "robustness",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "robustness",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "linguistic processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "linguistic processing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "shallow techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "shallow techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "robustness",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "robustness",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "linguistic processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "linguistic processing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "linguistic pos tagger and chunker",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "linguistic pos tagger",
+          "category": "Method"
+        },
+        {
+          "entity": "chunker",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "efficiency",
+      "category": "Metric"
+    },
+    {
+      "entity": "grammar",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 12,
+    "generic_count": 1,
+    "exact_matches": 8,
+    "exact_category_matches": 5,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

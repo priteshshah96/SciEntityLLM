@@ -1,0 +1,300 @@
+{
+  "gold_entities": [
+    {
+      "entity": "non-uniform sampling strategies",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic optimization algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic variance reduced gradient (svrg)",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic dual coordinate ascent (sdca)",
+      "category": "Method"
+    },
+    {
+      "entity": "penalized empirical risk minimization problems",
+      "category": "Task"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "data dependent local smoothness",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "loss functions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "optimum",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "convergence guarantees",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "stochastic optimization algorithms",
+      "category": "Task"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic variance reduced gradient",
+      "category": "Metric"
+    },
+    {
+      "entity": "stochastic dual coordinate ascent",
+      "category": "Metric"
+    },
+    {
+      "entity": "penalized empirical risk minimization",
+      "category": "Task"
+    },
+    {
+      "entity": "loss functions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "convergence guarantees",
+      "category": "Method"
+    },
+    {
+      "entity": "datadependent local smoothness",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "quantify the advantage gained",
+      "category": "Method"
+    },
+    {
+      "entity": "significant for some problems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "empirical results",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Task"
+    },
+    {
+      "entity": "perform even better in practice",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "methods",
+      "category": "Generic"
+    },
+    {
+      "entity": "theory",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "stochastic optimization algorithms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "stochastic optimization algorithms",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "linear convergence",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "linear convergence",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "loss functions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "loss functions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "local smoothness",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "local smoothness",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "convergence guarantees",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "convergence guarantees",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "loss functions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "loss functions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "local smoothness",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "local smoothness",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "stochastic variance reduced gradient (svrg)",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "stochastic variance reduced gradient",
+          "category": "Metric"
+        },
+        {
+          "entity": "stochastic dual coordinate ascent",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.25
+    },
+    {
+      "gold": {
+        "entity": "penalized empirical risk minimization problems",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "penalized empirical risk minimization",
+          "category": "Task"
+        },
+        {
+          "entity": "significant for some problems",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "empirical results",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.75
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "data dependent local smoothness",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "datadependent local smoothness",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "non-uniform sampling strategies",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic dual coordinate ascent (sdca)",
+      "category": "Method"
+    },
+    {
+      "entity": "optimum",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "quantify the advantage gained",
+      "category": "Method"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Task"
+    },
+    {
+      "entity": "perform even better in practice",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "local smoothness": 2
+  },
+  "distinct_repeated_entities": [
+    "local smoothness"
+  ],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 14,
+    "generic_count": 3,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

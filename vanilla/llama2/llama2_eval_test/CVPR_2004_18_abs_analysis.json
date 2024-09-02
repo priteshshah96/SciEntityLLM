@@ -1,0 +1,235 @@
+{
+  "doc_key": "CVPR_2004_18_abs",
+  "gold_entities": [
+    {
+      "entity": "automated segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "shape constrained image segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "robust-ness requirement in image understanding",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "image data",
+      "category": "material"
+    },
+    {
+      "entity": "shape information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mixtures of feature distributions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "texture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic shape knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "low-level feature analysis",
+      "category": "method"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian statistics",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "shape information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Feature analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Image segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Bayesian statistics",
+      "category": "method"
+    },
+    {
+      "entity": "Probabilistic shape knowledge",
+      "category": "method"
+    },
+    {
+      "entity": "robustness requirement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguous segmentations",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "probabilistic shape knowledge",
+      "predicted": "Probabilistic shape knowledge",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "shape information",
+      "predicted": "shape information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Bayesian statistics",
+      "predicted": "Bayesian statistics",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "shape constrained image segmentation",
+      "predicted": "Image segmentation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "low-level feature analysis",
+      "predicted": "Feature analysis",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automated segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "robust-ness requirement in image understanding",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "image data",
+      "category": "material"
+    },
+    {
+      "entity": "mixtures of feature distributions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "texture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "robustness requirement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguous segmentations",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 2,
+    "otherscientificterm": 5,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "task": 2,
+    "method": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.15384615384615385,
+  "f1": 0.2,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

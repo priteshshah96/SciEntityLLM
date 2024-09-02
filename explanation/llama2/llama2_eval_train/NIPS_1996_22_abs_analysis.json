@@ -1,0 +1,242 @@
+{
+  "doc_key": "NIPS_1996_22_abs",
+  "gold_entities": [
+    {
+      "entity": "number of hidden layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "threshold units",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global computability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlocal configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "critical cycle",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multilayer neu-ral network",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "multilayer neural network",
+      "category": "method"
+    },
+    {
+      "entity": "threshold units",
+      "category": "method"
+    },
+    {
+      "entity": "function f",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dimension d",
+      "category": "material"
+    },
+    {
+      "entity": "gibson",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "neighborhood",
+      "category": "material"
+    },
+    {
+      "entity": "multiple intersection point",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "infinity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local computability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global computability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "critical cycle",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "threshold units",
+      "predicted": "threshold units",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "global computability",
+      "predicted": "global computability",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "critical cycle",
+      "predicted": "critical cycle",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multilayer neu-ral network",
+      "predicted": "multilayer neural network",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "number of hidden layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlocal configuration",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "function f",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dimension d",
+      "category": "material"
+    },
+    {
+      "entity": "gibson",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "neighborhood",
+      "category": "material"
+    },
+    {
+      "entity": "multiple intersection point",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "infinity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local computability",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "hidden layer|otherscientificterm": {
+      "count": 4,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 9,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 7,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.2,
+  "f1": 0.1904761904761905,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,172 @@
+{
+  "gold_entities": [
+    {
+      "entity": "Named Entity task",
+      "category": "Task"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "Task"
+    },
+    {
+      "entity": "statistical analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "Method"
+    },
+    {
+      "entity": "Named Entity corpora",
+      "category": "Material"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "statistical profile",
+      "category": "Task"
+    },
+    {
+      "entity": "Named Entity task",
+      "category": "Task"
+    },
+    {
+      "entity": "information extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "languages",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "cross-lingual comparisons",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "proposal",
+      "category": "Method"
+    },
+    {
+      "entity": "significance",
+      "category": "Metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "Named Entity task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "Named Entity task",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lower bound estimation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lower bound estimation",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "Named Entity task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "Named Entity task",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "information extraction task",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "information extraction",
+          "category": "Task"
+        }
+      ],
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "Named Entity corpora",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "corpora",
+          "category": "Material"
+        }
+      ],
+      "overlap": 0.3333333333333333
+    }
+  ],
+  "remaining_gold": [
+    {
+      "entity": "statistical analysis",
+      "category": "Method"
+    }
+  ],
+  "remaining_generated": [
+    {
+      "entity": "statistical profile",
+      "category": "Task"
+    },
+    {
+      "entity": "languages",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cross-lingual comparisons",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "proposal",
+      "category": "Method"
+    },
+    {
+      "entity": "significance",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "total_gold_entities": 5,
+    "total_exact_matches": 2,
+    "total_exact_category_matches": 1,
+    "total_split_matches": 0,
+    "total_partial_matches": 2,
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  }
+}

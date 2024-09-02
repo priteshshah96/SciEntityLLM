@@ -1,0 +1,231 @@
+{
+  "doc_key": "CVPR_2007_10_abs",
+  "gold_entities": [
+    {
+      "entity": "linear Fukunaga-Koontz Transform (FKT)",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative subspaces building approach",
+      "category": "method"
+    },
+    {
+      "entity": "FKT",
+      "category": "method"
+    },
+    {
+      "entity": "linear FKT",
+      "category": "method"
+    },
+    {
+      "entity": "Kernel Fukunaga-Koontz Transform",
+      "category": "method"
+    },
+    {
+      "entity": "non-linear generalization",
+      "category": "method"
+    },
+    {
+      "entity": "smallsamplesize",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "higher dimensional kernel subspaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discrimination ability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-class problem",
+      "category": "task"
+    },
+    {
+      "entity": "face recognition applications",
+      "category": "task"
+    },
+    {
+      "entity": "domain specific problems",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Traditional linear Fukunaga-Koontz Transform (FKT)",
+      "category": "method"
+    },
+    {
+      "entity": "small-sample-size",
+      "category": "material"
+    },
+    {
+      "entity": "multiclass problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "higher dimensional kernel subspaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discrimination ability",
+      "category": "method"
+    },
+    {
+      "entity": "face recognition applications",
+      "category": "method"
+    },
+    {
+      "entity": "non-linear generalization",
+      "category": "method"
+    },
+    {
+      "entity": "domain specific problems",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discrimination ability",
+      "predicted": "discrimination ability",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "face recognition applications",
+      "predicted": "face recognition applications",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "domain specific problems",
+      "predicted": "domain specific problems",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "non-linear generalization",
+      "predicted": "non-linear generalization",
+      "category": "method"
+    },
+    {
+      "gold": "higher dimensional kernel subspaces",
+      "predicted": "higher dimensional kernel subspaces",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "linear Fukunaga-Koontz Transform (FKT)",
+      "predicted": "Traditional linear Fukunaga-Koontz Transform (FKT)",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "discriminative subspaces building approach",
+      "category": "method"
+    },
+    {
+      "entity": "FKT",
+      "category": "method"
+    },
+    {
+      "entity": "linear FKT",
+      "category": "method"
+    },
+    {
+      "entity": "Kernel Fukunaga-Koontz Transform",
+      "category": "method"
+    },
+    {
+      "entity": "smallsamplesize",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-class problem",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "small-sample-size",
+      "category": "material"
+    },
+    {
+      "entity": "multiclass problem",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 3,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "material": 1,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.16666666666666666,
+  "f1": 0.2,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 8,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

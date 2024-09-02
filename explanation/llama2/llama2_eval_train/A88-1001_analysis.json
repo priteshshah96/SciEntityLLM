@@ -1,0 +1,244 @@
+{
+  "doc_key": "A88-1001",
+  "gold_entities": [
+    {
+      "entity": "domain independent strategy",
+      "category": "method"
+    },
+    {
+      "entity": "multimedia articulation of answers",
+      "category": "task"
+    },
+    {
+      "entity": "database query applications",
+      "category": "task"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "texttospeech form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deictic reference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feedback",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multimedia answers",
+      "category": "material"
+    },
+    {
+      "entity": "videodisc images",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "multimedia articulation",
+      "category": "task"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "method"
+    },
+    {
+      "entity": "database query applications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "answers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "videodisc images",
+      "category": "material"
+    },
+    {
+      "entity": "heuristicallyproduced complete sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deictic reference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feedback",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "application",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cooperative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "database query applications",
+      "predicted": "database query applications",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language interface",
+      "predicted": "natural language interface",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "deictic reference",
+      "predicted": "deictic reference",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "feedback",
+      "predicted": "feedback",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse",
+      "predicted": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "videodisc images",
+      "predicted": "videodisc images",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multimedia articulation of answers",
+      "predicted": "multimedia articulation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Multimedia answers",
+      "predicted": "answers",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "domain independent strategy",
+      "category": "method"
+    },
+    {
+      "entity": "texttospeech form",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "heuristicallyproduced complete sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "application",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cooperative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "task": 2,
+    "otherscientificterm": 5,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 1,
+    "otherscientificterm": 9,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 9,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4,
+  "f1": 0.3636363636363636,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

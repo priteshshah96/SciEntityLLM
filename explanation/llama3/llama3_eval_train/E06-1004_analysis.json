@@ -1,0 +1,262 @@
+{
+  "doc_key": "E06-1004",
+  "gold_entities": [
+    {
+      "entity": "Statistical Machine Translation (SMT)",
+      "category": "task"
+    },
+    {
+      "entity": "SMT",
+      "category": "task"
+    },
+    {
+      "entity": "SMT algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "IBM Models 1-2",
+      "category": "method"
+    },
+    {
+      "entity": "polynomial time solution",
+      "category": "method"
+    },
+    {
+      "entity": "polynomial time approximations",
+      "category": "method"
+    },
+    {
+      "entity": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "complexity",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Statistical Machine Translation (SMT)",
+      "category": "task"
+    },
+    {
+      "entity": "SMT research community",
+      "category": "material"
+    },
+    {
+      "entity": "SMT algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "SMT",
+      "category": "task"
+    },
+    {
+      "entity": "IBM Models 1-2",
+      "category": "method"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hard",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polynomial time solution",
+      "category": "metric"
+    },
+    {
+      "entity": "P = NP",
+      "category": "method"
+    },
+    {
+      "entity": "P#P = P",
+      "category": "method"
+    },
+    {
+      "entity": "polynomial time approximations",
+      "category": "method"
+    },
+    {
+      "entity": "complexity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complexity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "polynomial time solution",
+      "predicted": "polynomial time solution",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "complexity",
+      "predicted": "complexity",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Statistical Machine Translation (SMT)",
+      "predicted": "Statistical Machine Translation (SMT)",
+      "category": "task"
+    },
+    {
+      "gold": "SMT",
+      "predicted": "SMT",
+      "category": "task"
+    },
+    {
+      "gold": "SMT algorithms",
+      "predicted": "SMT algorithms",
+      "category": "method"
+    },
+    {
+      "gold": "IBM Models 1-2",
+      "predicted": "IBM Models 1-2",
+      "category": "method"
+    },
+    {
+      "gold": "polynomial time approximations",
+      "predicted": "polynomial time approximations",
+      "category": "method"
+    },
+    {
+      "gold": "computational complexity",
+      "predicted": "computational complexity",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "computational complexity",
+      "predicted": "complexity",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "SMT research community",
+      "category": "material"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hard",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "P = NP",
+      "category": "method"
+    },
+    {
+      "entity": "P#P = P",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "computational complexity|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 1,
+    "method": 5,
+    "metric": 2,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.6666666666666666,
+  "f1": 0.5217391304347826,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 5,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

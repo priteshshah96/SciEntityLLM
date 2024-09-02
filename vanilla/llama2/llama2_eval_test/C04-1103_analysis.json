@@ -1,0 +1,261 @@
+{
+  "doc_key": "C04-1103",
+  "gold_entities": [
+    {
+      "entity": "Machine transliteration/back-transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual speech and language applications",
+      "category": "task"
+    },
+    {
+      "entity": "machine transliteration/backtransliteration",
+      "category": "task"
+    },
+    {
+      "entity": "transliteration/backtransliteration",
+      "category": "task"
+    },
+    {
+      "entity": "direct orthographical mapping (DOM)",
+      "category": "method"
+    },
+    {
+      "entity": "joint source-channel transliteration model",
+      "category": "method"
+    },
+    {
+      "entity": "n-gram transliteration model (n-gram TM)",
+      "category": "method"
+    },
+    {
+      "entity": "transliteration process",
+      "category": "method"
+    },
+    {
+      "entity": "English/Chinese and English/Japanese language pairs",
+      "category": "material"
+    },
+    {
+      "entity": "transliteration accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Machine transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "Back-transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "Framework",
+      "category": "method"
+    },
+    {
+      "entity": "Direct orthographical mapping",
+      "category": "method"
+    },
+    {
+      "entity": "Joint source-channel transliteration model",
+      "category": "method"
+    },
+    {
+      "entity": "N-gram transliteration model",
+      "category": "method"
+    },
+    {
+      "entity": "transliteration process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English/Chinese language pair",
+      "category": "material"
+    },
+    {
+      "entity": "English/Japanese language pair",
+      "category": "material"
+    },
+    {
+      "entity": "Transliteration/backtransliteration experiments",
+      "category": "task"
+    },
+    {
+      "entity": "system development effort",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Transliteration accuracy",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "transliteration process",
+      "predicted": "transliteration process",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "joint source-channel transliteration model",
+      "predicted": "Joint source-channel transliteration model",
+      "category": "method"
+    },
+    {
+      "gold": "transliteration accuracy",
+      "predicted": "Transliteration accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "transliteration/backtransliteration",
+      "predicted": "Transliteration/backtransliteration experiments",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "direct orthographical mapping (DOM)",
+      "predicted": "Direct orthographical mapping",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Machine transliteration/back-transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual speech and language applications",
+      "category": "task"
+    },
+    {
+      "entity": "machine transliteration/backtransliteration",
+      "category": "task"
+    },
+    {
+      "entity": "n-gram transliteration model (n-gram TM)",
+      "category": "method"
+    },
+    {
+      "entity": "English/Chinese and English/Japanese language pairs",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Machine transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "Back-transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "Framework",
+      "category": "method"
+    },
+    {
+      "entity": "N-gram transliteration model",
+      "category": "method"
+    },
+    {
+      "entity": "English/Chinese language pair",
+      "category": "material"
+    },
+    {
+      "entity": "English/Japanese language pair",
+      "category": "material"
+    },
+    {
+      "entity": "system development effort",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 4,
+    "material": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 4,
+    "otherscientificterm": 2,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.2,
+  "f1": 0.1818181818181818,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 12,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 7,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

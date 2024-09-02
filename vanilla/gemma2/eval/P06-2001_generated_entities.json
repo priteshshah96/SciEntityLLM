@@ -1,0 +1,261 @@
+{
+  "gold_entities": [
+    {
+      "entity": "basque",
+      "category": "Material"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "comma checker",
+      "category": "Method"
+    },
+    {
+      "entity": "grammar checker",
+      "category": "Method"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall",
+      "category": "Metric"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall",
+      "category": "Metric"
+    },
+    {
+      "entity": "placing commas",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "machine learning techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "comma checker",
+      "category": "Task"
+    },
+    {
+      "entity": "grammar checker",
+      "category": "Task"
+    },
+    {
+      "entity": "basque",
+      "category": "Material"
+    },
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "words",
+      "category": "Material"
+    },
+    {
+      "entity": "commas",
+      "category": "Material"
+    },
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall",
+      "category": "Metric"
+    },
+    {
+      "entity": "author",
+      "category": "Material"
+    },
+    {
+      "entity": "corpus",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "comma checker",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "comma checker",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "grammar checker",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "grammar checker",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "basque",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "basque",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "recall",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "recall",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "basque",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "basque",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "precision",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "precision",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "recall",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "recall",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "placing commas",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "commas",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "precision",
+      "category": "Metric"
+    },
+    {
+      "entity": "recall",
+      "category": "Metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "words",
+      "category": "Material"
+    },
+    {
+      "entity": "author",
+      "category": "Material"
+    },
+    {
+      "entity": "corpus",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "precision": 2,
+    "recall": 2
+  },
+  "distinct_repeated_entities": [
+    "precision",
+    "recall"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 11,
+    "generic_count": 2,
+    "exact_matches": 6,
+    "exact_category_matches": 4,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

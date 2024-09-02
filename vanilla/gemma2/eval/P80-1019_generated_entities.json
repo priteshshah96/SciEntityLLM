@@ -1,0 +1,240 @@
+{
+  "gold_entities": [
+    {
+      "entity": "decoding",
+      "category": "Method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "Method"
+    },
+    {
+      "entity": "robust communication procedures",
+      "category": "Method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "personal computers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "graphics displays",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "natural language interfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "meaning",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "input",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "decoding",
+      "category": "Method"
+    },
+    {
+      "entity": "communication",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "communication procedures",
+      "category": "Method"
+    },
+    {
+      "entity": "imitation",
+      "category": "Method"
+    },
+    {
+      "entity": "personal computers",
+      "category": "Material"
+    },
+    {
+      "entity": "graphics displays",
+      "category": "Material"
+    },
+    {
+      "entity": "interfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "traditional natural language interfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "they",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "natural language interfaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural language interfaces",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "decoding",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "decoding",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "personal computers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "personal computers",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "graphics displays",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "graphics displays",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "natural language interfaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural language interfaces",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "decoding",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "decoding",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "non-literal aspects of communication",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "communication",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "communication procedures",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "natural language interfaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "interfaces",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "traditional natural language interfaces",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.75
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "robust communication procedures",
+      "category": "Method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "meaning",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "input",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "imitation",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {
+    "non-literal aspects of communication": 2,
+    "natural language interfaces": 3
+  },
+  "distinct_repeated_entities": [
+    "non-literal aspects of communication",
+    "natural language interfaces"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 5
+  }
+}

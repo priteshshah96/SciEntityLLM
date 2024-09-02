@@ -1,0 +1,205 @@
+{
+  "gold_entities": [
+    {
+      "entity": "iemocap database",
+      "category": "Material"
+    },
+    {
+      "entity": "expressive speech communication",
+      "category": "Task"
+    },
+    {
+      "entity": "discrete (categorical) and continuous (attribute) emotional assessments",
+      "category": "Task"
+    },
+    {
+      "entity": "expression and perception of emotion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "activation-valence space",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "expressive speech communication",
+      "category": "Task"
+    },
+    {
+      "entity": "emotion perceived by the listener",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intended emotion conveyed by the speaker",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mismatches between the assessments",
+      "category": "Metric"
+    },
+    {
+      "entity": "na\u00a8\u0131ve listeners",
+      "category": "Material"
+    },
+    {
+      "entity": "speakers that generated the data",
+      "category": "Material"
+    },
+    {
+      "entity": "self-assessments",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "iemocap database",
+      "category": "Material"
+    },
+    {
+      "entity": "discrete (categorical) emotional assessments",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "continuous (attribute) emotional assessments",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "activation-valence space",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "database",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "iemocap database",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "iemocap database",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "activation-valence space",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "activation-valence space",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "iemocap database",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "iemocap database",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "activation-valence space",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "activation-valence space",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "discrete (categorical) and continuous (attribute) emotional assessments",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "mismatches between the assessments",
+          "category": "Metric"
+        },
+        {
+          "entity": "discrete (categorical) emotional assessments",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "continuous (attribute) emotional assessments",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.25
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "expression and perception of emotion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "emotion perceived by the listener",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intended emotion conveyed by the speaker",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "na\u00a8\u0131ve listeners",
+      "category": "Material"
+    },
+    {
+      "entity": "speakers that generated the data",
+      "category": "Material"
+    },
+    {
+      "entity": "self-assessments",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

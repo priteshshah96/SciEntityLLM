@@ -1,0 +1,335 @@
+{
+  "doc_key": "W05-1308",
+  "gold_entities": [
+    {
+      "entity": "fully automated extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "IntEx",
+      "category": "method"
+    },
+    {
+      "entity": "extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "extraction systems",
+      "category": "method"
+    },
+    {
+      "entity": "IntEx system",
+      "category": "method"
+    },
+    {
+      "entity": "gene and protein interactions",
+      "category": "task"
+    },
+    {
+      "entity": "biomedical text",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biological entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biomedical and linguistic ontologies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple and nested interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pattern engineering requirement",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "IntEx",
+      "category": "method"
+    },
+    {
+      "entity": "gene interactions",
+      "category": "task"
+    },
+    {
+      "entity": "protein interactions",
+      "category": "task"
+    },
+    {
+      "entity": "biomedical text",
+      "category": "material"
+    },
+    {
+      "entity": "complex sentences",
+      "category": "material"
+    },
+    {
+      "entity": "simple clausal structures",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "metric"
+    },
+    {
+      "entity": "biological entities",
+      "category": "material"
+    },
+    {
+      "entity": "biomedical and linguistic ontologies",
+      "category": "material"
+    },
+    {
+      "entity": "complete interactions",
+      "category": "task"
+    },
+    {
+      "entity": "matching contents",
+      "category": "metric"
+    },
+    {
+      "entity": "linguistically significant combinations",
+      "category": "metric"
+    },
+    {
+      "entity": "extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "multiple interactions",
+      "category": "task"
+    },
+    {
+      "entity": "nested interactions",
+      "category": "task"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    },
+    {
+      "entity": "pattern engineering",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "IntEx",
+      "predicted": "IntEx",
+      "category": "method"
+    },
+    {
+      "gold": "extraction system",
+      "predicted": "extraction system",
+      "category": "method"
+    },
+    {
+      "gold": "biomedical text",
+      "predicted": "biomedical text",
+      "category": "material"
+    },
+    {
+      "gold": "syntactic roles",
+      "predicted": "syntactic roles",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "biological entities",
+      "predicted": "biological entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "biomedical and linguistic ontologies",
+      "predicted": "biomedical and linguistic ontologies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "gene and protein interactions",
+      "predicted": "gene interactions",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "multiple and nested interactions",
+      "predicted": "multiple interactions",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "pattern engineering requirement",
+      "predicted": "pattern engineering",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "IntEx",
+      "category": "method"
+    },
+    {
+      "entity": "extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "biomedical text",
+      "category": "material"
+    },
+    {
+      "entity": "gene and protein interactions",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "fully automated extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "extraction systems",
+      "category": "method"
+    },
+    {
+      "entity": "IntEx system",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "complex sentences",
+      "category": "material"
+    },
+    {
+      "entity": "simple clausal structures",
+      "category": "material"
+    },
+    {
+      "entity": "complete interactions",
+      "category": "task"
+    },
+    {
+      "entity": "matching contents",
+      "category": "metric"
+    },
+    {
+      "entity": "linguistically significant combinations",
+      "category": "metric"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "syntactic roles|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "task": 1,
+    "material": 1,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 5,
+    "material": 6,
+    "metric": 4
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 0,
+      "exact_matches": 3,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.25,
+  "f1": 0.2,
+  "category_precision": 0.2777777777777778,
+  "category_recall": 0.38461538461538464,
+  "category_f1": 0.3225806451612903,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 18,
+    "exact_matches": 6,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 7,
+    "generic_entities": 1,
+    "correct_predictions": 3,
+    "correct_categories": 5
+  }
+}

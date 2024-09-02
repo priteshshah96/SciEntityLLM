@@ -1,0 +1,305 @@
+{
+  "doc_key": "I05-6011",
+  "gold_entities": [
+    {
+      "entity": "annotating scheme",
+      "category": "method"
+    },
+    {
+      "entity": "honorifics",
+      "category": "material"
+    },
+    {
+      "entity": "Honorifics",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese",
+      "category": "material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "material"
+    },
+    {
+      "entity": "respectful words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "referential information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "zero pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine translation outputs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ranks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ranks",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Annotating scheme",
+      "category": "method"
+    },
+    {
+      "entity": "honorifics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Japanese",
+      "category": "material"
+    },
+    {
+      "entity": "referents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "referential information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "zero pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Machine translation outputs",
+      "category": "metric"
+    },
+    {
+      "entity": "predicate",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ranks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Calibrating",
+      "category": "task"
+    },
+    {
+      "entity": "Identifying",
+      "category": "task"
+    },
+    {
+      "entity": "Assigning",
+      "category": "task"
+    },
+    {
+      "entity": "Connecting",
+      "category": "task"
+    },
+    {
+      "entity": "Annotating",
+      "category": "task"
+    },
+    {
+      "entity": "Resolving",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "honorifics",
+      "predicted": "honorifics",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "machine translation outputs",
+      "predicted": "Machine translation outputs",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "annotating scheme",
+      "predicted": "Annotating scheme",
+      "category": "method"
+    },
+    {
+      "gold": "Japanese",
+      "predicted": "Japanese",
+      "category": "material"
+    },
+    {
+      "gold": "referential information",
+      "predicted": "referential information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "zero pronouns",
+      "predicted": "zero pronouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "ranks",
+      "predicted": "ranks",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "honorifics",
+      "category": "material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "material"
+    },
+    {
+      "entity": "Honorifics",
+      "category": "material"
+    },
+    {
+      "entity": "respectful words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ranks",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "referents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predicate",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Calibrating",
+      "category": "task"
+    },
+    {
+      "entity": "Identifying",
+      "category": "task"
+    },
+    {
+      "entity": "Assigning",
+      "category": "task"
+    },
+    {
+      "entity": "Connecting",
+      "category": "task"
+    },
+    {
+      "entity": "Annotating",
+      "category": "task"
+    },
+    {
+      "entity": "Resolving",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "honorifics|material": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "ranks|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "material": 5,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 6,
+    "material": 1,
+    "metric": 1,
+    "task": 6
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4166666666666667,
+  "f1": 0.3703703703703704,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 15,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 8,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

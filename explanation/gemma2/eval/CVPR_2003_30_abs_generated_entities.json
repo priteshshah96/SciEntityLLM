@@ -1,0 +1,267 @@
+{
+  "gold_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "normalized representation",
+      "category": "Method"
+    },
+    {
+      "entity": "segmentation stage",
+      "category": "Method"
+    },
+    {
+      "entity": "matching",
+      "category": "Task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "acquisition of true three-dimensional affine and euclidean models",
+      "category": "Task"
+    },
+    {
+      "entity": "recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "three-dimensional objects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "affine-invariant image patches",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multi-view constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cluttered scenes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "three-dimensional objects",
+      "category": "Task"
+    },
+    {
+      "entity": "affine-invariant image patches",
+      "category": "Method"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-view constraints",
+      "category": "Method"
+    },
+    {
+      "entity": "groups of patches",
+      "category": "Method"
+    },
+    {
+      "entity": "normalized representation of appearance",
+      "category": "Method"
+    },
+    {
+      "entity": "matching and reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "three-dimensional affine and euclidean models",
+      "category": "Material"
+    },
+    {
+      "entity": "single photograph",
+      "category": "Material"
+    },
+    {
+      "entity": "arbitrary viewpoint",
+      "category": "Task"
+    },
+    {
+      "entity": "segmentation stage",
+      "category": "Method"
+    },
+    {
+      "entity": "cluttered scenes",
+      "category": "Material"
+    },
+    {
+      "entity": "preliminary modeling and recognition results",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "representation",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "three-dimensional objects",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "three-dimensional objects",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "affine-invariant image patches",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "affine-invariant image patches",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spatial relationships",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "spatial relationships",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multi-view constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "multi-view constraints",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "segmentation stage",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "segmentation stage",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "cluttered scenes",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "cluttered scenes",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "segmentation stage",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "segmentation stage",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "acquisition of true three-dimensional affine and euclidean models",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "groups of patches",
+          "category": "Method"
+        },
+        {
+          "entity": "normalized representation of appearance",
+          "category": "Method"
+        },
+        {
+          "entity": "matching and reconstruction",
+          "category": "Task"
+        },
+        {
+          "entity": "three-dimensional affine and euclidean models",
+          "category": "Material"
+        },
+        {
+          "entity": "preliminary modeling and recognition results",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.1166666666666667
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "normalized representation",
+      "category": "Method"
+    },
+    {
+      "entity": "matching",
+      "category": "Task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "recognition",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "single photograph",
+      "category": "Material"
+    },
+    {
+      "entity": "arbitrary viewpoint",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 13,
+    "generic_count": 2,
+    "exact_matches": 6,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

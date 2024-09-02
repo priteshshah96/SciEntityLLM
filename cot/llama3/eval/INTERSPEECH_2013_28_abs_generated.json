@@ -1,0 +1,239 @@
+{
+  "gold_entities": [
+    {
+      "entity": "under-explored language genre of spoken language",
+      "category": "Material"
+    },
+    {
+      "entity": "lyrics in music",
+      "category": "Material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "rhyming lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "unsuper-vised induction",
+      "category": "Method"
+    },
+    {
+      "entity": "smt-style stochastic transduction grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "fully-automatically learned challenge-response system",
+      "category": "Method"
+    },
+    {
+      "entity": "phrase-based smt models",
+      "category": "Method"
+    },
+    {
+      "entity": "priori linguistic or phonetic knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "human evaluators",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "inexplicably under-explored language genre",
+      "category": "Material"
+    },
+    {
+      "entity": "spoken language",
+      "category": "Task"
+    },
+    {
+      "entity": "lyrics in music",
+      "category": "Material"
+    },
+    {
+      "entity": "stochastic transduction grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "rhyming lyrics",
+      "category": "Task"
+    },
+    {
+      "entity": "human evaluators",
+      "category": "Method"
+    },
+    {
+      "entity": "widely used phrase-based smt models",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "task",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "lyrics in music",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "lyrics in music",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "rhyming lyrics",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "rhyming lyrics",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "human evaluators",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "human evaluators",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "lyrics in music",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "lyrics in music",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "under-explored language genre of spoken language",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "inexplicably under-explored language genre",
+          "category": "Material"
+        },
+        {
+          "entity": "spoken language",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.75
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "smt-style stochastic transduction grammar",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "stochastic transduction grammar",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "phrase-based smt models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "widely used phrase-based smt models",
+        "category": "Method"
+      },
+      "overlap": 0.6
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "unsuper-vised induction",
+      "category": "Method"
+    },
+    {
+      "entity": "fully-automatically learned challenge-response system",
+      "category": "Method"
+    },
+    {
+      "entity": "priori linguistic or phonetic knowledge",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "hip hop lyrics": 2
+  },
+  "distinct_repeated_entities": [
+    "hip hop lyrics"
+  ],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 8,
+    "generic_count": 3,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

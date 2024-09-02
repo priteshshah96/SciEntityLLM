@@ -1,0 +1,191 @@
+{
+  "doc_key": "H05-1101",
+  "gold_entities": [
+    {
+      "entity": "computational problems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "exponential time lowerbound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "Machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "Probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "synchronous",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hardness",
+      "category": "metric"
+    },
+    {
+      "entity": "np",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Exponential time lower-bound",
+      "category": "metric"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "probabilistic translation models",
+      "predicted": "Probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "gold": "probabilistic context-free grammars",
+      "predicted": "Probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "gold": "machine translation",
+      "predicted": "Machine translation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "exponential time lowerbound",
+      "predicted": "Exponential time lower-bound",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "computational problems",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "synchronous",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hardness",
+      "category": "metric"
+    },
+    {
+      "entity": "np",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 1,
+    "otherscientificterm": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.625,
+  "category_recall": 1.0,
+  "category_f1": 0.7692307692307693,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 8,
+    "exact_matches": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 1,
+    "correct_predictions": 0,
+    "correct_categories": 5
+  }
+}

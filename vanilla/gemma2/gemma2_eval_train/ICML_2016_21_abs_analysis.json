@@ -1,0 +1,296 @@
+{
+  "doc_key": "ICML_2016_21_abs",
+  "gold_entities": [
+    {
+      "entity": "limited-memory stochastic block BFGS update",
+      "category": "method"
+    },
+    {
+      "entity": "sketching strategies",
+      "category": "method"
+    },
+    {
+      "entity": "quasi-Newton method",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic block BFGS updates",
+      "category": "method"
+    },
+    {
+      "entity": "variance reduction approach SVRG",
+      "category": "method"
+    },
+    {
+      "entity": "incorporating enriched curvature information in stochastic approximation methods",
+      "category": "task"
+    },
+    {
+      "entity": "large-scale logistic regression problems",
+      "category": "task"
+    },
+    {
+      "entity": "inverse hessian matrix",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hessian",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "randomly generated compressed form of the hessian",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "batch stochastic gradients",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "BFGS update",
+      "category": "method"
+    },
+    {
+      "entity": "limited-memory",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic block",
+      "category": "method"
+    },
+    {
+      "entity": "enriched curvature information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stochastic approximation methods",
+      "category": "method"
+    },
+    {
+      "entity": "estimate of the inverse Hessian matrix",
+      "category": "metric"
+    },
+    {
+      "entity": "sketch of the Hessian",
+      "category": "metric"
+    },
+    {
+      "entity": "quasi-Newton method",
+      "category": "method"
+    },
+    {
+      "entity": "variance reduction approach",
+      "category": "method"
+    },
+    {
+      "entity": "SVRG",
+      "category": "method"
+    },
+    {
+      "entity": "batch stochastic gradients",
+      "category": "method"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "metric"
+    },
+    {
+      "entity": "logistic regression problems",
+      "category": "task"
+    },
+    {
+      "entity": "robustness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "quasi-Newton method",
+      "predicted": "quasi-Newton method",
+      "category": "method"
+    },
+    {
+      "gold": "batch stochastic gradients",
+      "predicted": "batch stochastic gradients",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "linear convergence",
+      "predicted": "linear convergence",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "stochastic block BFGS updates",
+      "predicted": "stochastic block",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "variance reduction approach SVRG",
+      "predicted": "variance reduction approach",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "large-scale logistic regression problems",
+      "predicted": "logistic regression problems",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "inverse hessian matrix",
+      "predicted": "estimate of the inverse Hessian matrix",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "quasi-Newton method",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic block BFGS updates",
+      "category": "method"
+    },
+    {
+      "entity": "variance reduction approach SVRG",
+      "category": "method"
+    },
+    {
+      "entity": "large-scale logistic regression problems",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "limited-memory stochastic block BFGS update",
+      "category": "method"
+    },
+    {
+      "entity": "sketching strategies",
+      "category": "method"
+    },
+    {
+      "entity": "incorporating enriched curvature information in stochastic approximation methods",
+      "category": "task"
+    },
+    {
+      "entity": "hessian",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "randomly generated compressed form of the hessian",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "BFGS update",
+      "category": "method"
+    },
+    {
+      "entity": "limited-memory",
+      "category": "method"
+    },
+    {
+      "entity": "enriched curvature information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stochastic approximation methods",
+      "category": "method"
+    },
+    {
+      "entity": "sketch of the Hessian",
+      "category": "metric"
+    },
+    {
+      "entity": "SVRG",
+      "category": "method"
+    },
+    {
+      "entity": "robustness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "task": 2,
+    "otherscientificterm": 5
+  },
+  "predicted_category_counts": {
+    "method": 8,
+    "otherscientificterm": 2,
+    "metric": 3,
+    "task": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 8,
+      "exact_matches": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07142857142857142,
+  "recall": 0.08333333333333333,
+  "f1": 0.07692307692307691,
+  "category_precision": 0.5714285714285714,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.6153846153846153,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 3,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 7,
+    "generic_entities": 5,
+    "correct_predictions": 1,
+    "correct_categories": 8
+  }
+}

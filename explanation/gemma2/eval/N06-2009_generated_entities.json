@@ -1,0 +1,176 @@
+{
+  "gold_entities": [
+    {
+      "entity": "paraphrased questions",
+      "category": "Material"
+    },
+    {
+      "entity": "question answering (qa) systems",
+      "category": "Method"
+    },
+    {
+      "entity": "mt-based paraphrasing technique",
+      "category": "Method"
+    },
+    {
+      "entity": "qa system",
+      "category": "Method"
+    },
+    {
+      "entity": "mrr",
+      "category": "Metric"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "question answering (qa)",
+      "category": "Task"
+    },
+    {
+      "entity": "qa systems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "variations in the phrasing of an information need",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "preferred language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mt-based paraphrasing technique",
+      "category": "Method"
+    },
+    {
+      "entity": "paraphrased questions",
+      "category": "Material"
+    },
+    {
+      "entity": "mrr",
+      "category": "Metric"
+    },
+    {
+      "entity": "original question",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "mt-based paraphrasing technique",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "mt-based paraphrasing technique",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "paraphrased questions",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "paraphrased questions",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "mrr",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "mrr",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "mt-based paraphrasing technique",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "mt-based paraphrasing technique",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "paraphrased questions",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "paraphrased questions",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "mrr",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "mrr",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "question answering (qa) systems",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "question answering (qa)",
+          "category": "Task"
+        },
+        {
+          "entity": "qa systems",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "original question",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "qa system",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "variations in the phrasing of an information need",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "preferred language",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 8,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

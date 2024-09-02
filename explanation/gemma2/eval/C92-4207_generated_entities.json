@@ -1,0 +1,303 @@
+{
+  "gold_entities": [
+    {
+      "entity": "japanese",
+      "category": "Material"
+    },
+    {
+      "entity": "natural language texts",
+      "category": "Material"
+    },
+    {
+      "entity": "geometric model",
+      "category": "Method"
+    },
+    {
+      "entity": "computer program sprint",
+      "category": "Method"
+    },
+    {
+      "entity": "spatial descriptions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "qualitative spatial constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "numerical constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial attributes of the entities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial concepts",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "spatial descriptions",
+      "category": "Task"
+    },
+    {
+      "entity": "japanese",
+      "category": "Material"
+    },
+    {
+      "entity": "world",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "geometric model",
+      "category": "Method"
+    },
+    {
+      "entity": "scenic descriptions",
+      "category": "Material"
+    },
+    {
+      "entity": "computer program",
+      "category": "Method"
+    },
+    {
+      "entity": "sprint",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language texts",
+      "category": "Material"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "qualitative spatial constraints",
+      "category": "Method"
+    },
+    {
+      "entity": "numerical constraints",
+      "category": "Method"
+    },
+    {
+      "entity": "spatial attributes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "entities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporary belief",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "world",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "spatial descriptions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "spatial descriptions",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "japanese",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "japanese",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "geometric model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "geometric model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language texts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "natural language texts",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "qualitative spatial constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "qualitative spatial constraints",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "numerical constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "numerical constraints",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spatial concepts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "spatial concepts",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "japanese",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "japanese",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "geometric model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "geometric model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language texts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "natural language texts",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spatial concepts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "spatial concepts",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "computer program sprint",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "computer program",
+          "category": "Method"
+        },
+        {
+          "entity": "sprint",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "spatial attributes of the entities",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "spatial attributes",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "entities",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "world",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenic descriptions",
+      "category": "Material"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "temporary belief",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "world",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 16,
+    "generic_count": 2,
+    "exact_matches": 7,
+    "exact_category_matches": 4,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

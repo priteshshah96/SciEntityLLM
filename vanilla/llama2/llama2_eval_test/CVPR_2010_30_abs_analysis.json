@@ -1,0 +1,249 @@
+{
+  "doc_key": "CVPR_2010_30_abs",
+  "gold_entities": [
+    {
+      "entity": "evaluation of object detection cascades",
+      "category": "task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "search",
+      "category": "task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "branch-and-bound object detection",
+      "category": "task"
+    },
+    {
+      "entity": "divide-and-conquer procedure",
+      "category": "method"
+    },
+    {
+      "entity": "space of candidate regions",
+      "category": "method"
+    },
+    {
+      "entity": "exhaustive procedure",
+      "category": "method"
+    },
+    {
+      "entity": "subwindow search (ESS) procedure",
+      "category": "method"
+    },
+    {
+      "entity": "kernel-ized support vector machines",
+      "category": "method"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "classifier functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlinear quality functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "PASCAL VOC 2006 dataset",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Divide-and-conquer procedure",
+      "category": "task"
+    },
+    {
+      "entity": "Efficient subwindow search (ESS)",
+      "category": "method"
+    },
+    {
+      "entity": "kernelized support vector machines",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "PASCAL VOC 2006 dataset",
+      "category": "material"
+    },
+    {
+      "entity": "classifier functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Object detection cascades",
+      "category": "task"
+    },
+    {
+      "entity": "Exhaustive procedure",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "divide-and-conquer procedure",
+      "predicted": "Divide-and-conquer procedure",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "exhaustive procedure",
+      "predicted": "Exhaustive procedure",
+      "category": "method"
+    },
+    {
+      "gold": "classifier functions",
+      "predicted": "classifier functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "PASCAL VOC 2006 dataset",
+      "predicted": "PASCAL VOC 2006 dataset",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "evaluation of object detection cascades",
+      "predicted": "Object detection cascades",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "kernel-ized support vector machines",
+      "predicted": "kernelized support vector machines",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "cascade evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "search",
+      "category": "task"
+    },
+    {
+      "entity": "branch-and-bound object detection",
+      "category": "task"
+    },
+    {
+      "entity": "space of candidate regions",
+      "category": "method"
+    },
+    {
+      "entity": "subwindow search (ESS) procedure",
+      "category": "method"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "nonlinear quality functions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Efficient subwindow search (ESS)",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "cascade evaluation|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 6,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.21428571428571427,
+  "f1": 0.2857142857142857,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 1,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

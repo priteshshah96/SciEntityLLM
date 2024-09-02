@@ -1,0 +1,279 @@
+{
+  "doc_key": "CVPR_2014_21_abs",
+  "gold_entities": [
+    {
+      "entity": "personalized parametric model (pose-driven avatar)",
+      "category": "method"
+    },
+    {
+      "entity": "template fitting techniques",
+      "category": "method"
+    },
+    {
+      "entity": "watertight models",
+      "category": "method"
+    },
+    {
+      "entity": "parametric model",
+      "category": "method"
+    },
+    {
+      "entity": "SCAPE method",
+      "category": "method"
+    },
+    {
+      "entity": "parametric model",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic 3D models",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic models",
+      "category": "method"
+    },
+    {
+      "entity": "single depth sensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human template",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global consistency constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "animitable avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single-view depth videos",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "personalized parametric model (pose-driven avatar)",
+      "category": "task"
+    },
+    {
+      "entity": "single depth sensor",
+      "category": "material"
+    },
+    {
+      "entity": "template fitting techniques",
+      "category": "method"
+    },
+    {
+      "entity": "generic human template",
+      "category": "method"
+    },
+    {
+      "entity": "registration",
+      "category": "method"
+    },
+    {
+      "entity": "watertight models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parametric model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "SCAPE method",
+      "category": "method"
+    },
+    {
+      "entity": "animitable avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dynamic 3D models",
+      "category": "metric"
+    },
+    {
+      "entity": "single-view depth videos",
+      "category": "material"
+    },
+    {
+      "entity": "experimental results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "personalized parametric model (pose-driven avatar)",
+      "predicted": "personalized parametric model (pose-driven avatar)",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "watertight models",
+      "predicted": "watertight models",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "parametric model",
+      "predicted": "parametric model",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "dynamic 3D models",
+      "predicted": "dynamic 3D models",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "single depth sensor",
+      "predicted": "single depth sensor",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "template fitting techniques",
+      "predicted": "template fitting techniques",
+      "category": "method"
+    },
+    {
+      "gold": "SCAPE method",
+      "predicted": "SCAPE method",
+      "category": "method"
+    },
+    {
+      "gold": "animitable avatar",
+      "predicted": "animitable avatar",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "single-view depth videos",
+      "predicted": "single-view depth videos",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "human template",
+      "predicted": "generic human template",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "parametric model",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic models",
+      "category": "method"
+    },
+    {
+      "entity": "global consistency constraints",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "registration",
+      "category": "method"
+    },
+    {
+      "entity": "experimental results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "parametric model|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "method": 4,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 8,
+      "predicted": 4,
+      "exact_matches": 4,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.3076923076923077,
+  "f1": 0.32,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 12,
+    "exact_matches": 5,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

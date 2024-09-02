@@ -1,0 +1,227 @@
+{
+  "doc_key": "P05-2008",
+  "gold_entities": [
+    {
+      "entity": "Sentiment Classification",
+      "category": "task"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "entity": "training and test data",
+      "category": "material"
+    },
+    {
+      "entity": "training data",
+      "category": "material"
+    },
+    {
+      "entity": "emoticons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "sentiment classification",
+      "category": "task"
+    },
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "author",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subject",
+      "category": "material"
+    },
+    {
+      "entity": "positive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "negative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "entity": "training data",
+      "category": "material"
+    },
+    {
+      "entity": "emoticon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain",
+      "category": "task"
+    },
+    {
+      "entity": "topic",
+      "category": "task"
+    },
+    {
+      "entity": "time",
+      "category": "task"
+    },
+    {
+      "entity": "preliminary experiments",
+      "category": "task"
+    },
+    {
+      "entity": "potential",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Sentiment Classification",
+      "predicted": "sentiment classification",
+      "category": "task"
+    },
+    {
+      "gold": "machine learning techniques",
+      "predicted": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "gold": "training data",
+      "predicted": "training data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "training and test data",
+      "category": "material"
+    },
+    {
+      "entity": "emoticons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "text",
+      "category": "material"
+    },
+    {
+      "entity": "author",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subject",
+      "category": "material"
+    },
+    {
+      "entity": "positive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "negative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "emoticon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain",
+      "category": "task"
+    },
+    {
+      "entity": "topic",
+      "category": "task"
+    },
+    {
+      "entity": "time",
+      "category": "task"
+    },
+    {
+      "entity": "preliminary experiments",
+      "category": "task"
+    },
+    {
+      "entity": "potential",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 1,
+    "material": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "material": 3,
+    "otherscientificterm": 5,
+    "method": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.6,
+  "f1": 0.3157894736842105,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 14,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 11,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

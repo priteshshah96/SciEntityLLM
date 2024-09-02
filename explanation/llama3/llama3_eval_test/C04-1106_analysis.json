@@ -1,0 +1,217 @@
+{
+  "doc_key": "C04-1106",
+  "gold_entities": [
+    {
+      "entity": "analogies between words",
+      "category": "task"
+    },
+    {
+      "entity": "analogies between sentences",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "analogies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analogy",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "analogies between words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analogies between sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "analogies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation",
+      "category": "method"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analogies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "analogies between words",
+      "predicted": "analogies between words",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "analogies between sentences",
+      "predicted": "analogies between sentences",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "multilingual corpus",
+      "predicted": "multilingual corpus",
+      "category": "material"
+    },
+    {
+      "gold": "analogies",
+      "predicted": "analogies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "analogy",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "analogies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 9,
+    "material": 3,
+    "method": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.4,
+  "f1": 0.2222222222222222,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 9,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

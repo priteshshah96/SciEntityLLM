@@ -1,0 +1,187 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ie paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "ie paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "inductive decision tree learning",
+      "category": "Method"
+    },
+    {
+      "entity": "automatically identifying predicate argument structures",
+      "category": "Task"
+    },
+    {
+      "entity": "ie",
+      "category": "Task"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "novel, customizable ie paradigm",
+      "category": "Task"
+    },
+    {
+      "entity": "predicateargument structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicateargument structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ie paradigm",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inductive decision tree learning",
+      "category": "Method"
+    },
+    {
+      "entity": "features",
+      "category": "Method"
+    },
+    {
+      "entity": "ie results",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ie paradigm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ie paradigm",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "features",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "ie paradigm",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "novel, customizable ie paradigm",
+          "category": "Task"
+        },
+        {
+          "entity": "ie results",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.0
+    },
+    {
+      "gold": {
+        "entity": "automatically identifying predicate argument structures",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "predicateargument structures",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "predicateargument structures",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "ie",
+      "category": "Task"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "ie paradigm": 2,
+    "predicate-argument structures": 2
+  },
+  "distinct_repeated_entities": [
+    "ie paradigm",
+    "predicate-argument structures"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

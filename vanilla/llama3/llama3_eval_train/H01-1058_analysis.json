@@ -1,0 +1,325 @@
+{
+  "doc_key": "H01-1058",
+  "gold_entities": [
+    {
+      "entity": "language models (LMs)",
+      "category": "method"
+    },
+    {
+      "entity": "interpolation methods",
+      "category": "method"
+    },
+    {
+      "entity": "log-linear and linear interpolation",
+      "category": "method"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic combiner",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic language model combination",
+      "category": "method"
+    },
+    {
+      "entity": "neural network",
+      "category": "method"
+    },
+    {
+      "entity": "decision tree",
+      "category": "method"
+    },
+    {
+      "entity": "LMs",
+      "category": "method"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "word or semantic error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "confidence measures",
+      "category": "metric"
+    },
+    {
+      "entity": "hard decisions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Interpolation methods",
+      "category": "method"
+    },
+    {
+      "entity": "Log-linear interpolation",
+      "category": "method"
+    },
+    {
+      "entity": "Linear interpolation",
+      "category": "method"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "oracle",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Reference word string",
+      "category": "material"
+    },
+    {
+      "entity": "Word string",
+      "category": "material"
+    },
+    {
+      "entity": "Word or semantic error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "dynamic combiner",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hard decisions",
+      "category": "task"
+    },
+    {
+      "entity": "Dynamic language model combination",
+      "category": "task"
+    },
+    {
+      "entity": "Neural network",
+      "category": "material"
+    },
+    {
+      "entity": "Decision tree",
+      "category": "material"
+    },
+    {
+      "entity": "Confidence measures",
+      "category": "material"
+    },
+    {
+      "entity": "Hypothesis",
+      "category": "material"
+    },
+    {
+      "entity": "Language models (LMs)",
+      "category": "material"
+    },
+    {
+      "entity": "Reference",
+      "category": "material"
+    },
+    {
+      "entity": "Best hypothesis",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language models (LMs)",
+      "predicted": "Language models (LMs)",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "dynamic combiner",
+      "predicted": "dynamic combiner",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "dynamic language model combination",
+      "predicted": "Dynamic language model combination",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "neural network",
+      "predicted": "Neural network",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "decision tree",
+      "predicted": "Decision tree",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "confidence measures",
+      "predicted": "Confidence measures",
+      "gold_category": "metric",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "hard decisions",
+      "predicted": "Hard decisions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "interpolation methods",
+      "predicted": "Interpolation methods",
+      "category": "method"
+    },
+    {
+      "gold": "word or semantic error rate",
+      "predicted": "Word or semantic error rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "log-linear and linear interpolation",
+      "predicted": "Log-linear interpolation",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "LMs",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "oracle",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Reference word string",
+      "category": "material"
+    },
+    {
+      "entity": "Word string",
+      "category": "material"
+    },
+    {
+      "entity": "Hypothesis",
+      "category": "material"
+    },
+    {
+      "entity": "Reference",
+      "category": "material"
+    },
+    {
+      "entity": "Best hypothesis",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "LM|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 10,
+    "metric": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "metric": 2,
+    "otherscientificterm": 2,
+    "material": 8,
+    "task": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 10,
+      "predicted": 3,
+      "exact_matches": 5,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.15384615384615385,
+  "f1": 0.12903225806451615,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 18,
+    "exact_matches": 7,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

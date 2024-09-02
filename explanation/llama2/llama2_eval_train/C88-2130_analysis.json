@@ -1,0 +1,162 @@
+{
+  "doc_key": "C88-2130",
+  "gold_entities": [
+    {
+      "entity": "discourse task",
+      "category": "task"
+    },
+    {
+      "entity": "APT",
+      "category": "method"
+    },
+    {
+      "entity": "organizational and discourse strategies",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "discourse task",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linde 1974",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "program",
+      "category": "method"
+    },
+    {
+      "entity": "apt",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "organizational and discourse strategies",
+      "category": "method"
+    },
+    {
+      "entity": "analysis",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discourse task",
+      "predicted": "discourse task",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "APT",
+      "predicted": "apt",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "organizational and discourse strategies",
+      "predicted": "organizational and discourse strategies",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "linde 1974",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "program",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "analysis",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.3333333333333333,
+  "f1": 0.18181818181818182,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

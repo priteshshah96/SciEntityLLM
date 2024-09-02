@@ -1,0 +1,285 @@
+{
+  "doc_key": "W08-2122",
+  "gold_entities": [
+    {
+      "entity": "CoNLL 2008 shared task",
+      "category": "task"
+    },
+    {
+      "entity": "synchronous dependency parser",
+      "category": "task"
+    },
+    {
+      "entity": "generative history-based latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic and semantic dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "macro-average F1 performance",
+      "category": "metric"
+    },
+    {
+      "entity": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    },
+    {
+      "entity": "macro-average F1",
+      "category": "metric"
+    },
+    {
+      "entity": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "CoNLL 2008 shared task",
+      "category": "task"
+    },
+    {
+      "entity": "generative history-based latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "synchronous dependency parser",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "F1 performance",
+      "category": "metric"
+    },
+    {
+      "entity": "LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "macro-average F1",
+      "category": "metric"
+    },
+    {
+      "entity": "larger model",
+      "category": "method"
+    },
+    {
+      "entity": "trained",
+      "category": "method"
+    },
+    {
+      "entity": "deadline",
+      "category": "material"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "F1",
+      "category": "metric"
+    },
+    {
+      "entity": "las",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "synchronous dependency parser",
+      "predicted": "synchronous dependency parser",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "CoNLL 2008 shared task",
+      "predicted": "CoNLL 2008 shared task",
+      "category": "task"
+    },
+    {
+      "gold": "generative history-based latent variable model",
+      "predicted": "generative history-based latent variable model",
+      "category": "method"
+    },
+    {
+      "gold": "macro-average F1",
+      "predicted": "macro-average F1",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "syntactic and semantic dependencies",
+      "predicted": "syntactic dependencies",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "macro-average F1 performance",
+      "predicted": "F1 performance",
+      "score": 0.6666666666666666,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "larger model",
+      "category": "method"
+    },
+    {
+      "entity": "trained",
+      "category": "method"
+    },
+    {
+      "entity": "deadline",
+      "category": "material"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "F1",
+      "category": "metric"
+    },
+    {
+      "entity": "las",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "syntactic dependencies LAS|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "semantic dependencies F1|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 1,
+    "otherscientificterm": 1,
+    "metric": 6
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 4,
+    "metric": 4,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.3,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 7,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

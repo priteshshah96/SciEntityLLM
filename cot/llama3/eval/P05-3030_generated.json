@@ -1,0 +1,250 @@
+{
+  "gold_entities": [
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "free-content encyclopedia",
+      "category": "Material"
+    },
+    {
+      "entity": "organizing reading materials",
+      "category": "Task"
+    },
+    {
+      "entity": "vocabulary learning",
+      "category": "Task"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "method of organizing reading materials for vocabulary learning",
+      "category": "Method"
+    },
+    {
+      "entity": "reading texts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Material"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Material"
+    },
+    {
+      "entity": "organized reading materials",
+      "category": "Material"
+    },
+    {
+      "entity": "reading materials",
+      "category": "Material"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "web site",
+      "category": "Material"
+    },
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "target vocabulary",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "target vocabulary",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "target vocabulary",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "target vocabulary",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "english wikipedia",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "organizing reading materials",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "method of organizing reading materials for vocabulary learning",
+          "category": "Method"
+        },
+        {
+          "entity": "reading texts",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "organized reading materials",
+          "category": "Material"
+        },
+        {
+          "entity": "reading materials",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.5416666666666665
+    },
+    {
+      "gold": {
+        "entity": "vocabulary learning",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "target vocabulary",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "target vocabulary",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "free-content encyclopedia",
+      "category": "Material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Material"
+    },
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Material"
+    },
+    {
+      "entity": "web site",
+      "category": "Material"
+    },
+    {
+      "entity": "target corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english wikipedia",
+      "category": "Material"
+    },
+    {
+      "entity": "english certification test",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 17,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

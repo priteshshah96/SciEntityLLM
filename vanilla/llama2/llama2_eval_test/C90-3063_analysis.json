@@ -1,0 +1,228 @@
+{
+  "doc_key": "C90-3063",
+  "gold_entities": [
+    {
+      "entity": "Manual acquisition  of  semantic constraints",
+      "category": "task"
+    },
+    {
+      "entity": "cooccurrence patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphora references",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cooccurrence statistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic tools",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation tool",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Manual acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "semantic constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cooccurrence patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphora references",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Linguistic tools",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "pronoun it",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experiment",
+      "category": "task"
+    },
+    {
+      "entity": "References",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "cooccurrence patterns",
+      "predicted": "cooccurrence patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "semantic constraints",
+      "predicted": "semantic constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "anaphora references",
+      "predicted": "anaphora references",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "syntactic ambiguities",
+      "predicted": "syntactic ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "linguistic tools",
+      "predicted": "Linguistic tools",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Manual acquisition  of  semantic constraints",
+      "category": "task"
+    },
+    {
+      "entity": "semantic constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cooccurrence statistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disambiguation tool",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Manual acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "pronoun it",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experiment",
+      "category": "task"
+    },
+    {
+      "entity": "References",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "semantic constraints|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 6,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 5,
+    "method": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5555555555555556,
+  "f1": 0.5263157894736842,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 0,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 5,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

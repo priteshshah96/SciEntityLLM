@@ -1,0 +1,277 @@
+{
+  "doc_key": "N03-1033",
+  "gold_entities": [
+    {
+      "entity": "part-of-speech tagger",
+      "category": "method"
+    },
+    {
+      "entity": "dependency network representation",
+      "category": "method"
+    },
+    {
+      "entity": "fine-grained modeling of  unknown word features",
+      "category": "method"
+    },
+    {
+      "entity": "tagger",
+      "category": "method"
+    },
+    {
+      "entity": "tag contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple consecutive words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priors in conditional loglinear models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "error",
+      "category": "metric"
+    },
+    {
+      "entity": "Penn Treebank WSJ",
+      "category": "material"
+    },
+    {
+      "entity": "tagging",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "part-of-speech tagger",
+      "category": "task"
+    },
+    {
+      "entity": "tag contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency network representation",
+      "category": "method"
+    },
+    {
+      "entity": "lexical features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "jointly conditioning on multiple consecutive words",
+      "category": "method"
+    },
+    {
+      "entity": "priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conditional loglinear models",
+      "category": "method"
+    },
+    {
+      "entity": "unknown word features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tagger",
+      "category": "task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Penn Treebank WSJ",
+      "category": "material"
+    },
+    {
+      "entity": "error reduction",
+      "category": "metric"
+    },
+    {
+      "entity": "tagging",
+      "category": "task"
+    },
+    {
+      "entity": "single automatically learned tagging",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "part-of-speech tagger",
+      "predicted": "part-of-speech tagger",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "tagger",
+      "predicted": "tagger",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "dependency network representation",
+      "predicted": "dependency network representation",
+      "category": "method"
+    },
+    {
+      "gold": "tag contexts",
+      "predicted": "tag contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "lexical features",
+      "predicted": "lexical features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "Penn Treebank WSJ",
+      "predicted": "Penn Treebank WSJ",
+      "category": "material"
+    },
+    {
+      "gold": "tagging",
+      "predicted": "tagging",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "fine-grained modeling of  unknown word features",
+      "predicted": "unknown word features",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "multiple consecutive words",
+      "predicted": "jointly conditioning on multiple consecutive words",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "priors in conditional loglinear models",
+      "predicted": "conditional loglinear models",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "error",
+      "predicted": "error reduction",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single automatically learned tagging",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 4,
+    "metric": 2,
+    "material": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 4,
+    "method": 4,
+    "metric": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.5,
+  "f1": 0.4615384615384615,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

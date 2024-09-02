@@ -1,0 +1,196 @@
+{
+  "gold_entities": [
+    {
+      "entity": "machine-readable dictionaries (mrd's)",
+      "category": "Material"
+    },
+    {
+      "entity": "natural language system",
+      "category": "Method"
+    },
+    {
+      "entity": "complex",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language processing (nlp) systems",
+      "category": "Task"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "natural language system",
+      "category": "Task"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "Method"
+    },
+    {
+      "entity": "lexicon",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural language processing (nlp) systems",
+      "category": "Task"
+    },
+    {
+      "entity": "machine-readable dictionaries (mrd's)",
+      "category": "Material"
+    },
+    {
+      "entity": "broad coverage lexicon",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "natural language system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "natural language system",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "computational lexicon",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "computational lexicon",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "shared lexical information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "shared lexical information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language processing (nlp) systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language processing (nlp) systems",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine-readable dictionaries (mrd's)",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "machine-readable dictionaries (mrd's)",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "shared lexical information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "shared lexical information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language processing (nlp) systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language processing (nlp) systems",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine-readable dictionaries (mrd's)",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "machine-readable dictionaries (mrd's)",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "computational lexicon",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "lexicon",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "broad coverage lexicon",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.3333333333333333
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "complex",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "computational lexicon": 2
+  },
+  "distinct_repeated_entities": [
+    "computational lexicon"
+  ],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

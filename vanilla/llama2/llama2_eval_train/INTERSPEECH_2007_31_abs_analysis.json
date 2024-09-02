@@ -1,0 +1,212 @@
+{
+  "doc_key": "INTERSPEECH_2007_31_abs",
+  "gold_entities": [
+    {
+      "entity": "HMM-based TTS system",
+      "category": "method"
+    },
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "German speech",
+      "category": "material"
+    },
+    {
+      "entity": "football announcements",
+      "category": "material"
+    },
+    {
+      "entity": "expressive speech",
+      "category": "material"
+    },
+    {
+      "entity": "intelligible neutral German speech",
+      "category": "material"
+    },
+    {
+      "entity": "football dataset",
+      "category": "material"
+    },
+    {
+      "entity": "context features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "HMM-based TTS system",
+      "category": "task"
+    },
+    {
+      "entity": "German speech",
+      "category": "task"
+    },
+    {
+      "entity": "context features",
+      "category": "method"
+    },
+    {
+      "entity": "football announcements",
+      "category": "material"
+    },
+    {
+      "entity": "neutral german speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intelligible speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stable quality",
+      "category": "metric"
+    },
+    {
+      "entity": "small dataset",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "HMM-based TTS system",
+      "predicted": "HMM-based TTS system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "German speech",
+      "predicted": "German speech",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "context features",
+      "predicted": "context features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "football announcements",
+      "predicted": "football announcements",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "intelligible neutral German speech",
+      "predicted": "neutral german speech",
+      "score": 0.75,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "expressive speech",
+      "category": "material"
+    },
+    {
+      "entity": "football dataset",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "intelligible speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stable quality",
+      "category": "metric"
+    },
+    {
+      "entity": "small dataset",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "material": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 1,
+    "material": 2,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.125,
+  "f1": 0.125,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 8,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

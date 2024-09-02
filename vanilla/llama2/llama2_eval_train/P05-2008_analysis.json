@@ -1,0 +1,201 @@
+{
+  "doc_key": "P05-2008",
+  "gold_entities": [
+    {
+      "entity": "Sentiment Classification",
+      "category": "task"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "method"
+    },
+    {
+      "entity": "training and test data",
+      "category": "material"
+    },
+    {
+      "entity": "training data",
+      "category": "material"
+    },
+    {
+      "entity": "emoticons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Sentiment Classification",
+      "category": "task"
+    },
+    {
+      "entity": "Text",
+      "category": "task"
+    },
+    {
+      "entity": "author",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subject",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "time",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Emoticons",
+      "category": "material"
+    },
+    {
+      "entity": "Machine learning",
+      "category": "method"
+    },
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "Test data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "emoticons",
+      "predicted": "Emoticons",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Sentiment Classification",
+      "predicted": "Sentiment Classification",
+      "category": "task"
+    },
+    {
+      "gold": "training data",
+      "predicted": "Training data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "machine learning techniques",
+      "predicted": "Machine learning",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "training and test data",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Text",
+      "category": "task"
+    },
+    {
+      "entity": "author",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subject",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "time",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 1,
+    "material": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5,
+    "material": 3,
+    "method": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.4,
+  "f1": 0.25000000000000006,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

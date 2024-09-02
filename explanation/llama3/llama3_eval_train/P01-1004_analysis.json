@@ -1,0 +1,358 @@
+{
+  "doc_key": "P01-1004",
+  "gold_entities": [
+    {
+      "entity": "segment order",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segmentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segment contiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "indexing",
+      "category": "task"
+    },
+    {
+      "entity": "translation memory system",
+      "category": "method"
+    },
+    {
+      "entity": "bag-of-words and segment order-sensitive string comparison methods",
+      "category": "method"
+    },
+    {
+      "entity": "local segment contiguity models",
+      "category": "method"
+    },
+    {
+      "entity": "N-grams",
+      "category": "method"
+    },
+    {
+      "entity": "character bigrams",
+      "category": "method"
+    },
+    {
+      "entity": "word N-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "bag-of-words methods",
+      "category": "method"
+    },
+    {
+      "entity": "segment order-sensitive methods",
+      "category": "method"
+    },
+    {
+      "entity": "character- and word-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "segment order",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segmentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segment contiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "retrieval performance",
+      "category": "metric"
+    },
+    {
+      "entity": "translation memory system",
+      "category": "material"
+    },
+    {
+      "entity": "bag-of-words",
+      "category": "method"
+    },
+    {
+      "entity": "segment order-sensitive string comparison methods",
+      "category": "method"
+    },
+    {
+      "entity": "character-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "word-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "local segment contiguity models",
+      "category": "method"
+    },
+    {
+      "entity": "N-grams",
+      "category": "method"
+    },
+    {
+      "entity": "datasets",
+      "category": "material"
+    },
+    {
+      "entity": "indexing",
+      "category": "method"
+    },
+    {
+      "entity": "character bigrams",
+      "category": "method"
+    },
+    {
+      "entity": "word N-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "bag-of-words methods",
+      "category": "method"
+    },
+    {
+      "entity": "segment order-sensitive methods",
+      "category": "method"
+    },
+    {
+      "entity": "optimum configuration",
+      "category": "material"
+    },
+    {
+      "entity": "scalability",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "indexing",
+      "predicted": "indexing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "translation memory system",
+      "predicted": "translation memory system",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "segment order",
+      "predicted": "segment order",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "segmentation",
+      "predicted": "segmentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "segment contiguity",
+      "predicted": "segment contiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "local segment contiguity models",
+      "predicted": "local segment contiguity models",
+      "category": "method"
+    },
+    {
+      "gold": "N-grams",
+      "predicted": "N-grams",
+      "category": "method"
+    },
+    {
+      "gold": "character bigrams",
+      "predicted": "character bigrams",
+      "category": "method"
+    },
+    {
+      "gold": "word N-gram models",
+      "predicted": "word N-gram models",
+      "category": "method"
+    },
+    {
+      "gold": "bag-of-words methods",
+      "predicted": "bag-of-words methods",
+      "category": "method"
+    },
+    {
+      "gold": "segment order-sensitive methods",
+      "predicted": "segment order-sensitive methods",
+      "category": "method"
+    },
+    {
+      "gold": "retrieval accuracy",
+      "predicted": "retrieval accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "retrieval",
+      "predicted": "retrieval performance",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "bag-of-words and segment order-sensitive string comparison methods",
+      "gold_category": "method",
+      "matched_parts": [
+        {
+          "part": "bag-of-words",
+          "matched": "bag-of-words",
+          "predicted_category": "method"
+        },
+        {
+          "part": "segment order-sensitive string comparison methods",
+          "matched": "segment order-sensitive string comparison methods",
+          "predicted_category": "method"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "character- and word-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "character-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "datasets",
+      "category": "material"
+    },
+    {
+      "entity": "optimum configuration",
+      "category": "material"
+    },
+    {
+      "entity": "scalability",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "retrieval accuracy|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "task": 2,
+    "method": 8,
+    "material": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "metric": 3,
+    "material": 5,
+    "method": 9
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 9,
+      "exact_matches": 1,
+      "exact_matches_with_category": 6,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.625,
+  "f1": 0.5555555555555556,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 20,
+    "exact_matches": 2,
+    "exact_matches_with_category": 10,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

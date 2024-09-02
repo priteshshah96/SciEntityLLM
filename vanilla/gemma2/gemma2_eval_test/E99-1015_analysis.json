@@ -1,0 +1,231 @@
+{
+  "doc_key": "E99-1015",
+  "gold_entities": [
+    {
+      "entity": "automatic abstracting systems",
+      "category": "task"
+    },
+    {
+      "entity": "training resources",
+      "category": "material"
+    },
+    {
+      "entity": "scientific articles",
+      "category": "material"
+    },
+    {
+      "entity": "annotation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "rhetorical moves  of  argumentation",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "annotation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "training resources",
+      "category": "material"
+    },
+    {
+      "entity": "automatic abstracting systems",
+      "category": "task"
+    },
+    {
+      "entity": "rhetorical moves",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "argumentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scheme",
+      "category": "method"
+    },
+    {
+      "entity": "resource",
+      "category": "material"
+    },
+    {
+      "entity": "scientific articles",
+      "category": "material"
+    },
+    {
+      "entity": "categories",
+      "category": "metric"
+    },
+    {
+      "entity": "experimental results",
+      "category": "metric"
+    },
+    {
+      "entity": "stability",
+      "category": "metric"
+    },
+    {
+      "entity": "reproducibility",
+      "category": "metric"
+    },
+    {
+      "entity": "intuition",
+      "category": "metric"
+    },
+    {
+      "entity": "annotation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "automatic abstracting systems",
+      "predicted": "automatic abstracting systems",
+      "category": "task"
+    },
+    {
+      "gold": "training resources",
+      "predicted": "training resources",
+      "category": "material"
+    },
+    {
+      "gold": "scientific articles",
+      "predicted": "scientific articles",
+      "category": "material"
+    },
+    {
+      "gold": "annotation scheme",
+      "predicted": "annotation scheme",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "rhetorical moves  of  argumentation",
+      "predicted": "rhetorical moves",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "argumentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scheme",
+      "category": "method"
+    },
+    {
+      "entity": "resource",
+      "category": "material"
+    },
+    {
+      "entity": "categories",
+      "category": "metric"
+    },
+    {
+      "entity": "experimental results",
+      "category": "metric"
+    },
+    {
+      "entity": "stability",
+      "category": "metric"
+    },
+    {
+      "entity": "reproducibility",
+      "category": "metric"
+    },
+    {
+      "entity": "intuition",
+      "category": "metric"
+    },
+    {
+      "entity": "annotation",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 2,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 3,
+    "task": 1,
+    "otherscientificterm": 2,
+    "metric": 5
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.8,
+  "f1": 0.4210526315789473,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 14,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 9,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

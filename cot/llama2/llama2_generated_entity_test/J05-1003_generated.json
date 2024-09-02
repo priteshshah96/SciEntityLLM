@@ -1,0 +1,82 @@
+[
+    {
+        "entity": "probabilistic parser",
+        "category": "Method",
+        "reasoning": "This is the type of parser used in the research, representing a specific approach to parsing."
+    },
+    {
+        "entity": "candidate parses",
+        "category": "OtherScientificTerm",
+        "reasoning": "This refers to the output of the parser, which is a set of possible parse trees."
+    },
+    {
+        "entity": "probabilities",
+        "category": "Metric",
+        "reasoning": "These are the associated probabilities with each parse tree, used to rank them."
+    },
+    {
+        "entity": "initial ranking",
+        "category": "OtherScientificTerm",
+        "reasoning": "This refers to the ranking produced by the base parser."
+    },
+    {
+        "entity": "second model",
+        "category": "Method",
+        "reasoning": "This is the additional model used to improve upon the initial ranking."
+    },
+    {
+        "entity": "features",
+        "category": "OtherScientificTerm",
+        "reasoning": "These are the additional features used by the second model, which can be any type of information relevant to the task."
+    },
+    {
+        "entity": "boosting approach",
+        "category": "Method",
+        "reasoning": "This is the specific method used by the second model to improve the ranking, based on the idea of combining multiple weak models to create a strong one."
+    },
+    {
+        "entity": "log-likelihood",
+        "category": "Metric",
+        "reasoning": "This is a measure of the quality of the parse trees, used in the ranking process."
+    },
+    {
+        "entity": "Collins [1999]",
+        "category": "OtherScientificTerm",
+        "reasoning": "This is a reference to a specific prior work in the field, used as a baseline for comparison."
+    },
+    {
+        "entity": "F-measure",
+        "category": "Metric",
+        "reasoning": "This is a measure of the performance of the new method, used to evaluate its effectiveness."
+    },
+    {
+        "entity": "efficiency gains",
+        "category": "Metric",
+        "reasoning": "This refers to the improvement in performance achieved by the new algorithm, which is more efficient than the obvious implementation of the boosting approach."
+    },
+    {
+        "entity": "feature selection methods",
+        "category": "OtherScientificTerm",
+        "reasoning": "This refers to the broader class of methods used to select relevant features in machine learning models, which is relevant to the research as the new algorithm takes advantage of the sparsity of the feature space in the parsing data."
+    },
+    {
+        "entity": "natural language parsing (NLP)",
+        "category": "Task",
+        "reasoning": "This is the specific task or problem being addressed in the research, which is a key scientific entity."
+    },
+    {
+        "entity": "speech recognition",
+        "category": "OtherScientificTerm",
+        "reasoning": "This is another scientific entity mentioned in the text, which is related to the task of natural language processing."
+    },
+    {
+        "entity": "machine translation",
+        "category": "OtherScientificTerm",
+        "reasoning": "This is another scientific entity mentioned in the text, which is related to the task of natural language processing."
+    },
+    {
+        "entity": "natural language generation",
+        "category": "OtherScientificTerm",
+        "reasoning": "This is another scientific entity mentioned in the text, which is related to the task of natural language processing."
+    }
+]

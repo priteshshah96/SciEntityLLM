@@ -1,0 +1,312 @@
+{
+  "doc_key": "CVPR_2014_18_abs",
+  "gold_entities": [
+    {
+      "entity": "object category detection datasets",
+      "category": "material"
+    },
+    {
+      "entity": "object-category detection datasets",
+      "category": "material"
+    },
+    {
+      "entity": "PASCAL VOC",
+      "category": "material"
+    },
+    {
+      "entity": "per-object 3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "per-object 3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "ground truth figure-ground segmentations",
+      "category": "method"
+    },
+    {
+      "entity": "keypoint annotations",
+      "category": "method"
+    },
+    {
+      "entity": "visual hull sampling process",
+      "category": "method"
+    },
+    {
+      "entity": "geometry-oriented model-based recognition approaches",
+      "category": "method"
+    },
+    {
+      "entity": "camera viewpoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rigid structurefrommotion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object shapes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "visual hull proposals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "loose withinclass shape similarity assumptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projection cone",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Object category detection",
+      "category": "task"
+    },
+    {
+      "entity": "Dense, per-object 3D reconstructions",
+      "category": "method"
+    },
+    {
+      "entity": "Class labels",
+      "category": "metric"
+    },
+    {
+      "entity": "Ground truth figure-ground segmentations",
+      "category": "material"
+    },
+    {
+      "entity": "keypoint annotations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Camera viewpoint",
+      "category": "task"
+    },
+    {
+      "entity": "Rigid structure-from-motion",
+      "category": "method"
+    },
+    {
+      "entity": "Object shapes",
+      "category": "method"
+    },
+    {
+      "entity": "Visual hull proposals",
+      "category": "method"
+    },
+    {
+      "entity": "Loose within-class shape similarity assumptions",
+      "category": "method"
+    },
+    {
+      "entity": "objects projection cone",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "minimal subsets of other similar objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vantage points",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "ground truth figure-ground segmentations",
+      "predicted": "Ground truth figure-ground segmentations",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "keypoint annotations",
+      "predicted": "keypoint annotations",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "camera viewpoint",
+      "predicted": "Camera viewpoint",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "object shapes",
+      "predicted": "Object shapes",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "visual hull proposals",
+      "predicted": "Visual hull proposals",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "object category detection datasets",
+      "predicted": "Object category detection",
+      "score": 0.75,
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "per-object 3D reconstructions",
+      "predicted": "Dense, per-object 3D reconstructions",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "loose withinclass shape similarity assumptions",
+      "predicted": "Loose within-class shape similarity assumptions",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "projection cone",
+      "predicted": "objects projection cone",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "object-category detection datasets",
+      "category": "material"
+    },
+    {
+      "entity": "PASCAL VOC",
+      "category": "material"
+    },
+    {
+      "entity": "per-object 3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "visual hull sampling process",
+      "category": "method"
+    },
+    {
+      "entity": "geometry-oriented model-based recognition approaches",
+      "category": "method"
+    },
+    {
+      "entity": "rigid structurefrommotion",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Class labels",
+      "category": "metric"
+    },
+    {
+      "entity": "Rigid structure-from-motion",
+      "category": "method"
+    },
+    {
+      "entity": "minimal subsets of other similar objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vantage points",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "per-object 3D reconstructions|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 3,
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 5,
+    "metric": 1,
+    "material": 1,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 5,
+    "exact_matches_with_category": 0,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 4,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

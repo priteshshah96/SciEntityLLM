@@ -1,0 +1,306 @@
+{
+  "doc_key": "ICCV_2015_403_abs",
+  "gold_entities": [
+    {
+      "entity": "aging faces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dictionary bases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aging process pattern",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personalized facial characteristics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mole",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personalityaware coupled reconstruction loss",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personalized aging progression",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "age-group specific dictionaries",
+      "category": "method"
+    },
+    {
+      "entity": "linear combination",
+      "category": "method"
+    },
+    {
+      "entity": "dictionary learning process",
+      "category": "method"
+    },
+    {
+      "entity": "aging dictionaries",
+      "category": "method"
+    },
+    {
+      "entity": "synthesizing aging faces",
+      "category": "method"
+    },
+    {
+      "entity": "personalized aging process",
+      "category": "task"
+    },
+    {
+      "entity": "aging process",
+      "category": "task"
+    },
+    {
+      "entity": "cross-age face verification",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Aging faces",
+      "category": "task"
+    },
+    {
+      "entity": "Personalized aging process",
+      "category": "task"
+    },
+    {
+      "entity": "Dictionary learning",
+      "category": "method"
+    },
+    {
+      "entity": "Linear combination",
+      "category": "method"
+    },
+    {
+      "entity": "Age-group specific dictionaries",
+      "category": "material"
+    },
+    {
+      "entity": "agegroup specific patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mole",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Face pairs",
+      "category": "task"
+    },
+    {
+      "entity": "Neighboring age groups",
+      "category": "task"
+    },
+    {
+      "entity": "Coupled reconstruction loss",
+      "category": "method"
+    },
+    {
+      "entity": "Extensive experiments",
+      "category": "task"
+    },
+    {
+      "entity": "Performance gain",
+      "category": "metric"
+    },
+    {
+      "entity": "Cross-age face verification",
+      "category": "task"
+    },
+    {
+      "entity": "Synthesizing aging faces",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "aging faces",
+      "predicted": "Aging faces",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "age-group specific dictionaries",
+      "predicted": "Age-group specific dictionaries",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "synthesizing aging faces",
+      "predicted": "Synthesizing aging faces",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "mole",
+      "predicted": "mole",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "linear combination",
+      "predicted": "Linear combination",
+      "category": "method"
+    },
+    {
+      "gold": "personalized aging process",
+      "predicted": "Personalized aging process",
+      "category": "task"
+    },
+    {
+      "gold": "cross-age face verification",
+      "predicted": "Cross-age face verification",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "personalityaware coupled reconstruction loss",
+      "predicted": "Coupled reconstruction loss",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "dictionary learning process",
+      "predicted": "Dictionary learning",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dictionary bases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aging process pattern",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personalized facial characteristics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personalized aging progression",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aging dictionaries",
+      "category": "method"
+    },
+    {
+      "entity": "aging process",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "agegroup specific patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Face pairs",
+      "category": "task"
+    },
+    {
+      "entity": "Neighboring age groups",
+      "category": "task"
+    },
+    {
+      "entity": "Extensive experiments",
+      "category": "task"
+    },
+    {
+      "entity": "Performance gain",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 5,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "task": 7,
+    "method": 3,
+    "material": 1,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.26666666666666666,
+  "f1": 0.2758620689655172,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 14,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,163 @@
+{
+  "doc_key": "E83-1029",
+  "gold_entities": [
+    {
+      "entity": "scenes descriptions in natural language",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "Procedural Systemic Grammar",
+      "category": "method"
+    },
+    {
+      "entity": "semantic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "Conceptual Dependency Theory",
+      "category": "method"
+    },
+    {
+      "entity": "dictionary",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "- Syntactic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "procedural systemic grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "- Semantic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "conceptual dependency theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "- Dictionary",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Procedural Systemic Grammar",
+      "predicted": "procedural systemic grammar",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Conceptual Dependency Theory",
+      "predicted": "conceptual dependency theory",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "syntactic analyzer",
+      "predicted": "- Syntactic analyzer",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "semantic analyzer",
+      "predicted": "- Semantic analyzer",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "dictionary",
+      "predicted": "- Dictionary",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "scenes descriptions in natural language",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 5,
+    "exact_matches": 2,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 0,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,286 @@
+{
+  "doc_key": "H01-1058",
+  "gold_entities": [
+    {
+      "entity": "language models (LMs)",
+      "category": "method"
+    },
+    {
+      "entity": "interpolation methods",
+      "category": "method"
+    },
+    {
+      "entity": "log-linear and linear interpolation",
+      "category": "method"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic combiner",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic language model combination",
+      "category": "method"
+    },
+    {
+      "entity": "neural network",
+      "category": "method"
+    },
+    {
+      "entity": "decision tree",
+      "category": "method"
+    },
+    {
+      "entity": "LMs",
+      "category": "method"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "word or semantic error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "confidence measures",
+      "category": "metric"
+    },
+    {
+      "entity": "hard decisions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Language models (LMs)",
+      "category": "task"
+    },
+    {
+      "entity": "Interpolation methods",
+      "category": "method"
+    },
+    {
+      "entity": "Log-linear interpolation",
+      "category": "method"
+    },
+    {
+      "entity": "Linear interpolation",
+      "category": "method"
+    },
+    {
+      "entity": "oracle",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Reference word string",
+      "category": "material"
+    },
+    {
+      "entity": "Word string",
+      "category": "material"
+    },
+    {
+      "entity": "Dynamic combiner",
+      "category": "method"
+    },
+    {
+      "entity": "Hard decisions",
+      "category": "method"
+    },
+    {
+      "entity": "Neural network",
+      "category": "method"
+    },
+    {
+      "entity": "Decision tree",
+      "category": "method"
+    },
+    {
+      "entity": "confidence measures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypothesis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language models (LMs)",
+      "predicted": "Language models (LMs)",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "confidence measures",
+      "predicted": "confidence measures",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "hard decisions",
+      "predicted": "Hard decisions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "interpolation methods",
+      "predicted": "Interpolation methods",
+      "category": "method"
+    },
+    {
+      "gold": "dynamic combiner",
+      "predicted": "Dynamic combiner",
+      "category": "method"
+    },
+    {
+      "gold": "neural network",
+      "predicted": "Neural network",
+      "category": "method"
+    },
+    {
+      "gold": "decision tree",
+      "predicted": "Decision tree",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "log-linear and linear interpolation",
+      "predicted": "Log-linear interpolation",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic language model combination",
+      "category": "method"
+    },
+    {
+      "entity": "LMs",
+      "category": "method"
+    },
+    {
+      "entity": "word or semantic error rate",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "oracle",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Reference word string",
+      "category": "material"
+    },
+    {
+      "entity": "Word string",
+      "category": "material"
+    },
+    {
+      "entity": "hypothesis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "LM|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 10,
+    "metric": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 7,
+    "otherscientificterm": 3,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 10,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.3076923076923077,
+  "f1": 0.3076923076923077,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 4,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

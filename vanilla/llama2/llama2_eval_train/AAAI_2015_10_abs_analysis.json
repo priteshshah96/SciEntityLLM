@@ -1,0 +1,294 @@
+{
+  "doc_key": "AAAI_2015_10_abs",
+  "gold_entities": [
+    {
+      "entity": "Machine reading",
+      "category": "task"
+    },
+    {
+      "entity": "information extraction (IE)",
+      "category": "task"
+    },
+    {
+      "entity": "machine reading system",
+      "category": "task"
+    },
+    {
+      "entity": "prior NLP",
+      "category": "task"
+    },
+    {
+      "entity": "IE research",
+      "category": "task"
+    },
+    {
+      "entity": "computer programs",
+      "category": "method"
+    },
+    {
+      "entity": "natural language processing (NLP)",
+      "category": "method"
+    },
+    {
+      "entity": "cognitive architecture",
+      "category": "method"
+    },
+    {
+      "entity": "construction grammar",
+      "category": "method"
+    },
+    {
+      "entity": "flowing text",
+      "category": "material"
+    },
+    {
+      "entity": "narrative content",
+      "category": "material"
+    },
+    {
+      "entity": "idiosyncratic texts",
+      "category": "material"
+    },
+    {
+      "entity": "family history domain",
+      "category": "material"
+    },
+    {
+      "entity": "fact assertions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cognitive semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Machine reading",
+      "category": "task"
+    },
+    {
+      "entity": "computer programs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural language processing (NLP)",
+      "category": "method"
+    },
+    {
+      "entity": "Information extraction (IE)",
+      "category": "method"
+    },
+    {
+      "entity": "cognitive architecture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ideas",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "construction grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tools",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Evaluations",
+      "category": "task"
+    },
+    {
+      "entity": "Results",
+      "category": "task"
+    },
+    {
+      "entity": "Future directions",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "information extraction (IE)",
+      "predicted": "Information extraction (IE)",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "computer programs",
+      "predicted": "computer programs",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "cognitive architecture",
+      "predicted": "cognitive architecture",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "construction grammar",
+      "predicted": "construction grammar",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Machine reading",
+      "predicted": "Machine reading",
+      "category": "task"
+    },
+    {
+      "gold": "natural language processing (NLP)",
+      "predicted": "Natural language processing (NLP)",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "machine reading system",
+      "category": "task"
+    },
+    {
+      "entity": "prior NLP",
+      "category": "task"
+    },
+    {
+      "entity": "IE research",
+      "category": "task"
+    },
+    {
+      "entity": "flowing text",
+      "category": "material"
+    },
+    {
+      "entity": "narrative content",
+      "category": "material"
+    },
+    {
+      "entity": "idiosyncratic texts",
+      "category": "material"
+    },
+    {
+      "entity": "family history domain",
+      "category": "material"
+    },
+    {
+      "entity": "fact assertions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cognitive semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ideas",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tools",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Evaluations",
+      "category": "task"
+    },
+    {
+      "entity": "Results",
+      "category": "task"
+    },
+    {
+      "entity": "Future directions",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 4,
+    "material": 4,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "otherscientificterm": 7,
+    "method": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.13333333333333333,
+  "f1": 0.14285714285714288,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 4,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 7,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

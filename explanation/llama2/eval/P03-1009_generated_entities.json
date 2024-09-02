@@ -1,0 +1,234 @@
+{
+  "gold_entities": [
+    {
+      "entity": "undisambiguated corpus data",
+      "category": "Material"
+    },
+    {
+      "entity": "clustering",
+      "category": "Method"
+    },
+    {
+      "entity": "information bottleneck and nearest neighbour methods",
+      "category": "Method"
+    },
+    {
+      "entity": "inducing semantic verb classes",
+      "category": "Task"
+    },
+    {
+      "entity": "clustering subcategorization frame (scf) distributions",
+      "category": "Task"
+    },
+    {
+      "entity": "clustering polysemic verbs",
+      "category": "Task"
+    },
+    {
+      "entity": "semantically classifying undisambiguated scf data",
+      "category": "Task"
+    },
+    {
+      "entity": "polysemic verbs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "polysemy",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "clusters",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "clustering",
+      "category": "Task"
+    },
+    {
+      "entity": "semantic verb classes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "corpus data",
+      "category": "Material"
+    },
+    {
+      "entity": "subcategorization frame (scf) distributions",
+      "category": "Method"
+    },
+    {
+      "entity": "information bottleneck",
+      "category": "Method"
+    },
+    {
+      "entity": "nearest neighbor",
+      "category": "Method"
+    },
+    {
+      "entity": "polysemic verbs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "evaluation scheme",
+      "category": "Task"
+    },
+    {
+      "entity": "semantically classifying",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "undisambiguated scf data",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "evaluation scheme",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "clustering",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "clustering",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "polysemic verbs",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "polysemic verbs",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "polysemic verbs",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "polysemic verbs",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "undisambiguated corpus data",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "corpus data",
+          "category": "Material"
+        },
+        {
+          "entity": "undisambiguated scf data",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.6666666666666665
+    },
+    {
+      "gold": {
+        "entity": "information bottleneck and nearest neighbour methods",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "information bottleneck",
+          "category": "Method"
+        },
+        {
+          "entity": "nearest neighbor",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "inducing semantic verb classes",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "semantic verb classes",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "clustering subcategorization frame (scf) distributions",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "subcategorization frame (scf) distributions",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "semantically classifying undisambiguated scf data",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "semantically classifying",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "clustering polysemic verbs",
+      "category": "Task"
+    },
+    {
+      "entity": "polysemy",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "clusters",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "evaluation scheme",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 2,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

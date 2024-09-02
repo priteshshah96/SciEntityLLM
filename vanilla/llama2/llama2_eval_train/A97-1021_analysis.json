@@ -1,0 +1,238 @@
+{
+  "doc_key": "A97-1021",
+  "gold_entities": [
+    {
+      "entity": "lexical conceptual structure (LCS) representations",
+      "category": "method"
+    },
+    {
+      "entity": "LCS meaning components",
+      "category": "method"
+    },
+    {
+      "entity": "acquisition program - LEXICALL -",
+      "category": "method"
+    },
+    {
+      "entity": "LCS representations",
+      "category": "method"
+    },
+    {
+      "entity": "broad semantic classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "english arabic and spanish lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verb classification",
+      "category": "task"
+    },
+    {
+      "entity": "thematic grid tagging",
+      "category": "task"
+    },
+    {
+      "entity": "operational foreign language tutoring",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "lexical conceptual structure lcs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Verbs",
+      "category": "task"
+    },
+    {
+      "entity": "Languages",
+      "category": "task"
+    },
+    {
+      "entity": "Thematic grid tagging",
+      "category": "method"
+    },
+    {
+      "entity": "Acquisition program",
+      "category": "method"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Arabic",
+      "category": "material"
+    },
+    {
+      "entity": "Spanish",
+      "category": "material"
+    },
+    {
+      "entity": "Foreign language tutoring",
+      "category": "task"
+    },
+    {
+      "entity": "Machine translation",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "thematic grid tagging",
+      "predicted": "Thematic grid tagging",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "machine translation",
+      "predicted": "Machine translation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "acquisition program - LEXICALL -",
+      "predicted": "Acquisition program",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "operational foreign language tutoring",
+      "predicted": "Foreign language tutoring",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "lexical conceptual structure (LCS) representations",
+      "category": "method"
+    },
+    {
+      "entity": "LCS meaning components",
+      "category": "method"
+    },
+    {
+      "entity": "LCS representations",
+      "category": "method"
+    },
+    {
+      "entity": "broad semantic classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "english arabic and spanish lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verb classification",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "lexical conceptual structure lcs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Verbs",
+      "category": "task"
+    },
+    {
+      "entity": "Languages",
+      "category": "task"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Arabic",
+      "category": "material"
+    },
+    {
+      "entity": "Spanish",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 2,
+    "task": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 1,
+    "task": 4,
+    "method": 2,
+    "material": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.1,
+  "f1": 0.10000000000000002,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

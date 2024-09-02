@@ -1,0 +1,159 @@
+{
+  "doc_key": "AAAI_2008_262_abs",
+  "gold_entities": [
+    {
+      "entity": "Yoopick",
+      "category": "method"
+    },
+    {
+      "entity": "combinatorial sports prediction market",
+      "category": "method"
+    },
+    {
+      "entity": "flexible betting language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fine-grained probabilistic estimation of outcomes",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "yoopick",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "combinatorial",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sports prediction market",
+      "category": "task"
+    },
+    {
+      "entity": "betting language",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic estimation",
+      "category": "method"
+    },
+    {
+      "entity": "outcomes",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Yoopick",
+      "predicted": "yoopick",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "combinatorial sports prediction market",
+      "predicted": "sports prediction market",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "flexible betting language",
+      "predicted": "betting language",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "fine-grained probabilistic estimation of outcomes",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "combinatorial",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic estimation",
+      "category": "method"
+    },
+    {
+      "entity": "outcomes",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 1,
+    "method": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.6666666666666666,
+  "category_recall": 1.0,
+  "category_f1": 0.8,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 6,
+    "exact_matches": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 0,
+    "correct_predictions": 0,
+    "correct_categories": 4
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "doc_key": "P05-3030",
+  "gold_entities": [
+    {
+      "entity": "organizing reading materials",
+      "category": "task"
+    },
+    {
+      "entity": "vocabulary learning",
+      "category": "task"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English Wikipedia",
+      "category": "material"
+    },
+    {
+      "entity": "free-content encyclopedia",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "organizing reading materials",
+      "category": "method"
+    },
+    {
+      "entity": "vocabulary learning",
+      "category": "task"
+    },
+    {
+      "entity": "concise set of reading texts",
+      "category": "method"
+    },
+    {
+      "entity": "target corpus",
+      "category": "material"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English certification test",
+      "category": "material"
+    },
+    {
+      "entity": "English Wikipedia",
+      "category": "material"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reading materials",
+      "category": "method"
+    },
+    {
+      "entity": "learners",
+      "category": "material"
+    },
+    {
+      "entity": "variety of knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "web site",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "organizing reading materials",
+      "predicted": "organizing reading materials",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "vocabulary learning",
+      "predicted": "vocabulary learning",
+      "category": "task"
+    },
+    {
+      "gold": "target vocabulary",
+      "predicted": "target vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "English Wikipedia",
+      "predicted": "English Wikipedia",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "free-content encyclopedia",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "concise set of reading texts",
+      "category": "method"
+    },
+    {
+      "entity": "target corpus",
+      "category": "material"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English certification test",
+      "category": "material"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reading materials",
+      "category": "method"
+    },
+    {
+      "entity": "learners",
+      "category": "material"
+    },
+    {
+      "entity": "variety of knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "web site",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 1,
+    "material": 6,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23076923076923078,
+  "recall": 0.6,
+  "f1": 0.33333333333333337,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 13,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 9,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

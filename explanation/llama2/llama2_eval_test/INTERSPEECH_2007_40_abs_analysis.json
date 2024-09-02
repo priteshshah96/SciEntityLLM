@@ -1,0 +1,254 @@
+{
+  "doc_key": "INTERSPEECH_2007_40_abs",
+  "gold_entities": [
+    {
+      "entity": "Information distillation",
+      "category": "task"
+    },
+    {
+      "entity": "document retrieval for distillation",
+      "category": "task"
+    },
+    {
+      "entity": "NIST Automatic Content Extraction (ACE) task",
+      "category": "task"
+    },
+    {
+      "entity": "massive, possibly multilingual, audio and textual document sources",
+      "category": "material"
+    },
+    {
+      "entity": "information extraction annotations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distillation queries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "annotation elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ace events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information retrieval engine",
+      "category": "method"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall rates",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "information distillation",
+      "category": "task"
+    },
+    {
+      "entity": "query",
+      "category": "method"
+    },
+    {
+      "entity": "document sources",
+      "category": "material"
+    },
+    {
+      "entity": "annotation elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NIST Automatic Content Extraction (ACE) task",
+      "category": "task"
+    },
+    {
+      "entity": "events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "document set",
+      "category": "material"
+    },
+    {
+      "entity": "information retrieval engine",
+      "category": "method"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    },
+    {
+      "entity": "query templates",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Information distillation",
+      "predicted": "information distillation",
+      "category": "task"
+    },
+    {
+      "gold": "NIST Automatic Content Extraction (ACE) task",
+      "predicted": "NIST Automatic Content Extraction (ACE) task",
+      "category": "task"
+    },
+    {
+      "gold": "annotation elements",
+      "predicted": "annotation elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "information retrieval engine",
+      "predicted": "information retrieval engine",
+      "category": "method"
+    },
+    {
+      "gold": "precision",
+      "predicted": "precision",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "ace events",
+      "predicted": "events",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "recall rates",
+      "predicted": "recall",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "document retrieval for distillation",
+      "category": "task"
+    },
+    {
+      "entity": "massive, possibly multilingual, audio and textual document sources",
+      "category": "material"
+    },
+    {
+      "entity": "information extraction annotations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distillation queries",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "query",
+      "category": "method"
+    },
+    {
+      "entity": "document sources",
+      "category": "material"
+    },
+    {
+      "entity": "document set",
+      "category": "material"
+    },
+    {
+      "entity": "query templates",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 1,
+    "otherscientificterm": 4,
+    "method": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "material": 2,
+    "otherscientificterm": 3,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.45454545454545453,
+  "recall": 0.45454545454545453,
+  "f1": 0.45454545454545453,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 11,
+    "exact_matches": 0,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

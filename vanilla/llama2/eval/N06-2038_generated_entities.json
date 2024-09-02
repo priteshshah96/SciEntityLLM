@@ -1,0 +1,222 @@
+{
+  "gold_entities": [
+    {
+      "entity": "tagging strategies",
+      "category": "Method"
+    },
+    {
+      "entity": "tagging strategies",
+      "category": "Method"
+    },
+    {
+      "entity": "begin/after tagging",
+      "category": "Method"
+    },
+    {
+      "entity": "bia",
+      "category": "Method"
+    },
+    {
+      "entity": "information extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "token classification task",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "information extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "token classification",
+      "category": "Task"
+    },
+    {
+      "entity": "tagging strategies",
+      "category": "Method"
+    },
+    {
+      "entity": "combine",
+      "category": "Method"
+    },
+    {
+      "entity": "tokens",
+      "category": "Material"
+    },
+    {
+      "entity": "literature",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relative performances",
+      "category": "Metric"
+    },
+    {
+      "entity": "best",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "begin/after",
+      "category": "Method"
+    },
+    {
+      "entity": "bia",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approaches",
+      "category": "Generic"
+    },
+    {
+      "entity": "strategy",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "strategies",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "information extraction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information extraction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "tagging strategies",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "tagging strategies",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bia",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bia",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "information extraction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information extraction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "tagging strategies",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "tagging strategies",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bia",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "bia",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "begin/after tagging",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "begin/after",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "token classification task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "token classification",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "tagging strategies",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "combine",
+      "category": "Method"
+    },
+    {
+      "entity": "tokens",
+      "category": "Material"
+    },
+    {
+      "entity": "literature",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relative performances",
+      "category": "Metric"
+    },
+    {
+      "entity": "best",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "tagging strategies": 2
+  },
+  "distinct_repeated_entities": [
+    "tagging strategies"
+  ],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 10,
+    "generic_count": 4,
+    "exact_matches": 3,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

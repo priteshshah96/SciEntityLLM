@@ -1,0 +1,313 @@
+{
+  "doc_key": "W02-1403",
+  "gold_entities": [
+    {
+      "entity": "Terminology structuring",
+      "category": "task"
+    },
+    {
+      "entity": "terminology structuring",
+      "category": "task"
+    },
+    {
+      "entity": "automatic structuring",
+      "category": "task"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "hierarchically-structured terminology",
+      "category": "material"
+    },
+    {
+      "entity": "US National Library of Medicine MeSH thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "hierarchical or other types of relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morphological variants",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicallyinduced relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mesh relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mesh",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mesh",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical methods",
+      "category": "method"
+    },
+    {
+      "entity": "lexical structuring method",
+      "category": "method"
+    },
+    {
+      "entity": "recall and precision metrics",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Terminology structuring",
+      "category": "task"
+    },
+    {
+      "entity": "terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hierarchical relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Content words",
+      "category": "method"
+    },
+    {
+      "entity": "Morphological variants",
+      "category": "method"
+    },
+    {
+      "entity": "Lexical methods",
+      "category": "method"
+    },
+    {
+      "entity": "MeSH",
+      "category": "material"
+    },
+    {
+      "entity": "Recall metrics",
+      "category": "metric"
+    },
+    {
+      "entity": "Precision metrics",
+      "category": "metric"
+    },
+    {
+      "entity": "Human analysis",
+      "category": "task"
+    },
+    {
+      "entity": "naming conventions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ontological commitments",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "morphological variants",
+      "predicted": "Morphological variants",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "mesh",
+      "predicted": "MeSH",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Terminology structuring",
+      "predicted": "Terminology structuring",
+      "category": "task"
+    },
+    {
+      "gold": "lexical methods",
+      "predicted": "Lexical methods",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "recall and precision metrics",
+      "predicted": "Recall metrics",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "terminology structuring",
+      "category": "task"
+    },
+    {
+      "entity": "automatic structuring",
+      "category": "task"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "hierarchically-structured terminology",
+      "category": "material"
+    },
+    {
+      "entity": "US National Library of Medicine MeSH thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "hierarchical or other types of relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicallyinduced relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mesh relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mesh",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical structuring method",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hierarchical relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Content words",
+      "category": "method"
+    },
+    {
+      "entity": "Human analysis",
+      "category": "task"
+    },
+    {
+      "entity": "naming conventions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ontological commitments",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "mesh|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 3,
+    "otherscientificterm": 6,
+    "method": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5,
+    "method": 3,
+    "material": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.13333333333333333,
+  "f1": 0.14285714285714288,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,268 @@
+{
+  "doc_key": "E91-1012",
+  "gold_entities": [
+    {
+      "entity": "LR-parsers",
+      "category": "method"
+    },
+    {
+      "entity": "correctness proof",
+      "category": "method"
+    },
+    {
+      "entity": "recursive descent parser",
+      "category": "method"
+    },
+    {
+      "entity": "non-LR grammars",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "memo-functions",
+      "category": "method"
+    },
+    {
+      "entity": "Memo-functions",
+      "category": "method"
+    },
+    {
+      "entity": "LR(0) grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Extended CF grammars",
+      "category": "method"
+    },
+    {
+      "entity": "grammars",
+      "category": "method"
+    },
+    {
+      "entity": "LR-parser",
+      "category": "method"
+    },
+    {
+      "entity": "CF grammars",
+      "category": "method"
+    },
+    {
+      "entity": "time-complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "parse forest",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recursive ascent parsers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regular expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "LR-parsers",
+      "category": "task"
+    },
+    {
+      "entity": "recursive descent parser",
+      "category": "method"
+    },
+    {
+      "entity": "memo-functions",
+      "category": "method"
+    },
+    {
+      "entity": "parse forest",
+      "category": "material"
+    },
+    {
+      "entity": "cf grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regular expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "LR-parsers",
+      "predicted": "LR-parsers",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "CF grammars",
+      "predicted": "cf grammars",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "parse forest",
+      "predicted": "parse forest",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "recursive descent parser",
+      "predicted": "recursive descent parser",
+      "category": "method"
+    },
+    {
+      "gold": "memo-functions",
+      "predicted": "memo-functions",
+      "category": "method"
+    },
+    {
+      "gold": "regular expressions",
+      "predicted": "regular expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "correctness proof",
+      "category": "method"
+    },
+    {
+      "entity": "non-LR grammars",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "Memo-functions",
+      "category": "method"
+    },
+    {
+      "entity": "LR(0) grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Extended CF grammars",
+      "category": "method"
+    },
+    {
+      "entity": "grammars",
+      "category": "method"
+    },
+    {
+      "entity": "LR-parser",
+      "category": "method"
+    },
+    {
+      "entity": "time-complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "recursive ascent parsers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "parser|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 13,
+    "metric": 1,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "material": 1,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 13,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.17647058823529413,
+  "f1": 0.2608695652173913,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 6,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 0,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

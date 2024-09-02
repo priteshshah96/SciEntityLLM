@@ -1,0 +1,304 @@
+{
+  "doc_key": "N04-1024",
+  "gold_entities": [
+    {
+      "entity": "CriterionSM Online Essay Evaluation Service",
+      "category": "task"
+    },
+    {
+      "entity": "essaybased discourse elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "thesis statements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "criterion s capability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "breakdowns in coherence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coherence  in  essays",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic similarity measures",
+      "category": "metric"
+    },
+    {
+      "entity": "Intra-sentential quality",
+      "category": "metric"
+    },
+    {
+      "entity": "support vector machine",
+      "category": "method"
+    },
+    {
+      "entity": "rule-based heuristics",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "CriterionSM Online Essay Evaluation Service",
+      "category": "method"
+    },
+    {
+      "entity": "essaybased discourse elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "thesis statements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coherence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "method"
+    },
+    {
+      "entity": "semantic similarity measures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "support vector machine",
+      "category": "method"
+    },
+    {
+      "entity": "intrasentential quality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rule-based heuristics",
+      "category": "method"
+    },
+    {
+      "entity": "baseline",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "CriterionSM Online Essay Evaluation Service",
+      "predicted": "CriterionSM Online Essay Evaluation Service",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "features",
+      "predicted": "features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "semantic similarity measures",
+      "predicted": "semantic similarity measures",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "essaybased discourse elements",
+      "predicted": "essaybased discourse elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "thesis statements",
+      "predicted": "thesis statements",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse structure",
+      "predicted": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "support vector machine",
+      "predicted": "support vector machine",
+      "category": "method"
+    },
+    {
+      "gold": "rule-based heuristics",
+      "predicted": "rule-based heuristics",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "criterion s capability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "breakdowns in coherence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coherence  in  essays",
+      "category": "metric"
+    },
+    {
+      "entity": "Intra-sentential quality",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "coherence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrasentential quality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "baseline",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "features|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 8,
+    "metric": 3,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "otherscientificterm": 7,
+    "metric": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.35714285714285715,
+  "recall": 0.35714285714285715,
+  "f1": 0.35714285714285715,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 14,
+    "exact_matches": 3,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 6,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

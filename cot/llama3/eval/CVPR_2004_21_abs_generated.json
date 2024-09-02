@@ -1,0 +1,374 @@
+{
+  "gold_entities": [
+    {
+      "entity": "noisy images",
+      "category": "Material"
+    },
+    {
+      "entity": "ultrasound sequences",
+      "category": "Material"
+    },
+    {
+      "entity": "ultrasound sequences of the human heart",
+      "category": "Material"
+    },
+    {
+      "entity": "fusion of measurement information with system dynamics and shape priors",
+      "category": "Method"
+    },
+    {
+      "entity": "tracking process",
+      "category": "Method"
+    },
+    {
+      "entity": "boosted shape detection",
+      "category": "Method"
+    },
+    {
+      "entity": "generic measurement process",
+      "category": "Method"
+    },
+    {
+      "entity": "tracking framework",
+      "category": "Method"
+    },
+    {
+      "entity": "posterior shape model",
+      "category": "Method"
+    },
+    {
+      "entity": "uncertainty handling",
+      "category": "Task"
+    },
+    {
+      "entity": "shape tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic initial-ization problem",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic tracking of endocardium",
+      "category": "Task"
+    },
+    {
+      "entity": "detection",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "user initialization",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local detection uncertainties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local detection uncertainties of multiple shape candidates",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shape alignment",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicted shape prior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "subspace constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "maximum likelihood",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "endocardium",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inter-expert variations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "shape tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "shape priors",
+      "category": "Method"
+    },
+    {
+      "entity": "boosted shape detection",
+      "category": "Method"
+    },
+    {
+      "entity": "measurement information",
+      "category": "Material"
+    },
+    {
+      "entity": "system dynamics",
+      "category": "Method"
+    },
+    {
+      "entity": "shape alignment",
+      "category": "Method"
+    },
+    {
+      "entity": "fusion with subspace constraints",
+      "category": "Method"
+    },
+    {
+      "entity": "posterior shape model",
+      "category": "Material"
+    },
+    {
+      "entity": "shape with maximum likelihood",
+      "category": "Material"
+    },
+    {
+      "entity": "automatic tracking of endocardium in ultrasound sequences of the human heart",
+      "category": "Task"
+    },
+    {
+      "entity": "inter-expert variations",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "approaches",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "shape tracking",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "shape tracking",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "boosted shape detection",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "boosted shape detection",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "shape alignment",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "shape alignment",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "posterior shape model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "posterior shape model",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "inter-expert variations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "inter-expert variations",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "shape tracking",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "shape tracking",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "boosted shape detection",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "boosted shape detection",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "fusion of measurement information with system dynamics and shape priors",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "shape priors",
+          "category": "Method"
+        },
+        {
+          "entity": "measurement information",
+          "category": "Material"
+        },
+        {
+          "entity": "system dynamics",
+          "category": "Method"
+        },
+        {
+          "entity": "fusion with subspace constraints",
+          "category": "Method"
+        },
+        {
+          "entity": "shape with maximum likelihood",
+          "category": "Material"
+        },
+        {
+          "entity": "automatic tracking of endocardium in ultrasound sequences of the human heart",
+          "category": "Task"
+        }
+      ],
+      "coverage": 4.1
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "noisy images",
+      "category": "Material"
+    },
+    {
+      "entity": "ultrasound sequences",
+      "category": "Material"
+    },
+    {
+      "entity": "ultrasound sequences of the human heart",
+      "category": "Material"
+    },
+    {
+      "entity": "tracking process",
+      "category": "Method"
+    },
+    {
+      "entity": "generic measurement process",
+      "category": "Method"
+    },
+    {
+      "entity": "tracking framework",
+      "category": "Method"
+    },
+    {
+      "entity": "uncertainty handling",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic initial-ization problem",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic tracking of endocardium",
+      "category": "Task"
+    },
+    {
+      "entity": "detection",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "user initialization",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local detection uncertainties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local detection uncertainties of multiple shape candidates",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicted shape prior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "subspace constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "maximum likelihood",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "endocardium",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "tracking": 2
+  },
+  "distinct_repeated_entities": [
+    "tracking"
+  ],
+  "counts": {
+    "gold_count": 25,
+    "generated_count": 11,
+    "generic_count": 4,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

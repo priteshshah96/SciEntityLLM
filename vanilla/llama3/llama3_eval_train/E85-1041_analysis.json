@@ -1,0 +1,215 @@
+{
+  "doc_key": "E85-1041",
+  "gold_entities": [
+    {
+      "entity": "structure of communicative context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue interaction",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "dialogue interaction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "System of three automata",
+      "category": "material"
+    },
+    {
+      "entity": "communicative context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Model",
+      "category": "material"
+    },
+    {
+      "entity": "structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Environment",
+      "category": "material"
+    },
+    {
+      "entity": "Automata",
+      "category": "material"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Scheme",
+      "category": "task"
+    },
+    {
+      "entity": "Formalizing",
+      "category": "method"
+    },
+    {
+      "entity": "Representing",
+      "category": "method"
+    },
+    {
+      "entity": "Propose",
+      "category": "task"
+    },
+    {
+      "entity": "Draft",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "dialogue interaction",
+      "predicted": "dialogue interaction",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "structure of communicative context",
+      "predicted": "communicative context",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "System of three automata",
+      "category": "material"
+    },
+    {
+      "entity": "Model",
+      "category": "material"
+    },
+    {
+      "entity": "structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Environment",
+      "category": "material"
+    },
+    {
+      "entity": "Automata",
+      "category": "material"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Scheme",
+      "category": "task"
+    },
+    {
+      "entity": "Formalizing",
+      "category": "method"
+    },
+    {
+      "entity": "Representing",
+      "category": "method"
+    },
+    {
+      "entity": "Propose",
+      "category": "task"
+    },
+    {
+      "entity": "Draft",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "material": 5,
+    "task": 2,
+    "method": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 2,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 13,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

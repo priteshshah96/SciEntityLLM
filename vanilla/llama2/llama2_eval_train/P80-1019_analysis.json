@@ -1,0 +1,224 @@
+{
+  "doc_key": "P80-1019",
+  "gold_entities": [
+    {
+      "entity": "natural language interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "personal computers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphics displays",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "decoding",
+      "category": "method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "method"
+    },
+    {
+      "entity": "robust  communication procedures",
+      "category": "method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Natural language interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "Determining literal meaning",
+      "category": "task"
+    },
+    {
+      "entity": "Non-literal aspects of communication",
+      "category": "task"
+    },
+    {
+      "entity": "Robust communication procedures",
+      "category": "method"
+    },
+    {
+      "entity": "Personal computers",
+      "category": "material"
+    },
+    {
+      "entity": "Integral graphics displays",
+      "category": "material"
+    },
+    {
+      "entity": "human performance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "traditional natural language interfaces",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language interfaces",
+      "predicted": "Natural language interfaces",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "personal computers",
+      "predicted": "Personal computers",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "non-literal aspects of communication",
+      "predicted": "Non-literal aspects of communication",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "robust  communication procedures",
+      "predicted": "Robust communication procedures",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "natural language interfaces",
+      "predicted": "traditional natural language interfaces",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "graphics displays",
+      "predicted": "Integral graphics displays",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "natural language interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "decoding",
+      "category": "method"
+    },
+    {
+      "entity": "non-literal aspects of communication",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Determining literal meaning",
+      "category": "task"
+    },
+    {
+      "entity": "human performance",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "natural language interfaces|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "non-literal aspects of communication|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 5,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 1,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.1111111111111111,
+  "f1": 0.11764705882352941,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 8,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

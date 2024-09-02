@@ -1,0 +1,250 @@
+{
+  "gold_entities": [
+    {
+      "entity": "new domain",
+      "category": "Material"
+    },
+    {
+      "entity": "grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "lexicalized grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "hybrid system",
+      "category": "Method"
+    },
+    {
+      "entity": "knowledge-based techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "corpus-based approach",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language processing (nlp) system",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic parsing",
+      "category": "Task"
+    },
+    {
+      "entity": "idiosyncracies of the new sublanguage",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "natural language processing (nlp) system",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "new domain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntactic parsing",
+      "category": "Task"
+    },
+    {
+      "entity": "lexicon",
+      "category": "Material"
+    },
+    {
+      "entity": "grammar",
+      "category": "Material"
+    },
+    {
+      "entity": "sublanguage",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lexicalized grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hybrid system",
+      "category": "Method"
+    },
+    {
+      "entity": "traditional knowledge-based techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "corpus-based approach",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "natural language processing (nlp) system",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language processing (nlp) system",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "new domain",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "new domain",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "syntactic parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "syntactic parsing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "grammar",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "grammar",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lexicalized grammar",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lexicalized grammar",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hybrid system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hybrid system",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "corpus-based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "corpus-based approach",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "syntactic parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "syntactic parsing",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lexicalized grammar",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lexicalized grammar",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hybrid system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hybrid system",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "corpus-based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "corpus-based approach",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "knowledge-based techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "traditional knowledge-based techniques",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "idiosyncracies of the new sublanguage",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "sublanguage",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "lexicon",
+      "category": "Material"
+    },
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 11,
+    "generic_count": 0,
+    "exact_matches": 7,
+    "exact_category_matches": 4,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

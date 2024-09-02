@@ -1,0 +1,212 @@
+{
+  "doc_key": "ECCV_2016_110_abs",
+  "gold_entities": [
+    {
+      "entity": "computer vision",
+      "category": "task"
+    },
+    {
+      "entity": "high-capacity models",
+      "category": "method"
+    },
+    {
+      "entity": "large datasets",
+      "category": "material"
+    },
+    {
+      "entity": "large datasets",
+      "category": "material"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "pixellevel labels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pixelaccurate semantic label maps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modern computer games",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computer vision",
+      "category": "task"
+    },
+    {
+      "entity": "high-capacity models",
+      "category": "method"
+    },
+    {
+      "entity": "large datasets",
+      "category": "material"
+    },
+    {
+      "entity": "pixellevel labels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human effort",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pixel-accurate semantic label maps",
+      "category": "method"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "modern computer games",
+      "category": "material"
+    },
+    {
+      "entity": "pixel-accurate semantic label maps",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "modern computer games",
+      "predicted": "modern computer games",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "computer vision",
+      "predicted": "computer vision",
+      "category": "task"
+    },
+    {
+      "gold": "high-capacity models",
+      "predicted": "high-capacity models",
+      "category": "method"
+    },
+    {
+      "gold": "large datasets",
+      "predicted": "large datasets",
+      "category": "material"
+    },
+    {
+      "gold": "images",
+      "predicted": "images",
+      "category": "material"
+    },
+    {
+      "gold": "pixellevel labels",
+      "predicted": "pixellevel labels",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "pixelaccurate semantic label maps",
+      "predicted": "pixel-accurate semantic label maps",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "large datasets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "human effort",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pixel-accurate semantic label maps",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "large datasets|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 1,
+    "material": 3,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 3,
+    "material": 3,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5555555555555556,
+  "recall": 0.625,
+  "f1": 0.5882352941176471,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

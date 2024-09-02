@@ -1,0 +1,298 @@
+{
+  "doc_key": "H92-1045",
+  "gold_entities": [
+    {
+      "entity": "polysemous words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polysemous word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wellwritten discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word-sense disambiguation systems",
+      "category": "method"
+    },
+    {
+      "entity": "word-sense disambiguation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "bilingual material",
+      "category": "material"
+    },
+    {
+      "entity": "Canadian Hansards",
+      "category": "material"
+    },
+    {
+      "entity": "monolingual material",
+      "category": "material"
+    },
+    {
+      "entity": "Roget's Thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "Grolier's Encyclopedia",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "polysemous words",
+      "category": "task"
+    },
+    {
+      "entity": "word-sense disambiguation systems",
+      "category": "method"
+    },
+    {
+      "entity": "bilingual material",
+      "category": "material"
+    },
+    {
+      "entity": "monolingual material",
+      "category": "material"
+    },
+    {
+      "entity": "discourse effect",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sense",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "constraint",
+      "category": "material"
+    },
+    {
+      "entity": "disambiguation algorithms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "experiment",
+      "category": "task"
+    },
+    {
+      "entity": "tendency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sense sharing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "polysemous words",
+      "predicted": "polysemous words",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "constraint",
+      "predicted": "constraint",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "disambiguation algorithms",
+      "predicted": "disambiguation algorithms",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "discourse",
+      "predicted": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "word-sense disambiguation systems",
+      "predicted": "word-sense disambiguation systems",
+      "category": "method"
+    },
+    {
+      "gold": "bilingual material",
+      "predicted": "bilingual material",
+      "category": "material"
+    },
+    {
+      "gold": "monolingual material",
+      "predicted": "monolingual material",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "discourse",
+      "predicted": "discourse effect",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "polysemous word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wellwritten discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word-sense disambiguation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Canadian Hansards",
+      "category": "material"
+    },
+    {
+      "entity": "Roget's Thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "Grolier's Encyclopedia",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "sense",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "experiment",
+      "category": "task"
+    },
+    {
+      "entity": "tendency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sense sharing",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "discourse|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 3,
+    "material": 5
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "material": 3,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 6,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.26666666666666666,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

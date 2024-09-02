@@ -1,0 +1,166 @@
+{
+  "gold_entities": [
+    {
+      "entity": "cfg filtering techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "approximation of hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "cfg filter",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "cfg",
+      "category": "Method"
+    },
+    {
+      "entity": "filtering",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hpsg",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "approximation",
+      "category": "Method"
+    },
+    {
+      "entity": "effectiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "difference",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "that",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ltag",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ltag",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hpsg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hpsg",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "cfg filtering techniques",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "cfg",
+          "category": "Method"
+        },
+        {
+          "entity": "filtering",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "approximation of hpsg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "approximation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "cfg filter",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "effectiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "difference",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "ltag": 2,
+    "hpsg": 2
+  },
+  "distinct_repeated_entities": [
+    "ltag",
+    "hpsg"
+  ],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 2,
+    "exact_category_matches": 0,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

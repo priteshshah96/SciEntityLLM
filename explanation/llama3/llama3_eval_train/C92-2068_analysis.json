@@ -1,0 +1,292 @@
+{
+  "doc_key": "C92-2068",
+  "gold_entities": [
+    {
+      "entity": "Graph unification",
+      "category": "task"
+    },
+    {
+      "entity": "unification-based grammar parsing",
+      "category": "task"
+    },
+    {
+      "entity": "speed-up element",
+      "category": "method"
+    },
+    {
+      "entity": "unification algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "structure-sharing",
+      "category": "method"
+    },
+    {
+      "entity": "dependency pointers",
+      "category": "method"
+    },
+    {
+      "entity": "copying of unmodified subgraphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unmodified subgraphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logd overheads",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structuresharing of graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "redundant copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quasidestructive schemes ability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "over copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "early copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cyclic structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Graph unification",
+      "category": "task"
+    },
+    {
+      "entity": "unification-based grammar parsing",
+      "category": "method"
+    },
+    {
+      "entity": "unification algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subgraphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structure-sharing",
+      "category": "method"
+    },
+    {
+      "entity": "log(d) overheads",
+      "category": "metric"
+    },
+    {
+      "entity": "dependency pointers",
+      "category": "method"
+    },
+    {
+      "entity": "redundant copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quasi-destructive scheme",
+      "category": "method"
+    },
+    {
+      "entity": "over copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "early copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cyclic structures",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "unification-based grammar parsing",
+      "predicted": "unification-based grammar parsing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "cyclic structures",
+      "predicted": "cyclic structures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Graph unification",
+      "predicted": "Graph unification",
+      "category": "task"
+    },
+    {
+      "gold": "unification algorithms",
+      "predicted": "unification algorithms",
+      "category": "method"
+    },
+    {
+      "gold": "structure-sharing",
+      "predicted": "structure-sharing",
+      "category": "method"
+    },
+    {
+      "gold": "dependency pointers",
+      "predicted": "dependency pointers",
+      "category": "method"
+    },
+    {
+      "gold": "redundant copying",
+      "predicted": "redundant copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "over copying",
+      "predicted": "over copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "early copying",
+      "predicted": "early copying",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "unmodified subgraphs",
+      "predicted": "subgraphs",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "speed-up element",
+      "category": "method"
+    },
+    {
+      "entity": "copying of unmodified subgraphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logd overheads",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structuresharing of graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quasidestructive schemes ability",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "copying",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "log(d) overheads",
+      "category": "metric"
+    },
+    {
+      "entity": "quasi-destructive scheme",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 5,
+    "otherscientificterm": 5,
+    "metric": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5384615384615384,
+  "recall": 0.4666666666666667,
+  "f1": 0.5,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,305 @@
+{
+  "doc_key": "H01-1001",
+  "gold_entities": [
+    {
+      "entity": "Oral communication",
+      "category": "material"
+    },
+    {
+      "entity": "conversation",
+      "category": "material"
+    },
+    {
+      "entity": "oral communication",
+      "category": "material"
+    },
+    {
+      "entity": "database  of  TV shows",
+      "category": "material"
+    },
+    {
+      "entity": "Emotions",
+      "category": "material"
+    },
+    {
+      "entity": "storage media and networks",
+      "category": "task"
+    },
+    {
+      "entity": "automatic detection",
+      "category": "task"
+    },
+    {
+      "entity": "information retrieval techniques",
+      "category": "method"
+    },
+    {
+      "entity": "histogram  of  keywords",
+      "category": "method"
+    },
+    {
+      "entity": "document representation",
+      "category": "method"
+    },
+    {
+      "entity": "activity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discussing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "planning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "informing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "storytelling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dominance distribution of speakers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Oral communication",
+      "category": "task"
+    },
+    {
+      "entity": "Storage media",
+      "category": "material"
+    },
+    {
+      "entity": "networks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Histogram",
+      "category": "method"
+    },
+    {
+      "entity": "Keywords",
+      "category": "method"
+    },
+    {
+      "entity": "Document representation",
+      "category": "method"
+    },
+    {
+      "entity": "Indices",
+      "category": "method"
+    },
+    {
+      "entity": "Activities",
+      "category": "task"
+    },
+    {
+      "entity": "Database",
+      "category": "material"
+    },
+    {
+      "entity": "tv shows",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "emotions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dominance distribution of speakers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Oral communication",
+      "predicted": "Oral communication",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Emotions",
+      "predicted": "emotions",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "document representation",
+      "predicted": "Document representation",
+      "category": "method"
+    },
+    {
+      "gold": "dominance distribution of speakers",
+      "predicted": "dominance distribution of speakers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "database  of  TV shows",
+      "predicted": "tv shows",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "storage media and networks",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "storage media",
+          "matched": "Storage media",
+          "predicted_category": "material"
+        },
+        {
+          "part": "networks",
+          "matched": "networks",
+          "predicted_category": "otherscientificterm"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "conversation",
+      "category": "material"
+    },
+    {
+      "entity": "oral communication",
+      "category": "material"
+    },
+    {
+      "entity": "automatic detection",
+      "category": "task"
+    },
+    {
+      "entity": "information retrieval techniques",
+      "category": "method"
+    },
+    {
+      "entity": "histogram  of  keywords",
+      "category": "method"
+    },
+    {
+      "entity": "activity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discussing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "planning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "informing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "storytelling",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Histogram",
+      "category": "method"
+    },
+    {
+      "entity": "Keywords",
+      "category": "method"
+    },
+    {
+      "entity": "Indices",
+      "category": "method"
+    },
+    {
+      "entity": "Activities",
+      "category": "task"
+    },
+    {
+      "entity": "Database",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 5,
+    "task": 2,
+    "method": 3,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 2,
+    "otherscientificterm": 4,
+    "method": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.125,
+  "f1": 0.14285714285714288,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

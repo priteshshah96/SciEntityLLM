@@ -1,0 +1,299 @@
+{
+  "doc_key": "C04-1192",
+  "gold_entities": [
+    {
+      "entity": "word sense disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "word clustering",
+      "category": "task"
+    },
+    {
+      "entity": "automatic extraction  of  translation equivalents",
+      "category": "task"
+    },
+    {
+      "entity": "parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "aligned  wordnets",
+      "category": "material"
+    },
+    {
+      "entity": "wordnets",
+      "category": "material"
+    },
+    {
+      "entity": "Princeton Wordnet",
+      "category": "material"
+    },
+    {
+      "entity": "EuroWordNet",
+      "category": "material"
+    },
+    {
+      "entity": "multilingually aligned wordnets",
+      "category": "material"
+    },
+    {
+      "entity": "BalkaNet",
+      "category": "material"
+    },
+    {
+      "entity": "EuroWordNet",
+      "category": "material"
+    },
+    {
+      "entity": "WSD system",
+      "category": "method"
+    },
+    {
+      "entity": "alignment errors in multilingually aligned wordnets",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word sense disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "entity": "parallel corpora",
+      "category": "method"
+    },
+    {
+      "entity": "word alignment",
+      "category": "method"
+    },
+    {
+      "entity": "word clustering",
+      "category": "method"
+    },
+    {
+      "entity": "automatic extraction",
+      "category": "method"
+    },
+    {
+      "entity": "translation equivalents",
+      "category": "material"
+    },
+    {
+      "entity": "wordnets",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "Princeton Wordnet",
+      "category": "material"
+    },
+    {
+      "entity": "EuroWordNet",
+      "category": "material"
+    },
+    {
+      "entity": "BalkaNet",
+      "category": "material"
+    },
+    {
+      "entity": "validation mode",
+      "category": "task"
+    },
+    {
+      "entity": "alignment errors",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "word alignment",
+      "predicted": "word alignment",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "word clustering",
+      "predicted": "word clustering",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "parallel corpora",
+      "predicted": "parallel corpora",
+      "gold_category": "material",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "wordnets",
+      "predicted": "wordnets",
+      "category": "material"
+    },
+    {
+      "gold": "Princeton Wordnet",
+      "predicted": "Princeton Wordnet",
+      "category": "material"
+    },
+    {
+      "gold": "EuroWordNet",
+      "predicted": "EuroWordNet",
+      "category": "material"
+    },
+    {
+      "gold": "BalkaNet",
+      "predicted": "BalkaNet",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word sense disambiguation",
+      "predicted": "word sense disambiguation (WSD)",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatic extraction  of  translation equivalents",
+      "category": "task"
+    },
+    {
+      "entity": "aligned  wordnets",
+      "category": "material"
+    },
+    {
+      "entity": "EuroWordNet",
+      "category": "material"
+    },
+    {
+      "entity": "multilingually aligned wordnets",
+      "category": "material"
+    },
+    {
+      "entity": "WSD system",
+      "category": "method"
+    },
+    {
+      "entity": "alignment errors in multilingually aligned wordnets",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "automatic extraction",
+      "category": "method"
+    },
+    {
+      "entity": "translation equivalents",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "validation mode",
+      "category": "task"
+    },
+    {
+      "entity": "alignment errors",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "EuroWordNet|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "material": 8,
+    "method": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "material": 6,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 8,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.2857142857142857,
+  "f1": 0.29629629629629634,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 13,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

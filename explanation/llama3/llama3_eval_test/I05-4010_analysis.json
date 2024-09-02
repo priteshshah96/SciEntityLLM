@@ -1,0 +1,252 @@
+{
+  "doc_key": "I05-4010",
+  "gold_entities": [
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "numbering system",
+      "category": "method"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "empirical MT research",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "harvesting English-Chinese bitexts",
+      "category": "task"
+    },
+    {
+      "entity": "bitexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "laws of Hong Kong",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "numbering system",
+      "category": "method"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English words",
+      "category": "metric"
+    },
+    {
+      "entity": "Chinese characters",
+      "category": "metric"
+    },
+    {
+      "entity": "text collection",
+      "category": "material"
+    },
+    {
+      "entity": "empirical MT research",
+      "category": "material"
+    },
+    {
+      "entity": "foundation",
+      "category": "method"
+    },
+    {
+      "entity": "exploring and harvesting English-Chinese bitexts",
+      "category": "task"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "legal text hierarchy",
+      "predicted": "legal text hierarchy",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "empirical MT research",
+      "predicted": "empirical MT research",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "bilingual corpus",
+      "predicted": "bilingual corpus",
+      "category": "material"
+    },
+    {
+      "gold": "numbering system",
+      "predicted": "numbering system",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "English-Chinese bitexts",
+      "predicted": "harvesting English-Chinese bitexts",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "bitexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "laws of Hong Kong",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "English words",
+      "category": "metric"
+    },
+    {
+      "entity": "Chinese characters",
+      "category": "metric"
+    },
+    {
+      "entity": "text collection",
+      "category": "material"
+    },
+    {
+      "entity": "foundation",
+      "category": "method"
+    },
+    {
+      "entity": "exploring and harvesting English-Chinese bitexts",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "English-Chinese bitexts|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 3,
+    "method": 1,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "material": 7,
+    "method": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.3333333333333333,
+  "f1": 0.2,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 9,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

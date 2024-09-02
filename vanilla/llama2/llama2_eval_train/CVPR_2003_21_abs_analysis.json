@@ -1,0 +1,204 @@
+{
+  "doc_key": "CVPR_2003_21_abs",
+  "gold_entities": [
+    {
+      "entity": "projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "Projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "3d geometrical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d points and cameras",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image coordinates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rational quartic curve",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "Camera",
+      "category": "material"
+    },
+    {
+      "entity": "Image",
+      "category": "material"
+    },
+    {
+      "entity": "Point",
+      "category": "material"
+    },
+    {
+      "entity": "3d point",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projective transform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "straight line",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "twisted cubic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rational quartic curve",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "projective reconstruction",
+      "predicted": "Projective reconstruction",
+      "category": "task"
+    },
+    {
+      "gold": "rational quartic curve",
+      "predicted": "rational quartic curve",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "image coordinates",
+      "predicted": "Image",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Projective reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "3d geometrical configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d points and cameras",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Camera",
+      "category": "material"
+    },
+    {
+      "entity": "Point",
+      "category": "material"
+    },
+    {
+      "entity": "3d point",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projective transform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "straight line",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "twisted cubic",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.2857142857142857,
+  "f1": 0.23529411764705882,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 10,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

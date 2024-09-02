@@ -1,0 +1,354 @@
+{
+  "gold_entities": [
+    {
+      "entity": "message understanding conferences",
+      "category": "Material"
+    },
+    {
+      "entity": "sls systems",
+      "category": "Method"
+    },
+    {
+      "entity": "sls systems",
+      "category": "Method"
+    },
+    {
+      "entity": "\"black-box\" methodology",
+      "category": "Metric"
+    },
+    {
+      "entity": "evaluation methodology",
+      "category": "Task"
+    },
+    {
+      "entity": "evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "speech recognition (sr)",
+      "category": "Task"
+    },
+    {
+      "entity": "speech understanding (su)",
+      "category": "Task"
+    },
+    {
+      "entity": "evaluation of sls systems",
+      "category": "Task"
+    },
+    {
+      "entity": "nl evaluations",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic evaluation of question-answering nl systems",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language (nl) interfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "speech or text input",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "evaluation methodology",
+      "category": "Task"
+    },
+    {
+      "entity": "meaningful evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language",
+      "category": "Task"
+    },
+    {
+      "entity": "speech understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "spoken language systems",
+      "category": "Task"
+    },
+    {
+      "entity": "message understanding conferences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "black-box methodology",
+      "category": "Method"
+    },
+    {
+      "entity": "automatic evaluation",
+      "category": "Method"
+    },
+    {
+      "entity": "question-answering nl systems",
+      "category": "Task"
+    },
+    {
+      "entity": "speech input",
+      "category": "Material"
+    },
+    {
+      "entity": "text input",
+      "category": "Material"
+    },
+    {
+      "entity": "darpa sls program",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sls systems",
+      "category": "Task"
+    },
+    {
+      "entity": "darpa",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sundheim",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "palmer et al",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "neal et al",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approaches",
+      "category": "Generic"
+    },
+    {
+      "entity": "evaluation methodologies",
+      "category": "Generic"
+    },
+    {
+      "entity": "methodology",
+      "category": "Generic"
+    },
+    {
+      "entity": "methodology",
+      "category": "Generic"
+    },
+    {
+      "entity": "evaluations",
+      "category": "Generic"
+    },
+    {
+      "entity": "methodology",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "evaluation methodology",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "evaluation methodology",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "message understanding conferences",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "message understanding conferences",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "sls systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "sls systems",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "evaluation methodology",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "evaluation methodology",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "sls systems",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "spoken language systems",
+          "category": "Task"
+        },
+        {
+          "entity": "question-answering nl systems",
+          "category": "Task"
+        },
+        {
+          "entity": "darpa sls program",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.0
+    },
+    {
+      "gold": {
+        "entity": "evaluation",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "meaningful evaluation",
+          "category": "Task"
+        },
+        {
+          "entity": "automatic evaluation",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.0
+    },
+    {
+      "gold": {
+        "entity": "speech recognition (sr)",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "speech recognition",
+          "category": "Task"
+        },
+        {
+          "entity": "speech understanding",
+          "category": "Task"
+        },
+        {
+          "entity": "speech input",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "natural language (nl) interfaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural language",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "speech or text input",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "text input",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "\"black-box\" methodology",
+      "category": "Metric"
+    },
+    {
+      "entity": "speech understanding (su)",
+      "category": "Task"
+    },
+    {
+      "entity": "evaluation of sls systems",
+      "category": "Task"
+    },
+    {
+      "entity": "nl evaluations",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic evaluation of question-answering nl systems",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "black-box methodology",
+      "category": "Method"
+    },
+    {
+      "entity": "darpa",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sundheim",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "palmer et al",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "neal et al",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "sls systems": 2
+  },
+  "distinct_repeated_entities": [
+    "sls systems"
+  ],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 18,
+    "generic_count": 8,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 3,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

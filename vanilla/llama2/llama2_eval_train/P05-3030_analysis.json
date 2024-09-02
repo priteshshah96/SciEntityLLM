@@ -1,0 +1,184 @@
+{
+  "doc_key": "P05-3030",
+  "gold_entities": [
+    {
+      "entity": "organizing reading materials",
+      "category": "task"
+    },
+    {
+      "entity": "vocabulary learning",
+      "category": "task"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English Wikipedia",
+      "category": "material"
+    },
+    {
+      "entity": "free-content encyclopedia",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Vocabulary",
+      "category": "task"
+    },
+    {
+      "entity": "Reading materials",
+      "category": "task"
+    },
+    {
+      "entity": "Corpus",
+      "category": "method"
+    },
+    {
+      "entity": "Target vocabulary",
+      "category": "metric"
+    },
+    {
+      "entity": "english certification test",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Wikipedia",
+      "category": "material"
+    },
+    {
+      "entity": "web site",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "target vocabulary",
+      "predicted": "Target vocabulary",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "organizing reading materials",
+      "predicted": "Reading materials",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "vocabulary learning",
+      "predicted": "Vocabulary",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "English Wikipedia",
+      "predicted": "Wikipedia",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "free-content encyclopedia",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Corpus",
+      "category": "method"
+    },
+    {
+      "entity": "english certification test",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web site",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 1,
+    "metric": 1,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

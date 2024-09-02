@@ -1,0 +1,256 @@
+{
+  "doc_key": "C08-2010",
+  "gold_entities": [
+    {
+      "entity": "Language resource quality",
+      "category": "metric"
+    },
+    {
+      "entity": "automatic metrics",
+      "category": "metric"
+    },
+    {
+      "entity": "NLP",
+      "category": "task"
+    },
+    {
+      "entity": "NLP",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "reference translations",
+      "category": "task"
+    },
+    {
+      "entity": "automatic evaluations",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "high-quality data",
+      "category": "material"
+    },
+    {
+      "entity": "differentquality references",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "High-quality data",
+      "category": "metric"
+    },
+    {
+      "entity": "Automatic evaluations",
+      "category": "task"
+    },
+    {
+      "entity": "Human translations",
+      "category": "material"
+    },
+    {
+      "entity": "nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mt",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Reference translations",
+      "category": "material"
+    },
+    {
+      "entity": "Validation",
+      "category": "task"
+    },
+    {
+      "entity": "Different-quality references",
+      "category": "material"
+    },
+    {
+      "entity": "Automatic metrics",
+      "category": "method"
+    },
+    {
+      "entity": "nlp context",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "automatic metrics",
+      "predicted": "Automatic metrics",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "NLP",
+      "predicted": "nlp",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "MT",
+      "predicted": "mt",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "reference translations",
+      "predicted": "Reference translations",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "high-quality data",
+      "predicted": "High-quality data",
+      "gold_category": "material",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "automatic evaluations",
+      "predicted": "Automatic evaluations",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "NLP",
+      "predicted": "nlp context",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Language resource quality",
+      "category": "metric"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "differentquality references",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Human translations",
+      "category": "material"
+    },
+    {
+      "entity": "Validation",
+      "category": "task"
+    },
+    {
+      "entity": "Different-quality references",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "NLP|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "MT|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "metric": 2,
+    "task": 6,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "metric": 1,
+    "task": 2,
+    "material": 3,
+    "otherscientificterm": 3,
+    "method": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.1,
+  "f1": 0.10000000000000002,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 10,
+    "exact_matches": 5,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

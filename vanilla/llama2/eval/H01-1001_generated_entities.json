@@ -1,0 +1,311 @@
+{
+  "gold_entities": [
+    {
+      "entity": "oral communication",
+      "category": "Material"
+    },
+    {
+      "entity": "conversation",
+      "category": "Material"
+    },
+    {
+      "entity": "oral communication",
+      "category": "Material"
+    },
+    {
+      "entity": "database of tv shows",
+      "category": "Material"
+    },
+    {
+      "entity": "emotions",
+      "category": "Material"
+    },
+    {
+      "entity": "information retrieval techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "histogram of keywords",
+      "category": "Method"
+    },
+    {
+      "entity": "document representation",
+      "category": "Method"
+    },
+    {
+      "entity": "storage media and networks",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic detection",
+      "category": "Task"
+    },
+    {
+      "entity": "activity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discussing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "planning",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "informing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "story-telling",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dominance distribution of speakers",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "oral communication",
+      "category": "Task"
+    },
+    {
+      "entity": "storage media",
+      "category": "Material"
+    },
+    {
+      "entity": "networks",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "histogram",
+      "category": "Method"
+    },
+    {
+      "entity": "keywords",
+      "category": "Method"
+    },
+    {
+      "entity": "document representation",
+      "category": "Method"
+    },
+    {
+      "entity": "indices",
+      "category": "Method"
+    },
+    {
+      "entity": "activities",
+      "category": "Task"
+    },
+    {
+      "entity": "database",
+      "category": "Material"
+    },
+    {
+      "entity": "tv shows",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "emotions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dominance distribution of speakers",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "activities",
+      "category": "Generic"
+    },
+    {
+      "entity": "activities",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "oral communication",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "oral communication",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "document representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "document representation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "emotions",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "emotions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dominance distribution of speakers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dominance distribution of speakers",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "document representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "document representation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dominance distribution of speakers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dominance distribution of speakers",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "database of tv shows",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "database",
+          "category": "Material"
+        },
+        {
+          "entity": "tv shows",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "histogram of keywords",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "histogram",
+          "category": "Method"
+        },
+        {
+          "entity": "keywords",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "storage media and networks",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "storage media",
+          "category": "Material"
+        },
+        {
+          "entity": "networks",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "conversation",
+      "category": "Material"
+    },
+    {
+      "entity": "oral communication",
+      "category": "Material"
+    },
+    {
+      "entity": "information retrieval techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "automatic detection",
+      "category": "Task"
+    },
+    {
+      "entity": "activity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discussing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "planning",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "informing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "story-telling",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "indices",
+      "category": "Method"
+    },
+    {
+      "entity": "activities",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "oral communication": 2
+  },
+  "distinct_repeated_entities": [
+    "oral communication"
+  ],
+  "counts": {
+    "gold_count": 16,
+    "generated_count": 12,
+    "generic_count": 2,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 3,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

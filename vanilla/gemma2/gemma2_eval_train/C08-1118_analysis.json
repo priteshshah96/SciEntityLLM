@@ -1,0 +1,220 @@
+{
+  "doc_key": "C08-1118",
+  "gold_entities": [
+    {
+      "entity": "medium-length speeches",
+      "category": "material"
+    },
+    {
+      "entity": "EUROPARL corpus",
+      "category": "material"
+    },
+    {
+      "entity": "frequency counts  of  word n-grams",
+      "category": "method"
+    },
+    {
+      "entity": "classification method",
+      "category": "method"
+    },
+    {
+      "entity": "word ngrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "positive markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "europarl corpus",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frequency counts",
+      "category": "method"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "classification method",
+      "category": "method"
+    },
+    {
+      "entity": "positive markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "culture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainrelated",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "EUROPARL corpus",
+      "predicted": "europarl corpus",
+      "category": "material"
+    },
+    {
+      "gold": "classification method",
+      "predicted": "classification method",
+      "category": "method"
+    },
+    {
+      "gold": "positive markers",
+      "predicted": "positive markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "classification method",
+      "category": "method"
+    },
+    {
+      "entity": "positive markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "medium-length speeches",
+      "category": "material"
+    },
+    {
+      "entity": "frequency counts  of  word n-grams",
+      "category": "method"
+    },
+    {
+      "entity": "word ngrams",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frequency counts",
+      "category": "method"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "culture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainrelated",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "method": 2,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "method": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.42857142857142855,
+  "f1": 0.3529411764705882,
+  "category_precision": 0.5,
+  "category_recall": 0.7142857142857143,
+  "category_f1": 0.588235294117647,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 10,
+    "exact_matches": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 0,
+    "correct_predictions": 3,
+    "correct_categories": 5
+  }
+}

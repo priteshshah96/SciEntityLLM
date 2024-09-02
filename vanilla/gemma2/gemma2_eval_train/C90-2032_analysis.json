@@ -1,0 +1,247 @@
+{
+  "doc_key": "C90-2032",
+  "gold_entities": [
+    {
+      "entity": "document oriented preference sets(DoPS)",
+      "category": "method"
+    },
+    {
+      "entity": "DoPS system",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation of the  dependency structure",
+      "category": "task"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain targeted preference knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese patent claim sentences",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "document oriented preference setsdops",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "target document",
+      "category": "material"
+    },
+    {
+      "entity": "other documents",
+      "category": "material"
+    },
+    {
+      "entity": "domain targeted preference knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "empirical results",
+      "category": "metric"
+    },
+    {
+      "entity": "analysis of dependency structures",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese patent claim sentences",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "domain targeted preference knowledge",
+      "predicted": "domain targeted preference knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "knowledgebases",
+      "predicted": "knowledgebases",
+      "category": "material"
+    },
+    {
+      "gold": "Japanese patent claim sentences",
+      "predicted": "Japanese patent claim sentences",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "document oriented preference sets(DoPS)",
+      "predicted": "document oriented preference setsdops",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "dependency structures",
+      "predicted": "analysis of dependency structures",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "domain targeted preference knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese patent claim sentences",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "DoPS system",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation of the  dependency structure",
+      "category": "task"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dependency structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "target document",
+      "category": "material"
+    },
+    {
+      "entity": "other documents",
+      "category": "material"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "empirical results",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 4,
+    "material": 4,
+    "method": 1,
+    "metric": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.375,
+  "f1": 0.3157894736842105,
+  "category_precision": 0.6363636363636364,
+  "category_recall": 0.875,
+  "category_f1": 0.7368421052631579,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 0,
+    "correct_predictions": 3,
+    "correct_categories": 7
+  }
+}

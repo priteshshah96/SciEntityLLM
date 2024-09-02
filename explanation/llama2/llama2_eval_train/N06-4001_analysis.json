@@ -1,0 +1,226 @@
+{
+  "doc_key": "N06-4001",
+  "gold_entities": [
+    {
+      "entity": "interactive corpus exploration tool",
+      "category": "method"
+    },
+    {
+      "entity": "InfoMagnets",
+      "category": "method"
+    },
+    {
+      "entity": "InfoMagnets",
+      "category": "method"
+    },
+    {
+      "entity": "educational tool",
+      "category": "method"
+    },
+    {
+      "entity": "exploratory corpus analysis",
+      "category": "task"
+    },
+    {
+      "entity": "text mining",
+      "category": "task"
+    },
+    {
+      "entity": "protocol analysis",
+      "category": "task"
+    },
+    {
+      "entity": "tutorial dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "on-line communities",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "interactive corpus exploration tool",
+      "category": "method"
+    },
+    {
+      "entity": "text mining",
+      "category": "method"
+    },
+    {
+      "entity": "tutorial dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "online communities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Educational Research Methods course",
+      "category": "material"
+    },
+    {
+      "entity": "protocol analysis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tool",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "behavioral patterns",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "text mining",
+      "predicted": "text mining",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "protocol analysis",
+      "predicted": "protocol analysis",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "tutorial dialogue",
+      "predicted": "tutorial dialogue",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "interactive corpus exploration tool",
+      "predicted": "interactive corpus exploration tool",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "educational tool",
+      "predicted": "tool",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "InfoMagnets",
+      "category": "method"
+    },
+    {
+      "entity": "InfoMagnets",
+      "category": "method"
+    },
+    {
+      "entity": "exploratory corpus analysis",
+      "category": "task"
+    },
+    {
+      "entity": "on-line communities",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "online communities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Educational Research Methods course",
+      "category": "material"
+    },
+    {
+      "entity": "language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "behavioral patterns",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "InfoMagnets|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 6,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.1111111111111111,
+  "f1": 0.1111111111111111,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,190 @@
+{
+  "doc_key": "N06-2009",
+  "gold_entities": [
+    {
+      "entity": "Question Answering (QA) systems",
+      "category": "method"
+    },
+    {
+      "entity": "MT-based paraphrasing technique",
+      "category": "method"
+    },
+    {
+      "entity": "QA system",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrased questions",
+      "category": "material"
+    },
+    {
+      "entity": "MRR",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Question Answering (QA) systems",
+      "category": "task"
+    },
+    {
+      "entity": "information need",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrasing technique",
+      "category": "method"
+    },
+    {
+      "entity": "MT-based paraphrasing technique",
+      "category": "method"
+    },
+    {
+      "entity": "QA system",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrased questions",
+      "category": "material"
+    },
+    {
+      "entity": "MRR",
+      "category": "metric"
+    },
+    {
+      "entity": "original question",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Question Answering (QA) systems",
+      "predicted": "Question Answering (QA) systems",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "MT-based paraphrasing technique",
+      "predicted": "MT-based paraphrasing technique",
+      "category": "method"
+    },
+    {
+      "gold": "QA system",
+      "predicted": "QA system",
+      "category": "method"
+    },
+    {
+      "gold": "paraphrased questions",
+      "predicted": "paraphrased questions",
+      "category": "material"
+    },
+    {
+      "gold": "MRR",
+      "predicted": "MRR",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "information need",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrasing technique",
+      "category": "method"
+    },
+    {
+      "entity": "original question",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "material": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 2,
+    "method": 3,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4444444444444444,
+  "recall": 0.8,
+  "f1": 0.5714285714285714,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

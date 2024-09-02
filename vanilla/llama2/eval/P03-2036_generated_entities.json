@@ -1,0 +1,222 @@
+{
+  "gold_entities": [
+    {
+      "entity": "cfg filtering techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "approximation of hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "cfg filter",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "cfg",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "cfg filter",
+      "category": "Task"
+    },
+    {
+      "entity": "hpsg filter",
+      "category": "Task"
+    },
+    {
+      "entity": "approximation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "empirical comparison",
+      "category": "Task"
+    },
+    {
+      "entity": "filtering techniques",
+      "category": "Task"
+    },
+    {
+      "entity": "demonstration",
+      "category": "Task"
+    },
+    {
+      "entity": "difference",
+      "category": "Metric"
+    },
+    {
+      "entity": "reason",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "that",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ltag",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ltag",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hpsg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hpsg",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "cfg filter",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "cfg filter",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "ltag",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ltag",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hpsg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hpsg",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "cfg filtering techniques",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "cfg",
+          "category": "Method"
+        },
+        {
+          "entity": "filtering techniques",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "approximation of hpsg",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "hpsg filter",
+          "category": "Task"
+        },
+        {
+          "entity": "approximation",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "empirical comparison",
+      "category": "Task"
+    },
+    {
+      "entity": "demonstration",
+      "category": "Task"
+    },
+    {
+      "entity": "difference",
+      "category": "Metric"
+    },
+    {
+      "entity": "reason",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "ltag": 2,
+    "hpsg": 2
+  },
+  "distinct_repeated_entities": [
+    "ltag",
+    "hpsg"
+  ],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

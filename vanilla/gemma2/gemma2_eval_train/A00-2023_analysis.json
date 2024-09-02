@@ -1,0 +1,257 @@
+{
+  "doc_key": "A00-2023",
+  "gold_entities": [
+    {
+      "entity": "statistical sentence generation",
+      "category": "task"
+    },
+    {
+      "entity": "statistical generation",
+      "category": "task"
+    },
+    {
+      "entity": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "forests",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical ranking",
+      "category": "method"
+    },
+    {
+      "entity": "ranking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "enumeration",
+      "category": "method"
+    },
+    {
+      "entity": "lattice-based approach",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "statistical sentence generation",
+      "category": "task"
+    },
+    {
+      "entity": "alternative phrases",
+      "category": "material"
+    },
+    {
+      "entity": "trees",
+      "category": "material"
+    },
+    {
+      "entity": "forests",
+      "category": "material"
+    },
+    {
+      "entity": "statistical ranking",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "efficient ranking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "experimental results",
+      "category": "metric"
+    },
+    {
+      "entity": "significant improvements",
+      "category": "metric"
+    },
+    {
+      "entity": "simple enumeration",
+      "category": "method"
+    },
+    {
+      "entity": "lattice-based approach",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "statistical sentence generation",
+      "predicted": "statistical sentence generation",
+      "category": "task"
+    },
+    {
+      "gold": "trees",
+      "predicted": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "forests",
+      "predicted": "forests",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "syntactic information",
+      "predicted": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "statistical ranking",
+      "predicted": "statistical ranking",
+      "category": "method"
+    },
+    {
+      "gold": "lattice-based approach",
+      "predicted": "lattice-based approach",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "ranking algorithm",
+      "predicted": "efficient ranking algorithm",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "enumeration",
+      "predicted": "simple enumeration",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "statistical sentence generation",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical ranking",
+      "category": "method"
+    },
+    {
+      "entity": "lattice-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "ranking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "enumeration",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "statistical generation",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "alternative phrases",
+      "category": "material"
+    },
+    {
+      "entity": "experimental results",
+      "category": "metric"
+    },
+    {
+      "entity": "significant improvements",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 3,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "method": 4,
+    "otherscientificterm": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.4444444444444444,
+  "f1": 0.39999999999999997,
+  "category_precision": 0.5454545454545454,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.6,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 11,
+    "exact_matches": 6,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 6,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 4,
+    "correct_predictions": 4,
+    "correct_categories": 6
+  }
+}

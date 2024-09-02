@@ -1,0 +1,307 @@
+{
+  "doc_key": "C96-1055",
+  "gold_entities": [
+    {
+      "entity": "word-sense ambiguity",
+      "category": "task"
+    },
+    {
+      "entity": "construction of  large-scale knowledge sources",
+      "category": "task"
+    },
+    {
+      "entity": "machine-readable resources",
+      "category": "material"
+    },
+    {
+      "entity": "online sources",
+      "category": "material"
+    },
+    {
+      "entity": "wordsense distinctions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wordsense distinctions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verb semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic cues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic cues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic classification",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Word-sense ambiguity",
+      "category": "task"
+    },
+    {
+      "entity": "Machine-readable resources",
+      "category": "material"
+    },
+    {
+      "entity": "Semantic classification",
+      "category": "task"
+    },
+    {
+      "entity": "Verbs",
+      "category": "task"
+    },
+    {
+      "entity": "levin",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Syntactic cues",
+      "category": "material"
+    },
+    {
+      "entity": "Semantic information",
+      "category": "task"
+    },
+    {
+      "entity": "Online sources",
+      "category": "material"
+    },
+    {
+      "entity": "novel word senses",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "semantic information",
+      "predicted": "Semantic information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "syntactic cues",
+      "predicted": "Syntactic cues",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "semantic classification",
+      "predicted": "Semantic classification",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "word-sense ambiguity",
+      "predicted": "Word-sense ambiguity",
+      "category": "task"
+    },
+    {
+      "gold": "machine-readable resources",
+      "predicted": "Machine-readable resources",
+      "category": "material"
+    },
+    {
+      "gold": "online sources",
+      "predicted": "Online sources",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word senses",
+      "predicted": "novel word senses",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "construction of  large-scale knowledge sources",
+      "category": "task"
+    },
+    {
+      "entity": "wordsense distinctions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wordsense distinctions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verb semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic cues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word senses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Verbs",
+      "category": "task"
+    },
+    {
+      "entity": "levin",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "wordsense distinctions|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "syntactic cues|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "word senses|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "accuracy|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 4,
+    "total_repeated_entities": 8
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 2,
+    "otherscientificterm": 9,
+    "metric": 2,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "material": 3,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.1875,
+  "f1": 0.24000000000000005,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

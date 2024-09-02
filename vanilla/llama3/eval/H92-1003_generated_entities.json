@@ -1,0 +1,210 @@
+{
+  "gold_entities": [
+    {
+      "entity": "spoken language corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "spontaneous speech",
+      "category": "Material"
+    },
+    {
+      "entity": "multi-site data collection paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "atis (air travel information system) domain",
+      "category": "Task"
+    },
+    {
+      "entity": "multi-site common evaluation of speech, natural language and spoken language",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "air travel information system",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multi-site atis data collection working group",
+      "category": "Material"
+    },
+    {
+      "entity": "multi-site data collection paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "spontaneous speech",
+      "category": "Material"
+    },
+    {
+      "entity": "common evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "speech",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "utterances",
+      "category": "Metric"
+    },
+    {
+      "entity": "12,000",
+      "category": "Metric"
+    },
+    {
+      "entity": "five sites",
+      "category": "Metric"
+    },
+    {
+      "entity": "multisite",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "data collection",
+      "category": "Generic"
+    },
+    {
+      "entity": "collection",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "multi-site data collection paradigm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "multi-site data collection paradigm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spontaneous speech",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "spontaneous speech",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "multi-site data collection paradigm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "multi-site data collection paradigm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spontaneous speech",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "spontaneous speech",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "spoken language corpus",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "corpus",
+          "category": "Material"
+        },
+        {
+          "entity": "natural language",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "multi-site common evaluation of speech, natural language and spoken language",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "multi-site atis data collection working group",
+          "category": "Material"
+        },
+        {
+          "entity": "common evaluation",
+          "category": "Task"
+        }
+      ],
+      "coverage": 1.1666666666666667
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "atis (air travel information system) domain",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "air travel information system",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "speech",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "utterances",
+      "category": "Metric"
+    },
+    {
+      "entity": "12,000",
+      "category": "Metric"
+    },
+    {
+      "entity": "five sites",
+      "category": "Metric"
+    },
+    {
+      "entity": "multisite",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 12,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

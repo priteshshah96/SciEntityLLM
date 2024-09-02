@@ -1,0 +1,272 @@
+{
+  "doc_key": "E99-1014",
+  "gold_entities": [
+    {
+      "entity": "full parsing",
+      "category": "task"
+    },
+    {
+      "entity": "Information Extraction",
+      "category": "task"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unambiguous structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "argumental relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modifier attachment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global parse tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "IE module",
+      "category": "method"
+    },
+    {
+      "entity": "FACILE, a EU project for multilingual text classification and IE",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "full parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Information Extraction",
+      "category": "task"
+    },
+    {
+      "entity": "texts",
+      "category": "material"
+    },
+    {
+      "entity": "rules",
+      "category": "method"
+    },
+    {
+      "entity": "chunks",
+      "category": "material"
+    },
+    {
+      "entity": "argumental relations",
+      "category": "method"
+    },
+    {
+      "entity": "modifier attachment",
+      "category": "method"
+    },
+    {
+      "entity": "global parse tree",
+      "category": "metric"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    },
+    {
+      "entity": "IE module",
+      "category": "material"
+    },
+    {
+      "entity": "FACILE",
+      "category": "material"
+    },
+    {
+      "entity": "EU project",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual text classification",
+      "category": "task"
+    },
+    {
+      "entity": "IE",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "full parsing",
+      "predicted": "full parsing",
+      "category": "task"
+    },
+    {
+      "gold": "Information Extraction",
+      "predicted": "Information Extraction",
+      "category": "task"
+    },
+    {
+      "gold": "rules",
+      "predicted": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "argumental relations",
+      "predicted": "argumental relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "modifier attachment",
+      "predicted": "modifier attachment",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "global parse tree",
+      "predicted": "global parse tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "IE module",
+      "predicted": "IE module",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [
+    {
+      "gold": "FACILE, a EU project for multilingual text classification and IE",
+      "gold_category": "method",
+      "matched_parts": [
+        {
+          "part": "FACILE",
+          "matched": "FACILE",
+          "predicted_category": "material"
+        },
+        {
+          "part": "IE",
+          "matched": "IE",
+          "predicted_category": "task"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "category_matches": [
+    {
+      "entity": "Information Extraction",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unambiguous structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "texts",
+      "category": "material"
+    },
+    {
+      "entity": "chunks",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    },
+    {
+      "entity": "EU project",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual text classification",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "task": 4,
+    "material": 6,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.06666666666666667,
+  "recall": 0.1111111111111111,
+  "f1": 0.08333333333333334,
+  "category_precision": 0.26666666666666666,
+  "category_recall": 0.4444444444444444,
+  "category_f1": 0.33333333333333337,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 15,
+    "exact_matches": 7,
+    "partial_matches": 0,
+    "split_matches": 1,
+    "category_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 3,
+    "correct_predictions": 1,
+    "correct_categories": 4
+  }
+}

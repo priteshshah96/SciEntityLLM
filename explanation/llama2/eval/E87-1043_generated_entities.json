@@ -1,0 +1,192 @@
+{
+  "gold_entities": [
+    {
+      "entity": "analysis of verb form meanings",
+      "category": "Task"
+    },
+    {
+      "entity": "verb forms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "deictic information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "aspectual information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "model-theoretic semantics",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "verb forms",
+      "category": "Task"
+    },
+    {
+      "entity": "event",
+      "category": "Task"
+    },
+    {
+      "entity": "deictic information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "aspectual information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "habituality",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "model-theoretic semantics",
+      "category": "Method"
+    },
+    {
+      "entity": "analysis",
+      "category": "Task"
+    },
+    {
+      "entity": "sentence",
+      "category": "Material"
+    },
+    {
+      "entity": "event",
+      "category": "Task"
+    },
+    {
+      "entity": "verb form meanings",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "information",
+      "category": "Generic"
+    },
+    {
+      "entity": "analysis",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "verb forms",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "verb forms",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "deictic information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "deictic information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "aspectual information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "aspectual information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "model-theoretic semantics",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "model-theoretic semantics",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "deictic information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "deictic information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "aspectual information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "aspectual information",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "analysis of verb form meanings",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "analysis",
+          "category": "Task"
+        },
+        {
+          "entity": "verb form meanings",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "event",
+      "category": "Task"
+    },
+    {
+      "entity": "habituality",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentence",
+      "category": "Material"
+    },
+    {
+      "entity": "event",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

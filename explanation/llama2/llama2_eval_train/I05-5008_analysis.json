@@ -1,0 +1,294 @@
+{
+  "doc_key": "I05-5008",
+  "gold_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handproduced sets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine translation evaluation measures",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "NIST",
+      "category": "metric"
+    },
+    {
+      "entity": "grammaticality",
+      "category": "metric"
+    },
+    {
+      "entity": "equivalence in meaning",
+      "category": "metric"
+    },
+    {
+      "entity": "internal  lexical and syntactical variation",
+      "category": "metric"
+    },
+    {
+      "entity": "meaning equivalence",
+      "category": "method"
+    },
+    {
+      "entity": "entailment",
+      "category": "method"
+    },
+    {
+      "entity": "MT evaluation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "paraphrase sets",
+      "category": "method"
+    },
+    {
+      "entity": "seed sentences",
+      "category": "method"
+    },
+    {
+      "entity": "objective machine translation evaluation measures",
+      "category": "task"
+    },
+    {
+      "entity": "bleu",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nist",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammaticality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "equivalence in meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "internal lexical and syntactical variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hand-produced sets",
+      "category": "material"
+    },
+    {
+      "entity": "MT evaluation",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "BLEU",
+      "predicted": "bleu",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "NIST",
+      "predicted": "nist",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "grammaticality",
+      "predicted": "grammaticality",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "equivalence in meaning",
+      "predicted": "equivalence in meaning",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "internal  lexical and syntactical variation",
+      "predicted": "internal lexical and syntactical variation",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "MT evaluation",
+      "predicted": "MT evaluation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "paraphrase",
+      "predicted": "paraphrase sets",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "machine translation evaluation measures",
+      "predicted": "objective machine translation evaluation measures",
+      "score": 0.8,
+      "gold_category": "metric",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handproduced sets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning equivalence",
+      "category": "method"
+    },
+    {
+      "entity": "entailment",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "seed sentences",
+      "category": "method"
+    },
+    {
+      "entity": "hand-produced sets",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "paraphrase|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "paraphrases|otherscientificterm": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 6,
+    "metric": 6,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 2,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 6,
+      "predicted": 0,
+      "exact_matches": 5,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.06666666666666667,
+  "f1": 0.08,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 10,
+    "exact_matches": 5,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

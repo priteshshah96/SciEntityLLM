@@ -1,0 +1,254 @@
+{
+  "gold_entities": [
+    {
+      "entity": "linguistic tools",
+      "category": "Method"
+    },
+    {
+      "entity": "disambiguation tool",
+      "category": "Method"
+    },
+    {
+      "entity": "manual acquisition of semantic constraints",
+      "category": "Task"
+    },
+    {
+      "entity": "cooccurrence patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantic constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "anaphora references",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntactic ambiguities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cooccurrence statistics",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantic constraints",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "cooccurrence patterns",
+      "category": "Metric"
+    },
+    {
+      "entity": "semantic constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "anaphora references",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic ambiguities",
+      "category": "Task"
+    },
+    {
+      "entity": "cooccurrence statistics",
+      "category": "Metric"
+    },
+    {
+      "entity": "disambiguation tool",
+      "category": "Material"
+    },
+    {
+      "entity": "references",
+      "category": "Task"
+    },
+    {
+      "entity": "pronoun \"it\"",
+      "category": "Material"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "linguistic tools",
+      "category": "Material"
+    },
+    {
+      "entity": "experiment",
+      "category": "Task"
+    },
+    {
+      "entity": "manual acquisition",
+      "category": "Method"
+    },
+    {
+      "entity": "output",
+      "category": "Metric"
+    },
+    {
+      "entity": "statistics",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "cooccurrence patterns",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "cooccurrence patterns",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "semantic constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic constraints",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "anaphora references",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "anaphora references",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "syntactic ambiguities",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "syntactic ambiguities",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "cooccurrence statistics",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "cooccurrence statistics",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "disambiguation tool",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "disambiguation tool",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "linguistic tools",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "linguistic tools",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "semantic constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic constraints",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "manual acquisition of semantic constraints",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "manual acquisition",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "semantic constraints",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "references",
+      "category": "Task"
+    },
+    {
+      "entity": "pronoun \"it\"",
+      "category": "Material"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "experiment",
+      "category": "Task"
+    },
+    {
+      "entity": "output",
+      "category": "Metric"
+    },
+    {
+      "entity": "statistics",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "semantic constraints": 2
+  },
+  "distinct_repeated_entities": [
+    "semantic constraints"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 15,
+    "generic_count": 0,
+    "exact_matches": 7,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

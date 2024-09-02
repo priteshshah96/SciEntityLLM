@@ -1,0 +1,286 @@
+{
+  "gold_entities": [
+    {
+      "entity": "penn treebank wsj",
+      "category": "Material"
+    },
+    {
+      "entity": "part-of-speech tagger",
+      "category": "Method"
+    },
+    {
+      "entity": "dependency network representation",
+      "category": "Method"
+    },
+    {
+      "entity": "fine-grained modeling of unknown word features",
+      "category": "Method"
+    },
+    {
+      "entity": "tagger",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "error",
+      "category": "Metric"
+    },
+    {
+      "entity": "tagging",
+      "category": "Task"
+    },
+    {
+      "entity": "tag contexts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lexical features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multiple consecutive words",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "priors in conditional loglinear models",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "part-of-speech tagger",
+      "category": "Task"
+    },
+    {
+      "entity": "dependency network representation",
+      "category": "Method"
+    },
+    {
+      "entity": "lexical features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "jointly conditioning on multiple consecutive words",
+      "category": "Method"
+    },
+    {
+      "entity": "priors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "conditional loglinear models",
+      "category": "Method"
+    },
+    {
+      "entity": "unknown word features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "penn treebank wsj",
+      "category": "Material"
+    },
+    {
+      "entity": "error reduction",
+      "category": "Metric"
+    },
+    {
+      "entity": "tagging",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "part-of-speech tagger",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "part-of-speech tagger",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dependency network representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dependency network representation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lexical features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "lexical features",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "penn treebank wsj",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "penn treebank wsj",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "tagging",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "tagging",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "dependency network representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dependency network representation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lexical features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "lexical features",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "penn treebank wsj",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "penn treebank wsj",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "tagging",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "tagging",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "priors in conditional loglinear models",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "priors",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "conditional loglinear models",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "fine-grained modeling of unknown word features",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "unknown word features",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "tagger",
+      "category": "Method"
+    },
+    {
+      "entity": "error",
+      "category": "Metric"
+    },
+    {
+      "entity": "tag contexts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multiple consecutive words",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "jointly conditioning on multiple consecutive words",
+      "category": "Method"
+    },
+    {
+      "entity": "error reduction",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 11,
+    "generic_count": 0,
+    "exact_matches": 6,
+    "exact_category_matches": 5,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "doc_key": "INTERSPEECH_2013_28_abs",
+  "gold_entities": [
+    {
+      "entity": "under-explored language genre of spoken language",
+      "category": "material"
+    },
+    {
+      "entity": "lyrics in music",
+      "category": "material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "material"
+    },
+    {
+      "entity": "rhyming lyrics",
+      "category": "material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "material"
+    },
+    {
+      "entity": "unsuper-vised induction",
+      "category": "method"
+    },
+    {
+      "entity": "SMT-style stochastic transduction grammar",
+      "category": "method"
+    },
+    {
+      "entity": "fully-automatically learned challenge-response system",
+      "category": "method"
+    },
+    {
+      "entity": "phrase-based SMT models",
+      "category": "method"
+    },
+    {
+      "entity": "priori linguistic or phonetic knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human evaluators",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "language genre",
+      "category": "task"
+    },
+    {
+      "entity": "spoken language",
+      "category": "method"
+    },
+    {
+      "entity": "SMT-style stochastic transduction grammar",
+      "category": "method"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unstructured and noisy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "challenge-response system",
+      "category": "method"
+    },
+    {
+      "entity": "input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rhyming lyrics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "a priori linguistic or phonetic knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human evaluators",
+      "category": "material"
+    },
+    {
+      "entity": "phrase-based SMT models",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "hip hop lyrics",
+      "predicted": "hip hop lyrics",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "rhyming lyrics",
+      "predicted": "rhyming lyrics",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "human evaluators",
+      "predicted": "human evaluators",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "SMT-style stochastic transduction grammar",
+      "predicted": "SMT-style stochastic transduction grammar",
+      "category": "method"
+    },
+    {
+      "gold": "phrase-based SMT models",
+      "predicted": "phrase-based SMT models",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "fully-automatically learned challenge-response system",
+      "predicted": "challenge-response system",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "priori linguistic or phonetic knowledge",
+      "predicted": "a priori linguistic or phonetic knowledge",
+      "score": 0.8333333333333334,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "under-explored language genre of spoken language",
+      "category": "material"
+    },
+    {
+      "entity": "lyrics in music",
+      "category": "material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "material"
+    },
+    {
+      "entity": "unsuper-vised induction",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "language genre",
+      "category": "task"
+    },
+    {
+      "entity": "spoken language",
+      "category": "method"
+    },
+    {
+      "entity": "unstructured and noisy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "hip hop lyrics|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 5,
+    "method": 4,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 5,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.18181818181818182,
+  "f1": 0.17391304347826086,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

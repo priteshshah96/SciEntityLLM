@@ -1,0 +1,280 @@
+{
+  "doc_key": "ICCV_2003_150_abs",
+  "gold_entities": [
+    {
+      "entity": "single-image highlight removal method",
+      "category": "method"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "illuminationbased constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded image regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inpainting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highlight pixels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pixel colors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highlight color analysis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination color uniformity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "estimation of the underlying diffuse color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recovery of shading and textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image in-painting",
+      "category": "task"
+    },
+    {
+      "entity": "inpainting process",
+      "category": "task"
+    },
+    {
+      "entity": "inpainting",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "single-image highlight removal method",
+      "category": "task"
+    },
+    {
+      "entity": "illumination-based constraints",
+      "category": "method"
+    },
+    {
+      "entity": "image in-painting",
+      "category": "task"
+    },
+    {
+      "entity": "highlight pixels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "traditional inpainting",
+      "category": "method"
+    },
+    {
+      "entity": "observed pixel colors",
+      "category": "method"
+    },
+    {
+      "entity": "highlight color analysis",
+      "category": "method"
+    },
+    {
+      "entity": "illumination color uniformity",
+      "category": "method"
+    },
+    {
+      "entity": "underlying diffuse color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shading",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "single-image highlight removal method",
+      "predicted": "single-image highlight removal method",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "highlight color analysis",
+      "predicted": "highlight color analysis",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "illumination color uniformity",
+      "predicted": "illumination color uniformity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "highlight pixels",
+      "predicted": "highlight pixels",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "image in-painting",
+      "predicted": "image in-painting",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "inpainting",
+      "predicted": "traditional inpainting",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "constraints",
+      "predicted": "illumination-based constraints",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "pixel colors",
+      "predicted": "observed pixel colors",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "estimation of the underlying diffuse color",
+      "predicted": "underlying diffuse color",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "illuminationbased constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occluded image regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "recovery of shading and textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inpainting process",
+      "category": "task"
+    },
+    {
+      "entity": "inpainting",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "shading",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 11,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 6,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 11,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 4,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.125,
+  "f1": 0.14285714285714288,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

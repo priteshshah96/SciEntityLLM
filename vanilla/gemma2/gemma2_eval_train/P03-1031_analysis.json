@@ -1,0 +1,283 @@
+{
+  "doc_key": "P03-1031",
+  "gold_entities": [
+    {
+      "entity": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "entity": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "entity": "spoken dialogue systems",
+      "category": "method"
+    },
+    {
+      "entity": "user utterances",
+      "category": "material"
+    },
+    {
+      "entity": "user utterance",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue corpora",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguity of speech understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse understanding accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "discourse understanding process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spoken dialogue systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "User utterances",
+      "category": "task"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Understanding",
+      "category": "task"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Speech understanding",
+      "category": "method"
+    },
+    {
+      "entity": "Dialogue corpora",
+      "category": "material"
+    },
+    {
+      "entity": "Hand-crafted rules",
+      "category": "method"
+    },
+    {
+      "entity": "Discourse understanding accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Statistical information",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discourse understanding process",
+      "predicted": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "gold": "spoken dialogue systems",
+      "predicted": "spoken dialogue systems",
+      "category": "method"
+    },
+    {
+      "gold": "user utterances",
+      "predicted": "User utterances",
+      "category": "material"
+    },
+    {
+      "gold": "dialogue corpora",
+      "predicted": "Dialogue corpora",
+      "category": "material"
+    },
+    {
+      "gold": "statistical information",
+      "predicted": "Statistical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse understanding accuracy",
+      "predicted": "Discourse understanding accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "ambiguity of speech understanding",
+      "predicted": "Speech understanding",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "dialogue corpora",
+      "category": "material"
+    },
+    {
+      "entity": "discourse understanding accuracy",
+      "category": "metric"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "discourse understanding process",
+      "category": "task"
+    },
+    {
+      "entity": "user utterance",
+      "category": "material"
+    },
+    {
+      "entity": "user utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Understanding",
+      "category": "task"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hand-crafted rules",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "discourse understanding process|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 1,
+    "material": 3,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "task": 2,
+    "method": 2,
+    "material": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.6923076923076923,
+  "category_recall": 0.8181818181818182,
+  "category_f1": 0.7500000000000001,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 13,
+    "exact_matches": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 6,
+    "generic_entities": 8,
+    "correct_predictions": 0,
+    "correct_categories": 9
+  }
+}

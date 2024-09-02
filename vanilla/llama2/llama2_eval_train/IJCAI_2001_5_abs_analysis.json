@@ -1,0 +1,316 @@
+{
+  "doc_key": "IJCAI_2001_5_abs",
+  "gold_entities": [
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "KANAL",
+      "category": "method"
+    },
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "interdepen-dency models",
+      "category": "method"
+    },
+    {
+      "entity": "KANAL",
+      "category": "method"
+    },
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "science and engineering fields",
+      "category": "task"
+    },
+    {
+      "entity": "checking process models",
+      "category": "task"
+    },
+    {
+      "entity": "checking and refining planning knowledge",
+      "category": "task"
+    },
+    {
+      "entity": "automated plan generation",
+      "category": "task"
+    },
+    {
+      "entity": "knowledge bases",
+      "category": "material"
+    },
+    {
+      "entity": "KB",
+      "category": "material"
+    },
+    {
+      "entity": "ontologies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "errors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fixes",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Process models",
+      "category": "task"
+    },
+    {
+      "entity": "Knowledge bases",
+      "category": "task"
+    },
+    {
+      "entity": "ontologies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Planning",
+      "category": "task"
+    },
+    {
+      "entity": "Automated plan generation",
+      "category": "method"
+    },
+    {
+      "entity": "Errors",
+      "category": "metric"
+    },
+    {
+      "entity": "Fixes",
+      "category": "task"
+    },
+    {
+      "entity": "Interdependence models",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "process models",
+      "predicted": "Process models",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "automated plan generation",
+      "predicted": "Automated plan generation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "knowledge bases",
+      "predicted": "Knowledge bases",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "errors",
+      "predicted": "Errors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "fixes",
+      "predicted": "Fixes",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "ontologies",
+      "predicted": "ontologies",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "rules",
+      "predicted": "rules",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "process models",
+      "category": "method"
+    },
+    {
+      "entity": "KANAL",
+      "category": "method"
+    },
+    {
+      "entity": "KANAL",
+      "category": "method"
+    },
+    {
+      "entity": "interdepen-dency models",
+      "category": "method"
+    },
+    {
+      "entity": "science and engineering fields",
+      "category": "task"
+    },
+    {
+      "entity": "checking process models",
+      "category": "task"
+    },
+    {
+      "entity": "checking and refining planning knowledge",
+      "category": "task"
+    },
+    {
+      "entity": "KB",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Planning",
+      "category": "task"
+    },
+    {
+      "entity": "Interdependence models",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "process models|method": {
+      "count": 5,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "KANAL|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 7
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "task": 4,
+    "material": 2,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "otherscientificterm": 2,
+    "method": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.1111111111111111,
+  "f1": 0.14285714285714285,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 10,
+    "exact_matches": 5,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

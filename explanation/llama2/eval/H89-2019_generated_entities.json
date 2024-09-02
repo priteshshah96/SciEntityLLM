@@ -1,0 +1,266 @@
+{
+  "gold_entities": [
+    {
+      "entity": "domain-independent means of evaluating spoken language systems (sls)",
+      "category": "Method"
+    },
+    {
+      "entity": "comparator",
+      "category": "Method"
+    },
+    {
+      "entity": "common answer specification",
+      "category": "Method"
+    },
+    {
+      "entity": "cas",
+      "category": "Method"
+    },
+    {
+      "entity": "comparator",
+      "category": "Method"
+    },
+    {
+      "entity": "sls",
+      "category": "Method"
+    },
+    {
+      "entity": "common answer specification",
+      "category": "Method"
+    },
+    {
+      "entity": "comparator",
+      "category": "Method"
+    },
+    {
+      "entity": "comparator software",
+      "category": "Method"
+    },
+    {
+      "entity": "cas approach",
+      "category": "Method"
+    },
+    {
+      "entity": "answer expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntax of answer expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cas",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "spoken language systems (sls)",
+      "category": "Task"
+    },
+    {
+      "entity": "software",
+      "category": "Method"
+    },
+    {
+      "entity": "comparator",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "answer expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "common answer specification (cas)",
+      "category": "Method"
+    },
+    {
+      "entity": "syntax",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "content",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "data",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "test corpora",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "procedures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "software",
+      "category": "Generic"
+    },
+    {
+      "entity": "specifications",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "comparator",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "comparator",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "answer expressions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "answer expressions",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "answer expressions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "answer expressions",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "syntax of answer expressions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "common answer specification (cas)",
+          "category": "Method"
+        },
+        {
+          "entity": "syntax",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "domain-independent means of evaluating spoken language systems (sls)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "spoken language systems (sls)",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "comparator software",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "software",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "common answer specification",
+      "category": "Method"
+    },
+    {
+      "entity": "cas",
+      "category": "Method"
+    },
+    {
+      "entity": "comparator",
+      "category": "Method"
+    },
+    {
+      "entity": "sls",
+      "category": "Method"
+    },
+    {
+      "entity": "common answer specification",
+      "category": "Method"
+    },
+    {
+      "entity": "comparator",
+      "category": "Method"
+    },
+    {
+      "entity": "cas approach",
+      "category": "Method"
+    },
+    {
+      "entity": "cas",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "content",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "data",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "test corpora",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "procedures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "comparator": 3,
+    "common answer specification": 2,
+    "cas": 2
+  },
+  "distinct_repeated_entities": [
+    "comparator",
+    "common answer specification",
+    "cas"
+  ],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 11,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 3,
+    "repeated_entities": 7
+  }
+}

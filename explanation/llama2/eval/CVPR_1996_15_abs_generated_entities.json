@@ -1,0 +1,329 @@
+{
+  "gold_entities": [
+    {
+      "entity": "scenes",
+      "category": "Material"
+    },
+    {
+      "entity": "multi-colored piece-wise uniform objects",
+      "category": "Material"
+    },
+    {
+      "entity": "physics-based segmentation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "physical models",
+      "category": "Method"
+    },
+    {
+      "entity": "complexity",
+      "category": "Metric"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "physical hypotheses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "simple image regions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "regions of similar color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "segmentations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "multiple physical hypotheses",
+      "category": "Method"
+    },
+    {
+      "entity": "image regions",
+      "category": "Material"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "piecewise uniform objects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "approach",
+      "category": "Method"
+    },
+    {
+      "entity": "implementation",
+      "category": "Method"
+    },
+    {
+      "entity": "segmentations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenes",
+      "category": "Material"
+    },
+    {
+      "entity": "objects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "general physical models",
+      "category": "Method"
+    },
+    {
+      "entity": "surface",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "segmentation of complex scenes",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "segmentation of complex scenes",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "coherent surfaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "coherent surfaces",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "segmentations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "segmentations",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scenes",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scenes",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "segmentation of complex scenes",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "segmentation of complex scenes",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "coherent surfaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "coherent surfaces",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "segmentations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "segmentations",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "scenes",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scenes",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "multi-colored piece-wise uniform objects",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "piecewise uniform objects",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "objects",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.6666666666666665
+    },
+    {
+      "gold": {
+        "entity": "physical models",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "multiple physical hypotheses",
+          "category": "Method"
+        },
+        {
+          "entity": "general physical models",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.0
+    },
+    {
+      "gold": {
+        "entity": "regions of similar color",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "image regions",
+          "category": "Material"
+        },
+        {
+          "entity": "color",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "physics-based segmentation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "complexity",
+      "category": "Metric"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "physical hypotheses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "simple image regions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "approach",
+      "category": "Method"
+    },
+    {
+      "entity": "implementation",
+      "category": "Method"
+    },
+    {
+      "entity": "surface",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "segmentation of complex scenes": 2,
+    "coherent surfaces": 2
+  },
+  "distinct_repeated_entities": [
+    "segmentation of complex scenes",
+    "coherent surfaces"
+  ],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 13,
+    "generic_count": 5,
+    "exact_matches": 4,
+    "exact_category_matches": 4,
+    "split_matches": 3,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

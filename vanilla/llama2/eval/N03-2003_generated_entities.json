@@ -1,0 +1,133 @@
+{
+  "gold_entities": [
+    {
+      "entity": "conversational speech",
+      "category": "Material"
+    },
+    {
+      "entity": "language modeling",
+      "category": "Method"
+    },
+    {
+      "entity": "class-dependent interpolation of n-grams",
+      "category": "Method"
+    },
+    {
+      "entity": "recognition task",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "training data",
+      "category": "Task"
+    },
+    {
+      "entity": "language modeling",
+      "category": "Task"
+    },
+    {
+      "entity": "conversational speech",
+      "category": "Task"
+    },
+    {
+      "entity": "sources",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "web",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "text",
+      "category": "Material"
+    },
+    {
+      "entity": "ngrams",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "class-dependent interpolation",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "language modeling",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "language modeling",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "conversational speech",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "conversational speech",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "class-dependent interpolation of n-grams",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "class-dependent interpolation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "recognition task",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "training data",
+      "category": "Task"
+    },
+    {
+      "entity": "sources",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "web",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "text",
+      "category": "Material"
+    },
+    {
+      "entity": "ngrams",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 4,
+    "generated_count": 8,
+    "generic_count": 0,
+    "exact_matches": 2,
+    "exact_category_matches": 0,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

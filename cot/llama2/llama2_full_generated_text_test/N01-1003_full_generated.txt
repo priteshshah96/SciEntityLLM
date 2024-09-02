@@ -1,0 +1,262 @@
+
+You are an expert in natural language processing and scientific text analysis. Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+5. Use the following format for each entity:
+   * Entity Name
+     Category: [Category]
+     Reasoning: [Reasoning]
+
+Here are the examples demonstrating this process:
+
+Example 1:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+xample 3:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail , by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: "  Sentence planning  is a set of inter-related but distinct tasks, one of which is  sentence scoping  , i.e. the choice of  syntactic structure  for elementary  speech acts  and the decision of how to combine them into one or more  sentences  . In this paper, we present  SPoT  , a  sentence planner  , and a new methodology for automatically training  SPoT  on the basis of  feedback  provided by  human judges  . We reconceptualize the task into two distinct phases. First, a very simple,  randomized sentence-plan-generator (SPG)  generates a potentially large list of possible  sentence plans  for a given  text-plan input  . Second, the  sentence-plan-ranker (SPR)  ranks the list of output  sentence plans  , and then selects the top-ranked  plan  . The  SPR  uses  ranking rules  automatically learned from  training data  . We show that the trained  SPR  learns to select a  sentence plan  whose rating on average is only 5% worse than the  top human-ranked sentence plan  . "
+
+Scientific Entities Identified:
+
+* Sentence planning
+Category: Task
+Reasoning: This is the main task or problem addressed in the text.
+
+* Sentence scoping
+Category: Task
+Reasoning: This is another task or problem mentioned in the text, related to sentence planning.
+
+* Syntactic structure
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the field of linguistics, relevant to the task of sentence planning.
+
+* Elementary speech acts
+Category: OtherScientificTerm
+Reasoning: This is another key concept in the field of linguistics, relevant to the task of sentence planning.
+
+* Sentence
+Category: OtherScientificTerm
+Reasoning: This is a key term in the field of linguistics, relevant to the task of sentence planning.
+
+* Text-plan input
+Category: Material
+Reasoning: This is a key input or resource used in the task of sentence planning.
+
+* SPG (sentence-plan-generator)
+Category: Method
+Reasoning: This is a specific algorithm or technique used in the task of sentence planning.
+
+* SPR (sentence-plan-ranker)
+Category: Method
+Reasoning: This is another specific algorithm or technique used in the task of sentence planning.
+
+* ranking rules
+Category: Method
+Reasoning: These are specific guidelines or principles used in the SPR algorithm.
+
+* training data
+Category: Material
+Reasoning: This is a key input or resource used in the training of the SPR algorithm.
+
+* human judges
+Category: OtherScientificTerm
+Reasoning: These are individuals who provide feedback or ratings for the sentence plans.
+
+* rating
+Category: Metric
+Reasoning: This is a measure of performance or quality used in the SPR algorithm.
+
+* average rating
+Category: Metric
+Reasoning: This is a specific type of rating, calculated by averaging the ratings of multiple sentence plans.
+
+* 5% worse
+Category: Metric
+Reasoning: This is a specific threshold or benchmark used to evaluate the performance of the SPR algorithm.

@@ -1,0 +1,290 @@
+{
+  "doc_key": "C00-2123",
+  "gold_entities": [
+    {
+      "entity": "statistical machine translation (MT)",
+      "category": "task"
+    },
+    {
+      "entity": "limited-domain spoken-language task",
+      "category": "task"
+    },
+    {
+      "entity": "dynamic programming (DP)",
+      "category": "method"
+    },
+    {
+      "entity": "DP-based solution",
+      "category": "method"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "method"
+    },
+    {
+      "entity": "search algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "word reordering",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Verbmobil task",
+      "category": "material"
+    },
+    {
+      "entity": "German-English",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Dynamic Programming",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word reordering",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Verbmobil Task",
+      "category": "material"
+    },
+    {
+      "entity": "Limited-Domain Spoken-Language Task",
+      "category": "material"
+    },
+    {
+      "entity": "German",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Source Language",
+      "category": "material"
+    },
+    {
+      "entity": "Target Language",
+      "category": "material"
+    },
+    {
+      "entity": "Search Procedure",
+      "category": "task"
+    },
+    {
+      "entity": "Search Algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "Efficient Search Algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "Experimental Tests",
+      "category": "task"
+    },
+    {
+      "entity": "Metric",
+      "category": "metric"
+    },
+    {
+      "entity": "Vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "Domain",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "limited-domain spoken-language task",
+      "predicted": "Limited-Domain Spoken-Language Task",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "traveling salesman problem",
+      "predicted": "traveling salesman problem",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "search algorithm",
+      "predicted": "Search Algorithm",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "word reordering",
+      "predicted": "word reordering",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Verbmobil task",
+      "predicted": "Verbmobil Task",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "statistical machine translation (MT)",
+      "predicted": "statistical machine translation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dynamic programming (DP)",
+      "category": "method"
+    },
+    {
+      "entity": "DP-based solution",
+      "category": "method"
+    },
+    {
+      "entity": "German-English",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Dynamic Programming",
+      "category": "method"
+    },
+    {
+      "entity": "German",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Source Language",
+      "category": "material"
+    },
+    {
+      "entity": "Target Language",
+      "category": "material"
+    },
+    {
+      "entity": "Search Procedure",
+      "category": "task"
+    },
+    {
+      "entity": "Efficient Search Algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "Experimental Tests",
+      "category": "task"
+    },
+    {
+      "entity": "Metric",
+      "category": "metric"
+    },
+    {
+      "entity": "Vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "Domain",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 3,
+    "material": 8,
+    "task": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.11764705882352941,
+  "recall": 0.2222222222222222,
+  "f1": 0.15384615384615383,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 17,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 11,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

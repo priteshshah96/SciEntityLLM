@@ -1,0 +1,293 @@
+{
+  "gold_entities": [
+    {
+      "entity": "2-d images",
+      "category": "Material"
+    },
+    {
+      "entity": "embedding methods",
+      "category": "Method"
+    },
+    {
+      "entity": "closed-form segmentation solution",
+      "category": "Method"
+    },
+    {
+      "entity": "subspace-segmentation methods",
+      "category": "Method"
+    },
+    {
+      "entity": "3-d reconstruction",
+      "category": "Method"
+    },
+    {
+      "entity": "3-d reconstruction",
+      "category": "Method"
+    },
+    {
+      "entity": "segmenting feature points of piece-wise planar structures",
+      "category": "Task"
+    },
+    {
+      "entity": "homographies",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "higher-dimensional real or complex space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "homography",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complex bilinear form",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "real quadratic form",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "homo-graphies",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "piece-wise planar scene",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "novel embedding methods",
+      "category": "Method"
+    },
+    {
+      "entity": "segmenting feature points",
+      "category": "Task"
+    },
+    {
+      "entity": "piece-wise planar structures",
+      "category": "Material"
+    },
+    {
+      "entity": "uncalibrated perspective images",
+      "category": "Material"
+    },
+    {
+      "entity": "homographies",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "real or complex space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "algebraic properties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relations of homographies",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "subspace-segmentation methods",
+      "category": "Method"
+    },
+    {
+      "entity": "closed-form segmentation solution",
+      "category": "Task"
+    },
+    {
+      "entity": "3-d reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "piece-wise planar scene",
+      "category": "Material"
+    },
+    {
+      "entity": "experimental results",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "homographies",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "homographies",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "subspace-segmentation methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "subspace-segmentation methods",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "closed-form segmentation solution",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "closed-form segmentation solution",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "3-d reconstruction",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "3-d reconstruction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "piece-wise planar scene",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "piece-wise planar scene",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "homographies",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "homographies",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "subspace-segmentation methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "subspace-segmentation methods",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "segmenting feature points of piece-wise planar structures",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "segmenting feature points",
+          "category": "Task"
+        },
+        {
+          "entity": "piece-wise planar structures",
+          "category": "Material"
+        },
+        {
+          "entity": "relations of homographies",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.3333333333333335
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "embedding methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "novel embedding methods",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "higher-dimensional real or complex space",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "real or complex space",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "2-d images",
+      "category": "Material"
+    },
+    {
+      "entity": "3-d reconstruction",
+      "category": "Method"
+    },
+    {
+      "entity": "homography",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complex bilinear form",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "real quadratic form",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "homo-graphies",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "uncalibrated perspective images",
+      "category": "Material"
+    },
+    {
+      "entity": "algebraic properties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "3-d reconstruction": 2
+  },
+  "distinct_repeated_entities": [
+    "3-d reconstruction"
+  ],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 13,
+    "generic_count": 0,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

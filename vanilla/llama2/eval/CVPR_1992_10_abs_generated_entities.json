@@ -1,0 +1,216 @@
+{
+  "gold_entities": [
+    {
+      "entity": "line drawings",
+      "category": "Material"
+    },
+    {
+      "entity": "edge images",
+      "category": "Material"
+    },
+    {
+      "entity": "image data",
+      "category": "Material"
+    },
+    {
+      "entity": "small-to-large scale grouping procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "labeling curvilinear structure",
+      "category": "Task"
+    },
+    {
+      "entity": "image description",
+      "category": "Task"
+    },
+    {
+      "entity": "curve-element tokens",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatially-indexed and scale-indexed data structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "image contour",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local curve-element attributes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Task"
+    },
+    {
+      "entity": "token",
+      "category": "Task"
+    },
+    {
+      "entity": "spatially-indexed",
+      "category": "Method"
+    },
+    {
+      "entity": "scale-indexed",
+      "category": "Method"
+    },
+    {
+      "entity": "data structure",
+      "category": "Method"
+    },
+    {
+      "entity": "curveelement",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "greedy",
+      "category": "Method"
+    },
+    {
+      "entity": "best-first",
+      "category": "Method"
+    },
+    {
+      "entity": "image",
+      "category": "Material"
+    },
+    {
+      "entity": "contour",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "segment",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "image data",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "data structure",
+          "category": "Method"
+        },
+        {
+          "entity": "image",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "spatially-indexed and scale-indexed data structure",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "spatially-indexed",
+          "category": "Method"
+        },
+        {
+          "entity": "scale-indexed",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "image contour",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "contour",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "line drawings",
+      "category": "Material"
+    },
+    {
+      "entity": "edge images",
+      "category": "Material"
+    },
+    {
+      "entity": "small-to-large scale grouping procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "labeling curvilinear structure",
+      "category": "Task"
+    },
+    {
+      "entity": "image description",
+      "category": "Task"
+    },
+    {
+      "entity": "curve-element tokens",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local curve-element attributes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Task"
+    },
+    {
+      "entity": "token",
+      "category": "Task"
+    },
+    {
+      "entity": "curveelement",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "greedy",
+      "category": "Method"
+    },
+    {
+      "entity": "best-first",
+      "category": "Method"
+    },
+    {
+      "entity": "segment",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 0,
+    "exact_category_matches": 0,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

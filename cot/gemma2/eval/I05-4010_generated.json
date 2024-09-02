@@ -1,0 +1,201 @@
+{
+  "gold_entities": [
+    {
+      "entity": "english-chinese bitexts",
+      "category": "Material"
+    },
+    {
+      "entity": "bilingual corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "english-chinese bitexts",
+      "category": "Material"
+    },
+    {
+      "entity": "numbering system",
+      "category": "Method"
+    },
+    {
+      "entity": "empirical mt research",
+      "category": "Task"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "harvesting english-chinese bitexts",
+      "category": "Task"
+    },
+    {
+      "entity": "aligning them to the subparagraph level",
+      "category": "Method"
+    },
+    {
+      "entity": "utilizing the numbering system in the legal text hierarchy",
+      "category": "Method"
+    },
+    {
+      "entity": "bilingual corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "10.4m english words",
+      "category": "Metric"
+    },
+    {
+      "entity": "18.3m chinese characters",
+      "category": "Metric"
+    },
+    {
+      "entity": "authoritative and comprehensive text collection",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hk laws",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "empirical mt research",
+      "category": "Task"
+    },
+    {
+      "entity": "exploring and harvesting english-chinese bitexts in a larger volume",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "them",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "bilingual corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "bilingual corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "empirical mt research",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "empirical mt research",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "bilingual corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "bilingual corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "empirical mt research",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "empirical mt research",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "english-chinese bitexts",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "harvesting english-chinese bitexts",
+          "category": "Task"
+        },
+        {
+          "entity": "exploring and harvesting english-chinese bitexts in a larger volume",
+          "category": "Task"
+        }
+      ],
+      "coverage": 0.8888888888888888
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "english-chinese bitexts",
+      "category": "Material"
+    },
+    {
+      "entity": "numbering system",
+      "category": "Method"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "aligning them to the subparagraph level",
+      "category": "Method"
+    },
+    {
+      "entity": "utilizing the numbering system in the legal text hierarchy",
+      "category": "Method"
+    },
+    {
+      "entity": "10.4m english words",
+      "category": "Metric"
+    },
+    {
+      "entity": "18.3m chinese characters",
+      "category": "Metric"
+    },
+    {
+      "entity": "authoritative and comprehensive text collection",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hk laws",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "english-chinese bitexts": 2
+  },
+  "distinct_repeated_entities": [
+    "english-chinese bitexts"
+  ],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

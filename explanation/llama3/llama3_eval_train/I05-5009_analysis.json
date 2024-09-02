@@ -1,0 +1,248 @@
+{
+  "doc_key": "I05-5009",
+  "gold_entities": [
+    {
+      "entity": "latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "latent variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "evaluation method",
+      "category": "task"
+    },
+    {
+      "entity": "latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "method"
+    },
+    {
+      "entity": "contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "latent variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "likelihood",
+      "category": "metric"
+    },
+    {
+      "entity": "variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic information",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "method"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "upper bound",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "method"
+    },
+    {
+      "entity": "topic information",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "paraphrases",
+      "predicted": "paraphrases",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "topic information",
+      "predicted": "topic information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "latent variable model",
+      "predicted": "latent variable model",
+      "category": "method"
+    },
+    {
+      "gold": "latent variable",
+      "predicted": "latent variable",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "evaluation method",
+      "category": "task"
+    },
+    {
+      "entity": "contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "likelihood",
+      "category": "metric"
+    },
+    {
+      "entity": "variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic information",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "method"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "upper bound",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 7,
+    "otherscientificterm": 7,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.3333333333333333,
+  "f1": 0.18181818181818182,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 16,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 11,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

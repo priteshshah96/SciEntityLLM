@@ -1,0 +1,300 @@
+{
+  "doc_key": "H89-2019",
+  "gold_entities": [
+    {
+      "entity": "domain-independent means of evaluating Spoken Language Systems (SLS)",
+      "category": "method"
+    },
+    {
+      "entity": "Comparator",
+      "category": "method"
+    },
+    {
+      "entity": "Common Answer Specification",
+      "category": "method"
+    },
+    {
+      "entity": "CAS",
+      "category": "method"
+    },
+    {
+      "entity": "Comparator",
+      "category": "method"
+    },
+    {
+      "entity": "SLS",
+      "category": "method"
+    },
+    {
+      "entity": "Common Answer Specification",
+      "category": "method"
+    },
+    {
+      "entity": "Comparator",
+      "category": "method"
+    },
+    {
+      "entity": "Comparator software",
+      "category": "method"
+    },
+    {
+      "entity": "CAS approach",
+      "category": "method"
+    },
+    {
+      "entity": "answer expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntax of answer expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cas",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Spoken Language Systems (SLS)",
+      "category": "task"
+    },
+    {
+      "entity": "Comparator",
+      "category": "method"
+    },
+    {
+      "entity": "Common Answer Specification (CAS)",
+      "category": "material"
+    },
+    {
+      "entity": "answer expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "canonical answer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "content",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "test corpora",
+      "category": "material"
+    },
+    {
+      "entity": "procedures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    },
+    {
+      "entity": "CAS approach",
+      "category": "method"
+    },
+    {
+      "entity": "Comparator software",
+      "category": "method"
+    },
+    {
+      "entity": "CAS",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "CAS",
+      "predicted": "CAS",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Comparator",
+      "predicted": "Comparator",
+      "category": "method"
+    },
+    {
+      "gold": "Comparator software",
+      "predicted": "Comparator software",
+      "category": "method"
+    },
+    {
+      "gold": "CAS approach",
+      "predicted": "CAS approach",
+      "category": "method"
+    },
+    {
+      "gold": "answer expressions",
+      "predicted": "answer expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Common Answer Specification",
+      "predicted": "Common Answer Specification (CAS)",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "domain-independent means of evaluating Spoken Language Systems (SLS)",
+      "category": "method"
+    },
+    {
+      "entity": "Comparator",
+      "category": "method"
+    },
+    {
+      "entity": "Comparator",
+      "category": "method"
+    },
+    {
+      "entity": "Common Answer Specification",
+      "category": "method"
+    },
+    {
+      "entity": "SLS",
+      "category": "method"
+    },
+    {
+      "entity": "syntax of answer expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cas",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Spoken Language Systems (SLS)",
+      "category": "task"
+    },
+    {
+      "entity": "canonical answer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "content",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "test corpora",
+      "category": "material"
+    },
+    {
+      "entity": "procedures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "Comparator|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "Common Answer Specification|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "method": 10,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 3,
+    "material": 4,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 10,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.3076923076923077,
+  "f1": 0.29629629629629634,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 8,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

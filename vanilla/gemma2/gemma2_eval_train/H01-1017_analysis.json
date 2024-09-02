@@ -1,0 +1,156 @@
+{
+  "doc_key": "H01-1017",
+  "gold_entities": [
+    {
+      "entity": "mixed-initiative speech dialogue interactions",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue systems",
+      "category": "method"
+    },
+    {
+      "entity": "distributed message-passing infrastructure",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue systems",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "darpa communicator program",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distributed messagepassing infrastructure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "communicator",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "software infrastructure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "requirements",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "dialogue systems",
+      "predicted": "dialogue systems",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "distributed message-passing infrastructure",
+      "predicted": "distributed messagepassing infrastructure",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "mixed-initiative speech dialogue interactions",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue systems",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "darpa communicator program",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "communicator",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "software infrastructure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "requirements",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "dialogue systems|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.0,
+  "category_recall": 0.0,
+  "category_f1": 0.0,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 6,
+    "exact_matches": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 0,
+    "correct_predictions": 0,
+    "correct_categories": 0
+  }
+}

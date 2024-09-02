@@ -1,0 +1,287 @@
+{
+  "doc_key": "P03-1009",
+  "gold_entities": [
+    {
+      "entity": "clustering",
+      "category": "method"
+    },
+    {
+      "entity": "Information Bottleneck  and  nearest neighbour  methods",
+      "category": "method"
+    },
+    {
+      "entity": "inducing  semantic verb classes",
+      "category": "task"
+    },
+    {
+      "entity": "clustering  subcategorization frame (SCF)  distributions",
+      "category": "task"
+    },
+    {
+      "entity": "clustering  polysemic verbs",
+      "category": "task"
+    },
+    {
+      "entity": "semantically classifying   undisambiguated SCF data",
+      "category": "task"
+    },
+    {
+      "entity": "undisambiguated  corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "polysemic verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polysemy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clusters",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "clustering",
+      "category": "method"
+    },
+    {
+      "entity": "inducing",
+      "category": "task"
+    },
+    {
+      "entity": "semantic verb classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "subcategorization frame scf",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distributions",
+      "category": "metric"
+    },
+    {
+      "entity": "Information Bottleneck",
+      "category": "method"
+    },
+    {
+      "entity": "nearest neighbour",
+      "category": "method"
+    },
+    {
+      "entity": "polysemic verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "evaluation scheme",
+      "category": "metric"
+    },
+    {
+      "entity": "polysemy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantically classifying",
+      "category": "task"
+    },
+    {
+      "entity": "undisambiguated SCF data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "clustering",
+      "predicted": "clustering",
+      "category": "method"
+    },
+    {
+      "gold": "polysemic verbs",
+      "predicted": "polysemic verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "polysemy",
+      "predicted": "polysemy",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "clusters",
+      "predicted": "clusters",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "inducing  semantic verb classes",
+      "predicted": "semantic verb classes",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "semantically classifying   undisambiguated SCF data",
+      "predicted": "undisambiguated SCF data",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "undisambiguated  corpus data",
+      "predicted": "corpus data",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "clustering",
+      "category": "method"
+    },
+    {
+      "entity": "polysemic verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polysemy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clusters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "undisambiguated  corpus data",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Information Bottleneck  and  nearest neighbour  methods",
+      "category": "method"
+    },
+    {
+      "entity": "clustering  subcategorization frame (SCF)  distributions",
+      "category": "task"
+    },
+    {
+      "entity": "clustering  polysemic verbs",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "inducing",
+      "category": "task"
+    },
+    {
+      "entity": "subcategorization frame scf",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distributions",
+      "category": "metric"
+    },
+    {
+      "entity": "nearest neighbour",
+      "category": "method"
+    },
+    {
+      "entity": "evaluation scheme",
+      "category": "metric"
+    },
+    {
+      "entity": "semantically classifying",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 4,
+    "material": 1,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 2,
+    "otherscientificterm": 5,
+    "material": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.4,
+  "f1": 0.3333333333333333,
+  "category_precision": 0.5714285714285714,
+  "category_recall": 0.8,
+  "category_f1": 0.6666666666666666,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 14,
+    "exact_matches": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 2,
+    "correct_predictions": 4,
+    "correct_categories": 8
+  }
+}

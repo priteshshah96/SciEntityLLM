@@ -1,0 +1,324 @@
+{
+  "doc_key": "I05-2044",
+  "gold_entities": [
+    {
+      "entity": "Chinese language",
+      "category": "material"
+    },
+    {
+      "entity": "Chine language",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguity resolution  of  right-side dependencies",
+      "category": "task"
+    },
+    {
+      "entity": "dependency parsing",
+      "category": "task"
+    },
+    {
+      "entity": "shift-reduce dependency parsers",
+      "category": "method"
+    },
+    {
+      "entity": "two-phase shift-reduce dependency parser",
+      "category": "method"
+    },
+    {
+      "entity": "SVM learning",
+      "category": "method"
+    },
+    {
+      "entity": "shift-reduce dependency parsers",
+      "category": "method"
+    },
+    {
+      "entity": "connectivity",
+      "category": "metric"
+    },
+    {
+      "entity": "dependency accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "dependency tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rightside dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "leftside dependents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rightside nominal dependents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rightside verbal dependents",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "verb",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dependency parsing",
+      "category": "task"
+    },
+    {
+      "entity": "Shift-reduce dependency parser",
+      "category": "method"
+    },
+    {
+      "entity": "SVM learning",
+      "category": "method"
+    },
+    {
+      "entity": "Connectivity",
+      "category": "metric"
+    },
+    {
+      "entity": "Dependency tree",
+      "category": "material"
+    },
+    {
+      "entity": "Left-side dependents",
+      "category": "material"
+    },
+    {
+      "entity": "Right-side nominal dependents",
+      "category": "material"
+    },
+    {
+      "entity": "Right-side verbal dependents",
+      "category": "material"
+    },
+    {
+      "entity": "Dependency accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Chinese language",
+      "category": "material"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "Verbs",
+      "category": "material"
+    },
+    {
+      "entity": "Ambiguity resolution",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "dependency tree",
+      "predicted": "Dependency tree",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Chinese language",
+      "predicted": "Chinese language",
+      "category": "material"
+    },
+    {
+      "gold": "dependency parsing",
+      "predicted": "Dependency parsing",
+      "category": "task"
+    },
+    {
+      "gold": "SVM learning",
+      "predicted": "SVM learning",
+      "category": "method"
+    },
+    {
+      "gold": "connectivity",
+      "predicted": "Connectivity",
+      "category": "metric"
+    },
+    {
+      "gold": "dependency accuracy",
+      "predicted": "Dependency accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "shift-reduce dependency parsers",
+      "predicted": "Shift-reduce dependency parser",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "rightside nominal dependents",
+      "predicted": "Right-side nominal dependents",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "rightside verbal dependents",
+      "predicted": "Right-side verbal dependents",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Chine language",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguity resolution  of  right-side dependencies",
+      "category": "task"
+    },
+    {
+      "entity": "shift-reduce dependency parsers",
+      "category": "method"
+    },
+    {
+      "entity": "two-phase shift-reduce dependency parser",
+      "category": "method"
+    },
+    {
+      "entity": "rightside dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "leftside dependents",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "verb",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Left-side dependents",
+      "category": "material"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "Verbs",
+      "category": "material"
+    },
+    {
+      "entity": "Ambiguity resolution",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "shift-reduce dependency parsers|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "task": 2,
+    "method": 4,
+    "metric": 2,
+    "otherscientificterm": 5
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 2,
+    "method": 2,
+    "metric": 2,
+    "material": 7
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.3333333333333333,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

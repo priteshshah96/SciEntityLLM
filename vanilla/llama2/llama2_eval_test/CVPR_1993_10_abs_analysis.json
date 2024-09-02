@@ -1,0 +1,309 @@
+{
+  "doc_key": "CVPR_1993_10_abs",
+  "gold_entities": [
+    {
+      "entity": "model-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "discrete motor control representation",
+      "category": "method"
+    },
+    {
+      "entity": "motor control representation",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic representation",
+      "category": "method"
+    },
+    {
+      "entity": "on-line cursive handwriting analysis and recognition",
+      "category": "task"
+    },
+    {
+      "entity": "on-line handwriting",
+      "category": "task"
+    },
+    {
+      "entity": "cycloidal pen motion",
+      "category": "task"
+    },
+    {
+      "entity": "word spotting",
+      "category": "task"
+    },
+    {
+      "entity": "matching of cursive scripts",
+      "category": "task"
+    },
+    {
+      "entity": "cursive handwriting recognition",
+      "category": "task"
+    },
+    {
+      "entity": "constant linear drift",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pen trajectory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "writing intelligibility",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cycloidal motion parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "continuous pen motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arbitrary handwriting",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "handwriting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Model",
+      "category": "method"
+    },
+    {
+      "entity": "Approach",
+      "category": "method"
+    },
+    {
+      "entity": "Pen motion",
+      "category": "method"
+    },
+    {
+      "entity": "Oscillators",
+      "category": "method"
+    },
+    {
+      "entity": "Parameters",
+      "category": "method"
+    },
+    {
+      "entity": "Quantization",
+      "category": "method"
+    },
+    {
+      "entity": "Motor control",
+      "category": "method"
+    },
+    {
+      "entity": "Discrete",
+      "category": "method"
+    },
+    {
+      "entity": "Dynamic representation",
+      "category": "method"
+    },
+    {
+      "entity": "Recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Word spotting",
+      "category": "task"
+    },
+    {
+      "entity": "Matching",
+      "category": "task"
+    },
+    {
+      "entity": "cursive scripts",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "dynamic representation",
+      "predicted": "Dynamic representation",
+      "category": "method"
+    },
+    {
+      "gold": "word spotting",
+      "predicted": "Word spotting",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "model-based approach",
+      "predicted": "Approach",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "discrete motor control representation",
+      "predicted": "Motor control",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "on-line handwriting",
+      "predicted": "handwriting",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "cycloidal pen motion",
+      "predicted": "Pen motion",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "matching of cursive scripts",
+      "predicted": "cursive scripts",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "motor control representation",
+      "category": "method"
+    },
+    {
+      "entity": "on-line cursive handwriting analysis and recognition",
+      "category": "task"
+    },
+    {
+      "entity": "cursive handwriting recognition",
+      "category": "task"
+    },
+    {
+      "entity": "constant linear drift",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pen trajectory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "writing intelligibility",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cycloidal motion parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "continuous pen motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arbitrary handwriting",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Model",
+      "category": "method"
+    },
+    {
+      "entity": "Oscillators",
+      "category": "method"
+    },
+    {
+      "entity": "Parameters",
+      "category": "method"
+    },
+    {
+      "entity": "Quantization",
+      "category": "method"
+    },
+    {
+      "entity": "Discrete",
+      "category": "method"
+    },
+    {
+      "entity": "Matching",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 6,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "method": 9,
+    "task": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.125,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 14,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 5,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,273 @@
+{
+  "gold_entities": [
+    {
+      "entity": "dutch",
+      "category": "Material"
+    },
+    {
+      "entity": "dutch senseval-2 test data",
+      "category": "Material"
+    },
+    {
+      "entity": "corpus-based supervised word sense disambiguation (wsd) system",
+      "category": "Method"
+    },
+    {
+      "entity": "statistical classification",
+      "category": "Method"
+    },
+    {
+      "entity": "maximum entropy",
+      "category": "Method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "lemma-based approach",
+      "category": "Method"
+    },
+    {
+      "entity": "classifier",
+      "category": "Method"
+    },
+    {
+      "entity": "lemma-based model",
+      "category": "Method"
+    },
+    {
+      "entity": "wordform model",
+      "category": "Method"
+    },
+    {
+      "entity": "wsd system based on lemmas",
+      "category": "Method"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguous wordform",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inflected forms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguous word",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "word sense disambiguation",
+      "category": "Task"
+    },
+    {
+      "entity": "corpus-based",
+      "category": "Method"
+    },
+    {
+      "entity": "maximum entropy",
+      "category": "Metric"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lemma-based approach",
+      "category": "Method"
+    },
+    {
+      "entity": "inflected forms",
+      "category": "Material"
+    },
+    {
+      "entity": "senseval-2",
+      "category": "Material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "maximum entropy",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "maximum entropy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "linguistic information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "linguistic information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lemma-based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lemma-based approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "inflected forms",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "inflected forms",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "linguistic information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "linguistic information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lemma-based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lemma-based approach",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "corpus-based supervised word sense disambiguation (wsd) system",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "word sense disambiguation",
+          "category": "Task"
+        },
+        {
+          "entity": "corpus-based",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "dutch senseval-2 test data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "senseval-2",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "dutch",
+      "category": "Material"
+    },
+    {
+      "entity": "statistical classification",
+      "category": "Method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "classifier",
+      "category": "Method"
+    },
+    {
+      "entity": "lemma-based model",
+      "category": "Method"
+    },
+    {
+      "entity": "wordform model",
+      "category": "Method"
+    },
+    {
+      "entity": "wsd system based on lemmas",
+      "category": "Method"
+    },
+    {
+      "entity": "ambiguous wordform",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguous word",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 15,
+    "generated_count": 9,
+    "generic_count": 3,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

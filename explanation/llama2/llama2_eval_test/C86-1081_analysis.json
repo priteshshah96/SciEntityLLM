@@ -1,0 +1,185 @@
+{
+  "doc_key": "C86-1081",
+  "gold_entities": [
+    {
+      "entity": "Determiners",
+      "category": "method"
+    },
+    {
+      "entity": "determiners",
+      "category": "method"
+    },
+    {
+      "entity": "logical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "determiners",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "determiners",
+      "category": "task"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "determiners",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Determiners",
+      "predicted": "determiners",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "determiners",
+      "predicted": "determiners",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "logical formalism",
+      "predicted": "logical formalism",
+      "category": "method"
+    },
+    {
+      "gold": "ambiguity",
+      "predicted": "ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "determiners",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interpretation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 8,
+    "method": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.4,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

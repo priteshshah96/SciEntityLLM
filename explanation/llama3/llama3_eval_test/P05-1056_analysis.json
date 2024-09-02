@@ -1,0 +1,931 @@
+{
+  "doc_key": "P05-1056",
+  "gold_entities": [
+    {
+      "entity": "Sentence boundary detection",
+      "category": "task"
+    },
+    {
+      "entity": "detecting  sentence boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "speech",
+      "category": "material"
+    },
+    {
+      "entity": "textual and prosodic  knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "conversational  telephone speech",
+      "category": "material"
+    },
+    {
+      "entity": "broadcast news speech",
+      "category": "material"
+    },
+    {
+      "entity": "NIST sentence boundary detection task",
+      "category": "material"
+    },
+    {
+      "entity": "speech",
+      "category": "material"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human transcriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hidden Markov model (HMM) and maximum entropy (Maxent) classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "conditional random field (CRF)",
+      "category": "method"
+    },
+    {
+      "entity": "CRF  model",
+      "category": "method"
+    },
+    {
+      "entity": "HMM and Max-ent models",
+      "category": "method"
+    },
+    {
+      "entity": "three-way voting",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "sentence boundary detection",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "method"
+    },
+    {
+      "entity": "hidden Markov model (HMM)",
+      "category": "method"
+    },
+    {
+      "entity": "maximum entropy (Maxent) classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "conditional random field (CRF)",
+      "category": "method"
+    },
+    {
+      "entity": "textual knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prosodic knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence boundaries",
+      "category": "task"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "conversational telephone speech",
+      "category": "material"
+    },
+    {
+      "entity": "broadcast news speech",
+      "category": "material"
+    },
+    {
+      "entity": "human transcriptions",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "material"
+    },
+    {
+      "entity": "NIST sentence boundary detection task",
+      "category": "task"
+    },
+    {
+      "entity": "three-way voting",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "NIST sentence boundary detection task",
+      "predicted": "NIST sentence boundary detection task",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "knowledge sources",
+      "predicted": "knowledge sources",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "speech recognition output",
+      "predicted": "speech recognition output",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "human transcriptions",
+      "predicted": "human transcriptions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "classifiers",
+      "predicted": "classifiers",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Sentence boundary detection",
+      "predicted": "sentence boundary detection",
+      "category": "task"
+    },
+    {
+      "gold": "conversational  telephone speech",
+      "predicted": "conversational telephone speech",
+      "category": "material"
+    },
+    {
+      "gold": "broadcast news speech",
+      "predicted": "broadcast news speech",
+      "category": "material"
+    },
+    {
+      "gold": "conditional random field (CRF)",
+      "predicted": "conditional random field (CRF)",
+      "category": "method"
+    },
+    {
+      "gold": "three-way voting",
+      "predicted": "three-way voting",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "detecting  sentence boundaries",
+      "predicted": "sentence boundaries",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "speech",
+      "predicted": "speech recognition",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "textual and prosodic  knowledge sources",
+      "predicted": "textual knowledge sources",
+      "score": 0.6,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "CRF  model",
+      "predicted": "model",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "hidden Markov model (HMM) and maximum entropy (Maxent) classifiers",
+      "gold_category": "method",
+      "matched_parts": [
+        {
+          "part": "hidden Markov model (HMM)",
+          "matched": "hidden Markov model (HMM)",
+          "predicted_category": "method"
+        },
+        {
+          "part": "maximum entropy (Maxent) classifiers",
+          "matched": "maximum entropy (Maxent) classifiers",
+          "predicted_category": "method"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "speech",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "HMM and Max-ent models",
+      "category": "method"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledge sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeling",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "speech|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "speech recognition output|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 7,
+    "otherscientificterm": 3,
+    "method": 6,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 5,
+    "otherscientificterm": 74,
+    "material": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 1
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 74,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 7,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.05747126436781609,
+  "recall": 0.2631578947368421,
+  "f1": 0.09433962264150944,
+  "counts": {
+    "gold_entities": 19,
+    "predicted_entities": 87,
+    "exact_matches": 5,
+    "exact_matches_with_category": 5,
+    "partial_matches": 4,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 70,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

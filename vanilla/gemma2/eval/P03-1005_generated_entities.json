@@ -1,0 +1,289 @@
+{
+  "gold_entities": [
+    {
+      "entity": "structured natural language data",
+      "category": "Material"
+    },
+    {
+      "entity": "hierarchical directed acyclic graph (hdag) kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "hdag kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "hdags",
+      "category": "Method"
+    },
+    {
+      "entity": "kernel function",
+      "category": "Method"
+    },
+    {
+      "entity": "hdag kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "kernel functions",
+      "category": "Method"
+    },
+    {
+      "entity": "similarity measure",
+      "category": "Metric"
+    },
+    {
+      "entity": "question classification and sentence alignment tasks",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "hdag kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "structured natural language data",
+      "category": "Material"
+    },
+    {
+      "entity": "chunks",
+      "category": "Material"
+    },
+    {
+      "entity": "relations",
+      "category": "Material"
+    },
+    {
+      "entity": "weighed sum",
+      "category": "Metric"
+    },
+    {
+      "entity": "number of common attribute sequences",
+      "category": "Metric"
+    },
+    {
+      "entity": "hdags",
+      "category": "Method"
+    },
+    {
+      "entity": "question classification",
+      "category": "Task"
+    },
+    {
+      "entity": "sentence alignment tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "similarity measure",
+      "category": "Metric"
+    },
+    {
+      "entity": "kernel function",
+      "category": "Method"
+    },
+    {
+      "entity": "baseline methods",
+      "category": "Method"
+    },
+    {
+      "entity": "other kernel functions",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "hdag kernel",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hdag kernel",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "structured natural language data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "structured natural language data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hdags",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hdags",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "similarity measure",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "similarity measure",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "kernel function",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kernel function",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "hdag kernel",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hdag kernel",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "structured natural language data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "structured natural language data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hdags",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hdags",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "similarity measure",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "similarity measure",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "kernel function",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kernel function",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "question classification and sentence alignment tasks",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "question classification",
+          "category": "Task"
+        },
+        {
+          "entity": "sentence alignment tasks",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "kernel functions",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "other kernel functions",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "hierarchical directed acyclic graph (hdag) kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "hdag kernel",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "chunks",
+      "category": "Material"
+    },
+    {
+      "entity": "relations",
+      "category": "Material"
+    },
+    {
+      "entity": "weighed sum",
+      "category": "Metric"
+    },
+    {
+      "entity": "number of common attribute sequences",
+      "category": "Metric"
+    },
+    {
+      "entity": "baseline methods",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {
+    "hdag kernel": 2
+  },
+  "distinct_repeated_entities": [
+    "hdag kernel"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 13,
+    "generic_count": 2,
+    "exact_matches": 5,
+    "exact_category_matches": 5,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

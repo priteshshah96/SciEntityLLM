@@ -1,0 +1,305 @@
+{
+  "doc_key": "ICASSP_1997_714_abs",
+  "gold_entities": [
+    {
+      "entity": "LPC based speech coders",
+      "category": "method"
+    },
+    {
+      "entity": "LPC vocoder",
+      "category": "method"
+    },
+    {
+      "entity": "parameter determination",
+      "category": "method"
+    },
+    {
+      "entity": "quantisation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "bit rates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "buzzy or metallic artefacts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "excitation source",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "low bit rates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lpc excitation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frequency bands",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "variable cutoff frequency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "low bit rates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synthetic speech",
+      "category": "material"
+    },
+    {
+      "entity": "voiced parts of speech",
+      "category": "material"
+    },
+    {
+      "entity": "unvoiced speech",
+      "category": "material"
+    },
+    {
+      "entity": "mixed voicing speech",
+      "category": "material"
+    },
+    {
+      "entity": "speech containing acoustic noise",
+      "category": "material"
+    },
+    {
+      "entity": "soft natural sounding speech",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "LPC based speech coders",
+      "category": "method"
+    },
+    {
+      "entity": "bit rates",
+      "category": "material"
+    },
+    {
+      "entity": "buzzy or metallic artefacts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "excitation source",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "simplifying assumptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "LPC vocoder",
+      "category": "method"
+    },
+    {
+      "entity": "variable cutoff frequency",
+      "category": "method"
+    },
+    {
+      "entity": "lower band",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unvoiced speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mixed voicing speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "acoustic noise",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parameter determination",
+      "category": "method"
+    },
+    {
+      "entity": "quantisation techniques",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "bit rates",
+      "predicted": "bit rates",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "variable cutoff frequency",
+      "predicted": "variable cutoff frequency",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unvoiced speech",
+      "predicted": "unvoiced speech",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "mixed voicing speech",
+      "predicted": "mixed voicing speech",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "LPC based speech coders",
+      "predicted": "LPC based speech coders",
+      "category": "method"
+    },
+    {
+      "gold": "LPC vocoder",
+      "predicted": "LPC vocoder",
+      "category": "method"
+    },
+    {
+      "gold": "parameter determination",
+      "predicted": "parameter determination",
+      "category": "method"
+    },
+    {
+      "gold": "quantisation techniques",
+      "predicted": "quantisation techniques",
+      "category": "method"
+    },
+    {
+      "gold": "buzzy or metallic artefacts",
+      "predicted": "buzzy or metallic artefacts",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "excitation source",
+      "predicted": "excitation source",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speech containing acoustic noise",
+      "predicted": "acoustic noise",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "low bit rates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "low bit rates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lpc excitation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frequency bands",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synthetic speech",
+      "category": "material"
+    },
+    {
+      "entity": "voiced parts of speech",
+      "category": "material"
+    },
+    {
+      "entity": "soft natural sounding speech",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "simplifying assumptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lower band",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "low bit rates|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 8,
+    "material": 6
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "material": 1,
+    "otherscientificterm": 7
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 7,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.46153846153846156,
+  "recall": 0.3333333333333333,
+  "f1": 0.3870967741935484,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 13,
+    "exact_matches": 4,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,273 @@
+{
+  "doc_key": "P06-1018",
+  "gold_entities": [
+    {
+      "entity": "mathematical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "rewriting systems",
+      "category": "method"
+    },
+    {
+      "entity": "dependency grammars",
+      "category": "method"
+    },
+    {
+      "entity": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "elementary structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lfg",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Generic mathematical formalism",
+      "category": "task"
+    },
+    {
+      "entity": "Elementary structures",
+      "category": "task"
+    },
+    {
+      "entity": "Objects of elementary structures",
+      "category": "task"
+    },
+    {
+      "entity": "Polarization",
+      "category": "method"
+    },
+    {
+      "entity": "Saturation",
+      "category": "metric"
+    },
+    {
+      "entity": "Final structure",
+      "category": "task"
+    },
+    {
+      "entity": "elementary and powerful",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "many grammar formalisms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rewriting systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lfg",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "rewriting systems",
+      "predicted": "rewriting systems",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "dependency grammars",
+      "predicted": "dependency grammars",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "polarization",
+      "predicted": "Polarization",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "elementary structures",
+      "predicted": "Elementary structures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "tag",
+      "predicted": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hpsg",
+      "predicted": "hpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "lfg",
+      "predicted": "lfg",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "mathematical formalism",
+      "predicted": "Generic mathematical formalism",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "grammar formalisms",
+      "predicted": "many grammar formalisms",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Objects of elementary structures",
+      "category": "task"
+    },
+    {
+      "entity": "Saturation",
+      "category": "metric"
+    },
+    {
+      "entity": "Final structure",
+      "category": "task"
+    },
+    {
+      "entity": "elementary and powerful",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 1,
+    "metric": 1,
+    "otherscientificterm": 7
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 7,
+      "exact_matches": 2,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23076923076923078,
+  "recall": 0.23076923076923078,
+  "f1": 0.23076923076923078,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 4,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

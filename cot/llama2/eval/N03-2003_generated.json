@@ -1,0 +1,197 @@
+{
+  "gold_entities": [
+    {
+      "entity": "conversational speech",
+      "category": "Material"
+    },
+    {
+      "entity": "language modeling",
+      "category": "Method"
+    },
+    {
+      "entity": "class-dependent interpolation of n-grams",
+      "category": "Method"
+    },
+    {
+      "entity": "recognition task",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "training data",
+      "category": "Task"
+    },
+    {
+      "entity": "language modeling",
+      "category": "Task"
+    },
+    {
+      "entity": "conversational speech",
+      "category": "Material"
+    },
+    {
+      "entity": "web",
+      "category": "Material"
+    },
+    {
+      "entity": "n-grams",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "class-dependent interpolation",
+      "category": "Method"
+    },
+    {
+      "entity": "performance gains",
+      "category": "Metric"
+    },
+    {
+      "entity": "class-dependent interpolation",
+      "category": "Method"
+    },
+    {
+      "entity": "data",
+      "category": "Material"
+    },
+    {
+      "entity": "target recognition task",
+      "category": "Task"
+    },
+    {
+      "entity": "interpolation",
+      "category": "Method"
+    },
+    {
+      "entity": "class",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "style",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "topic",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "language modeling",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "language modeling",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "conversational speech",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "conversational speech",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "conversational speech",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "conversational speech",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "class-dependent interpolation of n-grams",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "n-grams",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "class-dependent interpolation",
+          "category": "Method"
+        },
+        {
+          "entity": "class-dependent interpolation",
+          "category": "Method"
+        },
+        {
+          "entity": "interpolation",
+          "category": "Method"
+        }
+      ],
+      "coverage": 4.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "recognition task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "target recognition task",
+        "category": "Task"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "training data",
+      "category": "Task"
+    },
+    {
+      "entity": "web",
+      "category": "Material"
+    },
+    {
+      "entity": "performance gains",
+      "category": "Metric"
+    },
+    {
+      "entity": "data",
+      "category": "Material"
+    },
+    {
+      "entity": "class",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "style",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "topic",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 4,
+    "generated_count": 14,
+    "generic_count": 0,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

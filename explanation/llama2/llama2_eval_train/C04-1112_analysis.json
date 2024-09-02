@@ -1,0 +1,283 @@
+{
+  "doc_key": "C04-1112",
+  "gold_entities": [
+    {
+      "entity": "corpus-based supervised word sense disambiguation (WSD) system",
+      "category": "method"
+    },
+    {
+      "entity": "statistical classification",
+      "category": "method"
+    },
+    {
+      "entity": "maximum entropy",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "lemma-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "classifier",
+      "category": "method"
+    },
+    {
+      "entity": "lemma-based model",
+      "category": "method"
+    },
+    {
+      "entity": "wordform model",
+      "category": "method"
+    },
+    {
+      "entity": "WSD system based on lemmas",
+      "category": "method"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "Dutch Senseval-2 test data",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguous wordform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inflected forms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguous word",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "corpus-based supervised word sense disambiguation (WSD) system",
+      "category": "task"
+    },
+    {
+      "entity": "statistical classification (maximum entropy)",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wordform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inflected forms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lemma-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "Dutch Senseval-2 test data",
+      "category": "material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "wsd system based on lemmas",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wordform model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "robust",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "corpus-based supervised word sense disambiguation (WSD) system",
+      "predicted": "corpus-based supervised word sense disambiguation (WSD) system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "wordform model",
+      "predicted": "wordform model",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "WSD system based on lemmas",
+      "predicted": "wsd system based on lemmas",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "lemma-based approach",
+      "predicted": "lemma-based approach",
+      "category": "method"
+    },
+    {
+      "gold": "Dutch Senseval-2 test data",
+      "predicted": "Dutch Senseval-2 test data",
+      "category": "material"
+    },
+    {
+      "gold": "linguistic information",
+      "predicted": "linguistic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "inflected forms",
+      "predicted": "inflected forms",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "ambiguous wordform",
+      "predicted": "wordform",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "statistical classification",
+      "category": "method"
+    },
+    {
+      "entity": "maximum entropy",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifier",
+      "category": "method"
+    },
+    {
+      "entity": "lemma-based model",
+      "category": "method"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguous word",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "statistical classification (maximum entropy)",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "robust",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 9,
+    "material": 2,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 6,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 9,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.26666666666666666,
+  "f1": 0.30769230769230765,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

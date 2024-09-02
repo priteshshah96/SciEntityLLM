@@ -1,0 +1,172 @@
+{
+  "gold_entities": [
+    {
+      "entity": "training and test data",
+      "category": "Material"
+    },
+    {
+      "entity": "training data",
+      "category": "Material"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "sentiment classification",
+      "category": "Task"
+    },
+    {
+      "entity": "emoticons",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "sentiment classification",
+      "category": "Task"
+    },
+    {
+      "entity": "machine learning techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "training data",
+      "category": "Material"
+    },
+    {
+      "entity": "test data",
+      "category": "Material"
+    },
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "topic",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "emoticons",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "problem",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "emoticons",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "emoticons",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "sentiment classification",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "machine learning techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "training data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "training data",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "training and test data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "test data",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "domain",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "topic",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "gold_entities": [
+    {
+      "entity": "japanese language dictionary",
+      "category": "Material"
+    },
+    {
+      "entity": "thesaurus construction",
+      "category": "Task"
+    },
+    {
+      "entity": "hierarchical relations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "superordinate -hyponym relation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "synonym relation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "definition sentences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hierarchical relations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "hierarchical relations",
+      "category": "Method"
+    },
+    {
+      "entity": "superordinate-hyponym relation",
+      "category": "Method"
+    },
+    {
+      "entity": "synonym relation",
+      "category": "Method"
+    },
+    {
+      "entity": "thesaurus construction",
+      "category": "Task"
+    },
+    {
+      "entity": "pilot system",
+      "category": "Task"
+    },
+    {
+      "entity": "extraction",
+      "category": "Method"
+    },
+    {
+      "entity": "dictionary",
+      "category": "Material"
+    },
+    {
+      "entity": "definition sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "mechanical extraction",
+      "category": "Method"
+    },
+    {
+      "entity": "estimation of results",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "relations",
+      "category": "Generic"
+    },
+    {
+      "entity": "dictionary",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "hierarchical relations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "hierarchical relations",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "synonym relation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "synonym relation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "thesaurus construction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "thesaurus construction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "definition sentences",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "definition sentences",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "thesaurus construction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "thesaurus construction",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "japanese language dictionary",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "dictionary",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "superordinate -hyponym relation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hierarchical relations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "superordinate-hyponym relation",
+      "category": "Method"
+    },
+    {
+      "entity": "pilot system",
+      "category": "Task"
+    },
+    {
+      "entity": "extraction",
+      "category": "Method"
+    },
+    {
+      "entity": "mechanical extraction",
+      "category": "Method"
+    },
+    {
+      "entity": "estimation of results",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "hierarchical relations": 2
+  },
+  "distinct_repeated_entities": [
+    "hierarchical relations"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

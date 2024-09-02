@@ -1,0 +1,315 @@
+{
+  "doc_key": "NIPS_2001_21_abs",
+  "gold_entities": [
+    {
+      "entity": "blind source separation",
+      "category": "task"
+    },
+    {
+      "entity": "instantaneous linear mixtures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mixing matrix",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sparsity of sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "signal dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi scale transforms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wavelet or wavelet packets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sparsity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quality of separation",
+      "category": "metric"
+    },
+    {
+      "entity": "separation quality",
+      "category": "metric"
+    },
+    {
+      "entity": "noise-free and noisy data",
+      "category": "material"
+    },
+    {
+      "entity": "simulated signals",
+      "category": "material"
+    },
+    {
+      "entity": "musical sounds",
+      "category": "material"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Blind source separation",
+      "category": "task"
+    },
+    {
+      "entity": "Instantaneous linear mixtures",
+      "category": "task"
+    },
+    {
+      "entity": "Mixing matrix",
+      "category": "task"
+    },
+    {
+      "entity": "signal dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multi scale transforms",
+      "category": "method"
+    },
+    {
+      "entity": "Wavelet",
+      "category": "method"
+    },
+    {
+      "entity": "Wavelet packets",
+      "category": "method"
+    },
+    {
+      "entity": "Local features",
+      "category": "method"
+    },
+    {
+      "entity": "Sparsity",
+      "category": "metric"
+    },
+    {
+      "entity": "Features",
+      "category": "task"
+    },
+    {
+      "entity": "Separation quality",
+      "category": "metric"
+    },
+    {
+      "entity": "Noise-free data",
+      "category": "material"
+    },
+    {
+      "entity": "Noisy data",
+      "category": "material"
+    },
+    {
+      "entity": "Simulated signals",
+      "category": "material"
+    },
+    {
+      "entity": "Musical sounds",
+      "category": "material"
+    },
+    {
+      "entity": "Images",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "instantaneous linear mixtures",
+      "predicted": "Instantaneous linear mixtures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "mixing matrix",
+      "predicted": "Mixing matrix",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "multi scale transforms",
+      "predicted": "Multi scale transforms",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "local features",
+      "predicted": "Local features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "sparsity",
+      "predicted": "Sparsity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "features",
+      "predicted": "Features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "blind source separation",
+      "predicted": "Blind source separation",
+      "category": "task"
+    },
+    {
+      "gold": "signal dictionary",
+      "predicted": "signal dictionary",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "separation quality",
+      "predicted": "Separation quality",
+      "category": "metric"
+    },
+    {
+      "gold": "simulated signals",
+      "predicted": "Simulated signals",
+      "category": "material"
+    },
+    {
+      "gold": "musical sounds",
+      "predicted": "Musical sounds",
+      "category": "material"
+    },
+    {
+      "gold": "images",
+      "predicted": "Images",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "wavelet or wavelet packets",
+      "predicted": "Wavelet packets",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "noise-free and noisy data",
+      "predicted": "Noise-free data",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "sparsity of sources",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quality of separation",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Wavelet",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 9,
+    "metric": 2,
+    "material": 4
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "otherscientificterm": 1,
+    "method": 4,
+    "metric": 2,
+    "material": 5
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 1,
+      "exact_matches": 6,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.375,
+  "recall": 0.375,
+  "f1": 0.375,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 16,
+    "exact_matches": 6,
+    "exact_matches_with_category": 6,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

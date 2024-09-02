@@ -1,0 +1,216 @@
+{
+  "doc_key": "I05-4010",
+  "gold_entities": [
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "numbering system",
+      "category": "method"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "empirical MT research",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "laws of Hong Kong",
+      "category": "task"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "method"
+    },
+    {
+      "entity": "numbering system",
+      "category": "method"
+    },
+    {
+      "entity": "bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English words",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese characters",
+      "category": "material"
+    },
+    {
+      "entity": "empirical mt research",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "foundation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "larger volume",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "legal text hierarchy",
+      "predicted": "legal text hierarchy",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "empirical MT research",
+      "predicted": "empirical mt research",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "English-Chinese bitexts",
+      "predicted": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "gold": "bilingual corpus",
+      "predicted": "bilingual corpus",
+      "category": "material"
+    },
+    {
+      "gold": "numbering system",
+      "predicted": "numbering system",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "laws of Hong Kong",
+      "category": "task"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "English words",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese characters",
+      "category": "material"
+    },
+    {
+      "entity": "foundation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "larger volume",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "English-Chinese bitexts|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 3,
+    "method": 1,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "material": 5,
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.5,
+  "f1": 0.3529411764705882,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

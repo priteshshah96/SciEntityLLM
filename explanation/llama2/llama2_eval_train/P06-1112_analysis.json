@@ -1,0 +1,281 @@
+{
+  "doc_key": "P06-1112",
+  "gold_entities": [
+    {
+      "entity": "correlation of dependency relation paths",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mapping score",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "answer extraction",
+      "category": "task"
+    },
+    {
+      "entity": "correlation measure",
+      "category": "metric"
+    },
+    {
+      "entity": "correlation measure",
+      "category": "metric"
+    },
+    {
+      "entity": "MRR",
+      "category": "metric"
+    },
+    {
+      "entity": "approximate phrase mapping algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Maximum Entropy-based ranking model",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic relation-based methods",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "dependency relation paths",
+      "category": "task"
+    },
+    {
+      "entity": "answer extraction",
+      "category": "task"
+    },
+    {
+      "entity": "correlation measure",
+      "category": "method"
+    },
+    {
+      "entity": "dependency relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mapped question phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    },
+    {
+      "entity": "question",
+      "category": "material"
+    },
+    {
+      "entity": "approximate phrase mapping algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "mapping score",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Maximum Entropy-based ranking model",
+      "category": "method"
+    },
+    {
+      "entity": "path weights",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic relationbased methods",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "state-of-the-art",
+      "category": "method"
+    },
+    {
+      "entity": "MRR",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "correlation measure",
+      "predicted": "correlation measure",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "dependency relations",
+      "predicted": "dependency relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "mapping score",
+      "predicted": "mapping score",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "answer extraction",
+      "predicted": "answer extraction",
+      "category": "task"
+    },
+    {
+      "gold": "MRR",
+      "predicted": "MRR",
+      "category": "metric"
+    },
+    {
+      "gold": "approximate phrase mapping algorithm",
+      "predicted": "approximate phrase mapping algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "Maximum Entropy-based ranking model",
+      "predicted": "Maximum Entropy-based ranking model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "correlation of dependency relation paths",
+      "predicted": "dependency relation paths",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "syntactic relation-based methods",
+      "predicted": "syntactic relationbased methods",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "correlation measure",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "mapped question phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    },
+    {
+      "entity": "question",
+      "category": "material"
+    },
+    {
+      "entity": "path weights",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training",
+      "category": "material"
+    },
+    {
+      "entity": "state-of-the-art",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "correlation measure|metric": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "task": 1,
+    "metric": 3,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 5,
+    "material": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.6,
+  "f1": 0.48,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 6,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

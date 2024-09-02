@@ -1,0 +1,257 @@
+{
+  "doc_key": "INTERSPEECH_2007_28_abs",
+  "gold_entities": [
+    {
+      "entity": "Extra Large (more than 1M words) Vocabulary COntinuous Speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Information Retrieval (ELVIRCOS)",
+      "category": "task"
+    },
+    {
+      "entity": "large vocabulary speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "recognition process",
+      "category": "method"
+    },
+    {
+      "entity": "information retrieval procedure",
+      "category": "method"
+    },
+    {
+      "entity": "Word graph composition",
+      "category": "method"
+    },
+    {
+      "entity": "words subset",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "continuous speech",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "hybridization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word graph",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "- Continuous speech",
+      "category": "task"
+    },
+    {
+      "entity": "- Recognition",
+      "category": "task"
+    },
+    {
+      "entity": "- Algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "- Two-pass",
+      "category": "method"
+    },
+    {
+      "entity": "- Decomposition",
+      "category": "method"
+    },
+    {
+      "entity": "- High performance",
+      "category": "metric"
+    },
+    {
+      "entity": "- Large vocabulary",
+      "category": "metric"
+    },
+    {
+      "entity": "- Word subset",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "information retrieval procedure",
+      "predicted": "information retrieval",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Word graph composition",
+      "predicted": "word graph",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "words subset",
+      "predicted": "words",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "continuous speech",
+      "predicted": "- Continuous speech",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Extra Large (more than 1M words) Vocabulary COntinuous Speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Information Retrieval (ELVIRCOS)",
+      "category": "task"
+    },
+    {
+      "entity": "large vocabulary speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "recognition process",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "hybridization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "- Recognition",
+      "category": "task"
+    },
+    {
+      "entity": "- Algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "- Two-pass",
+      "category": "method"
+    },
+    {
+      "entity": "- Decomposition",
+      "category": "method"
+    },
+    {
+      "entity": "- High performance",
+      "category": "metric"
+    },
+    {
+      "entity": "- Large vocabulary",
+      "category": "metric"
+    },
+    {
+      "entity": "- Word subset",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "method": 3,
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 2,
+    "method": 3,
+    "metric": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 13,
+    "exact_matches": 0,
+    "exact_matches_with_category": 0,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 9,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

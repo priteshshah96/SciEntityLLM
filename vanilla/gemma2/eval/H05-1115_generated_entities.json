@@ -1,0 +1,253 @@
+{
+  "gold_entities": [
+    {
+      "entity": "news articles",
+      "category": "Material"
+    },
+    {
+      "entity": "multi-event stories",
+      "category": "Material"
+    },
+    {
+      "entity": "stochastic, graph-based method",
+      "category": "Method"
+    },
+    {
+      "entity": "trdr score",
+      "category": "Metric"
+    },
+    {
+      "entity": "question-focused sentence retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "sentence retrieval problem",
+      "category": "Task"
+    },
+    {
+      "entity": "generic summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "idf-weighted word overlap",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "question-focused sentence retrieval",
+      "category": "Method"
+    },
+    {
+      "entity": "news articles",
+      "category": "Material"
+    },
+    {
+      "entity": "multievent stories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "annotators",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "questions",
+      "category": "Task"
+    },
+    {
+      "entity": "corpus",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "stories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "judges",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "baseline",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "similarity",
+      "category": "Metric"
+    },
+    {
+      "entity": "idf-weighted word overlap",
+      "category": "Method"
+    },
+    {
+      "entity": "trdr score",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "question-focused sentence retrieval",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "question-focused sentence retrieval",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "news articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "news articles",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "idf-weighted word overlap",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "idf-weighted word overlap",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "trdr score",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "trdr score",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "news articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "news articles",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "trdr score",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "trdr score",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "multi-event stories",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "multievent stories",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "stories",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "stochastic, graph-based method",
+      "category": "Method"
+    },
+    {
+      "entity": "sentence retrieval problem",
+      "category": "Task"
+    },
+    {
+      "entity": "generic summarization",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "annotators",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "questions",
+      "category": "Task"
+    },
+    {
+      "entity": "corpus",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "judges",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "baseline",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "similarity",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 13,
+    "generic_count": 5,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

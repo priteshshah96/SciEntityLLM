@@ -1,0 +1,287 @@
+{
+  "doc_key": "P02-1023",
+  "gold_entities": [
+    {
+      "entity": "Reducing  language model (LM) size",
+      "category": "task"
+    },
+    {
+      "entity": "LM pruning",
+      "category": "task"
+    },
+    {
+      "entity": "model pruning",
+      "category": "task"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "memory constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "entropy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pruning criteria",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Chinese text input",
+      "category": "material"
+    },
+    {
+      "entity": "character error rate (CER)",
+      "category": "metric"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "CER",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "language model (LM)",
+      "category": "method"
+    },
+    {
+      "entity": "probability",
+      "category": "method"
+    },
+    {
+      "entity": "rank",
+      "category": "method"
+    },
+    {
+      "entity": "entropy",
+      "category": "method"
+    },
+    {
+      "entity": "character error rate (CER)",
+      "category": "metric"
+    },
+    {
+      "entity": "Chinese text input",
+      "category": "material"
+    },
+    {
+      "entity": "model pruning",
+      "category": "task"
+    },
+    {
+      "entity": "criteria",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pruning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "rank",
+      "predicted": "rank",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "entropy",
+      "predicted": "entropy",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "CER",
+      "predicted": "cer",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "model pruning",
+      "predicted": "model pruning",
+      "category": "task"
+    },
+    {
+      "gold": "Chinese text input",
+      "predicted": "Chinese text input",
+      "category": "material"
+    },
+    {
+      "gold": "character error rate (CER)",
+      "predicted": "character error rate (CER)",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "LM pruning",
+      "predicted": "pruning",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "pruning criteria",
+      "predicted": "criteria",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Reducing  language model (LM) size",
+      "category": "task"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "memory constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "language model (LM)",
+      "category": "method"
+    },
+    {
+      "entity": "probability",
+      "category": "method"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "rank|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "method": 1,
+    "otherscientificterm": 6,
+    "material": 1,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "metric": 1,
+    "material": 1,
+    "task": 1,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.21428571428571427,
+  "f1": 0.23999999999999996,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

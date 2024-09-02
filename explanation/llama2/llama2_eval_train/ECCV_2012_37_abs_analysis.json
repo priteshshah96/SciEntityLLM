@@ -1,0 +1,299 @@
+{
+  "doc_key": "ECCV_2012_37_abs",
+  "gold_entities": [
+    {
+      "entity": "discriminative patches",
+      "category": "method"
+    },
+    {
+      "entity": "iterative procedure",
+      "category": "method"
+    },
+    {
+      "entity": "clustering",
+      "category": "method"
+    },
+    {
+      "entity": "training discriminative classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative patches",
+      "category": "method"
+    },
+    {
+      "entity": "discrim-inative patches",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised mid-level visual representation",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised discriminative clustering problem",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised mid-level visual representation",
+      "category": "task"
+    },
+    {
+      "entity": "supervised regime",
+      "category": "task"
+    },
+    {
+      "entity": "scene classification",
+      "category": "task"
+    },
+    {
+      "entity": "image patches",
+      "category": "material"
+    },
+    {
+      "entity": "MIT Indoor-67 dataset",
+      "category": "material"
+    },
+    {
+      "entity": "overfitting",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "patches",
+      "category": "method"
+    },
+    {
+      "entity": "visual representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "visual phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image patches",
+      "category": "material"
+    },
+    {
+      "entity": "clustering",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "visual words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scene classification",
+      "category": "task"
+    },
+    {
+      "entity": "MIT Indoor-67 dataset",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "clustering",
+      "predicted": "clustering",
+      "category": "method"
+    },
+    {
+      "gold": "cross-validation",
+      "predicted": "cross-validation",
+      "category": "method"
+    },
+    {
+      "gold": "scene classification",
+      "predicted": "scene classification",
+      "category": "task"
+    },
+    {
+      "gold": "image patches",
+      "predicted": "image patches",
+      "category": "material"
+    },
+    {
+      "gold": "MIT Indoor-67 dataset",
+      "predicted": "MIT Indoor-67 dataset",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "discriminative patches",
+      "predicted": "patches",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unsupervised mid-level visual representation",
+      "predicted": "visual representation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "discriminative patches",
+      "category": "method"
+    },
+    {
+      "entity": "iterative procedure",
+      "category": "method"
+    },
+    {
+      "entity": "training discriminative classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "discrim-inative patches",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised mid-level visual representation",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised discriminative clustering problem",
+      "category": "task"
+    },
+    {
+      "entity": "supervised regime",
+      "category": "task"
+    },
+    {
+      "entity": "overfitting",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "parts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "visual phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "visual words",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "discriminative patches|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "unsupervised mid-level visual representation|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "task": 5,
+    "material": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 5,
+    "material": 2,
+    "task": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 0.3333333333333333,
+  "f1": 0.3703703703703704,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 12,
+    "exact_matches": 0,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

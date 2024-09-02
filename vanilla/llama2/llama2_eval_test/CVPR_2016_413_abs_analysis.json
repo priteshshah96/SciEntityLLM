@@ -1,0 +1,252 @@
+{
+  "doc_key": "CVPR_2016_413_abs",
+  "gold_entities": [
+    {
+      "entity": "Learned confidence measures",
+      "category": "method"
+    },
+    {
+      "entity": "stereo algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "learned confidence measures",
+      "category": "method"
+    },
+    {
+      "entity": "outlier removal",
+      "category": "task"
+    },
+    {
+      "entity": "quality improvement",
+      "category": "task"
+    },
+    {
+      "entity": "stereo vision",
+      "category": "task"
+    },
+    {
+      "entity": "manual interaction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "active sensing devices",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synthetic scenes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "view points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple depth maps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stereo images",
+      "category": "material"
+    },
+    {
+      "entity": "KITTI2012 dataset",
+      "category": "material"
+    },
+    {
+      "entity": "automatically generated training data",
+      "category": "material"
+    },
+    {
+      "entity": "laser ground truth data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Hybrid stereo algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "contradictions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "consistencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "KITTI2012 dataset",
+      "category": "task"
+    },
+    {
+      "entity": "Laser ground truth data",
+      "category": "material"
+    },
+    {
+      "entity": "Training data",
+      "category": "material"
+    },
+    {
+      "entity": "view points",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "KITTI2012 dataset",
+      "predicted": "KITTI2012 dataset",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "view points",
+      "predicted": "view points",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "laser ground truth data",
+      "predicted": "Laser ground truth data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "stereo algorithm",
+      "predicted": "Hybrid stereo algorithm",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "automatically generated training data",
+      "predicted": "Training data",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Learned confidence measures",
+      "category": "method"
+    },
+    {
+      "entity": "learned confidence measures",
+      "category": "method"
+    },
+    {
+      "entity": "outlier removal",
+      "category": "task"
+    },
+    {
+      "entity": "quality improvement",
+      "category": "task"
+    },
+    {
+      "entity": "stereo vision",
+      "category": "task"
+    },
+    {
+      "entity": "manual interaction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "active sensing devices",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synthetic scenes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple depth maps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stereo images",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "contradictions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "consistencies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 3,
+    "otherscientificterm": 5,
+    "material": 4
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 3,
+    "task": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.13333333333333333,
+  "f1": 0.18181818181818182,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 2,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

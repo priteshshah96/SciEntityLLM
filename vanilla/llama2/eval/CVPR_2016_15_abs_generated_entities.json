@@ -1,0 +1,306 @@
+{
+  "gold_entities": [
+    {
+      "entity": "flickr30k and mscoco image-sentence datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "flickr30k entities dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "two-branch neural network",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "image-to-text and text-to-image retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "phrase lo-calization",
+      "category": "Task"
+    },
+    {
+      "entity": "joint embed-dings of images and text",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multiple layers of linear projections",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "nonlinearities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "large-margin objective",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cross-view ranking constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "within-view neighborhood structure preservation constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "metric learning literature",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "image",
+      "category": "Task"
+    },
+    {
+      "entity": "text",
+      "category": "Task"
+    },
+    {
+      "entity": "neural network",
+      "category": "Method"
+    },
+    {
+      "entity": "linear projection",
+      "category": "Method"
+    },
+    {
+      "entity": "nonlinearity",
+      "category": "Method"
+    },
+    {
+      "entity": "objective",
+      "category": "Method"
+    },
+    {
+      "entity": "cross-view ranking constraints",
+      "category": "Metric"
+    },
+    {
+      "entity": "within-view neighborhood structure preservation constraints",
+      "category": "Metric"
+    },
+    {
+      "entity": "metric learning literature",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "large-margin objective",
+      "category": "Method"
+    },
+    {
+      "entity": "flickr30k dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "mscoco dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "flickr30k entities dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "phrase localization",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "network",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "cross-view ranking constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "cross-view ranking constraints",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "within-view neighborhood structure preservation constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "within-view neighborhood structure preservation constraints",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "metric learning literature",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "metric learning literature",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "large-margin objective",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "large-margin objective",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "flickr30k entities dataset",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "flickr30k entities dataset",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "metric learning literature",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "metric learning literature",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "flickr30k entities dataset",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "flickr30k entities dataset",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "flickr30k and mscoco image-sentence datasets",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "flickr30k dataset",
+          "category": "Material"
+        },
+        {
+          "entity": "mscoco dataset",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "two-branch neural network",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "neural network",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "joint embed-dings of images and text",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "text",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "image-to-text and text-to-image retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "phrase lo-calization",
+      "category": "Task"
+    },
+    {
+      "entity": "multiple layers of linear projections",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "nonlinearities",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "image",
+      "category": "Task"
+    },
+    {
+      "entity": "linear projection",
+      "category": "Method"
+    },
+    {
+      "entity": "nonlinearity",
+      "category": "Method"
+    },
+    {
+      "entity": "objective",
+      "category": "Method"
+    },
+    {
+      "entity": "phrase localization",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 14,
+    "generic_count": 4,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

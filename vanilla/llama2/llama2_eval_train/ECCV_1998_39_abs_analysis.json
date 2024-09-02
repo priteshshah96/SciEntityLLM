@@ -1,0 +1,465 @@
+{
+  "doc_key": "ECCV_1998_39_abs",
+  "gold_entities": [
+    {
+      "entity": "Image sequence processing techniques",
+      "category": "method"
+    },
+    {
+      "entity": "dynamical processes",
+      "category": "method"
+    },
+    {
+      "entity": "tensor method",
+      "category": "method"
+    },
+    {
+      "entity": "derivative filters",
+      "category": "method"
+    },
+    {
+      "entity": "tensor method",
+      "category": "method"
+    },
+    {
+      "entity": "two-point calibration",
+      "category": "method"
+    },
+    {
+      "entity": "exchange , growth, and transport processes",
+      "category": "task"
+    },
+    {
+      "entity": "estimation of the motion field",
+      "category": "task"
+    },
+    {
+      "entity": "optimization of low-level motion estimators",
+      "category": "task"
+    },
+    {
+      "entity": "motion estimation",
+      "category": "task"
+    },
+    {
+      "entity": "analysis of plant growth",
+      "category": "task"
+    },
+    {
+      "entity": "ocean surface microturbulence in IR image sequences",
+      "category": "task"
+    },
+    {
+      "entity": "sediment transport",
+      "category": "task"
+    },
+    {
+      "entity": "environmental physics",
+      "category": "material"
+    },
+    {
+      "entity": "biology",
+      "category": "material"
+    },
+    {
+      "entity": "real-world images",
+      "category": "material"
+    },
+    {
+      "entity": "computer-generated sequences",
+      "category": "material"
+    },
+    {
+      "entity": "calibrated image sequence",
+      "category": "material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "pixels/frame",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "firstorder derivatives of the motion field",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dynamical changes of the moving objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "displacement vector fields dvf",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ccd sensors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial nonuniformity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "responsivity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "exchange",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "growth",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transport",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "environmental physics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Motion field",
+      "category": "task"
+    },
+    {
+      "entity": "Accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Performance",
+      "category": "task"
+    },
+    {
+      "entity": "Optimization",
+      "category": "task"
+    },
+    {
+      "entity": "Derivative filters",
+      "category": "method"
+    },
+    {
+      "entity": "Displacement vector fields",
+      "category": "method"
+    },
+    {
+      "entity": "CCD sensors",
+      "category": "material"
+    },
+    {
+      "entity": "Responsivity",
+      "category": "material"
+    },
+    {
+      "entity": "Calibration",
+      "category": "task"
+    },
+    {
+      "entity": "Plant growth",
+      "category": "task"
+    },
+    {
+      "entity": "Ocean surface microturbulence",
+      "category": "task"
+    },
+    {
+      "entity": "Sediment transport",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "environmental physics",
+      "predicted": "environmental physics",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "biology",
+      "predicted": "biology",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "ccd sensors",
+      "predicted": "CCD sensors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "responsivity",
+      "predicted": "Responsivity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "derivative filters",
+      "predicted": "Derivative filters",
+      "category": "method"
+    },
+    {
+      "gold": "sediment transport",
+      "predicted": "Sediment transport",
+      "category": "task"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "Accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "two-point calibration",
+      "predicted": "Calibration",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "analysis of plant growth",
+      "predicted": "Plant growth",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "displacement vector fields dvf",
+      "predicted": "Displacement vector fields",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "exchange , growth, and transport processes",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "exchange",
+          "matched": "exchange",
+          "predicted_category": "otherscientificterm"
+        },
+        {
+          "part": "growth",
+          "matched": "growth",
+          "predicted_category": "otherscientificterm"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Image sequence processing techniques",
+      "category": "method"
+    },
+    {
+      "entity": "dynamical processes",
+      "category": "method"
+    },
+    {
+      "entity": "tensor method",
+      "category": "method"
+    },
+    {
+      "entity": "tensor method",
+      "category": "method"
+    },
+    {
+      "entity": "estimation of the motion field",
+      "category": "task"
+    },
+    {
+      "entity": "optimization of low-level motion estimators",
+      "category": "task"
+    },
+    {
+      "entity": "motion estimation",
+      "category": "task"
+    },
+    {
+      "entity": "ocean surface microturbulence in IR image sequences",
+      "category": "task"
+    },
+    {
+      "entity": "real-world images",
+      "category": "material"
+    },
+    {
+      "entity": "computer-generated sequences",
+      "category": "material"
+    },
+    {
+      "entity": "calibrated image sequence",
+      "category": "material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "pixels/frame",
+      "category": "metric"
+    },
+    {
+      "entity": "firstorder derivatives of the motion field",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dynamical changes of the moving objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial nonuniformity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "transport",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Motion field",
+      "category": "task"
+    },
+    {
+      "entity": "Performance",
+      "category": "task"
+    },
+    {
+      "entity": "Optimization",
+      "category": "task"
+    },
+    {
+      "entity": "Ocean surface microturbulence",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "tensor method|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "accuracy|metric": {
+      "count": 4,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 7,
+    "material": 5,
+    "metric": 5,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 7,
+    "metric": 1,
+    "method": 2,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 1
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.17647058823529413,
+  "recall": 0.10344827586206896,
+  "f1": 0.13043478260869565,
+  "counts": {
+    "gold_entities": 29,
+    "predicted_entities": 17,
+    "exact_matches": 4,
+    "exact_matches_with_category": 3,
+    "partial_matches": 3,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 18,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

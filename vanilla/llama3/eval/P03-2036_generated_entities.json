@@ -1,0 +1,205 @@
+{
+  "gold_entities": [
+    {
+      "entity": "cfg filtering techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "approximation of hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Method"
+    },
+    {
+      "entity": "cfg filter",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "contextfree grammar",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lexicalized tree adjoining grammar",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "headdriven phrase structure grammar",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cfg filtering technique",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hpsg",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "approximation",
+      "category": "Method"
+    },
+    {
+      "entity": "empirical comparison",
+      "category": "Task"
+    },
+    {
+      "entity": "demonstration",
+      "category": "Task"
+    },
+    {
+      "entity": "comparison",
+      "category": "Task"
+    },
+    {
+      "entity": "presented",
+      "category": "Task"
+    },
+    {
+      "entity": "hpsg",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "that",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ltag",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ltag",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hpsg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hpsg",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hpsg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hpsg",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "cfg filtering techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "cfg filtering technique",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "approximation of hpsg",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "approximation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "cfg filter",
+      "category": "Method"
+    },
+    {
+      "entity": "ltag",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "contextfree grammar",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lexicalized tree adjoining grammar",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "headdriven phrase structure grammar",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "empirical comparison",
+      "category": "Task"
+    },
+    {
+      "entity": "demonstration",
+      "category": "Task"
+    },
+    {
+      "entity": "comparison",
+      "category": "Task"
+    },
+    {
+      "entity": "presented",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "ltag": 2,
+    "hpsg": 2
+  },
+  "distinct_repeated_entities": [
+    "ltag",
+    "hpsg"
+  ],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 12,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 0,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

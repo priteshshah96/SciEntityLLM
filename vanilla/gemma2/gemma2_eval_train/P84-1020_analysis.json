@@ -1,0 +1,137 @@
+{
+  "doc_key": "P84-1020",
+  "gold_entities": [
+    {
+      "entity": "natural language system",
+      "category": "method"
+    },
+    {
+      "entity": "ungrammatical input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer aided second language learning",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ungrammatical input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer aided second language learning",
+      "category": "task"
+    },
+    {
+      "entity": "general mechanism",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "framework",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language system",
+      "predicted": "natural language system",
+      "category": "method"
+    },
+    {
+      "gold": "ungrammatical input",
+      "predicted": "ungrammatical input",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "computer aided second language learning",
+      "predicted": "computer aided second language learning",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "ungrammatical input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer aided second language learning",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "general mechanism",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "framework",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 4,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.6666666666666666,
+  "f1": 0.5,
+  "category_precision": 0.4,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.5,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 5,
+    "exact_matches": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 2,
+    "generic_entities": 5,
+    "correct_predictions": 2,
+    "correct_categories": 2
+  }
+}

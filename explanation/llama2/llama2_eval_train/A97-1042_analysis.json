@@ -1,0 +1,191 @@
+{
+  "doc_key": "A97-1042",
+  "gold_entities": [
+    {
+      "entity": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "entity": "positions of topicbearing sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genrespecific regularities of discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "routing",
+      "category": "task"
+    },
+    {
+      "entity": "text summarization",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "likely topics of texts",
+      "category": "task"
+    },
+    {
+      "entity": "position in the text",
+      "category": "method"
+    },
+    {
+      "entity": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "entity": "topicbearing sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genrespecific regularities of discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "material"
+    },
+    {
+      "entity": "routing",
+      "category": "material"
+    },
+    {
+      "entity": "text summarization",
+      "category": "material"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "information retrieval",
+      "predicted": "information retrieval",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "routing",
+      "predicted": "routing",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "text summarization",
+      "predicted": "text summarization",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Optimal Position Policy",
+      "predicted": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "gold": "genrespecific regularities of discourse structure",
+      "predicted": "genrespecific regularities of discourse structure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "positions of topicbearing sentences",
+      "predicted": "topicbearing sentences",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "likely topics of texts",
+      "category": "task"
+    },
+    {
+      "entity": "position in the text",
+      "category": "method"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 2,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.3333333333333333,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

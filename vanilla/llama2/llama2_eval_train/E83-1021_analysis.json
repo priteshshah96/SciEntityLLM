@@ -1,0 +1,293 @@
+{
+  "doc_key": "E83-1021",
+  "gold_entities": [
+    {
+      "entity": "conceptual operations",
+      "category": "task"
+    },
+    {
+      "entity": "natural language (NL)",
+      "category": "material"
+    },
+    {
+      "entity": "NL",
+      "category": "material"
+    },
+    {
+      "entity": "Structured Inheritance Network (SI-Nets) paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "SI-Nets",
+      "category": "method"
+    },
+    {
+      "entity": "SI-Nets",
+      "category": "method"
+    },
+    {
+      "entity": "conceptual system",
+      "category": "method"
+    },
+    {
+      "entity": "KL-ONE",
+      "category": "method"
+    },
+    {
+      "entity": "KL-Conc",
+      "category": "method"
+    },
+    {
+      "entity": "KL-Conc",
+      "category": "method"
+    },
+    {
+      "entity": "SI-Nets",
+      "category": "method"
+    },
+    {
+      "entity": "formal language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "epistemological objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "epistemological level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conceptual level",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "structured inheritance network sinets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "formal language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "epistemological objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conceptual system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "KL-ONE",
+      "category": "method"
+    },
+    {
+      "entity": "KL-Conc",
+      "category": "method"
+    },
+    {
+      "entity": "Natural Language",
+      "category": "task"
+    },
+    {
+      "entity": "Language",
+      "category": "task"
+    },
+    {
+      "entity": "Simulation",
+      "category": "task"
+    },
+    {
+      "entity": "Processes",
+      "category": "task"
+    },
+    {
+      "entity": "Level",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "conceptual system",
+      "predicted": "conceptual system",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "KL-ONE",
+      "predicted": "KL-ONE",
+      "category": "method"
+    },
+    {
+      "gold": "KL-Conc",
+      "predicted": "KL-Conc",
+      "category": "method"
+    },
+    {
+      "gold": "formal language",
+      "predicted": "formal language",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "epistemological objects",
+      "predicted": "epistemological objects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "epistemological level",
+      "predicted": "Level",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "conceptual operations",
+      "category": "task"
+    },
+    {
+      "entity": "natural language (NL)",
+      "category": "material"
+    },
+    {
+      "entity": "NL",
+      "category": "material"
+    },
+    {
+      "entity": "Structured Inheritance Network (SI-Nets) paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "SI-Nets",
+      "category": "method"
+    },
+    {
+      "entity": "SI-Nets",
+      "category": "method"
+    },
+    {
+      "entity": "SI-Nets",
+      "category": "method"
+    },
+    {
+      "entity": "KL-Conc",
+      "category": "method"
+    },
+    {
+      "entity": "conceptual level",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "structured inheritance network sinets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural Language",
+      "category": "task"
+    },
+    {
+      "entity": "Language",
+      "category": "task"
+    },
+    {
+      "entity": "Simulation",
+      "category": "task"
+    },
+    {
+      "entity": "Processes",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "SI-Nets|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "KL-Conc|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 2,
+    "method": 8,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 4,
+    "method": 2,
+    "task": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.26666666666666666,
+  "f1": 0.30769230769230765,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

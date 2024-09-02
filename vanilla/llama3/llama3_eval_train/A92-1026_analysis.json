@@ -1,0 +1,269 @@
+{
+  "doc_key": "A92-1026",
+  "gold_entities": [
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic and pragmatic analysis",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic analysis",
+      "category": "task"
+    },
+    {
+      "entity": "pragmatics processing",
+      "category": "task"
+    },
+    {
+      "entity": "TACITUS",
+      "category": "method"
+    },
+    {
+      "entity": "agenda-based scheduling parser",
+      "category": "method"
+    },
+    {
+      "entity": "recovery technique",
+      "category": "method"
+    },
+    {
+      "entity": "terminal substring parsing",
+      "category": "method"
+    },
+    {
+      "entity": "abductive inference",
+      "category": "method"
+    },
+    {
+      "entity": "MUC-3 evaluation",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "failed parses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "world knowledge",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "TACITUS",
+      "category": "material"
+    },
+    {
+      "entity": "MUC-3 evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic analysis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pragmatic analysis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Agenda-Based Scheduling Parser",
+      "category": "method"
+    },
+    {
+      "entity": "Recovery Technique for Failed Parses",
+      "category": "method"
+    },
+    {
+      "entity": "Terminal Substring Parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Abductive Inference",
+      "category": "method"
+    },
+    {
+      "entity": "World Knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Syntactic and Pragmatic Analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Robustness",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "syntactic analysis",
+      "predicted": "syntactic analysis",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "TACITUS",
+      "predicted": "TACITUS",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "MUC-3 evaluation",
+      "predicted": "MUC-3 evaluation",
+      "gold_category": "metric",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "world knowledge",
+      "predicted": "World Knowledge",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "syntactic and pragmatic analysis",
+      "predicted": "Syntactic and Pragmatic Analysis",
+      "category": "task"
+    },
+    {
+      "gold": "agenda-based scheduling parser",
+      "predicted": "Agenda-Based Scheduling Parser",
+      "category": "method"
+    },
+    {
+      "gold": "terminal substring parsing",
+      "predicted": "Terminal Substring Parsing",
+      "category": "method"
+    },
+    {
+      "gold": "abductive inference",
+      "predicted": "Abductive Inference",
+      "category": "method"
+    },
+    {
+      "gold": "robustness",
+      "predicted": "Robustness",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "pragmatics processing",
+      "category": "task"
+    },
+    {
+      "entity": "recovery technique",
+      "category": "method"
+    },
+    {
+      "entity": "failed parses",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "pragmatic analysis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Recovery Technique for Failed Parses",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 5,
+    "metric": 2,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "material": 2,
+    "task": 2,
+    "method": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 0.38461538461538464,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 12,
+    "exact_matches": 5,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,213 @@
+{
+  "doc_key": "INTERSPEECH_2001_28_abs",
+  "gold_entities": [
+    {
+      "entity": "speaker verification system",
+      "category": "method"
+    },
+    {
+      "entity": "speaker verification system",
+      "category": "method"
+    },
+    {
+      "entity": "user evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "Hidden Markov Models",
+      "category": "method"
+    },
+    {
+      "entity": "speech data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "speaker verification system",
+      "category": "task"
+    },
+    {
+      "entity": "field trial",
+      "category": "method"
+    },
+    {
+      "entity": "speaker verification system",
+      "category": "task"
+    },
+    {
+      "entity": "University of Frankfurt",
+      "category": "material"
+    },
+    {
+      "entity": "system concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "implementation issues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "speech data",
+      "category": "material"
+    },
+    {
+      "entity": "data base",
+      "category": "material"
+    },
+    {
+      "entity": "simulation experiments",
+      "category": "method"
+    },
+    {
+      "entity": "Hidden Markov Models",
+      "category": "method"
+    },
+    {
+      "entity": "chapter 4",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "speaker verification system",
+      "predicted": "speaker verification system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "speaker verification system",
+      "predicted": "speaker verification system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "user evaluation",
+      "predicted": "user evaluation",
+      "category": "method"
+    },
+    {
+      "gold": "Hidden Markov Models",
+      "predicted": "Hidden Markov Models",
+      "category": "method"
+    },
+    {
+      "gold": "speech data",
+      "predicted": "speech data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "field trial",
+      "category": "method"
+    },
+    {
+      "entity": "University of Frankfurt",
+      "category": "material"
+    },
+    {
+      "entity": "system concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "implementation issues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data base",
+      "category": "material"
+    },
+    {
+      "entity": "simulation experiments",
+      "category": "method"
+    },
+    {
+      "entity": "chapter 4",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "speaker verification system|method": {
+      "count": 2,
+      "exact": 2,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "material": 4,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.6,
+  "f1": 0.35294117647058826,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

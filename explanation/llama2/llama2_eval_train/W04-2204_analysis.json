@@ -1,0 +1,297 @@
+{
+  "doc_key": "W04-2204",
+  "gold_entities": [
+    {
+      "entity": "transfer dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic resources",
+      "category": "material"
+    },
+    {
+      "entity": "Korean-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Korean-to-English and a Japanese-to-English dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Korean-to-English dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "English-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "English-to-Korean dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "English-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Dictionary construction",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation system",
+      "category": "task"
+    },
+    {
+      "entity": "automatic construction",
+      "category": "task"
+    },
+    {
+      "entity": "directionality of dictionaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "overlapping constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "\"one-time look up\" method",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "transfer dictionary",
+      "category": "method"
+    },
+    {
+      "entity": "dictionary construction",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation system",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic resources",
+      "category": "material"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "language pairs",
+      "category": "material"
+    },
+    {
+      "entity": "Korean-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "English-to-Korean dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "English-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "one-time look up method",
+      "category": "method"
+    },
+    {
+      "entity": "overlapping constraint method",
+      "category": "method"
+    },
+    {
+      "entity": "alternative method",
+      "category": "method"
+    },
+    {
+      "entity": "result",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "transfer dictionary",
+      "predicted": "transfer dictionary",
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "machine translation system",
+      "predicted": "machine translation system",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "linguistic resources",
+      "predicted": "linguistic resources",
+      "category": "material"
+    },
+    {
+      "gold": "Korean-to-Japanese dictionary",
+      "predicted": "Korean-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "gold": "English-to-Japanese dictionary",
+      "predicted": "English-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "gold": "English-to-Korean dictionary",
+      "predicted": "English-to-Korean dictionary",
+      "category": "material"
+    },
+    {
+      "gold": "Dictionary construction",
+      "predicted": "dictionary construction",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "overlapping constraint",
+      "predicted": "overlapping constraint method",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Korean-to-English and a Japanese-to-English dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Korean-to-English dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "English-to-Japanese dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "automatic construction",
+      "category": "task"
+    },
+    {
+      "entity": "directionality of dictionaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "\"one-time look up\" method",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "language pairs",
+      "category": "material"
+    },
+    {
+      "entity": "one-time look up method",
+      "category": "method"
+    },
+    {
+      "entity": "alternative method",
+      "category": "method"
+    },
+    {
+      "entity": "result",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "English-to-Japanese dictionary|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 9,
+    "task": 3,
+    "otherscientificterm": 2,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "task": 1,
+    "material": 5
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 9,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.38461538461538464,
+  "recall": 0.3333333333333333,
+  "f1": 0.3571428571428571,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 5,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

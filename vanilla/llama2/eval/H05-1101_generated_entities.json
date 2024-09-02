@@ -1,0 +1,133 @@
+{
+  "gold_entities": [
+    {
+      "entity": "probabilistic translation models",
+      "category": "Method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "Task"
+    },
+    {
+      "entity": "computational problems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "exponential time lower-bound",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "probabilistic translation models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "computational problems",
+      "category": "Task"
+    },
+    {
+      "entity": "probabilistic contextfree grammars",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "np",
+      "category": "Task"
+    },
+    {
+      "entity": "exponential time",
+      "category": "Metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "models",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "probabilistic translation models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "probabilistic translation models",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "computational problems",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "computational problems",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "probabilistic context-free grammars",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "probabilistic contextfree grammars",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "exponential time lower-bound",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "exponential time",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "machine translation",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "np",
+      "category": "Task"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 6,
+    "generic_count": 1,
+    "exact_matches": 2,
+    "exact_category_matches": 0,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

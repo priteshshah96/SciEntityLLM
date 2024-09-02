@@ -1,0 +1,214 @@
+{
+  "doc_key": "W04-1307",
+  "gold_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "realistic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "material"
+    },
+    {
+      "entity": "linguistics",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational model",
+      "category": "material"
+    },
+    {
+      "entity": "simulation results",
+      "category": "metric"
+    },
+    {
+      "entity": "realistic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "method"
+    },
+    {
+      "entity": "linguistics",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computational model",
+      "predicted": "computational model",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "statistical learning mechanisms",
+      "predicted": "statistical learning mechanisms",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "cognitive psychology",
+      "predicted": "cognitive psychology",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "linguistics",
+      "predicted": "linguistics",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "word segmentation",
+      "predicted": "word segmentation",
+      "category": "task"
+    },
+    {
+      "gold": "realistic acquisition",
+      "predicted": "realistic acquisition",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "simulation results",
+      "category": "metric"
+    },
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "method"
+    },
+    {
+      "entity": "linguistics",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 3,
+    "material": 1,
+    "metric": 1,
+    "method": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.3333333333333333,
+  "f1": 0.23529411764705885,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 5,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

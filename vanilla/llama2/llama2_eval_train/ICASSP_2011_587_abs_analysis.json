@@ -1,0 +1,292 @@
+{
+  "doc_key": "ICASSP_2011_587_abs",
+  "gold_entities": [
+    {
+      "entity": "on-line interference effects",
+      "category": "task"
+    },
+    {
+      "entity": "Global Navigation Satellite System (GNSS)",
+      "category": "task"
+    },
+    {
+      "entity": "Inertial Navigation System (INS)",
+      "category": "task"
+    },
+    {
+      "entity": "GNSS/INS coupling",
+      "category": "task"
+    },
+    {
+      "entity": "accurate and robust localization",
+      "category": "task"
+    },
+    {
+      "entity": "navigation solution",
+      "category": "task"
+    },
+    {
+      "entity": "Extended Kalman Filter (EKF)",
+      "category": "method"
+    },
+    {
+      "entity": "least square estimate",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian test",
+      "category": "method"
+    },
+    {
+      "entity": "interference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gnss measurement noise",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "covariance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ekf outputs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "variance jumps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gnss signal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "positioning accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "simulated data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "GNSS (Global Navigation Satellite System)",
+      "category": "task"
+    },
+    {
+      "entity": "INS (Inertial Navigation System)",
+      "category": "task"
+    },
+    {
+      "entity": "EKF (Extended Kalman Filter)",
+      "category": "method"
+    },
+    {
+      "entity": "covariance",
+      "category": "metric"
+    },
+    {
+      "entity": "variance",
+      "category": "metric"
+    },
+    {
+      "entity": "potential variance jumps",
+      "category": "metric"
+    },
+    {
+      "entity": "Bayesian test",
+      "category": "method"
+    },
+    {
+      "entity": "interference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "navigation solution",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "navigation solution",
+      "predicted": "navigation solution",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "covariance",
+      "predicted": "covariance",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Bayesian test",
+      "predicted": "Bayesian test",
+      "category": "method"
+    },
+    {
+      "gold": "interference",
+      "predicted": "interference",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "variance jumps",
+      "predicted": "potential variance jumps",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "on-line interference effects",
+      "category": "task"
+    },
+    {
+      "entity": "Global Navigation Satellite System (GNSS)",
+      "category": "task"
+    },
+    {
+      "entity": "Inertial Navigation System (INS)",
+      "category": "task"
+    },
+    {
+      "entity": "GNSS/INS coupling",
+      "category": "task"
+    },
+    {
+      "entity": "accurate and robust localization",
+      "category": "task"
+    },
+    {
+      "entity": "Extended Kalman Filter (EKF)",
+      "category": "method"
+    },
+    {
+      "entity": "least square estimate",
+      "category": "method"
+    },
+    {
+      "entity": "gnss measurement noise",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ekf outputs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gnss signal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "positioning accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "simulated data",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "GNSS (Global Navigation Satellite System)",
+      "category": "task"
+    },
+    {
+      "entity": "INS (Inertial Navigation System)",
+      "category": "task"
+    },
+    {
+      "entity": "EKF (Extended Kalman Filter)",
+      "category": "method"
+    },
+    {
+      "entity": "variance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 6,
+    "method": 3,
+    "otherscientificterm": 6,
+    "metric": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "metric": 3,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.11764705882352941,
+  "f1": 0.15384615384615383,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 12,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

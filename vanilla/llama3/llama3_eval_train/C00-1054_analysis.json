@@ -1,0 +1,304 @@
+{
+  "doc_key": "C00-1054",
+  "gold_entities": [
+    {
+      "entity": "Multimodal interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "multimodal integration",
+      "category": "task"
+    },
+    {
+      "entity": "multimodal parsing and understanding",
+      "category": "task"
+    },
+    {
+      "entity": "multimodal understanding",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "multimodal ambiguity resolution",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "method"
+    },
+    {
+      "entity": "unification-based grammar",
+      "category": "method"
+    },
+    {
+      "entity": "multidimensional chart parser",
+      "category": "method"
+    },
+    {
+      "entity": "weighted finite-state device",
+      "category": "method"
+    },
+    {
+      "entity": "interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "speech and gesture streams",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Multimodal integration",
+      "category": "task"
+    },
+    {
+      "entity": "unificationbased grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multidimensional chart parser",
+      "category": "method"
+    },
+    {
+      "entity": "Multimodal parsing and understanding",
+      "category": "task"
+    },
+    {
+      "entity": "Weighted finite-state device",
+      "category": "method"
+    },
+    {
+      "entity": "Speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Multimodal ambiguity resolution",
+      "category": "task"
+    },
+    {
+      "entity": "Multimodal interfaces",
+      "category": "material"
+    },
+    {
+      "entity": "Utterances",
+      "category": "material"
+    },
+    {
+      "entity": "Input modes",
+      "category": "material"
+    },
+    {
+      "entity": "Input streams",
+      "category": "material"
+    },
+    {
+      "entity": "Joint interpretation",
+      "category": "material"
+    },
+    {
+      "entity": "probabilistic framework",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Computational complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "speech and gesture streams material multidimensional",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Johnston 1998",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Multimodal interfaces",
+      "predicted": "Multimodal interfaces",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "multimodal integration",
+      "predicted": "Multimodal integration",
+      "category": "task"
+    },
+    {
+      "gold": "multimodal parsing and understanding",
+      "predicted": "Multimodal parsing and understanding",
+      "category": "task"
+    },
+    {
+      "gold": "speech recognition",
+      "predicted": "Speech recognition",
+      "category": "task"
+    },
+    {
+      "gold": "multimodal ambiguity resolution",
+      "predicted": "Multimodal ambiguity resolution",
+      "category": "task"
+    },
+    {
+      "gold": "multidimensional chart parser",
+      "predicted": "Multidimensional chart parser",
+      "category": "method"
+    },
+    {
+      "gold": "weighted finite-state device",
+      "predicted": "Weighted finite-state device",
+      "category": "method"
+    },
+    {
+      "gold": "computational complexity",
+      "predicted": "Computational complexity",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speech and gesture streams",
+      "predicted": "speech and gesture streams material multidimensional",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multimodal understanding",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "method"
+    },
+    {
+      "entity": "unification-based grammar",
+      "category": "method"
+    },
+    {
+      "entity": "interfaces",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "unificationbased grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Utterances",
+      "category": "material"
+    },
+    {
+      "entity": "Input modes",
+      "category": "material"
+    },
+    {
+      "entity": "Input streams",
+      "category": "material"
+    },
+    {
+      "entity": "Joint interpretation",
+      "category": "material"
+    },
+    {
+      "entity": "probabilistic framework",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Johnston 1998",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 6,
+    "method": 4,
+    "otherscientificterm": 1,
+    "metric": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "otherscientificterm": 3,
+    "method": 2,
+    "material": 6,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4375,
+  "recall": 0.5384615384615384,
+  "f1": 0.4827586206896552,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 16,
+    "exact_matches": 1,
+    "exact_matches_with_category": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 7,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

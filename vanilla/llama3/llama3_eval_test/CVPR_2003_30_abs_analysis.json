@@ -1,0 +1,358 @@
+{
+  "doc_key": "CVPR_2003_30_abs",
+  "gold_entities": [
+    {
+      "entity": "threedimensional objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affineinvariant image patches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiview constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cluttered scenes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "normalized representation",
+      "category": "method"
+    },
+    {
+      "entity": "segmentation stage",
+      "category": "method"
+    },
+    {
+      "entity": "matching",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "acquisition of true three-dimensional affine and Euclidean models",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "3d object representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Affine-invariant image patches",
+      "category": "material"
+    },
+    {
+      "entity": "Spatial relationships",
+      "category": "method"
+    },
+    {
+      "entity": "Multi-view constraints",
+      "category": "metric"
+    },
+    {
+      "entity": "Normalized appearance",
+      "category": "method"
+    },
+    {
+      "entity": "True three-dimensional affine and Euclidean models",
+      "category": "material"
+    },
+    {
+      "entity": "Multiple images",
+      "category": "material"
+    },
+    {
+      "entity": "Single photograph",
+      "category": "material"
+    },
+    {
+      "entity": "Cluttered scenes",
+      "category": "material"
+    },
+    {
+      "entity": "Segmentation stage",
+      "category": "task"
+    },
+    {
+      "entity": "affineinvariant",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Euclidean models",
+      "category": "material"
+    },
+    {
+      "entity": "Image patches",
+      "category": "material"
+    },
+    {
+      "entity": "Appearance",
+      "category": "method"
+    },
+    {
+      "entity": "Recognition results",
+      "category": "metric"
+    },
+    {
+      "entity": "modeling results metric viewpoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Normalized representation",
+      "category": "method"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Affine models",
+      "category": "material"
+    },
+    {
+      "entity": "Euclidean models (Material) - True three-dimensional models",
+      "category": "material"
+    },
+    {
+      "entity": "Cluttered scenes (Material) - Segmentation stage",
+      "category": "task"
+    },
+    {
+      "entity": "modeling results metric affineinvariant",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Modeling results",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "spatial relationships",
+      "predicted": "Spatial relationships",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "cluttered scenes",
+      "predicted": "Cluttered scenes",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "segmentation stage",
+      "predicted": "Segmentation stage",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "normalized representation",
+      "predicted": "Normalized representation",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "affineinvariant image patches",
+      "predicted": "Image patches",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "acquisition of true three-dimensional affine and Euclidean models",
+      "predicted": "True three-dimensional affine and Euclidean models",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "recognition",
+      "predicted": "Recognition results",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "images",
+      "predicted": "Multiple images",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "threedimensional objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiview constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "matching",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "3d object representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Affine-invariant image patches",
+      "category": "material"
+    },
+    {
+      "entity": "Multi-view constraints",
+      "category": "metric"
+    },
+    {
+      "entity": "Normalized appearance",
+      "category": "method"
+    },
+    {
+      "entity": "Single photograph",
+      "category": "material"
+    },
+    {
+      "entity": "affineinvariant",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Appearance",
+      "category": "method"
+    },
+    {
+      "entity": "modeling results metric viewpoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Affine models",
+      "category": "material"
+    },
+    {
+      "entity": "Euclidean models (Material) - True three-dimensional models",
+      "category": "material"
+    },
+    {
+      "entity": "Cluttered scenes (Material) - Segmentation stage",
+      "category": "task"
+    },
+    {
+      "entity": "modeling results metric affineinvariant",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Modeling results",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 5,
+    "method": 2,
+    "task": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "material": 9,
+    "method": 4,
+    "metric": 3,
+    "task": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.043478260869565216,
+  "recall": 0.08333333333333333,
+  "f1": 0.057142857142857134,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 23,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 14,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

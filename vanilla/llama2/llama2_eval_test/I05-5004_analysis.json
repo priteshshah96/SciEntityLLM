@@ -1,0 +1,228 @@
+{
+  "doc_key": "I05-5004",
+  "gold_entities": [
+    {
+      "entity": "compositional classes of paraphrases",
+      "category": "task"
+    },
+    {
+      "entity": "class-oriented framework",
+      "category": "method"
+    },
+    {
+      "entity": "automatic candidate generation",
+      "category": "method"
+    },
+    {
+      "entity": "manual judgement",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrase examples",
+      "category": "material"
+    },
+    {
+      "entity": "sentential paraphrases",
+      "category": "material"
+    },
+    {
+      "entity": "paraphrase corpus",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Class",
+      "category": "task"
+    },
+    {
+      "entity": "Framework",
+      "category": "method"
+    },
+    {
+      "entity": "Paraphrase class",
+      "category": "task"
+    },
+    {
+      "entity": "sentential paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Candidate generation",
+      "category": "method"
+    },
+    {
+      "entity": "Manual judgement",
+      "category": "method"
+    },
+    {
+      "entity": "Paraphrase corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Cost-efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "Exhaustiveness",
+      "category": "metric"
+    },
+    {
+      "entity": "Reliability",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "manual judgement",
+      "predicted": "Manual judgement",
+      "category": "method"
+    },
+    {
+      "gold": "paraphrase corpus",
+      "predicted": "Paraphrase corpus",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "class-oriented framework",
+      "predicted": "Framework",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "automatic candidate generation",
+      "predicted": "Candidate generation",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "paraphrase examples",
+      "predicted": "paraphrase",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "compositional classes of paraphrases",
+      "category": "task"
+    },
+    {
+      "entity": "sentential paraphrases",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Class",
+      "category": "task"
+    },
+    {
+      "entity": "Paraphrase class",
+      "category": "task"
+    },
+    {
+      "entity": "sentential paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Cost-efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "Exhaustiveness",
+      "category": "metric"
+    },
+    {
+      "entity": "Reliability",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 3,
+    "material": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 2,
+    "method": 3,
+    "material": 1,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.2857142857142857,
+  "f1": 0.2222222222222222,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 11,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

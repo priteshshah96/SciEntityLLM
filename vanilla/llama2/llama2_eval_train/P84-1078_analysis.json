@@ -1,0 +1,221 @@
+{
+  "doc_key": "P84-1078",
+  "gold_entities": [
+    {
+      "entity": "Paul",
+      "category": "method"
+    },
+    {
+      "entity": "computer text generation system",
+      "category": "method"
+    },
+    {
+      "entity": "cohesive text",
+      "category": "material"
+    },
+    {
+      "entity": "lexical substitutions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pronominalization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "superordinate substitution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "definite noun phrase reiteration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical substitutions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "antecedence recovery",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Paul",
+      "category": "task"
+    },
+    {
+      "entity": "computer text generation system",
+      "category": "task"
+    },
+    {
+      "entity": "lexical substitutions",
+      "category": "method"
+    },
+    {
+      "entity": "pronominalization",
+      "category": "method"
+    },
+    {
+      "entity": "superordinate substitution",
+      "category": "method"
+    },
+    {
+      "entity": "definite noun phrase reiteration",
+      "category": "method"
+    },
+    {
+      "entity": "antecedence recovery",
+      "category": "metric"
+    },
+    {
+      "entity": "strength of antecedence recovery",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Paul",
+      "predicted": "Paul",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "computer text generation system",
+      "predicted": "computer text generation system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "lexical substitutions",
+      "predicted": "lexical substitutions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "pronominalization",
+      "predicted": "pronominalization",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "superordinate substitution",
+      "predicted": "superordinate substitution",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "definite noun phrase reiteration",
+      "predicted": "definite noun phrase reiteration",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "antecedence recovery",
+      "predicted": "antecedence recovery",
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "cohesive text",
+      "category": "material"
+    },
+    {
+      "entity": "lexical substitutions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "strength of antecedence recovery",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "lexical substitutions|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "material": 1,
+    "otherscientificterm": 5,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 4,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 8,
+    "exact_matches": 7,
+    "exact_matches_with_category": 0,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,296 @@
+{
+  "doc_key": "CVPR_2006_18_abs",
+  "gold_entities": [
+    {
+      "entity": "exemplar-based framework",
+      "category": "method"
+    },
+    {
+      "entity": "greedy techniques",
+      "category": "method"
+    },
+    {
+      "entity": "optimization scheme",
+      "category": "method"
+    },
+    {
+      "entity": "Priority-BP",
+      "category": "method"
+    },
+    {
+      "entity": "belief propagation (BP)",
+      "category": "method"
+    },
+    {
+      "entity": "priority-based message scheduling",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic label pruning",
+      "category": "method"
+    },
+    {
+      "entity": "BP",
+      "category": "method"
+    },
+    {
+      "entity": "MRF energy function",
+      "category": "method"
+    },
+    {
+      "entity": "image completion",
+      "category": "task"
+    },
+    {
+      "entity": "texture synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "image inpainting",
+      "category": "task"
+    },
+    {
+      "entity": "discrete global optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "well defined objective function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intolerable computational cost of bp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image completion examples",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "exemplar-based framework",
+      "category": "method"
+    },
+    {
+      "entity": "image completion",
+      "category": "task"
+    },
+    {
+      "entity": "texture synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "image inpainting",
+      "category": "task"
+    },
+    {
+      "entity": "discrete global optimization problem",
+      "category": "method"
+    },
+    {
+      "entity": "objective function",
+      "category": "metric"
+    },
+    {
+      "entity": "Priority-BP",
+      "category": "method"
+    },
+    {
+      "entity": "belief propagation (BP)",
+      "category": "method"
+    },
+    {
+      "entity": "priority-based message scheduling",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic label pruning",
+      "category": "method"
+    },
+    {
+      "entity": "MRF energy function",
+      "category": "material"
+    },
+    {
+      "entity": "image completion",
+      "category": "task"
+    },
+    {
+      "entity": "examples",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "MRF energy function",
+      "predicted": "MRF energy function",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "discrete global optimization problem",
+      "predicted": "discrete global optimization problem",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "exemplar-based framework",
+      "predicted": "exemplar-based framework",
+      "category": "method"
+    },
+    {
+      "gold": "Priority-BP",
+      "predicted": "Priority-BP",
+      "category": "method"
+    },
+    {
+      "gold": "belief propagation (BP)",
+      "predicted": "belief propagation (BP)",
+      "category": "method"
+    },
+    {
+      "gold": "priority-based message scheduling",
+      "predicted": "priority-based message scheduling",
+      "category": "method"
+    },
+    {
+      "gold": "dynamic label pruning",
+      "predicted": "dynamic label pruning",
+      "category": "method"
+    },
+    {
+      "gold": "image completion",
+      "predicted": "image completion",
+      "category": "task"
+    },
+    {
+      "gold": "texture synthesis",
+      "predicted": "texture synthesis",
+      "category": "task"
+    },
+    {
+      "gold": "image inpainting",
+      "predicted": "image inpainting",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "well defined objective function",
+      "predicted": "objective function",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "image completion examples",
+      "predicted": "image completion",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "greedy techniques",
+      "category": "method"
+    },
+    {
+      "entity": "optimization scheme",
+      "category": "method"
+    },
+    {
+      "entity": "BP",
+      "category": "method"
+    },
+    {
+      "entity": "intolerable computational cost of bp",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "examples",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 9,
+    "task": 4,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "task": 4,
+    "metric": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 9,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.6153846153846154,
+  "recall": 0.5,
+  "f1": 0.5517241379310345,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 13,
+    "exact_matches": 2,
+    "exact_matches_with_category": 8,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 1,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

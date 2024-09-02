@@ -1,0 +1,229 @@
+{
+  "doc_key": "ICASSP_2016_11_abs",
+  "gold_entities": [
+    {
+      "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+      "category": "task"
+    },
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "task"
+    },
+    {
+      "entity": "nonstationarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "original signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cramrrao lower bound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "first-order autoregressive model",
+      "category": "method"
+    },
+    {
+      "entity": "separation method",
+      "category": "method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Blind separation",
+      "category": "task"
+    },
+    {
+      "entity": "Underdetermined instantaneous mixtures",
+      "category": "task"
+    },
+    {
+      "entity": "Independent signals",
+      "category": "task"
+    },
+    {
+      "entity": "Nonstationarity",
+      "category": "method"
+    },
+    {
+      "entity": "Piecewise stationarity",
+      "category": "method"
+    },
+    {
+      "entity": "Variance",
+      "category": "metric"
+    },
+    {
+      "entity": "Epochs",
+      "category": "method"
+    },
+    {
+      "entity": "First-order autoregressive model",
+      "category": "method"
+    },
+    {
+      "entity": "Cram\u00e9r-Rao lower bound",
+      "category": "metric"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "nonstationarity",
+      "predicted": "Nonstationarity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "natural speech signals",
+      "predicted": "natural speech signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "first-order autoregressive model",
+      "predicted": "First-order autoregressive model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "cramrrao lower bound",
+      "predicted": "Cram\u00e9r-Rao lower bound",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+      "category": "task"
+    },
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "task"
+    },
+    {
+      "entity": "original signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "separation method",
+      "category": "method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Blind separation",
+      "category": "task"
+    },
+    {
+      "entity": "Underdetermined instantaneous mixtures",
+      "category": "task"
+    },
+    {
+      "entity": "Independent signals",
+      "category": "task"
+    },
+    {
+      "entity": "Piecewise stationarity",
+      "category": "method"
+    },
+    {
+      "entity": "Variance",
+      "category": "metric"
+    },
+    {
+      "entity": "Epochs",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 4,
+    "method": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 4,
+    "metric": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.2222222222222222,
+  "f1": 0.2105263157894737,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 6,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

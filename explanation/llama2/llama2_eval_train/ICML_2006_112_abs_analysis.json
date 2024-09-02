@@ -1,0 +1,183 @@
+{
+  "doc_key": "ICML_2006_112_abs",
+  "gold_entities": [
+    {
+      "entity": "online multiclass learning",
+      "category": "task"
+    },
+    {
+      "entity": "multiclass categorization",
+      "category": "task"
+    },
+    {
+      "entity": "notion of hypothesis sharing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiclass Perceptron",
+      "category": "method"
+    },
+    {
+      "entity": "unifying mistake bound analysis",
+      "category": "method"
+    },
+    {
+      "entity": "online learning process",
+      "category": "method"
+    },
+    {
+      "entity": "synthetic and natural datasets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "online multiclass learning",
+      "category": "task"
+    },
+    {
+      "entity": "hypothesis sharing",
+      "category": "method"
+    },
+    {
+      "entity": "multiclass categorization",
+      "category": "method"
+    },
+    {
+      "entity": "Perceptron",
+      "category": "method"
+    },
+    {
+      "entity": "mistake bound analysis",
+      "category": "method"
+    },
+    {
+      "entity": "synthetic datasets",
+      "category": "material"
+    },
+    {
+      "entity": "natural datasets",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "multiclass categorization",
+      "predicted": "multiclass categorization",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "online multiclass learning",
+      "predicted": "online multiclass learning",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "notion of hypothesis sharing",
+      "predicted": "hypothesis sharing",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "multiclass Perceptron",
+      "predicted": "Perceptron",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unifying mistake bound analysis",
+      "predicted": "mistake bound analysis",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "synthetic and natural datasets",
+      "predicted": "synthetic datasets",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "online learning process",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "method": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.14285714285714285,
+  "f1": 0.14285714285714285,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 0,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

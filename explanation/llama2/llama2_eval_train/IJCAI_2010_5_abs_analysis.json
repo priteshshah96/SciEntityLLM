@@ -1,0 +1,286 @@
+{
+  "doc_key": "IJCAI_2010_5_abs",
+  "gold_entities": [
+    {
+      "entity": "linear classification",
+      "category": "task"
+    },
+    {
+      "entity": "document classification",
+      "category": "task"
+    },
+    {
+      "entity": "training methods",
+      "category": "method"
+    },
+    {
+      "entity": "block minimization framework",
+      "category": "method"
+    },
+    {
+      "entity": "learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "primal and dual SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "computer memory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "memory capacity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "random access",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disk",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "memory size",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disk",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "linear classification",
+      "category": "task"
+    },
+    {
+      "entity": "document classification",
+      "category": "material"
+    },
+    {
+      "entity": "training",
+      "category": "method"
+    },
+    {
+      "entity": "data",
+      "category": "material"
+    },
+    {
+      "entity": "computer memory",
+      "category": "material"
+    },
+    {
+      "entity": "disk",
+      "category": "material"
+    },
+    {
+      "entity": "learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "primal svms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dual svms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "block minimization framework",
+      "category": "method"
+    },
+    {
+      "entity": "data sets",
+      "category": "material"
+    },
+    {
+      "entity": "memory capacity",
+      "category": "material"
+    },
+    {
+      "entity": "traditional algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "experiments",
+      "category": "method"
+    },
+    {
+      "entity": "data sets",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "document classification",
+      "predicted": "document classification",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "computer memory",
+      "predicted": "computer memory",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "memory capacity",
+      "predicted": "memory capacity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "disk",
+      "predicted": "disk",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "linear classification",
+      "predicted": "linear classification",
+      "category": "task"
+    },
+    {
+      "gold": "block minimization framework",
+      "predicted": "block minimization framework",
+      "category": "method"
+    },
+    {
+      "gold": "learning methods",
+      "predicted": "learning methods",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "training methods",
+      "predicted": "training",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "primal and dual SVMs",
+      "predicted": "primal svms",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "random access",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disk",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "memory size",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "data",
+      "category": "material"
+    },
+    {
+      "entity": "data sets",
+      "category": "material"
+    },
+    {
+      "entity": "data sets",
+      "category": "material"
+    },
+    {
+      "entity": "traditional algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "experiments",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "disk|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 7,
+    "method": 5,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.25,
+  "f1": 0.22222222222222224,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 15,
+    "exact_matches": 4,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

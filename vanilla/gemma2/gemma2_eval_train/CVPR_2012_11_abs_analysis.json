@@ -1,0 +1,378 @@
+{
+  "doc_key": "CVPR_2012_11_abs",
+  "gold_entities": [
+    {
+      "entity": "unified variational formulation",
+      "category": "method"
+    },
+    {
+      "entity": "explicit occlusion handling",
+      "category": "method"
+    },
+    {
+      "entity": "multi-label representation of the flow field",
+      "category": "method"
+    },
+    {
+      "entity": "convex formulation",
+      "category": "method"
+    },
+    {
+      "entity": "multi-label Potts model",
+      "category": "method"
+    },
+    {
+      "entity": "Explicit occlusion handling",
+      "category": "method"
+    },
+    {
+      "entity": "primal-dual algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "joint motion estimation and segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "parametric representation of the motion",
+      "category": "task"
+    },
+    {
+      "entity": "classical motion segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "optical flow",
+      "category": "task"
+    },
+    {
+      "entity": "asymmetric map-uniqueness criterion",
+      "category": "metric"
+    },
+    {
+      "entity": "convex constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occlusions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object boundaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "motion segments",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Unified variational formulation",
+      "category": "method"
+    },
+    {
+      "entity": "Joint motion estimation",
+      "category": "task"
+    },
+    {
+      "entity": "Segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Explicit occlusion handling",
+      "category": "method"
+    },
+    {
+      "entity": "Multi-label representation",
+      "category": "method"
+    },
+    {
+      "entity": "Flow field",
+      "category": "metric"
+    },
+    {
+      "entity": "Parametric representation",
+      "category": "method"
+    },
+    {
+      "entity": "Convex formulation",
+      "category": "method"
+    },
+    {
+      "entity": "Multi-label Potts model",
+      "category": "method"
+    },
+    {
+      "entity": "Label costs",
+      "category": "metric"
+    },
+    {
+      "entity": "Asymmetric map-uniqueness criterion",
+      "category": "method"
+    },
+    {
+      "entity": "Convex constraints",
+      "category": "method"
+    },
+    {
+      "entity": "Regularization",
+      "category": "method"
+    },
+    {
+      "entity": "object boundaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Number of objects",
+      "category": "metric"
+    },
+    {
+      "entity": "Fast primal-dual algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Motion segments",
+      "category": "metric"
+    },
+    {
+      "entity": "classical motion segmentation examples",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optical flow examples",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "unified variational formulation",
+      "predicted": "Unified variational formulation",
+      "category": "method"
+    },
+    {
+      "gold": "explicit occlusion handling",
+      "predicted": "Explicit occlusion handling",
+      "category": "method"
+    },
+    {
+      "gold": "convex formulation",
+      "predicted": "Convex formulation",
+      "category": "method"
+    },
+    {
+      "gold": "multi-label Potts model",
+      "predicted": "Multi-label Potts model",
+      "category": "method"
+    },
+    {
+      "gold": "asymmetric map-uniqueness criterion",
+      "predicted": "Asymmetric map-uniqueness criterion",
+      "category": "metric"
+    },
+    {
+      "gold": "convex constraints",
+      "predicted": "Convex constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "regularization",
+      "predicted": "Regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "object boundaries",
+      "predicted": "object boundaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "motion segments",
+      "predicted": "Motion segments",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "primal-dual algorithm",
+      "predicted": "Fast primal-dual algorithm",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "classical motion segmentation",
+      "predicted": "classical motion segmentation examples",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "optical flow",
+      "predicted": "optical flow examples",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "joint motion estimation and segmentation",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "joint motion estimation",
+          "matched": "Joint motion estimation",
+          "predicted_category": "task"
+        },
+        {
+          "part": "segmentation",
+          "matched": "Segmentation",
+          "predicted_category": "task"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "category_matches": [
+    {
+      "entity": "unified variational formulation",
+      "category": "method"
+    },
+    {
+      "entity": "explicit occlusion handling",
+      "category": "method"
+    },
+    {
+      "entity": "convex formulation",
+      "category": "method"
+    },
+    {
+      "entity": "multi-label Potts model",
+      "category": "method"
+    },
+    {
+      "entity": "object boundaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "joint motion estimation and segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "primal-dual algorithm",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multi-label representation of the flow field",
+      "category": "method"
+    },
+    {
+      "entity": "Explicit occlusion handling",
+      "category": "method"
+    },
+    {
+      "entity": "parametric representation of the motion",
+      "category": "task"
+    },
+    {
+      "entity": "occlusions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Multi-label representation",
+      "category": "method"
+    },
+    {
+      "entity": "Flow field",
+      "category": "metric"
+    },
+    {
+      "entity": "Parametric representation",
+      "category": "method"
+    },
+    {
+      "entity": "Label costs",
+      "category": "metric"
+    },
+    {
+      "entity": "Number of objects",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "task": 4,
+    "metric": 1,
+    "otherscientificterm": 5
+  },
+  "predicted_category_counts": {
+    "method": 10,
+    "task": 2,
+    "metric": 4,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 7,
+      "predicted": 10,
+      "exact_matches": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 2,
+      "split_matches": 1
+    }
+  },
+  "precision": 0.10526315789473684,
+  "recall": 0.11764705882352941,
+  "f1": 0.1111111111111111,
+  "category_precision": 0.6842105263157895,
+  "category_recall": 0.7647058823529411,
+  "category_f1": 0.7222222222222222,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 19,
+    "exact_matches": 9,
+    "partial_matches": 3,
+    "split_matches": 1,
+    "category_matches": 7,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 5,
+    "generic_entities": 1,
+    "correct_predictions": 2,
+    "correct_categories": 13
+  }
+}

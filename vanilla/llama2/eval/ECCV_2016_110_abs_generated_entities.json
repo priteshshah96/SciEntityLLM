@@ -1,0 +1,195 @@
+{
+  "gold_entities": [
+    {
+      "entity": "large datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "large datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "high-capacity models",
+      "category": "Method"
+    },
+    {
+      "entity": "computer vision",
+      "category": "Task"
+    },
+    {
+      "entity": "pixel-level labels",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pixel-accurate semantic label maps",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "modern computer games",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "high-capacity models",
+      "category": "Task"
+    },
+    {
+      "entity": "large datasets",
+      "category": "Task"
+    },
+    {
+      "entity": "pixel-level labels",
+      "category": "Task"
+    },
+    {
+      "entity": "human effort",
+      "category": "Task"
+    },
+    {
+      "entity": "computer games",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantic label maps",
+      "category": "Method"
+    },
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "label maps",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "high-capacity models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "high-capacity models",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "large datasets",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "large datasets",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pixel-level labels",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "pixel-level labels",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "images",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "images",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "pixel-accurate semantic label maps",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "semantic label maps",
+          "category": "Method"
+        },
+        {
+          "entity": "label maps",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "modern computer games",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "computer games",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "large datasets",
+      "category": "Material"
+    },
+    {
+      "entity": "computer vision",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "human effort",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "large datasets": 2
+  },
+  "distinct_repeated_entities": [
+    "large datasets"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 8,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

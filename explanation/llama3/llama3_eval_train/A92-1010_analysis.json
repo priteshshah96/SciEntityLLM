@@ -1,0 +1,175 @@
+{
+  "doc_key": "A92-1010",
+  "gold_entities": [
+    {
+      "entity": "cognitively well-motivated interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "natural language generation",
+      "category": "task"
+    },
+    {
+      "entity": "display of graphical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphical information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "cognitively well-motivated interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "graphical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "display of graphical information",
+      "category": "method"
+    },
+    {
+      "entity": "graphical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information of the wrong kind",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language generation",
+      "category": "method"
+    },
+    {
+      "entity": "interaction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "integration",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language generation",
+      "predicted": "natural language generation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "display of graphical information",
+      "predicted": "display of graphical information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "cognitively well-motivated interfaces",
+      "predicted": "cognitively well-motivated interfaces",
+      "category": "task"
+    },
+    {
+      "gold": "graphical information",
+      "predicted": "graphical information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "graphical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information of the wrong kind",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interaction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "integration",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 6,
+    "method": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.5,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

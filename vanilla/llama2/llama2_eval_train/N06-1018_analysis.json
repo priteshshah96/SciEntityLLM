@@ -1,0 +1,239 @@
+{
+  "doc_key": "N06-1018",
+  "gold_entities": [
+    {
+      "entity": "temporal information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal expressions in newswire texts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraintbased representation of time",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "time calculus for natural language tcnl",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "task"
+    },
+    {
+      "entity": "newswire texts",
+      "category": "material"
+    },
+    {
+      "entity": "emails",
+      "category": "material"
+    },
+    {
+      "entity": "Temporal Expression Anchoror (TEA)",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Temporal information",
+      "category": "task"
+    },
+    {
+      "entity": "Natural language applications",
+      "category": "task"
+    },
+    {
+      "entity": "Temporal expressions",
+      "category": "task"
+    },
+    {
+      "entity": "Time Calculus for Natural Language",
+      "category": "method"
+    },
+    {
+      "entity": "Temporal Expression Anchoror",
+      "category": "method"
+    },
+    {
+      "entity": "Baseline",
+      "category": "method"
+    },
+    {
+      "entity": "Constraint-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "Emails",
+      "category": "material"
+    },
+    {
+      "entity": "Newswire texts",
+      "category": "material"
+    },
+    {
+      "entity": "time",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "temporal information",
+      "predicted": "Temporal information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "temporal expressions",
+      "predicted": "Temporal expressions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "natural language applications",
+      "predicted": "Natural language applications",
+      "category": "task"
+    },
+    {
+      "gold": "newswire texts",
+      "predicted": "Newswire texts",
+      "category": "material"
+    },
+    {
+      "gold": "emails",
+      "predicted": "Emails",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "time calculus for natural language tcnl",
+      "predicted": "Time Calculus for Natural Language",
+      "score": 0.8333333333333334,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "Temporal Expression Anchoror (TEA)",
+      "predicted": "Temporal Expression Anchoror",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "temporal expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal expressions in newswire texts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraintbased representation of time",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Baseline",
+      "category": "method"
+    },
+    {
+      "entity": "Constraint-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "time",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "temporal expressions|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 6,
+    "task": 1,
+    "material": 2,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 4,
+    "material": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.3,
+  "f1": 0.3,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

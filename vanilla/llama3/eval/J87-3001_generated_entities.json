@@ -1,0 +1,328 @@
+{
+  "gold_entities": [
+    {
+      "entity": "longman dictionary of contemporary english",
+      "category": "Material"
+    },
+    {
+      "entity": "incomplete lexicon",
+      "category": "Material"
+    },
+    {
+      "entity": "hierarchy of phrasal patterns",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language processing systems",
+      "category": "Method"
+    },
+    {
+      "entity": "classification of new word senses",
+      "category": "Task"
+    },
+    {
+      "entity": "robustness problems",
+      "category": "Task"
+    },
+    {
+      "entity": "dictionary word sense definitions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "restricted vocabulary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "word sense definitions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "restricted vocabulary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "phrasal analysis rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "incomplete knowledge of phrasal constructions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "hierarchical pattern",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "restricted vocabulary",
+      "category": "Material"
+    },
+    {
+      "entity": "phrasal patterns",
+      "category": "Method"
+    },
+    {
+      "entity": "word sense definitions",
+      "category": "Material"
+    },
+    {
+      "entity": "longman dictionary of contemporary english",
+      "category": "Material"
+    },
+    {
+      "entity": "experimental system",
+      "category": "Task"
+    },
+    {
+      "entity": "phrasal analysis rules",
+      "category": "Method"
+    },
+    {
+      "entity": "patterns",
+      "category": "Method"
+    },
+    {
+      "entity": "analysis mechanism",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language processing systems",
+      "category": "Task"
+    },
+    {
+      "entity": "lexicon",
+      "category": "Material"
+    },
+    {
+      "entity": "knowledge",
+      "category": "Material"
+    },
+    {
+      "entity": "phrasal constructions",
+      "category": "Method"
+    },
+    {
+      "entity": "classification",
+      "category": "Task"
+    },
+    {
+      "entity": "word senses",
+      "category": "Material"
+    },
+    {
+      "entity": "dictionary",
+      "category": "Material"
+    },
+    {
+      "entity": "definition",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "mechanism",
+      "category": "Generic"
+    },
+    {
+      "entity": "dictionary",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "restricted vocabulary",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "restricted vocabulary",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word sense definitions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "word sense definitions",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "longman dictionary of contemporary english",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "longman dictionary of contemporary english",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "phrasal analysis rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "phrasal analysis rules",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language processing systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "natural language processing systems",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "longman dictionary of contemporary english",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "longman dictionary of contemporary english",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "hierarchy of phrasal patterns",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "phrasal patterns",
+          "category": "Method"
+        },
+        {
+          "entity": "patterns",
+          "category": "Method"
+        },
+        {
+          "entity": "phrasal constructions",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.5
+    },
+    {
+      "gold": {
+        "entity": "classification of new word senses",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "classification",
+          "category": "Task"
+        },
+        {
+          "entity": "word senses",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "incomplete lexicon",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "lexicon",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "dictionary word sense definitions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dictionary",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "incomplete knowledge of phrasal constructions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "knowledge",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "robustness problems",
+      "category": "Task"
+    },
+    {
+      "entity": "restricted vocabulary",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "hierarchical pattern",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "experimental system",
+      "category": "Task"
+    },
+    {
+      "entity": "analysis mechanism",
+      "category": "Task"
+    },
+    {
+      "entity": "definition",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "restricted vocabulary": 2
+  },
+  "distinct_repeated_entities": [
+    "restricted vocabulary"
+  ],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 17,
+    "generic_count": 5,
+    "exact_matches": 5,
+    "exact_category_matches": 1,
+    "split_matches": 2,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ill-formed input",
+      "category": "Material"
+    },
+    {
+      "entity": "stereotypic dialogue",
+      "category": "Material"
+    },
+    {
+      "entity": "dialogue acquisition and tracking algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "voice interactive system",
+      "category": "Method"
+    },
+    {
+      "entity": "error correction methodology",
+      "category": "Method"
+    },
+    {
+      "entity": "error correction",
+      "category": "Task"
+    },
+    {
+      "entity": "error correction",
+      "category": "Task"
+    },
+    {
+      "entity": "parsing",
+      "category": "Task"
+    },
+    {
+      "entity": "dialogue patterns",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "error correction",
+      "category": "Task"
+    },
+    {
+      "entity": "ill-formed input",
+      "category": "Material"
+    },
+    {
+      "entity": "dialogue patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parsing",
+      "category": "Method"
+    },
+    {
+      "entity": "expected meanings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "clear evidence",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "stereotypic dialogue",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "implementation",
+      "category": "Method"
+    },
+    {
+      "entity": "voice interactive system",
+      "category": "Material"
+    },
+    {
+      "entity": "tests",
+      "category": "Task"
+    },
+    {
+      "entity": "power of the error correction methodology",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "patterns",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "error correction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "error correction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ill-formed input",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "ill-formed input",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dialogue patterns",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dialogue patterns",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parsing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "parsing",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "stereotypic dialogue",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "stereotypic dialogue",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "voice interactive system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "voice interactive system",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "error correction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "error correction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ill-formed input",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "ill-formed input",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dialogue patterns",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dialogue patterns",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dialogue acquisition and tracking algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "error correction methodology",
+      "category": "Method"
+    },
+    {
+      "entity": "error correction",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "expected meanings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "clear evidence",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "implementation",
+      "category": "Method"
+    },
+    {
+      "entity": "tests",
+      "category": "Task"
+    },
+    {
+      "entity": "power of the error correction methodology",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "error correction": 2
+  },
+  "distinct_repeated_entities": [
+    "error correction"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 11,
+    "generic_count": 2,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

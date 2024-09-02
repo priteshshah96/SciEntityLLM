@@ -1,0 +1,249 @@
+{
+  "doc_key": "C00-2123",
+  "gold_entities": [
+    {
+      "entity": "statistical machine translation (MT)",
+      "category": "Task"
+    },
+    {
+      "entity": "limited-domain spoken-language task",
+      "category": "Task"
+    },
+    {
+      "entity": "dynamic programming (DP)",
+      "category": "Method"
+    },
+    {
+      "entity": "DP-based solution",
+      "category": "Method"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "Method"
+    },
+    {
+      "entity": "search algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "word reordering",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "Verbmobil task",
+      "category": "Material"
+    },
+    {
+      "entity": "German-English",
+      "category": "Material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Dynamic Programming",
+      "category": "Method"
+    },
+    {
+      "entity": "Statistical Machine Translation",
+      "category": "Other-Scientific-Term"
+    },
+    {
+      "entity": "Traveling Salesman Problem",
+      "category": "Other-Scientific-Term"
+    },
+    {
+      "entity": "Word Reordering",
+      "category": "Other-Scientific-Term"
+    },
+    {
+      "entity": "Verbmobil Task",
+      "category": "Material"
+    },
+    {
+      "entity": "Limited-Domain Spoken-Language Task",
+      "category": "Material"
+    },
+    {
+      "entity": "German",
+      "category": "Material"
+    },
+    {
+      "entity": "English",
+      "category": "Material"
+    },
+    {
+      "entity": "Source Language",
+      "category": "Material"
+    },
+    {
+      "entity": "Target Language",
+      "category": "Material"
+    },
+    {
+      "entity": "Search Procedure",
+      "category": "Task"
+    },
+    {
+      "entity": "Search Algorithm",
+      "category": "Task"
+    },
+    {
+      "entity": "Efficient Search Algorithm",
+      "category": "Task"
+    },
+    {
+      "entity": "Experimental Tests",
+      "category": "Task"
+    },
+    {
+      "entity": "Metric",
+      "category": "Metric"
+    },
+    {
+      "entity": "Vocabulary",
+      "category": "Material"
+    },
+    {
+      "entity": "Domain",
+      "category": "Material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "entity": "limited-domain spoken-language task",
+      "category": "Task"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "Method"
+    },
+    {
+      "entity": "search algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "word reordering",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "Verbmobil task",
+      "category": "Material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "statistical machine translation (MT)",
+      "predicted": "Statistical Machine Translation",
+      "score": 0.5,
+      "gold_category": "Task",
+      "predicted_category": "Other-Scientific-Term"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "Verbmobil task",
+      "category": "Material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dynamic programming (DP)",
+      "category": "Method"
+    },
+    {
+      "entity": "DP-based solution",
+      "category": "Method"
+    },
+    {
+      "entity": "German-English",
+      "category": "Material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Dynamic Programming",
+      "category": "Method"
+    },
+    {
+      "entity": "German",
+      "category": "Material"
+    },
+    {
+      "entity": "English",
+      "category": "Material"
+    },
+    {
+      "entity": "Source Language",
+      "category": "Material"
+    },
+    {
+      "entity": "Target Language",
+      "category": "Material"
+    },
+    {
+      "entity": "Search Procedure",
+      "category": "Task"
+    },
+    {
+      "entity": "Efficient Search Algorithm",
+      "category": "Task"
+    },
+    {
+      "entity": "Experimental Tests",
+      "category": "Task"
+    },
+    {
+      "entity": "Metric",
+      "category": "Metric"
+    },
+    {
+      "entity": "Vocabulary",
+      "category": "Material"
+    },
+    {
+      "entity": "Domain",
+      "category": "Material"
+    }
+  ],
+  "repeated_gold_entities": {},
+  "generic_entities": [
+    "search procedure",
+    "technique"
+  ],
+  "gold_category_counts": {
+    "Task": 2,
+    "Method": 4,
+    "OtherScientificTerm": 1,
+    "Material": 2
+  },
+  "predicted_category_counts": {
+    "Method": 1,
+    "Other-Scientific-Term": 3,
+    "Material": 8,
+    "Task": 4,
+    "Metric": 1
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.29411764705882354,
+  "category_recall": 0.5555555555555556,
+  "category_f1": 0.3846153846153846,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 17,
+    "exact_matches": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 11,
+    "repeated_gold_entities": 0,
+    "generic_entities": 2,
+    "correct_predictions": 0,
+    "correct_categories": 5
+  }
+}

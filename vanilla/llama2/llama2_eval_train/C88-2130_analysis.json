@@ -1,0 +1,155 @@
+{
+  "doc_key": "C88-2130",
+  "gold_entities": [
+    {
+      "entity": "discourse task",
+      "category": "task"
+    },
+    {
+      "entity": "APT",
+      "category": "method"
+    },
+    {
+      "entity": "organizational and discourse strategies",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Computational model",
+      "category": "task"
+    },
+    {
+      "entity": "linguistic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Discourse task",
+      "category": "task"
+    },
+    {
+      "entity": "Program",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Organizational strategies",
+      "category": "method"
+    },
+    {
+      "entity": "Discourse strategies",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "discourse task",
+      "predicted": "Discourse task",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "organizational and discourse strategies",
+      "predicted": "Organizational strategies",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "APT",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Computational model",
+      "category": "task"
+    },
+    {
+      "entity": "linguistic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Program",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "method": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.3333333333333333,
+  "f1": 0.2,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 7,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

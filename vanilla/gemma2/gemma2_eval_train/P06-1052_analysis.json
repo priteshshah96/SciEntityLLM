@@ -1,0 +1,256 @@
+{
+  "doc_key": "P06-1052",
+  "gold_entities": [
+    {
+      "entity": "redundancy elimination problem",
+      "category": "task"
+    },
+    {
+      "entity": "underspecified semantic representation (USR)",
+      "category": "method"
+    },
+    {
+      "entity": "USR",
+      "category": "method"
+    },
+    {
+      "entity": "underspecified chart representations",
+      "category": "method"
+    },
+    {
+      "entity": "USRs",
+      "category": "method"
+    },
+    {
+      "entity": "large-scale grammars",
+      "category": "method"
+    },
+    {
+      "entity": "scope ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dominance graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "degree of ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "equivalent readings",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "redundancy elimination problem",
+      "category": "task"
+    },
+    {
+      "entity": "semantic representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scope ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "usr",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "equivalent readings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "chart representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dominance graph",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largescale grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "runtime",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "redundancy elimination problem",
+      "predicted": "redundancy elimination problem",
+      "category": "task"
+    },
+    {
+      "gold": "USR",
+      "predicted": "usr",
+      "category": "method"
+    },
+    {
+      "gold": "scope ambiguity",
+      "predicted": "scope ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "equivalent readings",
+      "predicted": "equivalent readings",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "redundancy elimination problem",
+      "category": "task"
+    },
+    {
+      "entity": "scope ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "underspecified semantic representation (USR)",
+      "category": "method"
+    },
+    {
+      "entity": "underspecified chart representations",
+      "category": "method"
+    },
+    {
+      "entity": "USRs",
+      "category": "method"
+    },
+    {
+      "entity": "large-scale grammars",
+      "category": "method"
+    },
+    {
+      "entity": "dominance graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "degree of ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "semantic representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "chart representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dominance graph",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largescale grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "runtime",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 5,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 8,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 8,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.2,
+  "f1": 0.1904761904761905,
+  "category_precision": 0.45454545454545453,
+  "category_recall": 0.5,
+  "category_f1": 0.47619047619047616,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 7,
+    "generic_entities": 5,
+    "correct_predictions": 2,
+    "correct_categories": 5
+  }
+}

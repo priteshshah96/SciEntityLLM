@@ -1,0 +1,295 @@
+{
+  "doc_key": "P01-1056",
+  "gold_entities": [
+    {
+      "entity": "automatically training  modules",
+      "category": "method"
+    },
+    {
+      "entity": "natural language generator",
+      "category": "method"
+    },
+    {
+      "entity": "trainable components",
+      "category": "method"
+    },
+    {
+      "entity": "hand-crafted template-based or rule-based approaches",
+      "category": "method"
+    },
+    {
+      "entity": "trainable sentence planner",
+      "category": "method"
+    },
+    {
+      "entity": "spoken dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "hand-crafted template-based generation component",
+      "category": "method"
+    },
+    {
+      "entity": "rule-based sentence planners",
+      "category": "method"
+    },
+    {
+      "entity": "baseline sentence planners",
+      "category": "method"
+    },
+    {
+      "entity": "trainable sentence planner",
+      "category": "method"
+    },
+    {
+      "entity": "rule-based systems",
+      "category": "method"
+    },
+    {
+      "entity": "hand-crafted system",
+      "category": "method"
+    },
+    {
+      "entity": "quality  of  utterances",
+      "category": "metric"
+    },
+    {
+      "entity": "utterances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subjective human judgments",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Natural language generator",
+      "category": "task"
+    },
+    {
+      "entity": "Trainable components",
+      "category": "task"
+    },
+    {
+      "entity": "Utterances",
+      "category": "task"
+    },
+    {
+      "entity": "Sentence planner",
+      "category": "task"
+    },
+    {
+      "entity": "Spoken dialogue system",
+      "category": "task"
+    },
+    {
+      "entity": "Hand-crafted template-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "Rule-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "baseline sentence planners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Subjective human judgments",
+      "category": "metric"
+    },
+    {
+      "entity": "Exhaustive comparison",
+      "category": "task"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language generator",
+      "predicted": "Natural language generator",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "trainable components",
+      "predicted": "Trainable components",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "spoken dialogue system",
+      "predicted": "Spoken dialogue system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "baseline sentence planners",
+      "predicted": "baseline sentence planners",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "utterances",
+      "predicted": "Utterances",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "subjective human judgments",
+      "predicted": "Subjective human judgments",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "trainable sentence planner",
+      "predicted": "Sentence planner",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatically training  modules",
+      "category": "method"
+    },
+    {
+      "entity": "hand-crafted template-based or rule-based approaches",
+      "category": "method"
+    },
+    {
+      "entity": "trainable sentence planner",
+      "category": "method"
+    },
+    {
+      "entity": "hand-crafted template-based generation component",
+      "category": "method"
+    },
+    {
+      "entity": "rule-based sentence planners",
+      "category": "method"
+    },
+    {
+      "entity": "rule-based systems",
+      "category": "method"
+    },
+    {
+      "entity": "hand-crafted system",
+      "category": "method"
+    },
+    {
+      "entity": "quality  of  utterances",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Hand-crafted template-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "Rule-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "handcrafted system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Exhaustive comparison",
+      "category": "task"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "trainable sentence planner|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 12,
+    "metric": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 7,
+    "method": 2,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 12,
+      "predicted": 2,
+      "exact_matches": 4,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 12,
+    "exact_matches": 6,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

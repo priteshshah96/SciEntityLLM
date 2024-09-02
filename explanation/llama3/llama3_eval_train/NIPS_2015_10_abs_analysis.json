@@ -1,0 +1,279 @@
+{
+  "doc_key": "NIPS_2015_10_abs",
+  "gold_entities": [
+    {
+      "entity": "non-uniform sampling strategies",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic optimization algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic Variance Reduced Gradient (SVRG)",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic Dual Coordinate Ascent (SDCA)",
+      "category": "method"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data dependent local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "loss functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optimum",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "convergence guarantees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "penalized empirical risk minimization problems",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "non-uniform sampling strategies",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic optimization algorithms",
+      "category": "task"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "metric"
+    },
+    {
+      "entity": "Stochastic Variance Reduced Gradient (SVRG)",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic Dual Coordinate Ascent (SDCA)",
+      "category": "method"
+    },
+    {
+      "entity": "penalized empirical risk minimization problems",
+      "category": "material"
+    },
+    {
+      "entity": "data dependent local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "loss functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optimum",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "numerical results",
+      "category": "material"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "stochastic optimization algorithms",
+      "predicted": "stochastic optimization algorithms",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "linear convergence",
+      "predicted": "linear convergence",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "penalized empirical risk minimization problems",
+      "predicted": "penalized empirical risk minimization problems",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "non-uniform sampling strategies",
+      "predicted": "non-uniform sampling strategies",
+      "category": "method"
+    },
+    {
+      "gold": "Stochastic Variance Reduced Gradient (SVRG)",
+      "predicted": "Stochastic Variance Reduced Gradient (SVRG)",
+      "category": "method"
+    },
+    {
+      "gold": "Stochastic Dual Coordinate Ascent (SDCA)",
+      "predicted": "Stochastic Dual Coordinate Ascent (SDCA)",
+      "category": "method"
+    },
+    {
+      "gold": "data dependent local smoothness",
+      "predicted": "data dependent local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "loss functions",
+      "predicted": "loss functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "optimum",
+      "predicted": "optimum",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "local smoothness",
+      "predicted": "local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "local smoothness",
+      "predicted": "local smoothness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "convergence guarantees",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "numerical results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "local smoothness|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 7,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "task": 1,
+    "metric": 1,
+    "material": 2,
+    "otherscientificterm": 5
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5714285714285714,
+  "recall": 0.6666666666666666,
+  "f1": 0.6153846153846153,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 3,
+    "exact_matches_with_category": 8,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

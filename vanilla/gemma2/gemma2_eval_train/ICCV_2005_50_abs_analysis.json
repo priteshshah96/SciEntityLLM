@@ -1,0 +1,303 @@
+{
+  "doc_key": "ICCV_2005_50_abs",
+  "gold_entities": [
+    {
+      "entity": "object category recognition",
+      "category": "task"
+    },
+    {
+      "entity": "supervision",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object category",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "visual words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intraclass variability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unrelated images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image search engines",
+      "category": "method"
+    },
+    {
+      "entity": "TSI-pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "search engines",
+      "category": "method"
+    },
+    {
+      "entity": "hand prepared datasets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Manual preparation",
+      "category": "task"
+    },
+    {
+      "entity": "Object category recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Training images",
+      "category": "material"
+    },
+    {
+      "entity": "Image search engines",
+      "category": "method"
+    },
+    {
+      "entity": "pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "Visual words",
+      "category": "method"
+    },
+    {
+      "entity": "Spatial information",
+      "category": "metric"
+    },
+    {
+      "entity": "Translation",
+      "category": "method"
+    },
+    {
+      "entity": "Scale invariance",
+      "category": "method"
+    },
+    {
+      "entity": "Intra-class variability",
+      "category": "metric"
+    },
+    {
+      "entity": "Unrelated images",
+      "category": "material"
+    },
+    {
+      "entity": "Test sets",
+      "category": "material"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "existing methods",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hand-prepared datasets",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "object category recognition",
+      "predicted": "Object category recognition",
+      "category": "task"
+    },
+    {
+      "gold": "visual words",
+      "predicted": "Visual words",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "spatial information",
+      "predicted": "Spatial information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "unrelated images",
+      "predicted": "Unrelated images",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "image search engines",
+      "predicted": "Image search engines",
+      "category": "method"
+    },
+    {
+      "gold": "pLSA",
+      "predicted": "pLSA",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "object category recognition",
+      "category": "task"
+    },
+    {
+      "entity": "image search engines",
+      "category": "method"
+    },
+    {
+      "entity": "pLSA",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "supervision",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object category",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intraclass variability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "TSI-pLSA",
+      "category": "method"
+    },
+    {
+      "entity": "search engines",
+      "category": "method"
+    },
+    {
+      "entity": "hand prepared datasets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Manual preparation",
+      "category": "task"
+    },
+    {
+      "entity": "Training images",
+      "category": "material"
+    },
+    {
+      "entity": "Translation",
+      "category": "method"
+    },
+    {
+      "entity": "Scale invariance",
+      "category": "method"
+    },
+    {
+      "entity": "Intra-class variability",
+      "category": "metric"
+    },
+    {
+      "entity": "Test sets",
+      "category": "material"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "existing methods",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hand-prepared datasets",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 6,
+    "method": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 4,
+    "method": 5,
+    "metric": 3,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.06666666666666667,
+  "recall": 0.08333333333333333,
+  "f1": 0.07407407407407407,
+  "category_precision": 0.4666666666666667,
+  "category_recall": 0.5833333333333334,
+  "category_f1": 0.5185185185185186,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 15,
+    "exact_matches": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 9,
+    "generic_entities": 8,
+    "correct_predictions": 1,
+    "correct_categories": 7
+  }
+}

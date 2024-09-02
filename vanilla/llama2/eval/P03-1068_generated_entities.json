@@ -1,0 +1,172 @@
+{
+  "gold_entities": [
+    {
+      "entity": "semantically annotated corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "annotated data",
+      "category": "Material"
+    },
+    {
+      "entity": "frame semantics paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "semantic annotation",
+      "category": "Method"
+    },
+    {
+      "entity": "large-scale acquisition of word-semantic information",
+      "category": "Task"
+    },
+    {
+      "entity": "construction of domain-independent lexica",
+      "category": "Task"
+    },
+    {
+      "entity": "annotation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantic roles",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "vagueness",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "lexica",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frame semantics",
+      "category": "Method"
+    },
+    {
+      "entity": "semantic roles",
+      "category": "Task"
+    },
+    {
+      "entity": "vagueness",
+      "category": "Metric"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "semantic roles",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "semantic roles",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "vagueness",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "vagueness",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ambiguity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ambiguity",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "semantically annotated corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "corpus",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "frame semantics paradigm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "frame semantics",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "construction of domain-independent lexica",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "lexica",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "annotated data",
+      "category": "Material"
+    },
+    {
+      "entity": "semantic annotation",
+      "category": "Method"
+    },
+    {
+      "entity": "large-scale acquisition of word-semantic information",
+      "category": "Task"
+    },
+    {
+      "entity": "annotation",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 6,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 0,
+    "split_matches": 0,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

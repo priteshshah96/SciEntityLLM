@@ -1,0 +1,252 @@
+{
+  "doc_key": "C96-1062",
+  "gold_entities": [
+    {
+      "entity": "domain independent model",
+      "category": "method"
+    },
+    {
+      "entity": "Pustejovsky's principles",
+      "category": "method"
+    },
+    {
+      "entity": "automated interpretation  of  nominal compounds",
+      "category": "task"
+    },
+    {
+      "entity": "interpretation  of  compounds",
+      "category": "task"
+    },
+    {
+      "entity": "nominal compounds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "productive rules of interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morphosyntactic and semantic characteristics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nominal constituents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predicative information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nominals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generalizable semantic principles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainspecific semantic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "domain independent model",
+      "category": "method"
+    },
+    {
+      "entity": "automated interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "nominal compounds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morpho-syntactic and semantic characteristics",
+      "category": "material"
+    },
+    {
+      "entity": "pustejovskys principles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "predicative information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generalizable semantic principles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainspecific semantic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complementary semantic information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "domain independent model",
+      "predicted": "domain independent model",
+      "category": "method"
+    },
+    {
+      "gold": "nominal compounds",
+      "predicted": "nominal compounds",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "predicative information",
+      "predicted": "predicative information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "generalizable semantic principles",
+      "predicted": "generalizable semantic principles",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "domainspecific semantic information",
+      "predicted": "domainspecific semantic information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "morphosyntactic and semantic characteristics",
+      "predicted": "morpho-syntactic and semantic characteristics",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "semantic information",
+      "predicted": "complementary semantic information",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Pustejovsky's principles",
+      "category": "method"
+    },
+    {
+      "entity": "automated interpretation  of  nominal compounds",
+      "category": "task"
+    },
+    {
+      "entity": "interpretation  of  compounds",
+      "category": "task"
+    },
+    {
+      "entity": "productive rules of interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nominal constituents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nominals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "automated interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "pustejovskys principles",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 2,
+    "otherscientificterm": 9,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "task": 1,
+    "otherscientificterm": 6,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5555555555555556,
+  "recall": 0.35714285714285715,
+  "f1": 0.43478260869565216,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 9,
+    "exact_matches": 0,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

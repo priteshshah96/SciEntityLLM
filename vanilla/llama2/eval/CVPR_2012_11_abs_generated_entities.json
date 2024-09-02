@@ -1,0 +1,330 @@
+{
+  "gold_entities": [
+    {
+      "entity": "unified variational formulation",
+      "category": "Method"
+    },
+    {
+      "entity": "explicit occlusion handling",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-label representation of the flow field",
+      "category": "Method"
+    },
+    {
+      "entity": "convex formulation",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-label potts model",
+      "category": "Method"
+    },
+    {
+      "entity": "explicit occlusion handling",
+      "category": "Method"
+    },
+    {
+      "entity": "primal-dual algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "asymmetric map-uniqueness criterion",
+      "category": "Metric"
+    },
+    {
+      "entity": "joint motion estimation and segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "parametric representation of the motion",
+      "category": "Task"
+    },
+    {
+      "entity": "classical motion segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "optical flow",
+      "category": "Task"
+    },
+    {
+      "entity": "convex constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "regularization",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occlusions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "object boundaries",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "motion segments",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "motion estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "occlusion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "potts model",
+      "category": "Method"
+    },
+    {
+      "entity": "convex formulation",
+      "category": "Method"
+    },
+    {
+      "entity": "map-uniqueness criterion",
+      "category": "Method"
+    },
+    {
+      "entity": "primal-dual algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "object boundaries",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "classical motion segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "optical flow",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "formulation",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "convex formulation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "convex formulation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "primal-dual algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "primal-dual algorithm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "object boundaries",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "object boundaries",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classical motion segmentation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "classical motion segmentation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "optical flow",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "optical flow",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "convex formulation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "convex formulation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "primal-dual algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "primal-dual algorithm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "object boundaries",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "object boundaries",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classical motion segmentation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "classical motion segmentation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "optical flow",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "optical flow",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "joint motion estimation and segmentation",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "motion estimation",
+          "category": "Task"
+        },
+        {
+          "entity": "segmentation",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "explicit occlusion handling",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "occlusion",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "multi-label potts model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "potts model",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "asymmetric map-uniqueness criterion",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "map-uniqueness criterion",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "unified variational formulation",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-label representation of the flow field",
+      "category": "Method"
+    },
+    {
+      "entity": "explicit occlusion handling",
+      "category": "Method"
+    },
+    {
+      "entity": "parametric representation of the motion",
+      "category": "Task"
+    },
+    {
+      "entity": "convex constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "regularization",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occlusions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "motion segments",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "explicit occlusion handling": 2
+  },
+  "distinct_repeated_entities": [
+    "explicit occlusion handling"
+  ],
+  "counts": {
+    "gold_count": 17,
+    "generated_count": 10,
+    "generic_count": 1,
+    "exact_matches": 5,
+    "exact_category_matches": 5,
+    "split_matches": 1,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "doc_key": "A97-1028",
+  "gold_entities": [
+    {
+      "entity": "Named Entity task",
+      "category": "task"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "task"
+    },
+    {
+      "entity": "statistical analysis",
+      "category": "method"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "method"
+    },
+    {
+      "entity": "Named Entity corpora",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Named Entity task",
+      "category": "task"
+    },
+    {
+      "entity": "information extraction task",
+      "category": "task"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "metric"
+    },
+    {
+      "entity": "statistical analysis",
+      "category": "method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "lower bound estimation",
+      "category": "task"
+    },
+    {
+      "entity": "Named Entity corpora",
+      "category": "material"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analysis",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "lower bound estimation",
+      "predicted": "lower bound estimation",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Named Entity task",
+      "predicted": "Named Entity task",
+      "category": "task"
+    },
+    {
+      "gold": "information extraction task",
+      "predicted": "information extraction task",
+      "category": "task"
+    },
+    {
+      "gold": "statistical analysis",
+      "predicted": "statistical analysis",
+      "category": "method"
+    },
+    {
+      "gold": "Named Entity corpora",
+      "predicted": "Named Entity corpora",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "metric"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "crosslingual comparisons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analysis",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "material": 3,
+    "metric": 1,
+    "method": 3,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.8,
+  "f1": 0.5000000000000001,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

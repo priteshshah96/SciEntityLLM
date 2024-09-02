@@ -1,0 +1,287 @@
+{
+  "doc_key": "P06-1018",
+  "gold_entities": [
+    {
+      "entity": "mathematical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "grammar formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "rewriting systems",
+      "category": "method"
+    },
+    {
+      "entity": "dependency grammars",
+      "category": "method"
+    },
+    {
+      "entity": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "elementary structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hpsg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lfg",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "mathematical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strings",
+      "category": "material"
+    },
+    {
+      "entity": "trees",
+      "category": "material"
+    },
+    {
+      "entity": "dags",
+      "category": "material"
+    },
+    {
+      "entity": "graphs",
+      "category": "material"
+    },
+    {
+      "entity": "polarization",
+      "category": "method"
+    },
+    {
+      "entity": "saturation",
+      "category": "metric"
+    },
+    {
+      "entity": "elementary structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammar formalisms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rewriting systems",
+      "category": "task"
+    },
+    {
+      "entity": "dependency grammars",
+      "category": "task"
+    },
+    {
+      "entity": "TAG",
+      "category": "task"
+    },
+    {
+      "entity": "HPSG",
+      "category": "task"
+    },
+    {
+      "entity": "LFG",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "grammar formalisms",
+      "predicted": "grammar formalisms",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "rewriting systems",
+      "predicted": "rewriting systems",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "dependency grammars",
+      "predicted": "dependency grammars",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "strings",
+      "predicted": "strings",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "trees",
+      "predicted": "trees",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "dags",
+      "predicted": "dags",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "graphs",
+      "predicted": "graphs",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "polarization",
+      "predicted": "polarization",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "tag",
+      "predicted": "TAG",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "hpsg",
+      "predicted": "HPSG",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "lfg",
+      "predicted": "LFG",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "mathematical formalism",
+      "predicted": "mathematical formalism",
+      "category": "method"
+    },
+    {
+      "gold": "elementary structures",
+      "predicted": "elementary structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "saturation",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 4,
+    "metric": 1,
+    "task": 5
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 3,
+      "exact_matches": 8,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.13333333333333333,
+  "recall": 0.15384615384615385,
+  "f1": 0.14285714285714288,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 15,
+    "exact_matches": 11,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 2,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

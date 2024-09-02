@@ -1,0 +1,321 @@
+{
+  "doc_key": "CVPR_2011_18_abs",
+  "gold_entities": [
+    {
+      "entity": "relative pose of two calibrated or uncalibrated non-overlapping surveillance cameras",
+      "category": "task"
+    },
+    {
+      "entity": "missing point correspondences",
+      "category": "task"
+    },
+    {
+      "entity": "Quadratic Eigenvalue Problem",
+      "category": "task"
+    },
+    {
+      "entity": "bundle adjustment",
+      "category": "task"
+    },
+    {
+      "entity": "video surveillance",
+      "category": "task"
+    },
+    {
+      "entity": "SfM pipelines",
+      "category": "method"
+    },
+    {
+      "entity": "quasi closed-form solution",
+      "category": "method"
+    },
+    {
+      "entity": "closed form solution",
+      "category": "method"
+    },
+    {
+      "entity": "nonlinear nature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "surveillance scenarios",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gravity vector",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlinear monomials",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Method",
+      "category": "method"
+    },
+    {
+      "entity": "Estimating",
+      "category": "task"
+    },
+    {
+      "entity": "Relative Pose",
+      "category": "metric"
+    },
+    {
+      "entity": "Calibrated",
+      "category": "material"
+    },
+    {
+      "entity": "Uncalibrated",
+      "category": "material"
+    },
+    {
+      "entity": "Surveillance Cameras",
+      "category": "material"
+    },
+    {
+      "entity": "Moving Object",
+      "category": "material"
+    },
+    {
+      "entity": "SfM Pipelines",
+      "category": "method"
+    },
+    {
+      "entity": "Point Correspondences",
+      "category": "metric"
+    },
+    {
+      "entity": "nonlinear",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Quadratic Eigenvalue Problem",
+      "category": "method"
+    },
+    {
+      "entity": "monomials",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Closed-Form Solution",
+      "category": "method"
+    },
+    {
+      "entity": "Bundle Adjustment",
+      "category": "method"
+    },
+    {
+      "entity": "Video Surveillance",
+      "category": "task"
+    },
+    {
+      "entity": "Camera Setups",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Quadratic Eigenvalue Problem",
+      "predicted": "Quadratic Eigenvalue Problem",
+      "category": "task"
+    },
+    {
+      "gold": "bundle adjustment",
+      "predicted": "Bundle Adjustment",
+      "category": "task"
+    },
+    {
+      "gold": "video surveillance",
+      "predicted": "Video Surveillance",
+      "category": "task"
+    },
+    {
+      "gold": "SfM pipelines",
+      "predicted": "SfM Pipelines",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "missing point correspondences",
+      "predicted": "Point Correspondences",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "quasi closed-form solution",
+      "predicted": "Closed-Form Solution",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "nonlinear nature",
+      "predicted": "nonlinear",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "nonlinear monomials",
+      "predicted": "monomials",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "video surveillance",
+      "category": "task"
+    },
+    {
+      "entity": "SfM pipelines",
+      "category": "method"
+    },
+    {
+      "entity": "quasi closed-form solution",
+      "category": "method"
+    },
+    {
+      "entity": "nonlinear nature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlinear monomials",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "relative pose of two calibrated or uncalibrated non-overlapping surveillance cameras",
+      "category": "task"
+    },
+    {
+      "entity": "closed form solution",
+      "category": "method"
+    },
+    {
+      "entity": "surveillance scenarios",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gravity vector",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Method",
+      "category": "method"
+    },
+    {
+      "entity": "Estimating",
+      "category": "task"
+    },
+    {
+      "entity": "Relative Pose",
+      "category": "metric"
+    },
+    {
+      "entity": "Calibrated",
+      "category": "material"
+    },
+    {
+      "entity": "Uncalibrated",
+      "category": "material"
+    },
+    {
+      "entity": "Surveillance Cameras",
+      "category": "material"
+    },
+    {
+      "entity": "Moving Object",
+      "category": "material"
+    },
+    {
+      "entity": "Camera Setups",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 3,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "task": 2,
+    "metric": 2,
+    "material": 5,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.4375,
+  "category_recall": 0.5833333333333334,
+  "category_f1": 0.5,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 16,
+    "exact_matches": 4,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 8,
+    "generic_entities": 8,
+    "correct_predictions": 0,
+    "correct_categories": 7
+  }
+}

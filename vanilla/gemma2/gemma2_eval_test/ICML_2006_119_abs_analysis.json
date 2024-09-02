@@ -1,0 +1,308 @@
+{
+  "doc_key": "ICML_2006_119_abs",
+  "gold_entities": [
+    {
+      "entity": "board game of Go",
+      "category": "task"
+    },
+    {
+      "entity": "training tool",
+      "category": "task"
+    },
+    {
+      "entity": "game records of expert players",
+      "category": "material"
+    },
+    {
+      "entity": "expert games",
+      "category": "material"
+    },
+    {
+      "entity": "probability distribution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer go",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "standalone go player",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "go players",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local pattern context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "move selector",
+      "category": "method"
+    },
+    {
+      "entity": "move sorter",
+      "category": "method"
+    },
+    {
+      "entity": "game tree search",
+      "category": "method"
+    },
+    {
+      "entity": "pattern extraction scheme",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian learning algorithm",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Learning to predict",
+      "category": "task"
+    },
+    {
+      "entity": "Game records",
+      "category": "material"
+    },
+    {
+      "entity": "Probability distribution",
+      "category": "metric"
+    },
+    {
+      "entity": "Legal moves",
+      "category": "metric"
+    },
+    {
+      "entity": "computer go",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Stand-alone Go player",
+      "category": "method"
+    },
+    {
+      "entity": "Move selector",
+      "category": "method"
+    },
+    {
+      "entity": "Move sorter",
+      "category": "method"
+    },
+    {
+      "entity": "Training tool",
+      "category": "task"
+    },
+    {
+      "entity": "Pattern extraction scheme",
+      "category": "method"
+    },
+    {
+      "entity": "Harvesting patterns",
+      "category": "task"
+    },
+    {
+      "entity": "Bayesian learning algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Distribution over move values",
+      "category": "metric"
+    },
+    {
+      "entity": "local pattern context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Expert games",
+      "category": "material"
+    },
+    {
+      "entity": "Prediction performance",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "probability distribution",
+      "predicted": "Probability distribution",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "training tool",
+      "predicted": "Training tool",
+      "category": "task"
+    },
+    {
+      "gold": "expert games",
+      "predicted": "Expert games",
+      "category": "material"
+    },
+    {
+      "gold": "computer go",
+      "predicted": "computer go",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "local pattern context",
+      "predicted": "local pattern context",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "move selector",
+      "predicted": "Move selector",
+      "category": "method"
+    },
+    {
+      "gold": "move sorter",
+      "predicted": "Move sorter",
+      "category": "method"
+    },
+    {
+      "gold": "pattern extraction scheme",
+      "predicted": "Pattern extraction scheme",
+      "category": "method"
+    },
+    {
+      "gold": "Bayesian learning algorithm",
+      "predicted": "Bayesian learning algorithm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "standalone go player",
+      "predicted": "Stand-alone Go player",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "board game of Go",
+      "category": "task"
+    },
+    {
+      "entity": "game records of expert players",
+      "category": "material"
+    },
+    {
+      "entity": "go players",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "game tree search",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Learning to predict",
+      "category": "task"
+    },
+    {
+      "entity": "Game records",
+      "category": "material"
+    },
+    {
+      "entity": "Legal moves",
+      "category": "metric"
+    },
+    {
+      "entity": "Harvesting patterns",
+      "category": "task"
+    },
+    {
+      "entity": "Distribution over move values",
+      "category": "metric"
+    },
+    {
+      "entity": "Prediction performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 2,
+    "otherscientificterm": 5,
+    "method": 5
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "material": 2,
+    "metric": 4,
+    "otherscientificterm": 2,
+    "method": 5
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5714285714285714,
+  "f1": 0.5333333333333333,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 16,
+    "exact_matches": 1,
+    "exact_matches_with_category": 8,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 6,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

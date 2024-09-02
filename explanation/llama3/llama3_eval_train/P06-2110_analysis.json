@@ -1,0 +1,283 @@
+{
+  "doc_key": "P06-2110",
+  "gold_entities": [
+    {
+      "entity": "similarity between words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dictionarybased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lsabased and the cooccurrencebased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "LSA-based, cooccurrence-based and dictionary-based methods",
+      "category": "method"
+    },
+    {
+      "entity": "constructing word vectors",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "methods for constructing word vectors",
+      "category": "task"
+    },
+    {
+      "entity": "LSA-based method",
+      "category": "method"
+    },
+    {
+      "entity": "cooccurrence-based method",
+      "category": "method"
+    },
+    {
+      "entity": "dictionary-based method",
+      "category": "method"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lsabased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cooccurrencebased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dictionarybased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word vectors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "word vectors",
+      "predicted": "word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "taxonomic similarity",
+      "predicted": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "taxonomic similarity",
+      "predicted": "taxonomic similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "associative similarity",
+      "predicted": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "associative similarity",
+      "predicted": "associative similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "dictionarybased word vectors",
+      "predicted": "dictionarybased word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "vector space model",
+      "predicted": "vector space model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "lsabased and the cooccurrencebased word vectors",
+      "predicted": "lsabased word vectors",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "constructing word vectors",
+      "predicted": "word vectors",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "similarity between words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "LSA-based, cooccurrence-based and dictionary-based methods",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "methods for constructing word vectors",
+      "category": "task"
+    },
+    {
+      "entity": "LSA-based method",
+      "category": "method"
+    },
+    {
+      "entity": "cooccurrence-based method",
+      "category": "method"
+    },
+    {
+      "entity": "dictionary-based method",
+      "category": "method"
+    },
+    {
+      "entity": "cooccurrencebased word vectors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "taxonomic similarity|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 0,
+      "split": 0
+    },
+    "associative similarity|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 8,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 11,
+    "method": 4,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 11,
+      "exact_matches": 0,
+      "exact_matches_with_category": 6,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4375,
+  "recall": 0.6363636363636364,
+  "f1": 0.5185185185185185,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 16,
+    "exact_matches": 0,
+    "exact_matches_with_category": 7,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

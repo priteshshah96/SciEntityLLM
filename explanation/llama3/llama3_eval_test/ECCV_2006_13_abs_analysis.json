@@ -1,0 +1,432 @@
+{
+  "doc_key": "ECCV_2006_13_abs",
+  "gold_entities": [
+    {
+      "entity": "illumination",
+      "category": "task"
+    },
+    {
+      "entity": "pose invariance",
+      "category": "task"
+    },
+    {
+      "entity": "face recognition",
+      "category": "task"
+    },
+    {
+      "entity": "image formation",
+      "category": "task"
+    },
+    {
+      "entity": "generic face appearance variation",
+      "category": "task"
+    },
+    {
+      "entity": "video sequences",
+      "category": "material"
+    },
+    {
+      "entity": "face images",
+      "category": "material"
+    },
+    {
+      "entity": "video",
+      "category": "material"
+    },
+    {
+      "entity": "video sequences",
+      "category": "material"
+    },
+    {
+      "entity": "databases",
+      "category": "material"
+    },
+    {
+      "entity": "lighting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pose",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user motion pattern",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "extreme illumination changes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geodesically local appearance manifold structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unseen head poses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face motion patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pose",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "head motion variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "resolution",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "recognition rate",
+      "category": "metric"
+    },
+    {
+      "entity": "photometric model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical model",
+      "category": "method"
+    },
+    {
+      "entity": "robust same-identity likelihood",
+      "category": "method"
+    },
+    {
+      "entity": "video sequence \" reillumination \" algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "fully automatic recognition system",
+      "category": "method"
+    },
+    {
+      "entity": "commercial software",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "face recognition",
+      "category": "task"
+    },
+    {
+      "entity": "illumination and pose invariance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "photometric model of image formation",
+      "category": "method"
+    },
+    {
+      "entity": "statistical model of generic face appearance variation",
+      "category": "method"
+    },
+    {
+      "entity": "geodesically local appearance manifold structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sameidentity likelihood",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "video sequence \"reillumination\" algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "automatic recognition system",
+      "category": "method"
+    },
+    {
+      "entity": "evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "recognition rate",
+      "category": "metric"
+    },
+    {
+      "entity": "state-of-the-art commercial software",
+      "category": "material"
+    },
+    {
+      "entity": "methods from the literature",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "face recognition",
+      "predicted": "face recognition",
+      "category": "task"
+    },
+    {
+      "gold": "geodesically local appearance manifold structure",
+      "predicted": "geodesically local appearance manifold structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "recognition rate",
+      "predicted": "recognition rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "pose invariance",
+      "predicted": "illumination and pose invariance",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "generic face appearance variation",
+      "predicted": "statistical model of generic face appearance variation",
+      "score": 0.5714285714285714,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "video sequence \" reillumination \" algorithm",
+      "predicted": "video sequence \"reillumination\" algorithm",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "fully automatic recognition system",
+      "predicted": "automatic recognition system",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "commercial software",
+      "predicted": "state-of-the-art commercial software",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "illumination",
+      "category": "task"
+    },
+    {
+      "entity": "image formation",
+      "category": "task"
+    },
+    {
+      "entity": "video sequences",
+      "category": "material"
+    },
+    {
+      "entity": "video sequences",
+      "category": "material"
+    },
+    {
+      "entity": "face images",
+      "category": "material"
+    },
+    {
+      "entity": "video",
+      "category": "material"
+    },
+    {
+      "entity": "databases",
+      "category": "material"
+    },
+    {
+      "entity": "lighting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pose",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pose",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user motion pattern",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "extreme illumination changes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unseen head poses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face motion patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "head motion variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "resolution",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "photometric model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical model",
+      "category": "method"
+    },
+    {
+      "entity": "robust same-identity likelihood",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "photometric model of image formation",
+      "category": "method"
+    },
+    {
+      "entity": "sameidentity likelihood",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "methods from the literature",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "video sequences|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "pose|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "material": 5,
+    "otherscientificterm": 11,
+    "metric": 3,
+    "method": 6
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 3,
+    "method": 4,
+    "metric": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 11,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.1,
+  "f1": 0.14285714285714288,
+  "counts": {
+    "gold_entities": 30,
+    "predicted_entities": 12,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 5,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 22,
+    "extra_entities": 4,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,233 @@
+{
+  "doc_key": "C04-1068",
+  "gold_entities": [
+    {
+      "entity": "electronic discussions",
+      "category": "task"
+    },
+    {
+      "entity": "help-desk applications",
+      "category": "task"
+    },
+    {
+      "entity": "electronic discussions",
+      "category": "task"
+    },
+    {
+      "entity": "coarse-level clustering",
+      "category": "task"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clustering process",
+      "category": "method"
+    },
+    {
+      "entity": "filtering mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "clustering and filtering processes",
+      "category": "method"
+    },
+    {
+      "entity": "electronic newsgroup discussions",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "electronic discussions",
+      "category": "task"
+    },
+    {
+      "entity": "helpdesk applications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "newsgroup discussions",
+      "category": "material"
+    },
+    {
+      "entity": "clustering process",
+      "category": "method"
+    },
+    {
+      "entity": "filtering mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "features of electronic discussions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coarse-level clustering",
+      "category": "metric"
+    },
+    {
+      "entity": "simple information retrieval",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "coarse-level clustering",
+      "predicted": "coarse-level clustering",
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "electronic discussions",
+      "predicted": "electronic discussions",
+      "category": "task"
+    },
+    {
+      "gold": "clustering process",
+      "predicted": "clustering process",
+      "category": "method"
+    },
+    {
+      "gold": "filtering mechanism",
+      "predicted": "filtering mechanism",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "electronic discussions",
+      "predicted": "features of electronic discussions",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "information retrieval",
+      "predicted": "simple information retrieval",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "electronic newsgroup discussions",
+      "predicted": "newsgroup discussions",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "help-desk applications",
+      "category": "task"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clustering and filtering processes",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "helpdesk applications",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "electronic discussions|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "otherscientificterm": 1,
+    "method": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 2,
+    "material": 1,
+    "method": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.375,
+  "recall": 0.3,
+  "f1": 0.33333333333333326,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

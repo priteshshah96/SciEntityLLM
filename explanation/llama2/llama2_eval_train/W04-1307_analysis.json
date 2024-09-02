@@ -1,0 +1,198 @@
+{
+  "doc_key": "W04-1307",
+  "gold_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "realistic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "material"
+    },
+    {
+      "entity": "linguistics",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "realistic acquisition",
+      "category": "material"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "simulation results",
+      "category": "material"
+    },
+    {
+      "entity": "capacity and limitations",
+      "category": "metric"
+    },
+    {
+      "entity": "acquisition",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "statistical learning mechanisms",
+      "predicted": "statistical learning mechanisms",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "word segmentation",
+      "predicted": "word segmentation",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "realistic acquisition",
+      "predicted": "realistic acquisition",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "cognitive psychology",
+      "predicted": "cognitive psychology",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "linguistics",
+      "predicted": "linguistics",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "computational model",
+      "predicted": "computational model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "simulation results",
+      "category": "material"
+    },
+    {
+      "entity": "capacity and limitations",
+      "category": "metric"
+    },
+    {
+      "entity": "acquisition",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 4,
+    "material": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.16666666666666666,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 9,
+    "exact_matches": 5,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

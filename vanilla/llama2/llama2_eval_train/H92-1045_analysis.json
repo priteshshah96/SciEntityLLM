@@ -1,0 +1,287 @@
+{
+  "doc_key": "H92-1045",
+  "gold_entities": [
+    {
+      "entity": "polysemous words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polysemous word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wellwritten discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word-sense disambiguation systems",
+      "category": "method"
+    },
+    {
+      "entity": "word-sense disambiguation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "bilingual material",
+      "category": "material"
+    },
+    {
+      "entity": "Canadian Hansards",
+      "category": "material"
+    },
+    {
+      "entity": "monolingual material",
+      "category": "material"
+    },
+    {
+      "entity": "Roget's Thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "Grolier's Encyclopedia",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Sentence",
+      "category": "task"
+    },
+    {
+      "entity": "polysemous",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Word-sense disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "Bilingual material",
+      "category": "material"
+    },
+    {
+      "entity": "Monolingual material",
+      "category": "material"
+    },
+    {
+      "entity": "Discourse",
+      "category": "task"
+    },
+    {
+      "entity": "sense",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tendency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discourse",
+      "predicted": "Discourse",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "constraint",
+      "predicted": "constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "bilingual material",
+      "predicted": "Bilingual material",
+      "category": "material"
+    },
+    {
+      "gold": "monolingual material",
+      "predicted": "Monolingual material",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "polysemous words",
+      "predicted": "polysemous",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "word-sense disambiguation systems",
+      "predicted": "Word-sense disambiguation",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polysemous word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wellwritten discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word-sense disambiguation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Canadian Hansards",
+      "category": "material"
+    },
+    {
+      "entity": "Roget's Thesaurus",
+      "category": "material"
+    },
+    {
+      "entity": "Grolier's Encyclopedia",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Sentence",
+      "category": "task"
+    },
+    {
+      "entity": "sense",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tendency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "discourse|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 3,
+    "material": 5
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "otherscientificterm": 4,
+    "material": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.2,
+  "f1": 0.23076923076923075,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

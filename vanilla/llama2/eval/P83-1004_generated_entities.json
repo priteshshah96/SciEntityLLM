@@ -1,0 +1,204 @@
+{
+  "gold_entities": [
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "Method"
+    },
+    {
+      "entity": "unconstrained mps grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "Method"
+    },
+    {
+      "entity": "computational tractability and explanatory adequacy",
+      "category": "Metric"
+    },
+    {
+      "entity": "context-free phrase structure rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "metarules (mps grammars)",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntax of natural languages",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "context-free phrase structure rules",
+      "category": "Method"
+    },
+    {
+      "entity": "metarules",
+      "category": "Method"
+    },
+    {
+      "entity": "mps grammars",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "unconstrained mps grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "computational tractability",
+      "category": "Metric"
+    },
+    {
+      "entity": "explanatory adequacy",
+      "category": "Metric"
+    },
+    {
+      "entity": "natural languages",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "directions for research",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "them",
+      "category": "Generic"
+    },
+    {
+      "entity": "them",
+      "category": "Generic"
+    },
+    {
+      "entity": "criteria",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "metagrammatical formalisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "metagrammatical formalisms",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "context-free phrase structure rules",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "context-free phrase structure rules",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "unconstrained mps grammars",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "unconstrained mps grammars",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "unconstrained mps grammars",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "unconstrained mps grammars",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "computational tractability and explanatory adequacy",
+        "category": "Metric"
+      },
+      "predicted": [
+        {
+          "entity": "computational tractability",
+          "category": "Metric"
+        },
+        {
+          "entity": "explanatory adequacy",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "metarules (mps grammars)",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "metarules",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "syntax of natural languages",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural languages",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "mps grammars",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "directions for research",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "metagrammatical formalisms": 2
+  },
+  "distinct_repeated_entities": [
+    "metagrammatical formalisms"
+  ],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 9,
+    "generic_count": 3,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

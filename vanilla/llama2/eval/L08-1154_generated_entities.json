@@ -1,0 +1,320 @@
+{
+  "gold_entities": [
+    {
+      "entity": "resource-limited domains",
+      "category": "Material"
+    },
+    {
+      "entity": "term extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "chinese term extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "new term extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "domain lexicon expansion",
+      "category": "Task"
+    },
+    {
+      "entity": "internal and contextual information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain specific terms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "delimiters",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "term frequency",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hard rules",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain knowledge",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "term candidates",
+      "category": "Task"
+    },
+    {
+      "entity": "internal information",
+      "category": "Task"
+    },
+    {
+      "entity": "contextual information",
+      "category": "Task"
+    },
+    {
+      "entity": "domain specific terms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "Method"
+    },
+    {
+      "entity": "term frequency",
+      "category": "Metric"
+    },
+    {
+      "entity": "delimiters",
+      "category": "Method"
+    },
+    {
+      "entity": "domain knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "training",
+      "category": "Method"
+    },
+    {
+      "entity": "evaluations",
+      "category": "Metric"
+    },
+    {
+      "entity": "new domains",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domain lexicon expansion",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "evaluations",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "tool",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "domain specific terms",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain specific terms",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "features",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "term frequency",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "term frequency",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "delimiters",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "delimiters",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "domain knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain knowledge",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "domain lexicon expansion",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "domain lexicon expansion",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "domain specific terms",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain specific terms",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "domain knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "domain knowledge",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "domain lexicon expansion",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "domain lexicon expansion",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "new term extraction",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "term candidates",
+          "category": "Task"
+        },
+        {
+          "entity": "new domains",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.0
+    },
+    {
+      "gold": {
+        "entity": "internal and contextual information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "internal information",
+          "category": "Task"
+        },
+        {
+          "entity": "contextual information",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "resource-limited domains",
+      "category": "Material"
+    },
+    {
+      "entity": "term extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "chinese term extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hard rules",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "training",
+      "category": "Method"
+    },
+    {
+      "entity": "evaluations",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "features": 2
+  },
+  "distinct_repeated_entities": [
+    "features"
+  ],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 12,
+    "generic_count": 8,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

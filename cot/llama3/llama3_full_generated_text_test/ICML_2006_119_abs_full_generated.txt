@@ -1,0 +1,494 @@
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: "We investigate the problem of learning to predict moves in the board game of Go from game records of expert players. In particular, we obtain a probability distribution over legal moves for professional play in a given position. This distribution has numerous applications in computer Go, including serving as an efficient stand-alone Go player. It would also be effective as a move selector and move sorter for game tree search and as a training tool for Go players. Our method has two major components: a) a pattern extraction scheme for efficiently harvesting patterns of given size and shape from expert game records and b) a Bayesian learning algorithm (in two variants) that learns a distribution over the values of a move given a board position based on the local pattern context. The system is trained on 181,000 expert games and shows excellent prediction performance as indicated by its ability to perfectly predict the moves made by professional Go players in 34% of test positions."
+
+Scientific Entities Identified:
+
+* learning to predict moves in the board game of Go
+Category: Task
+Reasoning: This describes the specific task being addressed, which is a scientific problem.
+
+* game records of expert players
+Category: Material
+Reasoning: This describes the data used for training the system, a specific resource.
+
+* probability distribution over legal moves for professional play
+Category: Method
+Reasoning: This describes the output of the system, representing a methodological approach.
+
+* efficient stand-alone Go player
+Category: Material
+Reasoning: This describes a potential application of the system, a specific resource.
+
+* move selector and move sorter for game tree search
+Category: Method
+Reasoning: This describes another potential application of the system, representing a methodological approach.
+
+* training tool for Go players
+Category: Material
+Reasoning: Another potential application of the system, a specific resource.
+
+* pattern extraction scheme
+Category: Method
+Reasoning: This describes one component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: This describes another component of the system, representing a methodological approach.
+
+* game records
+Category: Material
+Reasoning: Mentioned again as the data used for training.
+
+* expert games
+Category: Material
+Reasoning: Mentioned again as the specific type of data used for training.
+
+* 181,000 expert games
+Category: Material
+Reasoning: This is the specific number of expert games used for training.
+
+* prediction performance
+Category: Metric
+Reasoning: This is used to evaluate the performance of the system.
+
+* perfect prediction
+Category: Metric
+Reasoning: This is a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: This describes the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: This describes a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: This describes a key concept in the methodological approach, representing a specific type of data or feature.
+
+* expert game records
+Category: Material
+Reasoning: Mentioned again as the data used for training.
+
+* local pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again, emphasizing its importance in the methodological approach.
+
+* expert games
+Category: Material
+Reasoning: Mentioned again as the specific type of data used for training.
+
+* 181,000 expert games
+Category: Material
+Reasoning: Mentioned again as the specific number of expert games used for training.
+
+* prediction performance
+Category: Metric
+Reasoning: Mentioned again as the measure of performance.
+
+* perfect prediction
+Category: Metric
+Reasoning: Mentioned again as a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: Mentioned again as the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the methodological approach, representing a specific type of data or feature.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned again as a component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: Mentioned again as a specific type of learning algorithm used.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned again as a component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: Mentioned again as a specific type of learning algorithm used.
+
+* prediction performance
+Category: Metric
+Reasoning: Mentioned again as the measure of performance.
+
+* perfect prediction
+Category: Metric
+Reasoning: Mentioned again as a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: Mentioned again as the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the methodological approach, representing a specific type of data or feature.
+
+* local pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again, emphasizing its importance in the methodological approach.
+
+* prediction performance
+Category: Metric
+Reasoning: Mentioned again as the measure of performance.
+
+* perfect prediction
+Category: Metric
+Reasoning: Mentioned again as a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: Mentioned again as the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the methodological approach, representing a specific type of data or feature.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned again as a component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: Mentioned again as a specific type of learning algorithm used.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned again as a component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: Mentioned again as a specific type of learning algorithm used.
+
+* prediction performance
+Category: Metric
+Reasoning: Mentioned again as the measure of performance.
+
+* perfect prediction
+Category: Metric
+Reasoning: Mentioned again as a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: Mentioned again as the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the methodological approach, representing a specific type of data or feature.
+
+* local pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again, emphasizing its importance in the methodological approach.
+
+* prediction performance
+Category: Metric
+Reasoning: Mentioned again as the measure of performance.
+
+* perfect prediction
+Category: Metric
+Reasoning: Mentioned again as a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: Mentioned again as the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the methodological approach, representing a specific type of data or feature.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned again as a component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: Mentioned again as a specific type of learning algorithm used.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned again as a component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: Mentioned again as a specific type of learning algorithm used.
+
+* prediction performance
+Category: Metric
+Reasoning: Mentioned again as the measure of performance.
+
+* perfect prediction
+Category: Metric
+Reasoning: Mentioned again as a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: Mentioned again as the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the methodological approach, representing a specific type of data or feature.
+
+* local pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again, emphasizing its importance in the methodological approach.
+
+* prediction performance
+Category: Metric
+Reasoning: Mentioned again as the measure of performance.
+
+* perfect prediction
+Category: Metric
+Reasoning: Mentioned again as a specific measure of the system's performance.
+
+* professional Go players
+Category: Material
+Reasoning: Mentioned again as the target of the prediction, a specific group or resource.
+
+* board position
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the task, representing a specific type of data or feature.
+
+* pattern context
+Category: OtherScientificTerm
+Reasoning: Mentioned again as a key concept in the methodological approach, representing a specific type of data or feature.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned again as a component of the system, representing a methodological approach.
+
+* Bayesian learning algorithm
+Category: Method
+Reasoning: Mentioned again as a specific type of learning algorithm used.
+
+* learning algorithm
+Category: Method
+Reasoning: Mentioned

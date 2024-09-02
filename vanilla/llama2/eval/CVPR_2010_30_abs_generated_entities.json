@@ -1,0 +1,270 @@
+{
+  "gold_entities": [
+    {
+      "entity": "pascal voc 2006 dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "divide-and-conquer procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "space of candidate regions",
+      "category": "Method"
+    },
+    {
+      "entity": "exhaustive procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "subwindow search (ess) procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "kernel-ized support vector machines",
+      "category": "Method"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "Method"
+    },
+    {
+      "entity": "evaluation of object detection cascades",
+      "category": "Task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "search",
+      "category": "Task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "branch-and-bound object detection",
+      "category": "Task"
+    },
+    {
+      "entity": "classifier functions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "nonlinear quality functions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "divide-and-conquer procedure",
+      "category": "Task"
+    },
+    {
+      "entity": "efficient subwindow search (ess)",
+      "category": "Method"
+    },
+    {
+      "entity": "kernelized support vector machines",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pascal voc 2006 dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "classifier functions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "object detection cascades",
+      "category": "Task"
+    },
+    {
+      "entity": "exhaustive procedure",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "divide-and-conquer procedure",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "divide-and-conquer procedure",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pascal voc 2006 dataset",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "pascal voc 2006 dataset",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classifier functions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "classifier functions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "exhaustive procedure",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "exhaustive procedure",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "pascal voc 2006 dataset",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "pascal voc 2006 dataset",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classifier functions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "classifier functions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "exhaustive procedure",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "exhaustive procedure",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "subwindow search (ess) procedure",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "efficient subwindow search (ess)",
+        "category": "Method"
+      },
+      "overlap": 0.75
+    },
+    {
+      "gold": {
+        "entity": "kernel-ized support vector machines",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kernelized support vector machines",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.75
+    },
+    {
+      "gold": {
+        "entity": "evaluation of object detection cascades",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "object detection cascades",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "space of candidate regions",
+      "category": "Method"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "Method"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "search",
+      "category": "Task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "Task"
+    },
+    {
+      "entity": "branch-and-bound object detection",
+      "category": "Task"
+    },
+    {
+      "entity": "nonlinear quality functions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "cascade evaluation": 3
+  },
+  "distinct_repeated_entities": [
+    "cascade evaluation"
+  ],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 7,
+    "generic_count": 5,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 3
+  }
+}

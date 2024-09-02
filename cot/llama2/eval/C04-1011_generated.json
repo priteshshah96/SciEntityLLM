@@ -1,0 +1,234 @@
+{
+  "gold_entities": [
+    {
+      "entity": "kullback-leibler distance",
+      "category": "Method"
+    },
+    {
+      "entity": "relative entropy",
+      "category": "Method"
+    },
+    {
+      "entity": "probabilistic context-free grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "closed-form (analytical) solution",
+      "category": "Method"
+    },
+    {
+      "entity": "kullback-leibler distance",
+      "category": "Method"
+    },
+    {
+      "entity": "cross-entropy",
+      "category": "Method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "Method"
+    },
+    {
+      "entity": "probabilistic finite automata",
+      "category": "Method"
+    },
+    {
+      "entity": "distributional approximation",
+      "category": "Task"
+    },
+    {
+      "entity": "probabilistic finite automaton",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "kullback-leibler distance",
+      "category": "Metric"
+    },
+    {
+      "entity": "relative entropy",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "probabilistic context-free grammar",
+      "category": "Task"
+    },
+    {
+      "entity": "probabilistic finite automaton",
+      "category": "Task"
+    },
+    {
+      "entity": "closed-form solution",
+      "category": "Method"
+    },
+    {
+      "entity": "distributional approximation",
+      "category": "Task"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "Material"
+    },
+    {
+      "entity": "probabilistic finite automata",
+      "category": "Material"
+    },
+    {
+      "entity": "cross-entropy",
+      "category": "Metric"
+    },
+    {
+      "entity": "analytical solution",
+      "category": "Method"
+    },
+    {
+      "entity": "applications",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "kullback-leibler distance",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kullback-leibler distance",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relative entropy",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "relative entropy",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "probabilistic context-free grammar",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "probabilistic context-free grammar",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "probabilistic finite automaton",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "probabilistic finite automaton",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "distributional approximation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "distributional approximation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "probabilistic context-free grammars",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "probabilistic context-free grammars",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "probabilistic finite automata",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "probabilistic finite automata",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "cross-entropy",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "cross-entropy",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "distributional approximation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "distributional approximation",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "closed-form (analytical) solution",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "closed-form solution",
+          "category": "Method"
+        },
+        {
+          "entity": "analytical solution",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "kullback-leibler distance",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "applications",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "kullback-leibler distance": 2
+  },
+  "distinct_repeated_entities": [
+    "kullback-leibler distance"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 11,
+    "generic_count": 0,
+    "exact_matches": 8,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

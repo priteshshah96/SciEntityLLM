@@ -1,0 +1,236 @@
+{
+  "doc_key": "E85-1004",
+  "gold_entities": [
+    {
+      "entity": "analytical inverses",
+      "category": "method"
+    },
+    {
+      "entity": "Definite Clause Grammar techniques",
+      "category": "method"
+    },
+    {
+      "entity": "parser MDCC",
+      "category": "method"
+    },
+    {
+      "entity": "augmented Friedman - Warren algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Montague's PTQ",
+      "category": "method"
+    },
+    {
+      "entity": "basic DCG mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "compositional syntax rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "post referencing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intenslonal logic translator lilt",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "derivational history",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduced il formulae",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parser  returning  Montague analysis trees",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Montague analysis trees",
+      "category": "method"
+    },
+    {
+      "entity": "Definite Clause Grammar techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Friedman-Warren algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Post-referencing",
+      "category": "method"
+    },
+    {
+      "entity": "Intenslonal logic translator",
+      "category": "material"
+    },
+    {
+      "entity": "ptq",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dcg mechanism",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "international logic translator",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Definite Clause Grammar techniques",
+      "predicted": "Definite Clause Grammar techniques",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Montague's PTQ",
+      "predicted": "ptq",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "basic DCG mechanism",
+      "predicted": "dcg mechanism",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "intenslonal logic translator lilt",
+      "predicted": "Intenslonal logic translator",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "parser  returning  Montague analysis trees",
+      "predicted": "Montague analysis trees",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "analytical inverses",
+      "category": "method"
+    },
+    {
+      "entity": "parser MDCC",
+      "category": "method"
+    },
+    {
+      "entity": "augmented Friedman - Warren algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "compositional syntax rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "post referencing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "derivational history",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduced il formulae",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Friedman-Warren algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Post-referencing",
+      "category": "method"
+    },
+    {
+      "entity": "international logic translator",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 5,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "material": 1,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.08333333333333333,
+  "f1": 0.1,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,350 @@
+{
+  "gold_entities": [
+    {
+      "entity": "abundant unlabelled data",
+      "category": "Material"
+    },
+    {
+      "entity": "regression-based techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "unified active and semi-supervised regression framework",
+      "category": "Method"
+    },
+    {
+      "entity": "transfer learning",
+      "category": "Method"
+    },
+    {
+      "entity": "manifold analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "people counting in crowded scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "Task"
+    },
+    {
+      "entity": "model training",
+      "category": "Task"
+    },
+    {
+      "entity": "annotation",
+      "category": "Task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "Task"
+    },
+    {
+      "entity": "informative frames",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "geometric structure of crowd patterns",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "regression-based techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "people counting",
+      "category": "Task"
+    },
+    {
+      "entity": "crowded scenes",
+      "category": "Material"
+    },
+    {
+      "entity": "data annotation",
+      "category": "Method"
+    },
+    {
+      "entity": "model training",
+      "category": "Task"
+    },
+    {
+      "entity": "active learning",
+      "category": "Method"
+    },
+    {
+      "entity": "semi-supervised regression",
+      "category": "Method"
+    },
+    {
+      "entity": "labelled data",
+      "category": "Material"
+    },
+    {
+      "entity": "unlabelled data",
+      "category": "Material"
+    },
+    {
+      "entity": "transfer learning",
+      "category": "Method"
+    },
+    {
+      "entity": "manifold analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "crowd patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "geometric structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "active and semi-supervised regression framework",
+      "category": "Method"
+    },
+    {
+      "entity": "transfer learning",
+      "category": "Method"
+    },
+    {
+      "entity": "effectiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "experiments",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "techniques",
+      "category": "Generic"
+    },
+    {
+      "entity": "labelled data",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "regression-based techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "regression-based techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "data annotation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "data annotation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "model training",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "model training",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "transfer learning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "transfer learning",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "manifold analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "manifold analysis",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "regression-based techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "regression-based techniques",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "model training",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "model training",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "transfer learning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "transfer learning",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "manifold analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "manifold analysis",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "abundant unlabelled data",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "labelled data",
+          "category": "Material"
+        },
+        {
+          "entity": "unlabelled data",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "unified active and semi-supervised regression framework",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "active learning",
+          "category": "Method"
+        },
+        {
+          "entity": "semi-supervised regression",
+          "category": "Method"
+        },
+        {
+          "entity": "active and semi-supervised regression framework",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.5
+    },
+    {
+      "gold": {
+        "entity": "people counting in crowded scenes",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "people counting",
+          "category": "Task"
+        },
+        {
+          "entity": "crowded scenes",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "geometric structure of crowd patterns",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "crowd patterns",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "geometric structure",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "annotation",
+      "category": "Task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "Task"
+    },
+    {
+      "entity": "informative frames",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "transfer learning",
+      "category": "Method"
+    },
+    {
+      "entity": "effectiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "experiments",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "data annotation": 2
+  },
+  "distinct_repeated_entities": [
+    "data annotation"
+  ],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 17,
+    "generic_count": 3,
+    "exact_matches": 5,
+    "exact_category_matches": 4,
+    "split_matches": 4,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

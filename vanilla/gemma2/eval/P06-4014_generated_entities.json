@@ -1,0 +1,188 @@
+{
+  "gold_entities": [
+    {
+      "entity": "hand-built, symbolic resources",
+      "category": "Material"
+    },
+    {
+      "entity": "logon mt demonstrator",
+      "category": "Method"
+    },
+    {
+      "entity": "general-purpose nlp components",
+      "category": "Method"
+    },
+    {
+      "entity": "machine translation pipeline",
+      "category": "Method"
+    },
+    {
+      "entity": "stochastic processes",
+      "category": "Method"
+    },
+    {
+      "entity": "demonstrator",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "logon mt",
+      "category": "Method"
+    },
+    {
+      "entity": "demonstrator",
+      "category": "Task"
+    },
+    {
+      "entity": "nlp components",
+      "category": "Material"
+    },
+    {
+      "entity": "machine translation pipeline",
+      "category": "Method"
+    },
+    {
+      "entity": "output quality",
+      "category": "Metric"
+    },
+    {
+      "entity": "hand-built, symbolic resources",
+      "category": "Material"
+    },
+    {
+      "entity": "stochastic processes",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "demonstrator",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "demonstrator",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine translation pipeline",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "machine translation pipeline",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hand-built, symbolic resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "hand-built, symbolic resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "stochastic processes",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "stochastic processes",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "demonstrator",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "demonstrator",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "machine translation pipeline",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "machine translation pipeline",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hand-built, symbolic resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "hand-built, symbolic resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "stochastic processes",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "stochastic processes",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "logon mt demonstrator",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "logon mt",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "general-purpose nlp components",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "nlp components",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "output quality",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 7,
+    "generic_count": 0,
+    "exact_matches": 4,
+    "exact_category_matches": 4,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

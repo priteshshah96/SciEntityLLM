@@ -1,0 +1,281 @@
+{
+  "doc_key": "E89-1016",
+  "gold_entities": [
+    {
+      "entity": "evaluation of Natural Language systems",
+      "category": "task"
+    },
+    {
+      "entity": "data retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "database access",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language systems",
+      "category": "method"
+    },
+    {
+      "entity": "Wizard of Oz technique",
+      "category": "method"
+    },
+    {
+      "entity": "prototype Natural Language system",
+      "category": "method"
+    },
+    {
+      "entity": "Natural Language systems",
+      "category": "method"
+    },
+    {
+      "entity": "nl requirements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual reference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "task dialogues",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Task",
+      "category": "task"
+    },
+    {
+      "entity": "Approaches",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subjects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Prototype",
+      "category": "material"
+    },
+    {
+      "entity": "Database",
+      "category": "material"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operators",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "requirements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "validity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "database access",
+      "predicted": "Database",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "nl requirements",
+      "predicted": "requirements",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "task dialogues",
+      "predicted": "Task",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "evaluation of Natural Language systems",
+      "category": "task"
+    },
+    {
+      "entity": "data retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language systems",
+      "category": "method"
+    },
+    {
+      "entity": "Natural Language systems",
+      "category": "method"
+    },
+    {
+      "entity": "Wizard of Oz technique",
+      "category": "method"
+    },
+    {
+      "entity": "prototype Natural Language system",
+      "category": "method"
+    },
+    {
+      "entity": "contextual reference",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Approaches",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subjects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Prototype",
+      "category": "material"
+    },
+    {
+      "entity": "information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogues",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operators",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "validity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "Natural Language systems|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "method": 4,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 9,
+    "material": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 14,
+    "exact_matches": 0,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 11,
+    "generic_entities": 9
+  },
+  "empty_category_entities": []
+}

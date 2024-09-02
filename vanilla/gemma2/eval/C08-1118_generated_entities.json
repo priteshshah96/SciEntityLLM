@@ -1,0 +1,210 @@
+{
+  "gold_entities": [
+    {
+      "entity": "medium-length speeches",
+      "category": "Material"
+    },
+    {
+      "entity": "europarl corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "frequency counts of word n-grams",
+      "category": "Method"
+    },
+    {
+      "entity": "classification method",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "positive markers",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "source language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "europarl corpus",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frequency counts",
+      "category": "Method"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "classification method",
+      "category": "Method"
+    },
+    {
+      "entity": "positive markers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "culture",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domainrelated",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "europarl corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "europarl corpus",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word n-grams",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "word n-grams",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classification method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "classification method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classification method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "classification method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "frequency counts of word n-grams",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "frequency counts",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "medium-length speeches",
+      "category": "Material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "source language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "culture",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domainrelated",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 10,
+    "generic_count": 0,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "gold_entities": [
+    {
+      "entity": "synthetic and real data",
+      "category": "Material"
+    },
+    {
+      "entity": "hypothesize-and-test frameworks",
+      "category": "Method"
+    },
+    {
+      "entity": "ransac",
+      "category": "Method"
+    },
+    {
+      "entity": "calibrated camera relative pose estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "relative rotation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relative translation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "urban and indoor environments",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "calibrated camera relative pose estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "lines",
+      "category": "Material"
+    },
+    {
+      "entity": "parallel",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "orthogonal",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relative rotation",
+      "category": "Metric"
+    },
+    {
+      "entity": "relative translation",
+      "category": "Metric"
+    },
+    {
+      "entity": "intersection points",
+      "category": "Material"
+    },
+    {
+      "entity": "framework",
+      "category": "Method"
+    },
+    {
+      "entity": "ransac",
+      "category": "Method"
+    },
+    {
+      "entity": "urban environments",
+      "category": "Material"
+    },
+    {
+      "entity": "indoor environments",
+      "category": "Material"
+    },
+    {
+      "entity": "lines",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "calibrated camera relative pose estimation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "calibrated camera relative pose estimation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relative rotation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "relative rotation",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relative translation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "relative translation",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ransac",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ransac",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "calibrated camera relative pose estimation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "calibrated camera relative pose estimation",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ransac",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ransac",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "urban and indoor environments",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "urban environments",
+          "category": "Material"
+        },
+        {
+          "entity": "indoor environments",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "synthetic and real data",
+      "category": "Material"
+    },
+    {
+      "entity": "hypothesize-and-test frameworks",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "lines",
+      "category": "Material"
+    },
+    {
+      "entity": "parallel",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "orthogonal",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intersection points",
+      "category": "Material"
+    },
+    {
+      "entity": "framework",
+      "category": "Method"
+    },
+    {
+      "entity": "lines",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 12,
+    "generic_count": 5,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

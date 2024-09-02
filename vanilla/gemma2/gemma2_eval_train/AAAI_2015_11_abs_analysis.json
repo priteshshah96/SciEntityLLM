@@ -1,0 +1,245 @@
+{
+  "doc_key": "AAAI_2015_11_abs",
+  "gold_entities": [
+    {
+      "entity": "convex optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "segmenting sequential data",
+      "category": "task"
+    },
+    {
+      "entity": "real-world tasks",
+      "category": "task"
+    },
+    {
+      "entity": "speech segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "baseline seg-mentation algorithms",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Segmenting",
+      "category": "task"
+    },
+    {
+      "entity": "sequential data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "convex optimization problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Exact algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Top-down novel approach",
+      "category": "method"
+    },
+    {
+      "entity": "consistency results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "two segments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Speech segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "Baseline segmentation algorithms",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "convex optimization problem",
+      "predicted": "convex optimization problem",
+      "category": "task"
+    },
+    {
+      "gold": "speech segmentation",
+      "predicted": "Speech segmentation",
+      "category": "task"
+    },
+    {
+      "gold": "outliers",
+      "predicted": "outliers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "segmenting sequential data",
+      "predicted": "sequential data",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "baseline seg-mentation algorithms",
+      "predicted": "Baseline segmentation algorithms",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "speech segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "baseline seg-mentation algorithms",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "real-world tasks",
+      "category": "task"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Robustness",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Segmenting",
+      "category": "task"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Exact algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Top-down novel approach",
+      "category": "method"
+    },
+    {
+      "entity": "consistency results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "two segments",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "outliers|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 2,
+    "metric": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5,
+    "method": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.14285714285714285,
+  "f1": 0.1111111111111111,
+  "category_precision": 0.45454545454545453,
+  "category_recall": 0.625,
+  "category_f1": 0.5263157894736842,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 3,
+    "correct_predictions": 1,
+    "correct_categories": 5
+  }
+}

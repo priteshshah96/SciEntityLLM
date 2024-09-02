@@ -1,0 +1,235 @@
+{
+  "doc_key": "P03-1034",
+  "gold_entities": [
+    {
+      "entity": "Pipelined Natural Language Generation (NLG) systems",
+      "category": "method"
+    },
+    {
+      "entity": "architectural modules",
+      "category": "method"
+    },
+    {
+      "entity": "discourse marker insertion algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "pipelined NLG architecture",
+      "category": "method"
+    },
+    {
+      "entity": "revision component",
+      "category": "method"
+    },
+    {
+      "entity": "language functionalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "referring expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical choice",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "revision",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-paragraph text",
+      "category": "material"
+    },
+    {
+      "entity": "multi-page system",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Pipelined Natural Language Generation (NLG) systems",
+      "category": "method"
+    },
+    {
+      "entity": "architectural modules",
+      "category": "method"
+    },
+    {
+      "entity": "language functionalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "referring expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical choice",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "revision",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse marker insertion algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "pipelined NLG architecture",
+      "category": "method"
+    },
+    {
+      "entity": "revision component",
+      "category": "method"
+    },
+    {
+      "entity": "multi-page system",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "multi-page system",
+      "predicted": "multi-page system",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Pipelined Natural Language Generation (NLG) systems",
+      "predicted": "Pipelined Natural Language Generation (NLG) systems",
+      "category": "method"
+    },
+    {
+      "gold": "architectural modules",
+      "predicted": "architectural modules",
+      "category": "method"
+    },
+    {
+      "gold": "discourse marker insertion algorithm",
+      "predicted": "discourse marker insertion algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "pipelined NLG architecture",
+      "predicted": "pipelined NLG architecture",
+      "category": "method"
+    },
+    {
+      "gold": "revision component",
+      "predicted": "revision component",
+      "category": "method"
+    },
+    {
+      "gold": "language functionalities",
+      "predicted": "language functionalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "referring expressions",
+      "predicted": "referring expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "lexical choice",
+      "predicted": "lexical choice",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "revision",
+      "predicted": "revision",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse markers",
+      "predicted": "discourse markers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multi-paragraph text",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "otherscientificterm": 5,
+    "material": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.9090909090909091,
+  "recall": 0.8333333333333334,
+  "f1": 0.8695652173913043,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 10,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 0,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,217 @@
+{
+  "doc_key": "A97-1027",
+  "gold_entities": [
+    {
+      "entity": "morphological component",
+      "category": "method"
+    },
+    {
+      "entity": "NLP-system for Dutch (Dutch Medical Language Processor - DMLP)",
+      "category": "method"
+    },
+    {
+      "entity": "language independent modules",
+      "category": "method"
+    },
+    {
+      "entity": "LSP-MLP system (Linguistic String Project - Medical Language Processor)",
+      "category": "method"
+    },
+    {
+      "entity": "HyperText Mark-Up Language (HTML) technology",
+      "category": "method"
+    },
+    {
+      "entity": "idiosyncrasies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patient discharge summary pds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "highlighting of relevant information",
+      "category": "task"
+    },
+    {
+      "entity": "medical administrative purposes",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Morphological component",
+      "category": "task"
+    },
+    {
+      "entity": "Dutch Medical Language Processor (DMLP)",
+      "category": "task"
+    },
+    {
+      "entity": "Linguistic String Project (LSP)",
+      "category": "task"
+    },
+    {
+      "entity": "Medical Language Processor (LSP-MLP)",
+      "category": "task"
+    },
+    {
+      "entity": "new york university",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patient discharge summary (PDS)",
+      "category": "material"
+    },
+    {
+      "entity": "html technology",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "morphological component",
+      "predicted": "Morphological component",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "NLP-system for Dutch (Dutch Medical Language Processor - DMLP)",
+      "category": "method"
+    },
+    {
+      "entity": "language independent modules",
+      "category": "method"
+    },
+    {
+      "entity": "LSP-MLP system (Linguistic String Project - Medical Language Processor)",
+      "category": "method"
+    },
+    {
+      "entity": "HyperText Mark-Up Language (HTML) technology",
+      "category": "method"
+    },
+    {
+      "entity": "idiosyncrasies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patient discharge summary pds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "highlighting of relevant information",
+      "category": "task"
+    },
+    {
+      "entity": "medical administrative purposes",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Dutch Medical Language Processor (DMLP)",
+      "category": "task"
+    },
+    {
+      "entity": "Linguistic String Project (LSP)",
+      "category": "task"
+    },
+    {
+      "entity": "Medical Language Processor (LSP-MLP)",
+      "category": "task"
+    },
+    {
+      "entity": "new york university",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patient discharge summary (PDS)",
+      "category": "material"
+    },
+    {
+      "entity": "html technology",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "otherscientificterm": 2,
+    "material": 1,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 6,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

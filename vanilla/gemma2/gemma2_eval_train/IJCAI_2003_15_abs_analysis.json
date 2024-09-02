@@ -1,0 +1,222 @@
+{
+  "doc_key": "IJCAI_2003_15_abs",
+  "gold_entities": [
+    {
+      "entity": "description logics (DLs)",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge representation",
+      "category": "method"
+    },
+    {
+      "entity": "DLs",
+      "category": "method"
+    },
+    {
+      "entity": "natural description logics",
+      "category": "method"
+    },
+    {
+      "entity": "tight nexptlme complexity bounds",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "DLs",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge representation",
+      "category": "method"
+    },
+    {
+      "entity": "abstract level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "concrete domains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "numbers",
+      "category": "material"
+    },
+    {
+      "entity": "strings",
+      "category": "material"
+    },
+    {
+      "entity": "us citizens",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "social security number",
+      "category": "material"
+    },
+    {
+      "entity": "natural description logics",
+      "category": "method"
+    },
+    {
+      "entity": "undecidability",
+      "category": "metric"
+    },
+    {
+      "entity": "complexity bounds",
+      "category": "metric"
+    },
+    {
+      "entity": "NEx-PTlME",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "knowledge representation",
+      "predicted": "knowledge representation",
+      "category": "method"
+    },
+    {
+      "gold": "DLs",
+      "predicted": "DLs",
+      "category": "method"
+    },
+    {
+      "gold": "natural description logics",
+      "predicted": "natural description logics",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "tight nexptlme complexity bounds",
+      "predicted": "complexity bounds",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "knowledge representation",
+      "category": "method"
+    },
+    {
+      "entity": "DLs",
+      "category": "method"
+    },
+    {
+      "entity": "natural description logics",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "description logics (DLs)",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "abstract level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "concrete domains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "numbers",
+      "category": "material"
+    },
+    {
+      "entity": "strings",
+      "category": "material"
+    },
+    {
+      "entity": "us citizens",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "social security number",
+      "category": "material"
+    },
+    {
+      "entity": "undecidability",
+      "category": "metric"
+    },
+    {
+      "entity": "NEx-PTlME",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "material": 3,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.6,
+  "f1": 0.35294117647058826,
+  "category_precision": 0.3333333333333333,
+  "category_recall": 0.8,
+  "category_f1": 0.47058823529411764,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 8,
+    "generic_entities": 0,
+    "correct_predictions": 3,
+    "correct_categories": 4
+  }
+}

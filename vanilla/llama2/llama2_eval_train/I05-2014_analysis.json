@@ -1,0 +1,286 @@
+{
+  "doc_key": "I05-2014",
+  "gold_entities": [
+    {
+      "entity": "Automatic  evaluation metrics",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "NIST",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "Machine Translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "assessment of  language pairs",
+      "category": "task"
+    },
+    {
+      "entity": "word segmentation problem",
+      "category": "task"
+    },
+    {
+      "entity": "word segmentation problem",
+      "category": "task"
+    },
+    {
+      "entity": "language pairs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishchinese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishjapanese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "method"
+    },
+    {
+      "entity": "commercial systems",
+      "category": "method"
+    },
+    {
+      "entity": "statistical MT systems",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "BLEU",
+      "category": "task"
+    },
+    {
+      "entity": "NIST",
+      "category": "task"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word ngrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commercial systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "statistical mt systems",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "BLEU",
+      "predicted": "BLEU",
+      "gold_category": "metric",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "NIST",
+      "predicted": "NIST",
+      "gold_category": "metric",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "commercial systems",
+      "predicted": "commercial systems",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "statistical MT systems",
+      "predicted": "statistical mt systems",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "character level",
+      "predicted": "character level",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word segmentation problem",
+      "predicted": "word segmentation",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Automatic  evaluation metrics",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "Machine Translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "assessment of  language pairs",
+      "category": "task"
+    },
+    {
+      "entity": "word segmentation problem",
+      "category": "task"
+    },
+    {
+      "entity": "language pairs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishchinese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishjapanese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character level",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "word ngrams",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "BLEU|metric": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "word segmentation problem|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "character level|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 7
+  },
+  "gold_category_counts": {
+    "metric": 5,
+    "task": 4,
+    "otherscientificterm": 5,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 5
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.14285714285714285,
+  "recall": 0.058823529411764705,
+  "f1": 0.08333333333333333,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 7,
+    "exact_matches": 4,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

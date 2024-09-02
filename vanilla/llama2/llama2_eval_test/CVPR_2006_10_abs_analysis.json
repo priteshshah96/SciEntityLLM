@@ -1,0 +1,237 @@
+{
+  "doc_key": "CVPR_2006_10_abs",
+  "gold_entities": [
+    {
+      "entity": "object detection",
+      "category": "task"
+    },
+    {
+      "entity": "prior on the distribution of natural images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "overfitting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prior on natural images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hyperplane",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "support vector machines",
+      "category": "method"
+    },
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "detectors",
+      "category": "method"
+    },
+    {
+      "entity": "detector",
+      "category": "method"
+    },
+    {
+      "entity": "linear and kernel SVM",
+      "category": "method"
+    },
+    {
+      "entity": "real data sets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Object detection",
+      "category": "task"
+    },
+    {
+      "entity": "Support vector machines",
+      "category": "method"
+    },
+    {
+      "entity": "Overfitting",
+      "category": "metric"
+    },
+    {
+      "entity": "Natural images",
+      "category": "material"
+    },
+    {
+      "entity": "separating hyperplane",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Margin",
+      "category": "metric"
+    },
+    {
+      "entity": "background",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training examples",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "overfitting",
+      "predicted": "Overfitting",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "object detection",
+      "predicted": "Object detection",
+      "category": "task"
+    },
+    {
+      "gold": "support vector machines",
+      "predicted": "Support vector machines",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "prior on natural images",
+      "predicted": "Natural images",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "hyperplane",
+      "predicted": "separating hyperplane",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "prior on the distribution of natural images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "detectors",
+      "category": "method"
+    },
+    {
+      "entity": "detector",
+      "category": "method"
+    },
+    {
+      "entity": "linear and kernel SVM",
+      "category": "method"
+    },
+    {
+      "entity": "real data sets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Margin",
+      "category": "metric"
+    },
+    {
+      "entity": "background",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training examples",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 4,
+    "method": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 1,
+    "metric": 2,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.18181818181818182,
+  "f1": 0.2105263157894737,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

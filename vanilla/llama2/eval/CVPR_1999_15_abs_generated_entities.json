@@ -1,0 +1,269 @@
+{
+  "gold_entities": [
+    {
+      "entity": "projective unifocal, bifo-cal, and trifocal tensors",
+      "category": "Method"
+    },
+    {
+      "entity": "affine cameras",
+      "category": "Method"
+    },
+    {
+      "entity": "trifocal tensor",
+      "category": "Method"
+    },
+    {
+      "entity": "factorization",
+      "category": "Method"
+    },
+    {
+      "entity": "estimation of the tensors",
+      "category": "Task"
+    },
+    {
+      "entity": "affine case",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "registered tensors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "affine specialization",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "geometric interpretation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "point correspondences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "line correspondences",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "projective unifocal tensor",
+      "category": "Task"
+    },
+    {
+      "entity": "bifocal tensor",
+      "category": "Task"
+    },
+    {
+      "entity": "trifocal tensor",
+      "category": "Task"
+    },
+    {
+      "entity": "affine case",
+      "category": "Task"
+    },
+    {
+      "entity": "registered tensors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "point correspondences",
+      "category": "Task"
+    },
+    {
+      "entity": "line correspondences",
+      "category": "Task"
+    },
+    {
+      "entity": "components of the trifocal tensor",
+      "category": "Method"
+    },
+    {
+      "entity": "geometric interpretation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "factorization",
+      "category": "Method"
+    },
+    {
+      "entity": "estimation of tensors",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "tensors",
+      "category": "Generic"
+    },
+    {
+      "entity": "tensors",
+      "category": "Generic"
+    },
+    {
+      "entity": "estimation",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "trifocal tensor",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "trifocal tensor",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "affine case",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "affine case",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "registered tensors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "registered tensors",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "point correspondences",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "point correspondences",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "line correspondences",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "line correspondences",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "geometric interpretation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "geometric interpretation",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "factorization",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "factorization",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "registered tensors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "registered tensors",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "geometric interpretation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "geometric interpretation",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "factorization",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "factorization",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "projective unifocal, bifo-cal, and trifocal tensors",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "projective unifocal tensor",
+          "category": "Task"
+        },
+        {
+          "entity": "components of the trifocal tensor",
+          "category": "Method"
+        },
+        {
+          "entity": "estimation of tensors",
+          "category": "Method"
+        }
+      ],
+      "coverage": 0.8666666666666667
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "affine cameras",
+      "category": "Method"
+    },
+    {
+      "entity": "estimation of the tensors",
+      "category": "Task"
+    },
+    {
+      "entity": "affine specialization",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "bifocal tensor",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 11,
+    "generic_count": 3,
+    "exact_matches": 7,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

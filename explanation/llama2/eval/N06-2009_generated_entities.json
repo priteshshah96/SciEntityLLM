@@ -1,0 +1,170 @@
+{
+  "gold_entities": [
+    {
+      "entity": "paraphrased questions",
+      "category": "Material"
+    },
+    {
+      "entity": "question answering (qa) systems",
+      "category": "Method"
+    },
+    {
+      "entity": "mt-based paraphrasing technique",
+      "category": "Method"
+    },
+    {
+      "entity": "qa system",
+      "category": "Method"
+    },
+    {
+      "entity": "mrr",
+      "category": "Metric"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "question answering (qa) systems",
+      "category": "Task"
+    },
+    {
+      "entity": "information need",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "paraphrasing technique",
+      "category": "Method"
+    },
+    {
+      "entity": "machine translation (mt)",
+      "category": "Method"
+    },
+    {
+      "entity": "mrr",
+      "category": "Metric"
+    },
+    {
+      "entity": "question",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "paraphrased questions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "performance",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "increase",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "35",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "question answering (qa) systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "question answering (qa) systems",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "mrr",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "mrr",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "paraphrased questions",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "paraphrased questions",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "mrr",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "mrr",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "mt-based paraphrasing technique",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "paraphrasing technique",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "qa system",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "information need",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "machine translation (mt)",
+      "category": "Method"
+    },
+    {
+      "entity": "question",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "performance",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "increase",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "35",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 10,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

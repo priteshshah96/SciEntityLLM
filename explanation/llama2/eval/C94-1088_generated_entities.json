@@ -1,0 +1,180 @@
+{
+  "gold_entities": [
+    {
+      "entity": "chinese text corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "characters-based chinese collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "word-based system",
+      "category": "Method"
+    },
+    {
+      "entity": "character-based collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "auxiliary module of automatic segmentation",
+      "category": "Method"
+    },
+    {
+      "entity": "avoiding pre-processing distortion",
+      "category": "Task"
+    },
+    {
+      "entity": "accessing sub-lexical information",
+      "category": "Task"
+    },
+    {
+      "entity": "word-based collocational properties",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "chinese collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "word-based system",
+      "category": "Method"
+    },
+    {
+      "entity": "wordbreaks",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pre-processing distortion",
+      "category": "Metric"
+    },
+    {
+      "entity": "sublexical information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "automatic segmentation",
+      "category": "Method"
+    },
+    {
+      "entity": "wordbased collocational properties",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "word-based system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "word-based system",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "word-based system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "word-based system",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "characters-based chinese collocation system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "chinese collocation system",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "auxiliary module of automatic segmentation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "automatic segmentation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "avoiding pre-processing distortion",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "pre-processing distortion",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "word-based collocational properties",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "wordbased collocational properties",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "chinese text corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "character-based collocation system",
+      "category": "Method"
+    },
+    {
+      "entity": "accessing sub-lexical information",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "wordbreaks",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sublexical information",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 1,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 4,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

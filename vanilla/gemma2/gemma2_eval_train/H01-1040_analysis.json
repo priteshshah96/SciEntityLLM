@@ -1,0 +1,239 @@
+{
+  "doc_key": "H01-1040",
+  "gold_entities": [
+    {
+      "entity": "information extraction (IE) systems",
+      "category": "method"
+    },
+    {
+      "entity": "text browser",
+      "category": "method"
+    },
+    {
+      "entity": "IE-enhanced text browsers",
+      "category": "method"
+    },
+    {
+      "entity": "named entity annotations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenario templates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text collections",
+      "category": "material"
+    },
+    {
+      "entity": "pharmaceutical news archive",
+      "category": "material"
+    },
+    {
+      "entity": "qualitative user evaluation",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "named entity annotations",
+      "category": "metric"
+    },
+    {
+      "entity": "scenario templates",
+      "category": "metric"
+    },
+    {
+      "entity": "text collections",
+      "category": "material"
+    },
+    {
+      "entity": "text browser",
+      "category": "method"
+    },
+    {
+      "entity": "prototype system",
+      "category": "method"
+    },
+    {
+      "entity": "information workers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pharmaceutical news archive",
+      "category": "material"
+    },
+    {
+      "entity": "industry watch",
+      "category": "task"
+    },
+    {
+      "entity": "qualitative user evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "interface",
+      "category": "method"
+    },
+    {
+      "entity": "ieenhanced text browsers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "text browser",
+      "predicted": "text browser",
+      "category": "method"
+    },
+    {
+      "gold": "named entity annotations",
+      "predicted": "named entity annotations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "scenario templates",
+      "predicted": "scenario templates",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "text collections",
+      "predicted": "text collections",
+      "category": "material"
+    },
+    {
+      "gold": "pharmaceutical news archive",
+      "predicted": "pharmaceutical news archive",
+      "category": "material"
+    },
+    {
+      "gold": "qualitative user evaluation",
+      "predicted": "qualitative user evaluation",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "IE-enhanced text browsers",
+      "predicted": "ieenhanced text browsers",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "text browser",
+      "category": "method"
+    },
+    {
+      "entity": "text collections",
+      "category": "material"
+    },
+    {
+      "entity": "pharmaceutical news archive",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "information extraction (IE) systems",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "prototype system",
+      "category": "method"
+    },
+    {
+      "entity": "information workers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "industry watch",
+      "category": "task"
+    },
+    {
+      "entity": "interface",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 2,
+    "material": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "metric": 2,
+    "material": 2,
+    "method": 3,
+    "otherscientificterm": 2,
+    "task": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.375,
+  "f1": 0.3157894736842105,
+  "category_precision": 0.7272727272727273,
+  "category_recall": 1.0,
+  "category_f1": 0.8421052631578948,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 11,
+    "exact_matches": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 4,
+    "generic_entities": 3,
+    "correct_predictions": 3,
+    "correct_categories": 8
+  }
+}

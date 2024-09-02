@@ -1,0 +1,205 @@
+{
+  "doc_key": "C82-1054",
+  "gold_entities": [
+    {
+      "entity": "left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "contextfree grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Parser",
+      "category": "material"
+    },
+    {
+      "entity": "Natural language interface",
+      "category": "material"
+    },
+    {
+      "entity": "Series of modifications",
+      "category": "task"
+    },
+    {
+      "entity": "Efficient",
+      "category": "metric"
+    },
+    {
+      "entity": "Flexible",
+      "category": "metric"
+    },
+    {
+      "entity": "Good choice",
+      "category": "metric"
+    },
+    {
+      "entity": "series",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "parser",
+      "predicted": "Parser",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "natural language interface",
+      "predicted": "Natural language interface",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "left corner parsing algorithm",
+      "predicted": "Left corner parsing algorithm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "context-free grammars",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "contextfree grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Series of modifications",
+      "category": "task"
+    },
+    {
+      "entity": "Efficient",
+      "category": "metric"
+    },
+    {
+      "entity": "Flexible",
+      "category": "metric"
+    },
+    {
+      "entity": "Good choice",
+      "category": "metric"
+    },
+    {
+      "entity": "series",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 2,
+    "task": 1,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.25,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 8,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

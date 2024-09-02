@@ -1,0 +1,222 @@
+{
+  "doc_key": "P03-1068",
+  "gold_entities": [
+    {
+      "entity": "semantically annotated corpus",
+      "category": "material"
+    },
+    {
+      "entity": "annotated data",
+      "category": "material"
+    },
+    {
+      "entity": "large-scale  acquisition of word-semantic information",
+      "category": "task"
+    },
+    {
+      "entity": "construction of  domain-independent lexica",
+      "category": "task"
+    },
+    {
+      "entity": "annotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic roles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vagueness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frame semantics paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "semantic annotation",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "large, semantically annotated corpus",
+      "category": "task"
+    },
+    {
+      "entity": "wordsemantic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainindependent lexica",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic roles",
+      "category": "method"
+    },
+    {
+      "entity": "frame semantics paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "annotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data",
+      "category": "material"
+    },
+    {
+      "entity": "vagueness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "semantic roles",
+      "predicted": "semantic roles",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "annotation",
+      "predicted": "annotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "vagueness",
+      "predicted": "vagueness",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "ambiguity",
+      "predicted": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "frame semantics paradigm",
+      "predicted": "frame semantics paradigm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "semantically annotated corpus",
+      "predicted": "large, semantically annotated corpus",
+      "score": 0.75,
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "annotated data",
+      "predicted": "data",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "large-scale  acquisition of word-semantic information",
+      "category": "task"
+    },
+    {
+      "entity": "construction of  domain-independent lexica",
+      "category": "task"
+    },
+    {
+      "entity": "semantic annotation",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "wordsemantic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainindependent lexica",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "task": 2,
+    "otherscientificterm": 4,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 5,
+    "method": 2,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4444444444444444,
+  "recall": 0.4,
+  "f1": 0.4210526315789474,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

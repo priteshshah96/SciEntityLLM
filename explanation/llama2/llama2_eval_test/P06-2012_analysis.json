@@ -1,0 +1,260 @@
+{
+  "doc_key": "P06-2012",
+  "gold_entities": [
+    {
+      "entity": "unsupervised learning approach",
+      "category": "method"
+    },
+    {
+      "entity": "spectral clustering based approach",
+      "category": "method"
+    },
+    {
+      "entity": "clustering methods",
+      "category": "method"
+    },
+    {
+      "entity": "relations between named entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical and syntactic features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "eigenvectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "adjacency graph s laplacian",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "submanifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "high dimensionality space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "eigenvectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cluster number estimation",
+      "category": "task"
+    },
+    {
+      "entity": "ACE corpora",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "unsupervised learning approach",
+      "category": "method"
+    },
+    {
+      "entity": "named entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical and syntactic features",
+      "category": "material"
+    },
+    {
+      "entity": "contexts",
+      "category": "material"
+    },
+    {
+      "entity": "eigenvectors",
+      "category": "method"
+    },
+    {
+      "entity": "Laplacian",
+      "category": "material"
+    },
+    {
+      "entity": "submanifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cluster number estimation",
+      "category": "method"
+    },
+    {
+      "entity": "ACE corpora",
+      "category": "material"
+    },
+    {
+      "entity": "other clustering methods",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "lexical and syntactic features",
+      "predicted": "lexical and syntactic features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "eigenvectors",
+      "predicted": "eigenvectors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "cluster number estimation",
+      "predicted": "cluster number estimation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "unsupervised learning approach",
+      "predicted": "unsupervised learning approach",
+      "category": "method"
+    },
+    {
+      "gold": "submanifold",
+      "predicted": "submanifold",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "ACE corpora",
+      "predicted": "ACE corpora",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "clustering methods",
+      "predicted": "other clustering methods",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "relations between named entities",
+      "predicted": "named entities",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "spectral clustering based approach",
+      "category": "method"
+    },
+    {
+      "entity": "eigenvectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "adjacency graph s laplacian",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "high dimensionality space",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contexts",
+      "category": "material"
+    },
+    {
+      "entity": "Laplacian",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "eigenvectors|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 7,
+    "task": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 3,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.25,
+  "f1": 0.2608695652173913,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

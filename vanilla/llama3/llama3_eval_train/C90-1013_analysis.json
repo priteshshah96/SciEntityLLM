@@ -1,0 +1,239 @@
+{
+  "doc_key": "C90-1013",
+  "gold_entities": [
+    {
+      "entity": "bidirectional grammar generation system",
+      "category": "method"
+    },
+    {
+      "entity": "feature structure-directed generation",
+      "category": "method"
+    },
+    {
+      "entity": "generation system",
+      "category": "method"
+    },
+    {
+      "entity": "grammar",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue translation system",
+      "category": "task"
+    },
+    {
+      "entity": "typed feature structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topdown derivation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disjunctive feature structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "derivation tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speakers intention",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "telephone dialogue",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Feature structure-directed generation",
+      "category": "method"
+    },
+    {
+      "entity": "Dialogue translation system",
+      "category": "material"
+    },
+    {
+      "entity": "Typed feature structures",
+      "category": "material"
+    },
+    {
+      "entity": "Top-down derivation",
+      "category": "method"
+    },
+    {
+      "entity": "declarative way",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Disjunctive feature structures",
+      "category": "material"
+    },
+    {
+      "entity": "Derivation tree",
+      "category": "material"
+    },
+    {
+      "entity": "Grammar",
+      "category": "material"
+    },
+    {
+      "entity": "speakers intention",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Telephone dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "Bidirectional grammar generation system",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "bidirectional grammar generation system",
+      "predicted": "Bidirectional grammar generation system",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "grammar",
+      "predicted": "Grammar",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "dialogue translation system",
+      "predicted": "Dialogue translation system",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "typed feature structures",
+      "predicted": "Typed feature structures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "disjunctive feature structures",
+      "predicted": "Disjunctive feature structures",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "derivation tree",
+      "predicted": "Derivation tree",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "telephone dialogue",
+      "predicted": "Telephone dialogue",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "feature structure-directed generation",
+      "predicted": "Feature structure-directed generation",
+      "category": "method"
+    },
+    {
+      "gold": "speakers intention",
+      "predicted": "speakers intention",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "generation system",
+      "category": "method"
+    },
+    {
+      "entity": "topdown derivation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Top-down derivation",
+      "category": "method"
+    },
+    {
+      "entity": "declarative way",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 1,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "material": 7,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 4,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.18181818181818182,
+  "f1": 0.18181818181818182,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 11,
+    "exact_matches": 7,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

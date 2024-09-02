@@ -1,0 +1,209 @@
+{
+  "gold_entities": [
+    {
+      "entity": "documents",
+      "category": "Material"
+    },
+    {
+      "entity": "independent and relevant event-based extractive mutli-document summarization approaches",
+      "category": "Method"
+    },
+    {
+      "entity": "independent approach",
+      "category": "Method"
+    },
+    {
+      "entity": "relevant approach",
+      "category": "Method"
+    },
+    {
+      "entity": "pagerank algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "event map",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "event-based extractive multi-document summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "independent approach",
+      "category": "Method"
+    },
+    {
+      "entity": "relevant approach",
+      "category": "Method"
+    },
+    {
+      "entity": "events",
+      "category": "Task"
+    },
+    {
+      "entity": "event terms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "associated event elements",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "contents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frequency of events",
+      "category": "Metric"
+    },
+    {
+      "entity": "pagerank algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "event map",
+      "category": "Material"
+    },
+    {
+      "entity": "documents",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "independent approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "independent approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relevant approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "relevant approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pagerank algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "pagerank algorithm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "event map",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "event map",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "documents",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "documents",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "independent approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "independent approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relevant approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "relevant approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "pagerank algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "pagerank algorithm",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "independent and relevant event-based extractive mutli-document summarization approaches",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "event-based extractive multi-document summarization",
+        "category": "Task"
+      },
+      "overlap": 0.75
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "events",
+      "category": "Task"
+    },
+    {
+      "entity": "event terms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "associated event elements",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "contents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frequency of events",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 11,
+    "generic_count": 0,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

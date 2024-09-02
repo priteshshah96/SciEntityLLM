@@ -1,0 +1,274 @@
+{
+  "doc_key": "E06-1022",
+  "gold_entities": [
+    {
+      "entity": "addressee identification  in  four-participants face-to-face meetings",
+      "category": "task"
+    },
+    {
+      "entity": "Bayesian Network",
+      "category": "method"
+    },
+    {
+      "entity": "Naive Bayes classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "addressee of a dialogue act",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gaze",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational context features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meeting context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "utterance features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speakers gaze information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meeting context",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Bayesian Network",
+      "category": "method"
+    },
+    {
+      "entity": "Naive Bayes classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "addressee identification",
+      "category": "task"
+    },
+    {
+      "entity": "dialogue act",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gaze",
+      "category": "material"
+    },
+    {
+      "entity": "utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meeting context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speaker's gaze information",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "gaze",
+      "predicted": "gaze",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Bayesian Network",
+      "predicted": "Bayesian Network",
+      "category": "method"
+    },
+    {
+      "gold": "Naive Bayes classifiers",
+      "predicted": "Naive Bayes classifiers",
+      "category": "method"
+    },
+    {
+      "gold": "utterance",
+      "predicted": "utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "meeting context",
+      "predicted": "meeting context",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "conversational context",
+      "predicted": "conversational context",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "speakers gaze information",
+      "predicted": "speaker's gaze information",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "addressee identification  in  four-participants face-to-face meetings",
+      "category": "task"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "addressee of a dialogue act",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conversational context features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meeting context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "utterance features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "addressee identification",
+      "category": "task"
+    },
+    {
+      "entity": "dialogue act",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "classifiers|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "meeting context|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 5,
+    "otherscientificterm": 9
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 4,
+    "material": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5555555555555556,
+  "recall": 0.3333333333333333,
+  "f1": 0.4166666666666667,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

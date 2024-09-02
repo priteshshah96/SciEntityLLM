@@ -1,0 +1,327 @@
+{
+  "gold_entities": [
+    {
+      "entity": "intrinsic representation of a video frame",
+      "category": "Method"
+    },
+    {
+      "entity": "deep video representation",
+      "category": "Method"
+    },
+    {
+      "entity": "triplet sampling mechanism",
+      "category": "Method"
+    },
+    {
+      "entity": "deep representations",
+      "category": "Method"
+    },
+    {
+      "entity": "end-to-end deep convolutional neu-ral network architecture",
+      "category": "Method"
+    },
+    {
+      "entity": "learning video representation",
+      "category": "Task"
+    },
+    {
+      "entity": "video recognition tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "classification",
+      "category": "Task"
+    },
+    {
+      "entity": "highlight detection",
+      "category": "Task"
+    },
+    {
+      "entity": "semantics",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "context information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local and holistic contexts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local temporal relationship of adjacent frames",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "graph structure of the video",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "priori",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "video representation",
+      "category": "Task"
+    },
+    {
+      "entity": "local temporal relationship",
+      "category": "Task"
+    },
+    {
+      "entity": "holistic context",
+      "category": "Task"
+    },
+    {
+      "entity": "inherent structure",
+      "category": "Task"
+    },
+    {
+      "entity": "deep representation",
+      "category": "Method"
+    },
+    {
+      "entity": "triplet sampling",
+      "category": "Method"
+    },
+    {
+      "entity": "graph structure",
+      "category": "Method"
+    },
+    {
+      "entity": "convolutional neural network",
+      "category": "Method"
+    },
+    {
+      "entity": "end-to-end",
+      "category": "Method"
+    },
+    {
+      "entity": "unsupervised",
+      "category": "Method"
+    },
+    {
+      "entity": "video recognition tasks",
+      "category": "Metric"
+    },
+    {
+      "entity": "retrieval",
+      "category": "Metric"
+    },
+    {
+      "entity": "classification",
+      "category": "Metric"
+    },
+    {
+      "entity": "highlight detection",
+      "category": "Metric"
+    },
+    {
+      "entity": "traditional video representations",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "learned representation",
+      "category": "Generic"
+    },
+    {
+      "entity": "video representations",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "video recognition tasks",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "video recognition tasks",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "retrieval",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "retrieval",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "classification",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "highlight detection",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "highlight detection",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "intrinsic representation of a video frame",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "video representation",
+          "category": "Task"
+        },
+        {
+          "entity": "deep representation",
+          "category": "Method"
+        },
+        {
+          "entity": "traditional video representations",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.8333333333333333
+    },
+    {
+      "gold": {
+        "entity": "end-to-end deep convolutional neu-ral network architecture",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "convolutional neural network",
+          "category": "Method"
+        },
+        {
+          "entity": "end-to-end",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.6666666666666665
+    },
+    {
+      "gold": {
+        "entity": "local and holistic contexts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "local temporal relationship",
+          "category": "Task"
+        },
+        {
+          "entity": "holistic context",
+          "category": "Task"
+        }
+      ],
+      "coverage": 0.8333333333333333
+    },
+    {
+      "gold": {
+        "entity": "graph structure of the video",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "inherent structure",
+          "category": "Task"
+        },
+        {
+          "entity": "graph structure",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "triplet sampling mechanism",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "triplet sampling",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "deep video representation",
+      "category": "Method"
+    },
+    {
+      "entity": "deep representations",
+      "category": "Method"
+    },
+    {
+      "entity": "learning video representation",
+      "category": "Task"
+    },
+    {
+      "entity": "semantics",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "context information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local temporal relationship of adjacent frames",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "priori",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "unsupervised",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 16,
+    "generated_count": 15,
+    "generic_count": 4,
+    "exact_matches": 4,
+    "exact_category_matches": 0,
+    "split_matches": 4,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

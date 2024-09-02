@@ -1,0 +1,162 @@
+{
+  "doc_key": "A97-1050",
+  "gold_entities": [
+    {
+      "entity": "translation lexicon acquisition (SABLE)",
+      "category": "task"
+    },
+    {
+      "entity": "general translation lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "algorithm for translation lexicon acquisition (SABLE)",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "general translation lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "translation lexicons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "general translation lexicons",
+      "predicted": "general translation lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "domainspecific translation lexicons",
+      "predicted": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "translation lexicon acquisition (SABLE)",
+      "predicted": "algorithm for translation lexicon acquisition (SABLE)",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation lexicons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "material": 2,
+    "otherscientificterm": 5
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.6666666666666666,
+  "f1": 0.36363636363636365,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

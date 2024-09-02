@@ -1,0 +1,247 @@
+{
+  "gold_entities": [
+    {
+      "entity": "first-order autoregressive model",
+      "category": "Method"
+    },
+    {
+      "entity": "separation method",
+      "category": "Method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+      "category": "Task"
+    },
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "Task"
+    },
+    {
+      "entity": "nonstationarity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "original signals",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cram\u00e9r-rao lower bound)",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "blind separation",
+      "category": "Task"
+    },
+    {
+      "entity": "underdetermined instantaneous mixtures",
+      "category": "Task"
+    },
+    {
+      "entity": "independent signals",
+      "category": "Task"
+    },
+    {
+      "entity": "nonstationarity",
+      "category": "Method"
+    },
+    {
+      "entity": "piecewise stationarity",
+      "category": "Method"
+    },
+    {
+      "entity": "variance",
+      "category": "Metric"
+    },
+    {
+      "entity": "epochs",
+      "category": "Method"
+    },
+    {
+      "entity": "first-order autoregressive model",
+      "category": "Method"
+    },
+    {
+      "entity": "cram\u00e9r-rao lower bound",
+      "category": "Metric"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "signals",
+      "category": "Generic"
+    },
+    {
+      "entity": "signals",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "assumed model",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "nonstationarity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "nonstationarity",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural speech signals",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural speech signals",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "first-order autoregressive model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural speech signals",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "natural speech signals",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "blind separation",
+          "category": "Task"
+        },
+        {
+          "entity": "underdetermined instantaneous mixtures",
+          "category": "Task"
+        },
+        {
+          "entity": "independent signals",
+          "category": "Task"
+        }
+      ],
+      "coverage": 3.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "cram\u00e9r-rao lower bound)",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "cram\u00e9r-rao lower bound",
+        "category": "Metric"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "separation method",
+      "category": "Method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "Task"
+    },
+    {
+      "entity": "original signals",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "piecewise stationarity",
+      "category": "Method"
+    },
+    {
+      "entity": "variance",
+      "category": "Metric"
+    },
+    {
+      "entity": "epochs",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 10,
+    "generic_count": 7,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

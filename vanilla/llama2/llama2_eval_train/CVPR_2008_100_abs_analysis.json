@@ -1,0 +1,260 @@
+{
+  "doc_key": "CVPR_2008_100_abs",
+  "gold_entities": [
+    {
+      "entity": "Structured-light methods",
+      "category": "method"
+    },
+    {
+      "entity": "Photogeometric Structured Light",
+      "category": "method"
+    },
+    {
+      "entity": "structured light method",
+      "category": "method"
+    },
+    {
+      "entity": "photometric methods",
+      "category": "method"
+    },
+    {
+      "entity": "Photometric processing",
+      "category": "method"
+    },
+    {
+      "entity": "photogeometric optimization",
+      "category": "method"
+    },
+    {
+      "entity": "multi-view 3D model",
+      "category": "method"
+    },
+    {
+      "entity": "geometric correspondence data",
+      "category": "material"
+    },
+    {
+      "entity": "photometric and geometric data",
+      "category": "material"
+    },
+    {
+      "entity": "robust 3D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "recovered surface detail",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structuredlight setup",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Structured-light methods",
+      "category": "task"
+    },
+    {
+      "entity": "Geometric correspondence data",
+      "category": "task"
+    },
+    {
+      "entity": "Photometric methods",
+      "category": "task"
+    },
+    {
+      "entity": "Photometric processing",
+      "category": "method"
+    },
+    {
+      "entity": "Surface detail",
+      "category": "metric"
+    },
+    {
+      "entity": "Self-calibration",
+      "category": "method"
+    },
+    {
+      "entity": "Photogeometric optimization",
+      "category": "method"
+    },
+    {
+      "entity": "Multi-view 3D model",
+      "category": "task"
+    },
+    {
+      "entity": "Multiple cameras",
+      "category": "material"
+    },
+    {
+      "entity": "Projectors",
+      "category": "material"
+    },
+    {
+      "entity": "geometric data",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Structured-light methods",
+      "predicted": "Structured-light methods",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "photometric methods",
+      "predicted": "Photometric methods",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "multi-view 3D model",
+      "predicted": "Multi-view 3D model",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "geometric correspondence data",
+      "predicted": "Geometric correspondence data",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Photometric processing",
+      "predicted": "Photometric processing",
+      "category": "method"
+    },
+    {
+      "gold": "photogeometric optimization",
+      "predicted": "Photogeometric optimization",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "recovered surface detail",
+      "predicted": "Surface detail",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Photogeometric Structured Light",
+      "category": "method"
+    },
+    {
+      "entity": "structured light method",
+      "category": "method"
+    },
+    {
+      "entity": "photometric and geometric data",
+      "category": "material"
+    },
+    {
+      "entity": "robust 3D reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "structuredlight setup",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Self-calibration",
+      "category": "method"
+    },
+    {
+      "entity": "Multiple cameras",
+      "category": "material"
+    },
+    {
+      "entity": "Projectors",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "material": 2,
+    "task": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 3,
+    "metric": 1,
+    "material": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 3,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.16666666666666666,
+  "f1": 0.17391304347826086,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

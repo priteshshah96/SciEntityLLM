@@ -1,0 +1,240 @@
+{
+  "doc_key": "ICML_2006_112_abs",
+  "gold_entities": [
+    {
+      "entity": "online multiclass learning",
+      "category": "task"
+    },
+    {
+      "entity": "multiclass categorization",
+      "category": "task"
+    },
+    {
+      "entity": "notion of hypothesis sharing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiclass Perceptron",
+      "category": "method"
+    },
+    {
+      "entity": "unifying mistake bound analysis",
+      "category": "method"
+    },
+    {
+      "entity": "online learning process",
+      "category": "method"
+    },
+    {
+      "entity": "synthetic and natural datasets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Multiclass learning",
+      "category": "task"
+    },
+    {
+      "entity": "Hypothesis sharing",
+      "category": "method"
+    },
+    {
+      "entity": "sets of classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypotheses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multiclass categorization",
+      "category": "task"
+    },
+    {
+      "entity": "unique hypothesis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "common hypothesis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multiclass Perceptron",
+      "category": "method"
+    },
+    {
+      "entity": "Mistake bound analysis",
+      "category": "method"
+    },
+    {
+      "entity": "Online learning process",
+      "category": "task"
+    },
+    {
+      "entity": "Synthetic datasets",
+      "category": "material"
+    },
+    {
+      "entity": "Natural datasets",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "multiclass categorization",
+      "predicted": "Multiclass categorization",
+      "category": "task"
+    },
+    {
+      "gold": "multiclass Perceptron",
+      "predicted": "Multiclass Perceptron",
+      "category": "method"
+    },
+    {
+      "gold": "online learning process",
+      "predicted": "Online learning process",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "online multiclass learning",
+      "predicted": "Multiclass learning",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "notion of hypothesis sharing",
+      "predicted": "Hypothesis sharing",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unifying mistake bound analysis",
+      "predicted": "Mistake bound analysis",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "synthetic and natural datasets",
+      "predicted": "Synthetic datasets",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "multiclass categorization",
+      "category": "task"
+    },
+    {
+      "entity": "multiclass Perceptron",
+      "category": "method"
+    },
+    {
+      "entity": "online multiclass learning",
+      "category": "task"
+    },
+    {
+      "entity": "unifying mistake bound analysis",
+      "category": "method"
+    },
+    {
+      "entity": "synthetic and natural datasets",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "sets of classes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hypotheses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unique hypothesis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "common hypothesis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "method": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 3,
+    "otherscientificterm": 4,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.5833333333333334,
+  "category_recall": 1.0,
+  "category_f1": 0.7368421052631579,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 7,
+    "correct_predictions": 0,
+    "correct_categories": 7
+  }
+}

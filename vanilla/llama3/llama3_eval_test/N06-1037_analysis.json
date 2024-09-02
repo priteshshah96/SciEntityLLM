@@ -1,0 +1,228 @@
+{
+  "doc_key": "N06-1037",
+  "gold_entities": [
+    {
+      "entity": "convolution kernel  over  parse trees",
+      "category": "method"
+    },
+    {
+      "entity": "convolution tree kernel",
+      "category": "method"
+    },
+    {
+      "entity": "convolution kernel  over  parse trees",
+      "category": "method"
+    },
+    {
+      "entity": "feature-based methods",
+      "category": "method"
+    },
+    {
+      "entity": "dependency tree kernels",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic structure information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic structure features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parse tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relation extraction",
+      "category": "task"
+    },
+    {
+      "entity": "relation extraction",
+      "category": "task"
+    },
+    {
+      "entity": "ACE 2003 corpus",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Convolution kernel",
+      "category": "method"
+    },
+    {
+      "entity": "Parse trees",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic structure information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic structure features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Convolution tree kernel",
+      "category": "method"
+    },
+    {
+      "entity": "ACE 2003 corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Relation extraction",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "convolution tree kernel",
+      "predicted": "Convolution tree kernel",
+      "category": "method"
+    },
+    {
+      "gold": "syntactic structure information",
+      "predicted": "syntactic structure information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "syntactic structure features",
+      "predicted": "syntactic structure features",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "relation extraction",
+      "predicted": "Relation extraction",
+      "category": "task"
+    },
+    {
+      "gold": "ACE 2003 corpus",
+      "predicted": "ACE 2003 corpus",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "convolution kernel  over  parse trees",
+      "category": "method"
+    },
+    {
+      "entity": "convolution kernel  over  parse trees",
+      "category": "method"
+    },
+    {
+      "entity": "feature-based methods",
+      "category": "method"
+    },
+    {
+      "entity": "dependency tree kernels",
+      "category": "method"
+    },
+    {
+      "entity": "parse tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relation extraction",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Convolution kernel",
+      "category": "method"
+    },
+    {
+      "entity": "Parse trees",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "convolution kernel  over  parse trees|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "relation extraction|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "otherscientificterm": 3,
+    "task": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "material": 2,
+    "otherscientificterm": 2,
+    "task": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.7142857142857143,
+  "recall": 0.45454545454545453,
+  "f1": 0.5555555555555556,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 7,
+    "exact_matches": 0,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,194 @@
+{
+  "doc_key": "C90-2032",
+  "gold_entities": [
+    {
+      "entity": "document oriented preference sets(DoPS)",
+      "category": "method"
+    },
+    {
+      "entity": "DoPS system",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation of the  dependency structure",
+      "category": "task"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain targeted preference knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledgebases",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese patent claim sentences",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "DoPS",
+      "category": "task"
+    },
+    {
+      "entity": "dependency structure",
+      "category": "method"
+    },
+    {
+      "entity": "preference knowledge",
+      "category": "metric"
+    },
+    {
+      "entity": "target document",
+      "category": "material"
+    },
+    {
+      "entity": "japanese patent claim sentences",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Japanese patent claim sentences",
+      "predicted": "japanese patent claim sentences",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "DoPS system",
+      "predicted": "DoPS",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "domain targeted preference knowledge",
+      "predicted": "preference knowledge",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "document oriented preference sets(DoPS)",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation of the  dependency structure",
+      "category": "task"
+    },
+    {
+      "entity": "sentence ambiguities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "knowledgebases",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "dependency structure",
+      "category": "method"
+    },
+    {
+      "entity": "target document",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 1,
+    "metric": 1,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 5,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

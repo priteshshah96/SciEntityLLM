@@ -1,0 +1,301 @@
+{
+  "doc_key": "X96-1041",
+  "gold_entities": [
+    {
+      "entity": "TIPSTER Architecture",
+      "category": "method"
+    },
+    {
+      "entity": "common text processing modules",
+      "category": "method"
+    },
+    {
+      "entity": "CRL's TIPSTER User Interface Toolkit (TUIT)",
+      "category": "method"
+    },
+    {
+      "entity": "TUIT",
+      "category": "method"
+    },
+    {
+      "entity": "software library",
+      "category": "method"
+    },
+    {
+      "entity": "TUIT",
+      "category": "method"
+    },
+    {
+      "entity": "TIPSTER modules",
+      "category": "method"
+    },
+    {
+      "entity": "TUIT",
+      "category": "method"
+    },
+    {
+      "entity": "text applications",
+      "category": "task"
+    },
+    {
+      "entity": "TIPSTER applications",
+      "category": "task"
+    },
+    {
+      "entity": "user interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user interface styles or conventions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tipster architecture specification",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphical user interface gui functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "guis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multilingual tipster user interfaces",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "TIPSTER Architecture",
+      "category": "method"
+    },
+    {
+      "entity": "text applications",
+      "category": "task"
+    },
+    {
+      "entity": "user interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user interfaces styles or conventions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computing research laboratory crl",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "TIPSTER User Interface Toolkit (TUIT)",
+      "category": "method"
+    },
+    {
+      "entity": "multilingual TIPSTER user interfaces",
+      "category": "material"
+    },
+    {
+      "entity": "user tasks",
+      "category": "task"
+    },
+    {
+      "entity": "TIPSTER modules",
+      "category": "method"
+    },
+    {
+      "entity": "demonstration projects",
+      "category": "material"
+    },
+    {
+      "entity": "Oleada",
+      "category": "material"
+    },
+    {
+      "entity": "Temple",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "multilingual tipster user interfaces",
+      "predicted": "multilingual TIPSTER user interfaces",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "TIPSTER Architecture",
+      "predicted": "TIPSTER Architecture",
+      "category": "method"
+    },
+    {
+      "gold": "TIPSTER modules",
+      "predicted": "TIPSTER modules",
+      "category": "method"
+    },
+    {
+      "gold": "text applications",
+      "predicted": "text applications",
+      "category": "task"
+    },
+    {
+      "gold": "user interfaces",
+      "predicted": "user interfaces",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "CRL's TIPSTER User Interface Toolkit (TUIT)",
+      "predicted": "TIPSTER User Interface Toolkit (TUIT)",
+      "score": 0.8,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "user interface styles or conventions",
+      "predicted": "user interfaces styles or conventions",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "common text processing modules",
+      "category": "method"
+    },
+    {
+      "entity": "TUIT",
+      "category": "method"
+    },
+    {
+      "entity": "TUIT",
+      "category": "method"
+    },
+    {
+      "entity": "TUIT",
+      "category": "method"
+    },
+    {
+      "entity": "software library",
+      "category": "method"
+    },
+    {
+      "entity": "TIPSTER applications",
+      "category": "task"
+    },
+    {
+      "entity": "tipster architecture specification",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphical user interface gui functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "guis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "computing research laboratory crl",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user tasks",
+      "category": "task"
+    },
+    {
+      "entity": "demonstration projects",
+      "category": "material"
+    },
+    {
+      "entity": "Oleada",
+      "category": "material"
+    },
+    {
+      "entity": "Temple",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "TUIT|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "task": 2,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 2,
+    "otherscientificterm": 3,
+    "material": 4
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.25,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 12,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 5,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

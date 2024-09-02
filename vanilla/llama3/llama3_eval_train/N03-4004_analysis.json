@@ -1,0 +1,277 @@
+{
+  "doc_key": "N03-4004",
+  "gold_entities": [
+    {
+      "entity": "TAP-XL Automated Analyst's Assistant",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual, multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "human language technology",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Multilingual",
+      "category": "material"
+    },
+    {
+      "entity": "Multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "human language technology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Topical report",
+      "category": "material"
+    },
+    {
+      "entity": "translingual reach",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "TAP-XL Automated Analyst's Assistant",
+      "category": "method"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Large inflow",
+      "category": "metric"
+    },
+    {
+      "entity": "Relevant data",
+      "category": "material"
+    },
+    {
+      "entity": "Task",
+      "category": "task"
+    },
+    {
+      "entity": "Write",
+      "category": "task"
+    },
+    {
+      "entity": "Culling information",
+      "category": "task"
+    },
+    {
+      "entity": "Finding more data",
+      "category": "task"
+    },
+    {
+      "entity": "Giving users",
+      "category": "task"
+    },
+    {
+      "entity": "Leveraging",
+      "category": "method"
+    },
+    {
+      "entity": "Multilingual, multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "Large inflow of multilingual, multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "translingual reach into other languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English-speaking analyst",
+      "category": "material"
+    },
+    {
+      "entity": "English-speaking analyst write",
+      "category": "task"
+    },
+    {
+      "entity": "Topical report culling information",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "TAP-XL Automated Analyst's Assistant",
+      "predicted": "TAP-XL Automated Analyst's Assistant",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "human language technology",
+      "predicted": "human language technology",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "multilingual, multimedia data",
+      "predicted": "Multilingual, multimedia data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Multilingual",
+      "category": "material"
+    },
+    {
+      "entity": "Multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "Topical report",
+      "category": "material"
+    },
+    {
+      "entity": "translingual reach",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Large inflow",
+      "category": "metric"
+    },
+    {
+      "entity": "Relevant data",
+      "category": "material"
+    },
+    {
+      "entity": "Task",
+      "category": "task"
+    },
+    {
+      "entity": "Write",
+      "category": "task"
+    },
+    {
+      "entity": "Culling information",
+      "category": "task"
+    },
+    {
+      "entity": "Finding more data",
+      "category": "task"
+    },
+    {
+      "entity": "Giving users",
+      "category": "task"
+    },
+    {
+      "entity": "Leveraging",
+      "category": "method"
+    },
+    {
+      "entity": "Large inflow of multilingual, multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "translingual reach into other languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English-speaking analyst",
+      "category": "material"
+    },
+    {
+      "entity": "English-speaking analyst write",
+      "category": "task"
+    },
+    {
+      "entity": "Topical report culling information",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "material": 8,
+    "otherscientificterm": 3,
+    "method": 2,
+    "metric": 1,
+    "task": 7
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.047619047619047616,
+  "recall": 0.3333333333333333,
+  "f1": 0.08333333333333333,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 21,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 18,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

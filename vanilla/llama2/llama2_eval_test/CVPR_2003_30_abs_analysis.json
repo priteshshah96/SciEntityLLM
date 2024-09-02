@@ -1,0 +1,250 @@
+{
+  "doc_key": "CVPR_2003_30_abs",
+  "gold_entities": [
+    {
+      "entity": "threedimensional objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affineinvariant image patches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiview constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cluttered scenes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "normalized representation",
+      "category": "method"
+    },
+    {
+      "entity": "segmentation stage",
+      "category": "method"
+    },
+    {
+      "entity": "matching",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "acquisition of true three-dimensional affine and Euclidean models",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Object",
+      "category": "task"
+    },
+    {
+      "entity": "Image patches",
+      "category": "method"
+    },
+    {
+      "entity": "Affine-invariant",
+      "category": "metric"
+    },
+    {
+      "entity": "Appearance",
+      "category": "metric"
+    },
+    {
+      "entity": "Multi-view constraints",
+      "category": "method"
+    },
+    {
+      "entity": "Normalized representation",
+      "category": "method"
+    },
+    {
+      "entity": "Recognition",
+      "category": "task"
+    },
+    {
+      "entity": "Segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "cluttered scenes",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "cluttered scenes",
+      "predicted": "cluttered scenes",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "normalized representation",
+      "predicted": "Normalized representation",
+      "category": "method"
+    },
+    {
+      "gold": "recognition",
+      "predicted": "Recognition",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "affineinvariant image patches",
+      "predicted": "Image patches",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "segmentation stage",
+      "predicted": "Segmentation",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "threedimensional objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiview constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "matching",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "acquisition of true three-dimensional affine and Euclidean models",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Object",
+      "category": "task"
+    },
+    {
+      "entity": "Affine-invariant",
+      "category": "metric"
+    },
+    {
+      "entity": "Appearance",
+      "category": "metric"
+    },
+    {
+      "entity": "Multi-view constraints",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 5,
+    "method": 2,
+    "task": 4,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "metric": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.25,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 9,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 4,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

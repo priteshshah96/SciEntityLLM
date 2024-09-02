@@ -1,0 +1,236 @@
+{
+  "doc_key": "C88-2166",
+  "gold_entities": [
+    {
+      "entity": "natural language system",
+      "category": "method"
+    },
+    {
+      "entity": "COMPLEX",
+      "category": "method"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural Language Processing (NLP) systems",
+      "category": "task"
+    },
+    {
+      "entity": "machine-readable dictionaries (MRD's)",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language system",
+      "category": "task"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "method"
+    },
+    {
+      "entity": "lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural Language Processing (NLP) systems",
+      "category": "material"
+    },
+    {
+      "entity": "machine-readable dictionaries (MRD's)",
+      "category": "material"
+    },
+    {
+      "entity": "broad coverage lexicon",
+      "category": "method"
+    },
+    {
+      "entity": "complex",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational lexicon",
+      "category": "method"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural Language Processing (NLP) systems",
+      "category": "material"
+    },
+    {
+      "entity": "machine-readable dictionaries (MRD's)",
+      "category": "material"
+    },
+    {
+      "entity": "broad coverage lexicon",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language system",
+      "predicted": "natural language system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "COMPLEX",
+      "predicted": "complex",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "computational lexicon",
+      "predicted": "computational lexicon",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "computational lexicon",
+      "predicted": "computational lexicon",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "Natural Language Processing (NLP) systems",
+      "predicted": "Natural Language Processing (NLP) systems",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "shared lexical information",
+      "predicted": "shared lexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "machine-readable dictionaries (MRD's)",
+      "predicted": "machine-readable dictionaries (MRD's)",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shared lexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Natural Language Processing (NLP) systems",
+      "category": "material"
+    },
+    {
+      "entity": "machine-readable dictionaries (MRD's)",
+      "category": "material"
+    },
+    {
+      "entity": "broad coverage lexicon",
+      "category": "method"
+    },
+    {
+      "entity": "broad coverage lexicon",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "computational lexicon|otherscientificterm": {
+      "count": 2,
+      "exact": 2,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3,
+    "task": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 4,
+    "material": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.2857142857142857,
+  "f1": 0.2,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 13,
+    "exact_matches": 5,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

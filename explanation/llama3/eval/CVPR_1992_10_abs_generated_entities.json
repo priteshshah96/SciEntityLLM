@@ -1,0 +1,318 @@
+{
+  "gold_entities": [
+    {
+      "entity": "line drawings",
+      "category": "Material"
+    },
+    {
+      "entity": "edge images",
+      "category": "Material"
+    },
+    {
+      "entity": "image data",
+      "category": "Material"
+    },
+    {
+      "entity": "small-to-large scale grouping procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "labeling curvilinear structure",
+      "category": "Task"
+    },
+    {
+      "entity": "image description",
+      "category": "Task"
+    },
+    {
+      "entity": "curve-element tokens",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatially-indexed and scale-indexed data structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "image contour",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local curve-element attributes",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "labeling curvilinear structure",
+      "category": "Task"
+    },
+    {
+      "entity": "line drawings",
+      "category": "Material"
+    },
+    {
+      "entity": "edge images",
+      "category": "Material"
+    },
+    {
+      "entity": "curveelement tokens",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatially-indexed and scale-indexed data structure",
+      "category": "Method"
+    },
+    {
+      "entity": "circular arcs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "image data",
+      "category": "Material"
+    },
+    {
+      "entity": "small-to-large scale grouping procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "greedy strategy",
+      "category": "Method"
+    },
+    {
+      "entity": "best-first strategy",
+      "category": "Method"
+    },
+    {
+      "entity": "image description",
+      "category": "Material"
+    },
+    {
+      "entity": "curveelement attributes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local curveelement attributes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "portions of the image",
+      "category": "Material"
+    },
+    {
+      "entity": "local curveelement attributes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "image",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "labeling curvilinear structure",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "labeling curvilinear structure",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "line drawings",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "line drawings",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "edge images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "edge images",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spatially-indexed and scale-indexed data structure",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "spatially-indexed and scale-indexed data structure",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "image data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "image data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "small-to-large scale grouping procedure",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "small-to-large scale grouping procedure",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "image description",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "image description",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "labeling curvilinear structure",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "labeling curvilinear structure",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "line drawings",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "line drawings",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "edge images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "edge images",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "image data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "image data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "small-to-large scale grouping procedure",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "small-to-large scale grouping procedure",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "image contour",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "portions of the image",
+          "category": "Material"
+        },
+        {
+          "entity": "image",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.25
+    },
+    {
+      "gold": {
+        "entity": "local curve-element attributes",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "curveelement attributes",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "local curveelement attributes",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "local curveelement attributes",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.833333333333333
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "curve-element tokens",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "curveelement tokens",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "circular arcs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "greedy strategy",
+      "category": "Method"
+    },
+    {
+      "entity": "best-first strategy",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 16,
+    "generic_count": 1,
+    "exact_matches": 7,
+    "exact_category_matches": 5,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

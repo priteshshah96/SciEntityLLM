@@ -1,0 +1,225 @@
+{
+  "doc_key": "C92-2115",
+  "gold_entities": [
+    {
+      "entity": "transfer phase",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "analysis",
+      "category": "task"
+    },
+    {
+      "entity": "generation",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "case-based MT (CBMT)",
+      "category": "task"
+    },
+    {
+      "entity": "lexical rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "case-based reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "transfer system",
+      "category": "method"
+    },
+    {
+      "entity": "Similarity-driven Transfer System (SimTran)",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Transfer phase",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Generation",
+      "category": "task"
+    },
+    {
+      "entity": "lexical rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Case-based reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "Translation examples",
+      "category": "material"
+    },
+    {
+      "entity": "Similarity-driven Transfer System (SimTran)",
+      "category": "material"
+    },
+    {
+      "entity": "casebased machine translation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "machine translation",
+      "predicted": "machine translation",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Similarity-driven Transfer System (SimTran)",
+      "predicted": "Similarity-driven Transfer System (SimTran)",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "transfer phase",
+      "predicted": "Transfer phase",
+      "category": "task"
+    },
+    {
+      "gold": "analysis",
+      "predicted": "Analysis",
+      "category": "task"
+    },
+    {
+      "gold": "generation",
+      "predicted": "Generation",
+      "category": "task"
+    },
+    {
+      "gold": "lexical rules",
+      "predicted": "lexical rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "case-based reasoning",
+      "predicted": "Case-based reasoning",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "task"
+    },
+    {
+      "entity": "MT",
+      "category": "task"
+    },
+    {
+      "entity": "case-based MT (CBMT)",
+      "category": "task"
+    },
+    {
+      "entity": "transfer system",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Translation examples",
+      "category": "material"
+    },
+    {
+      "entity": "casebased machine translation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "otherscientificterm": 1,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 3,
+    "method": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5555555555555556,
+  "recall": 0.45454545454545453,
+  "f1": 0.5,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

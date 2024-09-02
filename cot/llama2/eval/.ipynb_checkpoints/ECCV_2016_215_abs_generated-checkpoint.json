@@ -1,0 +1,415 @@
+{
+  "initial_gold_entities": [
+    {
+      "entity": "Existing methods",
+      "category": "Generic"
+    },
+    {
+      "entity": "them",
+      "category": "Generic"
+    },
+    {
+      "entity": "coherent framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "methods",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "data",
+      "category": "Generic"
+    },
+    {
+      "entity": "modalities",
+      "category": "Generic"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "Generic"
+    },
+    {
+      "entity": "explicit filter construction",
+      "category": "Method"
+    },
+    {
+      "entity": "guidance image",
+      "category": "Material"
+    },
+    {
+      "entity": "guidance image",
+      "category": "Material"
+    }
+  ],
+  "initial_generated_entities": [
+    {
+      "entity": "joint image filters",
+      "category": "Task",
+      "reasoning": "This describes the main task or problem addressed in the text."
+    },
+    {
+      "entity": "guidance image",
+      "category": "Material",
+      "reasoning": "This is a key input or resource used in the task."
+    },
+    {
+      "entity": "target image",
+      "category": "Material",
+      "reasoning": "This is another key input or resource used in the task."
+    },
+    {
+      "entity": "noise",
+      "category": "OtherScientificTerm",
+      "reasoning": "This is a specific type of problem addressed in the text."
+    },
+    {
+      "entity": "spatial resolution",
+      "category": "OtherScientificTerm",
+      "reasoning": "This is another specific type of problem addressed in the text."
+    },
+    {
+      "entity": "Convolutional Neural Networks",
+      "category": "Method",
+      "reasoning": "This is a specific technique used in the proposed method."
+    },
+    {
+      "entity": "hand-designed objective functions",
+      "category": "OtherScientificTerm",
+      "reasoning": "This is a specific type of approach used in existing methods."
+    },
+    {
+      "entity": "learning-based approach",
+      "category": "Method",
+      "reasoning": "This is the specific approach proposed in the text."
+    },
+    {
+      "entity": "selectively transfer salient structures",
+      "category": "Method",
+      "reasoning": "This is a key aspect of the proposed method."
+    },
+    {
+      "entity": "RGB and depth images",
+      "category": "Material",
+      "reasoning": "This is a specific type of data used in the proposed method."
+    },
+    {
+      "entity": "Flash/Non-Flash and RGB/NIR images",
+      "category": "OtherScientificTerm",
+      "reasoning": "These are specific types of data used in the proposed method."
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "OtherScientificTerm",
+      "reasoning": "This is a specific type of reference or comparison used in the text."
+    },
+    {
+      "entity": "proposed joint filter",
+      "category": "Method",
+      "reasoning": "This is the specific method proposed in the text."
+    },
+    {
+      "entity": "model trained on a certain type of data",
+      "category": "Method",
+      "reasoning": "This is a key aspect of the proposed method."
+    },
+    {
+      "entity": "generalization to other modalities",
+      "category": "Metric",
+      "reasoning": "This is a specific type of evaluation used in the text."
+    },
+    {
+      "entity": "effectiveness of the proposed joint filter",
+      "category": "Metric",
+      "reasoning": "This is another specific type of evaluation used in the text."
+    }
+  ],
+  "generic_entities": [
+    {
+      "id": "T6",
+      "entity": "Existing methods",
+      "category": "Generic",
+      "start": 198,
+      "end": 214
+    },
+    {
+      "id": "T9",
+      "entity": "them",
+      "category": "Generic",
+      "start": 367,
+      "end": 371
+    },
+    {
+      "id": "T10",
+      "entity": "coherent framework",
+      "category": "Generic",
+      "start": 377,
+      "end": 395
+    },
+    {
+      "id": "T14",
+      "entity": "methods",
+      "category": "Generic",
+      "start": 542,
+      "end": 549
+    },
+    {
+      "id": "T16",
+      "entity": "method",
+      "category": "Generic",
+      "start": 593,
+      "end": 599
+    },
+    {
+      "id": "T18",
+      "entity": "model",
+      "category": "Generic",
+      "start": 717,
+      "end": 722
+    },
+    {
+      "id": "T19",
+      "entity": "data",
+      "category": "Generic",
+      "start": 752,
+      "end": 756
+    },
+    {
+      "id": "T21",
+      "entity": "modalities",
+      "category": "Generic",
+      "start": 813,
+      "end": 823
+    },
+    {
+      "id": "T24",
+      "entity": "state-of-the-art methods",
+      "category": "Generic",
+      "start": 961,
+      "end": 985
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "Joint image filters",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "joint image filters",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hand-designed objective functions",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hand-designed objective functions",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "learning-based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "learning-based approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "guidance image",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "guidance image",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "RGB and depth images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "RGB and depth images",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "Flash/Non-Flash and RGB/NIR images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "Flash/Non-Flash and RGB/NIR images",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "learning-based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "learning-based approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "guidance image",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "guidance image",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "RGB and depth images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "RGB and depth images",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "joint filter",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "proposed joint filter",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "Convolution-al Neural Networks",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "Convolutional Neural Networks",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "joint filter",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "effectiveness of the proposed joint filter",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "suppressing noise",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "noise",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "enhancing spatial resolution",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "spatial resolution",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "transfer salient structures",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "selectively transfer salient structures",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "explicit filter construction",
+      "category": "Method"
+    },
+    {
+      "entity": "guidance image",
+      "category": "Material"
+    },
+    {
+      "entity": "guidance image",
+      "category": "Material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "target image",
+      "category": "Material"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "model trained on a certain type of data",
+      "category": "Method"
+    },
+    {
+      "entity": "generalization to other modalities",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "joint filter": 2,
+    "guidance image": 3
+  },
+  "distinct_repeated_entities": [
+    "joint filter",
+    "guidance image"
+  ],
+  "counts": {
+    "initial_gold_count": 15,
+    "initial_generated_count": 16,
+    "initial_generic_count": 9,
+    "total_gold_entities": 15,
+    "total_generic_entities": 9,
+    "total_exact_matches": 6,
+    "total_exact_category_matches": 3,
+    "total_split_matches": 0,
+    "total_partial_matches": 6,
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  }
+}

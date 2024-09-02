@@ -1,0 +1,192 @@
+{
+  "doc_key": "NIPS_1996_15_abs",
+  "gold_entities": [
+    {
+      "entity": "analytical expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "markov chains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stepsize and eligibility trace parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "offline updates",
+      "category": "method"
+    },
+    {
+      "entity": "trials",
+      "category": "material"
+    },
+    {
+      "entity": "absorbing Markov chains",
+      "category": "material"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "material"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "metric"
+    },
+    {
+      "entity": "td",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "step-size",
+      "category": "method"
+    },
+    {
+      "entity": "eligibility trace parameters",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "learning curve behavior",
+      "predicted": "learning curve behavior",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "lookup table representations",
+      "predicted": "lookup table representations",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "temporal difference value estimation algorithms",
+      "predicted": "temporal difference value estimation algorithms",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "markov chains",
+      "predicted": "absorbing Markov chains",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "analytical expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stepsize and eligibility trace parameters",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "offline updates",
+      "category": "method"
+    },
+    {
+      "entity": "trials",
+      "category": "material"
+    },
+    {
+      "entity": "td",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "step-size",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "material": 3,
+    "metric": 1,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.16666666666666666,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,310 @@
+{
+  "doc_key": "P06-4011",
+  "gold_entities": [
+    {
+      "entity": "computational analysis of move structures",
+      "category": "task"
+    },
+    {
+      "entity": "digital learning",
+      "category": "task"
+    },
+    {
+      "entity": "Web-based computer-assisted academic writing",
+      "category": "task"
+    },
+    {
+      "entity": "abstracts  of  research articles",
+      "category": "material"
+    },
+    {
+      "entity": "abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "abstract moves",
+      "category": "material"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    },
+    {
+      "entity": "prototype  concordancer",
+      "category": "method"
+    },
+    {
+      "entity": "CARE",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Abstract",
+      "category": "metric"
+    },
+    {
+      "entity": "CARE",
+      "category": "task"
+    },
+    {
+      "entity": "Computational Analysis",
+      "category": "method"
+    },
+    {
+      "entity": "Digital Learning",
+      "category": "task"
+    },
+    {
+      "entity": "Language Model",
+      "category": "method"
+    },
+    {
+      "entity": "Move",
+      "category": "metric"
+    },
+    {
+      "entity": "Move-Tagged Abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "rhetoric",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "Abstract Moves",
+      "category": "metric"
+    },
+    {
+      "entity": "Computer-Assisted Academic Writing",
+      "category": "task"
+    },
+    {
+      "entity": "Concordancer",
+      "category": "task"
+    },
+    {
+      "entity": "Digital Learning",
+      "category": "task"
+    },
+    {
+      "entity": "webbased",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "digital learning",
+      "predicted": "Digital Learning",
+      "category": "task"
+    },
+    {
+      "gold": "Web",
+      "predicted": "Web",
+      "category": "material"
+    },
+    {
+      "gold": "abstract moves",
+      "predicted": "Abstract Moves",
+      "category": "material"
+    },
+    {
+      "gold": "move-tagged abstracts",
+      "predicted": "Move-Tagged Abstracts",
+      "category": "material"
+    },
+    {
+      "gold": "language model",
+      "predicted": "Language Model",
+      "category": "method"
+    },
+    {
+      "gold": "CARE",
+      "predicted": "CARE",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Web-based computer-assisted academic writing",
+      "predicted": "Computer-Assisted Academic Writing",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "prototype  concordancer",
+      "predicted": "Concordancer",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "digital learning",
+      "category": "task"
+    },
+    {
+      "entity": "Web",
+      "category": "material"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    },
+    {
+      "entity": "Web-based computer-assisted academic writing",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "computational analysis of move structures",
+      "category": "task"
+    },
+    {
+      "entity": "abstracts  of  research articles",
+      "category": "material"
+    },
+    {
+      "entity": "abstracts",
+      "category": "material"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Abstract",
+      "category": "metric"
+    },
+    {
+      "entity": "Computational Analysis",
+      "category": "method"
+    },
+    {
+      "entity": "Digital Learning",
+      "category": "task"
+    },
+    {
+      "entity": "Move",
+      "category": "metric"
+    },
+    {
+      "entity": "rhetoric",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Sentences",
+      "category": "material"
+    },
+    {
+      "entity": "webbased",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 5,
+    "otherscientificterm": 1,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "metric": 3,
+    "task": 5,
+    "method": 2,
+    "material": 3,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07142857142857142,
+  "recall": 0.08333333333333333,
+  "f1": 0.07692307692307691,
+  "category_precision": 0.6,
+  "category_recall": 0.75,
+  "category_f1": 0.6666666666666665,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 15,
+    "exact_matches": 6,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 7,
+    "generic_entities": 5,
+    "correct_predictions": 1,
+    "correct_categories": 9
+  }
+}

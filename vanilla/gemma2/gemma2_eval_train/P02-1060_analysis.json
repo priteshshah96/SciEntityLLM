@@ -1,0 +1,390 @@
+{
+  "doc_key": "P02-1060",
+  "gold_entities": [
+    {
+      "entity": "Hidden Markov Model (HMM)",
+      "category": "method"
+    },
+    {
+      "entity": "HMM-based chunk tagger",
+      "category": "method"
+    },
+    {
+      "entity": "named entity (NE) recognition (NER) system",
+      "category": "method"
+    },
+    {
+      "entity": "HMM",
+      "category": "method"
+    },
+    {
+      "entity": "machine-learning system",
+      "category": "method"
+    },
+    {
+      "entity": "names",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "times and numerical quantities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deterministic internal feature of the words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "capitalization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "digitalization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "internal gazetteer feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "external macro context feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NER problem",
+      "category": "task"
+    },
+    {
+      "entity": "MUC-6 and MUC-7 English NE tasks",
+      "category": "material"
+    },
+    {
+      "entity": "F-measures",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Hidden Markov Model (HMM)",
+      "category": "method"
+    },
+    {
+      "entity": "HMM-based chunk tagger",
+      "category": "method"
+    },
+    {
+      "entity": "named entity recognition (NER)",
+      "category": "task"
+    },
+    {
+      "entity": "names",
+      "category": "metric"
+    },
+    {
+      "entity": "times",
+      "category": "metric"
+    },
+    {
+      "entity": "numerical quantities",
+      "category": "metric"
+    },
+    {
+      "entity": "words",
+      "category": "material"
+    },
+    {
+      "entity": "capitalization",
+      "category": "metric"
+    },
+    {
+      "entity": "digitalization",
+      "category": "metric"
+    },
+    {
+      "entity": "internal semantic feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "important triggers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "internal gazetteer feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "external macro context feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NER problem",
+      "category": "task"
+    },
+    {
+      "entity": "system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "MUC-6",
+      "category": "metric"
+    },
+    {
+      "entity": "MUC-7",
+      "category": "metric"
+    },
+    {
+      "entity": "F-measures",
+      "category": "metric"
+    },
+    {
+      "entity": "machinelearning system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Hidden Markov Model (HMM)",
+      "predicted": "Hidden Markov Model (HMM)",
+      "category": "method"
+    },
+    {
+      "gold": "HMM-based chunk tagger",
+      "predicted": "HMM-based chunk tagger",
+      "category": "method"
+    },
+    {
+      "gold": "names",
+      "predicted": "names",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "capitalization",
+      "predicted": "capitalization",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "digitalization",
+      "predicted": "digitalization",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "internal gazetteer feature",
+      "predicted": "internal gazetteer feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "external macro context feature",
+      "predicted": "external macro context feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "handcrafted rules",
+      "predicted": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "NER problem",
+      "predicted": "NER problem",
+      "category": "task"
+    },
+    {
+      "gold": "F-measures",
+      "predicted": "F-measures",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "machine-learning system",
+      "predicted": "system",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "times and numerical quantities",
+      "gold_category": "otherscientificterm",
+      "matched_parts": [
+        {
+          "part": "times",
+          "matched": "times",
+          "predicted_category": "metric"
+        },
+        {
+          "part": "numerical quantities",
+          "matched": "numerical quantities",
+          "predicted_category": "metric"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "category_matches": [
+    {
+      "entity": "Hidden Markov Model (HMM)",
+      "category": "method"
+    },
+    {
+      "entity": "HMM-based chunk tagger",
+      "category": "method"
+    },
+    {
+      "entity": "internal gazetteer feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "external macro context feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handcrafted rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NER problem",
+      "category": "task"
+    },
+    {
+      "entity": "F-measures",
+      "category": "metric"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "named entity (NE) recognition (NER) system",
+      "category": "method"
+    },
+    {
+      "entity": "HMM",
+      "category": "method"
+    },
+    {
+      "entity": "deterministic internal feature of the words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "MUC-6 and MUC-7 English NE tasks",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "named entity recognition (NER)",
+      "category": "task"
+    },
+    {
+      "entity": "words",
+      "category": "material"
+    },
+    {
+      "entity": "internal semantic feature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "important triggers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "MUC-7",
+      "category": "metric"
+    },
+    {
+      "entity": "machinelearning system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "otherscientificterm": 8,
+    "task": 1,
+    "material": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 2,
+    "metric": 9,
+    "material": 1,
+    "otherscientificterm": 7
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 9,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 7,
+      "exact_matches": 6,
+      "partial_matches": 0,
+      "split_matches": 1
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4375,
+  "f1": 0.37837837837837834,
+  "category_precision": 0.5714285714285714,
+  "category_recall": 0.75,
+  "category_f1": 0.6486486486486486,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 21,
+    "exact_matches": 10,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "category_matches": 7,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 7,
+    "generic_entities": 1,
+    "correct_predictions": 7,
+    "correct_categories": 12
+  }
+}

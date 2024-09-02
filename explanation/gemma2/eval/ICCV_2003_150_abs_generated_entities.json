@@ -1,0 +1,265 @@
+{
+  "gold_entities": [
+    {
+      "entity": "single-image highlight removal method",
+      "category": "Method"
+    },
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "image in-painting",
+      "category": "Task"
+    },
+    {
+      "entity": "inpainting process",
+      "category": "Task"
+    },
+    {
+      "entity": "inpainting",
+      "category": "Task"
+    },
+    {
+      "entity": "illumination-based constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occluded image regions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inpainting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "highlight pixels",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pixel colors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "highlight color analysis",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "illumination color uniformity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "estimation of the underlying diffuse color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "illumination constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "recovery of shading and textures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "single-image highlight removal method",
+      "category": "Task"
+    },
+    {
+      "entity": "illumination-based constraints",
+      "category": "Method"
+    },
+    {
+      "entity": "image in-painting",
+      "category": "Method"
+    },
+    {
+      "entity": "highlight pixels",
+      "category": "Material"
+    },
+    {
+      "entity": "highlight color analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "illumination color uniformity",
+      "category": "Method"
+    },
+    {
+      "entity": "diffuse color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shading and textures",
+      "category": "Material"
+    },
+    {
+      "entity": "experimental results",
+      "category": "Method"
+    },
+    {
+      "entity": "performance",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "single-image highlight removal method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "single-image highlight removal method",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "illumination-based constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "illumination-based constraints",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "image in-painting",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "image in-painting",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "highlight pixels",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "highlight pixels",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "highlight color analysis",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "highlight color analysis",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "illumination color uniformity",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "illumination color uniformity",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "estimation of the underlying diffuse color",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "diffuse color",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "recovery of shading and textures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "shading and textures",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "inpainting process",
+      "category": "Task"
+    },
+    {
+      "entity": "inpainting",
+      "category": "Task"
+    },
+    {
+      "entity": "occluded image regions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inpainting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pixel colors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "illumination constraints",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "experimental results",
+      "category": "Method"
+    },
+    {
+      "entity": "performance",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "inpainting": 2
+  },
+  "distinct_repeated_entities": [
+    "inpainting"
+  ],
+  "counts": {
+    "gold_count": 16,
+    "generated_count": 10,
+    "generic_count": 1,
+    "exact_matches": 6,
+    "exact_category_matches": 0,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

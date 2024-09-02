@@ -1,0 +1,221 @@
+{
+  "doc_key": "C04-1080",
+  "gold_entities": [
+    {
+      "entity": "HMM tagger",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "HMM training",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised and supervised case",
+      "category": "task"
+    },
+    {
+      "entity": "part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "entity": "supervised, non-training intensive framework",
+      "category": "task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "lexical probabilities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "HMM tagger",
+      "category": "task"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "supervised case",
+      "category": "task"
+    },
+    {
+      "entity": "unpublished results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "published results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "HMM training",
+      "category": "method"
+    },
+    {
+      "entity": "lexical probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stateoftheart results",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "HMM tagger",
+      "predicted": "HMM tagger",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "unsupervised methods",
+      "predicted": "unsupervised methods",
+      "category": "method"
+    },
+    {
+      "gold": "HMM training",
+      "predicted": "HMM training",
+      "category": "method"
+    },
+    {
+      "gold": "lexical probabilities",
+      "predicted": "lexical probabilities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unsupervised and supervised case",
+      "category": "task"
+    },
+    {
+      "entity": "part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "entity": "supervised, non-training intensive framework",
+      "category": "task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unpublished results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "published results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stateoftheart results",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 3,
+    "metric": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 7,
+    "method": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.375,
+  "f1": 0.3157894736842105,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 6,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

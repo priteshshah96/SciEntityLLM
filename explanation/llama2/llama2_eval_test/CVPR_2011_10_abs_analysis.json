@@ -1,0 +1,319 @@
+{
+  "doc_key": "CVPR_2011_10_abs",
+  "gold_entities": [
+    {
+      "entity": "reflections",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reflections in image sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "motion trajectories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reflection",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sparse and dense detection maps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pathological motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image sequences",
+      "category": "material"
+    },
+    {
+      "entity": "image processing techniques",
+      "category": "method"
+    },
+    {
+      "entity": "motion estimation",
+      "category": "task"
+    },
+    {
+      "entity": "object recognition",
+      "category": "task"
+    },
+    {
+      "entity": "detecting reflections in image sequences",
+      "category": "task"
+    },
+    {
+      "entity": "detection rate",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "image sequences",
+      "category": "task"
+    },
+    {
+      "entity": "layers",
+      "category": "method"
+    },
+    {
+      "entity": "motion estimation",
+      "category": "method"
+    },
+    {
+      "entity": "object recognition",
+      "category": "method"
+    },
+    {
+      "entity": "feature points",
+      "category": "material"
+    },
+    {
+      "entity": "motion trajectories",
+      "category": "material"
+    },
+    {
+      "entity": "reflection",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "motion trajectories",
+      "category": "material"
+    },
+    {
+      "entity": "detection rate",
+      "category": "metric"
+    },
+    {
+      "entity": "pathological motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priors",
+      "category": "method"
+    },
+    {
+      "entity": "detection maps",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "motion trajectories",
+      "predicted": "motion trajectories",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "feature points",
+      "predicted": "feature points",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "priors",
+      "predicted": "priors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "image sequences",
+      "predicted": "image sequences",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "motion estimation",
+      "predicted": "motion estimation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "object recognition",
+      "predicted": "object recognition",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "reflection",
+      "predicted": "reflection",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "pathological motion",
+      "predicted": "pathological motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "occlusion",
+      "predicted": "occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "detection rate",
+      "predicted": "detection rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "reflections",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reflections in image sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sparse and dense detection maps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image processing techniques",
+      "category": "method"
+    },
+    {
+      "entity": "detecting reflections in image sequences",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "layers",
+      "category": "method"
+    },
+    {
+      "entity": "motion trajectories",
+      "category": "material"
+    },
+    {
+      "entity": "regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "layers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "detection maps",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 9,
+    "material": 1,
+    "method": 1,
+    "task": 3,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "material": 5,
+    "otherscientificterm": 5,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 5,
+      "exact_matches": 3,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.26666666666666666,
+  "f1": 0.2580645161290323,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 16,
+    "exact_matches": 6,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 6,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

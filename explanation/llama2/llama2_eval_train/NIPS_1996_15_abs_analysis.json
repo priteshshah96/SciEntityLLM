@@ -1,0 +1,150 @@
+{
+  "doc_key": "NIPS_1996_15_abs",
+  "gold_entities": [
+    {
+      "entity": "analytical expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "markov chains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stepsize and eligibility trace parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "absorbing markov chains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "td",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "step-size",
+      "category": "method"
+    },
+    {
+      "entity": "eligibility trace parameters",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "learning curve behavior",
+      "predicted": "learning curve behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "temporal difference value estimation algorithms",
+      "predicted": "temporal difference value estimation algorithms",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "markov chains",
+      "predicted": "absorbing markov chains",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "analytical expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stepsize and eligibility trace parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "td",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "step-size",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.3333333333333333,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 6,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

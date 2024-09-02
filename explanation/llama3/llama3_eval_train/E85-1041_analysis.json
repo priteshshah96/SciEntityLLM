@@ -1,0 +1,173 @@
+{
+  "doc_key": "E85-1041",
+  "gold_entities": [
+    {
+      "entity": "structure of communicative context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue interaction",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "draft scheme",
+      "category": "method"
+    },
+    {
+      "entity": "model",
+      "category": "task"
+    },
+    {
+      "entity": "structure of communicative context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue interaction",
+      "category": "task"
+    },
+    {
+      "entity": "system of three automata",
+      "category": "method"
+    },
+    {
+      "entity": "partners of the dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "environment",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automata",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue interaction",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "dialogue interaction",
+      "predicted": "dialogue interaction",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "structure of communicative context",
+      "predicted": "structure of communicative context",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "draft scheme",
+      "category": "method"
+    },
+    {
+      "entity": "model",
+      "category": "task"
+    },
+    {
+      "entity": "system of three automata",
+      "category": "method"
+    },
+    {
+      "entity": "partners of the dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "environment",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automata",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue interaction",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 2,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.5,
+  "f1": 0.16666666666666669,
+  "counts": {
+    "gold_entities": 2,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 8,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,183 @@
+{
+  "gold_entities": [
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "Method"
+    },
+    {
+      "entity": "analytical expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "markov chains",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "step-size and eligibility trace parameters",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "offline updates",
+      "category": "Method"
+    },
+    {
+      "entity": "trials",
+      "category": "Material"
+    },
+    {
+      "entity": "absorbing markov chains",
+      "category": "Task"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "Method"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "Metric"
+    },
+    {
+      "entity": "td",
+      "category": "Method"
+    },
+    {
+      "entity": "stepsize",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "eligibility trace parameters",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lookup table representations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lookup table representations",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "learning curve behavior",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "learning curve behavior",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "temporal difference value estimation algorithms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lookup table representations",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lookup table representations",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "markov chains",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "absorbing markov chains",
+        "category": "Task"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "step-size and eligibility trace parameters",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "eligibility trace parameters",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "analytical expressions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "offline updates",
+      "category": "Method"
+    },
+    {
+      "entity": "trials",
+      "category": "Material"
+    },
+    {
+      "entity": "td",
+      "category": "Method"
+    },
+    {
+      "entity": "stepsize",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 9,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

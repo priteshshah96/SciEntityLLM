@@ -1,0 +1,243 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ace 2003 corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "convolution kernel over parse trees",
+      "category": "Method"
+    },
+    {
+      "entity": "convolution tree kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "convolution kernel over parse trees",
+      "category": "Method"
+    },
+    {
+      "entity": "feature-based methods",
+      "category": "Method"
+    },
+    {
+      "entity": "dependency tree kernels",
+      "category": "Method"
+    },
+    {
+      "entity": "relation extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "relation extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic structure information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntactic structure features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parse tree",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "convolution kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "parse trees",
+      "category": "Method"
+    },
+    {
+      "entity": "syntactic structure features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relation extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "ace 2003 corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "dependency tree kernels",
+      "category": "Method"
+    },
+    {
+      "entity": "5 ace relation major types",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "features",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "syntactic structure features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "syntactic structure features",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relation extraction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "relation extraction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ace 2003 corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "ace 2003 corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dependency tree kernels",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dependency tree kernels",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "syntactic structure features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "syntactic structure features",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relation extraction",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "relation extraction",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ace 2003 corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "ace 2003 corpus",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dependency tree kernels",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dependency tree kernels",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "convolution kernel over parse trees",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "convolution kernel",
+          "category": "Method"
+        },
+        {
+          "entity": "parse trees",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "convolution tree kernel",
+      "category": "Method"
+    },
+    {
+      "entity": "convolution kernel over parse trees",
+      "category": "Method"
+    },
+    {
+      "entity": "feature-based methods",
+      "category": "Method"
+    },
+    {
+      "entity": "relation extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic structure information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parse tree",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "5 ace relation major types",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "convolution kernel over parse trees": 2,
+    "relation extraction": 2
+  },
+  "distinct_repeated_entities": [
+    "convolution kernel over parse trees",
+    "relation extraction"
+  ],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 7,
+    "generic_count": 2,
+    "exact_matches": 4,
+    "exact_category_matches": 4,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

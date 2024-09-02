@@ -1,0 +1,290 @@
+{
+  "doc_key": "INTERSPEECH_2007_40_abs",
+  "gold_entities": [
+    {
+      "entity": "Information distillation",
+      "category": "task"
+    },
+    {
+      "entity": "document retrieval for distillation",
+      "category": "task"
+    },
+    {
+      "entity": "NIST Automatic Content Extraction (ACE) task",
+      "category": "task"
+    },
+    {
+      "entity": "massive, possibly multilingual, audio and textual document sources",
+      "category": "material"
+    },
+    {
+      "entity": "information extraction annotations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distillation queries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "annotation elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ace events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information retrieval engine",
+      "category": "method"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall rates",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Information extraction",
+      "category": "method"
+    },
+    {
+      "entity": "Document retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "Distillation",
+      "category": "method"
+    },
+    {
+      "entity": "Query",
+      "category": "task"
+    },
+    {
+      "entity": "Massive document sources",
+      "category": "material"
+    },
+    {
+      "entity": "multilingual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Audio document sources",
+      "category": "material"
+    },
+    {
+      "entity": "Textual document sources",
+      "category": "material"
+    },
+    {
+      "entity": "Information extraction annotations",
+      "category": "material"
+    },
+    {
+      "entity": "Document set",
+      "category": "material"
+    },
+    {
+      "entity": "Precision",
+      "category": "metric"
+    },
+    {
+      "entity": "Recall rates",
+      "category": "metric"
+    },
+    {
+      "entity": "Query templates",
+      "category": "task"
+    },
+    {
+      "entity": "NIST Automatic Content Extraction (ACE) task",
+      "category": "task"
+    },
+    {
+      "entity": "ACE events",
+      "category": "task"
+    },
+    {
+      "entity": "Information retrieval engine",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "information extraction annotations",
+      "predicted": "Information extraction annotations",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "ace events",
+      "predicted": "ACE events",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "NIST Automatic Content Extraction (ACE) task",
+      "predicted": "NIST Automatic Content Extraction (ACE) task",
+      "category": "task"
+    },
+    {
+      "gold": "information retrieval engine",
+      "predicted": "Information retrieval engine",
+      "category": "method"
+    },
+    {
+      "gold": "precision",
+      "predicted": "Precision",
+      "category": "metric"
+    },
+    {
+      "gold": "recall rates",
+      "predicted": "Recall rates",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Information distillation",
+      "predicted": "Distillation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "document retrieval for distillation",
+      "predicted": "Document retrieval",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "massive, possibly multilingual, audio and textual document sources",
+      "category": "material"
+    },
+    {
+      "entity": "distillation queries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "annotation elements",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Information extraction",
+      "category": "method"
+    },
+    {
+      "entity": "Query",
+      "category": "task"
+    },
+    {
+      "entity": "Massive document sources",
+      "category": "material"
+    },
+    {
+      "entity": "multilingual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Audio document sources",
+      "category": "material"
+    },
+    {
+      "entity": "Document set",
+      "category": "material"
+    },
+    {
+      "entity": "Query templates",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 1,
+    "otherscientificterm": 4,
+    "method": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 5,
+    "material": 5,
+    "otherscientificterm": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.36363636363636365,
+  "f1": 0.2962962962962963,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 16,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

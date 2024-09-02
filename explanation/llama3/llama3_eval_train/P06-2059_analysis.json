@@ -1,0 +1,199 @@
+{
+  "doc_key": "P06-2059",
+  "gold_entities": [
+    {
+      "entity": "building  polarity-tagged corpus",
+      "category": "task"
+    },
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    },
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    },
+    {
+      "entity": "layout structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic pattern",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "polarity-tagged corpus",
+      "category": "method"
+    },
+    {
+      "entity": "HTML documents",
+      "category": "method"
+    },
+    {
+      "entity": "method",
+      "category": "task"
+    },
+    {
+      "entity": "layout structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "task"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "126,610 sentences",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "HTML documents",
+      "predicted": "HTML documents",
+      "gold_category": "material",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "layout structures",
+      "predicted": "layout structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "building  polarity-tagged corpus",
+      "predicted": "polarity-tagged corpus",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "HTML documents",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic pattern",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "method",
+      "category": "task"
+    },
+    {
+      "entity": "linguistic patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "task"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "126,610 sentences",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "HTML documents|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 2,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.2,
+  "f1": 0.14285714285714285,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

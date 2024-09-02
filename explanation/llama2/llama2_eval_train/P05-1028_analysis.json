@@ -1,0 +1,223 @@
+{
+  "doc_key": "P05-1028",
+  "gold_entities": [
+    {
+      "entity": "corpus study",
+      "category": "task"
+    },
+    {
+      "entity": "information graphic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sightimpaired users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information graphics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphic interpretation system",
+      "category": "method"
+    },
+    {
+      "entity": "shallow processing",
+      "category": "method"
+    },
+    {
+      "entity": "communicative signals",
+      "category": "material"
+    },
+    {
+      "entity": "graphic's caption",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "corpus study",
+      "category": "task"
+    },
+    {
+      "entity": "information graphic",
+      "category": "material"
+    },
+    {
+      "entity": "communicative signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphic interpretation system",
+      "category": "method"
+    },
+    {
+      "entity": "sight-impaired users",
+      "category": "material"
+    },
+    {
+      "entity": "information graphics",
+      "category": "material"
+    },
+    {
+      "entity": "shallow processing",
+      "category": "method"
+    },
+    {
+      "entity": "caption",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "evidence",
+      "category": "metric"
+    },
+    {
+      "entity": "impact",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "information graphic",
+      "predicted": "information graphic",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "information graphics",
+      "predicted": "information graphics",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "communicative signals",
+      "predicted": "communicative signals",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "corpus study",
+      "predicted": "corpus study",
+      "category": "task"
+    },
+    {
+      "gold": "graphic interpretation system",
+      "predicted": "graphic interpretation system",
+      "category": "method"
+    },
+    {
+      "gold": "shallow processing",
+      "predicted": "shallow processing",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "graphic's caption",
+      "predicted": "caption",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "sightimpaired users",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "sight-impaired users",
+      "category": "material"
+    },
+    {
+      "entity": "evidence",
+      "category": "metric"
+    },
+    {
+      "entity": "impact",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 3,
+    "method": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 2,
+    "method": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.375,
+  "f1": 0.33333333333333326,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

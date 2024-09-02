@@ -1,0 +1,244 @@
+{
+  "doc_key": "CVPR_2001_111_abs",
+  "gold_entities": [
+    {
+      "entity": "local non-negative matrix factorization (LNMF)",
+      "category": "method"
+    },
+    {
+      "entity": "NMF",
+      "category": "method"
+    },
+    {
+      "entity": "non-subtractive (part-based) representation of images",
+      "category": "method"
+    },
+    {
+      "entity": "LNMF",
+      "category": "method"
+    },
+    {
+      "entity": "NMF and PCA methods",
+      "category": "method"
+    },
+    {
+      "entity": "LNMF",
+      "category": "method"
+    },
+    {
+      "entity": "spatially localized, parts-based subspace representation of visual patterns",
+      "category": "task"
+    },
+    {
+      "entity": "learning",
+      "category": "task"
+    },
+    {
+      "entity": "face representation and recognition",
+      "category": "task"
+    },
+    {
+      "entity": "objective function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "localization constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonnegativity constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "localized features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "local non-negative matrix factorization (LNMF)",
+      "category": "method"
+    },
+    {
+      "entity": "non-negativity constraint",
+      "category": "method"
+    },
+    {
+      "entity": "localization constraint",
+      "category": "method"
+    },
+    {
+      "entity": "standard NMF",
+      "category": "method"
+    },
+    {
+      "entity": "basis components",
+      "category": "method"
+    },
+    {
+      "entity": "face representation and recognition",
+      "category": "method"
+    },
+    {
+      "entity": "LNMF",
+      "category": "method"
+    },
+    {
+      "entity": "NMF",
+      "category": "method"
+    },
+    {
+      "entity": "PCA",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "face representation and recognition",
+      "predicted": "face representation and recognition",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "localization constraint",
+      "predicted": "localization constraint",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "local non-negative matrix factorization (LNMF)",
+      "predicted": "local non-negative matrix factorization (LNMF)",
+      "category": "method"
+    },
+    {
+      "gold": "NMF",
+      "predicted": "NMF",
+      "category": "method"
+    },
+    {
+      "gold": "LNMF",
+      "predicted": "LNMF",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "non-subtractive (part-based) representation of images",
+      "category": "method"
+    },
+    {
+      "entity": "LNMF",
+      "category": "method"
+    },
+    {
+      "entity": "NMF and PCA methods",
+      "category": "method"
+    },
+    {
+      "entity": "spatially localized, parts-based subspace representation of visual patterns",
+      "category": "task"
+    },
+    {
+      "entity": "learning",
+      "category": "task"
+    },
+    {
+      "entity": "objective function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonnegativity constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "localized features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "non-negativity constraint",
+      "category": "method"
+    },
+    {
+      "entity": "standard NMF",
+      "category": "method"
+    },
+    {
+      "entity": "basis components",
+      "category": "method"
+    },
+    {
+      "entity": "PCA",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "LNMF|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 3,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "method": 9
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.23076923076923078,
+  "f1": 0.27272727272727276,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 4,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,323 @@
+{
+  "doc_key": "P01-1004",
+  "gold_entities": [
+    {
+      "entity": "segment order",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segmentation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segment contiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "indexing",
+      "category": "task"
+    },
+    {
+      "entity": "translation memory system",
+      "category": "method"
+    },
+    {
+      "entity": "bag-of-words and segment order-sensitive string comparison methods",
+      "category": "method"
+    },
+    {
+      "entity": "local segment contiguity models",
+      "category": "method"
+    },
+    {
+      "entity": "N-grams",
+      "category": "method"
+    },
+    {
+      "entity": "character bigrams",
+      "category": "method"
+    },
+    {
+      "entity": "word N-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "bag-of-words methods",
+      "category": "method"
+    },
+    {
+      "entity": "segment order-sensitive methods",
+      "category": "method"
+    },
+    {
+      "entity": "character- and word-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "segment order",
+      "category": "task"
+    },
+    {
+      "entity": "segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "segment contiguity",
+      "category": "task"
+    },
+    {
+      "entity": "retrieval performance",
+      "category": "task"
+    },
+    {
+      "entity": "translation memory system",
+      "category": "task"
+    },
+    {
+      "entity": "bag-of-words",
+      "category": "method"
+    },
+    {
+      "entity": "string comparison methods",
+      "category": "method"
+    },
+    {
+      "entity": "character-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "word-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "N-grams",
+      "category": "material"
+    },
+    {
+      "entity": "character bigram",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word ngram",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optimum configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scalability",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "segment order",
+      "predicted": "segment order",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "segmentation",
+      "predicted": "segmentation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "segment contiguity",
+      "predicted": "segment contiguity",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "translation memory system",
+      "predicted": "translation memory system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "N-grams",
+      "predicted": "N-grams",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "retrieval",
+      "predicted": "retrieval performance",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "indexing",
+      "category": "task"
+    },
+    {
+      "entity": "bag-of-words and segment order-sensitive string comparison methods",
+      "category": "method"
+    },
+    {
+      "entity": "local segment contiguity models",
+      "category": "method"
+    },
+    {
+      "entity": "character bigrams",
+      "category": "method"
+    },
+    {
+      "entity": "word N-gram models",
+      "category": "method"
+    },
+    {
+      "entity": "bag-of-words methods",
+      "category": "method"
+    },
+    {
+      "entity": "segment order-sensitive methods",
+      "category": "method"
+    },
+    {
+      "entity": "character- and word-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "string comparison methods",
+      "category": "method"
+    },
+    {
+      "entity": "character-segmented data",
+      "category": "material"
+    },
+    {
+      "entity": "character bigram",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word ngram",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optimum configuration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scalability",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "retrieval accuracy|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "task": 2,
+    "method": 8,
+    "material": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "method": 2,
+    "material": 3,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 14,
+    "exact_matches": 5,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

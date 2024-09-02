@@ -1,0 +1,237 @@
+{
+  "doc_key": "P80-1004",
+  "gold_entities": [
+    {
+      "entity": "Interpreting  metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "human understanding of natural language",
+      "category": "task"
+    },
+    {
+      "entity": "analyzing metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "metaphor interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "language learning",
+      "category": "task"
+    },
+    {
+      "entity": "generalized metaphor mappings",
+      "category": "method"
+    },
+    {
+      "entity": "recognition network",
+      "category": "method"
+    },
+    {
+      "entity": "basic mapping",
+      "category": "method"
+    },
+    {
+      "entity": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "entity": "implicit intention component",
+      "category": "method"
+    },
+    {
+      "entity": "generalized metaphor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "natural language",
+      "category": "material"
+    },
+    {
+      "entity": "recognition network",
+      "category": "method"
+    },
+    {
+      "entity": "basic mapping",
+      "category": "method"
+    },
+    {
+      "entity": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "entity": "implicit intention component",
+      "category": "method"
+    },
+    {
+      "entity": "language learning",
+      "category": "material"
+    },
+    {
+      "entity": "automating",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language learning",
+      "predicted": "language learning",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "recognition network",
+      "predicted": "recognition network",
+      "category": "method"
+    },
+    {
+      "gold": "basic mapping",
+      "predicted": "basic mapping",
+      "category": "method"
+    },
+    {
+      "gold": "transfer mappings",
+      "predicted": "transfer mappings",
+      "category": "method"
+    },
+    {
+      "gold": "implicit intention component",
+      "predicted": "implicit intention component",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Interpreting  metaphors",
+      "predicted": "metaphors",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "human understanding of natural language",
+      "category": "task"
+    },
+    {
+      "entity": "analyzing metaphors",
+      "category": "task"
+    },
+    {
+      "entity": "metaphor interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "recognition task",
+      "category": "task"
+    },
+    {
+      "entity": "generalized metaphor mappings",
+      "category": "method"
+    },
+    {
+      "entity": "generalized metaphor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "natural language",
+      "category": "material"
+    },
+    {
+      "entity": "automating",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "method": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 2,
+    "method": 5
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.3076923076923077,
+  "f1": 0.380952380952381,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

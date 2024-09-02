@@ -1,0 +1,225 @@
+{
+  "doc_key": "AAAI_2015_11_abs",
+  "gold_entities": [
+    {
+      "entity": "convex optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "segmenting sequential data",
+      "category": "task"
+    },
+    {
+      "entity": "real-world tasks",
+      "category": "task"
+    },
+    {
+      "entity": "speech segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "baseline seg-mentation algorithms",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "segmenting sequential data",
+      "category": "task"
+    },
+    {
+      "entity": "convex optimization problem",
+      "category": "method"
+    },
+    {
+      "entity": "outliers",
+      "category": "task"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "top-down novel approach",
+      "category": "method"
+    },
+    {
+      "entity": "consistency results",
+      "category": "metric"
+    },
+    {
+      "entity": "real-world tasks",
+      "category": "material"
+    },
+    {
+      "entity": "speech segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "baseline segmentation algorithms",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "convex optimization problem",
+      "predicted": "convex optimization problem",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "real-world tasks",
+      "predicted": "real-world tasks",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "outliers",
+      "predicted": "outliers",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "segmenting sequential data",
+      "predicted": "segmenting sequential data",
+      "category": "task"
+    },
+    {
+      "gold": "speech segmentation",
+      "predicted": "speech segmentation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "baseline seg-mentation algorithms",
+      "predicted": "baseline segmentation algorithms",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Robustness",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "top-down novel approach",
+      "category": "method"
+    },
+    {
+      "entity": "consistency results",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "outliers|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "otherscientificterm": 2,
+    "metric": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 3,
+    "metric": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.25,
+  "f1": 0.23529411764705882,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 9,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

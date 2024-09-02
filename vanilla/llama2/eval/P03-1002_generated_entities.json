@@ -1,0 +1,209 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ie paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "ie paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "inductive decision tree learning",
+      "category": "Method"
+    },
+    {
+      "entity": "automatically identifying predicate argument structures",
+      "category": "Task"
+    },
+    {
+      "entity": "ie",
+      "category": "Task"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "novel",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "customizable",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ie",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "paradigm",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "Task"
+    },
+    {
+      "entity": "features",
+      "category": "Task"
+    },
+    {
+      "entity": "inductive decision tree learning",
+      "category": "Method"
+    },
+    {
+      "entity": "accurate",
+      "category": "Metric"
+    },
+    {
+      "entity": "high quality",
+      "category": "Metric"
+    },
+    {
+      "entity": "ie results",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ie",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "ie",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "predicate-argument structures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "predicate-argument structures",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "features",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "inductive decision tree learning",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "ie paradigm",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "paradigm",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "ie results",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "ie paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "automatically identifying predicate argument structures",
+      "category": "Task"
+    },
+    {
+      "entity": "predicate-argument structures",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "novel",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "customizable",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "accurate",
+      "category": "Metric"
+    },
+    {
+      "entity": "high quality",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "ie paradigm": 2,
+    "predicate-argument structures": 2
+  },
+  "distinct_repeated_entities": [
+    "ie paradigm",
+    "predicate-argument structures"
+  ],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 10,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

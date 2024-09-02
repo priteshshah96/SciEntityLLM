@@ -1,0 +1,397 @@
+{
+  "gold_entities": [
+    {
+      "entity": "newswire texts",
+      "category": "Material"
+    },
+    {
+      "entity": "emails",
+      "category": "Material"
+    },
+    {
+      "entity": "temporal expression anchoror (tea)",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "Task"
+    },
+    {
+      "entity": "temporal information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal expressions in newswire texts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal expressions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "constraint-based representation of time",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "time calculus for natural language (tcnl)",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "time calculus for natural language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal expression anchoror",
+      "category": "Task"
+    },
+    {
+      "entity": "temporal expressions",
+      "category": "Material"
+    },
+    {
+      "entity": "constraint-based representation",
+      "category": "Method"
+    },
+    {
+      "entity": "baseline (metric) - time",
+      "category": "Metric"
+    },
+    {
+      "entity": "natural language",
+      "category": "Material"
+    },
+    {
+      "entity": "newswire texts",
+      "category": "Material"
+    },
+    {
+      "entity": "emails",
+      "category": "Material"
+    },
+    {
+      "entity": "tcnl",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal information",
+      "category": "Material"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "Material"
+    },
+    {
+      "entity": "temporal expression material underspecified",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "anchoring",
+      "category": "Task"
+    },
+    {
+      "entity": "evaluating",
+      "category": "Task"
+    },
+    {
+      "entity": "developing",
+      "category": "Task"
+    },
+    {
+      "entity": "identifying",
+      "category": "Task"
+    },
+    {
+      "entity": "understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "extracting",
+      "category": "Task"
+    },
+    {
+      "entity": "using",
+      "category": "Task"
+    },
+    {
+      "entity": "representation",
+      "category": "Method"
+    },
+    {
+      "entity": "calculus",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "language",
+      "category": "Material"
+    },
+    {
+      "entity": "genre material novel",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "time",
+      "category": "Metric"
+    },
+    {
+      "entity": "calculus for natural language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tcnl otherscientificterm time calculus for natural language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tcnl otherscientificterm tcnl",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "expressions",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "temporal expressions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "temporal expressions",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "newswire texts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "newswire texts",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "emails",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "emails",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "temporal information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "temporal information",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language applications",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language applications",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "newswire texts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "newswire texts",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "emails",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "emails",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "temporal expression anchoror (tea)",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "temporal expression anchoror",
+          "category": "Task"
+        },
+        {
+          "entity": "temporal expression material underspecified",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "constraint-based representation of time",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "time calculus for natural language",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "constraint-based representation",
+          "category": "Method"
+        },
+        {
+          "entity": "baseline (metric) - time",
+          "category": "Metric"
+        },
+        {
+          "entity": "representation",
+          "category": "Method"
+        },
+        {
+          "entity": "time",
+          "category": "Metric"
+        },
+        {
+          "entity": "tcnl otherscientificterm time calculus for natural language",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 3.592857142857143
+    },
+    {
+      "gold": {
+        "entity": "time calculus for natural language (tcnl)",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "natural language",
+          "category": "Material"
+        },
+        {
+          "entity": "calculus",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "language",
+          "category": "Material"
+        },
+        {
+          "entity": "natural language processing",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "calculus for natural language",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 4.666666666666666
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "temporal expressions in newswire texts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal expressions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "tcnl",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "anchoring",
+      "category": "Task"
+    },
+    {
+      "entity": "evaluating",
+      "category": "Task"
+    },
+    {
+      "entity": "developing",
+      "category": "Task"
+    },
+    {
+      "entity": "identifying",
+      "category": "Task"
+    },
+    {
+      "entity": "understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "extracting",
+      "category": "Task"
+    },
+    {
+      "entity": "using",
+      "category": "Task"
+    },
+    {
+      "entity": "genre material novel",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tcnl otherscientificterm tcnl",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "temporal expressions": 2
+  },
+  "distinct_repeated_entities": [
+    "temporal expressions"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 28,
+    "generic_count": 3,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 3,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

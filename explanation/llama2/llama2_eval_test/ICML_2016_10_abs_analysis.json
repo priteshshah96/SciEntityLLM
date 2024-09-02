@@ -1,0 +1,325 @@
+{
+  "doc_key": "ICML_2016_10_abs",
+  "gold_entities": [
+    {
+      "entity": "specialized regression problem",
+      "category": "task"
+    },
+    {
+      "entity": "regression problems",
+      "category": "task"
+    },
+    {
+      "entity": "sampling probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aggregate queries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "loss",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regressedto values",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hard budget constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "records",
+      "category": "material"
+    },
+    {
+      "entity": "databases",
+      "category": "material"
+    },
+    {
+      "entity": "records",
+      "category": "material"
+    },
+    {
+      "entity": "principled and provable solution",
+      "category": "method"
+    },
+    {
+      "entity": "cost zero solution",
+      "category": "method"
+    },
+    {
+      "entity": "regularized Empirical Risk Minimization (ERM) algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "uniform sampling",
+      "category": "method"
+    },
+    {
+      "entity": "stratified sampling",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "sampling probabilities",
+      "category": "task"
+    },
+    {
+      "entity": "databases",
+      "category": "material"
+    },
+    {
+      "entity": "aggregate queries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "efficient and accurate evaluation",
+      "category": "metric"
+    },
+    {
+      "entity": "standard regression problems",
+      "category": "method"
+    },
+    {
+      "entity": "loss function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regressedto values",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cost zero solution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hard budget constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Empirical Risk Minimization (ERM) algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "theoretical generalization result",
+      "category": "metric"
+    },
+    {
+      "entity": "extensive experimental results",
+      "category": "material"
+    },
+    {
+      "entity": "uniform sampling",
+      "category": "method"
+    },
+    {
+      "entity": "standard stratified sampling",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "sampling probabilities",
+      "predicted": "sampling probabilities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "cost zero solution",
+      "predicted": "cost zero solution",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "aggregate queries",
+      "predicted": "aggregate queries",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "regressedto values",
+      "predicted": "regressedto values",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hard budget constraints",
+      "predicted": "hard budget constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "regularization",
+      "predicted": "regularization",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "databases",
+      "predicted": "databases",
+      "category": "material"
+    },
+    {
+      "gold": "uniform sampling",
+      "predicted": "uniform sampling",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "regression problems",
+      "predicted": "standard regression problems",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "loss",
+      "predicted": "loss function",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "regularized Empirical Risk Minimization (ERM) algorithm",
+      "predicted": "Empirical Risk Minimization (ERM) algorithm",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "stratified sampling",
+      "predicted": "standard stratified sampling",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "specialized regression problem",
+      "category": "task"
+    },
+    {
+      "entity": "records",
+      "category": "material"
+    },
+    {
+      "entity": "records",
+      "category": "material"
+    },
+    {
+      "entity": "principled and provable solution",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "efficient and accurate evaluation",
+      "category": "metric"
+    },
+    {
+      "entity": "theoretical generalization result",
+      "category": "metric"
+    },
+    {
+      "entity": "extensive experimental results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "records|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 6,
+    "material": 3,
+    "method": 5
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 2,
+    "otherscientificterm": 6,
+    "metric": 2,
+    "method": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.375,
+  "f1": 0.38709677419354843,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 15,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

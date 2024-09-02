@@ -1,0 +1,455 @@
+{
+  "doc_key": "ICCV_2003_151_abs",
+  "gold_entities": [
+    {
+      "entity": "novel view generation",
+      "category": "task"
+    },
+    {
+      "entity": "one-to-one teleconferencing applications",
+      "category": "task"
+    },
+    {
+      "entity": "novel-view generation",
+      "category": "task"
+    },
+    {
+      "entity": "occlusion labeling",
+      "category": "task"
+    },
+    {
+      "entity": "novel-view synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "temporal maintenance of a background model",
+      "category": "task"
+    },
+    {
+      "entity": "rendering of occlusions",
+      "category": "task"
+    },
+    {
+      "entity": "synthesis of cyclopean views of extended conversational sequences",
+      "category": "task"
+    },
+    {
+      "entity": "synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "video streams",
+      "category": "material"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "long stereo video streams",
+      "category": "material"
+    },
+    {
+      "entity": "extended conversational sequences",
+      "category": "material"
+    },
+    {
+      "entity": "cameras",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer monitor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "virtual camera",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arbitrary position",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "eye contact",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compact geometric derivation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal artefacts flicker",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "threedimensional matching cost space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial and temporal artefacts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cyclopean views",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translating virtual camera",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dynamic-programming, stereo algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "three-plane graph",
+      "category": "method"
+    },
+    {
+      "entity": "dense-stereo dynamic-programming",
+      "category": "method"
+    },
+    {
+      "entity": "direct projection of the minimum-cost surface",
+      "category": "method"
+    },
+    {
+      "entity": "cost aggregation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "novel view generation",
+      "category": "task"
+    },
+    {
+      "entity": "one-to-one teleconferencing applications",
+      "category": "material"
+    },
+    {
+      "entity": "video streams",
+      "category": "material"
+    },
+    {
+      "entity": "virtual camera",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "eye contact",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dynamic-programming",
+      "category": "method"
+    },
+    {
+      "entity": "stereo algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "three-plane graph",
+      "category": "method"
+    },
+    {
+      "entity": "dense-stereo dynamic-programming",
+      "category": "method"
+    },
+    {
+      "entity": "novel-view synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "direct projection",
+      "category": "method"
+    },
+    {
+      "entity": "minimumcost surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "background model",
+      "category": "material"
+    },
+    {
+      "entity": "temporal artefacts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cost aggregation algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "three-dimensional matching cost space",
+      "category": "material"
+    },
+    {
+      "entity": "cyclopean views",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "extended conversational sequences",
+      "category": "material"
+    },
+    {
+      "entity": "freely translating virtual camera",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "one-to-one teleconferencing applications",
+      "predicted": "one-to-one teleconferencing applications",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "novel view generation",
+      "predicted": "novel view generation",
+      "category": "task"
+    },
+    {
+      "gold": "novel-view synthesis",
+      "predicted": "novel-view synthesis",
+      "category": "task"
+    },
+    {
+      "gold": "video streams",
+      "predicted": "video streams",
+      "category": "material"
+    },
+    {
+      "gold": "extended conversational sequences",
+      "predicted": "extended conversational sequences",
+      "category": "material"
+    },
+    {
+      "gold": "virtual camera",
+      "predicted": "virtual camera",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "eye contact",
+      "predicted": "eye contact",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "cyclopean views",
+      "predicted": "cyclopean views",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "three-plane graph",
+      "predicted": "three-plane graph",
+      "category": "method"
+    },
+    {
+      "gold": "dense-stereo dynamic-programming",
+      "predicted": "dense-stereo dynamic-programming",
+      "category": "method"
+    },
+    {
+      "gold": "cost aggregation algorithm",
+      "predicted": "cost aggregation algorithm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "threedimensional matching cost space",
+      "predicted": "three-dimensional matching cost space",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "translating virtual camera",
+      "predicted": "freely translating virtual camera",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "dynamic-programming, stereo algorithm",
+      "gold_category": "method",
+      "matched_parts": [
+        {
+          "part": "dynamic-programming",
+          "matched": "dynamic-programming",
+          "predicted_category": "method"
+        },
+        {
+          "part": "stereo algorithm",
+          "matched": "stereo algorithm",
+          "predicted_category": "method"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "novel-view generation",
+      "category": "task"
+    },
+    {
+      "entity": "occlusion labeling",
+      "category": "task"
+    },
+    {
+      "entity": "temporal maintenance of a background model",
+      "category": "task"
+    },
+    {
+      "entity": "rendering of occlusions",
+      "category": "task"
+    },
+    {
+      "entity": "synthesis of cyclopean views of extended conversational sequences",
+      "category": "task"
+    },
+    {
+      "entity": "synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "long stereo video streams",
+      "category": "material"
+    },
+    {
+      "entity": "cameras",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer monitor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "arbitrary position",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compact geometric derivation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal artefacts flicker",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial and temporal artefacts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "direct projection of the minimum-cost surface",
+      "category": "method"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "direct projection",
+      "category": "method"
+    },
+    {
+      "entity": "minimumcost surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "background model",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 9,
+    "material": 4,
+    "otherscientificterm": 11,
+    "method": 5,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 5,
+    "otherscientificterm": 6,
+    "method": 6
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "otherscientificterm": {
+      "gold": 11,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 9,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5263157894736842,
+  "recall": 0.3333333333333333,
+  "f1": 0.4081632653061224,
+  "counts": {
+    "gold_entities": 30,
+    "predicted_entities": 19,
+    "exact_matches": 1,
+    "exact_matches_with_category": 10,
+    "partial_matches": 2,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 16,
+    "extra_entities": 3,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

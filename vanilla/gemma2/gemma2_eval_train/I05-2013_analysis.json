@@ -1,0 +1,292 @@
+{
+  "doc_key": "I05-2013",
+  "gold_entities": [
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution system",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "modular  syntactic analysis system",
+      "category": "method"
+    },
+    {
+      "entity": "raw text  in  French",
+      "category": "material"
+    },
+    {
+      "entity": "anaphoric occurrences of il",
+      "category": "task"
+    },
+    {
+      "entity": "precision rate",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "raw text",
+      "category": "material"
+    },
+    {
+      "entity": "French",
+      "category": "material"
+    },
+    {
+      "entity": "pronoun il",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag ana",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag imp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphoric",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "impersonal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expletive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphora resolution system",
+      "category": "method"
+    },
+    {
+      "entity": "precision rate",
+      "category": "metric"
+    },
+    {
+      "entity": "errors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tasks",
+      "category": "task"
+    },
+    {
+      "entity": "modular syntactic analysis system",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "ILIMP",
+      "predicted": "ILIMP",
+      "category": "method"
+    },
+    {
+      "gold": "anaphora resolution system",
+      "predicted": "anaphora resolution system",
+      "category": "method"
+    },
+    {
+      "gold": "modular  syntactic analysis system",
+      "predicted": "modular syntactic analysis system",
+      "category": "method"
+    },
+    {
+      "gold": "precision rate",
+      "predicted": "precision rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "raw text  in  French",
+      "predicted": "raw text",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "anaphora resolution system",
+      "category": "method"
+    },
+    {
+      "entity": "modular  syntactic analysis system",
+      "category": "method"
+    },
+    {
+      "entity": "precision rate",
+      "category": "metric"
+    },
+    {
+      "entity": "raw text  in  French",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "ILIMP",
+      "category": "method"
+    },
+    {
+      "entity": "anaphoric occurrences of il",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "French",
+      "category": "material"
+    },
+    {
+      "entity": "pronoun il",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag ana",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag imp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphoric",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "impersonal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expletive",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "errors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tasks",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "ILIMP|method": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "material": 1,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 2,
+    "otherscientificterm": 7,
+    "metric": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.5,
+  "f1": 0.3,
+  "category_precision": 0.42857142857142855,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.5217391304347826,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 14,
+    "exact_matches": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 9,
+    "generic_entities": 4,
+    "correct_predictions": 3,
+    "correct_categories": 6
+  }
+}

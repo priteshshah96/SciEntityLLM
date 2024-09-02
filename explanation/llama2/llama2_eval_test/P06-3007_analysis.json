@@ -1,0 +1,213 @@
+{
+  "doc_key": "P06-3007",
+  "gold_entities": [
+    {
+      "entity": "independent and relevant event-based extractive  mutli-document summarization approaches",
+      "category": "method"
+    },
+    {
+      "entity": "independent approach",
+      "category": "method"
+    },
+    {
+      "entity": "relevant approach",
+      "category": "method"
+    },
+    {
+      "entity": "PageRank algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "event map",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "documents",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "event-based extractive mutli-document summarization approaches",
+      "category": "task"
+    },
+    {
+      "entity": "events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "important contents",
+      "category": "material"
+    },
+    {
+      "entity": "frequency of events",
+      "category": "metric"
+    },
+    {
+      "entity": "PageRank algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "event map",
+      "category": "material"
+    },
+    {
+      "entity": "documents",
+      "category": "material"
+    },
+    {
+      "entity": "experimental results",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "event map",
+      "predicted": "event map",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "PageRank algorithm",
+      "predicted": "PageRank algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "documents",
+      "predicted": "documents",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "independent and relevant event-based extractive  mutli-document summarization approaches",
+      "predicted": "event-based extractive mutli-document summarization approaches",
+      "score": 0.625,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "independent approach",
+      "category": "method"
+    },
+    {
+      "entity": "relevant approach",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "important contents",
+      "category": "material"
+    },
+    {
+      "entity": "frequency of events",
+      "category": "metric"
+    },
+    {
+      "entity": "experimental results",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 3,
+    "material": 3,
+    "metric": 2,
+    "method": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.3333333333333333,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

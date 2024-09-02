@@ -1,0 +1,184 @@
+{
+  "doc_key": "P06-3007",
+  "gold_entities": [
+    {
+      "entity": "independent and relevant event-based extractive  mutli-document summarization approaches",
+      "category": "method"
+    },
+    {
+      "entity": "independent approach",
+      "category": "method"
+    },
+    {
+      "entity": "relevant approach",
+      "category": "method"
+    },
+    {
+      "entity": "PageRank algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "event map",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "documents",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Event-based extractive mutli-document summarization",
+      "category": "task"
+    },
+    {
+      "entity": "event terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Frequency of events",
+      "category": "metric"
+    },
+    {
+      "entity": "PageRank algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Event map",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "event map",
+      "predicted": "Event map",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "PageRank algorithm",
+      "predicted": "PageRank algorithm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "independent and relevant event-based extractive  mutli-document summarization approaches",
+      "predicted": "Event-based extractive mutli-document summarization",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "independent approach",
+      "category": "method"
+    },
+    {
+      "entity": "relevant approach",
+      "category": "method"
+    },
+    {
+      "entity": "documents",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "event terms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "event elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Frequency of events",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 2,
+    "metric": 1,
+    "method": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.16666666666666666,
+  "f1": 0.16666666666666666,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 6,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

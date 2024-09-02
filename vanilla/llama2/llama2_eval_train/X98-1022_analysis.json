@@ -1,0 +1,359 @@
+{
+  "doc_key": "X98-1022",
+  "gold_entities": [
+    {
+      "entity": "Automatic summarization",
+      "category": "task"
+    },
+    {
+      "entity": "information extraction",
+      "category": "task"
+    },
+    {
+      "entity": "automatic summarization",
+      "category": "task"
+    },
+    {
+      "entity": "summary generation",
+      "category": "task"
+    },
+    {
+      "entity": "categorization task",
+      "category": "task"
+    },
+    {
+      "entity": "adhoc task",
+      "category": "task"
+    },
+    {
+      "entity": "adhoc tasks",
+      "category": "task"
+    },
+    {
+      "entity": "categorization task",
+      "category": "task"
+    },
+    {
+      "entity": "categorization task",
+      "category": "task"
+    },
+    {
+      "entity": "adhoc task",
+      "category": "task"
+    },
+    {
+      "entity": "MUC",
+      "category": "material"
+    },
+    {
+      "entity": "SUMMAC",
+      "category": "material"
+    },
+    {
+      "entity": "SUMMAC-1",
+      "category": "material"
+    },
+    {
+      "entity": "positive feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "negative feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generic indicative summaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse segment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "userdirected summaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text model",
+      "category": "method"
+    },
+    {
+      "entity": "NormF",
+      "category": "metric"
+    },
+    {
+      "entity": "NormF",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Automatic summarization",
+      "category": "task"
+    },
+    {
+      "entity": "Information extraction",
+      "category": "task"
+    },
+    {
+      "entity": "MUC",
+      "category": "method"
+    },
+    {
+      "entity": "SUMMAC",
+      "category": "method"
+    },
+    {
+      "entity": "SUMMAC-1",
+      "category": "task"
+    },
+    {
+      "entity": "NormF",
+      "category": "metric"
+    },
+    {
+      "entity": "Feature vectors",
+      "category": "method"
+    },
+    {
+      "entity": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse segment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "userdirected summaries",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "MUC",
+      "predicted": "MUC",
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "SUMMAC",
+      "predicted": "SUMMAC",
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "SUMMAC-1",
+      "predicted": "SUMMAC-1",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Automatic summarization",
+      "predicted": "Automatic summarization",
+      "category": "task"
+    },
+    {
+      "gold": "information extraction",
+      "predicted": "Information extraction",
+      "category": "task"
+    },
+    {
+      "gold": "discourse segment",
+      "predicted": "discourse segment",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "userdirected summaries",
+      "predicted": "userdirected summaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "NormF",
+      "predicted": "NormF",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "positive feature vectors",
+      "predicted": "Feature vectors",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatic summarization",
+      "category": "task"
+    },
+    {
+      "entity": "summary generation",
+      "category": "task"
+    },
+    {
+      "entity": "categorization task",
+      "category": "task"
+    },
+    {
+      "entity": "categorization task",
+      "category": "task"
+    },
+    {
+      "entity": "categorization task",
+      "category": "task"
+    },
+    {
+      "entity": "adhoc task",
+      "category": "task"
+    },
+    {
+      "entity": "adhoc task",
+      "category": "task"
+    },
+    {
+      "entity": "adhoc tasks",
+      "category": "task"
+    },
+    {
+      "entity": "negative feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generic indicative summaries",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text model",
+      "category": "method"
+    },
+    {
+      "entity": "NormF",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "categorization task|task": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "adhoc task|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "NormF|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 7
+  },
+  "gold_category_counts": {
+    "task": 10,
+    "material": 3,
+    "otherscientificterm": 5,
+    "method": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 3,
+    "metric": 1,
+    "otherscientificterm": 5
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 10,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 0.23809523809523808,
+  "f1": 0.30303030303030304,
+  "counts": {
+    "gold_entities": 21,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 12,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

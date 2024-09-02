@@ -1,0 +1,224 @@
+{
+  "gold_entities": [
+    {
+      "entity": "new domain",
+      "category": "Material"
+    },
+    {
+      "entity": "word sense disambiguation (wsd) systems",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "wsd accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "sense priors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sense priors of words",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "well calibrated probabilities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "well calibrated probabilities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sense priors",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "word",
+      "category": "Method"
+    },
+    {
+      "entity": "domains",
+      "category": "Material"
+    },
+    {
+      "entity": "senses",
+      "category": "Metric"
+    },
+    {
+      "entity": "word sense disambiguation (wsd)",
+      "category": "Task"
+    },
+    {
+      "entity": "systems",
+      "category": "Material"
+    },
+    {
+      "entity": "domain",
+      "category": "Material"
+    },
+    {
+      "entity": "sense priors",
+      "category": "Metric"
+    },
+    {
+      "entity": "probabilities",
+      "category": "Metric"
+    },
+    {
+      "entity": "estimations",
+      "category": "Task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "estimations",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "sense priors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "sense priors",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "word sense disambiguation (wsd) systems",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "word",
+          "category": "Method"
+        },
+        {
+          "entity": "word sense disambiguation (wsd)",
+          "category": "Task"
+        },
+        {
+          "entity": "systems",
+          "category": "Material"
+        }
+      ],
+      "coverage": 3.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "new domain",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "domain",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "well calibrated probabilities",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "probabilities",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "wsd accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "sense priors of words",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "well calibrated probabilities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sense priors",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "domains",
+      "category": "Material"
+    },
+    {
+      "entity": "senses",
+      "category": "Metric"
+    },
+    {
+      "entity": "estimations",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "sense priors": 2,
+    "well calibrated probabilities": 2
+  },
+  "distinct_repeated_entities": [
+    "sense priors",
+    "well calibrated probabilities"
+  ],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

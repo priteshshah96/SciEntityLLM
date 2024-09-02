@@ -1,0 +1,221 @@
+{
+  "doc_key": "I05-5009",
+  "gold_entities": [
+    {
+      "entity": "latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "latent variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "topic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "evaluation method",
+      "category": "task"
+    },
+    {
+      "entity": "latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contexts",
+      "category": "material"
+    },
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "likelihood",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "method"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "material"
+    },
+    {
+      "entity": "performance difference",
+      "category": "metric"
+    },
+    {
+      "entity": "upper bound",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "latent variable model",
+      "predicted": "latent variable model",
+      "category": "method"
+    },
+    {
+      "gold": "paraphrases",
+      "predicted": "paraphrases",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "topic information",
+      "predicted": "topic",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "latent variable",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "evaluation method",
+      "category": "task"
+    },
+    {
+      "entity": "contexts",
+      "category": "material"
+    },
+    {
+      "entity": "likelihood",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "experimental results",
+      "category": "material"
+    },
+    {
+      "entity": "performance difference",
+      "category": "metric"
+    },
+    {
+      "entity": "upper bound",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 4,
+    "material": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.3333333333333333,
+  "f1": 0.23529411764705885,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

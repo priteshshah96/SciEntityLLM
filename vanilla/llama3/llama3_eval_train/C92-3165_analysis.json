@@ -1,0 +1,300 @@
+{
+  "doc_key": "C92-3165",
+  "gold_entities": [
+    {
+      "entity": "speech understanding",
+      "category": "task"
+    },
+    {
+      "entity": "generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Parsing",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbol",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unknown words",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Generalized LR parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Fake non-terminal symbol",
+      "category": "material"
+    },
+    {
+      "entity": "Parse record",
+      "category": "material"
+    },
+    {
+      "entity": "Re-utterance",
+      "category": "task"
+    },
+    {
+      "entity": "Unknown words",
+      "category": "metric"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Pilot system",
+      "category": "material"
+    },
+    {
+      "entity": "Interactive method",
+      "category": "method"
+    },
+    {
+      "entity": "speech understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Parsing",
+      "category": "task"
+    },
+    {
+      "entity": "Left to right",
+      "category": "metric"
+    },
+    {
+      "entity": "Minor errors",
+      "category": "metric"
+    },
+    {
+      "entity": "Noisy portion",
+      "category": "material"
+    },
+    {
+      "entity": "Non-terminal symbol",
+      "category": "material"
+    },
+    {
+      "entity": "Utterance",
+      "category": "material"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Incremental incorporation",
+      "category": "task"
+    },
+    {
+      "entity": "User interaction",
+      "category": "task"
+    },
+    {
+      "entity": "Handling unknown words",
+      "category": "task"
+    },
+    {
+      "entity": "Efficient parsing",
+      "category": "metric"
+    },
+    {
+      "entity": "Robust method",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "speech understanding",
+      "predicted": "speech understanding",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Parsing",
+      "predicted": "Parsing",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "unknown words",
+      "predicted": "Unknown words",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "generalized LR parsing",
+      "predicted": "Generalized LR parsing",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbol",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Fake non-terminal symbol",
+      "category": "material"
+    },
+    {
+      "entity": "Parse record",
+      "category": "material"
+    },
+    {
+      "entity": "Re-utterance",
+      "category": "task"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Pilot system",
+      "category": "material"
+    },
+    {
+      "entity": "Interactive method",
+      "category": "method"
+    },
+    {
+      "entity": "Left to right",
+      "category": "metric"
+    },
+    {
+      "entity": "Minor errors",
+      "category": "metric"
+    },
+    {
+      "entity": "Noisy portion",
+      "category": "material"
+    },
+    {
+      "entity": "Non-terminal symbol",
+      "category": "material"
+    },
+    {
+      "entity": "Utterance",
+      "category": "material"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Incremental incorporation",
+      "category": "task"
+    },
+    {
+      "entity": "User interaction",
+      "category": "task"
+    },
+    {
+      "entity": "Handling unknown words",
+      "category": "task"
+    },
+    {
+      "entity": "Efficient parsing",
+      "category": "metric"
+    },
+    {
+      "entity": "Robust method",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 3,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 8,
+    "task": 5,
+    "metric": 4,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.047619047619047616,
+  "recall": 0.16666666666666666,
+  "f1": 0.07407407407407407,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 21,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 17,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

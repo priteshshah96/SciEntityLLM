@@ -1,0 +1,293 @@
+{
+  "doc_key": "CVPR_1999_15_abs",
+  "gold_entities": [
+    {
+      "entity": "projective unifocal, bifo-cal, and trifocal tensors",
+      "category": "method"
+    },
+    {
+      "entity": "affine cameras",
+      "category": "method"
+    },
+    {
+      "entity": "trifocal tensor",
+      "category": "method"
+    },
+    {
+      "entity": "factorization",
+      "category": "method"
+    },
+    {
+      "entity": "affine case",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "registered tensors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affine specialization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "point correspondences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "line correspondences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "estimation of the tensors",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "projective unifocal tensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bifocal tensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "trifocal tensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affine case",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "registered tensors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Affine specialization",
+      "category": "method"
+    },
+    {
+      "entity": "projective relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Points and lines",
+      "category": "material"
+    },
+    {
+      "entity": "Views",
+      "category": "material"
+    },
+    {
+      "entity": "Affine cameras",
+      "category": "material"
+    },
+    {
+      "entity": "Components of the trifocal tensor",
+      "category": "metric"
+    },
+    {
+      "entity": "Constraints on the components of the trifocal tensor",
+      "category": "method"
+    },
+    {
+      "entity": "simple geometric interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Factorization",
+      "category": "method"
+    },
+    {
+      "entity": "Estimation of the tensors from point correspondences",
+      "category": "task"
+    },
+    {
+      "entity": "Estimation of the tensors from line correspondences",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "affine cameras",
+      "predicted": "Affine cameras",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "trifocal tensor",
+      "predicted": "trifocal tensor",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "affine specialization",
+      "predicted": "Affine specialization",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "factorization",
+      "predicted": "Factorization",
+      "category": "method"
+    },
+    {
+      "gold": "affine case",
+      "predicted": "affine case",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "registered tensors",
+      "predicted": "registered tensors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "geometric interpretation",
+      "predicted": "simple geometric interpretation",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "estimation of the tensors",
+      "predicted": "Estimation of the tensors from point correspondences",
+      "score": 0.5714285714285714,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "projective unifocal, bifo-cal, and trifocal tensors",
+      "category": "method"
+    },
+    {
+      "entity": "point correspondences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "line correspondences",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "projective unifocal tensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bifocal tensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projective relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Points and lines",
+      "category": "material"
+    },
+    {
+      "entity": "Views",
+      "category": "material"
+    },
+    {
+      "entity": "Components of the trifocal tensor",
+      "category": "metric"
+    },
+    {
+      "entity": "Constraints on the components of the trifocal tensor",
+      "category": "method"
+    },
+    {
+      "entity": "Estimation of the tensors from line correspondences",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 6,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 7,
+    "method": 3,
+    "material": 3,
+    "metric": 1,
+    "task": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1875,
+  "recall": 0.2727272727272727,
+  "f1": 0.2222222222222222,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 16,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 8,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

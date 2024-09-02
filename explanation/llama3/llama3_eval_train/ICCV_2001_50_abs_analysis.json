@@ -1,0 +1,378 @@
+{
+  "doc_key": "ICCV_2001_50_abs",
+  "gold_entities": [
+    {
+      "entity": "model-based bundle adjustment algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "3D model",
+      "category": "method"
+    },
+    {
+      "entity": "posed system",
+      "category": "method"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "synthetic and real data",
+      "category": "material"
+    },
+    {
+      "entity": "unknown motions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "isolated 3d features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularizer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "search space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prior 2dto3d association",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "search space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face modeling",
+      "category": "task"
+    },
+    {
+      "entity": "face metrics",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "model-based bundle adjustment algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "3D model",
+      "category": "material"
+    },
+    {
+      "entity": "scene/object",
+      "category": "material"
+    },
+    {
+      "entity": "sequence of images",
+      "category": "material"
+    },
+    {
+      "entity": "unknown motions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model space",
+      "category": "method"
+    },
+    {
+      "entity": "regularizer",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tracked points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "2dto3d association",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face metrics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "search space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "experiments",
+      "category": "method"
+    },
+    {
+      "entity": "synthetic and real data",
+      "category": "material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "stability",
+      "category": "metric"
+    },
+    {
+      "entity": "speed",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "3D model",
+      "predicted": "3D model",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "model space",
+      "predicted": "model space",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "face metrics",
+      "predicted": "face metrics",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "model-based bundle adjustment algorithm",
+      "predicted": "model-based bundle adjustment algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "synthetic and real data",
+      "predicted": "synthetic and real data",
+      "category": "material"
+    },
+    {
+      "gold": "unknown motions",
+      "predicted": "unknown motions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "surface",
+      "predicted": "surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "regularizer",
+      "predicted": "regularizer",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "search space",
+      "predicted": "search space",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "face geometry",
+      "predicted": "face geometry",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "posed system",
+      "predicted": "system",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "prior 2dto3d association",
+      "predicted": "2dto3d association",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "isolated 3d features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "search space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face modeling",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "scene/object",
+      "category": "material"
+    },
+    {
+      "entity": "sequence of images",
+      "category": "material"
+    },
+    {
+      "entity": "surface",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tracked points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "experiments",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "stability",
+      "category": "metric"
+    },
+    {
+      "entity": "speed",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "search space|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "material": 2,
+    "otherscientificterm": 10,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 4,
+    "otherscientificterm": 11,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 11,
+      "exact_matches": 1,
+      "exact_matches_with_category": 5,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4117647058823529,
+  "f1": 0.36842105263157887,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 21,
+    "exact_matches": 3,
+    "exact_matches_with_category": 7,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 9,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

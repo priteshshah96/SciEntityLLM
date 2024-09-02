@@ -1,0 +1,305 @@
+{
+  "doc_key": "N03-2036",
+  "gold_entities": [
+    {
+      "entity": "phrase-based unigram model",
+      "category": "method"
+    },
+    {
+      "entity": "phrase-based models",
+      "category": "method"
+    },
+    {
+      "entity": "block unigram model",
+      "category": "method"
+    },
+    {
+      "entity": "word-based trigram language model",
+      "category": "method"
+    },
+    {
+      "entity": "source interval projections",
+      "category": "method"
+    },
+    {
+      "entity": "word alignment",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "decoding",
+      "category": "task"
+    },
+    {
+      "entity": "training",
+      "category": "task"
+    },
+    {
+      "entity": "model parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "blocks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "blocks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unigram counts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrase length",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "block selection criteria",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "phrase-based unigram model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "model parameters",
+      "category": "material"
+    },
+    {
+      "entity": "units of translation",
+      "category": "material"
+    },
+    {
+      "entity": "blocks",
+      "category": "method"
+    },
+    {
+      "entity": "block unigram model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "wordbased trigram language model",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "decoding",
+      "category": "task"
+    },
+    {
+      "entity": "training",
+      "category": "task"
+    },
+    {
+      "entity": "source interval projections",
+      "category": "material"
+    },
+    {
+      "entity": "word alignment",
+      "category": "method"
+    },
+    {
+      "entity": "block selection criteria",
+      "category": "material"
+    },
+    {
+      "entity": "unigram counts",
+      "category": "metric"
+    },
+    {
+      "entity": "phrase length",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "block unigram model",
+      "predicted": "block unigram model",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "source interval projections",
+      "predicted": "source interval projections",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "model parameters",
+      "predicted": "model parameters",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "blocks",
+      "predicted": "blocks",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unigram counts",
+      "predicted": "unigram counts",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "phrase length",
+      "predicted": "phrase length",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "block selection criteria",
+      "predicted": "block selection criteria",
+      "gold_category": "metric",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "phrase-based unigram model",
+      "predicted": "phrase-based unigram model",
+      "category": "method"
+    },
+    {
+      "gold": "word alignment",
+      "predicted": "word alignment",
+      "category": "method"
+    },
+    {
+      "gold": "statistical machine translation",
+      "predicted": "statistical machine translation",
+      "category": "task"
+    },
+    {
+      "gold": "decoding",
+      "predicted": "decoding",
+      "category": "task"
+    },
+    {
+      "gold": "training",
+      "predicted": "training",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word-based trigram language model",
+      "predicted": "wordbased trigram language model",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "phrase-based models",
+      "category": "method"
+    },
+    {
+      "entity": "blocks",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "units of translation",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "blocks|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 3,
+    "otherscientificterm": 5,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 3,
+    "material": 4,
+    "otherscientificterm": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 4,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.35714285714285715,
+  "recall": 0.3333333333333333,
+  "f1": 0.3448275862068965,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 14,
+    "exact_matches": 7,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 1,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

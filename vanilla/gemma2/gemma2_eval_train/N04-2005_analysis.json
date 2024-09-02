@@ -1,0 +1,284 @@
+{
+  "doc_key": "N04-2005",
+  "gold_entities": [
+    {
+      "entity": "translation  of  English text  into  American Sign Language (ASL) animation",
+      "category": "task"
+    },
+    {
+      "entity": "MT architectural designs",
+      "category": "method"
+    },
+    {
+      "entity": "semantic representation",
+      "category": "method"
+    },
+    {
+      "entity": "virtual reality 3D scene modeling software",
+      "category": "method"
+    },
+    {
+      "entity": "multi-pathway MT architecture design",
+      "category": "method"
+    },
+    {
+      "entity": "spatially complex asl phenomena",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interlingua",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transfer",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "translation",
+      "category": "method"
+    },
+    {
+      "entity": "English text",
+      "category": "material"
+    },
+    {
+      "entity": "American Sign Language (ASL)",
+      "category": "method"
+    },
+    {
+      "entity": "animation",
+      "category": "method"
+    },
+    {
+      "entity": "MT",
+      "category": "method"
+    },
+    {
+      "entity": "architectural designs",
+      "category": "material"
+    },
+    {
+      "entity": "semantic representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "virtual reality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3D scene modeling software",
+      "category": "method"
+    },
+    {
+      "entity": "asl phenomena",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interlingua",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multipathway mt architecture design",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transfer",
+      "category": "method"
+    },
+    {
+      "entity": "direct approaches",
+      "category": "method"
+    },
+    {
+      "entity": "system",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "semantic representation",
+      "predicted": "semantic representation",
+      "category": "method"
+    },
+    {
+      "gold": "classifier predicates",
+      "predicted": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "interlingua",
+      "predicted": "interlingua",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "transfer",
+      "predicted": "transfer",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "MT architectural designs",
+      "predicted": "architectural designs",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "virtual reality 3D scene modeling software",
+      "predicted": "3D scene modeling software",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "multi-pathway MT architecture design",
+      "predicted": "multipathway mt architecture design",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "spatially complex asl phenomena",
+      "predicted": "asl phenomena",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interlingua",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "virtual reality 3D scene modeling software",
+      "category": "method"
+    },
+    {
+      "entity": "spatially complex asl phenomena",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "translation  of  English text  into  American Sign Language (ASL) animation",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "translation",
+      "category": "method"
+    },
+    {
+      "entity": "English text",
+      "category": "material"
+    },
+    {
+      "entity": "American Sign Language (ASL)",
+      "category": "method"
+    },
+    {
+      "entity": "animation",
+      "category": "method"
+    },
+    {
+      "entity": "MT",
+      "category": "method"
+    },
+    {
+      "entity": "virtual reality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "direct approaches",
+      "category": "method"
+    },
+    {
+      "entity": "system",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "material": 2,
+    "otherscientificterm": 7
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 1,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.2222222222222222,
+  "f1": 0.16,
+  "category_precision": 0.5,
+  "category_recall": 0.8888888888888888,
+  "category_f1": 0.64,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 16,
+    "exact_matches": 4,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 8,
+    "generic_entities": 3,
+    "correct_predictions": 2,
+    "correct_categories": 8
+  }
+}

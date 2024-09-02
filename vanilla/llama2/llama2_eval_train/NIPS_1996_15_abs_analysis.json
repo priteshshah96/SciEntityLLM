@@ -1,0 +1,172 @@
+{
+  "doc_key": "NIPS_1996_15_abs",
+  "gold_entities": [
+    {
+      "entity": "analytical expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "markov chains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stepsize and eligibility trace parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal difference value estimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "lookup table representations",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Temporal difference value estimation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Offline updates",
+      "category": "task"
+    },
+    {
+      "entity": "Trials",
+      "category": "task"
+    },
+    {
+      "entity": "absorbing markov chains",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Lookup table representations",
+      "category": "method"
+    },
+    {
+      "entity": "learning curve behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Step-size parameters",
+      "category": "method"
+    },
+    {
+      "entity": "Eligibility trace parameters",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "learning curve behavior",
+      "predicted": "learning curve behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "temporal difference value estimation algorithms",
+      "predicted": "Temporal difference value estimation algorithms",
+      "category": "method"
+    },
+    {
+      "gold": "lookup table representations",
+      "predicted": "Lookup table representations",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "markov chains",
+      "predicted": "absorbing markov chains",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "analytical expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stepsize and eligibility trace parameters",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Offline updates",
+      "category": "task"
+    },
+    {
+      "entity": "Trials",
+      "category": "task"
+    },
+    {
+      "entity": "Step-size parameters",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "task": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.375,
+  "recall": 0.5,
+  "f1": 0.42857142857142855,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

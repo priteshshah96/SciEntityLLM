@@ -1,0 +1,200 @@
+{
+  "doc_key": "H05-1101",
+  "gold_entities": [
+    {
+      "entity": "computational problems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "exponential time lowerbound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computational problems",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "synchronous way",
+      "category": "method"
+    },
+    {
+      "entity": "hardness results",
+      "category": "metric"
+    },
+    {
+      "entity": "class NP",
+      "category": "material"
+    },
+    {
+      "entity": "exponential time lower-bound",
+      "category": "metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "literature",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computational problems",
+      "predicted": "computational problems",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "probabilistic translation models",
+      "predicted": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "gold": "probabilistic context-free grammars",
+      "predicted": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "gold": "machine translation",
+      "predicted": "machine translation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "exponential time lowerbound",
+      "predicted": "exponential time lower-bound",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "synchronous way",
+      "category": "method"
+    },
+    {
+      "entity": "hardness results",
+      "category": "metric"
+    },
+    {
+      "entity": "class NP",
+      "category": "material"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "literature",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "metric": 2,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.6,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 5,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

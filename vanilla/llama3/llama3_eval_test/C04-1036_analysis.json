@@ -1,0 +1,244 @@
+{
+  "doc_key": "C04-1036",
+  "gold_entities": [
+    {
+      "entity": "evaluation criterion",
+      "category": "metric"
+    },
+    {
+      "entity": "word similarity measures",
+      "category": "metric"
+    },
+    {
+      "entity": "meaning-entailing substitutability",
+      "category": "metric"
+    },
+    {
+      "entity": "human agreement",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic criterion",
+      "category": "metric"
+    },
+    {
+      "entity": "feature vector quality",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic-oriented NLP applications",
+      "category": "task"
+    },
+    {
+      "entity": "word similarity",
+      "category": "task"
+    },
+    {
+      "entity": "word similarity",
+      "category": "task"
+    },
+    {
+      "entity": "distributional word feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature weighting and selection function",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Word similarity measures",
+      "category": "task"
+    },
+    {
+      "entity": "Meaning-entailing substitutability",
+      "category": "metric"
+    },
+    {
+      "entity": "semanticoriented nlp applications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Distributional word feature vectors",
+      "category": "material"
+    },
+    {
+      "entity": "Feature vector quality",
+      "category": "metric"
+    },
+    {
+      "entity": "Feature weighting and selection function",
+      "category": "method"
+    },
+    {
+      "entity": "Word similarity results",
+      "category": "metric"
+    },
+    {
+      "entity": "Human agreement",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "word similarity measures",
+      "predicted": "Word similarity measures",
+      "gold_category": "metric",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "distributional word feature vectors",
+      "predicted": "Distributional word feature vectors",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "meaning-entailing substitutability",
+      "predicted": "Meaning-entailing substitutability",
+      "category": "metric"
+    },
+    {
+      "gold": "human agreement",
+      "predicted": "Human agreement",
+      "category": "metric"
+    },
+    {
+      "gold": "feature vector quality",
+      "predicted": "Feature vector quality",
+      "category": "metric"
+    },
+    {
+      "gold": "feature weighting and selection function",
+      "predicted": "Feature weighting and selection function",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "semantic-oriented NLP applications",
+      "predicted": "semanticoriented nlp applications",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "word similarity",
+      "predicted": "Word similarity results",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "evaluation criterion",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic criterion",
+      "category": "metric"
+    },
+    {
+      "entity": "word similarity",
+      "category": "task"
+    },
+    {
+      "entity": "feature vectors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "word similarity|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "metric": 6,
+    "task": 3,
+    "otherscientificterm": 2,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "metric": 4,
+    "otherscientificterm": 1,
+    "material": 1,
+    "method": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.3333333333333333,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 0,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

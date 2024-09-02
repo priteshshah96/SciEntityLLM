@@ -1,0 +1,250 @@
+{
+  "gold_entities": [
+    {
+      "entity": "spatial descriptions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "qualitative spatial constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "numerical constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial attributes  of the  entities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "Japanese",
+      "category": "Material"
+    },
+    {
+      "entity": "natural language texts",
+      "category": "Material"
+    },
+    {
+      "entity": "geometric model",
+      "category": "Method"
+    },
+    {
+      "entity": "computer program   SPRINT",
+      "category": "Method"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "spatial descriptions",
+      "category": "Task"
+    },
+    {
+      "entity": "Japanese",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "global scene",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenic descriptions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "SPRINT",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language texts",
+      "category": "Material"
+    },
+    {
+      "entity": "geometric model",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial attributes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "qualitative spatial constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "numerical constraints",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "vagueness of the spatial concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporary belief about the world",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "spatial descriptions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "spatial descriptions",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "qualitative spatial constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "qualitative spatial constraints",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "numerical constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "numerical constraints",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "Japanese",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "Japanese",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language texts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "natural language texts",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "geometric model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "geometric model",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "qualitative spatial constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "qualitative spatial constraints",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "numerical constraints",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "numerical constraints",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language texts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "natural language texts",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "spatial attributes  of the  entities",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "spatial attributes",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "overlap": 0.4
+    },
+    {
+      "gold": {
+        "entity": "computer program   SPRINT",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "SPRINT",
+          "category": "Method"
+        }
+      ],
+      "overlap": 0.3333333333333333
+    },
+    {
+      "gold": {
+        "entity": "spatial concepts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "vagueness of the spatial concepts",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "remaining_gold": [],
+  "remaining_generated": [
+    {
+      "entity": "global scene",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenic descriptions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporary belief about the world",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "total_gold_entities": 9,
+    "total_exact_matches": 6,
+    "total_exact_category_matches": 3,
+    "total_split_matches": 0,
+    "total_partial_matches": 3,
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "doc_key": "CVPR_2014_18_abs",
+  "gold_entities": [
+    {
+      "entity": "object category detection datasets",
+      "category": "material"
+    },
+    {
+      "entity": "object-category detection datasets",
+      "category": "material"
+    },
+    {
+      "entity": "PASCAL VOC",
+      "category": "material"
+    },
+    {
+      "entity": "per-object 3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "per-object 3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "ground truth figure-ground segmentations",
+      "category": "method"
+    },
+    {
+      "entity": "keypoint annotations",
+      "category": "method"
+    },
+    {
+      "entity": "visual hull sampling process",
+      "category": "method"
+    },
+    {
+      "entity": "geometry-oriented model-based recognition approaches",
+      "category": "method"
+    },
+    {
+      "entity": "camera viewpoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rigid structurefrommotion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object shapes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "visual hull proposals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "loose withinclass shape similarity assumptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projection cone",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "object category detection datasets",
+      "category": "task"
+    },
+    {
+      "entity": "dense, per-object 3D reconstructions",
+      "category": "method"
+    },
+    {
+      "entity": "camera viewpoint",
+      "category": "material"
+    },
+    {
+      "entity": "rigid structure-from-motion",
+      "category": "method"
+    },
+    {
+      "entity": "object shapes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "visual hull proposals",
+      "category": "method"
+    },
+    {
+      "entity": "loose withinclass shape similarity assumptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "object category detection",
+      "category": "task"
+    },
+    {
+      "entity": "PASCAL VOC",
+      "category": "material"
+    },
+    {
+      "entity": "geometryoriented modelbased recognition approaches",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "object category detection datasets",
+      "predicted": "object category detection datasets",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "camera viewpoint",
+      "predicted": "camera viewpoint",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "visual hull proposals",
+      "predicted": "visual hull proposals",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "PASCAL VOC",
+      "predicted": "PASCAL VOC",
+      "category": "material"
+    },
+    {
+      "gold": "object shapes",
+      "predicted": "object shapes",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "loose withinclass shape similarity assumptions",
+      "predicted": "loose withinclass shape similarity assumptions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "per-object 3D reconstructions",
+      "predicted": "dense, per-object 3D reconstructions",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "object-category detection datasets",
+      "category": "material"
+    },
+    {
+      "entity": "per-object 3D reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "ground truth figure-ground segmentations",
+      "category": "method"
+    },
+    {
+      "entity": "keypoint annotations",
+      "category": "method"
+    },
+    {
+      "entity": "visual hull sampling process",
+      "category": "method"
+    },
+    {
+      "entity": "geometry-oriented model-based recognition approaches",
+      "category": "method"
+    },
+    {
+      "entity": "rigid structurefrommotion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "projection cone",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "rigid structure-from-motion",
+      "category": "method"
+    },
+    {
+      "entity": "object category detection",
+      "category": "task"
+    },
+    {
+      "entity": "geometryoriented modelbased recognition approaches",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "per-object 3D reconstructions|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 3,
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 3,
+    "material": 2,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.2,
+  "f1": 0.24,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

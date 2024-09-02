@@ -1,0 +1,176 @@
+{
+  "doc_key": "C88-2086",
+  "gold_entities": [
+    {
+      "entity": "natural language presuppositions",
+      "category": "task"
+    },
+    {
+      "entity": "natural language presuppositions",
+      "category": "task"
+    },
+    {
+      "entity": "presuppositional nature",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Soames 1979",
+      "category": "task"
+    },
+    {
+      "entity": "Soames 1982",
+      "category": "task"
+    },
+    {
+      "entity": "Mercer 1987",
+      "category": "method"
+    },
+    {
+      "entity": "Mercer 1988",
+      "category": "method"
+    },
+    {
+      "entity": "gazdar 1979",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gazdar 1987",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language presuppositions",
+      "category": "metric"
+    },
+    {
+      "entity": "inferential theory",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language presuppositions",
+      "predicted": "natural language presuppositions",
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "natural language presuppositions",
+      "category": "task"
+    },
+    {
+      "entity": "presuppositional nature",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Soames 1979",
+      "category": "task"
+    },
+    {
+      "entity": "Soames 1982",
+      "category": "task"
+    },
+    {
+      "entity": "Mercer 1987",
+      "category": "method"
+    },
+    {
+      "entity": "Mercer 1988",
+      "category": "method"
+    },
+    {
+      "entity": "gazdar 1979",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gazdar 1987",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inferential theory",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "natural language presuppositions|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 3,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

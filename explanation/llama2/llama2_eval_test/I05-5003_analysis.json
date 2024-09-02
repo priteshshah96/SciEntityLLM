@@ -1,0 +1,384 @@
+{
+  "doc_key": "I05-5003",
+  "gold_entities": [
+    {
+      "entity": "machine translation (MT) evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "sentence-level semantic equivalence classification",
+      "category": "task"
+    },
+    {
+      "entity": "semantic equivalence",
+      "category": "task"
+    },
+    {
+      "entity": "entailment",
+      "category": "task"
+    },
+    {
+      "entity": "word matches and non-matches",
+      "category": "task"
+    },
+    {
+      "entity": "paraphrase classification",
+      "category": "task"
+    },
+    {
+      "entity": "entailment",
+      "category": "task"
+    },
+    {
+      "entity": "paraphrase classification",
+      "category": "task"
+    },
+    {
+      "entity": "MT evaluation methods",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "NIST",
+      "category": "metric"
+    },
+    {
+      "entity": "WER",
+      "category": "metric"
+    },
+    {
+      "entity": "PER",
+      "category": "metric"
+    },
+    {
+      "entity": "PER",
+      "category": "metric"
+    },
+    {
+      "entity": "paraphrase classification accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classification method",
+      "category": "method"
+    },
+    {
+      "entity": "MT evaluation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "part of speech information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "machine translation (MT) evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "sentence-level semantic equivalence classification",
+      "category": "task"
+    },
+    {
+      "entity": "standard MT evaluation methods",
+      "category": "method"
+    },
+    {
+      "entity": "BLEU",
+      "category": "method"
+    },
+    {
+      "entity": "NIST",
+      "category": "method"
+    },
+    {
+      "entity": "WER",
+      "category": "method"
+    },
+    {
+      "entity": "PER",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "semantic equivalence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "entailment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word matches",
+      "category": "material"
+    },
+    {
+      "entity": "non-matches",
+      "category": "material"
+    },
+    {
+      "entity": "part of speech information",
+      "category": "material"
+    },
+    {
+      "entity": "paraphrase classification accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "substantial improvement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "models",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "semantic equivalence",
+      "predicted": "semantic equivalence",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "entailment",
+      "predicted": "entailment",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "BLEU",
+      "predicted": "BLEU",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "NIST",
+      "predicted": "NIST",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "WER",
+      "predicted": "WER",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "PER",
+      "predicted": "PER",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "part of speech information",
+      "predicted": "part of speech information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "machine translation (MT) evaluation",
+      "predicted": "machine translation (MT) evaluation",
+      "category": "task"
+    },
+    {
+      "gold": "sentence-level semantic equivalence classification",
+      "predicted": "sentence-level semantic equivalence classification",
+      "category": "task"
+    },
+    {
+      "gold": "paraphrase classification accuracy",
+      "predicted": "paraphrase classification accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "classifiers",
+      "predicted": "classifiers",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "MT evaluation methods",
+      "predicted": "standard MT evaluation methods",
+      "score": 0.75,
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "word matches and non-matches",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "word matches",
+          "matched": "word matches",
+          "predicted_category": "material"
+        },
+        {
+          "part": "non-matches",
+          "matched": "non-matches",
+          "predicted_category": "material"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "entailment",
+      "category": "task"
+    },
+    {
+      "entity": "paraphrase classification",
+      "category": "task"
+    },
+    {
+      "entity": "paraphrase classification",
+      "category": "task"
+    },
+    {
+      "entity": "PER",
+      "category": "metric"
+    },
+    {
+      "entity": "classification method",
+      "category": "method"
+    },
+    {
+      "entity": "MT evaluation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "substantial improvement",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "models",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "entailment|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "paraphrase classification|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "PER|metric": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "task": 8,
+    "metric": 7,
+    "method": 3,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 7,
+    "otherscientificterm": 3,
+    "material": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "metric": {
+      "gold": 7,
+      "predicted": 1,
+      "exact_matches": 4,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.2,
+  "f1": 0.22222222222222224,
+  "counts": {
+    "gold_entities": 20,
+    "predicted_entities": 16,
+    "exact_matches": 7,
+    "exact_matches_with_category": 4,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

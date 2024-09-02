@@ -1,0 +1,282 @@
+{
+  "doc_key": "CVPR_2016_15_abs",
+  "gold_entities": [
+    {
+      "entity": "joint embeddings of images and text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple layers of linear projections",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlinearities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largemargin objective",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "crossview ranking constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "withinview neighborhood structure preservation constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "metric learning literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "two-branch neural network",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "image-to-text and text-to-image retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "phrase lo-calization",
+      "category": "task"
+    },
+    {
+      "entity": "Flickr30K and MSCOCO image-sentence datasets",
+      "category": "material"
+    },
+    {
+      "entity": "Flickr30K Entities dataset",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "joint embeddings",
+      "category": "method"
+    },
+    {
+      "entity": "neural network",
+      "category": "method"
+    },
+    {
+      "entity": "linear projections",
+      "category": "method"
+    },
+    {
+      "entity": "nonlinearities",
+      "category": "method"
+    },
+    {
+      "entity": "large-margin objective",
+      "category": "method"
+    },
+    {
+      "entity": "crossview ranking constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "withinview neighborhood structure preservation constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "metric learning literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image-to-text retrieval",
+      "category": "method"
+    },
+    {
+      "entity": "text-to-image retrieval",
+      "category": "method"
+    },
+    {
+      "entity": "Flickr30K Entities dataset",
+      "category": "material"
+    },
+    {
+      "entity": "Flickr30K dataset",
+      "category": "material"
+    },
+    {
+      "entity": "MSCOCO dataset",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "nonlinearities",
+      "predicted": "nonlinearities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "crossview ranking constraints",
+      "predicted": "crossview ranking constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "withinview neighborhood structure preservation constraints",
+      "predicted": "withinview neighborhood structure preservation constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "metric learning literature",
+      "predicted": "metric learning literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Flickr30K Entities dataset",
+      "predicted": "Flickr30K Entities dataset",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "two-branch neural network",
+      "predicted": "neural network",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "image-to-text and text-to-image retrieval",
+      "predicted": "image-to-text retrieval",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "joint embeddings of images and text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple layers of linear projections",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largemargin objective",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "phrase lo-calization",
+      "category": "task"
+    },
+    {
+      "entity": "Flickr30K and MSCOCO image-sentence datasets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "joint embeddings",
+      "category": "method"
+    },
+    {
+      "entity": "linear projections",
+      "category": "method"
+    },
+    {
+      "entity": "large-margin objective",
+      "category": "method"
+    },
+    {
+      "entity": "Flickr30K dataset",
+      "category": "material"
+    },
+    {
+      "entity": "MSCOCO dataset",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 1,
+    "metric": 1,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "otherscientificterm": 3,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.3076923076923077,
+  "f1": 0.3076923076923077,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

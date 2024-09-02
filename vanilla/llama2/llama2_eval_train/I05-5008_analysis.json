@@ -1,0 +1,272 @@
+{
+  "doc_key": "I05-5008",
+  "gold_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "handproduced sets",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine translation evaluation measures",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "NIST",
+      "category": "metric"
+    },
+    {
+      "entity": "grammaticality",
+      "category": "metric"
+    },
+    {
+      "entity": "equivalence in meaning",
+      "category": "metric"
+    },
+    {
+      "entity": "internal  lexical and syntactical variation",
+      "category": "metric"
+    },
+    {
+      "entity": "meaning equivalence",
+      "category": "method"
+    },
+    {
+      "entity": "entailment",
+      "category": "method"
+    },
+    {
+      "entity": "MT evaluation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Paraphrase",
+      "category": "task"
+    },
+    {
+      "entity": "Seed sentences",
+      "category": "task"
+    },
+    {
+      "entity": "Objective machine translation evaluation measures",
+      "category": "method"
+    },
+    {
+      "entity": "BLEU",
+      "category": "metric"
+    },
+    {
+      "entity": "NIST",
+      "category": "metric"
+    },
+    {
+      "entity": "Grammaticality",
+      "category": "metric"
+    },
+    {
+      "entity": "Equivalence in meaning",
+      "category": "metric"
+    },
+    {
+      "entity": "Internal lexical and syntactical variation",
+      "category": "metric"
+    },
+    {
+      "entity": "handproduced sets",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "paraphrase",
+      "predicted": "Paraphrase",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "handproduced sets",
+      "predicted": "handproduced sets",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "BLEU",
+      "predicted": "BLEU",
+      "category": "metric"
+    },
+    {
+      "gold": "NIST",
+      "predicted": "NIST",
+      "category": "metric"
+    },
+    {
+      "gold": "grammaticality",
+      "predicted": "Grammaticality",
+      "category": "metric"
+    },
+    {
+      "gold": "equivalence in meaning",
+      "predicted": "Equivalence in meaning",
+      "category": "metric"
+    },
+    {
+      "gold": "internal  lexical and syntactical variation",
+      "predicted": "Internal lexical and syntactical variation",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "machine translation evaluation measures",
+      "predicted": "Objective machine translation evaluation measures",
+      "score": 0.8,
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning equivalence",
+      "category": "method"
+    },
+    {
+      "entity": "entailment",
+      "category": "method"
+    },
+    {
+      "entity": "MT evaluation",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Seed sentences",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "paraphrase|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "paraphrases|otherscientificterm": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 6,
+    "metric": 6,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 1,
+    "metric": 5,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 5,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.6666666666666666,
+  "recall": 0.4,
+  "f1": 0.5,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

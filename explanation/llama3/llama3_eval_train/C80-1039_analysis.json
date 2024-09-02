@@ -1,0 +1,229 @@
+{
+  "doc_key": "C80-1039",
+  "gold_entities": [
+    {
+      "entity": "FROFF",
+      "category": "method"
+    },
+    {
+      "entity": "typing location",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commands",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mathematical expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "system",
+      "category": "task"
+    },
+    {
+      "entity": "FROFF",
+      "category": "method"
+    },
+    {
+      "entity": "texts",
+      "category": "material"
+    },
+    {
+      "entity": "graphs",
+      "category": "material"
+    },
+    {
+      "entity": "tables",
+      "category": "material"
+    },
+    {
+      "entity": "fonts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character size",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "typing location",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "line length",
+      "category": "metric"
+    },
+    {
+      "entity": "commands",
+      "category": "method"
+    },
+    {
+      "entity": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mathematical expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "documents",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "commands",
+      "predicted": "commands",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "FROFF",
+      "predicted": "FROFF",
+      "category": "method"
+    },
+    {
+      "gold": "typing location",
+      "predicted": "typing location",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "rules",
+      "predicted": "rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "mathematical expressions",
+      "predicted": "mathematical expressions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "system",
+      "category": "task"
+    },
+    {
+      "entity": "texts",
+      "category": "material"
+    },
+    {
+      "entity": "graphs",
+      "category": "material"
+    },
+    {
+      "entity": "tables",
+      "category": "material"
+    },
+    {
+      "entity": "fonts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character size",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "character",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "line length",
+      "category": "metric"
+    },
+    {
+      "entity": "documents",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "material": 4,
+    "otherscientificterm": 6,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.8,
+  "f1": 0.4210526315789473,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 9,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

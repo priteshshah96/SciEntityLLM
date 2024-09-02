@@ -1,0 +1,264 @@
+{
+  "doc_key": "INTERSPEECH_2008_21_abs",
+  "gold_entities": [
+    {
+      "entity": "Czech talking head system",
+      "category": "task"
+    },
+    {
+      "entity": "visual speech animation",
+      "category": "task"
+    },
+    {
+      "entity": "animation of visual speech",
+      "category": "task"
+    },
+    {
+      "entity": "lipreading",
+      "category": "task"
+    },
+    {
+      "entity": "forming articulatory trajectories",
+      "category": "task"
+    },
+    {
+      "entity": "synthesis method",
+      "category": "method"
+    },
+    {
+      "entity": "3D animation model",
+      "category": "method"
+    },
+    {
+      "entity": "pseudo-muscular animation schema",
+      "category": "method"
+    },
+    {
+      "entity": "animation schema",
+      "category": "method"
+    },
+    {
+      "entity": "synthesis method",
+      "category": "method"
+    },
+    {
+      "entity": "interpolation technique",
+      "category": "method"
+    },
+    {
+      "entity": "labial coarticulation effects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "selection of articulatory targets",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Czech talking head system",
+      "category": "task"
+    },
+    {
+      "entity": "visual speech animation",
+      "category": "method"
+    },
+    {
+      "entity": "parameterization of a human face and a tongue",
+      "category": "method"
+    },
+    {
+      "entity": "necessary data sources",
+      "category": "material"
+    },
+    {
+      "entity": "synthesis method",
+      "category": "method"
+    },
+    {
+      "entity": "3D animation model",
+      "category": "method"
+    },
+    {
+      "entity": "pseudomuscular animation schema",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lipreading",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "articulatory trajectories",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "labial coarticulation effects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interpolation technique",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "visual speech animation",
+      "predicted": "visual speech animation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "lipreading",
+      "predicted": "lipreading",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Czech talking head system",
+      "predicted": "Czech talking head system",
+      "category": "task"
+    },
+    {
+      "gold": "synthesis method",
+      "predicted": "synthesis method",
+      "category": "method"
+    },
+    {
+      "gold": "3D animation model",
+      "predicted": "3D animation model",
+      "category": "method"
+    },
+    {
+      "gold": "interpolation technique",
+      "predicted": "interpolation technique",
+      "category": "method"
+    },
+    {
+      "gold": "labial coarticulation effects",
+      "predicted": "labial coarticulation effects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "forming articulatory trajectories",
+      "predicted": "articulatory trajectories",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "pseudo-muscular animation schema",
+      "predicted": "pseudomuscular animation schema",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "animation of visual speech",
+      "category": "task"
+    },
+    {
+      "entity": "synthesis method",
+      "category": "method"
+    },
+    {
+      "entity": "animation schema",
+      "category": "method"
+    },
+    {
+      "entity": "selection of articulatory targets",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "parameterization of a human face and a tongue",
+      "category": "method"
+    },
+    {
+      "entity": "necessary data sources",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "synthesis method|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 6,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 5,
+    "material": 1,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.45454545454545453,
+  "recall": 0.38461538461538464,
+  "f1": 0.41666666666666663,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

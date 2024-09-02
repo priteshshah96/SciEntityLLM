@@ -1,0 +1,339 @@
+{
+  "gold_entities": [
+    {
+      "entity": "document knowledge base",
+      "category": "Material"
+    },
+    {
+      "entity": "dialogue management",
+      "category": "Method"
+    },
+    {
+      "entity": "reward",
+      "category": "Metric"
+    },
+    {
+      "entity": "penalty",
+      "category": "Metric"
+    },
+    {
+      "entity": "success rate of retrieval",
+      "category": "Metric"
+    },
+    {
+      "entity": "average number of turns",
+      "category": "Metric"
+    },
+    {
+      "entity": "information navigation system",
+      "category": "Task"
+    },
+    {
+      "entity": "generating responses or confirmations",
+      "category": "Task"
+    },
+    {
+      "entity": "minimization of bayes risk",
+      "category": "Task"
+    },
+    {
+      "entity": "spoken dialogue system \" dialogue navigator for kyoto city \"",
+      "category": "Task"
+    },
+    {
+      "entity": "n-best candidates of asr",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "contextual information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "correct information presentation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "redundant turns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "question-answering capability",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "information access",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "document knowledge base",
+      "category": "Task"
+    },
+    {
+      "entity": "asr",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "n-best candidates",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "contextual information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dialogue management",
+      "category": "Method"
+    },
+    {
+      "entity": "spoken dialogue system",
+      "category": "Method"
+    },
+    {
+      "entity": "question-answering capability",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "bayes risk",
+      "category": "Metric"
+    },
+    {
+      "entity": "reward",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "penalty",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "success rate of retrieval",
+      "category": "Metric"
+    },
+    {
+      "entity": "average number of turns for information access",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "strategy",
+      "category": "Generic"
+    },
+    {
+      "entity": "framework",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "document knowledge base",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "document knowledge base",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "contextual information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "contextual information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dialogue management",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dialogue management",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "question-answering capability",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "question-answering capability",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "reward",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "reward",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "penalty",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "penalty",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "success rate of retrieval",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "success rate of retrieval",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "contextual information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "contextual information",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dialogue management",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dialogue management",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "question-answering capability",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "question-answering capability",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "success rate of retrieval",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "success rate of retrieval",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "minimization of bayes risk",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "bayes risk",
+          "category": "Metric"
+        },
+        {
+          "entity": "average number of turns for information access",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.1428571428571428
+    },
+    {
+      "gold": {
+        "entity": "n-best candidates of asr",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "asr",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "n-best candidates",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "spoken dialogue system \" dialogue navigator for kyoto city \"",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "spoken dialogue system",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "average number of turns",
+      "category": "Metric"
+    },
+    {
+      "entity": "information navigation system",
+      "category": "Task"
+    },
+    {
+      "entity": "generating responses or confirmations",
+      "category": "Task"
+    },
+    {
+      "entity": "correct information presentation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "redundant turns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "information access",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 16,
+    "generated_count": 12,
+    "generic_count": 4,
+    "exact_matches": 7,
+    "exact_category_matches": 4,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

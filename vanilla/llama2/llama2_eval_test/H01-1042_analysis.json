@@ -1,0 +1,271 @@
+{
+  "doc_key": "H01-1042",
+  "gold_entities": [
+    {
+      "entity": "automated evaluation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "method"
+    },
+    {
+      "entity": "evaluation of  human language learners",
+      "category": "task"
+    },
+    {
+      "entity": "human language learning process",
+      "category": "task"
+    },
+    {
+      "entity": "translation process",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation systems",
+      "category": "task"
+    },
+    {
+      "entity": "language learning",
+      "category": "task"
+    },
+    {
+      "entity": "non-native language essays",
+      "category": "material"
+    },
+    {
+      "entity": "translated newswire text",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expert human translations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine translation outputs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expert human translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine translation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Automated evaluation techniques",
+      "category": "task"
+    },
+    {
+      "entity": "human language learners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "translation process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Machine translation systems",
+      "category": "task"
+    },
+    {
+      "entity": "language learning process",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "assessors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subjects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Expert human translations",
+      "category": "material"
+    },
+    {
+      "entity": "Newswire text",
+      "category": "material"
+    },
+    {
+      "entity": "word",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "automated evaluation techniques",
+      "predicted": "Automated evaluation techniques",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "translation process",
+      "predicted": "translation process",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "expert human translations",
+      "predicted": "Expert human translations",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "machine translation",
+      "predicted": "Machine translation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "machine translation systems",
+      "predicted": "Machine translation systems",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "evaluation of  human language learners",
+      "predicted": "human language learners",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "human language learning process",
+      "predicted": "language learning process",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "translated newswire text",
+      "predicted": "Newswire text",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "machine translation (MT) systems",
+      "category": "method"
+    },
+    {
+      "entity": "language learning",
+      "category": "task"
+    },
+    {
+      "entity": "non-native language essays",
+      "category": "material"
+    },
+    {
+      "entity": "machine translation output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine translation outputs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expert human translation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "assessors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "subjects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 5,
+    "material": 2,
+    "otherscientificterm": 5
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 6,
+    "material": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 6,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.07142857142857142,
+  "f1": 0.08,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "exact_matches_with_category": 1,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

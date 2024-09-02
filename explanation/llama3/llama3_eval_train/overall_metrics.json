@@ -1,0 +1,66 @@
+{
+  "total_documents": 350,
+  "entity_metrics": {
+    "precision": 0.33350471293916023,
+    "recall": 0.4183147033533964,
+    "f1_score": 0.37112615619338224
+  },
+  "total_counts": {
+    "gold_entities": 4652,
+    "predicted_entities": 5835,
+    "exact_matches": 980,
+    "exact_matches_with_category": 1946,
+    "partial_matches": 409,
+    "split_matches": 10,
+    "generic_matches": 0,
+    "missing_entities": 1307,
+    "extra_entities": 2445,
+    "generic_entities": 950
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 542,
+      "predicted": 1438,
+      "exact_matches": 66,
+      "exact_matches_with_category": 280,
+      "partial_matches": 46,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 894,
+      "predicted": 598,
+      "exact_matches": 282,
+      "exact_matches_with_category": 253,
+      "partial_matches": 108,
+      "split_matches": 3
+    },
+    "otherscientificterm": {
+      "gold": 1537,
+      "predicted": 1644,
+      "exact_matches": 317,
+      "exact_matches_with_category": 548,
+      "partial_matches": 133,
+      "split_matches": 3
+    },
+    "method": {
+      "gold": 1448,
+      "predicted": 1780,
+      "exact_matches": 264,
+      "exact_matches_with_category": 758,
+      "partial_matches": 110,
+      "split_matches": 4
+    },
+    "metric": {
+      "gold": 231,
+      "predicted": 375,
+      "exact_matches": 51,
+      "exact_matches_with_category": 107,
+      "partial_matches": 12,
+      "split_matches": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 331,
+    "total_repeated_entities": 757
+  }
+}

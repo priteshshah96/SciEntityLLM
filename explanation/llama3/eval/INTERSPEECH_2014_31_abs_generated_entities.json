@@ -1,0 +1,261 @@
+{
+  "gold_entities": [
+    {
+      "entity": "i-vector challenge",
+      "category": "Material"
+    },
+    {
+      "entity": "nist speaker recognition evaluations (sres)",
+      "category": "Material"
+    },
+    {
+      "entity": "sre series",
+      "category": "Material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "Material"
+    },
+    {
+      "entity": "audio recordings",
+      "category": "Material"
+    },
+    {
+      "entity": "sre",
+      "category": "Material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "Material"
+    },
+    {
+      "entity": "fixed-length feature vectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "low-dimensional space (i-vectors)",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "audio processing field",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "i-vector challenge",
+      "category": "Task"
+    },
+    {
+      "entity": "nist",
+      "category": "Material"
+    },
+    {
+      "entity": "speaker recognition evaluations (sres)",
+      "category": "Material"
+    },
+    {
+      "entity": "ivectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "feature vectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lowdimensional space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "audio recordings",
+      "category": "Material"
+    },
+    {
+      "entity": "participants",
+      "category": "Material"
+    },
+    {
+      "entity": "audio processing field",
+      "category": "Material"
+    },
+    {
+      "entity": "2012 sre",
+      "category": "Material"
+    },
+    {
+      "entity": "baseline system",
+      "category": "Material"
+    },
+    {
+      "entity": "leading system",
+      "category": "Material"
+    },
+    {
+      "entity": "improvement",
+      "category": "Metric"
+    },
+    {
+      "entity": "approximate 37%",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "leading system",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline system",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "i-vector challenge",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "i-vector challenge",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "audio recordings",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "audio recordings",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "audio processing field",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "audio processing field",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "audio recordings",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "audio recordings",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "nist speaker recognition evaluations (sres)",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "nist",
+          "category": "Material"
+        },
+        {
+          "entity": "speaker recognition evaluations (sres)",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "fixed-length feature vectors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "feature vectors",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "sre series",
+      "category": "Material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "Material"
+    },
+    {
+      "entity": "sre",
+      "category": "Material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "Material"
+    },
+    {
+      "entity": "low-dimensional space (i-vectors)",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "ivectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lowdimensional space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "participants",
+      "category": "Material"
+    },
+    {
+      "entity": "2012 sre",
+      "category": "Material"
+    },
+    {
+      "entity": "baseline system",
+      "category": "Material"
+    },
+    {
+      "entity": "leading system",
+      "category": "Material"
+    },
+    {
+      "entity": "improvement",
+      "category": "Metric"
+    },
+    {
+      "entity": "approximate 37%",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "i-vector challenge": 3
+  },
+  "distinct_repeated_entities": [
+    "i-vector challenge"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 14,
+    "generic_count": 2,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 3
+  }
+}

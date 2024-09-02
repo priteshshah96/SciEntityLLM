@@ -1,0 +1,258 @@
+{
+  "doc_key": "P06-1012",
+  "gold_entities": [
+    {
+      "entity": "sense priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sense priors of words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "well calibrated probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "well calibrated probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sense priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "WSD accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "word sense disambiguation (WSD) systems",
+      "category": "method"
+    },
+    {
+      "entity": "new  domain",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word",
+      "category": "method"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    },
+    {
+      "entity": "senses",
+      "category": "metric"
+    },
+    {
+      "entity": "word sense disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "entity": "systems",
+      "category": "material"
+    },
+    {
+      "entity": "domain",
+      "category": "material"
+    },
+    {
+      "entity": "sense priors",
+      "category": "metric"
+    },
+    {
+      "entity": "probabilities",
+      "category": "metric"
+    },
+    {
+      "entity": "estimations",
+      "category": "task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "sense priors",
+      "predicted": "sense priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "word sense disambiguation (WSD) systems",
+      "predicted": "word sense disambiguation (WSD)",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "new  domain",
+      "predicted": "domain",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "new  domain",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "sense priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sense priors of words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "well calibrated probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "well calibrated probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "WSD accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "word",
+      "category": "method"
+    },
+    {
+      "entity": "domains",
+      "category": "material"
+    },
+    {
+      "entity": "senses",
+      "category": "metric"
+    },
+    {
+      "entity": "systems",
+      "category": "material"
+    },
+    {
+      "entity": "probabilities",
+      "category": "metric"
+    },
+    {
+      "entity": "estimations",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "sense priors|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "well calibrated probabilities|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 5,
+    "metric": 2,
+    "method": 1,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "material": 3,
+    "metric": 4,
+    "task": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.14285714285714285,
+  "f1": 0.11764705882352941,
+  "category_precision": 0.4,
+  "category_recall": 0.4444444444444444,
+  "category_f1": 0.4210526315789474,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 6,
+    "generic_entities": 2,
+    "correct_predictions": 1,
+    "correct_categories": 4
+  }
+}

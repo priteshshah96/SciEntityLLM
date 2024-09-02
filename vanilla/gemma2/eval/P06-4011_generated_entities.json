@@ -1,0 +1,332 @@
+{
+  "gold_entities": [
+    {
+      "entity": "abstracts of research articles",
+      "category": "Material"
+    },
+    {
+      "entity": "abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "web",
+      "category": "Material"
+    },
+    {
+      "entity": "abstract moves",
+      "category": "Material"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "language model",
+      "category": "Method"
+    },
+    {
+      "entity": "prototype concordancer",
+      "category": "Method"
+    },
+    {
+      "entity": "care",
+      "category": "Method"
+    },
+    {
+      "entity": "computational analysis of move structures",
+      "category": "Task"
+    },
+    {
+      "entity": "digital learning",
+      "category": "Task"
+    },
+    {
+      "entity": "web-based computer-assisted academic writing",
+      "category": "Task"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "abstract",
+      "category": "Metric"
+    },
+    {
+      "entity": "care",
+      "category": "Task"
+    },
+    {
+      "entity": "computational analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "digital learning",
+      "category": "Task"
+    },
+    {
+      "entity": "language model",
+      "category": "Method"
+    },
+    {
+      "entity": "move",
+      "category": "Metric"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "rhetoric",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "web",
+      "category": "Material"
+    },
+    {
+      "entity": "abstract moves",
+      "category": "Metric"
+    },
+    {
+      "entity": "computer-assisted academic writing",
+      "category": "Task"
+    },
+    {
+      "entity": "concordancer",
+      "category": "Task"
+    },
+    {
+      "entity": "digital learning",
+      "category": "Task"
+    },
+    {
+      "entity": "webbased",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "care",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "care",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "digital learning",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "digital learning",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "language model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "language model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "move-tagged abstracts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "move-tagged abstracts",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "web",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "web",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "abstract moves",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "abstract moves",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "digital learning",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "digital learning",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "language model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "language model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "move-tagged abstracts",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "move-tagged abstracts",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "web",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "web",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "computational analysis of move structures",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "computational analysis",
+          "category": "Method"
+        },
+        {
+          "entity": "move",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "prototype concordancer",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "concordancer",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "web-based computer-assisted academic writing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "computer-assisted academic writing",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "abstracts of research articles",
+      "category": "Material"
+    },
+    {
+      "entity": "abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "abstract",
+      "category": "Metric"
+    },
+    {
+      "entity": "rhetoric",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "digital learning",
+      "category": "Task"
+    },
+    {
+      "entity": "webbased",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 15,
+    "generic_count": 5,
+    "exact_matches": 6,
+    "exact_category_matches": 4,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

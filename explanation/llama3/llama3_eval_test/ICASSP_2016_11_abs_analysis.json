@@ -1,0 +1,264 @@
+{
+  "doc_key": "ICASSP_2016_11_abs",
+  "gold_entities": [
+    {
+      "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+      "category": "task"
+    },
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "task"
+    },
+    {
+      "entity": "nonstationarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "original signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cramrrao lower bound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "first-order autoregressive model",
+      "category": "method"
+    },
+    {
+      "entity": "separation method",
+      "category": "method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "blind separation",
+      "category": "task"
+    },
+    {
+      "entity": "underdetermined instantaneous mixtures",
+      "category": "material"
+    },
+    {
+      "entity": "independent signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonstationarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "piecewise stationary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "varying variances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "epochs",
+      "category": "material"
+    },
+    {
+      "entity": "iid",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "first-order autoregressive model",
+      "category": "method"
+    },
+    {
+      "entity": "natural speech signals",
+      "category": "material"
+    },
+    {
+      "entity": "separation method",
+      "category": "method"
+    },
+    {
+      "entity": "Cram\u00e9r-Rao lower bound",
+      "category": "method"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "method"
+    },
+    {
+      "entity": "separation accuracy",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural speech signals",
+      "predicted": "natural speech signals",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "separation accuracy",
+      "predicted": "separation accuracy",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "nonstationarity",
+      "predicted": "nonstationarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "first-order autoregressive model",
+      "predicted": "first-order autoregressive model",
+      "category": "method"
+    },
+    {
+      "gold": "separation method",
+      "predicted": "separation method",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "cramrrao lower bound",
+      "predicted": "Cram\u00e9r-Rao lower bound",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "blind separation of underdetermined instantaneous mixtures of independent signals",
+      "category": "task"
+    },
+    {
+      "entity": "blind separation of natural speech signals.",
+      "category": "task"
+    },
+    {
+      "entity": "original signals",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "blind separation",
+      "category": "task"
+    },
+    {
+      "entity": "underdetermined instantaneous mixtures",
+      "category": "material"
+    },
+    {
+      "entity": "independent signals",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "piecewise stationary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "varying variances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "epochs",
+      "category": "material"
+    },
+    {
+      "entity": "iid",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 4,
+    "method": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 5,
+    "method": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.3333333333333333,
+  "f1": 0.2608695652173913,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 8,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

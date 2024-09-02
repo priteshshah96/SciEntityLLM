@@ -1,0 +1,236 @@
+{
+  "doc_key": "CVPR_2011_300_abs",
+  "gold_entities": [
+    {
+      "entity": "calibrated camera relative pose estimation",
+      "category": "task"
+    },
+    {
+      "entity": "relative rotation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relative translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "urban and indoor environments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synthetic and real data",
+      "category": "material"
+    },
+    {
+      "entity": "hypothesize-and-test frameworks",
+      "category": "method"
+    },
+    {
+      "entity": "RANSAC",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "line",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "camera",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Relative pose",
+      "category": "task"
+    },
+    {
+      "entity": "Rotation",
+      "category": "metric"
+    },
+    {
+      "entity": "Translation",
+      "category": "metric"
+    },
+    {
+      "entity": "lines",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intersection points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "robust hypothesizeandtest frameworks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ransac",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "urban",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "indoor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "RANSAC",
+      "predicted": "ransac",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "relative rotation",
+      "predicted": "Rotation",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "relative translation",
+      "predicted": "Translation",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "calibrated camera relative pose estimation",
+      "category": "task"
+    },
+    {
+      "entity": "urban and indoor environments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synthetic and real data",
+      "category": "material"
+    },
+    {
+      "entity": "hypothesize-and-test frameworks",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "line",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithm",
+      "category": "task"
+    },
+    {
+      "entity": "camera",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Relative pose",
+      "category": "task"
+    },
+    {
+      "entity": "lines",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intersection points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "robust hypothesizeandtest frameworks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "indoor",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 3,
+    "material": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 8,
+    "task": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 12,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 8,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

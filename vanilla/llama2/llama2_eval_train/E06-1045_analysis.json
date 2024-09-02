@@ -1,0 +1,310 @@
+{
+  "doc_key": "E06-1045",
+  "gold_entities": [
+    {
+      "entity": "data-driven selection",
+      "category": "task"
+    },
+    {
+      "entity": "embodied conversational agent",
+      "category": "task"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "task"
+    },
+    {
+      "entity": "emphatic facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "corpus of sentences",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Data-driven selection",
+      "category": "task"
+    },
+    {
+      "entity": "Emphatic facial displays",
+      "category": "task"
+    },
+    {
+      "entity": "Embodied conversational agent",
+      "category": "task"
+    },
+    {
+      "entity": "Dialogue system",
+      "category": "task"
+    },
+    {
+      "entity": "Sentences",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "method"
+    },
+    {
+      "entity": "Annotation",
+      "category": "method"
+    },
+    {
+      "entity": "Models",
+      "category": "method"
+    },
+    {
+      "entity": "Context",
+      "category": "method"
+    },
+    {
+      "entity": "Cross-validation",
+      "category": "metric"
+    },
+    {
+      "entity": "Validation study",
+      "category": "metric"
+    },
+    {
+      "entity": "User ratings",
+      "category": "metric"
+    },
+    {
+      "entity": "Predictions",
+      "category": "metric"
+    },
+    {
+      "entity": "Majority choice",
+      "category": "metric"
+    },
+    {
+      "entity": "Variation",
+      "category": "metric"
+    },
+    {
+      "entity": "female subjects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "emphatic facial displays",
+      "predicted": "Emphatic facial displays",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "cross-validation",
+      "predicted": "Cross-validation",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "data-driven selection",
+      "predicted": "Data-driven selection",
+      "category": "task"
+    },
+    {
+      "gold": "embodied conversational agent",
+      "predicted": "Embodied conversational agent",
+      "category": "task"
+    },
+    {
+      "gold": "dialogue system",
+      "predicted": "Dialogue system",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "corpus of sentences",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Sentences",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "method"
+    },
+    {
+      "entity": "Annotation",
+      "category": "method"
+    },
+    {
+      "entity": "Models",
+      "category": "method"
+    },
+    {
+      "entity": "Context",
+      "category": "method"
+    },
+    {
+      "entity": "Validation study",
+      "category": "metric"
+    },
+    {
+      "entity": "User ratings",
+      "category": "metric"
+    },
+    {
+      "entity": "Predictions",
+      "category": "metric"
+    },
+    {
+      "entity": "Majority choice",
+      "category": "metric"
+    },
+    {
+      "entity": "Variation",
+      "category": "metric"
+    },
+    {
+      "entity": "female subjects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "facial displays|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "cross-validation|method": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 4,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 5,
+    "metric": 6,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1875,
+  "recall": 0.2727272727272727,
+  "f1": 0.2222222222222222,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 16,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 11,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

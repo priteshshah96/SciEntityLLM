@@ -1,0 +1,253 @@
+{
+  "doc_key": "J90-3002",
+  "gold_entities": [
+    {
+      "entity": "editor",
+      "category": "method"
+    },
+    {
+      "entity": "editor",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic theory",
+      "category": "method"
+    },
+    {
+      "entity": "editor",
+      "category": "method"
+    },
+    {
+      "entity": "structured  dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic databases",
+      "category": "material"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "coherence rules",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "lexicology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Lexicons",
+      "category": "material"
+    },
+    {
+      "entity": "Grammars",
+      "category": "material"
+    },
+    {
+      "entity": "Coherence rules",
+      "category": "method"
+    },
+    {
+      "entity": "Interface",
+      "category": "method"
+    },
+    {
+      "entity": "Browsing",
+      "category": "method"
+    },
+    {
+      "entity": "Editing",
+      "category": "method"
+    },
+    {
+      "entity": "Validity",
+      "category": "metric"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "task"
+    },
+    {
+      "entity": "Editor",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "editor",
+      "predicted": "Editor",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "linguistic theory",
+      "predicted": "linguistic theory",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "coherence rules",
+      "predicted": "Coherence rules",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "structured  dictionary",
+      "predicted": "Dictionary",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "editor",
+      "category": "method"
+    },
+    {
+      "entity": "editor",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic databases",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "lexicology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Lexicons",
+      "category": "material"
+    },
+    {
+      "entity": "Grammars",
+      "category": "material"
+    },
+    {
+      "entity": "Interface",
+      "category": "method"
+    },
+    {
+      "entity": "Browsing",
+      "category": "method"
+    },
+    {
+      "entity": "Editing",
+      "category": "method"
+    },
+    {
+      "entity": "Validity",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "editor|method": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "material": 2,
+    "task": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "material": 2,
+    "method": 4,
+    "metric": 1,
+    "task": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 12,
+    "exact_matches": 4,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 7,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

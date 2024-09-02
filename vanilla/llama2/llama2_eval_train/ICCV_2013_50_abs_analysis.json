@@ -1,0 +1,234 @@
+{
+  "doc_key": "ICCV_2013_50_abs",
+  "gold_entities": [
+    {
+      "entity": "Regression-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "unified active and semi-supervised regression framework",
+      "category": "method"
+    },
+    {
+      "entity": "transfer learning",
+      "category": "method"
+    },
+    {
+      "entity": "manifold analysis",
+      "category": "method"
+    },
+    {
+      "entity": "people counting in crowded scenes",
+      "category": "task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "task"
+    },
+    {
+      "entity": "model training",
+      "category": "task"
+    },
+    {
+      "entity": "annotation",
+      "category": "task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "task"
+    },
+    {
+      "entity": "informative frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric structure of crowd patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "abundant unlabelled data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Task: People counting",
+      "category": "task"
+    },
+    {
+      "entity": "Method: Regression-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Metric: Data annotation",
+      "category": "metric"
+    },
+    {
+      "entity": "Material: Data annotation",
+      "category": "material"
+    },
+    {
+      "entity": "otherscientificterm manifold analysis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "Regression-based techniques",
+      "predicted": "Method: Regression-based techniques",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "manifold analysis",
+      "predicted": "otherscientificterm manifold analysis",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "data annotation",
+      "predicted": "Metric: Data annotation",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unified active and semi-supervised regression framework",
+      "category": "method"
+    },
+    {
+      "entity": "transfer learning",
+      "category": "method"
+    },
+    {
+      "entity": "people counting in crowded scenes",
+      "category": "task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "task"
+    },
+    {
+      "entity": "model training",
+      "category": "task"
+    },
+    {
+      "entity": "annotation",
+      "category": "task"
+    },
+    {
+      "entity": "informative frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric structure of crowd patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "abundant unlabelled data",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Task: People counting",
+      "category": "task"
+    },
+    {
+      "entity": "Material: Data annotation",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "data annotation|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 5,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 1,
+    "metric": 1,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 5,
+    "exact_matches": 0,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 2,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

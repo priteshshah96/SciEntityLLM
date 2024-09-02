@@ -1,0 +1,192 @@
+{
+  "doc_key": "ICASSP_1997_707_abs",
+  "gold_entities": [
+    {
+      "entity": "nonstationary chaotic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "oxymoron",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonstationary chaos",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonstationary events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biological signals",
+      "category": "material"
+    },
+    {
+      "entity": "ocean waves",
+      "category": "material"
+    },
+    {
+      "entity": "traffic flow",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "nonstationary chaotic behavior",
+      "category": "task"
+    },
+    {
+      "entity": "chaos",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "methods",
+      "category": "method"
+    },
+    {
+      "entity": "biological signals",
+      "category": "material"
+    },
+    {
+      "entity": "ocean waves",
+      "category": "material"
+    },
+    {
+      "entity": "traffic flow",
+      "category": "material"
+    },
+    {
+      "entity": "stationary events",
+      "category": "material"
+    },
+    {
+      "entity": "periods",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "nonstationary chaotic behavior",
+      "predicted": "nonstationary chaotic behavior",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "biological signals",
+      "predicted": "biological signals",
+      "category": "material"
+    },
+    {
+      "gold": "ocean waves",
+      "predicted": "ocean waves",
+      "category": "material"
+    },
+    {
+      "gold": "traffic flow",
+      "predicted": "traffic flow",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "nonstationary chaos",
+      "predicted": "chaos",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "oxymoron",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonstationary events",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "methods",
+      "category": "method"
+    },
+    {
+      "entity": "stationary events",
+      "category": "material"
+    },
+    {
+      "entity": "periods",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "material": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 1,
+    "method": 1,
+    "material": 5
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.375,
+  "recall": 0.42857142857142855,
+  "f1": 0.39999999999999997,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

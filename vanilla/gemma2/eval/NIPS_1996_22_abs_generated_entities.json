@@ -1,0 +1,238 @@
+{
+  "gold_entities": [
+    {
+      "entity": "multilayer neu-ral network",
+      "category": "Method"
+    },
+    {
+      "entity": "number of hidden layers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "threshold units",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "global computability",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-local configuration",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "\"critical cycle\"",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "number of hidden layers",
+      "category": "Metric"
+    },
+    {
+      "entity": "multilayer neural network",
+      "category": "Method"
+    },
+    {
+      "entity": "threshold units",
+      "category": "Material"
+    },
+    {
+      "entity": "function f",
+      "category": "Metric"
+    },
+    {
+      "entity": "dimension d",
+      "category": "Metric"
+    },
+    {
+      "entity": "gibson",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "one hidden layer",
+      "category": "Metric"
+    },
+    {
+      "entity": "multiple intersection point",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "compact set",
+      "category": "Material"
+    },
+    {
+      "entity": "neighborhood of a multiple intersection point",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "infinity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local computability",
+      "category": "Task"
+    },
+    {
+      "entity": "global computability",
+      "category": "Task"
+    },
+    {
+      "entity": "critical cycle",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "number of hidden layers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "number of hidden layers",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "threshold units",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "threshold units",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "global computability",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "global computability",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "multilayer neu-ral network",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "multilayer neural network",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "hidden layer",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "one hidden layer",
+        "category": "Metric"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "hidden layer",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-local configuration",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "\"critical cycle\"",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "hidden layer",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "function f",
+      "category": "Metric"
+    },
+    {
+      "entity": "dimension d",
+      "category": "Metric"
+    },
+    {
+      "entity": "gibson",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "multiple intersection point",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "compact set",
+      "category": "Material"
+    },
+    {
+      "entity": "neighborhood of a multiple intersection point",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "infinity",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "local computability",
+      "category": "Task"
+    },
+    {
+      "entity": "critical cycle",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "hidden layer": 4
+  },
+  "distinct_repeated_entities": [
+    "hidden layer"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 14,
+    "generic_count": 0,
+    "exact_matches": 3,
+    "exact_category_matches": 0,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 4
+  }
+}

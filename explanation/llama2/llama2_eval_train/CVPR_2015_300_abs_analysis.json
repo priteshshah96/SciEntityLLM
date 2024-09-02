@@ -1,0 +1,304 @@
+{
+  "doc_key": "CVPR_2015_300_abs",
+  "gold_entities": [
+    {
+      "entity": "estimating location information",
+      "category": "task"
+    },
+    {
+      "entity": "transferring knowledge",
+      "category": "task"
+    },
+    {
+      "entity": "grouping of data",
+      "category": "task"
+    },
+    {
+      "entity": "image",
+      "category": "material"
+    },
+    {
+      "entity": "im2gps",
+      "category": "material"
+    },
+    {
+      "entity": "San Francisco",
+      "category": "material"
+    },
+    {
+      "entity": "MediaEval2010",
+      "category": "material"
+    },
+    {
+      "entity": "automated representation learning",
+      "category": "method"
+    },
+    {
+      "entity": "hierarchical sparse coding approach",
+      "category": "method"
+    },
+    {
+      "entity": "approach",
+      "category": "method"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric prior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image appearance space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "location grouping space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parallel transport on manifolds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "heterogeneous data modalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geotags",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "videos",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "automated representation learning",
+      "category": "method"
+    },
+    {
+      "entity": "location information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image appearance space",
+      "category": "material"
+    },
+    {
+      "entity": "location grouping space",
+      "category": "material"
+    },
+    {
+      "entity": "parallel transport on manifolds",
+      "category": "method"
+    },
+    {
+      "entity": "geo-tags",
+      "category": "material"
+    },
+    {
+      "entity": "videos",
+      "category": "material"
+    },
+    {
+      "entity": "transferring knowledge",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "novel locations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "state-of-the-art results",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "transferring knowledge",
+      "predicted": "transferring knowledge",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "image appearance space",
+      "predicted": "image appearance space",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "location grouping space",
+      "predicted": "location grouping space",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "parallel transport on manifolds",
+      "predicted": "parallel transport on manifolds",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "videos",
+      "predicted": "videos",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "automated representation learning",
+      "predicted": "automated representation learning",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "estimating location information",
+      "predicted": "location information",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "grouping of data",
+      "category": "task"
+    },
+    {
+      "entity": "image",
+      "category": "material"
+    },
+    {
+      "entity": "im2gps",
+      "category": "material"
+    },
+    {
+      "entity": "San Francisco",
+      "category": "material"
+    },
+    {
+      "entity": "MediaEval2010",
+      "category": "material"
+    },
+    {
+      "entity": "hierarchical sparse coding approach",
+      "category": "method"
+    },
+    {
+      "entity": "approach",
+      "category": "method"
+    },
+    {
+      "entity": "features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric prior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "heterogeneous data modalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geotags",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "geo-tags",
+      "category": "material"
+    },
+    {
+      "entity": "novel locations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "state-of-the-art results",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 4,
+    "method": 3,
+    "otherscientificterm": 8
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 3,
+      "exact_matches": 4,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.05555555555555555,
+  "f1": 0.07142857142857142,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 10,
+    "exact_matches": 5,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

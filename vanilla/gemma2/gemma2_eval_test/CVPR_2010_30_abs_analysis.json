@@ -1,0 +1,282 @@
+{
+  "doc_key": "CVPR_2010_30_abs",
+  "gold_entities": [
+    {
+      "entity": "evaluation of object detection cascades",
+      "category": "task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "search",
+      "category": "task"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "branch-and-bound object detection",
+      "category": "task"
+    },
+    {
+      "entity": "divide-and-conquer procedure",
+      "category": "method"
+    },
+    {
+      "entity": "space of candidate regions",
+      "category": "method"
+    },
+    {
+      "entity": "exhaustive procedure",
+      "category": "method"
+    },
+    {
+      "entity": "subwindow search (ESS) procedure",
+      "category": "method"
+    },
+    {
+      "entity": "kernel-ized support vector machines",
+      "category": "method"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "classifier functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlinear quality functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "PASCAL VOC 2006 dataset",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "cascade evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "divide-and-conquer procedure",
+      "category": "method"
+    },
+    {
+      "entity": "candidate regions",
+      "category": "material"
+    },
+    {
+      "entity": "classifier functions",
+      "category": "method"
+    },
+    {
+      "entity": "ESS procedure",
+      "category": "method"
+    },
+    {
+      "entity": "branch-and-bound object detection",
+      "category": "task"
+    },
+    {
+      "entity": "nonlinear quality functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "kernel-ized support vector machines",
+      "category": "method"
+    },
+    {
+      "entity": "PASCAL VOC 2006 dataset",
+      "category": "material"
+    },
+    {
+      "entity": "acceleration",
+      "category": "metric"
+    },
+    {
+      "entity": "standard cascade evaluation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "cascade evaluation",
+      "predicted": "cascade evaluation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "classifier functions",
+      "predicted": "classifier functions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "branch-and-bound object detection",
+      "predicted": "branch-and-bound object detection",
+      "category": "task"
+    },
+    {
+      "gold": "divide-and-conquer procedure",
+      "predicted": "divide-and-conquer procedure",
+      "category": "method"
+    },
+    {
+      "gold": "kernel-ized support vector machines",
+      "predicted": "kernel-ized support vector machines",
+      "category": "method"
+    },
+    {
+      "gold": "nonlinear quality functions",
+      "predicted": "nonlinear quality functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "PASCAL VOC 2006 dataset",
+      "predicted": "PASCAL VOC 2006 dataset",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "cascade evaluation",
+      "predicted": "standard cascade evaluation",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "space of candidate regions",
+      "predicted": "candidate regions",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "evaluation of object detection cascades",
+      "category": "task"
+    },
+    {
+      "entity": "search",
+      "category": "task"
+    },
+    {
+      "entity": "exhaustive procedure",
+      "category": "method"
+    },
+    {
+      "entity": "subwindow search (ESS) procedure",
+      "category": "method"
+    },
+    {
+      "entity": "cascade evaluation",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "ESS procedure",
+      "category": "method"
+    },
+    {
+      "entity": "acceleration",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "cascade evaluation|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 6,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 6,
+    "material": 2,
+    "task": 1,
+    "otherscientificterm": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.45454545454545453,
+  "recall": 0.35714285714285715,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 2,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

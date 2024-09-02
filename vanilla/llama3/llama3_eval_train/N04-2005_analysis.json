@@ -1,0 +1,262 @@
+{
+  "doc_key": "N04-2005",
+  "gold_entities": [
+    {
+      "entity": "translation  of  English text  into  American Sign Language (ASL) animation",
+      "category": "task"
+    },
+    {
+      "entity": "MT architectural designs",
+      "category": "method"
+    },
+    {
+      "entity": "semantic representation",
+      "category": "method"
+    },
+    {
+      "entity": "virtual reality 3D scene modeling software",
+      "category": "method"
+    },
+    {
+      "entity": "multi-pathway MT architecture design",
+      "category": "method"
+    },
+    {
+      "entity": "spatially complex asl phenomena",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interlingua",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transfer",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "virtual reality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3D scene modeling software",
+      "category": "material"
+    },
+    {
+      "entity": "semantic representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multi-pathway MT architecture design",
+      "category": "method"
+    },
+    {
+      "entity": "Transfer",
+      "category": "task"
+    },
+    {
+      "entity": "Direct approaches",
+      "category": "method"
+    },
+    {
+      "entity": "interlingua",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "machine translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asl",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mt",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Traditional MT architectural designs",
+      "category": "method"
+    },
+    {
+      "entity": "American Sign Language",
+      "category": "material"
+    },
+    {
+      "entity": "English text (Material) - Spatially complex ASL phenomena (Other-Scientific-Term) - Semantic representation (Other-Scientific-Term) - Classifier predicates (Other-Scientific-Term) - Virtual reality (Other-Scientific-Term) - 3D scene modeling software (Material) - Multi-pathway MT architecture design (Method) - Transfer (Task) - Direct approaches (Method) - Interlingua (Other-Scientific-Term) - Machine Translation (Other-Scientific-Term) - ASL (Other-Scientific-Term) - 3D (Other-Scientific-Term) - MT (Other-Scientific-Term) - Traditional MT architectural designs (Method) - American Sign Language (Material) - English text",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "semantic representation",
+      "predicted": "semantic representation",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "transfer",
+      "predicted": "Transfer",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "multi-pathway MT architecture design",
+      "predicted": "Multi-pathway MT architecture design",
+      "category": "method"
+    },
+    {
+      "gold": "classifier predicates",
+      "predicted": "classifier predicates",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "interlingua",
+      "predicted": "interlingua",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "MT architectural designs",
+      "predicted": "Traditional MT architectural designs",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "virtual reality 3D scene modeling software",
+      "predicted": "3D scene modeling software",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "translation  of  English text  into  American Sign Language (ASL) animation",
+      "category": "task"
+    },
+    {
+      "entity": "spatially complex asl phenomena",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "virtual reality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Direct approaches",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asl",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "3d",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mt",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "American Sign Language",
+      "category": "material"
+    },
+    {
+      "entity": "English text (Material) - Spatially complex ASL phenomena (Other-Scientific-Term) - Semantic representation (Other-Scientific-Term) - Classifier predicates (Other-Scientific-Term) - Virtual reality (Other-Scientific-Term) - 3D scene modeling software (Material) - Multi-pathway MT architecture design (Method) - Transfer (Task) - Direct approaches (Method) - Interlingua (Other-Scientific-Term) - Machine Translation (Other-Scientific-Term) - ASL (Other-Scientific-Term) - 3D (Other-Scientific-Term) - MT (Other-Scientific-Term) - Traditional MT architectural designs (Method) - American Sign Language (Material) - English text",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 8,
+    "material": 3,
+    "method": 3,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 8,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.3333333333333333,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 15,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 8,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

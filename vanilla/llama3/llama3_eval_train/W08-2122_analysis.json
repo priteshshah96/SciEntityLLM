@@ -1,0 +1,302 @@
+{
+  "doc_key": "W08-2122",
+  "gold_entities": [
+    {
+      "entity": "CoNLL 2008 shared task",
+      "category": "task"
+    },
+    {
+      "entity": "synchronous dependency parser",
+      "category": "task"
+    },
+    {
+      "entity": "generative history-based latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic and semantic dependencies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "macro-average F1 performance",
+      "category": "metric"
+    },
+    {
+      "entity": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    },
+    {
+      "entity": "macro-average F1",
+      "category": "metric"
+    },
+    {
+      "entity": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "conll",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shared task",
+      "category": "task"
+    },
+    {
+      "entity": "generative history-based latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "synchronous dependency parser",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic dependencies",
+      "category": "material"
+    },
+    {
+      "entity": "semantic dependencies",
+      "category": "material"
+    },
+    {
+      "entity": "macro-average F1",
+      "category": "metric"
+    },
+    {
+      "entity": "LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "derivation",
+      "category": "task"
+    },
+    {
+      "entity": "latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    },
+    {
+      "entity": "joint task",
+      "category": "task"
+    },
+    {
+      "entity": "macro-average F1 performance",
+      "category": "metric"
+    },
+    {
+      "entity": "model",
+      "category": "material"
+    },
+    {
+      "entity": "deadline",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "larger model (Material) - syntactic dependencies LAS",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "synchronous dependency parser",
+      "predicted": "synchronous dependency parser",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "generative history-based latent variable model",
+      "predicted": "generative history-based latent variable model",
+      "category": "method"
+    },
+    {
+      "gold": "macro-average F1 performance",
+      "predicted": "macro-average F1 performance",
+      "category": "metric"
+    },
+    {
+      "gold": "syntactic dependencies LAS",
+      "predicted": "syntactic dependencies LAS",
+      "category": "metric"
+    },
+    {
+      "gold": "semantic dependencies F1",
+      "predicted": "semantic dependencies F1",
+      "category": "metric"
+    },
+    {
+      "gold": "macro-average F1",
+      "predicted": "macro-average F1",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "CoNLL 2008 shared task",
+      "predicted": "shared task",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "syntactic and semantic dependencies",
+      "predicted": "syntactic dependencies",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "syntactic dependencies LAS",
+      "predicted": "larger model (Material) - syntactic dependencies LAS",
+      "score": 0.6,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "semantic dependencies F1",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "conll",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "LAS",
+      "category": "metric"
+    },
+    {
+      "entity": "derivation",
+      "category": "task"
+    },
+    {
+      "entity": "latent variable model",
+      "category": "method"
+    },
+    {
+      "entity": "joint task",
+      "category": "task"
+    },
+    {
+      "entity": "model",
+      "category": "material"
+    },
+    {
+      "entity": "deadline",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "syntactic dependencies LAS|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    },
+    "semantic dependencies F1|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 1,
+    "otherscientificterm": 1,
+    "metric": 6
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 3,
+    "method": 3,
+    "material": 3,
+    "metric": 6
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.29411764705882354,
+  "recall": 0.5,
+  "f1": 0.37037037037037035,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 17,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 7,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

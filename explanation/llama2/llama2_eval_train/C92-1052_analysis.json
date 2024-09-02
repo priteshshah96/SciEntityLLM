@@ -1,0 +1,178 @@
+{
+  "doc_key": "C92-1052",
+  "gold_entities": [
+    {
+      "entity": "discourse segments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "abduction  of  temporal relations",
+      "category": "task"
+    },
+    {
+      "entity": "temporal anaphora resolution",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "discourse segments",
+      "category": "task"
+    },
+    {
+      "entity": "discourse segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "abduction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal relations",
+      "category": "method"
+    },
+    {
+      "entity": "temporal anaphora resolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "segments",
+      "category": "method"
+    },
+    {
+      "entity": "abduction",
+      "category": "method"
+    },
+    {
+      "entity": "computationally feasible",
+      "category": "method"
+    },
+    {
+      "entity": "supported by previous work",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "discourse segments",
+      "predicted": "discourse segments",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "discourse segmentation",
+      "predicted": "discourse segmentation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "temporal anaphora resolution",
+      "predicted": "temporal anaphora resolution",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "abduction  of  temporal relations",
+      "predicted": "temporal relations",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "abduction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "segments",
+      "category": "method"
+    },
+    {
+      "entity": "abduction",
+      "category": "method"
+    },
+    {
+      "entity": "computationally feasible",
+      "category": "method"
+    },
+    {
+      "entity": "supported by previous work",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 1,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 7,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

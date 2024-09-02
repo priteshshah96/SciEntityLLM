@@ -1,0 +1,233 @@
+{
+  "doc_key": "C04-1024",
+  "gold_entities": [
+    {
+      "entity": "bit-vector-based CKY-style parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parse forest representation",
+      "category": "method"
+    },
+    {
+      "entity": "large treebank grammars",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "bit-vector operations",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "context-free parsing",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "bit-vector-based",
+      "category": "method"
+    },
+    {
+      "entity": "CKY-style",
+      "category": "method"
+    },
+    {
+      "entity": "context-free parsing",
+      "category": "task"
+    },
+    {
+      "entity": "parse forest representation",
+      "category": "metric"
+    },
+    {
+      "entity": "treebank grammars",
+      "category": "material"
+    },
+    {
+      "entity": "input sentences",
+      "category": "material"
+    },
+    {
+      "entity": "bit-vector operations",
+      "category": "method"
+    },
+    {
+      "entity": "parallelise",
+      "category": "method"
+    },
+    {
+      "entity": "analyses",
+      "category": "metric"
+    },
+    {
+      "entity": "most probable one",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "parse forest representation",
+      "predicted": "parse forest representation",
+      "category": "method"
+    },
+    {
+      "gold": "bit-vector operations",
+      "predicted": "bit-vector operations",
+      "category": "method"
+    },
+    {
+      "gold": "context-free parsing",
+      "predicted": "context-free parsing",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "large treebank grammars",
+      "predicted": "treebank grammars",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "bit-vector operations",
+      "category": "method"
+    },
+    {
+      "entity": "context-free parsing",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "bit-vector-based CKY-style parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "bit-vector-based",
+      "category": "method"
+    },
+    {
+      "entity": "CKY-style",
+      "category": "method"
+    },
+    {
+      "entity": "input sentences",
+      "category": "material"
+    },
+    {
+      "entity": "parallelise",
+      "category": "method"
+    },
+    {
+      "entity": "analyses",
+      "category": "metric"
+    },
+    {
+      "entity": "most probable one",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "parser|method": {
+      "count": 3,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "task": 1,
+    "metric": 3,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.3333333333333333,
+  "f1": 0.25,
+  "category_precision": 0.5,
+  "category_recall": 0.625,
+  "category_f1": 0.5555555555555556,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 10,
+    "exact_matches": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 2,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 6,
+    "generic_entities": 0,
+    "correct_predictions": 2,
+    "correct_categories": 5
+  }
+}

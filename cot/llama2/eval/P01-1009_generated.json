@@ -1,0 +1,283 @@
+{
+  "gold_entities": [
+    {
+      "entity": "formal analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language search engines",
+      "category": "Method"
+    },
+    {
+      "entity": "search engine",
+      "category": "Method"
+    },
+    {
+      "entity": "approximation of the formal analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "formal analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "search engine",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "Task"
+    },
+    {
+      "entity": "alternative markers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dialog",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "formal analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "alternative markers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural language search engines",
+      "category": "Task"
+    },
+    {
+      "entity": "queries",
+      "category": "Material"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "Method"
+    },
+    {
+      "entity": "improvement",
+      "category": "Metric"
+    },
+    {
+      "entity": "approximation",
+      "category": "Method"
+    },
+    {
+      "entity": "large class of words",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dialog",
+      "category": "Material"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "Task"
+    },
+    {
+      "entity": "performance",
+      "category": "Metric"
+    },
+    {
+      "entity": "improvement",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "words",
+      "category": "Generic"
+    },
+    {
+      "entity": "them",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "formal analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "formal analysis",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "alternative markers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "alternative markers",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language search engines",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "natural language search engines",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "operational semantics",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "operational semantics",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dialog",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "dialog",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language applications",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language applications",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "formal analysis",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "formal analysis",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "alternative markers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "alternative markers",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language applications",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language applications",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "approximation of the formal analysis",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "approximation",
+          "category": "Method"
+        },
+        {
+          "entity": "large class of words",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "search engine",
+      "category": "Method"
+    },
+    {
+      "entity": "formal analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "search engine",
+      "category": "Method"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "queries",
+      "category": "Material"
+    },
+    {
+      "entity": "improvement",
+      "category": "Metric"
+    },
+    {
+      "entity": "performance",
+      "category": "Metric"
+    },
+    {
+      "entity": "improvement",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "formal analysis": 2,
+    "search engine": 2,
+    "operational semantics": 2
+  },
+  "distinct_repeated_entities": [
+    "formal analysis",
+    "search engine",
+    "operational semantics"
+  ],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 12,
+    "generic_count": 3,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 3,
+    "repeated_entities": 6
+  }
+}

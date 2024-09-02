@@ -1,0 +1,249 @@
+{
+  "gold_entities": [
+    {
+      "entity": "multilingual resources",
+      "category": "Material"
+    },
+    {
+      "entity": "iarpa-babel languages",
+      "category": "Material"
+    },
+    {
+      "entity": "deep neural network (dnn) stacked bottleneck features",
+      "category": "Method"
+    },
+    {
+      "entity": "multilingual feature-level data sharing",
+      "category": "Task"
+    },
+    {
+      "entity": "language identification",
+      "category": "Task"
+    },
+    {
+      "entity": "multilingual training",
+      "category": "Task"
+    },
+    {
+      "entity": "bottleneck features",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "deep neural network (dnn)",
+      "category": "Method"
+    },
+    {
+      "entity": "stacked bottleneck features",
+      "category": "Method"
+    },
+    {
+      "entity": "language identification",
+      "category": "Method"
+    },
+    {
+      "entity": "source languages",
+      "category": "Material"
+    },
+    {
+      "entity": "target language",
+      "category": "Material"
+    },
+    {
+      "entity": "multilingual resources",
+      "category": "Material"
+    },
+    {
+      "entity": "iarpa-babel languages",
+      "category": "Material"
+    },
+    {
+      "entity": "bottleneck features",
+      "category": "Method"
+    },
+    {
+      "entity": "feature-level data sharing",
+      "category": "Method"
+    },
+    {
+      "entity": "source language similarity",
+      "category": "Metric"
+    },
+    {
+      "entity": "multilingual training",
+      "category": "Task"
+    },
+    {
+      "entity": "efficient use of multilingual resources",
+      "category": "Task"
+    },
+    {
+      "entity": "data similar to the target language",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "those",
+      "category": "Generic"
+    },
+    {
+      "entity": "data",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "language identification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "language identification",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multilingual resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "multilingual resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "iarpa-babel languages",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "iarpa-babel languages",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "bottleneck features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "bottleneck features",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multilingual training",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "multilingual training",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "multilingual resources",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "multilingual resources",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "iarpa-babel languages",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "iarpa-babel languages",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multilingual training",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "multilingual training",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "deep neural network (dnn) stacked bottleneck features",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "deep neural network (dnn)",
+          "category": "Method"
+        },
+        {
+          "entity": "stacked bottleneck features",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "multilingual feature-level data sharing",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "feature-level data sharing",
+          "category": "Method"
+        },
+        {
+          "entity": "efficient use of multilingual resources",
+          "category": "Task"
+        },
+        {
+          "entity": "data similar to the target language",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.3666666666666667
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "source languages",
+      "category": "Material"
+    },
+    {
+      "entity": "target language",
+      "category": "Material"
+    },
+    {
+      "entity": "source language similarity",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 13,
+    "generic_count": 2,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

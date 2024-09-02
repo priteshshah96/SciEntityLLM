@@ -1,0 +1,281 @@
+{
+  "doc_key": "ICCV_2013_50_abs",
+  "gold_entities": [
+    {
+      "entity": "Regression-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "unified active and semi-supervised regression framework",
+      "category": "method"
+    },
+    {
+      "entity": "transfer learning",
+      "category": "method"
+    },
+    {
+      "entity": "manifold analysis",
+      "category": "method"
+    },
+    {
+      "entity": "people counting in crowded scenes",
+      "category": "task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "task"
+    },
+    {
+      "entity": "model training",
+      "category": "task"
+    },
+    {
+      "entity": "annotation",
+      "category": "task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "task"
+    },
+    {
+      "entity": "informative frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric structure of crowd patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "abundant unlabelled data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Active learning",
+      "category": "method"
+    },
+    {
+      "entity": "Active and semi-supervised regression framework",
+      "category": "method"
+    },
+    {
+      "entity": "Annotation",
+      "category": "task"
+    },
+    {
+      "entity": "Crowd counting",
+      "category": "task"
+    },
+    {
+      "entity": "Data annotation",
+      "category": "task"
+    },
+    {
+      "entity": "Data exploitation",
+      "category": "method"
+    },
+    {
+      "entity": "Frame selection",
+      "category": "method"
+    },
+    {
+      "entity": "geometric structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Manifold analysis",
+      "category": "method"
+    },
+    {
+      "entity": "Model training",
+      "category": "task"
+    },
+    {
+      "entity": "People counting",
+      "category": "task"
+    },
+    {
+      "entity": "Regression-based techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Transfer learning",
+      "category": "method"
+    },
+    {
+      "entity": "Unlabelled data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Regression-based techniques",
+      "predicted": "Regression-based techniques",
+      "category": "method"
+    },
+    {
+      "gold": "transfer learning",
+      "predicted": "Transfer learning",
+      "category": "method"
+    },
+    {
+      "gold": "manifold analysis",
+      "predicted": "Manifold analysis",
+      "category": "method"
+    },
+    {
+      "gold": "data annotation",
+      "predicted": "Data annotation",
+      "category": "task"
+    },
+    {
+      "gold": "model training",
+      "predicted": "Model training",
+      "category": "task"
+    },
+    {
+      "gold": "annotation",
+      "predicted": "Annotation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "unified active and semi-supervised regression framework",
+      "predicted": "Active and semi-supervised regression framework",
+      "score": 0.8333333333333334,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "abundant unlabelled data",
+      "predicted": "Unlabelled data",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "people counting in crowded scenes",
+      "category": "task"
+    },
+    {
+      "entity": "data annotation",
+      "category": "task"
+    },
+    {
+      "entity": "informative frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric structure of crowd patterns",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Active learning",
+      "category": "method"
+    },
+    {
+      "entity": "Crowd counting",
+      "category": "task"
+    },
+    {
+      "entity": "Data exploitation",
+      "category": "method"
+    },
+    {
+      "entity": "Frame selection",
+      "category": "method"
+    },
+    {
+      "entity": "geometric structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "People counting",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "data annotation|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 5,
+    "otherscientificterm": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "task": 5,
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.5,
+  "f1": 0.4615384615384615,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 0,
+    "exact_matches_with_category": 6,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 6,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

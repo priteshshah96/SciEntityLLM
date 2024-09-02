@@ -1,0 +1,306 @@
+{
+  "doc_key": "A97-1020",
+  "gold_entities": [
+    {
+      "entity": "GLOSSER",
+      "category": "method"
+    },
+    {
+      "entity": "GLOSSER",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguated morphological analysis",
+      "category": "method"
+    },
+    {
+      "entity": "lemmatized indexing",
+      "category": "method"
+    },
+    {
+      "entity": "reading and learning",
+      "category": "task"
+    },
+    {
+      "entity": "Applied Natural Language Processing",
+      "category": "task"
+    },
+    {
+      "entity": "intelligent computer-assisted morphological analysis (ICALL)",
+      "category": "task"
+    },
+    {
+      "entity": "English-Bulgarian",
+      "category": "material"
+    },
+    {
+      "entity": "English-Estonian",
+      "category": "material"
+    },
+    {
+      "entity": "English-Hungarian",
+      "category": "material"
+    },
+    {
+      "entity": "French-Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "aligned bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "unix and windows 95 platforms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "userstudy",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "GLOSSER",
+      "category": "task"
+    },
+    {
+      "entity": "englishbulgarian language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishestonian language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishhungarian language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frenchdutch language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unix operating system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "windows 95 operating system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Pilot user-study",
+      "category": "task"
+    },
+    {
+      "entity": "applied natural language processing field of study",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ICALL",
+      "category": "method"
+    },
+    {
+      "entity": "Disambiguated morphological analysis",
+      "category": "method"
+    },
+    {
+      "entity": "Lemmatized indexing",
+      "category": "method"
+    },
+    {
+      "entity": "Aligned bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Word examples",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "GLOSSER",
+      "predicted": "GLOSSER",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "disambiguated morphological analysis",
+      "predicted": "Disambiguated morphological analysis",
+      "category": "method"
+    },
+    {
+      "gold": "lemmatized indexing",
+      "predicted": "Lemmatized indexing",
+      "category": "method"
+    },
+    {
+      "gold": "aligned bilingual corpus",
+      "predicted": "Aligned bilingual corpus",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Applied Natural Language Processing",
+      "predicted": "applied natural language processing field of study",
+      "score": 0.5714285714285714,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "GLOSSER",
+      "category": "method"
+    },
+    {
+      "entity": "reading and learning",
+      "category": "task"
+    },
+    {
+      "entity": "intelligent computer-assisted morphological analysis (ICALL)",
+      "category": "task"
+    },
+    {
+      "entity": "English-Bulgarian",
+      "category": "material"
+    },
+    {
+      "entity": "English-Estonian",
+      "category": "material"
+    },
+    {
+      "entity": "English-Hungarian",
+      "category": "material"
+    },
+    {
+      "entity": "French-Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "unix and windows 95 platforms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "userstudy",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "englishbulgarian language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishestonian language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "englishhungarian language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "frenchdutch language pair",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unix operating system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "windows 95 operating system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Pilot user-study",
+      "category": "task"
+    },
+    {
+      "entity": "ICALL",
+      "category": "method"
+    },
+    {
+      "entity": "Word examples",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "GLOSSER|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 3,
+    "material": 5,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 7,
+    "method": 3,
+    "material": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.21428571428571427,
+  "f1": 0.21428571428571427,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 9,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

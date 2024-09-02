@@ -1,0 +1,261 @@
+{
+  "doc_key": "CVPR_1999_15_abs",
+  "gold_entities": [
+    {
+      "entity": "projective unifocal, bifo-cal, and trifocal tensors",
+      "category": "method"
+    },
+    {
+      "entity": "affine cameras",
+      "category": "method"
+    },
+    {
+      "entity": "trifocal tensor",
+      "category": "method"
+    },
+    {
+      "entity": "factorization",
+      "category": "method"
+    },
+    {
+      "entity": "affine case",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "registered tensors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affine specialization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "point correspondences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "line correspondences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "estimation of the tensors",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "projective unifocal, bifo-cal, and trifocal tensors",
+      "category": "method"
+    },
+    {
+      "entity": "affine case",
+      "category": "material"
+    },
+    {
+      "entity": "registered tensors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affine specialization",
+      "category": "method"
+    },
+    {
+      "entity": "projective relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affine cameras",
+      "category": "material"
+    },
+    {
+      "entity": "trifocal tensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "necessary and sufficient constraints",
+      "category": "metric"
+    },
+    {
+      "entity": "geometric interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "estimation",
+      "category": "task"
+    },
+    {
+      "entity": "factorization",
+      "category": "method"
+    },
+    {
+      "entity": "point correspondences",
+      "category": "material"
+    },
+    {
+      "entity": "line correspondences",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "affine cameras",
+      "predicted": "affine cameras",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "trifocal tensor",
+      "predicted": "trifocal tensor",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "affine case",
+      "predicted": "affine case",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "affine specialization",
+      "predicted": "affine specialization",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "point correspondences",
+      "predicted": "point correspondences",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "line correspondences",
+      "predicted": "line correspondences",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "projective unifocal, bifo-cal, and trifocal tensors",
+      "predicted": "projective unifocal, bifo-cal, and trifocal tensors",
+      "category": "method"
+    },
+    {
+      "gold": "factorization",
+      "predicted": "factorization",
+      "category": "method"
+    },
+    {
+      "gold": "registered tensors",
+      "predicted": "registered tensors",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "geometric interpretation",
+      "predicted": "geometric interpretation",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "estimation of the tensors",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "projective relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "necessary and sufficient constraints",
+      "category": "metric"
+    },
+    {
+      "entity": "estimation",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 6,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "material": 4,
+    "otherscientificterm": 4,
+    "metric": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 4,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.36363636363636365,
+  "f1": 0.33333333333333337,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 13,
+    "exact_matches": 6,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

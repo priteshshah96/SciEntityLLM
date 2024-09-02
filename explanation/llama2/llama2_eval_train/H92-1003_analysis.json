@@ -1,0 +1,239 @@
+{
+  "doc_key": "H92-1003",
+  "gold_entities": [
+    {
+      "entity": "spoken language corpus",
+      "category": "material"
+    },
+    {
+      "entity": "spontaneous speech",
+      "category": "material"
+    },
+    {
+      "entity": "ATIS (Air Travel Information System) domain",
+      "category": "task"
+    },
+    {
+      "entity": "multi-site common evaluation of speech, natural language and spoken language",
+      "category": "task"
+    },
+    {
+      "entity": "multi-site data collection paradigm",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "spoken language corpus",
+      "category": "material"
+    },
+    {
+      "entity": "ATIS (Air Travel Information System) domain",
+      "category": "task"
+    },
+    {
+      "entity": "MADCOW (Multi-site ATIS Data COllection Working group)",
+      "category": "method"
+    },
+    {
+      "entity": "multi-site data collection paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "utterances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spontaneous speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-site common evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spoken language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "collection",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distribution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "12,000",
+      "category": "metric"
+    },
+    {
+      "entity": "sites",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "spontaneous speech",
+      "predicted": "spontaneous speech",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "spoken language corpus",
+      "predicted": "spoken language corpus",
+      "category": "material"
+    },
+    {
+      "gold": "ATIS (Air Travel Information System) domain",
+      "predicted": "ATIS (Air Travel Information System) domain",
+      "category": "task"
+    },
+    {
+      "gold": "multi-site data collection paradigm",
+      "predicted": "multi-site data collection paradigm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [
+    {
+      "gold": "multi-site common evaluation of speech, natural language and spoken language",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "natural language",
+          "matched": "natural language",
+          "predicted_category": "otherscientificterm"
+        },
+        {
+          "part": "spoken language",
+          "matched": "spoken language",
+          "predicted_category": "otherscientificterm"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "MADCOW (Multi-site ATIS Data COllection Working group)",
+      "category": "method"
+    },
+    {
+      "entity": "utterances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-site common evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "speech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "collection",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distribution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "12,000",
+      "category": "metric"
+    },
+    {
+      "entity": "sites",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "task": 2,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "material": 1,
+    "task": 2,
+    "method": 2,
+    "otherscientificterm": 8,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.6,
+  "f1": 0.3157894736842105,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 14,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 8,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

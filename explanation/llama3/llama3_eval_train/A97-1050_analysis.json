@@ -1,0 +1,173 @@
+{
+  "doc_key": "A97-1050",
+  "gold_entities": [
+    {
+      "entity": "translation lexicon acquisition (SABLE)",
+      "category": "task"
+    },
+    {
+      "entity": "general translation lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "algorithm for translation lexicon acquisition (SABLE)",
+      "category": "method"
+    },
+    {
+      "entity": "translation lexicon acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "translation lexicons",
+      "category": "task"
+    },
+    {
+      "entity": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "candidates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "domainspecific translation lexicons",
+      "predicted": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "translation lexicon acquisition (SABLE)",
+      "predicted": "algorithm for translation lexicon acquisition (SABLE)",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "general translation lexicons",
+      "predicted": "translation lexicons",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "translation lexicon acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "domainspecific translation lexicons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "candidates",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 2,
+    "material": 2,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.3333333333333333,
+  "f1": 0.16666666666666666,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 9,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

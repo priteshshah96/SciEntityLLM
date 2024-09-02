@@ -1,0 +1,282 @@
+{
+  "doc_key": "ECCV_2012_30_abs",
+  "gold_entities": [
+    {
+      "entity": "reconstructing the motion of a 3D articulated tree",
+      "category": "task"
+    },
+    {
+      "entity": "hard combinatorial problem",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "2d point correspondences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal prior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "smooth motion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "trajectory basis",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global optimality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "filter interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "time complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "Branch and bound strategies",
+      "category": "method"
+    },
+    {
+      "entity": "exhaustive search",
+      "category": "method"
+    },
+    {
+      "entity": "compact high-pass filters",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic programming approach",
+      "category": "method"
+    },
+    {
+      "entity": "affine projection",
+      "category": "method"
+    },
+    {
+      "entity": "estimating cameras",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Motion",
+      "category": "task"
+    },
+    {
+      "entity": "Trajectory",
+      "category": "task"
+    },
+    {
+      "entity": "Time",
+      "category": "metric"
+    },
+    {
+      "entity": "Frames",
+      "category": "metric"
+    },
+    {
+      "entity": "point correspondences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporal prior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "filter",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compact highpass filters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrinsically local nature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "affine projection",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "affine projection",
+      "predicted": "affine projection",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "temporal prior",
+      "predicted": "temporal prior",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "2d point correspondences",
+      "predicted": "point correspondences",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "smooth motion",
+      "predicted": "Motion",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "trajectory basis",
+      "predicted": "Trajectory",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "filter interactions",
+      "predicted": "filter",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "time complexity",
+      "predicted": "Time",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "compact high-pass filters",
+      "predicted": "compact highpass filters",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "reconstructing the motion of a 3D articulated tree",
+      "category": "task"
+    },
+    {
+      "entity": "hard combinatorial problem",
+      "category": "task"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "task"
+    },
+    {
+      "entity": "global optimality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Branch and bound strategies",
+      "category": "method"
+    },
+    {
+      "entity": "exhaustive search",
+      "category": "method"
+    },
+    {
+      "entity": "dynamic programming approach",
+      "category": "method"
+    },
+    {
+      "entity": "estimating cameras",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Frames",
+      "category": "metric"
+    },
+    {
+      "entity": "intrinsically local nature",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "otherscientificterm": 6,
+    "metric": 1,
+    "method": 6
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "metric": 2,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 4,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.0625,
+  "f1": 0.07692307692307693,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 6,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

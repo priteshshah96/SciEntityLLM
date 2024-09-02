@@ -1,0 +1,203 @@
+{
+  "doc_key": "IJCAI_2003_15_abs",
+  "gold_entities": [
+    {
+      "entity": "description logics (DLs)",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge representation",
+      "category": "method"
+    },
+    {
+      "entity": "DLs",
+      "category": "method"
+    },
+    {
+      "entity": "natural description logics",
+      "category": "method"
+    },
+    {
+      "entity": "tight nexptlme complexity bounds",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "social security number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "numbers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Description logics (DLs)",
+      "category": "task"
+    },
+    {
+      "entity": "Knowledge representation",
+      "category": "method"
+    },
+    {
+      "entity": "Logical level",
+      "category": "method"
+    },
+    {
+      "entity": "Interface",
+      "category": "method"
+    },
+    {
+      "entity": "Statements",
+      "category": "task"
+    },
+    {
+      "entity": "Key constraints",
+      "category": "method"
+    },
+    {
+      "entity": "Natural description logics",
+      "category": "task"
+    },
+    {
+      "entity": "Undecidability",
+      "category": "task"
+    },
+    {
+      "entity": "NEx-PTlME complexity bounds",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "description logics (DLs)",
+      "predicted": "Description logics (DLs)",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "natural description logics",
+      "predicted": "Natural description logics",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "knowledge representation",
+      "predicted": "Knowledge representation",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "DLs",
+      "category": "method"
+    },
+    {
+      "entity": "tight nexptlme complexity bounds",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "social security number",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "numbers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "strings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Logical level",
+      "category": "method"
+    },
+    {
+      "entity": "Interface",
+      "category": "method"
+    },
+    {
+      "entity": "Statements",
+      "category": "task"
+    },
+    {
+      "entity": "Key constraints",
+      "category": "method"
+    },
+    {
+      "entity": "Undecidability",
+      "category": "task"
+    },
+    {
+      "entity": "NEx-PTlME complexity bounds",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "task": 4,
+    "method": 5
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.08333333333333333,
+  "recall": 0.2,
+  "f1": 0.11764705882352941,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 9,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

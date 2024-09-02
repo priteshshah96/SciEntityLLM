@@ -1,0 +1,185 @@
+{
+  "doc_key": "H05-1101",
+  "gold_entities": [
+    {
+      "entity": "computational problems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "exponential time lowerbound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computational problems",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "synchronous way",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "np",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "exponential time lower-bound",
+      "category": "metric"
+    },
+    {
+      "entity": "certain classes of algorithms",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computational problems",
+      "predicted": "computational problems",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "machine translation",
+      "predicted": "machine translation",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "probabilistic translation models",
+      "predicted": "probabilistic translation models",
+      "category": "method"
+    },
+    {
+      "gold": "probabilistic context-free grammars",
+      "predicted": "probabilistic context-free grammars",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "exponential time lowerbound",
+      "predicted": "exponential time lower-bound",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "synchronous way",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "np",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "certain classes of algorithms",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "method": 2,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 3,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.4,
+  "f1": 0.2857142857142857,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

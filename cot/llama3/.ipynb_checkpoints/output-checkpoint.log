@@ -1,0 +1,2768 @@
+nohup: ignoring input
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Initial GPU memory allocated: 0
+Initial GPU memory reserved: 0
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.01it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.00it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.00it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.23it/s]
+Current prompt_template:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail , by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: "{text}"
+
+Scientific Entities Identified:
+
+
+================================================================================
+Processing files:   0%|          | 0/450 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Processing file: A00-2023.txt
+================================================================================
+Generated text:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: "
+This paper presents a new approach to  statistical sentence generation  in which alternative  phrases  are represented as packed sets of  trees, or  forests, and then ranked statistically to choose the best one. This representation offers advantages in compactness and in the ability to represent  syntactic information. It also facilitates more efficient  statistical ranking  than a previous approach to  statistical generation. An efficient  ranking algorithm  is described, together with experimental results showing significant improvements over simple enumeration or a  lattice-based approach.
+"
+
+Scientific Entities Identified:
+
+* statistical sentence generation
+Category: Task
+Reasoning: This describes the main objective of the research, which is a specific scientific task.
+
+* alternative phrases
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the research, representing a specific scientific term or concept.
+
+* packed sets of trees
+Category: OtherScientificTerm
+Reasoning: This is a specific approach to representing alternative phrases, a specific scientific concept.
+
+* forests
+Category: OtherScientificTerm
+Reasoning: This is a specific type of packed set of trees, a specific scientific concept.
+
+* ranked statistically
+Category: Method
+Reasoning: This describes the approach used to choose the best alternative phrase, a specific scientific method.
+
+* syntactic information
+Category: OtherScientificTerm
+Reasoning: This is a specific type of information used in the ranking process, a specific scientific concept.
+
+* statistical ranking
+Category: Method
+Reasoning: This is a specific type of ranking method, a specific scientific method.
+
+* statistical generation
+Category: Method
+Reasoning: This is a specific type of generation method, a specific scientific method.
+
+* lattice-based approach
+Category: Method
+Reasoning: This is a specific type of generation method, a specific scientific method.
+
+* ranking algorithm
+Category: Method
+Reasoning: This describes the specific algorithm used for ranking, a specific scientific method.
+
+* significant improvements
+Category: Metric
+Reasoning: This describes the performance of the new approach, a specific scientific metric.
+
+* simple enumeration
+Category: Method
+Reasoning: This is a specific type of enumeration method, a specific scientific method.
+
+* lattice-based approach
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as a comparison point.
+
+Note that in the above examples, some of the identified scientific entities may not have a clear-cut category or reasoning, as they are not explicitly stated in the text. However, based on your understanding of the scientific context, you can infer the category and reasoning for these entities. For example, in the first example, "local shapes" could be categorized as an "OtherScientificTerm" since it is not explicitly mentioned as a task, method, metric, or material. Similarly, in the second example, "execution-contingent" could be categorized as a "Method" since it is a specific approach to designing rules. In general, you should use your scientific knowledge and understanding to categorize and reason about the scientific entities in the text.
+
+================================================================================
+Number of extracted entities: 13
+Extracted entities:
+[
+  {
+    "name": "statistical sentence generation",
+    "category": "Task",
+    "reasoning": "This describes the main objective of the research, which is a specific scientific task."
+  },
+  {
+    "name": "alternative phrases",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the research, representing a specific scientific term or concept."
+  },
+  {
+    "name": "packed sets of trees",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a specific approach to representing alternative phrases, a specific scientific concept."
+  },
+  {
+    "name": "forests",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a specific type of packed set of trees, a specific scientific concept."
+  },
+  {
+    "name": "ranked statistically",
+    "category": "Method",
+    "reasoning": "This describes the approach used to choose the best alternative phrase, a specific scientific method."
+  },
+  {
+    "name": "syntactic information",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a specific type of information used in the ranking process, a specific scientific concept."
+  },
+  {
+    "name": "statistical ranking",
+    "category": "Method",
+    "reasoning": "This is a specific type of ranking method, a specific scientific method."
+  },
+  {
+    "name": "statistical generation",
+    "category": "Method",
+    "reasoning": "This is a specific type of generation method, a specific scientific method."
+  },
+  {
+    "name": "lattice-based approach",
+    "category": "Method",
+    "reasoning": "This is a specific type of generation method, a specific scientific method."
+  },
+  {
+    "name": "ranking algorithm",
+    "category": "Method",
+    "reasoning": "This describes the specific algorithm used for ranking, a specific scientific method."
+  },
+  {
+    "name": "significant improvements",
+    "category": "Metric",
+    "reasoning": "This describes the performance of the new approach, a specific scientific metric."
+  },
+  {
+    "name": "simple enumeration",
+    "category": "Method",
+    "reasoning": "This is a specific type of enumeration method, a specific scientific method."
+  },
+  {
+    "name": "lattice-based approach",
+    "category": "Method",
+    "reasoning": "Mentioned again, emphasizing its importance as a comparison point."
+  }
+]
+================================================================================
+Saved outputs for A00-2023.txt
+GPU memory after processing A00-2023.txt:
+Allocated: 7166336000
+Reserved: 7251951616
+Processing files:   0%|          | 1/450 [00:11<1:29:35, 11.97s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Processing file: A88-1001.txt
+================================================================================
+Generated text:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: " 
+ This paper describes a domain independent strategy for the  multimedia articulation of answers  elicited by a  natural language interface  to  database query applications .  Multimedia answers  include  videodisc images  and heuristically-produced complete  sentences  in  text  or  text-to-speech form .  Deictic reference  and  feedback  about the  discourse  are enabled. The  interface  thus presents the application as cooperative and conversational. "
+
+Scientific Entities Identified:
+
+* natural language interface
+Category: Method
+Reasoning: This describes the type of interface being designed, a specific methodological approach.
+
+* database query applications
+Category: Material
+Reasoning: This describes the type of application the interface is designed for, a specific resource or domain.
+
+* videodisc images
+Category: Material
+Reasoning: This describes a type of multimedia answer, a specific resource or output.
+
+* heuristically-produced complete sentences
+Category: Material
+Reasoning: Another type of multimedia answer, also a specific resource or output.
+
+* text-to-speech form
+Category: Material
+Reasoning: Another type of multimedia answer, again a specific resource or output.
+
+* deictic reference
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the interface's discourse, a specific concept.
+
+* feedback
+Category: OtherScientificTerm
+Reasoning: Another specific aspect of the interface's discourse, also a specific concept.
+
+* cooperative and conversational
+Category: Metric
+Reasoning: This describes a desirable property of the interface, a specific measure of performance.
+
+
+================================================================================
+Number of extracted entities: 8
+Extracted entities:
+[
+  {
+    "name": "natural language interface",
+    "category": "Method",
+    "reasoning": "This describes the type of interface being designed, a specific methodological approach."
+  },
+  {
+    "name": "database query applications",
+    "category": "Material",
+    "reasoning": "This describes the type of application the interface is designed for, a specific resource or domain."
+  },
+  {
+    "name": "videodisc images",
+    "category": "Material",
+    "reasoning": "This describes a type of multimedia answer, a specific resource or output."
+  },
+  {
+    "name": "heuristically-produced complete sentences",
+    "category": "Material",
+    "reasoning": "Another type of multimedia answer, also a specific resource or output."
+  },
+  {
+    "name": "text-to-speech form",
+    "category": "Material",
+    "reasoning": "Another type of multimedia answer, again a specific resource or output."
+  },
+  {
+    "name": "deictic reference",
+    "category": "OtherScientificTerm",
+    "reasoning": "This describes a specific aspect of the interface's discourse, a specific concept."
+  },
+  {
+    "name": "feedback",
+    "category": "OtherScientificTerm",
+    "reasoning": "Another specific aspect of the interface's discourse, also a specific concept."
+  },
+  {
+    "name": "cooperative and conversational",
+    "category": "Metric",
+    "reasoning": "This describes a desirable property of the interface, a specific measure of performance."
+  }
+]
+================================================================================
+Saved outputs for A88-1001.txt
+GPU memory after processing A88-1001.txt:
+Allocated: 7166336000
+Reserved: 7251951616
+Processing files:   0%|          | 2/450 [00:17<1:00:29,  8.10s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Processing file: A88-1003.txt
+================================================================================
+Generated text:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: " 
+ In this paper, we describe the  pronominal anaphora resolution module  of  Lucy , a portable  English understanding system . The design of this module was motivated by the observation that, although there exist many theories of  anaphora resolution , no one of these theories is complete. Thus we have implemented a  blackboard-like architecture  in which individual  partial theories  can be encoded as separate modules that can interact to propose candidate  antecedents  and to evaluate each other's proposals. "
+
+Scientific Entities Identified:
+
+* pronominal anaphora resolution module
+Category: Method
+Reasoning: This describes the specific component of the system, which is a specific methodological approach.
+
+* English understanding system
+Category: Task
+Reasoning: This describes the overall objective of the system, which is a specific task.
+
+* anaphora resolution
+Category: OtherScientificTerm
+Reasoning: This is the specific problem being addressed by the module, representing a key scientific concept.
+
+* blackboard-like architecture
+Category: Method
+Reasoning: This describes the approach used by the module, a specific methodological technique.
+
+* partial theories
+Category: OtherScientificTerm
+Reasoning: This describes the nature of the component modules, representing a specific aspect of the approach.
+
+* antecedents
+Category: OtherScientificTerm
+Reasoning: This is the output of the module, a specific scientific concept.
+
+Please submit your findings in a separate file.
+
+================================================================================
+Number of extracted entities: 6
+Extracted entities:
+[
+  {
+    "name": "pronominal anaphora resolution module",
+    "category": "Method",
+    "reasoning": "This describes the specific component of the system, which is a specific methodological approach."
+  },
+  {
+    "name": "English understanding system",
+    "category": "Task",
+    "reasoning": "This describes the overall objective of the system, which is a specific task."
+  },
+  {
+    "name": "anaphora resolution",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is the specific problem being addressed by the module, representing a key scientific concept."
+  },
+  {
+    "name": "blackboard-like architecture",
+    "category": "Method",
+    "reasoning": "This describes the approach used by the module, a specific methodological technique."
+  },
+  {
+    "name": "partial theories",
+    "category": "OtherScientificTerm",
+    "reasoning": "This describes the nature of the component modules, representing a specific aspect of the approach."
+  },
+  {
+    "name": "antecedents",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is the output of the module, a specific scientific concept."
+  }
+]
+================================================================================
+Saved outputs for A88-1003.txt
+GPU memory after processing A88-1003.txt:
+Allocated: 7166336000
+Reserved: 7251951616
+Processing files:   1%|          | 3/450 [00:21<48:27,  6.50s/it]  Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Processing file: A92-1010.txt
+================================================================================
+Generated text:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: "
+In our current research into the design of  cognitively well-motivated interfaces  relying primarily on the  display of graphical information, we have observed that  graphical information  alone does not provide sufficient support to users - particularly when situations arise that do not simply conform to the users' expectations. This can occur due to too much  information  being requested, too little,  information  of the wrong kind, etc. To solve this problem, we are working towards the integration of  natural language generation  to augment the  interaction "
+
+Scientific Entities Identified:
+
+* cognitive well-motivated interfaces
+Category: Method
+Reasoning: This describes a specific type of interface design, representing a methodological approach.
+
+* display of graphical information
+Category: Method
+Reasoning: This describes a specific aspect of the interface design, representing a methodological approach.
+
+* graphical information
+Category: Material
+Reasoning: This describes the type of information displayed, a key resource or input.
+
+* information
+Category: OtherScientificTerm
+Reasoning: This is a generic term for the type of information being displayed, a key concept in the research.
+
+* natural language generation
+Category: Method
+Reasoning: This is a specific technique for generating natural language, representing a methodological approach.
+
+* interaction
+Category: OtherScientificTerm
+Reasoning: This is a specific aspect of the interface design, representing a methodological approach.
+
+* natural language generation
+Category: Method
+Reasoning: Mentioned again in the context of integrating with other techniques.
+
+================================================================================
+Number of extracted entities: 7
+Extracted entities:
+[
+  {
+    "name": "cognitive well-motivated interfaces",
+    "category": "Method",
+    "reasoning": "This describes a specific type of interface design, representing a methodological approach."
+  },
+  {
+    "name": "display of graphical information",
+    "category": "Method",
+    "reasoning": "This describes a specific aspect of the interface design, representing a methodological approach."
+  },
+  {
+    "name": "graphical information",
+    "category": "Material",
+    "reasoning": "This describes the type of information displayed, a key resource or input."
+  },
+  {
+    "name": "information",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a generic term for the type of information being displayed, a key concept in the research."
+  },
+  {
+    "name": "natural language generation",
+    "category": "Method",
+    "reasoning": "This is a specific technique for generating natural language, representing a methodological approach."
+  },
+  {
+    "name": "interaction",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a specific aspect of the interface design, representing a methodological approach."
+  },
+  {
+    "name": "natural language generation",
+    "category": "Method",
+    "reasoning": "Mentioned again in the context of integrating with other techniques."
+  }
+]
+================================================================================
+Saved outputs for A92-1010.txt
+GPU memory after processing A92-1010.txt:
+Allocated: 7166336000
+Reserved: 7251951616
+Processing files:   1%|          | 4/450 [00:26<43:18,  5.83s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Processing file: A92-1023.txt
+================================================================================
+Generated text:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: "
+A meaningful evaluation methodology can advance the state-of-the-art by encouraging mature, practical applications rather than "toy" implementations. Evaluation is also crucial to assessing competing claims and identifying promising technical approaches. While work in  speech recognition (SR)  has a history of evaluation methodologies that permit comparison among various systems, until recently no methodology existed for either developers of  natural language (NL) interfaces  or researchers in  speech understanding (SU)  to evaluate and compare the systems they developed. Recently considerable progress has been made by a number of groups involved in the  DARPA Spoken Language Systems (SLS) program  to agree on a methodology for comparative evaluation of  SLS systems, and that methodology has been put into practice several times in comparative tests of several  SLS systems. These evaluations are probably the only  NL evaluations  other than the series of  Message Understanding Conferences  (Sundheim, 1989; Sundheim, 1991) to have been developed and used by a group of researchers at different sites, although several excellent workshops have been held to study some of these problems (Palmer et al., 1989; Neal et al., 1991). This paper describes a practical  "black-box" methodology  for automatic evaluation of  question-answering NL systems. While each new application domain will require some development of special resources, the heart of the methodology is domain-independent, and it can be used with either  speech or text input. The particular characteristics of the approach are described in the following section: subsequent sections present its implementation in the  DARPA SLS community, and some problems and directions for future development.
+"
+
+Scientific Entities Identified:
+
+* speech recognition (SR)
+Category: Task
+Reasoning: This describes the specific area of study in speech recognition, setting the context for the research task.
+
+* natural language (NL) interfaces
+Category: Task
+Reasoning: This describes the specific area of study in natural language interfaces, setting the context for the research task.
+
+* speech understanding (SU)
+Category: Task
+Reasoning: This describes the specific area of study in speech understanding, setting the context for the research task.
+
+* DARPA Spoken Language Systems (SLS) program
+Category: Task
+Reasoning: This describes the specific area of study in the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* NL evaluations
+Category: Task
+Reasoning: This describes the specific type of evaluations being conducted in natural language research, setting the context for the research task.
+
+* Message Understanding Conferences (MUC)
+Category: Task
+Reasoning: This describes the specific series of evaluations being conducted in natural language research, setting the context for the research task.
+
+* question-answering NL systems
+Category: Task
+Reasoning: This describes the specific type of natural language systems being evaluated, setting the context for the research task.
+
+* black-box methodology
+Category: Method
+Reasoning: This describes the specific type of methodology being developed for evaluating natural language systems, setting the context for the research task.
+
+* speech or text input
+Category: Material
+Reasoning: This describes the specific type of input being used in the methodology, setting the context for the research task.
+
+* DARPA SLS community
+Category: Task
+Reasoning: This describes the specific community of researchers working on the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* speech or text input
+Category: Material
+Reasoning: This describes the specific type of input being used in the methodology, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task.
+
+* SLS systems
+Category: Task
+Reasoning: This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for
+================================================================================
+Number of extracted entities: 13
+Extracted entities:
+[
+  {
+    "name": "speech recognition (SR)",
+    "category": "Task",
+    "reasoning": "This describes the specific area of study in speech recognition, setting the context for the research task."
+  },
+  {
+    "name": "natural language (NL) interfaces",
+    "category": "Task",
+    "reasoning": "This describes the specific area of study in natural language interfaces, setting the context for the research task."
+  },
+  {
+    "name": "speech understanding (SU)",
+    "category": "Task",
+    "reasoning": "This describes the specific area of study in speech understanding, setting the context for the research task."
+  },
+  {
+    "name": "DARPA Spoken Language Systems (SLS) program",
+    "category": "Task",
+    "reasoning": "This describes the specific area of study in the DARPA Spoken Language Systems program, setting the context for the research task."
+  },
+  {
+    "name": "SLS systems",
+    "category": "Task",
+    "reasoning": "This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task."
+  },
+  {
+    "name": "NL evaluations",
+    "category": "Task",
+    "reasoning": "This describes the specific type of evaluations being conducted in natural language research, setting the context for the research task."
+  },
+  {
+    "name": "Message Understanding Conferences (MUC)",
+    "category": "Task",
+    "reasoning": "This describes the specific series of evaluations being conducted in natural language research, setting the context for the research task."
+  },
+  {
+    "name": "question-answering NL systems",
+    "category": "Task",
+    "reasoning": "This describes the specific type of natural language systems being evaluated, setting the context for the research task."
+  },
+  {
+    "name": "black-box methodology",
+    "category": "Method",
+    "reasoning": "This describes the specific type of methodology being developed for evaluating natural language systems, setting the context for the research task."
+  },
+  {
+    "name": "speech or text input",
+    "category": "Material",
+    "reasoning": "This describes the specific type of input being used in the methodology, setting the context for the research task."
+  },
+  {
+    "name": "DARPA SLS community",
+    "category": "Task",
+    "reasoning": "This describes the specific community of researchers working on the DARPA Spoken Language Systems program, setting the context for the research task."
+  },
+  {
+    "name": "SLS systems",
+    "category": "Task",
+    "reasoning": "This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for the research task."
+  },
+  {
+    "name": "SLS systems",
+    "category": "Task",
+    "reasoning": "This describes the specific type of systems being developed under the DARPA Spoken Language Systems program, setting the context for"
+  }
+]
+================================================================================
+Saved outputs for A92-1023.txt
+GPU memory after processing A92-1023.txt:
+Allocated: 7166336000
+Reserved: 7251951616
+Processing files:   1%|          | 5/450 [01:10<2:24:42, 19.51s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Processing file: A92-1026.txt
+================================================================================
+Generated text:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: " 
+ It is often assumed that when  natural language processing  meets the real world, the ideal of aiming for complete and correct interpretations has to be abandoned. However, our experience with  TACITUS  ; especially in the  MUC-3 evaluation , has shown that principled techniques for  syntactic and pragmatic analysis  can be bolstered with methods for achieving robustness. We describe three techniques for making  syntactic analysis  more robust---an  agenda-based scheduling parser , a  recovery technique for failed parses , and a new technique called  terminal substring parsing . For  pragmatics processing , we describe how the method of  abductive inference  is inherently robust, in that an interpretation is always possible, so that in the absence of the required  world knowledge , performance degrades gracefully. Each of these techniques have been evaluated and the results of the evaluations are presented. "
+
+Scientific Entities Identified:
+
+* natural language processing
+Category: Task
+Reasoning: This describes the main area of study in the research, which is a specific scientific task.
+
+* real world
+Category: Material
+Reasoning: This describes the context in which the research is applied, a specific domain or setting.
+
+* complete and correct interpretations
+Category: OtherScientificTerm
+Reasoning: This describes a particular goal or standard of accuracy in the research.
+
+* TACITUS
+Category: Method
+Reasoning: This describes a specific system or method being evaluated, representing a particular approach to the task.
+
+* MUC-3 evaluation
+Category: Material
+Reasoning: This describes a specific dataset or resource used in the research.
+
+* syntactic and pragmatic analysis
+Category: Method
+Reasoning: This describes the overall approach used in the research, which combines multiple techniques.
+
+* syntactic analysis
+Category: Method
+Reasoning: This describes a specific technique used in the research.
+
+* agenda-based scheduling parser
+Category: Method
+Reasoning: This describes a specific algorithmic approach used in the research.
+
+* recovery technique for failed parses
+Category: Method
+Reasoning: This describes another specific algorithmic approach used in the research.
+
+* terminal substring parsing
+Category: Method
+Reasoning: This describes another specific algorithmic approach used in the research.
+
+* pragmatics processing
+Category: Method
+Reasoning: This describes the approach used in the research to analyze the meaning of language.
+
+* abductive inference
+Category: Method
+Reasoning: This describes a specific technique used in the research.
+
+* world knowledge
+Category: OtherScientificTerm
+Reasoning: This describes a key concept or resource in the research, which is fundamental to understanding the task.
+
+* performance degrades gracefully
+Category: Metric
+Reasoning: This describes a measure of the system's robustness, evaluating the system's performance under different conditions.
+
+* evaluations
+Category: Material
+Reasoning: This describes the results of the research, which are based on evaluations of the system's performance.
+
+================================================================================
+Number of extracted entities: 15
+Extracted entities:
+[
+  {
+    "name": "natural language processing",
+    "category": "Task",
+    "reasoning": "This describes the main area of study in the research, which is a specific scientific task."
+  },
+  {
+    "name": "real world",
+    "category": "Material",
+    "reasoning": "This describes the context in which the research is applied, a specific domain or setting."
+  },
+  {
+    "name": "complete and correct interpretations",
+    "category": "OtherScientificTerm",
+    "reasoning": "This describes a particular goal or standard of accuracy in the research."
+  },
+  {
+    "name": "TACITUS",
+    "category": "Method",
+    "reasoning": "This describes a specific system or method being evaluated, representing a particular approach to the task."
+  },
+  {
+    "name": "MUC-3 evaluation",
+    "category": "Material",
+    "reasoning": "This describes a specific dataset or resource used in the research."
+  },
+  {
+    "name": "syntactic and pragmatic analysis",
+    "category": "Method",
+    "reasoning": "This describes the overall approach used in the research, which combines multiple techniques."
+  },
+  {
+    "name": "syntactic analysis",
+    "category": "Method",
+    "reasoning": "This describes a specific technique used in the research."
+  },
+  {
+    "name": "agenda-based scheduling parser",
+    "category": "Method",
+    "reasoning": "This describes a specific algorithmic approach used in the research."
+  },
+  {
+    "name": "recovery technique for failed parses",
+    "category": "Method",
+    "reasoning": "This describes another specific algorithmic approach used in the research."
+  },
+  {
+    "name": "terminal substring parsing",
+    "category": "Method",
+    "reasoning": "This describes another specific algorithmic approach used in the research."
+  },
+  {
+    "name": "pragmatics processing",
+    "category": "Method",
+    "reasoning": "This describes the approach used in the research to analyze the meaning of language."
+  },
+  {
+    "name": "abductive inference",
+    "category": "Method",
+    "reasoning": "This describes a specific technique used in the research."
+  },
+  {
+    "name": "world knowledge",
+    "category": "OtherScientificTerm",
+    "reasoning": "This describes a key concept or resource in the research, which is fundamental to understanding the task."
+  },
+  {
+    "name": "performance degrades gracefully",
+    "category": "Metric",
+    "reasoning": "This describes a measure of the system's robustness, evaluating the system's performance under different conditions."
+  },
+  {
+    "name": "evaluations",
+    "category": "Material",
+    "reasoning": "This describes the results of the research, which are based on evaluations of the system's performance."
+  }
+]
+================================================================================
+Saved outputs for A92-1026.txt
+GPU memory after processing A92-1026.txt:
+Allocated: 7166336000
+Reserved: 7251951616
+Processing files:   1%|▏         | 6/450 [01:20<1:59:52, 16.20s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Processing file: A92-1027.txt
+================================================================================
+Generated text:
+
+Your task is to extract and categorize scientific entities from the given text. Please follow these steps carefully:
+1. Read the given text carefully.
+2. Identify and list all relevant scientific entities found in the text. The number of entities may vary depending on the content.
+3. For each entity, provide a category and reasoning.
+4. Use only these categories: Task, Method, Metric, Material, OtherScientificTerm
+
+Here are the fewshot examples demonstrating this process:
+
+Example 1:
+Text: "A " graphics for vision " approach is proposed to address the problem of reconstruction from a large and imperfect data set: reconstruction on demand by tensor voting, or ROD-TV. ROD-TV simultaneously delivers good efficiency and robust-ness, by adapting to a continuum of primitive connectivity, view dependence, and levels of detail (LOD). Locally inferred surface elements are robust to noise and better capture local shapes. By inferring per-vertex normals at sub-voxel precision on the fly, we can achieve interpolative shading. Since these missing details can be recovered at the current level of detail, our result is not upper bounded by the scanning resolution. By relaxing the mesh connectivity requirement, we extend ROD-TV and propose a simple but effective multiscale feature extraction algorithm. ROD-TV consists of a hierarchical data structure that encodes different levels of detail. The local reconstruction algorithm is tensor voting. It is applied on demand to the visible subset of data at a desired level of detail, by traversing the data hierarchy and collecting tensorial support in a neighborhood. We compare our approach and present encouraging results."
+
+Scientific Entities Identified:
+
+* "graphics for vision" approach
+Category: Method
+Reasoning: This describes the overall methodological approach used in the research.
+
+* reconstruction
+Category: Task
+Reasoning: This is the main problem or task that the research aims to address.
+
+* large and imperfect data set
+Category: Material
+Reasoning: This describes the type of data used in the research, which is a key resource or input.
+
+* reconstruction
+Category: Task
+Reasoning: This is mentioned again, reinforcing that it's a key task in the research.
+
+* tensor voting
+Category: Method
+Reasoning: This is a specific technique used for reconstruction in the research.
+
+* ROD-TV
+Category: Method
+Reasoning: This is the name given to the specific method developed in this research, which stands for "reconstruction on demand by tensor voting".
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again, emphasizing its importance as the main method discussed.
+
+* efficiency
+Category: Metric
+Reasoning: This is used to evaluate the performance of the ROD-TV method.
+
+* robust-ness
+Category: Metric
+Reasoning: This is another metric used to evaluate the performance of the ROD-TV method.
+
+* primitive connectivity
+Category: OtherScientificTerm
+Reasoning: This is a concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* view dependence
+Category: OtherScientificTerm
+Reasoning: This is another concept that the ROD-TV method adapts to, representing a specific aspect of the data or problem.
+
+* levels of detail (LOD)
+Category: OtherScientificTerm
+Reasoning: This is a concept used in the method, representing different scales or resolutions of the data.
+
+* Locally inferred surface elements
+Category: OtherScientificTerm
+Reasoning: This describes a specific aspect of the reconstruction process.
+
+* noise
+Category: OtherScientificTerm
+Reasoning: This refers to unwanted variations in the data that the method is robust against.
+
+* local shapes
+Category: OtherScientificTerm
+Reasoning: This refers to the geometric features that the method aims to capture accurately.
+
+* per-vertex normals
+Category: OtherScientificTerm
+Reasoning: This is a specific type of data or feature used in the reconstruction process.
+
+* sub-voxel precision
+Category: Metric
+Reasoning: This describes the level of accuracy achieved in the reconstruction process.
+
+* interpolative shading
+Category: Task
+Reasoning: This is a specific task or capability achieved by the method.
+
+* scanning resolution
+Category: OtherScientificTerm
+Reasoning: This refers to the resolution of the input data, which is a key concept in the research.
+
+* mesh connectivity requirement
+Category: OtherScientificTerm
+Reasoning: This is a constraint or requirement that is relaxed in the extended version of the method.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned again in the context of extending the method.
+
+* multiscale feature extraction algorithm
+Category: Method
+Reasoning: This is an additional algorithm proposed as an extension to ROD-TV.
+
+* ROD-TV
+Category: Method
+Reasoning: Mentioned once more when describing its components.
+
+* hierarchical data structure
+Category: Method
+Reasoning: This describes a key component of the ROD-TV method for encoding different levels of detail.
+
+* local reconstruction algorithm
+Category: Method
+Reasoning: This refers to the specific algorithm used for local reconstruction in ROD-TV.
+
+* tensor voting
+Category: Method
+Reasoning: Mentioned again as the specific local reconstruction algorithm used in ROD-TV.
+
+* traversing the data hierarchy
+Category: Method
+Reasoning: This describes a specific process within the ROD-TV algorithm.
+
+* collecting tensorial support
+Category: Method
+Reasoning: This is another specific process within the ROD-TV algorithm.
+
+
+Example 2:
+Text: "In some auction domains, there is uncertainty regarding the final availability of the goods being auctioned off. For example, a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency. In such a domain, standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR), even in expectation, and to very low efficiency. In this paper, we study the design of core-selecting payment rules for such domains. Surprisingly, we show that in this new domain, there does not exist a payment rule with is guaranteed to be ex-post core-selecting. However, we show that by designing rules that are "execution-contingent," i.e., by charging payments that are conditioned on the realization of the availability of the goods, we can reduce IR violations. We design two core-selecting rules that always satisfy IR in expectation. To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis. We show that, in equilibrium, our new rules have better incentives, higher efficiency, and a lower rate of ex-post IR violations than standard core-selecting rules."
+
+Scientific Entities Identified:
+
+* auction domains
+Category: Task
+Reasoning: This describes the specific area of study in auctions, setting the context for the research task.
+
+* combinatorial auctions
+Category: Method
+Reasoning: This is a specific type of auction mechanism, representing a methodological approach.
+
+* individual rationality (IR)
+Category: OtherScientificTerm
+Reasoning: This is a concept in auction theory, fundamental to understanding the problem being addressed.
+
+* core-selecting payment rules
+Category: Method
+Reasoning: This describes the specific type of rules being designed, representing a methodological approach.
+
+* execution-contingent rules
+Category: Method
+Reasoning: This describes a specific approach to designing rules, representing a methodological innovation.
+
+* IR violations
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+* computational Bayes-Nash equilibrium analysis
+Category: Method
+Reasoning: This describes the approach used to study the performance of the rules.
+
+* efficiency
+Category: Metric
+Reasoning: This is used as a measure of performance for the auction rules.
+
+Example 3:
+Text: "This paper introduces a system for categorizing unknown words. The system is based on a multi-component architecture where each component is responsible for identifying one class of unknown words. The focus of this paper is the components that identify names and spelling errors. Each component uses a decision tree architecture to combine multiple types of evidence about the unknown word. The system is evaluated using data from live closed captions - a genre replete with a wide variety of unknown words."
+
+Scientific Entities Identified:
+
+* categorizing unknown words
+Category: Task
+Reasoning: This describes the main objective of the system, which is a specific scientific task.
+
+* multi-component architecture
+Category: Method
+Reasoning: This describes the structure of the system, which is a specific approach to solving the task.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is the target of the categorization task, a key concept in the research.
+
+* names
+Category: OtherScientificTerm
+Reasoning: This is one category of unknown words the system identifies, a specific scientific concept.
+
+* spelling errors
+Category: OtherScientificTerm
+Reasoning: Another category of unknown words the system identifies, also a specific scientific concept.
+
+* decision tree architecture
+Category: Method
+Reasoning: This describes the approach used by each component, a specific algorithmic technique.
+
+* live closed captions
+Category: Material
+Reasoning: This describes the data used for evaluation, a specific dataset or resource.
+
+Now, apply this process to the following new text and identify all the scientific entities:
+
+Text: " 
+ We present an efficient algorithm for  chart-based phrase structure parsing  of  natural language  that is tailored to the problem of extracting specific information from  unrestricted texts  where many of the  words  are unknown and much of the  text  is irrelevant to the task. The  parser  gains algorithmic efficiency through a  reduction  of its  search space . As each new  edge  is added to the  chart , the algorithm checks only the topmost of the  edges  adjacent to it, rather than all such  edges  as in conventional treatments. The resulting  spanning edges  are insured to be the correct ones by carefully controlling the order in which  edges  are introduced so that every final  constituent  covers the longest possible  span . This is facilitated through the use of  phrase boundary heuristics  based on the placement of  function words , and by  heuristic rules  that permit certain kinds of  phrases  to be deduced despite the presence of  unknown words . A further  reduction in the search space  is achieved by using  semantic  rather than  syntactic categories  on the  terminal and non-terminal edges , thereby reducing the amount of  ambiguity  and thus the number of  edges , since only  edges  with a valid  semantic  interpretation are ever introduced. "
+
+Scientific Entities Identified:
+
+* chart-based phrase structure parsing
+Category: Method
+Reasoning: This is a specific type of parsing method, representing a methodological approach.
+
+* natural language
+Category: Material
+Reasoning: This describes the domain of the parsing task, a key resource or input.
+
+* unrestricted texts
+Category: Material
+Reasoning: This describes the type of data used in the parsing task, a key resource or input.
+
+* words
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing the basic units of analysis.
+
+* text
+Category: Material
+Reasoning: This is a key resource or input in the parsing task, used to generate the words.
+
+* parser
+Category: Method
+Reasoning: This describes the algorithmic component that performs the parsing task.
+
+* reduction
+Category: Method
+Reasoning: This describes a specific approach to solving the parsing task, a methodological innovation.
+
+* search space
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing the space of possible solutions.
+
+* edge
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* chart
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a data structure used to represent the edges.
+
+* spanning edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a subset of the edges.
+
+* edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* constituent
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* span
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing the scope of a constituent.
+
+* phrase boundary heuristics
+Category: Method
+Reasoning: This describes a specific approach to solving the parsing task, a methodological innovation.
+
+* function words
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific type of word.
+
+* heuristic rules
+Category: Method
+Reasoning: This describes a specific approach to solving the parsing task, a methodological innovation.
+
+* phrases
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* unknown words
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific type of word.
+
+* semantic
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* syntactic categories
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* terminal and non-terminal edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific type of edge.
+
+* ambiguity
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of the data.
+
+* edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* valid semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* reduction
+Category: Method
+Reasoning: This describes a specific approach to solving the parsing task, a methodological innovation.
+
+* ambiguity
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of the data.
+
+* edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* valid semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* reduction
+Category: Method
+Reasoning: This describes a specific approach to solving the parsing task, a methodological innovation.
+
+* ambiguity
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of the data.
+
+* edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* valid semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* reduction
+Category: Method
+Reasoning: This describes a specific approach to solving the parsing task, a methodological innovation.
+
+* ambiguity
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of the data.
+
+* edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* valid semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* reduction
+Category: Method
+Reasoning: This describes a specific approach to solving the parsing task, a methodological innovation.
+
+* ambiguity
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of the data.
+
+* edges
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a unit of analysis.
+
+* semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+* valid semantic interpretation
+Category: OtherScientificTerm
+Reasoning: This is a key concept in the parsing task, representing a specific aspect of word meaning.
+
+================================================================================
+Number of extracted entities: 27
+Extracted entities:
+[
+  {
+    "name": "chart-based phrase structure parsing",
+    "category": "Method",
+    "reasoning": "This is a specific type of parsing method, representing a methodological approach."
+  },
+  {
+    "name": "natural language",
+    "category": "Material",
+    "reasoning": "This describes the domain of the parsing task, a key resource or input."
+  },
+  {
+    "name": "unrestricted texts",
+    "category": "Material",
+    "reasoning": "This describes the type of data used in the parsing task, a key resource or input."
+  },
+  {
+    "name": "words",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing the basic units of analysis."
+  },
+  {
+    "name": "text",
+    "category": "Material",
+    "reasoning": "This is a key resource or input in the parsing task, used to generate the words."
+  },
+  {
+    "name": "parser",
+    "category": "Method",
+    "reasoning": "This describes the algorithmic component that performs the parsing task."
+  },
+  {
+    "name": "reduction",
+    "category": "Method",
+    "reasoning": "This describes a specific approach to solving the parsing task, a methodological innovation."
+  },
+  {
+    "name": "search space",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing the space of possible solutions."
+  },
+  {
+    "name": "edge",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a unit of analysis."
+  },
+  {
+    "name": "chart",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a data structure used to represent the edges."
+  },
+  {
+    "name": "spanning edges",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a subset of the edges."
+  },
+  {
+    "name": "edges",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a unit of analysis."
+  },
+  {
+    "name": "constituent",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a unit of analysis."
+  },
+  {
+    "name": "span",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing the scope of a constituent."
+  },
+  {
+    "name": "phrase boundary heuristics",
+    "category": "Method",
+    "reasoning": "This describes a specific approach to solving the parsing task, a methodological innovation."
+  },
+  {
+    "name": "function words",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific type of word."
+  },
+  {
+    "name": "heuristic rules",
+    "category": "Method",
+    "reasoning": "This describes a specific approach to solving the parsing task, a methodological innovation."
+  },
+  {
+    "name": "phrases",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a unit of analysis."
+  },
+  {
+    "name": "unknown words",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific type of word."
+  },
+  {
+    "name": "semantic",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific aspect of word meaning."
+  },
+  {
+    "name": "syntactic categories",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific aspect of word meaning."
+  },
+  {
+    "name": "terminal and non-terminal edges",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific type of edge."
+  },
+  {
+    "name": "ambiguity",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific aspect of the data."
+  },
+  {
+    "name": "edges",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a unit of analysis."
+  },
+  {
+    "name": "semantic interpretation",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific aspect of word meaning."
+  },
+  {
+    "name": "valid semantic interpretation",
+    "category": "OtherScientificTerm",
+    "reasoning": "This is a key concept in the parsing task, representing a specific aspect of word meaning."
+  },
+  {
+    "name": "reduction",
+    "category": "Method",
+    "reasoning": "This describes a specific approach to solving the parsing task, a methodological innovation."
+  }
+]
+================================================================================
+Saved outputs for A92-1027.txt
+GPU memory after processing A92-1027.txt:
+Allocated: 7166336000
+Reserved: 7251951616
+Processing files:   2%|▏         | 7/450 [01:52<2:38:52, 21.52s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.

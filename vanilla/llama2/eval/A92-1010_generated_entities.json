@@ -1,0 +1,148 @@
+{
+  "gold_entities": [
+    {
+      "entity": "cognitively well-motivated interfaces",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language generation",
+      "category": "Task"
+    },
+    {
+      "entity": "display of graphical information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "graphical information",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "cognitive motivation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "graphical information",
+      "category": "Method"
+    },
+    {
+      "entity": "display",
+      "category": "Method"
+    },
+    {
+      "entity": "information",
+      "category": "Metric"
+    },
+    {
+      "entity": "user expectations",
+      "category": "Task"
+    },
+    {
+      "entity": "natural language generation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "interaction",
+      "category": "Task"
+    },
+    {
+      "entity": "situations",
+      "category": "Task"
+    },
+    {
+      "entity": "expectations",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "interaction",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "graphical information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "graphical information",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural language generation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "natural language generation",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "display of graphical information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "display",
+          "category": "Method"
+        },
+        {
+          "entity": "information",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "cognitively well-motivated interfaces",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "cognitive motivation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "user expectations",
+      "category": "Task"
+    },
+    {
+      "entity": "interaction",
+      "category": "Task"
+    },
+    {
+      "entity": "situations",
+      "category": "Task"
+    },
+    {
+      "entity": "expectations",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 4,
+    "generated_count": 9,
+    "generic_count": 1,
+    "exact_matches": 2,
+    "exact_category_matches": 0,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "gold_entities": [
+    {
+      "entity": "pronominal anaphora resolution module",
+      "category": "Method"
+    },
+    {
+      "entity": "lucy",
+      "category": "Method"
+    },
+    {
+      "entity": "english understanding system",
+      "category": "Method"
+    },
+    {
+      "entity": "blackboard-like architecture",
+      "category": "Method"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "pronominal anaphora resolution module",
+      "category": "Task"
+    },
+    {
+      "entity": "lucy",
+      "category": "Material"
+    },
+    {
+      "entity": "english understanding system",
+      "category": "Method"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "blackboardlike architecture",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "partial theories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "antecedents",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "module",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "pronominal anaphora resolution module",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "pronominal anaphora resolution module",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lucy",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lucy",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "english understanding system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "english understanding system",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "anaphora resolution",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "anaphora resolution",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "english understanding system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "english understanding system",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "blackboard-like architecture",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "blackboardlike architecture",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "partial theories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "antecedents",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 7,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

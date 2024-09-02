@@ -1,0 +1,309 @@
+{
+  "doc_key": "P02-1059",
+  "gold_entities": [
+    {
+      "entity": "supervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "clustering framework",
+      "category": "method"
+    },
+    {
+      "entity": "clustering framework",
+      "category": "method"
+    },
+    {
+      "entity": "human biases in  summarization",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic decision tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic decision trees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human created summaries",
+      "category": "material"
+    },
+    {
+      "entity": "corpus  of human created extracts",
+      "category": "material"
+    },
+    {
+      "entity": "newspaper corpus",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "supervised learning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unsupervised learning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "summarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Probabilistic decision tree",
+      "category": "method"
+    },
+    {
+      "entity": "Clustering framework",
+      "category": "method"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Newspaper corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Human created summaries",
+      "category": "material"
+    },
+    {
+      "entity": "Probabilistic decision trees",
+      "category": "method"
+    },
+    {
+      "entity": "Integration",
+      "category": "task"
+    },
+    {
+      "entity": "variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human biases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Empirically motivates",
+      "category": "task"
+    },
+    {
+      "entity": "Test set",
+      "category": "material"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "Boost",
+      "category": "metric"
+    },
+    {
+      "entity": "Significant",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "supervised learning",
+      "predicted": "supervised learning",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "unsupervised learning",
+      "predicted": "unsupervised learning",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "probabilistic decision tree",
+      "predicted": "Probabilistic decision tree",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "probabilistic decision trees",
+      "predicted": "Probabilistic decision trees",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "clustering framework",
+      "predicted": "Clustering framework",
+      "category": "method"
+    },
+    {
+      "gold": "human created summaries",
+      "predicted": "Human created summaries",
+      "category": "material"
+    },
+    {
+      "gold": "newspaper corpus",
+      "predicted": "Newspaper corpus",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "human biases in  summarization",
+      "predicted": "human biases",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "clustering framework",
+      "category": "method"
+    },
+    {
+      "entity": "corpus  of human created extracts",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "summarization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Integration",
+      "category": "task"
+    },
+    {
+      "entity": "variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Empirically motivates",
+      "category": "task"
+    },
+    {
+      "entity": "Test set",
+      "category": "material"
+    },
+    {
+      "entity": "Performance",
+      "category": "metric"
+    },
+    {
+      "entity": "Boost",
+      "category": "metric"
+    },
+    {
+      "entity": "Significant",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "clustering framework|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 1,
+    "otherscientificterm": 2,
+    "material": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "method": 3,
+    "material": 4,
+    "task": 2,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.3,
+  "f1": 0.21428571428571427,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 18,
+    "exact_matches": 4,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 10,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,320 @@
+{
+  "doc_key": "H90-1011",
+  "gold_entities": [
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "unification-based parsing",
+      "category": "task"
+    },
+    {
+      "entity": "classification-based knowledge representation",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "semantic interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "unification-based grammatical frameworks",
+      "category": "method"
+    },
+    {
+      "entity": "KL-ONE-like knowledge representation systems",
+      "category": "method"
+    },
+    {
+      "entity": "classification-based representation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "parsing",
+      "category": "method"
+    },
+    {
+      "entity": "KL-ONE style representation",
+      "category": "method"
+    },
+    {
+      "entity": "PSI-KLONE system",
+      "category": "method"
+    },
+    {
+      "entity": "inference process",
+      "category": "method"
+    },
+    {
+      "entity": "incremental description refinement",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unificationbased linguistic descriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantic and syntactic information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "unification-based parsing",
+      "category": "method"
+    },
+    {
+      "entity": "classification-based knowledge representation",
+      "category": "method"
+    },
+    {
+      "entity": "unification-based grammatical frameworks",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "task"
+    },
+    {
+      "entity": "KL-ONE-like knowledge representation systems",
+      "category": "method"
+    },
+    {
+      "entity": "classification-based representation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "unification-based linguistic descriptions",
+      "category": "method"
+    },
+    {
+      "entity": "semantic and syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "efficient parsing",
+      "category": "metric"
+    },
+    {
+      "entity": "KL-ONE style representation",
+      "category": "method"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "semantic interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "incremental description refinement",
+      "category": "method"
+    },
+    {
+      "entity": "PSI-KLONE system",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "unification-based parsing",
+      "predicted": "unification-based parsing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "classification-based knowledge representation",
+      "predicted": "classification-based knowledge representation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "PSI-KLONE system",
+      "predicted": "PSI-KLONE system",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "linguistic information",
+      "predicted": "linguistic information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "parsing",
+      "predicted": "parsing",
+      "category": "task"
+    },
+    {
+      "gold": "parsing",
+      "predicted": "parsing",
+      "category": "task"
+    },
+    {
+      "gold": "semantic interpretation",
+      "predicted": "semantic interpretation",
+      "category": "task"
+    },
+    {
+      "gold": "unification-based grammatical frameworks",
+      "predicted": "unification-based grammatical frameworks",
+      "category": "method"
+    },
+    {
+      "gold": "KL-ONE-like knowledge representation systems",
+      "predicted": "KL-ONE-like knowledge representation systems",
+      "category": "method"
+    },
+    {
+      "gold": "classification-based representation techniques",
+      "predicted": "classification-based representation techniques",
+      "category": "method"
+    },
+    {
+      "gold": "KL-ONE style representation",
+      "predicted": "KL-ONE style representation",
+      "category": "method"
+    },
+    {
+      "gold": "incremental description refinement",
+      "predicted": "incremental description refinement",
+      "category": "method"
+    },
+    {
+      "gold": "semantic and syntactic information",
+      "predicted": "semantic and syntactic information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "parsing",
+      "predicted": "efficient parsing",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "unificationbased linguistic descriptions",
+      "predicted": "unification-based linguistic descriptions",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "parsing",
+      "category": "method"
+    },
+    {
+      "entity": "inference process",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "parsing|task": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 2,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "task": 6,
+    "method": 8,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 8,
+    "otherscientificterm": 1,
+    "metric": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 8,
+      "exact_matches": 1,
+      "exact_matches_with_category": 5,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.6,
+  "recall": 0.5294117647058824,
+  "f1": 0.5625,
+  "counts": {
+    "gold_entities": 17,
+    "predicted_entities": 15,
+    "exact_matches": 4,
+    "exact_matches_with_category": 9,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 0,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

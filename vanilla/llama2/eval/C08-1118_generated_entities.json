@@ -1,0 +1,231 @@
+{
+  "gold_entities": [
+    {
+      "entity": "medium-length speeches",
+      "category": "Material"
+    },
+    {
+      "entity": "europarl corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "frequency counts of word n-grams",
+      "category": "Method"
+    },
+    {
+      "entity": "classification method",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "positive markers",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "europarl",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "n-grams",
+      "category": "Method"
+    },
+    {
+      "entity": "word n-grams",
+      "category": "Method"
+    },
+    {
+      "entity": "source language",
+      "category": "Task"
+    },
+    {
+      "entity": "medium-length speeches",
+      "category": "Task"
+    },
+    {
+      "entity": "frequency counts",
+      "category": "Metric"
+    },
+    {
+      "entity": "classification method",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "positive markers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "culturerelated ones",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domainrelated ones",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "word n-grams",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "word n-grams",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "medium-length speeches",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "medium-length speeches",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classification method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "classification method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "classification method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "classification method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "positive markers",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "frequency counts of word n-grams",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "n-grams",
+          "category": "Method"
+        },
+        {
+          "entity": "frequency counts",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "europarl corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "europarl",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "source language",
+      "category": "Task"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "culturerelated ones",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "domainrelated ones",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 12,
+    "generic_count": 0,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "doc_key": "P01-1009",
+  "gold_entities": [
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "natural language search engines",
+      "category": "method"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "approximation of the  formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "alternative markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "alternative markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "other than",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "such as",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "besides",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "queries",
+      "category": "material"
+    },
+    {
+      "entity": "search engines",
+      "category": "method"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "method"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "material"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "approximation",
+      "category": "method"
+    },
+    {
+      "entity": "large class",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "operational semantics",
+      "predicted": "operational semantics",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "natural language applications",
+      "predicted": "natural language applications",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "formal analysis",
+      "predicted": "formal analysis",
+      "category": "method"
+    },
+    {
+      "gold": "alternative markers",
+      "predicted": "alternative markers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "natural language search engines",
+      "predicted": "search engines",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "approximation of the  formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "dialog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "other than",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "such as",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "besides",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "queries",
+      "category": "material"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "approximation",
+      "category": "method"
+    },
+    {
+      "entity": "large class",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "formal analysis|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "search engine|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "operational semantics|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 5,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.18181818181818182,
+  "f1": 0.17391304347826086,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 7,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

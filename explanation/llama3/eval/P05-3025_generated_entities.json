@@ -1,0 +1,256 @@
+{
+  "gold_entities": [
+    {
+      "entity": "mt systems",
+      "category": "Method"
+    },
+    {
+      "entity": "visualization method",
+      "category": "Method"
+    },
+    {
+      "entity": "mt system",
+      "category": "Method"
+    },
+    {
+      "entity": "syntax-based decoder",
+      "category": "Method"
+    },
+    {
+      "entity": "interactively visualizing and directing the process of translating",
+      "category": "Task"
+    },
+    {
+      "entity": "syntax-based statistical machine translation (mt)",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "interactively visualizing and directing",
+      "category": "Method"
+    },
+    {
+      "entity": "translating a sentence",
+      "category": "Task"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "syntaxbased statistical machine translation mt",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "user",
+      "category": "Method"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "strengths and weaknesses",
+      "category": "Metric"
+    },
+    {
+      "entity": "mt systems",
+      "category": "Material"
+    },
+    {
+      "entity": "visualization method",
+      "category": "Method"
+    },
+    {
+      "entity": "conceptual and practical problems",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mt system",
+      "category": "Material"
+    },
+    {
+      "entity": "acl",
+      "category": "Material"
+    },
+    {
+      "entity": "new users",
+      "category": "Material"
+    },
+    {
+      "entity": "syntax-based decoder",
+      "category": "Method"
+    },
+    {
+      "entity": "themselves",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "mt systems",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "mt systems",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "visualization method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "visualization method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "mt system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "mt system",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "visualization method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "visualization method",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "syntax-based decoder",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "interactively visualizing and directing the process of translating",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "interactively visualizing and directing",
+          "category": "Method"
+        },
+        {
+          "entity": "translating a sentence",
+          "category": "Task"
+        },
+        {
+          "entity": "strengths and weaknesses",
+          "category": "Metric"
+        },
+        {
+          "entity": "conceptual and practical problems",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.9166666666666665
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "syntax-based statistical machine translation (mt)",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "syntaxbased statistical machine translation mt",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.6
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "user",
+      "category": "Method"
+    },
+    {
+      "entity": "model",
+      "category": "Method"
+    },
+    {
+      "entity": "acl",
+      "category": "Material"
+    },
+    {
+      "entity": "new users",
+      "category": "Material"
+    },
+    {
+      "entity": "themselves",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 15,
+    "generic_count": 5,
+    "exact_matches": 4,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

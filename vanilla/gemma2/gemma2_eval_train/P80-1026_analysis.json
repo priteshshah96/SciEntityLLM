@@ -1,0 +1,225 @@
+{
+  "doc_key": "P80-1026",
+  "gold_entities": [
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsing flexibilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "restricted natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer system",
+      "category": "method"
+    },
+    {
+      "entity": "FlexP",
+      "category": "method"
+    },
+    {
+      "entity": "bottom-up pattern-matching parser",
+      "category": "method"
+    },
+    {
+      "entity": "limited-domain computer system",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural settings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ungrammatically",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human listeners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsing flexibilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "flexp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bottom-up pattern-matching parser",
+      "category": "method"
+    },
+    {
+      "entity": "restricted natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "limiteddomain computer system",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language",
+      "predicted": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language input",
+      "predicted": "natural language input",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "parsing flexibilities",
+      "predicted": "parsing flexibilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "restricted natural language",
+      "predicted": "restricted natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "computer system",
+      "predicted": "computer system",
+      "category": "method"
+    },
+    {
+      "gold": "FlexP",
+      "predicted": "flexp",
+      "category": "method"
+    },
+    {
+      "gold": "bottom-up pattern-matching parser",
+      "predicted": "bottom-up pattern-matching parser",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "limited-domain computer system",
+      "predicted": "limiteddomain computer system",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsing flexibilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "restricted natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bottom-up pattern-matching parser",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "natural settings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ungrammatically",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human listeners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 11,
+    "method": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 11,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 0.625,
+  "f1": 0.5,
+  "category_precision": 0.4166666666666667,
+  "category_recall": 0.625,
+  "category_f1": 0.5,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 12,
+    "exact_matches": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 3,
+    "correct_predictions": 5,
+    "correct_categories": 5
+  }
+}

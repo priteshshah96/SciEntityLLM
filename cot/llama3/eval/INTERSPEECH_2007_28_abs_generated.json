@@ -1,0 +1,223 @@
+{
+  "gold_entities": [
+    {
+      "entity": "continuous speech",
+      "category": "Material"
+    },
+    {
+      "entity": "recognition process",
+      "category": "Method"
+    },
+    {
+      "entity": "information retrieval procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "word graph composition",
+      "category": "Method"
+    },
+    {
+      "entity": "extra large (more than 1m words) vocabulary continuous speech recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "information retrieval (elvircos)",
+      "category": "Task"
+    },
+    {
+      "entity": "large vocabulary speech recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "words subset",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "new two-pass algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "vocabulary continuous speech recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "elvircos",
+      "category": "Method"
+    },
+    {
+      "entity": "information retrieval (elvircos)",
+      "category": "Method"
+    },
+    {
+      "entity": "word graph composition",
+      "category": "Method"
+    },
+    {
+      "entity": "continuous speech",
+      "category": "Material"
+    },
+    {
+      "entity": "large vocabulary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "continuous speech",
+      "category": "Material"
+    },
+    {
+      "entity": "high performances",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "two-pass algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "passes",
+      "category": "Generic"
+    },
+    {
+      "entity": "first pass",
+      "category": "Generic"
+    },
+    {
+      "entity": "second pass recognition",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "information retrieval (elvircos)",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "information retrieval (elvircos)",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word graph composition",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "word graph composition",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "continuous speech",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "continuous speech",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "word graph composition",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "word graph composition",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "continuous speech",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "continuous speech",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "extra large (more than 1m words) vocabulary continuous speech recognition",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "vocabulary continuous speech recognition",
+          "category": "Task"
+        },
+        {
+          "entity": "large vocabulary",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "continuous speech",
+          "category": "Material"
+        }
+      ],
+      "coverage": 3.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "recognition process",
+      "category": "Method"
+    },
+    {
+      "entity": "information retrieval procedure",
+      "category": "Method"
+    },
+    {
+      "entity": "large vocabulary speech recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "words subset",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "new two-pass algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "elvircos",
+      "category": "Method"
+    },
+    {
+      "entity": "high performances",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 9,
+    "generic_count": 6,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

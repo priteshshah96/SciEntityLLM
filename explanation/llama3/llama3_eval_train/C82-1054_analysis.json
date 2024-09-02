@@ -1,0 +1,174 @@
+{
+  "doc_key": "C82-1054",
+  "gold_entities": [
+    {
+      "entity": "left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "context-free grammars",
+      "category": "material"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "material"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "material"
+    },
+    {
+      "entity": "context-free grammars",
+      "category": "material"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "context-free grammars",
+      "predicted": "context-free grammars",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "natural language interface",
+      "predicted": "natural language interface",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "left corner parsing algorithm",
+      "predicted": "left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "parser",
+      "predicted": "parser",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "context-free grammars",
+      "category": "material"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "material"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 6,
+    "material": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.5,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

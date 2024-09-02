@@ -1,0 +1,289 @@
+{
+  "doc_key": "W05-1308",
+  "gold_entities": [
+    {
+      "entity": "fully automated extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "IntEx",
+      "category": "method"
+    },
+    {
+      "entity": "extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "extraction systems",
+      "category": "method"
+    },
+    {
+      "entity": "IntEx system",
+      "category": "method"
+    },
+    {
+      "entity": "gene and protein interactions",
+      "category": "task"
+    },
+    {
+      "entity": "biomedical text",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biological entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biomedical and linguistic ontologies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple and nested interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pattern engineering requirement",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "IntEx",
+      "category": "task"
+    },
+    {
+      "entity": "gene",
+      "category": "task"
+    },
+    {
+      "entity": "protein",
+      "category": "task"
+    },
+    {
+      "entity": "biomedical text",
+      "category": "task"
+    },
+    {
+      "entity": "complex sentences",
+      "category": "method"
+    },
+    {
+      "entity": "simple clausal structures",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "method"
+    },
+    {
+      "entity": "biological entities",
+      "category": "metric"
+    },
+    {
+      "entity": "biomedical ontologies",
+      "category": "metric"
+    },
+    {
+      "entity": "linguistic ontologies",
+      "category": "metric"
+    },
+    {
+      "entity": "complex interactions",
+      "category": "material"
+    },
+    {
+      "entity": "nested interactions",
+      "category": "material"
+    },
+    {
+      "entity": "performance",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "IntEx",
+      "predicted": "IntEx",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "biomedical text",
+      "predicted": "biomedical text",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "syntactic roles",
+      "predicted": "syntactic roles",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "biological entities",
+      "predicted": "biological entities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "biomedical and linguistic ontologies",
+      "predicted": "biomedical ontologies",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "fully automated extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "extraction system",
+      "category": "method"
+    },
+    {
+      "entity": "extraction systems",
+      "category": "method"
+    },
+    {
+      "entity": "IntEx system",
+      "category": "method"
+    },
+    {
+      "entity": "gene and protein interactions",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic roles",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple and nested interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pattern engineering requirement",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "protein",
+      "category": "task"
+    },
+    {
+      "entity": "complex sentences",
+      "category": "method"
+    },
+    {
+      "entity": "simple clausal structures",
+      "category": "method"
+    },
+    {
+      "entity": "complex interactions",
+      "category": "material"
+    },
+    {
+      "entity": "performance",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "syntactic roles|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 5,
+    "task": 1,
+    "material": 1,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 3,
+    "metric": 3,
+    "material": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 4,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 5,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

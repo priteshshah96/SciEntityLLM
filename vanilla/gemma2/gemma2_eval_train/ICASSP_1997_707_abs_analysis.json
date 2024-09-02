@@ -1,0 +1,207 @@
+{
+  "doc_key": "ICASSP_1997_707_abs",
+  "gold_entities": [
+    {
+      "entity": "nonstationary chaotic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "oxymoron",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonstationary chaos",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonstationary events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biological signals",
+      "category": "material"
+    },
+    {
+      "entity": "ocean waves",
+      "category": "material"
+    },
+    {
+      "entity": "traffic flow",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "nonstationary chaotic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Capturing nonstationary chaos",
+      "category": "method"
+    },
+    {
+      "entity": "Biological signals",
+      "category": "material"
+    },
+    {
+      "entity": "Ocean waves",
+      "category": "material"
+    },
+    {
+      "entity": "Traffic flow",
+      "category": "material"
+    },
+    {
+      "entity": "practical interest",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Capturing when nonstationary events take place",
+      "category": "task"
+    },
+    {
+      "entity": "Knowing over what periods a signal is stationary",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "nonstationary chaotic behavior",
+      "predicted": "nonstationary chaotic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "biological signals",
+      "predicted": "Biological signals",
+      "category": "material"
+    },
+    {
+      "gold": "ocean waves",
+      "predicted": "Ocean waves",
+      "category": "material"
+    },
+    {
+      "gold": "traffic flow",
+      "predicted": "Traffic flow",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "nonstationary chaos",
+      "predicted": "Capturing nonstationary chaos",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "nonstationary chaotic behavior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "biological signals",
+      "category": "material"
+    },
+    {
+      "entity": "ocean waves",
+      "category": "material"
+    },
+    {
+      "entity": "traffic flow",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "oxymoron",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonstationary events",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "practical interest",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Capturing when nonstationary events take place",
+      "category": "task"
+    },
+    {
+      "entity": "Knowing over what periods a signal is stationary",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "material": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "method": 1,
+    "material": 3,
+    "task": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.14285714285714285,
+  "f1": 0.13333333333333333,
+  "category_precision": 0.625,
+  "category_recall": 0.7142857142857143,
+  "category_f1": 0.6666666666666666,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 8,
+    "exact_matches": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 2,
+    "correct_predictions": 1,
+    "correct_categories": 5
+  }
+}

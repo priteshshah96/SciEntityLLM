@@ -1,0 +1,289 @@
+{
+  "doc_key": "C04-1080",
+  "gold_entities": [
+    {
+      "entity": "HMM tagger",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "HMM training",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised and supervised case",
+      "category": "task"
+    },
+    {
+      "entity": "part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "entity": "supervised, non-training intensive framework",
+      "category": "task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "lexical probabilities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "side",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unsupervised",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "supervised",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "lexicons",
+      "category": "material"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "HMM training",
+      "category": "method"
+    },
+    {
+      "entity": "lexical probabilities",
+      "category": "metric"
+    },
+    {
+      "entity": "stability",
+      "category": "metric"
+    },
+    {
+      "entity": "framework",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tagger",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "HMM training",
+      "predicted": "HMM training",
+      "category": "method"
+    },
+    {
+      "gold": "part-of-speech tagging",
+      "predicted": "part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "lexical probabilities",
+      "predicted": "lexical probabilities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "HMM tagger",
+      "predicted": "tagger",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "HMM training",
+      "category": "method"
+    },
+    {
+      "entity": "part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "HMM tagger",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unsupervised methods",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised and supervised case",
+      "category": "task"
+    },
+    {
+      "entity": "supervised, non-training intensive framework",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "word",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tag",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "side",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpora",
+      "category": "material"
+    },
+    {
+      "entity": "lexicons",
+      "category": "material"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "stability",
+      "category": "metric"
+    },
+    {
+      "entity": "framework",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 3,
+    "metric": 1,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 7,
+    "task": 1,
+    "material": 2,
+    "metric": 4,
+    "method": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.17647058823529413,
+  "recall": 0.375,
+  "f1": 0.24,
+  "category_precision": 0.35294117647058826,
+  "category_recall": 0.75,
+  "category_f1": 0.48,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 17,
+    "exact_matches": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 10,
+    "generic_entities": 3,
+    "correct_predictions": 3,
+    "correct_categories": 6
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "doc_key": "H05-2007",
+  "gold_entities": [
+    {
+      "entity": "systematic patterns in translation data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patterns in machine translation output",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "part-of-speech tag sequences",
+      "category": "material"
+    },
+    {
+      "entity": "diagnostic tool",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation systems",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "systematic patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partofspeech tag sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Machine translation systems",
+      "category": "task"
+    },
+    {
+      "entity": "developers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Diagnostic tool",
+      "category": "method"
+    },
+    {
+      "entity": "Translation data",
+      "category": "material"
+    },
+    {
+      "entity": "Patterns",
+      "category": "metric"
+    },
+    {
+      "entity": "output",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "machine translation systems",
+      "predicted": "Machine translation systems",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "diagnostic tool",
+      "predicted": "Diagnostic tool",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "part-of-speech tag sequences",
+      "predicted": "partofspeech tag sequences",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "systematic patterns in translation data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patterns in machine translation output",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "systematic patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "developers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Translation data",
+      "category": "material"
+    },
+    {
+      "entity": "Patterns",
+      "category": "metric"
+    },
+    {
+      "entity": "output",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "material": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 4,
+    "task": 1,
+    "method": 1,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.2,
+  "f1": 0.15384615384615385,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

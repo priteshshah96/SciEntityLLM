@@ -1,0 +1,229 @@
+{
+  "doc_key": "C88-2086",
+  "gold_entities": [
+    {
+      "entity": "natural language presuppositions",
+      "category": "task"
+    },
+    {
+      "entity": "natural language presuppositions",
+      "category": "task"
+    },
+    {
+      "entity": "presuppositional nature",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language presuppositions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Gazdar 1979",
+      "category": "material"
+    },
+    {
+      "entity": "Soames 1979",
+      "category": "material"
+    },
+    {
+      "entity": "Soames 1982",
+      "category": "material"
+    },
+    {
+      "entity": "Mercer 1987",
+      "category": "material"
+    },
+    {
+      "entity": "Mercer 1988",
+      "category": "material"
+    },
+    {
+      "entity": "inferential theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "presuppositional nature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reappraising",
+      "category": "task"
+    },
+    {
+      "entity": "explanation",
+      "category": "task"
+    },
+    {
+      "entity": "provides",
+      "category": "task"
+    },
+    {
+      "entity": "rejects",
+      "category": "task"
+    },
+    {
+      "entity": "explains",
+      "category": "task"
+    },
+    {
+      "entity": "counterexamples",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language presuppositions",
+      "predicted": "natural language presuppositions",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "presuppositional nature",
+      "predicted": "presuppositional nature",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "natural language presuppositions",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Gazdar 1979",
+      "category": "material"
+    },
+    {
+      "entity": "Soames 1979",
+      "category": "material"
+    },
+    {
+      "entity": "Soames 1982",
+      "category": "material"
+    },
+    {
+      "entity": "Mercer 1987",
+      "category": "material"
+    },
+    {
+      "entity": "Mercer 1988",
+      "category": "material"
+    },
+    {
+      "entity": "inferential theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "material"
+    },
+    {
+      "entity": "reappraising",
+      "category": "task"
+    },
+    {
+      "entity": "explanation",
+      "category": "task"
+    },
+    {
+      "entity": "provides",
+      "category": "task"
+    },
+    {
+      "entity": "rejects",
+      "category": "task"
+    },
+    {
+      "entity": "explains",
+      "category": "task"
+    },
+    {
+      "entity": "counterexamples",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "natural language presuppositions|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "material": 6,
+    "task": 5
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0625,
+  "recall": 0.3333333333333333,
+  "f1": 0.10526315789473684,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 16,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 14,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

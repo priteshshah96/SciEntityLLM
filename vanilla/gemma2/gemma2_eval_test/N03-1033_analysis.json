@@ -1,0 +1,266 @@
+{
+  "doc_key": "N03-1033",
+  "gold_entities": [
+    {
+      "entity": "part-of-speech tagger",
+      "category": "method"
+    },
+    {
+      "entity": "dependency network representation",
+      "category": "method"
+    },
+    {
+      "entity": "fine-grained modeling of  unknown word features",
+      "category": "method"
+    },
+    {
+      "entity": "tagger",
+      "category": "method"
+    },
+    {
+      "entity": "tag contexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lexical features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple consecutive words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "priors in conditional loglinear models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "error",
+      "category": "metric"
+    },
+    {
+      "entity": "Penn Treebank WSJ",
+      "category": "material"
+    },
+    {
+      "entity": "tagging",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "part-of-speech tagger",
+      "category": "method"
+    },
+    {
+      "entity": "tag contexts",
+      "category": "metric"
+    },
+    {
+      "entity": "dependency network representation",
+      "category": "method"
+    },
+    {
+      "entity": "lexical features",
+      "category": "metric"
+    },
+    {
+      "entity": "joint conditioning",
+      "category": "method"
+    },
+    {
+      "entity": "priors",
+      "category": "metric"
+    },
+    {
+      "entity": "conditional loglinear models",
+      "category": "method"
+    },
+    {
+      "entity": "unknown word features",
+      "category": "metric"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Penn Treebank WSJ",
+      "category": "material"
+    },
+    {
+      "entity": "error reduction",
+      "category": "metric"
+    },
+    {
+      "entity": "tagging result",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "tag contexts",
+      "predicted": "tag contexts",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "lexical features",
+      "predicted": "lexical features",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "part-of-speech tagger",
+      "predicted": "part-of-speech tagger",
+      "category": "method"
+    },
+    {
+      "gold": "dependency network representation",
+      "predicted": "dependency network representation",
+      "category": "method"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "Penn Treebank WSJ",
+      "predicted": "Penn Treebank WSJ",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "fine-grained modeling of  unknown word features",
+      "predicted": "unknown word features",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "priors in conditional loglinear models",
+      "predicted": "conditional loglinear models",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "error",
+      "predicted": "error reduction",
+      "score": 0.5,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "tagging",
+      "predicted": "tagging result",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "tagger",
+      "category": "method"
+    },
+    {
+      "entity": "multiple consecutive words",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "joint conditioning",
+      "category": "method"
+    },
+    {
+      "entity": "priors",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 4,
+    "metric": 2,
+    "material": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "metric": 7,
+    "material": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.3333333333333333,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 2,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

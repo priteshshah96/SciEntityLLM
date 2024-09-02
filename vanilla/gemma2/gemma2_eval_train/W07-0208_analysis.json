@@ -1,0 +1,253 @@
+{
+  "doc_key": "W07-0208",
+  "gold_entities": [
+    {
+      "entity": "labeled directed graph",
+      "category": "method"
+    },
+    {
+      "entity": "method",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NLP tasks",
+      "category": "task"
+    },
+    {
+      "entity": "graph transformations",
+      "category": "task"
+    },
+    {
+      "entity": "identification of non-local depenencies",
+      "category": "task"
+    },
+    {
+      "entity": "semantic role labeling",
+      "category": "task"
+    },
+    {
+      "entity": "annotated corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Penn Treebank data",
+      "category": "material"
+    },
+    {
+      "entity": "Proposition Bank data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "labeled directed graph",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NLP tasks",
+      "category": "task"
+    },
+    {
+      "entity": "graph transformations",
+      "category": "method"
+    },
+    {
+      "entity": "annotated corpus",
+      "category": "material"
+    },
+    {
+      "entity": "transformations",
+      "category": "method"
+    },
+    {
+      "entity": "identification of non-local dependencies",
+      "category": "task"
+    },
+    {
+      "entity": "Penn Treebank data",
+      "category": "material"
+    },
+    {
+      "entity": "semantic role labeling",
+      "category": "task"
+    },
+    {
+      "entity": "Proposition Bank data",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "labeled directed graph",
+      "predicted": "labeled directed graph",
+      "category": "method"
+    },
+    {
+      "gold": "linguistic structures",
+      "predicted": "linguistic structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "NLP tasks",
+      "predicted": "NLP tasks",
+      "category": "task"
+    },
+    {
+      "gold": "graph transformations",
+      "predicted": "graph transformations",
+      "category": "task"
+    },
+    {
+      "gold": "semantic role labeling",
+      "predicted": "semantic role labeling",
+      "category": "task"
+    },
+    {
+      "gold": "annotated corpus",
+      "predicted": "annotated corpus",
+      "category": "material"
+    },
+    {
+      "gold": "Penn Treebank data",
+      "predicted": "Penn Treebank data",
+      "category": "material"
+    },
+    {
+      "gold": "Proposition Bank data",
+      "predicted": "Proposition Bank data",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "identification of non-local depenencies",
+      "predicted": "identification of non-local dependencies",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "labeled directed graph",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "NLP tasks",
+      "category": "task"
+    },
+    {
+      "entity": "semantic role labeling",
+      "category": "task"
+    },
+    {
+      "entity": "annotated corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Penn Treebank data",
+      "category": "material"
+    },
+    {
+      "entity": "Proposition Bank data",
+      "category": "material"
+    },
+    {
+      "entity": "identification of non-local depenencies",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "method",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "transformations",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "otherscientificterm": 1,
+    "task": 4,
+    "material": 3
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 1,
+    "task": 3,
+    "material": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.7,
+  "recall": 0.7,
+  "f1": 0.7,
+  "category_precision": 0.9,
+  "category_recall": 0.9,
+  "category_f1": 0.9,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 10,
+    "exact_matches": 8,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 8,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 1,
+    "generic_entities": 4,
+    "correct_predictions": 7,
+    "correct_categories": 9
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "doc_key": "P02-1023",
+  "gold_entities": [
+    {
+      "entity": "Reducing  language model (LM) size",
+      "category": "task"
+    },
+    {
+      "entity": "LM pruning",
+      "category": "task"
+    },
+    {
+      "entity": "model pruning",
+      "category": "task"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "memory constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "entropy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pruning criteria",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Chinese text input",
+      "category": "material"
+    },
+    {
+      "entity": "character error rate (CER)",
+      "category": "metric"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "CER",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "language model (LM)",
+      "category": "method"
+    },
+    {
+      "entity": "memory constraints",
+      "category": "material"
+    },
+    {
+      "entity": "LM pruning",
+      "category": "task"
+    },
+    {
+      "entity": "probability",
+      "category": "metric"
+    },
+    {
+      "entity": "rank",
+      "category": "metric"
+    },
+    {
+      "entity": "entropy",
+      "category": "metric"
+    },
+    {
+      "entity": "pruning criteria",
+      "category": "method"
+    },
+    {
+      "entity": "Chinese text input",
+      "category": "material"
+    },
+    {
+      "entity": "character error rate (CER)",
+      "category": "metric"
+    },
+    {
+      "entity": "error rate",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model pruning",
+      "category": "method"
+    },
+    {
+      "entity": "combined criterion",
+      "category": "method"
+    },
+    {
+      "entity": "CER",
+      "category": "metric"
+    },
+    {
+      "entity": "models",
+      "category": "material"
+    },
+    {
+      "entity": "criteria",
+      "category": "method"
+    },
+    {
+      "entity": "criterion",
+      "category": "method"
+    },
+    {
+      "entity": "models",
+      "category": "material"
+    },
+    {
+      "entity": "CER",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "model pruning",
+      "predicted": "model pruning",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "memory constraints",
+      "predicted": "memory constraints",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "rank",
+      "predicted": "rank",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "entropy",
+      "predicted": "entropy",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "pruning criteria",
+      "predicted": "pruning criteria",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "error rate",
+      "predicted": "error rate",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "LM pruning",
+      "predicted": "LM pruning",
+      "category": "task"
+    },
+    {
+      "gold": "Chinese text input",
+      "predicted": "Chinese text input",
+      "category": "material"
+    },
+    {
+      "gold": "character error rate (CER)",
+      "predicted": "character error rate (CER)",
+      "category": "metric"
+    },
+    {
+      "gold": "CER",
+      "predicted": "CER",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Reducing  language model (LM) size",
+      "category": "task"
+    },
+    {
+      "entity": "LM",
+      "category": "method"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rank",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "language model (LM)",
+      "category": "method"
+    },
+    {
+      "entity": "probability",
+      "category": "metric"
+    },
+    {
+      "entity": "combined criterion",
+      "category": "method"
+    },
+    {
+      "entity": "CER",
+      "category": "metric"
+    },
+    {
+      "entity": "models",
+      "category": "material"
+    },
+    {
+      "entity": "models",
+      "category": "material"
+    },
+    {
+      "entity": "criteria",
+      "category": "method"
+    },
+    {
+      "entity": "criterion",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "rank|otherscientificterm": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "method": 1,
+    "otherscientificterm": 6,
+    "material": 1,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "method": 6,
+    "material": 4,
+    "task": 1,
+    "metric": 6,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 3,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 4,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.2857142857142857,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 18,
+    "exact_matches": 6,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 8,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

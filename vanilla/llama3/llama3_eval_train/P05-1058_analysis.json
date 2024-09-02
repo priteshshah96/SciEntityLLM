@@ -1,0 +1,245 @@
+{
+  "doc_key": "P05-1058",
+  "gold_entities": [
+    {
+      "entity": "alignment adaptation approach",
+      "category": "method"
+    },
+    {
+      "entity": "alignment adaptation",
+      "category": "method"
+    },
+    {
+      "entity": "statistical word alignment models",
+      "category": "method"
+    },
+    {
+      "entity": "domain-specific (in-domain) word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "in-domain word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "large-scale  out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "small-scale  in-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    },
+    {
+      "entity": "relative error rate reduction",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Alignment adaptation",
+      "category": "method"
+    },
+    {
+      "entity": "domainspecific word alignment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "In-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Statistical word alignment models",
+      "category": "material"
+    },
+    {
+      "entity": "Precision",
+      "category": "metric"
+    },
+    {
+      "entity": "Recall",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "statistical word alignment models",
+      "predicted": "Statistical word alignment models",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "alignment adaptation",
+      "predicted": "Alignment adaptation",
+      "category": "method"
+    },
+    {
+      "gold": "out-of-domain corpus",
+      "predicted": "Out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "gold": "precision",
+      "predicted": "Precision",
+      "category": "metric"
+    },
+    {
+      "gold": "recall",
+      "predicted": "Recall",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "in-domain word alignment",
+      "predicted": "domainspecific word alignment",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "small-scale  in-domain corpus",
+      "predicted": "In-domain corpus",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "alignment adaptation approach",
+      "category": "method"
+    },
+    {
+      "entity": "domain-specific (in-domain) word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "domain-specific word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "large-scale  out-of-domain corpus",
+      "category": "material"
+    },
+    {
+      "entity": "relative error rate reduction",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "domain-specific word alignment|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 4,
+    "material": 3,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 1,
+    "material": 3,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5714285714285714,
+  "recall": 0.3076923076923077,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 0,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,195 @@
+{
+  "doc_key": "E87-1043",
+  "gold_entities": [
+    {
+      "entity": "verb forms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "deictic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aspectual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modeltheoretic semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analysis of  verb form meanings",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "verb forms",
+      "category": "task"
+    },
+    {
+      "entity": "event",
+      "category": "task"
+    },
+    {
+      "entity": "deictic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "aspectual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "habituality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model-theoretic semantics",
+      "category": "method"
+    },
+    {
+      "entity": "analysis",
+      "category": "task"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    },
+    {
+      "entity": "event",
+      "category": "task"
+    },
+    {
+      "entity": "verb form meanings",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "verb forms",
+      "predicted": "verb forms",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "deictic information",
+      "predicted": "deictic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "aspectual information",
+      "predicted": "aspectual information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "analysis of  verb form meanings",
+      "predicted": "verb form meanings",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "modeltheoretic semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "event",
+      "category": "task"
+    },
+    {
+      "entity": "event",
+      "category": "task"
+    },
+    {
+      "entity": "habituality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "model-theoretic semantics",
+      "category": "method"
+    },
+    {
+      "entity": "analysis",
+      "category": "task"
+    },
+    {
+      "entity": "sentence",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "otherscientificterm": 4,
+    "method": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.4,
+  "f1": 0.26666666666666666,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

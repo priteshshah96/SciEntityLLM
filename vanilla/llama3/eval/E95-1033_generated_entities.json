@@ -1,0 +1,174 @@
+{
+  "gold_entities": [
+    {
+      "entity": "dependency-based grammar model",
+      "category": "Method"
+    },
+    {
+      "entity": "gb's binding theory",
+      "category": "Method"
+    },
+    {
+      "entity": "grosz-sidner-style focus model",
+      "category": "Method"
+    },
+    {
+      "entity": "anaphora resolution within sentence boundaries",
+      "category": "Task"
+    },
+    {
+      "entity": "sentence-level and text-level anaphora",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "text-level anaphora",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "dependencybased grammar model",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "anaphora",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "binding theory",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "focus model",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "groszsidnerstyle focus model",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentence-level anaphora",
+      "category": "Task"
+    },
+    {
+      "entity": "text-level anaphora",
+      "category": "Task"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "Task"
+    },
+    {
+      "entity": "criteria for anaphora resolution",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "criteria",
+      "category": "Generic"
+    },
+    {
+      "entity": "those",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "text-level anaphora",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "text-level anaphora",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "dependency-based grammar model",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "dependencybased grammar model",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "focus model",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "groszsidnerstyle focus model",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.4999999999999998
+    },
+    {
+      "gold": {
+        "entity": "anaphora resolution within sentence boundaries",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "anaphora",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "sentence-level anaphora",
+          "category": "Task"
+        },
+        {
+          "entity": "anaphora resolution",
+          "category": "Task"
+        },
+        {
+          "entity": "criteria for anaphora resolution",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 3.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "gb's binding theory",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "binding theory",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "grosz-sidner-style focus model",
+      "category": "Method"
+    },
+    {
+      "entity": "sentence-level and text-level anaphora",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 9,
+    "generic_count": 2,
+    "exact_matches": 1,
+    "exact_category_matches": 0,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "gold_entities": [
+    {
+      "entity": "paraphrase examples",
+      "category": "Material"
+    },
+    {
+      "entity": "sentential paraphrases",
+      "category": "Material"
+    },
+    {
+      "entity": "paraphrase corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "class-oriented framework",
+      "category": "Method"
+    },
+    {
+      "entity": "automatic candidate generation",
+      "category": "Method"
+    },
+    {
+      "entity": "manual judgement",
+      "category": "Method"
+    },
+    {
+      "entity": "compositional classes of paraphrases",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "paraphrase",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "class",
+      "category": "Task"
+    },
+    {
+      "entity": "framework",
+      "category": "Method"
+    },
+    {
+      "entity": "paraphrase class",
+      "category": "Task"
+    },
+    {
+      "entity": "sentential paraphrase",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "candidate generation",
+      "category": "Method"
+    },
+    {
+      "entity": "manual judgement",
+      "category": "Method"
+    },
+    {
+      "entity": "paraphrase corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "cost-efficiency",
+      "category": "Metric"
+    },
+    {
+      "entity": "exhaustiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "reliability",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "manual judgement",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "manual judgement",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "paraphrase corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "paraphrase corpus",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "manual judgement",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "manual judgement",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "paraphrase corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "paraphrase corpus",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "paraphrase examples",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "paraphrase",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "paraphrase class",
+          "category": "Task"
+        },
+        {
+          "entity": "sentential paraphrase",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "class-oriented framework",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "framework",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "automatic candidate generation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "candidate generation",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "sentential paraphrases",
+      "category": "Material"
+    },
+    {
+      "entity": "compositional classes of paraphrases",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "class",
+      "category": "Task"
+    },
+    {
+      "entity": "cost-efficiency",
+      "category": "Metric"
+    },
+    {
+      "entity": "exhaustiveness",
+      "category": "Metric"
+    },
+    {
+      "entity": "reliability",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 11,
+    "generic_count": 0,
+    "exact_matches": 2,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

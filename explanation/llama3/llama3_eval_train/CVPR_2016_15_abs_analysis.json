@@ -1,0 +1,297 @@
+{
+  "doc_key": "CVPR_2016_15_abs",
+  "gold_entities": [
+    {
+      "entity": "joint embeddings of images and text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple layers of linear projections",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlinearities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largemargin objective",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "crossview ranking constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "withinview neighborhood structure preservation constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "metric learning literature",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "two-branch neural network",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "image-to-text and text-to-image retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "phrase lo-calization",
+      "category": "task"
+    },
+    {
+      "entity": "Flickr30K and MSCOCO image-sentence datasets",
+      "category": "material"
+    },
+    {
+      "entity": "Flickr30K Entities dataset",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "joint embed-dings",
+      "category": "method"
+    },
+    {
+      "entity": "images",
+      "category": "method"
+    },
+    {
+      "entity": "text",
+      "category": "method"
+    },
+    {
+      "entity": "two-branch neural network",
+      "category": "method"
+    },
+    {
+      "entity": "multiple layers of linear projections followed by nonlinearities",
+      "category": "method"
+    },
+    {
+      "entity": "large-margin objective",
+      "category": "metric"
+    },
+    {
+      "entity": "cross-view ranking constraints",
+      "category": "method"
+    },
+    {
+      "entity": "within-view neighborhood structure preservation constraints",
+      "category": "method"
+    },
+    {
+      "entity": "metric learning literature",
+      "category": "material"
+    },
+    {
+      "entity": "accuracy",
+      "category": "method"
+    },
+    {
+      "entity": "image-to-text and text-to-image retrieval",
+      "category": "method"
+    },
+    {
+      "entity": "Flickr30K",
+      "category": "method"
+    },
+    {
+      "entity": "MSCOCO",
+      "category": "method"
+    },
+    {
+      "entity": "phrase localization",
+      "category": "method"
+    },
+    {
+      "entity": "Flickr30K Entities",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "metric learning literature",
+      "predicted": "metric learning literature",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "image-to-text and text-to-image retrieval",
+      "predicted": "image-to-text and text-to-image retrieval",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "two-branch neural network",
+      "predicted": "two-branch neural network",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multiple layers of linear projections",
+      "predicted": "multiple layers of linear projections followed by nonlinearities",
+      "score": 0.625,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "crossview ranking constraints",
+      "predicted": "cross-view ranking constraints",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "withinview neighborhood structure preservation constraints",
+      "predicted": "within-view neighborhood structure preservation constraints",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "Flickr30K Entities dataset",
+      "predicted": "Flickr30K Entities",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "joint embeddings of images and text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonlinearities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "largemargin objective",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrase lo-calization",
+      "category": "task"
+    },
+    {
+      "entity": "Flickr30K and MSCOCO image-sentence datasets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "joint embed-dings",
+      "category": "method"
+    },
+    {
+      "entity": "images",
+      "category": "method"
+    },
+    {
+      "entity": "large-margin objective",
+      "category": "metric"
+    },
+    {
+      "entity": "MSCOCO",
+      "category": "method"
+    },
+    {
+      "entity": "phrase localization",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 7,
+    "method": 1,
+    "metric": 1,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 13,
+    "metric": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 13,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.06666666666666667,
+  "recall": 0.07692307692307693,
+  "f1": 0.07142857142857144,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 15,
+    "exact_matches": 3,
+    "exact_matches_with_category": 1,
+    "partial_matches": 4,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

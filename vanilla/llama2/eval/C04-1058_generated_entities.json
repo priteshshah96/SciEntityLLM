@@ -1,0 +1,233 @@
+{
+  "gold_entities": [
+    {
+      "entity": "classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "maximum entropy classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "boosting",
+      "category": "Method"
+    },
+    {
+      "entity": "svms",
+      "category": "Method"
+    },
+    {
+      "entity": "error correction mechanisms",
+      "category": "Method"
+    },
+    {
+      "entity": "n-fold templated piped correction, or ntpc (\"nitpick\")",
+      "category": "Method"
+    },
+    {
+      "entity": "error corrector",
+      "category": "Method"
+    },
+    {
+      "entity": "ntpc",
+      "category": "Method"
+    },
+    {
+      "entity": "language processing tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "occam's razor argument",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "maximum entropy classifiers",
+      "category": "Task"
+    },
+    {
+      "entity": "boosting",
+      "category": "Task"
+    },
+    {
+      "entity": "svms",
+      "category": "Task"
+    },
+    {
+      "entity": "error correction mechanisms",
+      "category": "Method"
+    },
+    {
+      "entity": "test set",
+      "category": "Method"
+    },
+    {
+      "entity": "base classifier",
+      "category": "Method"
+    },
+    {
+      "entity": "n-fold templated piped correction",
+      "category": "Method"
+    },
+    {
+      "entity": "occams razor",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "claims",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "existing highly accurate base models",
+      "category": "Material"
+    },
+    {
+      "entity": "unseen data",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "base classifier",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "base models",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "maximum entropy classifiers",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "maximum entropy classifiers",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "boosting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "boosting",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "svms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "svms",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "error correction mechanisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "error correction mechanisms",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "error correction mechanisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "error correction mechanisms",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "n-fold templated piped correction, or ntpc (\"nitpick\")",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "n-fold templated piped correction",
+        "category": "Method"
+      },
+      "overlap": 0.75
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "error corrector",
+      "category": "Method"
+    },
+    {
+      "entity": "ntpc",
+      "category": "Method"
+    },
+    {
+      "entity": "language processing tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "occam's razor argument",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "test set",
+      "category": "Method"
+    },
+    {
+      "entity": "base classifier",
+      "category": "Method"
+    },
+    {
+      "entity": "occams razor",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "claims",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "existing highly accurate base models",
+      "category": "Material"
+    },
+    {
+      "entity": "unseen data",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 11,
+    "generic_count": 3,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

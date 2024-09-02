@@ -1,0 +1,296 @@
+{
+  "doc_key": "W02-1404",
+  "gold_entities": [
+    {
+      "entity": "knowledge-independent method",
+      "category": "method"
+    },
+    {
+      "entity": "statistical methods",
+      "category": "method"
+    },
+    {
+      "entity": "lexical approaches",
+      "category": "method"
+    },
+    {
+      "entity": "small, domain-specific corpus",
+      "category": "material"
+    },
+    {
+      "entity": "parallel English and Chinese court judgments",
+      "category": "material"
+    },
+    {
+      "entity": "sentence-aligned corpus",
+      "category": "material"
+    },
+    {
+      "entity": "large corpora",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual dictionaries",
+      "category": "material"
+    },
+    {
+      "entity": "parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "legal terminology",
+      "category": "material"
+    },
+    {
+      "entity": "translation equivalences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parallel concordances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "knowledge-independent method",
+      "category": "method"
+    },
+    {
+      "entity": "parallel English and Chinese court judgments",
+      "category": "material"
+    },
+    {
+      "entity": "sentence-aligned corpus",
+      "category": "material"
+    },
+    {
+      "entity": "translation equivalences",
+      "category": "method"
+    },
+    {
+      "entity": "parallel concordances",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conventional statistical methods",
+      "category": "method"
+    },
+    {
+      "entity": "lexical approaches",
+      "category": "method"
+    },
+    {
+      "entity": "bilingual dictionaries",
+      "category": "material"
+    },
+    {
+      "entity": "pilot testing",
+      "category": "method"
+    },
+    {
+      "entity": "precision",
+      "category": "method"
+    },
+    {
+      "entity": "recall",
+      "category": "method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "errors",
+      "category": "method"
+    },
+    {
+      "entity": "translation lexicon",
+      "category": "method"
+    },
+    {
+      "entity": "legal terminology",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "legal terminology",
+      "predicted": "legal terminology",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "translation equivalences",
+      "predicted": "translation equivalences",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "translation lexicon",
+      "predicted": "translation lexicon",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "precision",
+      "predicted": "precision",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "recall",
+      "predicted": "recall",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "knowledge-independent method",
+      "predicted": "knowledge-independent method",
+      "category": "method"
+    },
+    {
+      "gold": "lexical approaches",
+      "predicted": "lexical approaches",
+      "category": "method"
+    },
+    {
+      "gold": "parallel English and Chinese court judgments",
+      "predicted": "parallel English and Chinese court judgments",
+      "category": "material"
+    },
+    {
+      "gold": "sentence-aligned corpus",
+      "predicted": "sentence-aligned corpus",
+      "category": "material"
+    },
+    {
+      "gold": "bilingual dictionaries",
+      "predicted": "bilingual dictionaries",
+      "category": "material"
+    },
+    {
+      "gold": "parallel concordances",
+      "predicted": "parallel concordances",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "statistical methods",
+      "predicted": "conventional statistical methods",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "small, domain-specific corpus",
+      "category": "material"
+    },
+    {
+      "entity": "large corpora",
+      "category": "material"
+    },
+    {
+      "entity": "parallel corpus",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "pilot testing",
+      "category": "method"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "errors",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "material": 7,
+    "otherscientificterm": 3,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "method": 10,
+    "material": 3,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 10,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.4,
+  "f1": 0.4000000000000001,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 15,
+    "exact_matches": 5,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

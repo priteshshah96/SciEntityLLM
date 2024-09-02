@@ -1,0 +1,172 @@
+{
+  "doc_key": "IJCAI_2001_4_abs",
+  "gold_entities": [
+    {
+      "entity": "dimensional container packing problem",
+      "category": "task"
+    },
+    {
+      "entity": "approach of wall building and layering",
+      "category": "method"
+    },
+    {
+      "entity": "OR-Library",
+      "category": "material"
+    },
+    {
+      "entity": "average packing utilization",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "three dimensional container packing problem",
+      "category": "task"
+    },
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "wall building and layering",
+      "category": "method"
+    },
+    {
+      "entity": "building growing",
+      "category": "method"
+    },
+    {
+      "entity": "OR-Library",
+      "category": "material"
+    },
+    {
+      "entity": "test cases",
+      "category": "material"
+    },
+    {
+      "entity": "packing utilization",
+      "category": "metric"
+    },
+    {
+      "entity": "average packing utilization",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "OR-Library",
+      "predicted": "OR-Library",
+      "category": "material"
+    },
+    {
+      "gold": "average packing utilization",
+      "predicted": "average packing utilization",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "dimensional container packing problem",
+      "predicted": "three dimensional container packing problem",
+      "score": 0.8,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "approach of wall building and layering",
+      "predicted": "wall building and layering",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "building growing",
+      "category": "method"
+    },
+    {
+      "entity": "test cases",
+      "category": "material"
+    },
+    {
+      "entity": "packing utilization",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 1,
+    "material": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 3,
+    "material": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.5,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

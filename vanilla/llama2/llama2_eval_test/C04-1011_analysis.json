@@ -1,0 +1,217 @@
+{
+  "doc_key": "C04-1011",
+  "gold_entities": [
+    {
+      "entity": "Kullback-Leibler distance",
+      "category": "method"
+    },
+    {
+      "entity": "relative entropy",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic context-free grammar",
+      "category": "method"
+    },
+    {
+      "entity": "closed-form (analytical) solution",
+      "category": "method"
+    },
+    {
+      "entity": "Kullback-Leibler distance",
+      "category": "method"
+    },
+    {
+      "entity": "cross-entropy",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic finite automata",
+      "category": "method"
+    },
+    {
+      "entity": "probabilistic finite automaton",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distributional approximation",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Kullback-Leibler distance",
+      "category": "metric"
+    },
+    {
+      "entity": "relative entropy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "probabilistic context-free grammar",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic finite automaton",
+      "category": "task"
+    },
+    {
+      "entity": "cross-entropy",
+      "category": "metric"
+    },
+    {
+      "entity": "distributional approximation",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic context-free grammars",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic finite automata",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Kullback-Leibler distance",
+      "predicted": "Kullback-Leibler distance",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "relative entropy",
+      "predicted": "relative entropy",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "probabilistic context-free grammar",
+      "predicted": "probabilistic context-free grammar",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "cross-entropy",
+      "predicted": "cross-entropy",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "probabilistic context-free grammars",
+      "predicted": "probabilistic context-free grammars",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "probabilistic finite automata",
+      "predicted": "probabilistic finite automata",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "probabilistic finite automaton",
+      "predicted": "probabilistic finite automaton",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "distributional approximation",
+      "predicted": "distributional approximation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Kullback-Leibler distance",
+      "category": "method"
+    },
+    {
+      "entity": "closed-form (analytical) solution",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "Kullback-Leibler distance|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "metric": 2,
+    "otherscientificterm": 1,
+    "task": 5
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 0,
+      "exact_matches": 6,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.1,
+  "f1": 0.11111111111111112,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 8,
+    "exact_matches": 7,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 0,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

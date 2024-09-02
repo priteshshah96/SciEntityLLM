@@ -1,0 +1,370 @@
+{
+  "gold_entities": [
+    {
+      "entity": "database of dynamic textures",
+      "category": "Material"
+    },
+    {
+      "entity": "hmms",
+      "category": "Method"
+    },
+    {
+      "entity": "crfs",
+      "category": "Method"
+    },
+    {
+      "entity": "dimensionality reduction",
+      "category": "Method"
+    },
+    {
+      "entity": "low-dimensional representation",
+      "category": "Method"
+    },
+    {
+      "entity": "sufficient dimension reduction techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "low dimensional representation",
+      "category": "Method"
+    },
+    {
+      "entity": "sequence kernel dimension reduction approach (s-kdr)",
+      "category": "Method"
+    },
+    {
+      "entity": "classifying high-dimensional sequence data",
+      "category": "Task"
+    },
+    {
+      "entity": "classification",
+      "category": "Task"
+    },
+    {
+      "entity": "supervised dimensionality reduction",
+      "category": "Task"
+    },
+    {
+      "entity": "discrimination of human gesture and motion categories",
+      "category": "Task"
+    },
+    {
+      "entity": "overfitting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "neighborhood graph structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "known distribution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "spatial, temporal and periodic information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "manifold",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "hmms",
+      "category": "Method"
+    },
+    {
+      "entity": "crfs",
+      "category": "Method"
+    },
+    {
+      "entity": "dimensionality reduction",
+      "category": "Method"
+    },
+    {
+      "entity": "neighborhood graph structure",
+      "category": "Method"
+    },
+    {
+      "entity": "sufficient dimension reduction",
+      "category": "Method"
+    },
+    {
+      "entity": "sequence kernel dimension reduction",
+      "category": "Method"
+    },
+    {
+      "entity": "s-kdr",
+      "category": "Method"
+    },
+    {
+      "entity": "optimal manifold",
+      "category": "Method"
+    },
+    {
+      "entity": "human gesture",
+      "category": "Task"
+    },
+    {
+      "entity": "motion categories",
+      "category": "Task"
+    },
+    {
+      "entity": "dynamic textures",
+      "category": "Task"
+    },
+    {
+      "entity": "spatial information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "periodic information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "distribution of input data",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "endtask",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "existing methods",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "end-task",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "hmms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hmms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "crfs",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "crfs",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dimensionality reduction",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dimensionality reduction",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "neighborhood graph structure",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "neighborhood graph structure",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "hmms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hmms",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "crfs",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "crfs",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dimensionality reduction",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dimensionality reduction",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "database of dynamic textures",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "dynamic textures",
+          "category": "Task"
+        },
+        {
+          "entity": "distribution of input data",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.25
+    },
+    {
+      "gold": {
+        "entity": "sufficient dimension reduction techniques",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "sufficient dimension reduction",
+          "category": "Method"
+        },
+        {
+          "entity": "sequence kernel dimension reduction",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "discrimination of human gesture and motion categories",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "human gesture",
+          "category": "Task"
+        },
+        {
+          "entity": "motion categories",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "spatial, temporal and periodic information",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "spatial information",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "temporal information",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "periodic information",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "low-dimensional representation",
+      "category": "Method"
+    },
+    {
+      "entity": "low dimensional representation",
+      "category": "Method"
+    },
+    {
+      "entity": "sequence kernel dimension reduction approach (s-kdr)",
+      "category": "Method"
+    },
+    {
+      "entity": "classifying high-dimensional sequence data",
+      "category": "Task"
+    },
+    {
+      "entity": "classification",
+      "category": "Task"
+    },
+    {
+      "entity": "supervised dimensionality reduction",
+      "category": "Task"
+    },
+    {
+      "entity": "overfitting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "known distribution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "manifold",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "s-kdr",
+      "category": "Method"
+    },
+    {
+      "entity": "optimal manifold",
+      "category": "Method"
+    },
+    {
+      "entity": "endtask",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 17,
+    "generated_count": 16,
+    "generic_count": 4,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 4,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

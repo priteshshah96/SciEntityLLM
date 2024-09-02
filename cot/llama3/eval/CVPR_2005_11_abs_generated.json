@@ -1,0 +1,234 @@
+{
+  "gold_entities": [
+    {
+      "entity": "video sequences",
+      "category": "Material"
+    },
+    {
+      "entity": "real-time system",
+      "category": "Method"
+    },
+    {
+      "entity": "multiple object tracking in dynamic scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "long-duration and complete occlusion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "shape",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "motion of objects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frame rate",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "image size",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "long-duration and complete occlusions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "changing background",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "multiple object tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "real-time system",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dynamic scenes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "long-duration occlusion",
+      "category": "Metric"
+    },
+    {
+      "entity": "complete occlusion",
+      "category": "Metric"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "Material"
+    },
+    {
+      "entity": "segment and tracking results",
+      "category": "Metric"
+    },
+    {
+      "entity": "image size of 320x240",
+      "category": "Material"
+    },
+    {
+      "entity": "changing background",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "real-time system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "real-time system",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "prior knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "prior knowledge",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "changing background",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "changing background",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "changing background",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "changing background",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "multiple object tracking in dynamic scenes",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "multiple object tracking",
+          "category": "Task"
+        },
+        {
+          "entity": "dynamic scenes",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "segment and tracking results",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.25
+    },
+    {
+      "gold": {
+        "entity": "long-duration and complete occlusion",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "long-duration occlusion",
+          "category": "Metric"
+        },
+        {
+          "entity": "complete occlusion",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "video sequences",
+      "category": "Material"
+    },
+    {
+      "entity": "tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "shape",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "motion of objects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frame rate",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "image size",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "long-duration and complete occlusions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "image size of 320x240",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 9,
+    "generic_count": 2,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

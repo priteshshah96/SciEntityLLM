@@ -1,0 +1,301 @@
+{
+  "doc_key": "A92-1026",
+  "gold_entities": [
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic and pragmatic analysis",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic analysis",
+      "category": "task"
+    },
+    {
+      "entity": "pragmatics processing",
+      "category": "task"
+    },
+    {
+      "entity": "TACITUS",
+      "category": "method"
+    },
+    {
+      "entity": "agenda-based scheduling parser",
+      "category": "method"
+    },
+    {
+      "entity": "recovery technique",
+      "category": "method"
+    },
+    {
+      "entity": "terminal substring parsing",
+      "category": "method"
+    },
+    {
+      "entity": "abductive inference",
+      "category": "method"
+    },
+    {
+      "entity": "MUC-3 evaluation",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "failed parses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "world knowledge",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "real world",
+      "category": "material"
+    },
+    {
+      "entity": "complete and correct interpretations",
+      "category": "metric"
+    },
+    {
+      "entity": "TACITUS",
+      "category": "material"
+    },
+    {
+      "entity": "MUC-3 evaluation",
+      "category": "material"
+    },
+    {
+      "entity": "syntactic and pragmatic analysis",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic analysis",
+      "category": "method"
+    },
+    {
+      "entity": "agenda-based scheduling parser",
+      "category": "method"
+    },
+    {
+      "entity": "recovery technique for failed parses",
+      "category": "method"
+    },
+    {
+      "entity": "terminal substring parsing",
+      "category": "method"
+    },
+    {
+      "entity": "pragmatics processing",
+      "category": "method"
+    },
+    {
+      "entity": "abductive inference",
+      "category": "method"
+    },
+    {
+      "entity": "world knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "evaluations",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "syntactic and pragmatic analysis",
+      "predicted": "syntactic and pragmatic analysis",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "syntactic analysis",
+      "predicted": "syntactic analysis",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "pragmatics processing",
+      "predicted": "pragmatics processing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "TACITUS",
+      "predicted": "TACITUS",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "MUC-3 evaluation",
+      "predicted": "MUC-3 evaluation",
+      "gold_category": "metric",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "world knowledge",
+      "predicted": "world knowledge",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "category": "task"
+    },
+    {
+      "gold": "agenda-based scheduling parser",
+      "predicted": "agenda-based scheduling parser",
+      "category": "method"
+    },
+    {
+      "gold": "terminal substring parsing",
+      "predicted": "terminal substring parsing",
+      "category": "method"
+    },
+    {
+      "gold": "abductive inference",
+      "predicted": "abductive inference",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "recovery technique",
+      "category": "method"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "failed parses",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "real world",
+      "category": "material"
+    },
+    {
+      "entity": "complete and correct interpretations",
+      "category": "metric"
+    },
+    {
+      "entity": "recovery technique for failed parses",
+      "category": "method"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "evaluations",
+      "category": "material"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 5,
+    "metric": 2,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 6,
+    "metric": 2,
+    "method": 7
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.3076923076923077,
+  "f1": 0.27586206896551724,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 16,
+    "exact_matches": 6,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

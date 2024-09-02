@@ -1,0 +1,154 @@
+{
+  "doc_key": "P84-1020",
+  "gold_entities": [
+    {
+      "entity": "natural language system",
+      "category": "method"
+    },
+    {
+      "entity": "ungrammatical input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer aided second language learning",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language system",
+      "category": "method"
+    },
+    {
+      "entity": "ungrammatical input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer aided second language learning",
+      "category": "material"
+    },
+    {
+      "entity": "general mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "framework",
+      "category": "method"
+    },
+    {
+      "entity": "assessing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "developments",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computer aided second language learning",
+      "predicted": "computer aided second language learning",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "natural language system",
+      "predicted": "natural language system",
+      "category": "method"
+    },
+    {
+      "gold": "ungrammatical input",
+      "predicted": "ungrammatical input",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "general mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "framework",
+      "category": "method"
+    },
+    {
+      "entity": "assessing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "developments",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 2,
+    "material": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.6666666666666666,
+  "f1": 0.4,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 4,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,196 @@
+{
+  "gold_entities": [
+    {
+      "entity": "dependency-based grammar model",
+      "category": "Method"
+    },
+    {
+      "entity": "gb's binding theory",
+      "category": "Method"
+    },
+    {
+      "entity": "grosz-sidner-style focus model",
+      "category": "Method"
+    },
+    {
+      "entity": "anaphora resolution within sentence boundaries",
+      "category": "Task"
+    },
+    {
+      "entity": "sentence-level and text-level anaphora",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "text-level anaphora",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "sentence-level anaphora",
+      "category": "Task"
+    },
+    {
+      "entity": "text-level anaphora",
+      "category": "Task"
+    },
+    {
+      "entity": "dependency-based grammar model",
+      "category": "Method"
+    },
+    {
+      "entity": "anaphora resolution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "criteria",
+      "category": "Method"
+    },
+    {
+      "entity": "major concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "binding theory",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "groszsidnerstyle focus model",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "text boundaries",
+      "category": "Material"
+    },
+    {
+      "entity": "focus model",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "criteria",
+      "category": "Generic"
+    },
+    {
+      "entity": "those",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "text-level anaphora",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "text-level anaphora",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dependency-based grammar model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dependency-based grammar model",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "dependency-based grammar model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dependency-based grammar model",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "grosz-sidner-style focus model",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "groszsidnerstyle focus model",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "focus model",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.6666666666666665
+    },
+    {
+      "gold": {
+        "entity": "anaphora resolution within sentence boundaries",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "sentence-level anaphora",
+          "category": "Task"
+        },
+        {
+          "entity": "anaphora resolution",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "text boundaries",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "gb's binding theory",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "binding theory",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "sentence-level and text-level anaphora",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "criteria",
+      "category": "Method"
+    },
+    {
+      "entity": "major concepts",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 10,
+    "generic_count": 2,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 2,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

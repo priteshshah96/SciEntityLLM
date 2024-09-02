@@ -1,0 +1,252 @@
+{
+  "doc_key": "ICCV_2011_47_abs",
+  "gold_entities": [
+    {
+      "entity": "detecting 3D objects",
+      "category": "task"
+    },
+    {
+      "entity": "multimodalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dense depth map",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complementary object information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "time consuming training stage",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "untextured objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "templates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "commodity hardware",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single modalities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "3D objects",
+      "category": "method"
+    },
+    {
+      "entity": "multi-modalities",
+      "category": "method"
+    },
+    {
+      "entity": "image",
+      "category": "method"
+    },
+    {
+      "entity": "dense depth map",
+      "category": "method"
+    },
+    {
+      "entity": "object information",
+      "category": "method"
+    },
+    {
+      "entity": "real-time",
+      "category": "method"
+    },
+    {
+      "entity": "heavy clutter",
+      "category": "method"
+    },
+    {
+      "entity": "training stage",
+      "category": "method"
+    },
+    {
+      "entity": "untextured objects",
+      "category": "method"
+    },
+    {
+      "entity": "templates",
+      "category": "method"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "method"
+    },
+    {
+      "entity": "commodity hardware",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "image",
+      "predicted": "image",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "dense depth map",
+      "predicted": "dense depth map",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "untextured objects",
+      "predicted": "untextured objects",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "templates",
+      "predicted": "templates",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "commodity hardware",
+      "predicted": "commodity hardware",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "detecting 3D objects",
+      "predicted": "3D objects",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "complementary object information",
+      "predicted": "object information",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "time consuming training stage",
+      "predicted": "training stage",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multimodalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "single modalities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "multi-modalities",
+      "category": "method"
+    },
+    {
+      "entity": "real-time",
+      "category": "method"
+    },
+    {
+      "entity": "heavy clutter",
+      "category": "method"
+    },
+    {
+      "entity": "state-of-the-art methods",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 10
+  },
+  "predicted_category_counts": {
+    "method": 11,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 0,
+      "exact_matches": 5,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 11,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 12,
+    "exact_matches": 5,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 4,
+    "generic_entities": 7
+  },
+  "empty_category_entities": []
+}

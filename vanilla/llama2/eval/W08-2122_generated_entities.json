@@ -1,0 +1,250 @@
+{
+  "gold_entities": [
+    {
+      "entity": "generative history-based latent variable model",
+      "category": "Method"
+    },
+    {
+      "entity": "macro-average f1 performance",
+      "category": "Metric"
+    },
+    {
+      "entity": "syntactic dependencies las",
+      "category": "Metric"
+    },
+    {
+      "entity": "semantic dependencies f1",
+      "category": "Metric"
+    },
+    {
+      "entity": "macro-average f1",
+      "category": "Metric"
+    },
+    {
+      "entity": "syntactic dependencies las",
+      "category": "Metric"
+    },
+    {
+      "entity": "semantic dependencies f1",
+      "category": "Metric"
+    },
+    {
+      "entity": "conll 2008 shared task",
+      "category": "Task"
+    },
+    {
+      "entity": "synchronous dependency parser",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic and semantic dependencies",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "conll 2008",
+      "category": "Task"
+    },
+    {
+      "entity": "generative history-based latent variable model",
+      "category": "Method"
+    },
+    {
+      "entity": "synchronous dependency parser",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic dependencies",
+      "category": "Metric"
+    },
+    {
+      "entity": "semantic dependencies",
+      "category": "Metric"
+    },
+    {
+      "entity": "las",
+      "category": "Metric"
+    },
+    {
+      "entity": "f1",
+      "category": "Metric"
+    },
+    {
+      "entity": "macro-average f1",
+      "category": "Metric"
+    },
+    {
+      "entity": "larger model",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "task",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "generative history-based latent variable model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "generative history-based latent variable model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "synchronous dependency parser",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "synchronous dependency parser",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "macro-average f1",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "macro-average f1",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "generative history-based latent variable model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "generative history-based latent variable model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "synchronous dependency parser",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "synchronous dependency parser",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "macro-average f1",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "macro-average f1",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "syntactic dependencies las",
+        "category": "Metric"
+      },
+      "predicted": [
+        {
+          "entity": "syntactic dependencies",
+          "category": "Metric"
+        },
+        {
+          "entity": "semantic dependencies",
+          "category": "Metric"
+        },
+        {
+          "entity": "las",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 2.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "macro-average f1 performance",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "f1",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "conll 2008 shared task",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "conll 2008",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "semantic dependencies f1",
+      "category": "Metric"
+    },
+    {
+      "entity": "syntactic dependencies las",
+      "category": "Metric"
+    },
+    {
+      "entity": "semantic dependencies f1",
+      "category": "Metric"
+    },
+    {
+      "entity": "syntactic and semantic dependencies",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "larger model",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "syntactic dependencies las": 2,
+    "semantic dependencies f1": 2
+  },
+  "distinct_repeated_entities": [
+    "syntactic dependencies las",
+    "semantic dependencies f1"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 9,
+    "generic_count": 3,
+    "exact_matches": 3,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

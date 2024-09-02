@@ -1,0 +1,167 @@
+{
+  "doc_key": "E83-1029",
+  "gold_entities": [
+    {
+      "entity": "scenes descriptions in natural language",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "Procedural Systemic Grammar",
+      "category": "method"
+    },
+    {
+      "entity": "semantic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "Conceptual Dependency Theory",
+      "category": "method"
+    },
+    {
+      "entity": "dictionary",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Syntactic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "Procedural Systemic Grammar",
+      "category": "method"
+    },
+    {
+      "entity": "Semantic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "conceptual dependency theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "syntactic analyzer",
+      "predicted": "Syntactic analyzer",
+      "category": "method"
+    },
+    {
+      "gold": "Procedural Systemic Grammar",
+      "predicted": "Procedural Systemic Grammar",
+      "category": "method"
+    },
+    {
+      "gold": "semantic analyzer",
+      "predicted": "Semantic analyzer",
+      "category": "method"
+    },
+    {
+      "gold": "Conceptual Dependency Theory",
+      "predicted": "conceptual dependency theory",
+      "category": "method"
+    },
+    {
+      "gold": "dictionary",
+      "predicted": "Dictionary",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "syntactic analyzer",
+      "category": "method"
+    },
+    {
+      "entity": "Procedural Systemic Grammar",
+      "category": "method"
+    },
+    {
+      "entity": "semantic analyzer",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "scenes descriptions in natural language",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "method": 4,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "otherscientificterm": 1,
+    "material": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.16666666666666666,
+  "f1": 0.1818181818181818,
+  "category_precision": 0.8,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.7272727272727272,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 5,
+    "exact_matches": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 0,
+    "generic_entities": 3,
+    "correct_predictions": 1,
+    "correct_categories": 4
+  }
+}

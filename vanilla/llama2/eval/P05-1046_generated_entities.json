@@ -1,0 +1,292 @@
+{
+  "gold_entities": [
+    {
+      "entity": "supervised training data",
+      "category": "Material"
+    },
+    {
+      "entity": "classified advertisements",
+      "category": "Material"
+    },
+    {
+      "entity": "bibliographic citations",
+      "category": "Material"
+    },
+    {
+      "entity": "field structured text",
+      "category": "Material"
+    },
+    {
+      "entity": "unlabeled examples",
+      "category": "Material"
+    },
+    {
+      "entity": "labeled examples",
+      "category": "Material"
+    },
+    {
+      "entity": "labeled data",
+      "category": "Material"
+    },
+    {
+      "entity": "information extraction techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "hidden markov models (hmms)",
+      "category": "Method"
+    },
+    {
+      "entity": "generative model",
+      "category": "Method"
+    },
+    {
+      "entity": "unsupervised hmm learning",
+      "category": "Method"
+    },
+    {
+      "entity": "unsupervised methods",
+      "category": "Method"
+    },
+    {
+      "entity": "supervised methods",
+      "category": "Method"
+    },
+    {
+      "entity": "semi-supervised methods",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracies",
+      "category": "Metric"
+    },
+    {
+      "entity": "field structured extraction tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "information extraction",
+      "category": "Task"
+    },
+    {
+      "entity": "supervised training data",
+      "category": "Method"
+    },
+    {
+      "entity": "hidden markov models",
+      "category": "Method"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "unsupervised learning",
+      "category": "Method"
+    },
+    {
+      "entity": "semi-supervised learning",
+      "category": "Method"
+    },
+    {
+      "entity": "labeled data",
+      "category": "Material"
+    },
+    {
+      "entity": "unlabeled examples",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "supervised training data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "supervised training data",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "prior knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "prior knowledge",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "labeled data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "labeled data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "unlabeled examples",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "unlabeled examples",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "prior knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "prior knowledge",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "labeled data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "labeled data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "unlabeled examples",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "unlabeled examples",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "unsupervised hmm learning",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "unsupervised learning",
+          "category": "Method"
+        },
+        {
+          "entity": "semi-supervised learning",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "information extraction techniques",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "information extraction",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "hidden markov models (hmms)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "hidden markov models",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "classified advertisements",
+      "category": "Material"
+    },
+    {
+      "entity": "bibliographic citations",
+      "category": "Material"
+    },
+    {
+      "entity": "field structured text",
+      "category": "Material"
+    },
+    {
+      "entity": "labeled examples",
+      "category": "Material"
+    },
+    {
+      "entity": "generative model",
+      "category": "Method"
+    },
+    {
+      "entity": "unsupervised methods",
+      "category": "Method"
+    },
+    {
+      "entity": "supervised methods",
+      "category": "Method"
+    },
+    {
+      "entity": "semi-supervised methods",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracies",
+      "category": "Metric"
+    },
+    {
+      "entity": "field structured extraction tasks",
+      "category": "Task"
+    },
+    {
+      "entity": "prior knowledge",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {
+    "prior knowledge": 2
+  },
+  "distinct_repeated_entities": [
+    "prior knowledge"
+  ],
+  "counts": {
+    "gold_count": 18,
+    "generated_count": 8,
+    "generic_count": 0,
+    "exact_matches": 4,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

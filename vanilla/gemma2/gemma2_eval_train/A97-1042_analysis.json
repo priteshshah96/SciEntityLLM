@@ -1,0 +1,240 @@
+{
+  "doc_key": "A97-1042",
+  "gold_entities": [
+    {
+      "entity": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "entity": "positions of topicbearing sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genrespecific regularities of discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "routing",
+      "category": "task"
+    },
+    {
+      "entity": "text summarization",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "position",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genre",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "application",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Information Retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "Routing",
+      "category": "task"
+    },
+    {
+      "entity": "Text Summarization",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Optimal Position Policy",
+      "predicted": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "gold": "information retrieval",
+      "predicted": "Information Retrieval",
+      "category": "task"
+    },
+    {
+      "gold": "routing",
+      "predicted": "Routing",
+      "category": "task"
+    },
+    {
+      "gold": "text summarization",
+      "predicted": "Text Summarization",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "routing",
+      "category": "task"
+    },
+    {
+      "entity": "text summarization",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "positions of topicbearing sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genrespecific regularities of discourse structure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "position",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genre",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regularity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "application",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 2,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 8,
+    "method": 3,
+    "task": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 8,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07142857142857142,
+  "recall": 0.16666666666666666,
+  "f1": 0.1,
+  "category_precision": 0.42857142857142855,
+  "category_recall": 1.0,
+  "category_f1": 0.6,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 14,
+    "exact_matches": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 10,
+    "generic_entities": 3,
+    "correct_predictions": 1,
+    "correct_categories": 6
+  }
+}

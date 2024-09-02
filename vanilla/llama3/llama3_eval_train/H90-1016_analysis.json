@@ -1,0 +1,316 @@
+{
+  "doc_key": "H90-1016",
+  "gold_entities": [
+    {
+      "entity": "integrated Spoken Language System",
+      "category": "method"
+    },
+    {
+      "entity": "fully-connected first-order statistical class grammar",
+      "category": "method"
+    },
+    {
+      "entity": "speech-search algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "natural language system",
+      "category": "method"
+    },
+    {
+      "entity": "nbest sentence hypotheses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammar coverage problems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "board",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intel i860 chip",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sun 4",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "straight c code",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "board",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vme bus",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sun4",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "application back end",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "N-Best sentence hypotheses",
+      "category": "metric"
+    },
+    {
+      "entity": "grammar coverage problems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fully-connected first-order statistical class grammar",
+      "category": "material"
+    },
+    {
+      "entity": "speech-search algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Intel i860 chip",
+      "category": "material"
+    },
+    {
+      "entity": "VME bus",
+      "category": "material"
+    },
+    {
+      "entity": "natural language system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "application back end",
+      "category": "material"
+    },
+    {
+      "entity": "SUN 4",
+      "category": "material"
+    },
+    {
+      "entity": "straight C code",
+      "category": "material"
+    },
+    {
+      "entity": "integrated spoken language system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "real-time demonstration",
+      "category": "task"
+    },
+    {
+      "entity": "board",
+      "category": "material"
+    },
+    {
+      "entity": "first-order statistical class grammar",
+      "category": "material"
+    },
+    {
+      "entity": "statistical class grammar",
+      "category": "material"
+    },
+    {
+      "entity": "single Intel i860 chip",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "integrated Spoken Language System",
+      "predicted": "integrated spoken language system",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "fully-connected first-order statistical class grammar",
+      "predicted": "fully-connected first-order statistical class grammar",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "natural language system",
+      "predicted": "natural language system",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "board",
+      "predicted": "board",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "intel i860 chip",
+      "predicted": "Intel i860 chip",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "sun 4",
+      "predicted": "SUN 4",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "straight c code",
+      "predicted": "straight C code",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "vme bus",
+      "predicted": "VME bus",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "application back end",
+      "predicted": "application back end",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "speech-search algorithm",
+      "predicted": "speech-search algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "grammar coverage problems",
+      "predicted": "grammar coverage problems",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "nbest sentence hypotheses",
+      "predicted": "N-Best sentence hypotheses",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "board",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sun4",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "real-time demonstration",
+      "category": "task"
+    },
+    {
+      "entity": "first-order statistical class grammar",
+      "category": "material"
+    },
+    {
+      "entity": "statistical class grammar",
+      "category": "material"
+    },
+    {
+      "entity": "single Intel i860 chip",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "board|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 10
+  },
+  "predicted_category_counts": {
+    "metric": 1,
+    "otherscientificterm": 3,
+    "material": 10,
+    "method": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 10,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 3,
+      "exact_matches": 6,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.14285714285714285,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 16,
+    "exact_matches": 9,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 4,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

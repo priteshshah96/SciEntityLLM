@@ -1,0 +1,192 @@
+{
+  "doc_key": "N03-2017",
+  "gold_entities": [
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "English phrases",
+      "category": "material"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "syntax-based constraint",
+      "category": "method"
+    },
+    {
+      "entity": "word alignment",
+      "category": "task"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "english phrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "French sentence",
+      "category": "material"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "English phrases",
+      "predicted": "english phrases",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "cohesion constraint",
+      "predicted": "cohesion constraint",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "word alignment",
+      "predicted": "word alignment",
+      "category": "task"
+    },
+    {
+      "gold": "French sentence",
+      "predicted": "French sentence",
+      "category": "material"
+    },
+    {
+      "gold": "alignment quality",
+      "predicted": "alignment quality",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "syntaxbased constraint",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "syntax-based constraint",
+      "category": "method"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 2,
+    "task": 1,
+    "material": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 2,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.6666666666666666,
+  "f1": 0.5714285714285715,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 8,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,516 @@
+{
+  "gold_entities": [
+    {
+      "entity": "natural images",
+      "category": "Material"
+    },
+    {
+      "entity": "natural images",
+      "category": "Material"
+    },
+    {
+      "entity": "diagrams",
+      "category": "Material"
+    },
+    {
+      "entity": "diagrams",
+      "category": "Method"
+    },
+    {
+      "entity": "diagram parse graphs (dpg)",
+      "category": "Method"
+    },
+    {
+      "entity": "dpgs",
+      "category": "Method"
+    },
+    {
+      "entity": "lstm-based method",
+      "category": "Method"
+    },
+    {
+      "entity": "dpg-based attention model",
+      "category": "Method"
+    },
+    {
+      "entity": "dpgs",
+      "category": "Method"
+    },
+    {
+      "entity": "understanding natural images",
+      "category": "Task"
+    },
+    {
+      "entity": "computer vision",
+      "category": "Task"
+    },
+    {
+      "entity": "diagram understanding",
+      "category": "Task"
+    },
+    {
+      "entity": "diagram interpretation and reasoning",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic parsing of diagrams",
+      "category": "Task"
+    },
+    {
+      "entity": "semantic interpretation and reasoning of diagrams",
+      "category": "Task"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic parsing of diagrams",
+      "category": "Task"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic parsing and question answering in diagrams",
+      "category": "Task"
+    },
+    {
+      "entity": "complex concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relationships",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "events",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "structure of a diagram",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "structure of diagrams",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "diagrams",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complex concepts",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relationships",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "events",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "natural images",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "computer vision",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "diagram understanding",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "diagram interpretation",
+      "category": "Task"
+    },
+    {
+      "entity": "diagram reasoning",
+      "category": "Task"
+    },
+    {
+      "entity": "structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "semantics",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "constituents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relationships",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "diagram parse graphs dpg",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "syntactic parsing",
+      "category": "Method"
+    },
+    {
+      "entity": "semantic interpretation",
+      "category": "Method"
+    },
+    {
+      "entity": "reasoning",
+      "category": "Method"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "Task"
+    },
+    {
+      "entity": "lstm",
+      "category": "Method"
+    },
+    {
+      "entity": "attention model",
+      "category": "Method"
+    },
+    {
+      "entity": "dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "annotations",
+      "category": "Material"
+    },
+    {
+      "entity": "constituents annotations",
+      "category": "Material"
+    },
+    {
+      "entity": "relationships annotations",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "task",
+      "category": "Generic"
+    },
+    {
+      "entity": "dataset",
+      "category": "Generic"
+    },
+    {
+      "entity": "models",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "diagrams",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "diagrams",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "complex concepts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "complex concepts",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relationships",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "relationships",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "events",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "events",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "natural images",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "natural images",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "computer vision",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "computer vision",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "diagram understanding",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "diagram understanding",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "diagram question answering",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "diagram question answering",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "complex concepts",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "complex concepts",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relationships",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "relationships",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "events",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "events",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "diagram question answering",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "diagram question answering",
+        "category": "Task"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "diagram parse graphs (dpg)",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "diagram interpretation",
+          "category": "Task"
+        },
+        {
+          "entity": "diagram reasoning",
+          "category": "Task"
+        },
+        {
+          "entity": "diagram parse graphs dpg",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.75
+    },
+    {
+      "gold": {
+        "entity": "diagram interpretation and reasoning",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "semantic interpretation",
+          "category": "Method"
+        },
+        {
+          "entity": "reasoning",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "dpg-based attention model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "attention model",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "syntactic parsing of diagrams",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "syntactic parsing",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "structure of a diagram",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "structure",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "natural images",
+      "category": "Material"
+    },
+    {
+      "entity": "diagrams",
+      "category": "Method"
+    },
+    {
+      "entity": "dpgs",
+      "category": "Method"
+    },
+    {
+      "entity": "lstm-based method",
+      "category": "Method"
+    },
+    {
+      "entity": "dpgs",
+      "category": "Method"
+    },
+    {
+      "entity": "understanding natural images",
+      "category": "Task"
+    },
+    {
+      "entity": "semantic interpretation and reasoning of diagrams",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic parsing of diagrams",
+      "category": "Task"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "Task"
+    },
+    {
+      "entity": "syntactic parsing and question answering in diagrams",
+      "category": "Task"
+    },
+    {
+      "entity": "structure of diagrams",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "semantics",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "constituents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relationships",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lstm",
+      "category": "Method"
+    },
+    {
+      "entity": "dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "annotations",
+      "category": "Material"
+    },
+    {
+      "entity": "constituents annotations",
+      "category": "Material"
+    },
+    {
+      "entity": "relationships annotations",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "natural images": 2,
+    "diagrams": 2,
+    "dpgs": 2,
+    "syntactic parsing of diagrams": 2,
+    "diagram question answering": 2
+  },
+  "distinct_repeated_entities": [
+    "natural images",
+    "diagrams",
+    "dpgs",
+    "syntactic parsing of diagrams",
+    "diagram question answering"
+  ],
+  "counts": {
+    "gold_count": 24,
+    "generated_count": 24,
+    "generic_count": 3,
+    "exact_matches": 8,
+    "exact_category_matches": 4,
+    "split_matches": 2,
+    "partial_matches": 3,
+    "distinct_repeated_entities": 5,
+    "repeated_entities": 10
+  }
+}

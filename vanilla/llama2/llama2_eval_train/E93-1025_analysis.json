@@ -1,0 +1,207 @@
+{
+  "doc_key": "E93-1025",
+  "gold_entities": [
+    {
+      "entity": "analysis of  ellipsis resolution",
+      "category": "task"
+    },
+    {
+      "entity": "identity-of-relations analyses",
+      "category": "task"
+    },
+    {
+      "entity": "role linking",
+      "category": "task"
+    },
+    {
+      "entity": "discourse copying phenomena",
+      "category": "task"
+    },
+    {
+      "entity": "discourse copying algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "full nps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "referential elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ellipsis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Ellipsis resolution",
+      "category": "task"
+    },
+    {
+      "entity": "Discourse copying algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "identityofrelations analyses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "full nps",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "referential elements",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Role linking",
+      "category": "method"
+    },
+    {
+      "entity": "Predictions",
+      "category": "metric"
+    },
+    {
+      "entity": "problematic examples",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse copying phenomena",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "role linking",
+      "predicted": "Role linking",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "discourse copying phenomena",
+      "predicted": "discourse copying phenomena",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "discourse copying algorithm",
+      "predicted": "Discourse copying algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "full nps",
+      "predicted": "full nps",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "referential elements",
+      "predicted": "referential elements",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "analysis of  ellipsis resolution",
+      "predicted": "Ellipsis resolution",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "identity-of-relations analyses",
+      "category": "task"
+    },
+    {
+      "entity": "ellipsis",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "identityofrelations analyses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Predictions",
+      "category": "metric"
+    },
+    {
+      "entity": "problematic examples",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 1,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "otherscientificterm": 5,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.375,
+  "f1": 0.35294117647058826,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

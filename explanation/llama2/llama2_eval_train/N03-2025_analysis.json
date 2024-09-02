@@ -1,0 +1,277 @@
+{
+  "doc_key": "N03-2025",
+  "gold_entities": [
+    {
+      "entity": "bootstrapping approach",
+      "category": "method"
+    },
+    {
+      "entity": "successive learners",
+      "category": "method"
+    },
+    {
+      "entity": "bootstrapping procedure",
+      "category": "method"
+    },
+    {
+      "entity": "successive learners",
+      "category": "method"
+    },
+    {
+      "entity": "Hidden Markov Model",
+      "category": "method"
+    },
+    {
+      "entity": "NE system",
+      "category": "method"
+    },
+    {
+      "entity": "Named Entity (NE) tagging",
+      "category": "task"
+    },
+    {
+      "entity": "supervised NE",
+      "category": "task"
+    },
+    {
+      "entity": "conceptbased seeds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ne",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "person ne",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "decision list",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsingbased ne rules",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Named Entity (NE) tagging",
+      "category": "task"
+    },
+    {
+      "entity": "concept-based seeds",
+      "category": "method"
+    },
+    {
+      "entity": "successive learners",
+      "category": "method"
+    },
+    {
+      "entity": "bootstrapping approach",
+      "category": "method"
+    },
+    {
+      "entity": "common noun or pronoun seeds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "person ne",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "decision list",
+      "category": "method"
+    },
+    {
+      "entity": "Hidden Markov Model (HMM)",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "supervised NE performance",
+      "category": "metric"
+    },
+    {
+      "entity": "ne types",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "decision list",
+      "predicted": "decision list",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "bootstrapping approach",
+      "predicted": "bootstrapping approach",
+      "category": "method"
+    },
+    {
+      "gold": "successive learners",
+      "predicted": "successive learners",
+      "category": "method"
+    },
+    {
+      "gold": "Named Entity (NE) tagging",
+      "predicted": "Named Entity (NE) tagging",
+      "category": "task"
+    },
+    {
+      "gold": "person ne",
+      "predicted": "person ne",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Hidden Markov Model",
+      "predicted": "Hidden Markov Model (HMM)",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "supervised NE",
+      "predicted": "supervised NE performance",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "ne",
+      "predicted": "ne types",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "successive learners",
+      "category": "method"
+    },
+    {
+      "entity": "bootstrapping procedure",
+      "category": "method"
+    },
+    {
+      "entity": "NE system",
+      "category": "method"
+    },
+    {
+      "entity": "conceptbased seeds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsingbased ne rules",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "concept-based seeds",
+      "category": "method"
+    },
+    {
+      "entity": "common noun or pronoun seeds",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "successive learners|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 2,
+    "otherscientificterm": 5
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 5,
+    "otherscientificterm": 3,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.3076923076923077,
+  "f1": 0.33333333333333337,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

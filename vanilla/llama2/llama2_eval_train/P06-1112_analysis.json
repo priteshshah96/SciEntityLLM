@@ -1,0 +1,230 @@
+{
+  "doc_key": "P06-1112",
+  "gold_entities": [
+    {
+      "entity": "correlation of dependency relation paths",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dependency relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mapping score",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "answer extraction",
+      "category": "task"
+    },
+    {
+      "entity": "correlation measure",
+      "category": "metric"
+    },
+    {
+      "entity": "correlation measure",
+      "category": "metric"
+    },
+    {
+      "entity": "MRR",
+      "category": "metric"
+    },
+    {
+      "entity": "approximate phrase mapping algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Maximum Entropy-based ranking model",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic relation-based methods",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Dependency relation paths",
+      "category": "task"
+    },
+    {
+      "entity": "Correlation measure",
+      "category": "metric"
+    },
+    {
+      "entity": "Question phrases",
+      "category": "material"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "Mapping score",
+      "category": "method"
+    },
+    {
+      "entity": "Maximum Entropy-based ranking model",
+      "category": "method"
+    },
+    {
+      "entity": "path weights",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "mapping score",
+      "predicted": "Mapping score",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "correlation measure",
+      "predicted": "Correlation measure",
+      "category": "metric"
+    },
+    {
+      "gold": "Maximum Entropy-based ranking model",
+      "predicted": "Maximum Entropy-based ranking model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "correlation of dependency relation paths",
+      "predicted": "Dependency relation paths",
+      "score": 0.6,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dependency relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "answer extraction",
+      "category": "task"
+    },
+    {
+      "entity": "correlation measure",
+      "category": "metric"
+    },
+    {
+      "entity": "MRR",
+      "category": "metric"
+    },
+    {
+      "entity": "approximate phrase mapping algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic relation-based methods",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Question phrases",
+      "category": "material"
+    },
+    {
+      "entity": "Sentence",
+      "category": "material"
+    },
+    {
+      "entity": "path weights",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "correlation measure|metric": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "task": 1,
+    "metric": 3,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "metric": 1,
+    "material": 2,
+    "method": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.2,
+  "f1": 0.23529411764705882,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

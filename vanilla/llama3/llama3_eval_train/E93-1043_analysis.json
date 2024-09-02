@@ -1,0 +1,240 @@
+{
+  "doc_key": "E93-1043",
+  "gold_entities": [
+    {
+      "entity": "morphological component",
+      "category": "method"
+    },
+    {
+      "entity": "feature-based word grammar",
+      "category": "method"
+    },
+    {
+      "entity": "CommonLisp",
+      "category": "method"
+    },
+    {
+      "entity": "derived words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "twolevel morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hierarchical lexicon",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "polymorphemic stems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compositional interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "derived words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "words formed adhoc",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "German derivation",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "morphological component",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "two-level morphology",
+      "category": "method"
+    },
+    {
+      "entity": "feature-based word grammar",
+      "category": "method"
+    },
+    {
+      "entity": "hierarchical lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "polymorphemic stems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compositional interpretation",
+      "category": "method"
+    },
+    {
+      "entity": "redundancy",
+      "category": "metric"
+    },
+    {
+      "entity": "derived words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "CommonLisp",
+      "category": "material"
+    },
+    {
+      "entity": "German derivation",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "morphological component",
+      "predicted": "morphological component",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "CommonLisp",
+      "predicted": "CommonLisp",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "hierarchical lexicon",
+      "predicted": "hierarchical lexicon",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "compositional interpretation",
+      "predicted": "compositional interpretation",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "feature-based word grammar",
+      "predicted": "feature-based word grammar",
+      "category": "method"
+    },
+    {
+      "gold": "derived words",
+      "predicted": "derived words",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "polymorphemic stems",
+      "predicted": "polymorphemic stems",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "German derivation",
+      "predicted": "German derivation",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "derived words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "twolevel morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "words formed adhoc",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "two-level morphology",
+      "category": "method"
+    },
+    {
+      "entity": "redundancy",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "derived words|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 7,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "method": 3,
+    "material": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.36363636363636365,
+  "f1": 0.380952380952381,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 10,
+    "exact_matches": 4,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 2,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,317 @@
+{
+  "doc_key": "W03-2907",
+  "gold_entities": [
+    {
+      "entity": "unsupervised learning  of  parts of speech",
+      "category": "task"
+    },
+    {
+      "entity": "unsupervised learning  of  POS tags in English",
+      "category": "task"
+    },
+    {
+      "entity": "POS learning",
+      "category": "task"
+    },
+    {
+      "entity": "morphological and syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word order",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "free word order",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rich morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Bulgarian",
+      "category": "material"
+    },
+    {
+      "entity": "Slavic language",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "unsupervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "parts of speech",
+      "category": "metric"
+    },
+    {
+      "entity": "morphological information",
+      "category": "method"
+    },
+    {
+      "entity": "syntactic information",
+      "category": "method"
+    },
+    {
+      "entity": "model",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "POS tags",
+      "category": "metric"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "morphology",
+      "category": "method"
+    },
+    {
+      "entity": "word order",
+      "category": "metric"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "Bulgarian",
+      "category": "material"
+    },
+    {
+      "entity": "Slavic language",
+      "category": "material"
+    },
+    {
+      "entity": "free word order",
+      "category": "metric"
+    },
+    {
+      "entity": "rich morphology",
+      "category": "metric"
+    },
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "POS learning",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "POS learning",
+      "predicted": "POS learning",
+      "category": "task"
+    },
+    {
+      "gold": "syntactic information",
+      "predicted": "syntactic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "morphology",
+      "predicted": "morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "word order",
+      "predicted": "word order",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "free word order",
+      "predicted": "free word order",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "rich morphology",
+      "predicted": "rich morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Bulgarian",
+      "predicted": "Bulgarian",
+      "category": "material"
+    },
+    {
+      "gold": "Slavic language",
+      "predicted": "Slavic language",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "unsupervised learning  of  parts of speech",
+      "predicted": "parts of speech",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "morphological and syntactic information",
+      "predicted": "morphological information",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "POS learning",
+      "category": "task"
+    },
+    {
+      "entity": "Bulgarian",
+      "category": "material"
+    },
+    {
+      "entity": "Slavic language",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "unsupervised learning  of  POS tags in English",
+      "category": "task"
+    },
+    {
+      "entity": "morphology",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "unsupervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "unsupervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "model",
+      "category": "method"
+    },
+    {
+      "entity": "POS tags",
+      "category": "metric"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "languages",
+      "category": "material"
+    },
+    {
+      "entity": "computational model",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "morphology|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "otherscientificterm": 7,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "metric": 5,
+    "material": 4,
+    "task": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 0,
+      "exact_matches": 5,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1875,
+  "recall": 0.2727272727272727,
+  "f1": 0.2222222222222222,
+  "category_precision": 0.17647058823529413,
+  "category_recall": 0.25,
+  "category_f1": 0.20689655172413793,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 17,
+    "exact_matches": 8,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 5,
+    "correct_predictions": 3,
+    "correct_categories": 3
+  }
+}

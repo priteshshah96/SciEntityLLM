@@ -1,0 +1,243 @@
+{
+  "doc_key": "C92-4207",
+  "gold_entities": [
+    {
+      "entity": "spatial descriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "qualitative spatial constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "numerical constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial attributes of the entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Japanese",
+      "category": "material"
+    },
+    {
+      "entity": "natural language texts",
+      "category": "material"
+    },
+    {
+      "entity": "geometric model",
+      "category": "method"
+    },
+    {
+      "entity": "computer program   SPRINT",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "spatial descriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "japanese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Global scene",
+      "category": "task"
+    },
+    {
+      "entity": "SPRINT",
+      "category": "method"
+    },
+    {
+      "entity": "Natural language texts",
+      "category": "material"
+    },
+    {
+      "entity": "Qualitative spatial constraints",
+      "category": "metric"
+    },
+    {
+      "entity": "Spatial attributes",
+      "category": "task"
+    },
+    {
+      "entity": "entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vagueness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "maximally plausible interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporary belief",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "qualitative spatial constraints",
+      "predicted": "Qualitative spatial constraints",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "Japanese",
+      "predicted": "japanese",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "spatial descriptions",
+      "predicted": "spatial descriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language texts",
+      "predicted": "Natural language texts",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "numerical constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial attributes of the entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric model",
+      "category": "method"
+    },
+    {
+      "entity": "computer program   SPRINT",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Global scene",
+      "category": "task"
+    },
+    {
+      "entity": "SPRINT",
+      "category": "method"
+    },
+    {
+      "entity": "Spatial attributes",
+      "category": "task"
+    },
+    {
+      "entity": "entities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vagueness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "maximally plausible interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporary belief",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 5,
+    "material": 2,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "task": 2,
+    "method": 1,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 6,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.2222222222222222,
+  "f1": 0.19999999999999998,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

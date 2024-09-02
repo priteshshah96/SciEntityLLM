@@ -1,0 +1,172 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ferret",
+      "category": "Method"
+    },
+    {
+      "entity": "interactive question-answering (q/a) system",
+      "category": "Method"
+    },
+    {
+      "entity": "ferret",
+      "category": "Method"
+    },
+    {
+      "entity": "q/a",
+      "category": "Method"
+    },
+    {
+      "entity": "predictive questioning",
+      "category": "Method"
+    },
+    {
+      "entity": "integrating automatic q/a applications into real-world environments",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "ferret",
+      "category": "Task"
+    },
+    {
+      "entity": "interactive question-answering",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic q/a",
+      "category": "Task"
+    },
+    {
+      "entity": "predictive questioning",
+      "category": "Method"
+    },
+    {
+      "entity": "questions",
+      "category": "Metric"
+    },
+    {
+      "entity": "answers",
+      "category": "Metric"
+    },
+    {
+      "entity": "users",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenario",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "ferret",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "ferret",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "predictive questioning",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "interactive question-answering (q/a) system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "interactive question-answering",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "integrating automatic q/a applications into real-world environments",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "automatic q/a",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "ferret",
+      "category": "Method"
+    },
+    {
+      "entity": "q/a",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "questions",
+      "category": "Metric"
+    },
+    {
+      "entity": "answers",
+      "category": "Metric"
+    },
+    {
+      "entity": "users",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scenario",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "ferret": 2
+  },
+  "distinct_repeated_entities": [
+    "ferret"
+  ],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 8,
+    "generic_count": 1,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "doc_key": "IJCAI_2010_5_abs",
+  "gold_entities": [
+    {
+      "entity": "linear classification",
+      "category": "task"
+    },
+    {
+      "entity": "document classification",
+      "category": "task"
+    },
+    {
+      "entity": "training methods",
+      "category": "method"
+    },
+    {
+      "entity": "block minimization framework",
+      "category": "method"
+    },
+    {
+      "entity": "learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "primal and dual SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "computer memory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "memory capacity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "random access",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disk",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "memory size",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disk",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Block Minimization Framework",
+      "category": "method"
+    },
+    {
+      "entity": "Primal SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "Dual SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "Random Access to Disk",
+      "category": "method"
+    },
+    {
+      "entity": "Data Loading from Disk",
+      "category": "task"
+    },
+    {
+      "entity": "Learning Methods",
+      "category": "method"
+    },
+    {
+      "entity": "Document Classification",
+      "category": "task"
+    },
+    {
+      "entity": "Computer Memory",
+      "category": "material"
+    },
+    {
+      "entity": "Disk",
+      "category": "material"
+    },
+    {
+      "entity": "Data Sets",
+      "category": "material"
+    },
+    {
+      "entity": "Memory Size",
+      "category": "metric"
+    },
+    {
+      "entity": "Data Capacity",
+      "category": "metric"
+    },
+    {
+      "entity": "Linear Classification",
+      "category": "method"
+    },
+    {
+      "entity": "Efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "Training Methods",
+      "category": "method"
+    },
+    {
+      "entity": "assumptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "design considerations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Effectiveness",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "linear classification",
+      "predicted": "Linear Classification",
+      "category": "task"
+    },
+    {
+      "gold": "document classification",
+      "predicted": "Document Classification",
+      "category": "task"
+    },
+    {
+      "gold": "training methods",
+      "predicted": "Training Methods",
+      "category": "method"
+    },
+    {
+      "gold": "block minimization framework",
+      "predicted": "Block Minimization Framework",
+      "category": "method"
+    },
+    {
+      "gold": "learning methods",
+      "predicted": "Learning Methods",
+      "category": "method"
+    },
+    {
+      "gold": "computer memory",
+      "predicted": "Computer Memory",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "disk",
+      "predicted": "Disk",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "memory size",
+      "predicted": "Memory Size",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "primal and dual SVMs",
+      "predicted": "Primal SVMs",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "random access",
+      "predicted": "Random Access to Disk",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "document classification",
+      "category": "task"
+    },
+    {
+      "entity": "training methods",
+      "category": "method"
+    },
+    {
+      "entity": "block minimization framework",
+      "category": "method"
+    },
+    {
+      "entity": "learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "primal and dual SVMs",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "memory capacity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "disk",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Data Loading from Disk",
+      "category": "task"
+    },
+    {
+      "entity": "Data Sets",
+      "category": "material"
+    },
+    {
+      "entity": "Data Capacity",
+      "category": "metric"
+    },
+    {
+      "entity": "Efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "assumptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "design considerations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Effectiveness",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "disk|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 6
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "task": 2,
+    "material": 3,
+    "metric": 4,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 7,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.4444444444444444,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.5333333333333333,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 18,
+    "exact_matches": 8,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 6,
+    "correct_predictions": 0,
+    "correct_categories": 8
+  }
+}

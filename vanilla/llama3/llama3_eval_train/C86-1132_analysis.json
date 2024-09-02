@@ -1,0 +1,254 @@
+{
+  "doc_key": "C86-1132",
+  "gold_entities": [
+    {
+      "entity": "RAREAS",
+      "category": "method"
+    },
+    {
+      "entity": "RAREAS",
+      "category": "method"
+    },
+    {
+      "entity": "marine weather forecasts",
+      "category": "task"
+    },
+    {
+      "entity": "formatted weather data",
+      "category": "material"
+    },
+    {
+      "entity": "natural sublanguages  with  stereotyped text structure",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual or multi-lingual texts",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic and nonlinguistic knowledge",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "RAREAS",
+      "category": "material"
+    },
+    {
+      "entity": "formatted weather data",
+      "category": "material"
+    },
+    {
+      "entity": "stereotyped text structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "non-linguistic knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "temporal adverbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meteorological events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bilingual or multi-lingual texts",
+      "category": "material"
+    },
+    {
+      "entity": "synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "marine weather forecasts",
+      "category": "material"
+    },
+    {
+      "entity": "natural sublanguages",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic",
+      "category": "method"
+    },
+    {
+      "entity": "non-linguistic",
+      "category": "method"
+    },
+    {
+      "entity": "temporal",
+      "category": "method"
+    },
+    {
+      "entity": "meteorological",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "RAREAS",
+      "predicted": "RAREAS",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "marine weather forecasts",
+      "predicted": "marine weather forecasts",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "formatted weather data",
+      "predicted": "formatted weather data",
+      "category": "material"
+    },
+    {
+      "gold": "bilingual or multi-lingual texts",
+      "predicted": "bilingual or multi-lingual texts",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "natural sublanguages  with  stereotyped text structure",
+      "predicted": "stereotyped text structure",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "linguistic and nonlinguistic knowledge",
+      "predicted": "linguistic knowledge",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "RAREAS",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "non-linguistic knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "temporal adverbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meteorological events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "synthesis",
+      "category": "task"
+    },
+    {
+      "entity": "natural sublanguages",
+      "category": "material"
+    },
+    {
+      "entity": "non-linguistic",
+      "category": "method"
+    },
+    {
+      "entity": "temporal",
+      "category": "method"
+    },
+    {
+      "entity": "meteorological",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "RAREAS|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "material": 3,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "material": 7,
+    "otherscientificterm": 3,
+    "task": 1,
+    "method": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.13333333333333333,
+  "recall": 0.2857142857142857,
+  "f1": 0.18181818181818182,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 15,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 8,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

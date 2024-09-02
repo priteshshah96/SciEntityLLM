@@ -1,0 +1,417 @@
+{
+  "doc_key": "ICCV_2005_47_abs",
+  "gold_entities": [
+    {
+      "entity": "Face images of non-frontal views",
+      "category": "task"
+    },
+    {
+      "entity": "face image super-resolution",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "high-resolution reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "face recognition",
+      "category": "task"
+    },
+    {
+      "entity": "pixel-domain super-resolution and recognition",
+      "category": "task"
+    },
+    {
+      "entity": "super-resolution",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "multi-modal super-resolution and face recognition",
+      "category": "task"
+    },
+    {
+      "entity": "face recognition accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "recognition rate",
+      "category": "metric"
+    },
+    {
+      "entity": "recognition rates",
+      "category": "metric"
+    },
+    {
+      "entity": "face recognition systems",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian framework",
+      "category": "method"
+    },
+    {
+      "entity": "tensorface and eigenface representations",
+      "category": "method"
+    },
+    {
+      "entity": "live CCTV camera input",
+      "category": "material"
+    },
+    {
+      "entity": "single modal low-resolution face image",
+      "category": "material"
+    },
+    {
+      "entity": "low-resolution images",
+      "category": "material"
+    },
+    {
+      "entity": "viewpoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tensor space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple factor interactions of training tensor",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "maximum likelihood identity parameter vector",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highresolution tensor space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "imaging modalities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "face recognition accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "face recognition systems",
+      "category": "method"
+    },
+    {
+      "entity": "live CCTV camera input",
+      "category": "material"
+    },
+    {
+      "entity": "Bayesian framework",
+      "category": "method"
+    },
+    {
+      "entity": "multi-modal face image super-resolution",
+      "category": "task"
+    },
+    {
+      "entity": "tensor space",
+      "category": "task"
+    },
+    {
+      "entity": "low-resolution face image",
+      "category": "task"
+    },
+    {
+      "entity": "high-resolution reconstructions",
+      "category": "task"
+    },
+    {
+      "entity": "multiple factor interactions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training tensor",
+      "category": "material"
+    },
+    {
+      "entity": "super-resolution",
+      "category": "method"
+    },
+    {
+      "entity": "recognition",
+      "category": "method"
+    },
+    {
+      "entity": "maximum likelihood identity parameter vector",
+      "category": "method"
+    },
+    {
+      "entity": "high-resolution tensor space",
+      "category": "task"
+    },
+    {
+      "entity": "standard tensorface and eigenface representations",
+      "category": "material"
+    },
+    {
+      "entity": "recognition rates",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "recognition",
+      "predicted": "recognition",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "super-resolution",
+      "predicted": "super-resolution",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "tensor space",
+      "predicted": "tensor space",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "maximum likelihood identity parameter vector",
+      "predicted": "maximum likelihood identity parameter vector",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "high-resolution reconstructions",
+      "predicted": "high-resolution reconstructions",
+      "category": "task"
+    },
+    {
+      "gold": "face recognition accuracy",
+      "predicted": "face recognition accuracy",
+      "category": "metric"
+    },
+    {
+      "gold": "recognition rates",
+      "predicted": "recognition rates",
+      "category": "metric"
+    },
+    {
+      "gold": "face recognition systems",
+      "predicted": "face recognition systems",
+      "category": "method"
+    },
+    {
+      "gold": "Bayesian framework",
+      "predicted": "Bayesian framework",
+      "category": "method"
+    },
+    {
+      "gold": "live CCTV camera input",
+      "predicted": "live CCTV camera input",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "face image super-resolution",
+      "predicted": "multi-modal face image super-resolution",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "tensorface and eigenface representations",
+      "predicted": "standard tensorface and eigenface representations",
+      "score": 0.8,
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "single modal low-resolution face image",
+      "predicted": "low-resolution face image",
+      "score": 0.6,
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "multiple factor interactions of training tensor",
+      "predicted": "multiple factor interactions",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "highresolution tensor space",
+      "predicted": "high-resolution tensor space",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Face images of non-frontal views",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "recognition",
+      "category": "task"
+    },
+    {
+      "entity": "face recognition",
+      "category": "task"
+    },
+    {
+      "entity": "pixel-domain super-resolution and recognition",
+      "category": "task"
+    },
+    {
+      "entity": "multi-modal super-resolution and face recognition",
+      "category": "task"
+    },
+    {
+      "entity": "recognition rate",
+      "category": "metric"
+    },
+    {
+      "entity": "low-resolution images",
+      "category": "material"
+    },
+    {
+      "entity": "viewpoint",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "illumination",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modalities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "imaging modalities",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "training tensor",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "recognition|task": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "task": 10,
+    "metric": 3,
+    "method": 3,
+    "material": 3,
+    "otherscientificterm": 8
+  },
+  "predicted_category_counts": {
+    "metric": 2,
+    "method": 5,
+    "material": 3,
+    "task": 5,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 10,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.375,
+  "recall": 0.2222222222222222,
+  "f1": 0.27906976744186046,
+  "counts": {
+    "gold_entities": 27,
+    "predicted_entities": 16,
+    "exact_matches": 4,
+    "exact_matches_with_category": 6,
+    "partial_matches": 5,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 12,
+    "extra_entities": 1,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

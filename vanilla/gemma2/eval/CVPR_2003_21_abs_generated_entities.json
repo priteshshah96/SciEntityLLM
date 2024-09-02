@@ -1,0 +1,170 @@
+{
+  "gold_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "projective reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "projective reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "3d geometrical configuration",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "3d points and cameras",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "image coordinates",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rational quartic curve",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "- projective reconstruction",
+      "category": "Method"
+    },
+    {
+      "entity": "- 3d geometrical configuration",
+      "category": "Metric"
+    },
+    {
+      "entity": "- correspondences",
+      "category": "Task"
+    },
+    {
+      "entity": "- image coordinates",
+      "category": "Metric"
+    },
+    {
+      "entity": "- projective transform",
+      "category": "Method"
+    },
+    {
+      "entity": "critical configuration",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "- twisted cubic",
+      "category": "Material"
+    },
+    {
+      "entity": "- rational quartic curve",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "projective reconstruction",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "- projective reconstruction",
+          "category": "Method"
+        },
+        {
+          "entity": "- projective transform",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.0
+    },
+    {
+      "gold": {
+        "entity": "3d geometrical configuration",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "- 3d geometrical configuration",
+          "category": "Metric"
+        },
+        {
+          "entity": "critical configuration",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.25
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "image coordinates",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "- image coordinates",
+        "category": "Metric"
+      },
+      "overlap": 0.6666666666666666
+    },
+    {
+      "gold": {
+        "entity": "rational quartic curve",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "- rational quartic curve",
+        "category": "Material"
+      },
+      "overlap": 0.75
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "projective reconstruction",
+      "category": "Task"
+    },
+    {
+      "entity": "3d points and cameras",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "- correspondences",
+      "category": "Task"
+    },
+    {
+      "entity": "- twisted cubic",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "projective reconstruction": 2
+  },
+  "distinct_repeated_entities": [
+    "projective reconstruction"
+  ],
+  "counts": {
+    "gold_count": 7,
+    "generated_count": 8,
+    "generic_count": 0,
+    "exact_matches": 0,
+    "exact_category_matches": 0,
+    "split_matches": 2,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

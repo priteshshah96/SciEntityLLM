@@ -1,0 +1,300 @@
+{
+  "doc_key": "NIPS_2001_11_abs",
+  "gold_entities": [
+    {
+      "entity": "mixed-signal paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "kernels",
+      "category": "method"
+    },
+    {
+      "entity": "externally digital architecture",
+      "category": "method"
+    },
+    {
+      "entity": "binary-binary partial matrix-vector multiplication",
+      "category": "method"
+    },
+    {
+      "entity": "low-resolution analog-to-digital conversion",
+      "category": "method"
+    },
+    {
+      "entity": "random modulation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "high-resolution parallel inner-product computation",
+      "category": "task"
+    },
+    {
+      "entity": "image processing",
+      "category": "task"
+    },
+    {
+      "entity": "highdensity lowpower analog array",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "random statistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analog summation of binary products",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nearbernoulli statistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ciddram analog array prototype",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Full digital resolution",
+      "category": "metric"
+    },
+    {
+      "entity": "highly correlated inputs",
+      "category": "material"
+    },
+    {
+      "entity": "real image data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "mixed-signal paradigm",
+      "category": "method"
+    },
+    {
+      "entity": "high-resolution parallel inner-product computation",
+      "category": "task"
+    },
+    {
+      "entity": "image processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "kernels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "binary-binary partial matrix-vector multiplication",
+      "category": "method"
+    },
+    {
+      "entity": "high-density, low-power analog array",
+      "category": "material"
+    },
+    {
+      "entity": "random statistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analog-to-digital conversion",
+      "category": "method"
+    },
+    {
+      "entity": "full digital resolution",
+      "category": "metric"
+    },
+    {
+      "entity": "lowresolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "CID/DRAM",
+      "category": "material"
+    },
+    {
+      "entity": "0.5 \u00a2 m CMOS",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "kernels",
+      "predicted": "kernels",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "image processing",
+      "predicted": "image processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "mixed-signal paradigm",
+      "predicted": "mixed-signal paradigm",
+      "category": "method"
+    },
+    {
+      "gold": "binary-binary partial matrix-vector multiplication",
+      "predicted": "binary-binary partial matrix-vector multiplication",
+      "category": "method"
+    },
+    {
+      "gold": "high-resolution parallel inner-product computation",
+      "predicted": "high-resolution parallel inner-product computation",
+      "category": "task"
+    },
+    {
+      "gold": "random statistics",
+      "predicted": "random statistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Full digital resolution",
+      "predicted": "full digital resolution",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "low-resolution analog-to-digital conversion",
+      "predicted": "analog-to-digital conversion",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "externally digital architecture",
+      "category": "method"
+    },
+    {
+      "entity": "random modulation scheme",
+      "category": "method"
+    },
+    {
+      "entity": "highdensity lowpower analog array",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analog summation of binary products",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nearbernoulli statistics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ciddram analog array prototype",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highly correlated inputs",
+      "category": "material"
+    },
+    {
+      "entity": "real image data",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "high-density, low-power analog array",
+      "category": "material"
+    },
+    {
+      "entity": "lowresolution",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "CID/DRAM",
+      "category": "material"
+    },
+    {
+      "entity": "0.5 \u00a2 m CMOS",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 2,
+    "otherscientificterm": 5,
+    "metric": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "task": 1,
+    "otherscientificterm": 4,
+    "material": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 0.3125,
+  "f1": 0.35714285714285715,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 4,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

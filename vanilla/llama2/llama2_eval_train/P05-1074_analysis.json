@@ -1,0 +1,292 @@
+{
+  "doc_key": "P05-1074",
+  "gold_entities": [
+    {
+      "entity": "monolingual parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual parallel corpus",
+      "category": "material"
+    },
+    {
+      "entity": "manual word alignments",
+      "category": "material"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase probability",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automatic alignments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "alignment techniques",
+      "category": "method"
+    },
+    {
+      "entity": "paraphrase extraction and ranking methods",
+      "category": "method"
+    },
+    {
+      "entity": "phrase-based statistical machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Monolingual parallel corpus",
+      "category": "task"
+    },
+    {
+      "entity": "Bilingual parallel corpus",
+      "category": "task"
+    },
+    {
+      "entity": "Paraphrase",
+      "category": "task"
+    },
+    {
+      "entity": "Phrase-based statistical machine translation",
+      "category": "method"
+    },
+    {
+      "entity": "Alignment techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Paraphrase probability",
+      "category": "metric"
+    },
+    {
+      "entity": "Translation probabilities",
+      "category": "metric"
+    },
+    {
+      "entity": "contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Manual word alignments",
+      "category": "material"
+    },
+    {
+      "entity": "Automatic alignments",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "bilingual parallel corpus",
+      "predicted": "Bilingual parallel corpus",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "paraphrase probability",
+      "predicted": "Paraphrase probability",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "translation probabilities",
+      "predicted": "Translation probabilities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "automatic alignments",
+      "predicted": "Automatic alignments",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "phrase-based statistical machine translation",
+      "predicted": "Phrase-based statistical machine translation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "manual word alignments",
+      "predicted": "Manual word alignments",
+      "category": "material"
+    },
+    {
+      "gold": "contextual information",
+      "predicted": "contextual information",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "alignment techniques",
+      "predicted": "Alignment techniques",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "monolingual parallel corpora",
+      "predicted": "Monolingual parallel corpus",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "bilingual parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrase extraction and ranking methods",
+      "category": "method"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Paraphrase",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "paraphrases|otherscientificterm": {
+      "count": 4,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "material": 4,
+    "otherscientificterm": 8,
+    "method": 2,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 2,
+    "metric": 2,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 1,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.1875,
+  "f1": 0.23076923076923075,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 10,
+    "exact_matches": 5,
+    "exact_matches_with_category": 3,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

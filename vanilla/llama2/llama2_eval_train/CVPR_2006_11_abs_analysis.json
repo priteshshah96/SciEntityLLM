@@ -1,0 +1,347 @@
+{
+  "doc_key": "CVPR_2006_11_abs",
+  "gold_entities": [
+    {
+      "entity": "recognition scheme",
+      "category": "method"
+    },
+    {
+      "entity": "indexing descriptors",
+      "category": "method"
+    },
+    {
+      "entity": "local region descriptors",
+      "category": "method"
+    },
+    {
+      "entity": "vocabulary tree approach",
+      "category": "method"
+    },
+    {
+      "entity": "efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval quality",
+      "category": "metric"
+    },
+    {
+      "entity": "recognition quality",
+      "category": "metric"
+    },
+    {
+      "entity": "CD-covers",
+      "category": "material"
+    },
+    {
+      "entity": "images of popular music CD's",
+      "category": "material"
+    },
+    {
+      "entity": "database with ground truth",
+      "category": "material"
+    },
+    {
+      "entity": "local regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "background clutter",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quantization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quantization",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "indexing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "retrieval",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "CD-covers",
+      "category": "material"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "popular music CD's",
+      "category": "material"
+    },
+    {
+      "entity": "local regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "descriptors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quantization",
+      "category": "method"
+    },
+    {
+      "entity": "indexing",
+      "category": "method"
+    },
+    {
+      "entity": "retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "database",
+      "category": "material"
+    },
+    {
+      "entity": "ground truth",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "quantization",
+      "predicted": "quantization",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "indexing",
+      "predicted": "indexing",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "CD-covers",
+      "predicted": "CD-covers",
+      "category": "material"
+    },
+    {
+      "gold": "local regions",
+      "predicted": "local regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "vocabulary tree",
+      "predicted": "vocabulary tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "retrieval",
+      "predicted": "retrieval",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "indexing descriptors",
+      "predicted": "descriptors",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "images of popular music CD's",
+      "predicted": "popular music CD's",
+      "score": 0.6,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "database with ground truth",
+      "predicted": "ground truth",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "recognition scheme",
+      "category": "method"
+    },
+    {
+      "entity": "local region descriptors",
+      "category": "method"
+    },
+    {
+      "entity": "vocabulary tree approach",
+      "category": "method"
+    },
+    {
+      "entity": "efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "quality",
+      "category": "metric"
+    },
+    {
+      "entity": "retrieval quality",
+      "category": "metric"
+    },
+    {
+      "entity": "recognition quality",
+      "category": "metric"
+    },
+    {
+      "entity": "background clutter",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "quantization",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "database",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "vocabulary tree|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "quantization|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "metric": 4,
+    "material": 3,
+    "otherscientificterm": 9,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "material": 4,
+    "otherscientificterm": 4,
+    "method": 2,
+    "task": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 9,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.19047619047619047,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 21,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 12,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

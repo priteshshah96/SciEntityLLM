@@ -1,0 +1,307 @@
+{
+  "gold_entities": [
+    {
+      "entity": "uncalibrated 2d tracking data",
+      "category": "Material"
+    },
+    {
+      "entity": "missing data",
+      "category": "Material"
+    },
+    {
+      "entity": "rigid component",
+      "category": "Method"
+    },
+    {
+      "entity": "gaussian distribution",
+      "category": "Method"
+    },
+    {
+      "entity": "gaussian",
+      "category": "Method"
+    },
+    {
+      "entity": "learning the time-varying shape of a non-rigid 3d object",
+      "category": "Task"
+    },
+    {
+      "entity": "shape motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rotation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "translation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-rigid deformation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "arbitrary deformations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "object shape",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "3d shape and motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal smoothness in object shape",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "learning the time-varying shape of a non-rigid 3d object",
+      "category": "Task"
+    },
+    {
+      "entity": "uncalibrated 2d tracking data",
+      "category": "Material"
+    },
+    {
+      "entity": "rigid component (rotation and translation)",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-rigid deformation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "gaussian distribution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "3d shape and motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "missing data points",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "temporal smoothness in object shape",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "severe cases of missing data",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "learning the time-varying shape of a non-rigid 3d object",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "learning the time-varying shape of a non-rigid 3d object",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "uncalibrated 2d tracking data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "uncalibrated 2d tracking data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "non-rigid deformation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "non-rigid deformation",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "gaussian distribution",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "gaussian distribution",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "3d shape and motion",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "3d shape and motion",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "temporal smoothness in object shape",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "temporal smoothness in object shape",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "learning the time-varying shape of a non-rigid 3d object",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "learning the time-varying shape of a non-rigid 3d object",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "uncalibrated 2d tracking data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "uncalibrated 2d tracking data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "non-rigid deformation",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "non-rigid deformation",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "3d shape and motion",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "3d shape and motion",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "temporal smoothness in object shape",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "temporal smoothness in object shape",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "missing data",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "missing data points",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "severe cases of missing data",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.0666666666666667
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "rigid component",
+      "category": "Method"
+    },
+    {
+      "entity": "gaussian",
+      "category": "Method"
+    },
+    {
+      "entity": "shape motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "rotation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "translation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reconstruction",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "arbitrary deformations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "object shape",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "rigid component (rotation and translation)",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 15,
+    "generated_count": 9,
+    "generic_count": 4,
+    "exact_matches": 6,
+    "exact_category_matches": 5,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

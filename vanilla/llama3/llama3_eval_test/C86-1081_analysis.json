@@ -1,0 +1,229 @@
+{
+  "doc_key": "C86-1081",
+  "gold_entities": [
+    {
+      "entity": "Determiners",
+      "category": "method"
+    },
+    {
+      "entity": "determiners",
+      "category": "method"
+    },
+    {
+      "entity": "logical formalism",
+      "category": "method"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "determiners",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "determiners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logical formalism",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "precise way",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Task: devise methods",
+      "category": "task"
+    },
+    {
+      "entity": "Task: grasp the global meaning",
+      "category": "task"
+    },
+    {
+      "entity": "Method: devise methods",
+      "category": "method"
+    },
+    {
+      "entity": "Method: represent determiners",
+      "category": "method"
+    },
+    {
+      "entity": "Metric: none",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Determiners",
+      "predicted": "determiners",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "logical formalism",
+      "predicted": "logical formalism",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "ambiguity",
+      "predicted": "ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "determiners",
+      "category": "method"
+    },
+    {
+      "entity": "determiners",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "utterance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interpretation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "precise way",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Task: devise methods",
+      "category": "task"
+    },
+    {
+      "entity": "Task: grasp the global meaning",
+      "category": "task"
+    },
+    {
+      "entity": "Method: devise methods",
+      "category": "method"
+    },
+    {
+      "entity": "Method: represent determiners",
+      "category": "method"
+    },
+    {
+      "entity": "Metric: none",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 9,
+    "task": 2,
+    "method": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07142857142857142,
+  "recall": 0.2,
+  "f1": 0.10526315789473682,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 14,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 11,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,263 @@
+{
+  "doc_key": "H94-1102",
+  "gold_entities": [
+    {
+      "entity": "continuous speech recognition (CSR) techniques",
+      "category": "method"
+    },
+    {
+      "entity": "spoken language technology",
+      "category": "method"
+    },
+    {
+      "entity": "CSR",
+      "category": "method"
+    },
+    {
+      "entity": "acoustic modelling",
+      "category": "method"
+    },
+    {
+      "entity": "rapid search",
+      "category": "method"
+    },
+    {
+      "entity": "recognition-time adaptation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "large-vocabulary CSR",
+      "category": "method"
+    },
+    {
+      "entity": "Spoken Language Systems (SLS)",
+      "category": "task"
+    },
+    {
+      "entity": "military and civilian computer-based systems",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition and understanding systems",
+      "category": "task"
+    },
+    {
+      "entity": "military and civilian systems",
+      "category": "task"
+    },
+    {
+      "entity": "mobile military command and control",
+      "category": "task"
+    },
+    {
+      "entity": "military application tasks",
+      "category": "task"
+    },
+    {
+      "entity": "ARPA large-vocabulary CSR corpora",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "continuous speech recognition (CSR)",
+      "category": "task"
+    },
+    {
+      "entity": "Spoken Language Systems (SLS)",
+      "category": "material"
+    },
+    {
+      "entity": "military and civilian computer-based systems",
+      "category": "material"
+    },
+    {
+      "entity": "speech recognition and understanding systems",
+      "category": "method"
+    },
+    {
+      "entity": "spoken language technology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mobile military command and control",
+      "category": "material"
+    },
+    {
+      "entity": "acoustic modelling",
+      "category": "method"
+    },
+    {
+      "entity": "rapid search",
+      "category": "method"
+    },
+    {
+      "entity": "recognition-time adaptation techniques",
+      "category": "method"
+    },
+    {
+      "entity": "large-vocabulary CSR",
+      "category": "method"
+    },
+    {
+      "entity": "ARPA large-vocabulary CSR corpora",
+      "category": "material"
+    },
+    {
+      "entity": "military application tasks",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "spoken language technology",
+      "predicted": "spoken language technology",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Spoken Language Systems (SLS)",
+      "predicted": "Spoken Language Systems (SLS)",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "military and civilian computer-based systems",
+      "predicted": "military and civilian computer-based systems",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "speech recognition and understanding systems",
+      "predicted": "speech recognition and understanding systems",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "mobile military command and control",
+      "predicted": "mobile military command and control",
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "acoustic modelling",
+      "predicted": "acoustic modelling",
+      "category": "method"
+    },
+    {
+      "gold": "rapid search",
+      "predicted": "rapid search",
+      "category": "method"
+    },
+    {
+      "gold": "recognition-time adaptation techniques",
+      "predicted": "recognition-time adaptation techniques",
+      "category": "method"
+    },
+    {
+      "gold": "large-vocabulary CSR",
+      "predicted": "large-vocabulary CSR",
+      "category": "method"
+    },
+    {
+      "gold": "military application tasks",
+      "predicted": "military application tasks",
+      "category": "task"
+    },
+    {
+      "gold": "ARPA large-vocabulary CSR corpora",
+      "predicted": "ARPA large-vocabulary CSR corpora",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "continuous speech recognition (CSR) techniques",
+      "predicted": "continuous speech recognition (CSR)",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "CSR",
+      "category": "method"
+    },
+    {
+      "entity": "military and civilian systems",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "task": 6,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 4,
+    "method": 5,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 2,
+      "exact_matches": 4,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.42857142857142855,
+  "f1": 0.4615384615384615,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 12,
+    "exact_matches": 5,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 0,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

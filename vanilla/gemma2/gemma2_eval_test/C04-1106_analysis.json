@@ -1,0 +1,233 @@
+{
+  "doc_key": "C04-1106",
+  "gold_entities": [
+    {
+      "entity": "analogies between words",
+      "category": "task"
+    },
+    {
+      "entity": "analogies between sentences",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "analogies",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analogy",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "analogical",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "multilingual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "estimate",
+      "category": "metric"
+    },
+    {
+      "entity": "experiment",
+      "category": "task"
+    },
+    {
+      "entity": "computational linguist",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "analogy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "walk",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "laugh",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "analogy",
+      "predicted": "analogy",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multilingual corpus",
+      "predicted": "corpus",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "analogies between words",
+      "category": "task"
+    },
+    {
+      "entity": "analogies between sentences",
+      "category": "task"
+    },
+    {
+      "entity": "analogies",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "analogical",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "meaning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation",
+      "category": "method"
+    },
+    {
+      "entity": "multilingual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "estimate",
+      "category": "metric"
+    },
+    {
+      "entity": "experiment",
+      "category": "task"
+    },
+    {
+      "entity": "computational linguist",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "walk",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "laugh",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 9,
+    "method": 1,
+    "material": 1,
+    "metric": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 9,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07692307692307693,
+  "recall": 0.2,
+  "f1": 0.1111111111111111,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 13,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 11,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

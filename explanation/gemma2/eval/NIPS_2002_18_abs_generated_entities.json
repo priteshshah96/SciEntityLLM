@@ -1,0 +1,259 @@
+{
+  "gold_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "bio-inspired model",
+      "category": "Method"
+    },
+    {
+      "entity": "visual pathway",
+      "category": "Method"
+    },
+    {
+      "entity": "computing power per area",
+      "category": "Metric"
+    },
+    {
+      "entity": "power consumption",
+      "category": "Metric"
+    },
+    {
+      "entity": "analog programmable array processor (apap)",
+      "category": "Task"
+    },
+    {
+      "entity": "vlsi",
+      "category": "Task"
+    },
+    {
+      "entity": "vision applications",
+      "category": "Task"
+    },
+    {
+      "entity": "vertebrate retina",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complex programmable spatio-temporal dynamics",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "prototype chip",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cmos process",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "analog programmable array processor (apap)",
+      "category": "Method"
+    },
+    {
+      "entity": "vertebrate retina",
+      "category": "Material"
+    },
+    {
+      "entity": "complex programmable spatio-temporal dynamics",
+      "category": "Task"
+    },
+    {
+      "entity": "vlsi",
+      "category": "Material"
+    },
+    {
+      "entity": "visual pathway",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "early vision applications",
+      "category": "Task"
+    },
+    {
+      "entity": "standard technologies",
+      "category": "Material"
+    },
+    {
+      "entity": "prototype chip",
+      "category": "Material"
+    },
+    {
+      "entity": "0.5\u00b5m standard cmos process",
+      "category": "Material"
+    },
+    {
+      "entity": "computing power per area",
+      "category": "Metric"
+    },
+    {
+      "entity": "power consumption",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "model",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "analog programmable array processor (apap)",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "analog programmable array processor (apap)",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "vertebrate retina",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "vertebrate retina",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "complex programmable spatio-temporal dynamics",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "complex programmable spatio-temporal dynamics",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "vlsi",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "vlsi",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "visual pathway",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "visual pathway",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "prototype chip",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "prototype chip",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "computing power per area",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "computing power per area",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "power consumption",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "power consumption",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "computing power per area",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "computing power per area",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "power consumption",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "power consumption",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "vision applications",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "early vision applications",
+        "category": "Task"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "images",
+      "category": "Material"
+    },
+    {
+      "entity": "bio-inspired model",
+      "category": "Method"
+    },
+    {
+      "entity": "cmos process",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "standard technologies",
+      "category": "Material"
+    },
+    {
+      "entity": "0.5\u00b5m standard cmos process",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 8,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

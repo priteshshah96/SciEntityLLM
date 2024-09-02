@@ -1,0 +1,269 @@
+{
+  "gold_entities": [
+    {
+      "entity": "discourse copying algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "analysis of ellipsis resolution",
+      "category": "Task"
+    },
+    {
+      "entity": "identity-of-relations analyses",
+      "category": "Task"
+    },
+    {
+      "entity": "role linking",
+      "category": "Task"
+    },
+    {
+      "entity": "discourse copying phenomena",
+      "category": "Task"
+    },
+    {
+      "entity": "full nps",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "referential elements",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ellipsis",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "ellipsis resolution",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discourse copying algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "identityofrelations analyses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "full nps",
+      "category": "Material"
+    },
+    {
+      "entity": "role linking",
+      "category": "Method"
+    },
+    {
+      "entity": "predictions",
+      "category": "Metric"
+    },
+    {
+      "entity": "ellipsis",
+      "category": "Material"
+    },
+    {
+      "entity": "discourse copying phenomena",
+      "category": "Material"
+    },
+    {
+      "entity": "referential elements",
+      "category": "Material"
+    },
+    {
+      "entity": "nps",
+      "category": "Material"
+    },
+    {
+      "entity": "5-hydroxytryptophan (5-htp)",
+      "category": "Material"
+    },
+    {
+      "entity": "5-hydroxyindoleacetic acid (5-hiaa)",
+      "category": "Material"
+    },
+    {
+      "entity": "serotonin",
+      "category": "Material"
+    },
+    {
+      "entity": "rats",
+      "category": "Material"
+    },
+    {
+      "entity": "brain",
+      "category": "Material"
+    },
+    {
+      "entity": "behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "levels",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "treatment",
+      "category": "Generic"
+    },
+    {
+      "entity": "treatment",
+      "category": "Generic"
+    },
+    {
+      "entity": "analysis",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "discourse copying algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "discourse copying algorithm",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "full nps",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "full nps",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "role linking",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "role linking",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ellipsis",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "ellipsis",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "discourse copying phenomena",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "discourse copying phenomena",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "referential elements",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "referential elements",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "discourse copying algorithm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "discourse copying algorithm",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "analysis of ellipsis resolution",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "ellipsis resolution",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "identity-of-relations analyses",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "identityofrelations analyses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predictions",
+      "category": "Metric"
+    },
+    {
+      "entity": "nps",
+      "category": "Material"
+    },
+    {
+      "entity": "5-hydroxytryptophan (5-htp)",
+      "category": "Material"
+    },
+    {
+      "entity": "5-hydroxyindoleacetic acid (5-hiaa)",
+      "category": "Material"
+    },
+    {
+      "entity": "serotonin",
+      "category": "Material"
+    },
+    {
+      "entity": "rats",
+      "category": "Material"
+    },
+    {
+      "entity": "brain",
+      "category": "Material"
+    },
+    {
+      "entity": "behavior",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "levels",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 17,
+    "generic_count": 3,
+    "exact_matches": 6,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

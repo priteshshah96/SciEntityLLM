@@ -1,0 +1,333 @@
+{
+  "doc_key": "N03-2015",
+  "gold_entities": [
+    {
+      "entity": "unsupervised technique",
+      "category": "method"
+    },
+    {
+      "entity": "word-trie",
+      "category": "method"
+    },
+    {
+      "entity": "morphology",
+      "category": "task"
+    },
+    {
+      "entity": "hubs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automaton",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hub",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "node",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graph",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "minimal dfa",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hubs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hubs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "root",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "suffix",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "hub",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "node",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graph",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "in-degree",
+      "category": "metric"
+    },
+    {
+      "entity": "out-degree",
+      "category": "metric"
+    },
+    {
+      "entity": "word-trie",
+      "category": "material"
+    },
+    {
+      "entity": "minimal DFA",
+      "category": "material"
+    },
+    {
+      "entity": "root",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "suffix",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "technique",
+      "category": "task"
+    },
+    {
+      "entity": "learning",
+      "category": "task"
+    },
+    {
+      "entity": "morphology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automaton",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "identify",
+      "category": "method"
+    },
+    {
+      "entity": "create",
+      "category": "method"
+    },
+    {
+      "entity": "transform",
+      "category": "method"
+    },
+    {
+      "entity": "mark",
+      "category": "method"
+    },
+    {
+      "entity": "achieve",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "word-trie",
+      "predicted": "word-trie",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "morphology",
+      "predicted": "morphology",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "minimal dfa",
+      "predicted": "minimal DFA",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "automaton",
+      "predicted": "automaton",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hub",
+      "predicted": "hub",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "node",
+      "predicted": "node",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "graph",
+      "predicted": "graph",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "root",
+      "predicted": "root",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "suffix",
+      "predicted": "suffix",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "unsupervised technique",
+      "predicted": "technique",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "hubs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hubs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hubs",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "in-degree",
+      "category": "metric"
+    },
+    {
+      "entity": "out-degree",
+      "category": "metric"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "learning",
+      "category": "task"
+    },
+    {
+      "entity": "identify",
+      "category": "method"
+    },
+    {
+      "entity": "create",
+      "category": "method"
+    },
+    {
+      "entity": "transform",
+      "category": "method"
+    },
+    {
+      "entity": "mark",
+      "category": "method"
+    },
+    {
+      "entity": "achieve",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "hubs|otherscientificterm": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 10
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 7,
+    "metric": 3,
+    "material": 2,
+    "task": 2,
+    "method": 5
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 6,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3157894736842105,
+  "recall": 0.46153846153846156,
+  "f1": 0.37499999999999994,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 19,
+    "exact_matches": 3,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 9,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

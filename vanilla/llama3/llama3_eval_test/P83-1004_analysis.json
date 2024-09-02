@@ -1,0 +1,276 @@
+{
+  "doc_key": "P83-1004",
+  "gold_entities": [
+    {
+      "entity": "Metagrammatical formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "Unconstrained MPS grammars",
+      "category": "method"
+    },
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "contextfree phrase structure rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "metarules mps grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntax of natural languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computational tractability and explanatory adequacy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Context-free phrase structure rules",
+      "category": "method"
+    },
+    {
+      "entity": "Metarules",
+      "category": "material"
+    },
+    {
+      "entity": "MPS grammars",
+      "category": "method"
+    },
+    {
+      "entity": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Computational tractability",
+      "category": "metric"
+    },
+    {
+      "entity": "Explanatory adequacy",
+      "category": "metric"
+    },
+    {
+      "entity": "Natural languages",
+      "category": "material"
+    },
+    {
+      "entity": "Metagrammatical formalisms",
+      "category": "material"
+    },
+    {
+      "entity": "Unconstrained MPS grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Research",
+      "category": "task"
+    },
+    {
+      "entity": "Directions",
+      "category": "task"
+    },
+    {
+      "entity": "generalizations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Phrase structure rules",
+      "category": "method"
+    },
+    {
+      "entity": "phrase structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Tractability",
+      "category": "metric"
+    },
+    {
+      "entity": "Adequacy",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Metagrammatical formalisms",
+      "predicted": "Metagrammatical formalisms",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Unconstrained MPS grammars",
+      "predicted": "Unconstrained MPS grammars",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "contextfree phrase structure rules",
+      "predicted": "Phrase structure rules",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "metarules mps grammars",
+      "predicted": "MPS grammars",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "syntax of natural languages",
+      "predicted": "Natural languages",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "computational tractability and explanatory adequacy",
+      "gold_category": "metric",
+      "matched_parts": [
+        {
+          "part": "computational tractability",
+          "matched": "Computational tractability",
+          "predicted_category": "metric"
+        },
+        {
+          "part": "explanatory adequacy",
+          "matched": "Explanatory adequacy",
+          "predicted_category": "metric"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "metagrammatical formalisms",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Context-free phrase structure rules",
+      "category": "method"
+    },
+    {
+      "entity": "Metarules",
+      "category": "material"
+    },
+    {
+      "entity": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Research",
+      "category": "task"
+    },
+    {
+      "entity": "Directions",
+      "category": "task"
+    },
+    {
+      "entity": "generalizations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrase structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Tractability",
+      "category": "metric"
+    },
+    {
+      "entity": "Adequacy",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "material": 3,
+    "otherscientificterm": 3,
+    "metric": 4,
+    "task": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0625,
+  "recall": 0.14285714285714285,
+  "f1": 0.08695652173913043,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 16,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 3,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 9,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

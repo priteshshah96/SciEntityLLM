@@ -1,0 +1,316 @@
+{
+  "gold_entities": [
+    {
+      "entity": "language models (lms)",
+      "category": "Method"
+    },
+    {
+      "entity": "interpolation methods",
+      "category": "Method"
+    },
+    {
+      "entity": "log-linear and linear interpolation",
+      "category": "Method"
+    },
+    {
+      "entity": "lm",
+      "category": "Method"
+    },
+    {
+      "entity": "dynamic combiner",
+      "category": "Method"
+    },
+    {
+      "entity": "dynamic language model combination",
+      "category": "Method"
+    },
+    {
+      "entity": "neural network",
+      "category": "Method"
+    },
+    {
+      "entity": "decision tree",
+      "category": "Method"
+    },
+    {
+      "entity": "lms",
+      "category": "Method"
+    },
+    {
+      "entity": "lm",
+      "category": "Method"
+    },
+    {
+      "entity": "word or semantic error rate",
+      "category": "Metric"
+    },
+    {
+      "entity": "confidence measures",
+      "category": "Metric"
+    },
+    {
+      "entity": "hard decisions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "language models (lms)",
+      "category": "Task"
+    },
+    {
+      "entity": "interpolation methods",
+      "category": "Method"
+    },
+    {
+      "entity": "log-linear interpolation",
+      "category": "Method"
+    },
+    {
+      "entity": "linear interpolation",
+      "category": "Method"
+    },
+    {
+      "entity": "oracle",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reference word string",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "word string",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dynamic combiner",
+      "category": "Method"
+    },
+    {
+      "entity": "neural network",
+      "category": "Method"
+    },
+    {
+      "entity": "decision tree",
+      "category": "Method"
+    },
+    {
+      "entity": "confidence measures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "best hypothesis",
+      "category": "Task"
+    },
+    {
+      "entity": "lms",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "language models (lms)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "language models (lms)",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "interpolation methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "interpolation methods",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dynamic combiner",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dynamic combiner",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "neural network",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "neural network",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "decision tree",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "decision tree",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "confidence measures",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "confidence measures",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "lms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "lms",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "interpolation methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "interpolation methods",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dynamic combiner",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dynamic combiner",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "neural network",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "neural network",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "decision tree",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "decision tree",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "log-linear and linear interpolation",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "log-linear interpolation",
+          "category": "Method"
+        },
+        {
+          "entity": "linear interpolation",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "word or semantic error rate",
+        "category": "Metric"
+      },
+      "predicted": [
+        {
+          "entity": "reference word string",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "word string",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 0.8333333333333333
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "lm",
+      "category": "Method"
+    },
+    {
+      "entity": "dynamic language model combination",
+      "category": "Method"
+    },
+    {
+      "entity": "lm",
+      "category": "Method"
+    },
+    {
+      "entity": "hard decisions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "oracle",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "best hypothesis",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "lm": 2
+  },
+  "distinct_repeated_entities": [
+    "lm"
+  ],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 13,
+    "generic_count": 2,
+    "exact_matches": 7,
+    "exact_category_matches": 4,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

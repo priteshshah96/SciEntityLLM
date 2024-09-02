@@ -1,0 +1,350 @@
+{
+  "doc_key": "ECCV_2014_50_abs",
+  "gold_entities": [
+    {
+      "entity": "intrinsic texture properties (albedo, shading, normal) of scenes",
+      "category": "task"
+    },
+    {
+      "entity": "multiple view acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "initial, low-frequency shading estimate",
+      "category": "task"
+    },
+    {
+      "entity": "relight-ing of free-viewpoint rendering",
+      "category": "task"
+    },
+    {
+      "entity": "relighting",
+      "category": "task"
+    },
+    {
+      "entity": "unknown illumination conditions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrinsic textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pixelresolution surface textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intrinsic appearance parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "uniform albedo",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global lighting reconstruction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "texture and coarse scene geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inherent global ambiguity in shading",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multiple view video capture",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reproduction of fine surface detail",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "video relighting methods",
+      "category": "method"
+    },
+    {
+      "entity": "intrinsic image methods",
+      "category": "method"
+    },
+    {
+      "entity": "richly textured scenes",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "intrinsic texture properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "albedo",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "shading",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "normal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Multiple view acquisition",
+      "category": "method"
+    },
+    {
+      "entity": "Unknown illumination conditions",
+      "category": "material"
+    },
+    {
+      "entity": "intrinsic textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Pixel-resolution surface textures",
+      "category": "material"
+    },
+    {
+      "entity": "intrinsic appearance parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Video relighting methods",
+      "category": "method"
+    },
+    {
+      "entity": "Richly textured scenes",
+      "category": "material"
+    },
+    {
+      "entity": "Intrinsic image methods",
+      "category": "method"
+    },
+    {
+      "entity": "Global lighting reconstruction",
+      "category": "method"
+    },
+    {
+      "entity": "Low-frequency shading estimate",
+      "category": "metric"
+    },
+    {
+      "entity": "Coarse scene geometry",
+      "category": "material"
+    },
+    {
+      "entity": "global ambiguity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Free-viewpoint rendering",
+      "category": "task"
+    },
+    {
+      "entity": "Multiple view video capture",
+      "category": "method"
+    },
+    {
+      "entity": "Relighting",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "multiple view acquisition",
+      "predicted": "Multiple view acquisition",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "unknown illumination conditions",
+      "predicted": "Unknown illumination conditions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "global lighting reconstruction",
+      "predicted": "Global lighting reconstruction",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "multiple view video capture",
+      "predicted": "Multiple view video capture",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "relighting",
+      "predicted": "Relighting",
+      "category": "task"
+    },
+    {
+      "gold": "intrinsic textures",
+      "predicted": "intrinsic textures",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "intrinsic appearance parameters",
+      "predicted": "intrinsic appearance parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "video relighting methods",
+      "predicted": "Video relighting methods",
+      "category": "method"
+    },
+    {
+      "gold": "intrinsic image methods",
+      "predicted": "Intrinsic image methods",
+      "category": "method"
+    },
+    {
+      "gold": "richly textured scenes",
+      "predicted": "Richly textured scenes",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "relight-ing of free-viewpoint rendering",
+      "predicted": "Free-viewpoint rendering",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "pixelresolution surface textures",
+      "predicted": "Pixel-resolution surface textures",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "uniform albedo",
+      "predicted": "albedo",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "intrinsic texture properties (albedo, shading, normal) of scenes",
+      "category": "task"
+    },
+    {
+      "entity": "initial, low-frequency shading estimate",
+      "category": "task"
+    },
+    {
+      "entity": "texture and coarse scene geometry",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inherent global ambiguity in shading",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reproduction of fine surface detail",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "intrinsic texture properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "normal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global ambiguity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "otherscientificterm": 10,
+    "method": 2,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 7,
+    "method": 5,
+    "material": 4,
+    "metric": 1,
+    "task": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 7,
+      "exact_matches": 3,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3157894736842105,
+  "recall": 0.3333333333333333,
+  "f1": 0.3243243243243243,
+  "counts": {
+    "gold_entities": 18,
+    "predicted_entities": 19,
+    "exact_matches": 4,
+    "exact_matches_with_category": 6,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

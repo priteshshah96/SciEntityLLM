@@ -1,0 +1,298 @@
+{
+  "doc_key": "CVPR_2007_21_abs",
+  "gold_entities": [
+    {
+      "entity": "classification of outdoor scenes",
+      "category": "task"
+    },
+    {
+      "entity": "scene classification",
+      "category": "task"
+    },
+    {
+      "entity": "one-class classification",
+      "category": "method"
+    },
+    {
+      "entity": "patch-based clustering algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "one-class classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "clustering of patches",
+      "category": "method"
+    },
+    {
+      "entity": "scene representation",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "region selection algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "baseline global feature-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "uniform color and texture properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "codebook of region types",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "LabelMe data set",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "classification of outdoor scenes",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "one-class classification",
+      "category": "method"
+    },
+    {
+      "entity": "patch-based clustering",
+      "category": "method"
+    },
+    {
+      "entity": "oneclass classifiers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "region types",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "codebook",
+      "category": "material"
+    },
+    {
+      "entity": "scene representation",
+      "category": "task"
+    },
+    {
+      "entity": "bag of individual regions",
+      "category": "method"
+    },
+    {
+      "entity": "bag of region pairs",
+      "category": "method"
+    },
+    {
+      "entity": "Bayesian classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "region selection algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "LabelMe data set",
+      "category": "material"
+    },
+    {
+      "entity": "global feature-based approach",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "scene representation",
+      "predicted": "scene representation",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "classification of outdoor scenes",
+      "predicted": "classification of outdoor scenes",
+      "category": "task"
+    },
+    {
+      "gold": "one-class classification",
+      "predicted": "one-class classification",
+      "category": "method"
+    },
+    {
+      "gold": "Bayesian classifiers",
+      "predicted": "Bayesian classifiers",
+      "category": "method"
+    },
+    {
+      "gold": "region selection algorithm",
+      "predicted": "region selection algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "LabelMe data set",
+      "predicted": "LabelMe data set",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "patch-based clustering algorithms",
+      "predicted": "patch-based clustering",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "baseline global feature-based approach",
+      "predicted": "global feature-based approach",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "codebook of region types",
+      "predicted": "region types",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "scene classification",
+      "category": "task"
+    },
+    {
+      "entity": "one-class classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "clustering of patches",
+      "category": "method"
+    },
+    {
+      "entity": "uniform color and texture properties",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spatial relationships",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "oneclass classifiers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "codebook",
+      "category": "material"
+    },
+    {
+      "entity": "bag of individual regions",
+      "category": "method"
+    },
+    {
+      "entity": "bag of region pairs",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 8,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "material": 3,
+    "otherscientificterm": 3,
+    "method": 7
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 8,
+      "predicted": 7,
+      "exact_matches": 1,
+      "exact_matches_with_category": 3,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.35714285714285715,
+  "f1": 0.3448275862068965,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 5,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 6,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

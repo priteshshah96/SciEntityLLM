@@ -1,0 +1,277 @@
+{
+  "gold_entities": [
+    {
+      "entity": "domain-speciic models of actions",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "action model formalism",
+      "category": "Method"
+    },
+    {
+      "entity": "re-active agent",
+      "category": "Method"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "Method"
+    },
+    {
+      "entity": "golem",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "Method"
+    },
+    {
+      "entity": "methods",
+      "category": "Metric"
+    },
+    {
+      "entity": "learning in autonomous agents",
+      "category": "Task"
+    },
+    {
+      "entity": "planning systems",
+      "category": "Task"
+    },
+    {
+      "entity": "simulated construction",
+      "category": "Task"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "Task"
+    },
+    {
+      "entity": "domain expert",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "learning in autonomous agents",
+      "category": "Task"
+    },
+    {
+      "entity": "domain-specific models of actions",
+      "category": "Task"
+    },
+    {
+      "entity": "planning systems",
+      "category": "Method"
+    },
+    {
+      "entity": "action models",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "action model formalism",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "re-active agent",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "noise-handling mechanisms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "training instances",
+      "category": "Material"
+    },
+    {
+      "entity": "golem",
+      "category": "Method"
+    },
+    {
+      "entity": "experimental validation",
+      "category": "Task"
+    },
+    {
+      "entity": "simulated construction and ooce domains",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "methods",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "learning in autonomous agents",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "learning in autonomous agents",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "planning systems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "planning systems",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "action models",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "action model formalism",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "action model formalism",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "re-active agent",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "re-active agent",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "noise-handling mechanisms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "noise-handling mechanisms",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "golem",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "golem",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "learning in autonomous agents",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "learning in autonomous agents",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "golem",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "golem",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "domain-speciic models of actions",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "domain-specific models of actions",
+        "category": "Task"
+      },
+      "overlap": 0.75
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "action models",
+      "category": "Method"
+    },
+    {
+      "entity": "integrated learning system",
+      "category": "Method"
+    },
+    {
+      "entity": "methods",
+      "category": "Metric"
+    },
+    {
+      "entity": "simulated construction",
+      "category": "Task"
+    },
+    {
+      "entity": "ooce domains",
+      "category": "Task"
+    },
+    {
+      "entity": "domain expert",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "training instances",
+      "category": "Material"
+    },
+    {
+      "entity": "experimental validation",
+      "category": "Task"
+    },
+    {
+      "entity": "simulated construction and ooce domains",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "action models": 2
+  },
+  "distinct_repeated_entities": [
+    "action models"
+  ],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 7,
+    "exact_category_matches": 2,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

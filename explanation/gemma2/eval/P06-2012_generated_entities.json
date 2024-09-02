@@ -1,0 +1,306 @@
+{
+  "gold_entities": [
+    {
+      "entity": "ace corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "unsupervised learning approach",
+      "category": "Method"
+    },
+    {
+      "entity": "spectral clustering based approach",
+      "category": "Method"
+    },
+    {
+      "entity": "clustering methods",
+      "category": "Method"
+    },
+    {
+      "entity": "cluster number estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "relations between named entities",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "lexical and syntactic features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "eigenvectors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "adjacency graph 's laplacian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "submanifold",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "high dimensionality space",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "eigenvectors",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "unsupervised learning",
+      "category": "Method"
+    },
+    {
+      "entity": "disambiguate",
+      "category": "Task"
+    },
+    {
+      "entity": "named entities",
+      "category": "Material"
+    },
+    {
+      "entity": "lexical and syntactic features",
+      "category": "Method"
+    },
+    {
+      "entity": "contexts",
+      "category": "Material"
+    },
+    {
+      "entity": "eigenvectors",
+      "category": "Method"
+    },
+    {
+      "entity": "adjacency graph",
+      "category": "Method"
+    },
+    {
+      "entity": "laplacian",
+      "category": "Method"
+    },
+    {
+      "entity": "submanifold",
+      "category": "Method"
+    },
+    {
+      "entity": "high dimensionality space",
+      "category": "Material"
+    },
+    {
+      "entity": "cluster number estimation",
+      "category": "Method"
+    },
+    {
+      "entity": "ace corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "spectral clustering based approach",
+      "category": "Method"
+    },
+    {
+      "entity": "clustering methods",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "lexical and syntactic features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "lexical and syntactic features",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "eigenvectors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "eigenvectors",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "submanifold",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "submanifold",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "high dimensionality space",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "high dimensionality space",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "cluster number estimation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "cluster number estimation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "ace corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "ace corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spectral clustering based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "spectral clustering based approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "clustering methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "clustering methods",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "ace corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "ace corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spectral clustering based approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "spectral clustering based approach",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "clustering methods",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "clustering methods",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "adjacency graph 's laplacian",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "adjacency graph",
+          "category": "Method"
+        },
+        {
+          "entity": "laplacian",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "unsupervised learning approach",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "unsupervised learning",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "relations between named entities",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "named entities",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "eigenvectors",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "disambiguate",
+      "category": "Task"
+    },
+    {
+      "entity": "contexts",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "eigenvectors": 2
+  },
+  "distinct_repeated_entities": [
+    "eigenvectors"
+  ],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 14,
+    "generic_count": 1,
+    "exact_matches": 8,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

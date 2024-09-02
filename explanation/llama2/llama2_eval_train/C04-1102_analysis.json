@@ -1,0 +1,207 @@
+{
+  "doc_key": "C04-1102",
+  "gold_entities": [
+    {
+      "entity": "detection method",
+      "category": "method"
+    },
+    {
+      "entity": "edit distance",
+      "category": "method"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "orthographic variants",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "string similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transliteration",
+      "category": "task"
+    },
+    {
+      "entity": "F-measure",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "detection method",
+      "category": "method"
+    },
+    {
+      "entity": "orthographic variants",
+      "category": "method"
+    },
+    {
+      "entity": "transliteration",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "string similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "edit distance",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "contextual similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vector space model",
+      "category": "method"
+    },
+    {
+      "entity": "F-measure",
+      "category": "method"
+    },
+    {
+      "entity": "open test",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "edit distance",
+      "predicted": "edit distance",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "orthographic variants",
+      "predicted": "orthographic variants",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "transliteration",
+      "predicted": "transliteration",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "F-measure",
+      "predicted": "F-measure",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "detection method",
+      "predicted": "detection method",
+      "category": "method"
+    },
+    {
+      "gold": "vector space model",
+      "predicted": "vector space model",
+      "category": "method"
+    },
+    {
+      "gold": "string similarity",
+      "predicted": "string similarity",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "contextual similarity",
+      "predicted": "contextual similarity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "open test",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 3,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4444444444444444,
+  "recall": 0.5,
+  "f1": 0.47058823529411764,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 9,
+    "exact_matches": 4,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 1,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

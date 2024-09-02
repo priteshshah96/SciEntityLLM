@@ -1,0 +1,134 @@
+{
+  "doc_key": "C82-1054",
+  "gold_entities": [
+    {
+      "entity": "left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "context-free grammars",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "contextfree grammars",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parser",
+      "category": "task"
+    },
+    {
+      "entity": "natural language interface",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "left corner parsing algorithm",
+      "predicted": "left corner parsing algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "parser",
+      "predicted": "parser",
+      "category": "method"
+    },
+    {
+      "gold": "natural language interface",
+      "predicted": "natural language interface",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "left corner parsing algorithm",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "context-free grammars",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "contextfree grammars",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "otherscientificterm": 2,
+    "task": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.25,
+  "f1": 0.25,
+  "category_precision": 0.5,
+  "category_recall": 0.5,
+  "category_f1": 0.5,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 4,
+    "exact_matches": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 1,
+    "generic_entities": 1,
+    "correct_predictions": 1,
+    "correct_categories": 2
+  }
+}

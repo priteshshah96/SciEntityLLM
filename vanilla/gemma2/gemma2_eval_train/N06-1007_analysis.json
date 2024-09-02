@@ -1,0 +1,300 @@
+{
+  "doc_key": "N06-1007",
+  "gold_entities": [
+    {
+      "entity": "automatic acquisition  of  entailment relations",
+      "category": "task"
+    },
+    {
+      "entity": "paraphrases acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "entailment acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "verb entailment",
+      "category": "task"
+    },
+    {
+      "entity": "mapping  between  verbs",
+      "category": "task"
+    },
+    {
+      "entity": "semantic equivalence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asymmetric or directional relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local structure of coherent text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verb entailment types",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highly varied argument structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsed corpus",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "automatic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "entailment relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "paraphrases acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "semantic equivalence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asymmetric relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coherent text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clauses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsed corpus",
+      "category": "material"
+    },
+    {
+      "entity": "verb entailment",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mapping",
+      "category": "method"
+    },
+    {
+      "entity": "argument structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "paraphrases acquisition",
+      "predicted": "paraphrases acquisition",
+      "category": "task"
+    },
+    {
+      "gold": "verb entailment",
+      "predicted": "verb entailment",
+      "category": "task"
+    },
+    {
+      "gold": "semantic equivalence",
+      "predicted": "semantic equivalence",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse relations",
+      "predicted": "discourse relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "parsed corpus",
+      "predicted": "parsed corpus",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "asymmetric or directional relations",
+      "predicted": "asymmetric relations",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "highly varied argument structures",
+      "predicted": "argument structures",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "paraphrases acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "semantic equivalence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsed corpus",
+      "category": "material"
+    },
+    {
+      "entity": "asymmetric or directional relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highly varied argument structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatic acquisition  of  entailment relations",
+      "category": "task"
+    },
+    {
+      "entity": "entailment acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "mapping  between  verbs",
+      "category": "task"
+    },
+    {
+      "entity": "local structure of coherent text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verb entailment types",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "automatic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "entailment relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "verbs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coherent text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "clauses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "mapping",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "otherscientificterm": 6,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 10,
+    "material": 1,
+    "method": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 10,
+      "exact_matches": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.3333333333333333,
+  "f1": 0.30769230769230765,
+  "category_precision": 0.6428571428571429,
+  "category_recall": 0.75,
+  "category_f1": 0.6923076923076924,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 6,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 7,
+    "generic_entities": 3,
+    "correct_predictions": 4,
+    "correct_categories": 9
+  }
+}

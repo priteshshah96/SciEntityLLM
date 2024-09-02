@@ -1,0 +1,285 @@
+{
+  "doc_key": "NIPS_2015_21_abs",
+  "gold_entities": [
+    {
+      "entity": "convolutional neural networks",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic attention-based models",
+      "category": "method"
+    },
+    {
+      "entity": "Borrowing techniques",
+      "category": "method"
+    },
+    {
+      "entity": "deep generative models",
+      "category": "method"
+    },
+    {
+      "entity": "Wake-Sleep Recurrent Attention Model",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic attention networks",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic attention networks",
+      "category": "method"
+    },
+    {
+      "entity": "computational efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "training time",
+      "category": "metric"
+    },
+    {
+      "entity": "intractable posterior inference",
+      "category": "task"
+    },
+    {
+      "entity": "stochastic gradient estimates",
+      "category": "task"
+    },
+    {
+      "entity": "posterior inference",
+      "category": "task"
+    },
+    {
+      "entity": "image classification",
+      "category": "task"
+    },
+    {
+      "entity": "caption generation",
+      "category": "task"
+    },
+    {
+      "entity": "stochastic gradients",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "convolutional neural networks",
+      "category": "method"
+    },
+    {
+      "entity": "image locations",
+      "category": "material"
+    },
+    {
+      "entity": "stochastic attention-based models",
+      "category": "method"
+    },
+    {
+      "entity": "posterior inference",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stochastic gradient estimates",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Wake-Sleep Recurrent Attention Model",
+      "category": "method"
+    },
+    {
+      "entity": "deep generative models",
+      "category": "method"
+    },
+    {
+      "entity": "image classification",
+      "category": "task"
+    },
+    {
+      "entity": "caption generation",
+      "category": "task"
+    },
+    {
+      "entity": "training time",
+      "category": "metric"
+    },
+    {
+      "entity": "variability",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "stochastic gradient estimates",
+      "predicted": "stochastic gradient estimates",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "posterior inference",
+      "predicted": "posterior inference",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "convolutional neural networks",
+      "predicted": "convolutional neural networks",
+      "category": "method"
+    },
+    {
+      "gold": "Stochastic attention-based models",
+      "predicted": "stochastic attention-based models",
+      "category": "method"
+    },
+    {
+      "gold": "deep generative models",
+      "predicted": "deep generative models",
+      "category": "method"
+    },
+    {
+      "gold": "Wake-Sleep Recurrent Attention Model",
+      "predicted": "Wake-Sleep Recurrent Attention Model",
+      "category": "method"
+    },
+    {
+      "gold": "training time",
+      "predicted": "training time",
+      "category": "metric"
+    },
+    {
+      "gold": "image classification",
+      "predicted": "image classification",
+      "category": "task"
+    },
+    {
+      "gold": "caption generation",
+      "predicted": "caption generation",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Borrowing techniques",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic attention networks",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic attention networks",
+      "category": "method"
+    },
+    {
+      "entity": "computational efficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "intractable posterior inference",
+      "category": "task"
+    },
+    {
+      "entity": "stochastic gradients",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "image locations",
+      "category": "material"
+    },
+    {
+      "entity": "variability",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "stochastic attention networks|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 7,
+    "metric": 2,
+    "task": 5,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "material": 1,
+    "otherscientificterm": 2,
+    "task": 2,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.6363636363636364,
+  "recall": 0.4666666666666667,
+  "f1": 0.5384615384615385,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 11,
+    "exact_matches": 2,
+    "exact_matches_with_category": 7,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 2,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,302 @@
+{
+  "doc_key": "CVPR_1996_15_abs",
+  "gold_entities": [
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "task"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "task"
+    },
+    {
+      "entity": "physical hypotheses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "simple image regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regions of similar color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "segmentations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenes",
+      "category": "material"
+    },
+    {
+      "entity": "multi-colored piece-wise uniform objects",
+      "category": "material"
+    },
+    {
+      "entity": "complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "physics-based segmentation algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "physical models",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "task"
+    },
+    {
+      "entity": "multiple physical hypotheses",
+      "category": "method"
+    },
+    {
+      "entity": "image regions",
+      "category": "material"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "piecewise uniform objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "approach",
+      "category": "method"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "segmentations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scenes",
+      "category": "material"
+    },
+    {
+      "entity": "objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "general physical models",
+      "category": "method"
+    },
+    {
+      "entity": "surface",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "segmentation of complex scenes",
+      "predicted": "segmentation of complex scenes",
+      "category": "task"
+    },
+    {
+      "gold": "coherent surfaces",
+      "predicted": "coherent surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "segmentations",
+      "predicted": "segmentations",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "scenes",
+      "predicted": "scenes",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "physical hypotheses",
+      "predicted": "multiple physical hypotheses",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "simple image regions",
+      "predicted": "image regions",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "physical models",
+      "predicted": "general physical models",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "task"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "regions of similar color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multi-colored piece-wise uniform objects",
+      "category": "material"
+    },
+    {
+      "entity": "complexity",
+      "category": "metric"
+    },
+    {
+      "entity": "physics-based segmentation algorithms",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "piecewise uniform objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "approach",
+      "category": "method"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "objects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "surface",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "segmentation of complex scenes|task": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "coherent surfaces|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 6,
+    "material": 2,
+    "metric": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "material": 2,
+    "otherscientificterm": 6
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.3076923076923077,
+  "f1": 0.3076923076923077,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 6,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

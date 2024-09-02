@@ -1,0 +1,288 @@
+{
+  "doc_key": "E06-1045",
+  "gold_entities": [
+    {
+      "entity": "data-driven selection",
+      "category": "task"
+    },
+    {
+      "entity": "embodied conversational agent",
+      "category": "task"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "task"
+    },
+    {
+      "entity": "emphatic facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "corpus of sentences",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "data-driven selection",
+      "category": "task"
+    },
+    {
+      "entity": "emphatic facial displays",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "embodied conversational agent",
+      "category": "method"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "speaker",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "user ratings",
+      "category": "metric"
+    },
+    {
+      "entity": "variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "female subjects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "embodied conversational agent",
+      "predicted": "embodied conversational agent",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "dialogue system",
+      "predicted": "dialogue system",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "emphatic facial displays",
+      "predicted": "emphatic facial displays",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "data-driven selection",
+      "predicted": "data-driven selection",
+      "category": "task"
+    },
+    {
+      "gold": "cross-validation",
+      "predicted": "cross-validation",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "corpus of sentences",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "facial displays",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue system",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    },
+    {
+      "entity": "cross-validation",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "corpus",
+      "category": "material"
+    },
+    {
+      "entity": "speaker",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user ratings",
+      "category": "metric"
+    },
+    {
+      "entity": "variation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "users",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "female subjects",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "facial displays|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "cross-validation|method": {
+      "count": 3,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 4,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 7,
+    "method": 3,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.18181818181818182,
+  "f1": 0.16666666666666669,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 13,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 8,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,365 @@
+{
+  "doc_key": "CVPR_2008_103_abs",
+  "gold_entities": [
+    {
+      "entity": "partially-blurred-image classification and analysis framework",
+      "category": "method"
+    },
+    {
+      "entity": "feature parameter training",
+      "category": "method"
+    },
+    {
+      "entity": "blur detection",
+      "category": "method"
+    },
+    {
+      "entity": "region-wise training and classification",
+      "category": "method"
+    },
+    {
+      "entity": "automatically detecting images",
+      "category": "task"
+    },
+    {
+      "entity": "blur kernel estimation",
+      "category": "task"
+    },
+    {
+      "entity": "image deblurring",
+      "category": "task"
+    },
+    {
+      "entity": "computer vision problems",
+      "category": "task"
+    },
+    {
+      "entity": "motion analysis",
+      "category": "task"
+    },
+    {
+      "entity": "image restoration",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "blurred images",
+      "category": "material"
+    },
+    {
+      "entity": "image data",
+      "category": "material"
+    },
+    {
+      "entity": "blurred regions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "blur features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image color",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "gradient",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spectrum information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image patches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "blur information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Image classification",
+      "category": "task"
+    },
+    {
+      "entity": "Blur kernel estimation",
+      "category": "method"
+    },
+    {
+      "entity": "Image deblurring",
+      "category": "method"
+    },
+    {
+      "entity": "blur features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Feature parameter training",
+      "category": "method"
+    },
+    {
+      "entity": "Image patches",
+      "category": "material"
+    },
+    {
+      "entity": "Image data",
+      "category": "material"
+    },
+    {
+      "entity": "computer vision problems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Motion analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Image restoration",
+      "category": "task"
+    },
+    {
+      "entity": "Blur information",
+      "category": "metric"
+    },
+    {
+      "entity": "Image color",
+      "category": "material"
+    },
+    {
+      "entity": "Gradient",
+      "category": "material"
+    },
+    {
+      "entity": "Spectrum information",
+      "category": "material"
+    },
+    {
+      "entity": "Region-wise training",
+      "category": "method"
+    },
+    {
+      "entity": "Classification",
+      "category": "task"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "blur kernel estimation",
+      "predicted": "Blur kernel estimation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "image deblurring",
+      "predicted": "Image deblurring",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "computer vision problems",
+      "predicted": "computer vision problems",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "image color",
+      "predicted": "Image color",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "gradient",
+      "predicted": "Gradient",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "spectrum information",
+      "predicted": "Spectrum information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "image patches",
+      "predicted": "Image patches",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "blur information",
+      "predicted": "Blur information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "feature parameter training",
+      "predicted": "Feature parameter training",
+      "category": "method"
+    },
+    {
+      "gold": "motion analysis",
+      "predicted": "Motion analysis",
+      "category": "task"
+    },
+    {
+      "gold": "image restoration",
+      "predicted": "Image restoration",
+      "category": "task"
+    },
+    {
+      "gold": "image data",
+      "predicted": "Image data",
+      "category": "material"
+    },
+    {
+      "gold": "blur features",
+      "predicted": "blur features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [
+    {
+      "gold": "region-wise training and classification",
+      "gold_category": "method",
+      "matched_parts": [
+        {
+          "part": "region-wise training",
+          "matched": "Region-wise training",
+          "predicted_category": "method"
+        },
+        {
+          "part": "classification",
+          "matched": "Classification",
+          "predicted_category": "task"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "partially-blurred-image classification and analysis framework",
+      "category": "method"
+    },
+    {
+      "entity": "blur detection",
+      "category": "method"
+    },
+    {
+      "entity": "automatically detecting images",
+      "category": "task"
+    },
+    {
+      "entity": "images",
+      "category": "material"
+    },
+    {
+      "entity": "blurred images",
+      "category": "material"
+    },
+    {
+      "entity": "blurred regions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Image classification",
+      "category": "task"
+    },
+    {
+      "entity": "Training",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "task": 6,
+    "material": 3,
+    "otherscientificterm": 7
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 5,
+    "otherscientificterm": 2,
+    "material": 5,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 5,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 3,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.29411764705882354,
+  "recall": 0.25,
+  "f1": 0.27027027027027023,
+  "counts": {
+    "gold_entities": 20,
+    "predicted_entities": 17,
+    "exact_matches": 8,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 1,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 2,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

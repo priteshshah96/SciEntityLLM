@@ -1,0 +1,474 @@
+{
+  "doc_key": "ECCV_2012_29_abs",
+  "gold_entities": [
+    {
+      "entity": "optimal alignment of non-rigid surfaces",
+      "category": "task"
+    },
+    {
+      "entity": "Optimisation of the tree",
+      "category": "task"
+    },
+    {
+      "entity": "sequential tracking in local segments",
+      "category": "task"
+    },
+    {
+      "entity": "multiview video observations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduced drift",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonrigid deformations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "branches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "error accumulation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local segments",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "global nonsequential traversal",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tree structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonrigid surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cloth",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "people",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporally consistent representation",
+      "category": "method"
+    },
+    {
+      "entity": "non-rigid surface tracking",
+      "category": "method"
+    },
+    {
+      "entity": "frame-to-frame alignment",
+      "category": "method"
+    },
+    {
+      "entity": "non-sequential tracking approaches",
+      "category": "method"
+    },
+    {
+      "entity": "non-sequential tracking",
+      "category": "method"
+    },
+    {
+      "entity": "cluster tree",
+      "category": "method"
+    },
+    {
+      "entity": "cluster tree",
+      "category": "method"
+    },
+    {
+      "entity": "sequential and non-sequential tracking approaches",
+      "category": "method"
+    },
+    {
+      "entity": "cluster tree",
+      "category": "method"
+    },
+    {
+      "entity": "dissimilarity measure",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "temporal consistency",
+      "category": "metric"
+    },
+    {
+      "entity": "temporal consistency",
+      "category": "metric"
+    },
+    {
+      "entity": "synthetic facial performance",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Optimal alignment",
+      "category": "method"
+    },
+    {
+      "entity": "Non-rigid surfaces",
+      "category": "material"
+    },
+    {
+      "entity": "Multi-view video observations",
+      "category": "method"
+    },
+    {
+      "entity": "Temporal consistency",
+      "category": "metric"
+    },
+    {
+      "entity": "Frame-to-frame alignment",
+      "category": "method"
+    },
+    {
+      "entity": "Error accumulation",
+      "category": "metric"
+    },
+    {
+      "entity": "Drift",
+      "category": "metric"
+    },
+    {
+      "entity": "Dissimilarity measure",
+      "category": "metric"
+    },
+    {
+      "entity": "Tree",
+      "category": "material"
+    },
+    {
+      "entity": "Alignment path length",
+      "category": "metric"
+    },
+    {
+      "entity": "Jumps",
+      "category": "metric"
+    },
+    {
+      "entity": "Error minimization",
+      "category": "method"
+    },
+    {
+      "entity": "Cluster tree",
+      "category": "material"
+    },
+    {
+      "entity": "Sequential tracking",
+      "category": "method"
+    },
+    {
+      "entity": "Global non-sequential traversal",
+      "category": "method"
+    },
+    {
+      "entity": "Local segments",
+      "category": "material"
+    },
+    {
+      "entity": "Synthetic facial performance",
+      "category": "material"
+    },
+    {
+      "entity": "Quantitative analysis",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "tree",
+      "predicted": "Tree",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "error accumulation",
+      "predicted": "Error accumulation",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "local segments",
+      "predicted": "Local segments",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "frame-to-frame alignment",
+      "predicted": "Frame-to-frame alignment",
+      "category": "method"
+    },
+    {
+      "gold": "cluster tree",
+      "predicted": "Cluster tree",
+      "category": "method"
+    },
+    {
+      "gold": "dissimilarity measure",
+      "predicted": "Dissimilarity measure",
+      "category": "metric"
+    },
+    {
+      "gold": "temporal consistency",
+      "predicted": "Temporal consistency",
+      "category": "metric"
+    },
+    {
+      "gold": "synthetic facial performance",
+      "predicted": "Synthetic facial performance",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "multiview video observations",
+      "predicted": "Multi-view video observations",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "reduced drift",
+      "predicted": "Drift",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "global nonsequential traversal",
+      "predicted": "Global non-sequential traversal",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "frame-to-frame alignment",
+      "category": "method"
+    },
+    {
+      "entity": "dissimilarity measure",
+      "category": "metric"
+    },
+    {
+      "entity": "temporal consistency",
+      "category": "metric"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "optimal alignment of non-rigid surfaces",
+      "category": "task"
+    },
+    {
+      "entity": "Optimisation of the tree",
+      "category": "task"
+    },
+    {
+      "entity": "sequential tracking in local segments",
+      "category": "task"
+    },
+    {
+      "entity": "nonrigid deformations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "branches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tree structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nonrigid surfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "face",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cloth",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "people",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "temporally consistent representation",
+      "category": "method"
+    },
+    {
+      "entity": "non-rigid surface tracking",
+      "category": "method"
+    },
+    {
+      "entity": "non-sequential tracking approaches",
+      "category": "method"
+    },
+    {
+      "entity": "non-sequential tracking",
+      "category": "method"
+    },
+    {
+      "entity": "cluster tree",
+      "category": "method"
+    },
+    {
+      "entity": "cluster tree",
+      "category": "method"
+    },
+    {
+      "entity": "sequential and non-sequential tracking approaches",
+      "category": "method"
+    },
+    {
+      "entity": "robustness",
+      "category": "metric"
+    },
+    {
+      "entity": "temporal consistency",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Optimal alignment",
+      "category": "method"
+    },
+    {
+      "entity": "Non-rigid surfaces",
+      "category": "material"
+    },
+    {
+      "entity": "Alignment path length",
+      "category": "metric"
+    },
+    {
+      "entity": "Jumps",
+      "category": "metric"
+    },
+    {
+      "entity": "Error minimization",
+      "category": "method"
+    },
+    {
+      "entity": "Sequential tracking",
+      "category": "method"
+    },
+    {
+      "entity": "Quantitative analysis",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "cluster tree|method": {
+      "count": 3,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "temporal consistency|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "otherscientificterm": 13,
+    "method": 9,
+    "metric": 5
+  },
+  "predicted_category_counts": {
+    "method": 7,
+    "material": 5,
+    "metric": 6
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 13,
+      "predicted": 0,
+      "exact_matches": 3,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 5,
+      "predicted": 6,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 9,
+      "predicted": 7,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "category_precision": 0.6666666666666666,
+  "category_recall": 0.4,
+  "category_f1": 0.5,
+  "counts": {
+    "gold_entities": 30,
+    "predicted_entities": 18,
+    "exact_matches": 8,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 19,
+    "extra_entities": 7,
+    "generic_entities": 1,
+    "correct_predictions": 0,
+    "correct_categories": 12
+  }
+}

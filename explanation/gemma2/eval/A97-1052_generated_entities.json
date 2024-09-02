@@ -1,0 +1,224 @@
+{
+  "gold_entities": [
+    {
+      "entity": "textual corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "parser",
+      "category": "Method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "subcategorization dictionary",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "relative frequency of occurrence",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "subcategorization dictionary",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "subcategorization dictionary",
+      "category": "Material"
+    },
+    {
+      "entity": "textual corpora",
+      "category": "Material"
+    },
+    {
+      "entity": "dictionary entry",
+      "category": "Method"
+    },
+    {
+      "entity": "relative frequency of occurrence",
+      "category": "Metric"
+    },
+    {
+      "entity": "subcategorization classes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "english",
+      "category": "Material"
+    },
+    {
+      "entity": "verbs",
+      "category": "Material"
+    },
+    {
+      "entity": "complementation patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "subcategorization classes",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parser",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "subcategorization dictionary",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "subcategorization dictionary",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "textual corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "textual corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "relative frequency of occurrence",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "relative frequency of occurrence",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parser",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "parser",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "textual corpora",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "textual corpora",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "accuracy",
+        "category": "Metric"
+      }
+    },
+    {
+      "gold": {
+        "entity": "parser",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "parser",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "subcategorization dictionary",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "dictionary entry",
+          "category": "Method"
+        },
+        {
+          "entity": "subcategorization classes",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "subcategorization classes",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "english",
+      "category": "Material"
+    },
+    {
+      "entity": "verbs",
+      "category": "Material"
+    },
+    {
+      "entity": "complementation patterns",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "subcategorization dictionary": 2
+  },
+  "distinct_repeated_entities": [
+    "subcategorization dictionary"
+  ],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 11,
+    "generic_count": 2,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

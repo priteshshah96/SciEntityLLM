@@ -1,0 +1,302 @@
+{
+  "doc_key": "N03-1004",
+  "gold_entities": [
+    {
+      "entity": "ensemble methods",
+      "category": "method"
+    },
+    {
+      "entity": "multi-strategy and multi-source approach",
+      "category": "method"
+    },
+    {
+      "entity": "answering agents",
+      "category": "method"
+    },
+    {
+      "entity": "answering agents",
+      "category": "method"
+    },
+    {
+      "entity": "knowledge-based mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "statistical techniques",
+      "category": "method"
+    },
+    {
+      "entity": "multi-level answer resolution algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "answering agents",
+      "category": "method"
+    },
+    {
+      "entity": "answer resolution algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "machine learning",
+      "category": "task"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "task"
+    },
+    {
+      "entity": "question answering",
+      "category": "task"
+    },
+    {
+      "entity": "question passage andor answer levels",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "average precision metric",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Ensemble methods",
+      "category": "method"
+    },
+    {
+      "entity": "machine learning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Question answering",
+      "category": "task"
+    },
+    {
+      "entity": "Answering agents",
+      "category": "task"
+    },
+    {
+      "entity": "Corpora",
+      "category": "material"
+    },
+    {
+      "entity": "Knowledge-based mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "Statistical techniques",
+      "category": "method"
+    },
+    {
+      "entity": "Answer resolution algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Question level",
+      "category": "task"
+    },
+    {
+      "entity": "Passage level",
+      "category": "task"
+    },
+    {
+      "entity": "Answer level",
+      "category": "task"
+    },
+    {
+      "entity": "Relative improvement",
+      "category": "metric"
+    },
+    {
+      "entity": "Average precision metric",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "answering agents",
+      "predicted": "Answering agents",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "machine learning",
+      "predicted": "machine learning",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "ensemble methods",
+      "predicted": "Ensemble methods",
+      "category": "method"
+    },
+    {
+      "gold": "knowledge-based mechanisms",
+      "predicted": "Knowledge-based mechanisms",
+      "category": "method"
+    },
+    {
+      "gold": "statistical techniques",
+      "predicted": "Statistical techniques",
+      "category": "method"
+    },
+    {
+      "gold": "answer resolution algorithm",
+      "predicted": "Answer resolution algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "question answering",
+      "predicted": "Question answering",
+      "category": "task"
+    },
+    {
+      "gold": "average precision metric",
+      "predicted": "Average precision metric",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multi-strategy and multi-source approach",
+      "category": "method"
+    },
+    {
+      "entity": "answering agents",
+      "category": "method"
+    },
+    {
+      "entity": "answering agents",
+      "category": "method"
+    },
+    {
+      "entity": "multi-level answer resolution algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "question passage andor answer levels",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Corpora",
+      "category": "material"
+    },
+    {
+      "entity": "Question level",
+      "category": "task"
+    },
+    {
+      "entity": "Passage level",
+      "category": "task"
+    },
+    {
+      "entity": "Answer level",
+      "category": "task"
+    },
+    {
+      "entity": "Relative improvement",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "answering agents|method": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "method": 9,
+    "task": 3,
+    "otherscientificterm": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "method": 4,
+    "otherscientificterm": 2,
+    "task": 5,
+    "material": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 9,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.42857142857142855,
+  "f1": 0.42857142857142855,
+  "counts": {
+    "gold_entities": 14,
+    "predicted_entities": 14,
+    "exact_matches": 3,
+    "exact_matches_with_category": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 5,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

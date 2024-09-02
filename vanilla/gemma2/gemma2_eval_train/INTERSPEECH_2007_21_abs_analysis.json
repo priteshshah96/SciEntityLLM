@@ -1,0 +1,436 @@
+{
+  "doc_key": "INTERSPEECH_2007_21_abs",
+  "gold_entities": [
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "decoder",
+      "category": "method"
+    },
+    {
+      "entity": "unrolling HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "Viterbi decoding",
+      "category": "method"
+    },
+    {
+      "entity": "decoder",
+      "category": "method"
+    },
+    {
+      "entity": "weak duration constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word matches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unrealistic durations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word duration constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lattice",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word duration probabilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "state transitions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "duration constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word matches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "noise conditions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "corrupted speech signals",
+      "category": "material"
+    },
+    {
+      "entity": "clean speech",
+      "category": "material"
+    },
+    {
+      "entity": "connected-digit recognition",
+      "category": "task"
+    },
+    {
+      "entity": "word error rates",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "-  Duration constraints",
+      "category": "task"
+    },
+    {
+      "entity": "-  HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "-  Word duration probabilities",
+      "category": "metric"
+    },
+    {
+      "entity": "-  Lattice",
+      "category": "method"
+    },
+    {
+      "entity": "-  Viterbi decoding",
+      "category": "method"
+    },
+    {
+      "entity": "-  Connected-digit recognition",
+      "category": "task"
+    },
+    {
+      "entity": "-  Word error rates",
+      "category": "metric"
+    },
+    {
+      "entity": "noise conditions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "-  Speech signals",
+      "category": "material"
+    },
+    {
+      "entity": "-  Models",
+      "category": "material"
+    },
+    {
+      "entity": "-  Clean speech",
+      "category": "material"
+    },
+    {
+      "entity": "-  Corrupted speech",
+      "category": "material"
+    },
+    {
+      "entity": "-  Decoder",
+      "category": "method"
+    },
+    {
+      "entity": "-  Word matches",
+      "category": "task"
+    },
+    {
+      "entity": "-  Durations",
+      "category": "metric"
+    },
+    {
+      "entity": "-  Word error",
+      "category": "metric"
+    },
+    {
+      "entity": "noise",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "-  Recognition",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "noise conditions",
+      "predicted": "noise conditions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "HMMs",
+      "predicted": "-  HMMs",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "decoder",
+      "predicted": "-  Decoder",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "Viterbi decoding",
+      "predicted": "-  Viterbi decoding",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "weak duration constraints",
+      "predicted": "-  Duration constraints",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "word matches",
+      "predicted": "-  Word matches",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "lattice",
+      "predicted": "-  Lattice",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "word duration probabilities",
+      "predicted": "-  Word duration probabilities",
+      "score": 0.75,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "corrupted speech signals",
+      "predicted": "-  Speech signals",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "clean speech",
+      "predicted": "-  Clean speech",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "connected-digit recognition",
+      "predicted": "-  Connected-digit recognition",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "word error rates",
+      "predicted": "-  Word error rates",
+      "score": 0.75,
+      "gold_category": "metric",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "noise conditions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "decoder",
+      "category": "method"
+    },
+    {
+      "entity": "Viterbi decoding",
+      "category": "method"
+    },
+    {
+      "entity": "corrupted speech signals",
+      "category": "material"
+    },
+    {
+      "entity": "clean speech",
+      "category": "material"
+    },
+    {
+      "entity": "connected-digit recognition",
+      "category": "task"
+    },
+    {
+      "entity": "word error rates",
+      "category": "metric"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "decoder",
+      "category": "method"
+    },
+    {
+      "entity": "unrolling HMMs",
+      "category": "method"
+    },
+    {
+      "entity": "word matches",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "unrealistic durations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word duration constraints",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "state transitions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "duration constraints",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "-  Models",
+      "category": "material"
+    },
+    {
+      "entity": "-  Corrupted speech",
+      "category": "material"
+    },
+    {
+      "entity": "-  Durations",
+      "category": "metric"
+    },
+    {
+      "entity": "-  Word error",
+      "category": "metric"
+    },
+    {
+      "entity": "noise",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "-  Recognition",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "HMMs|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "decoder|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    },
+    "word matches|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 10,
+    "material": 2,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 4,
+    "method": 4,
+    "metric": 4,
+    "otherscientificterm": 2,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 3,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 10,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 4,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.05555555555555555,
+  "recall": 0.058823529411764705,
+  "f1": 0.05714285714285714,
+  "category_precision": 0.5555555555555556,
+  "category_recall": 0.5,
+  "category_f1": 0.5263157894736842,
+  "counts": {
+    "gold_entities": 20,
+    "predicted_entities": 18,
+    "exact_matches": 1,
+    "partial_matches": 11,
+    "split_matches": 0,
+    "category_matches": 8,
+    "generic_matches": 0,
+    "missing_entities": 8,
+    "extra_entities": 6,
+    "generic_entities": 1,
+    "correct_predictions": 1,
+    "correct_categories": 10
+  }
+}

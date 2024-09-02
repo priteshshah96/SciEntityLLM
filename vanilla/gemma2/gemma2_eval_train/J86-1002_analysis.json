@@ -1,0 +1,257 @@
+{
+  "doc_key": "J86-1002",
+  "gold_entities": [
+    {
+      "entity": "error correction",
+      "category": "task"
+    },
+    {
+      "entity": "Error correction",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "task"
+    },
+    {
+      "entity": "ill-formed input",
+      "category": "material"
+    },
+    {
+      "entity": "stereotypic dialogue",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue acquisition and tracking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "voice interactive system",
+      "category": "method"
+    },
+    {
+      "entity": "error correction methodology",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "error correction",
+      "category": "method"
+    },
+    {
+      "entity": "ill-formed input",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue patterns",
+      "category": "metric"
+    },
+    {
+      "entity": "usage",
+      "category": "task"
+    },
+    {
+      "entity": "parsing",
+      "category": "method"
+    },
+    {
+      "entity": "expected meanings",
+      "category": "metric"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialogue acquisition and tracking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "voice interactive system",
+      "category": "material"
+    },
+    {
+      "entity": "tests",
+      "category": "task"
+    },
+    {
+      "entity": "error correction methodology",
+      "category": "method"
+    },
+    {
+      "entity": "stereotypic dialogue",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "error correction",
+      "predicted": "error correction",
+      "category": "task"
+    },
+    {
+      "gold": "parsing",
+      "predicted": "parsing",
+      "category": "task"
+    },
+    {
+      "gold": "ill-formed input",
+      "predicted": "ill-formed input",
+      "category": "material"
+    },
+    {
+      "gold": "stereotypic dialogue",
+      "predicted": "stereotypic dialogue",
+      "category": "material"
+    },
+    {
+      "gold": "dialogue patterns",
+      "predicted": "dialogue patterns",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "dialogue acquisition and tracking algorithm",
+      "predicted": "dialogue acquisition and tracking algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "voice interactive system",
+      "predicted": "voice interactive system",
+      "category": "method"
+    },
+    {
+      "gold": "error correction methodology",
+      "predicted": "error correction methodology",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "ill-formed input",
+      "category": "material"
+    },
+    {
+      "entity": "dialogue acquisition and tracking algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "error correction methodology",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Error correction",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "usage",
+      "category": "task"
+    },
+    {
+      "entity": "expected meanings",
+      "category": "metric"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "implementation",
+      "category": "method"
+    },
+    {
+      "entity": "tests",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "material": 2,
+    "otherscientificterm": 1,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "material": 2,
+    "metric": 3,
+    "task": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.23076923076923078,
+  "recall": 0.3333333333333333,
+  "f1": 0.27272727272727276,
+  "category_precision": 0.6153846153846154,
+  "category_recall": 0.8888888888888888,
+  "category_f1": 0.7272727272727274,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 13,
+    "exact_matches": 8,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 5,
+    "generic_entities": 2,
+    "correct_predictions": 3,
+    "correct_categories": 8
+  }
+}

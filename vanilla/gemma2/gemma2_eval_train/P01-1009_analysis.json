@@ -1,0 +1,256 @@
+{
+  "doc_key": "P01-1009",
+  "gold_entities": [
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "natural language search engines",
+      "category": "method"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "approximation of the  formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "alternative markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "alternative markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "queries",
+      "category": "task"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language applications",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "search engine",
+      "predicted": "search engine",
+      "category": "method"
+    },
+    {
+      "gold": "alternative markers",
+      "predicted": "alternative markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "dialog",
+      "predicted": "dialog",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "operational semantics",
+      "predicted": "operational semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "natural language applications",
+      "predicted": "natural language applications",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "alternative markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "dialog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "natural language search engines",
+      "category": "method"
+    },
+    {
+      "entity": "search engine",
+      "category": "method"
+    },
+    {
+      "entity": "approximation of the  formal analysis",
+      "category": "method"
+    },
+    {
+      "entity": "operational semantics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "queries",
+      "category": "task"
+    },
+    {
+      "entity": "performance",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "formal analysis|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "search engine|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "operational semantics|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 4,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "task": 1,
+    "metric": 1,
+    "method": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.5,
+  "f1": 0.5,
+  "category_precision": 0.75,
+  "category_recall": 0.5454545454545454,
+  "category_f1": 0.631578947368421,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 8,
+    "exact_matches": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 3,
+    "generic_entities": 3,
+    "correct_predictions": 4,
+    "correct_categories": 6
+  }
+}

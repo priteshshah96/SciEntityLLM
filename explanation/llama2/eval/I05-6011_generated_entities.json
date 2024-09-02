@@ -1,0 +1,222 @@
+{
+  "gold_entities": [
+    {
+      "entity": "honorifics",
+      "category": "Material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "Material"
+    },
+    {
+      "entity": "japanese",
+      "category": "Material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "Material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "Material"
+    },
+    {
+      "entity": "annotating scheme",
+      "category": "Method"
+    },
+    {
+      "entity": "respectful words",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "referential information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "zero pronouns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "machine translation outputs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ranks",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ranks",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "honorifics",
+      "category": "Task"
+    },
+    {
+      "entity": "japanese",
+      "category": "Material"
+    },
+    {
+      "entity": "social relationship",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "referents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicate",
+      "category": "Method"
+    },
+    {
+      "entity": "rank",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "calibrating",
+      "category": "Method"
+    },
+    {
+      "entity": "referents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "machine translation",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "honorifics",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "honorifics",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "japanese",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "japanese",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "japanese",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "japanese",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "machine translation outputs",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "machine translation",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "honorifics",
+      "category": "Material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "Material"
+    },
+    {
+      "entity": "honorifics",
+      "category": "Material"
+    },
+    {
+      "entity": "annotating scheme",
+      "category": "Method"
+    },
+    {
+      "entity": "respectful words",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "referential information",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "zero pronouns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ranks",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "ranks",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "social relationship",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "referents",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "predicate",
+      "category": "Method"
+    },
+    {
+      "entity": "rank",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "calibrating",
+      "category": "Method"
+    },
+    {
+      "entity": "referents",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "honorifics": 4,
+    "ranks": 2
+  },
+  "distinct_repeated_entities": [
+    "honorifics",
+    "ranks"
+  ],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 9,
+    "generic_count": 0,
+    "exact_matches": 2,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 6
+  }
+}

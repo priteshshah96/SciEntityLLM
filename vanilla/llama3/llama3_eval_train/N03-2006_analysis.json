@@ -1,0 +1,271 @@
+{
+  "doc_key": "N03-2006",
+  "gold_entities": [
+    {
+      "entity": "EBMT",
+      "category": "method"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    },
+    {
+      "entity": "EBMT system",
+      "category": "method"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    },
+    {
+      "entity": "small-sized  bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "out-of-domain  bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "in-domain  monolingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "out-of-domain  bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "evaluation measures",
+      "category": "metric"
+    },
+    {
+      "entity": "BLEU score",
+      "category": "metric"
+    },
+    {
+      "entity": "NIST score",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Monolingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "EBMT system",
+      "category": "task"
+    },
+    {
+      "entity": "BLEU score",
+      "category": "metric"
+    },
+    {
+      "entity": "NIST score",
+      "category": "metric"
+    },
+    {
+      "entity": "Language model",
+      "category": "material"
+    },
+    {
+      "entity": "Out-of-domain bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "In-domain monolingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "translation quality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Small-sized bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Evaluation measures",
+      "category": "method"
+    },
+    {
+      "entity": "Experiments",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language model",
+      "predicted": "Language model",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "EBMT system",
+      "predicted": "EBMT system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "evaluation measures",
+      "predicted": "Evaluation measures",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "small-sized  bilingual corpus",
+      "predicted": "Small-sized bilingual corpus",
+      "category": "material"
+    },
+    {
+      "gold": "out-of-domain  bilingual corpus",
+      "predicted": "Out-of-domain bilingual corpus",
+      "category": "material"
+    },
+    {
+      "gold": "in-domain  monolingual corpus",
+      "predicted": "In-domain monolingual corpus",
+      "category": "material"
+    },
+    {
+      "gold": "BLEU score",
+      "predicted": "BLEU score",
+      "category": "metric"
+    },
+    {
+      "gold": "NIST score",
+      "predicted": "NIST score",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "out-of-domain  bilingual corpus",
+      "predicted": "Bilingual corpus",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "EBMT",
+      "category": "method"
+    },
+    {
+      "entity": "language model",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Monolingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "translation quality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experiments",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "language model|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "out-of-domain  bilingual corpus|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "material": 4,
+    "metric": 3
+  },
+  "predicted_category_counts": {
+    "material": 6,
+    "task": 2,
+    "metric": 2,
+    "otherscientificterm": 1,
+    "method": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4166666666666667,
+  "recall": 0.45454545454545453,
+  "f1": 0.43478260869565216,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 12,
+    "exact_matches": 3,
+    "exact_matches_with_category": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

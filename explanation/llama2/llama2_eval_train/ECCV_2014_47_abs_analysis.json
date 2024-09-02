@@ -1,0 +1,279 @@
+{
+  "doc_key": "ECCV_2014_47_abs",
+  "gold_entities": [
+    {
+      "entity": "predicting image or video interestingness",
+      "category": "task"
+    },
+    {
+      "entity": "interestingness prediction task",
+      "category": "task"
+    },
+    {
+      "entity": "rank problem",
+      "category": "task"
+    },
+    {
+      "entity": "outlier detection",
+      "category": "task"
+    },
+    {
+      "entity": "interestingness prediction tasks",
+      "category": "task"
+    },
+    {
+      "entity": "low-level feature representations",
+      "category": "method"
+    },
+    {
+      "entity": "prediction model",
+      "category": "method"
+    },
+    {
+      "entity": "crowdsourcing tools",
+      "category": "method"
+    },
+    {
+      "entity": "majority voting",
+      "category": "method"
+    },
+    {
+      "entity": "unified robust learning",
+      "category": "method"
+    },
+    {
+      "entity": "subjective visual attribute",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interestingness value",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pairwise comparisons",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "annotation outlierserrors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "annotation outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image and video interestingness benchmark datasets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "image or video interestingness",
+      "category": "task"
+    },
+    {
+      "entity": "low-level feature representations",
+      "category": "method"
+    },
+    {
+      "entity": "interestingness value",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "annotation outlierserrors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "crowdsourcing tools",
+      "category": "method"
+    },
+    {
+      "entity": "pairwise comparisons",
+      "category": "method"
+    },
+    {
+      "entity": "majority voting",
+      "category": "method"
+    },
+    {
+      "entity": "unified robust learning to rank problem",
+      "category": "task"
+    },
+    {
+      "entity": "outlier detection",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "interestingness prediction task",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "state-of-the-art alternatives",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "interestingness prediction task",
+      "predicted": "interestingness prediction task",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "outlier detection",
+      "predicted": "outlier detection",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "pairwise comparisons",
+      "predicted": "pairwise comparisons",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "low-level feature representations",
+      "predicted": "low-level feature representations",
+      "category": "method"
+    },
+    {
+      "gold": "crowdsourcing tools",
+      "predicted": "crowdsourcing tools",
+      "category": "method"
+    },
+    {
+      "gold": "majority voting",
+      "predicted": "majority voting",
+      "category": "method"
+    },
+    {
+      "gold": "interestingness value",
+      "predicted": "interestingness value",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "annotation outlierserrors",
+      "predicted": "annotation outlierserrors",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "predicting image or video interestingness",
+      "predicted": "image or video interestingness",
+      "score": 0.8,
+      "gold_category": "task",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "unified robust learning",
+      "predicted": "unified robust learning to rank problem",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "rank problem",
+      "category": "task"
+    },
+    {
+      "entity": "interestingness prediction tasks",
+      "category": "task"
+    },
+    {
+      "entity": "prediction model",
+      "category": "method"
+    },
+    {
+      "entity": "subjective visual attribute",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "annotation outliers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "image and video interestingness benchmark datasets",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "state-of-the-art alternatives",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "method": 5,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 4,
+    "material": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.45454545454545453,
+  "recall": 0.3125,
+  "f1": 0.3703703703703703,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 1,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,316 @@
+{
+  "doc_key": "P05-1010",
+  "gold_entities": [
+    {
+      "entity": "generative probabilistic model  of  parse trees",
+      "category": "method"
+    },
+    {
+      "entity": "PCFG-LA",
+      "category": "method"
+    },
+    {
+      "entity": "PCFG",
+      "category": "method"
+    },
+    {
+      "entity": "PCFG-LA model",
+      "category": "method"
+    },
+    {
+      "entity": "EM-algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "PCFG-LA",
+      "category": "method"
+    },
+    {
+      "entity": "unlexicalized PCFG parser",
+      "category": "method"
+    },
+    {
+      "entity": "manual feature selection",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbols",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "latent variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "finegrained cfg rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsed corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Penn WSJ corpus",
+      "category": "material"
+    },
+    {
+      "entity": "exact  parsing",
+      "category": "task"
+    },
+    {
+      "entity": "F1",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Generative probabilistic model",
+      "category": "task"
+    },
+    {
+      "entity": "Parse trees",
+      "category": "task"
+    },
+    {
+      "entity": "PCFG-LA",
+      "category": "method"
+    },
+    {
+      "entity": "PCFG",
+      "category": "method"
+    },
+    {
+      "entity": "nonterminal symbols",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "latent variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Finegrained CFG rules",
+      "category": "method"
+    },
+    {
+      "entity": "EM-algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Exact parsing",
+      "category": "task"
+    },
+    {
+      "entity": "nphard",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Penn WSJ corpus",
+      "category": "material"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Feature selection",
+      "category": "method"
+    },
+    {
+      "entity": "Manual feature selection",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "finegrained cfg rules",
+      "predicted": "Finegrained CFG rules",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "PCFG-LA",
+      "predicted": "PCFG-LA",
+      "category": "method"
+    },
+    {
+      "gold": "PCFG",
+      "predicted": "PCFG",
+      "category": "method"
+    },
+    {
+      "gold": "EM-algorithm",
+      "predicted": "EM-algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "manual feature selection",
+      "predicted": "Manual feature selection",
+      "category": "method"
+    },
+    {
+      "gold": "nonterminal symbols",
+      "predicted": "nonterminal symbols",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "latent variables",
+      "predicted": "latent variables",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Penn WSJ corpus",
+      "predicted": "Penn WSJ corpus",
+      "category": "material"
+    },
+    {
+      "gold": "exact  parsing",
+      "predicted": "Exact parsing",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "generative probabilistic model  of  parse trees",
+      "predicted": "Generative probabilistic model",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "PCFG-LA",
+      "category": "method"
+    },
+    {
+      "entity": "PCFG-LA model",
+      "category": "method"
+    },
+    {
+      "entity": "unlexicalized PCFG parser",
+      "category": "method"
+    },
+    {
+      "entity": "parsed corpus",
+      "category": "material"
+    },
+    {
+      "entity": "F1",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Parse trees",
+      "category": "task"
+    },
+    {
+      "entity": "nphard",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "words",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Feature selection",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "PCFG-LA|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "otherscientificterm": 3,
+    "material": 2,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 6,
+    "otherscientificterm": 5,
+    "material": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 5,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5333333333333333,
+  "recall": 0.5333333333333333,
+  "f1": 0.5333333333333333,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 8,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

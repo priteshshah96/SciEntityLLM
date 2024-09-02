@@ -1,0 +1,258 @@
+{
+  "doc_key": "P05-3030",
+  "gold_entities": [
+    {
+      "entity": "organizing reading materials",
+      "category": "task"
+    },
+    {
+      "entity": "vocabulary learning",
+      "category": "task"
+    },
+    {
+      "entity": "target vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English Wikipedia",
+      "category": "material"
+    },
+    {
+      "entity": "free-content encyclopedia",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "vocabulary learning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Target corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Target vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "English Wikipedia",
+      "category": "material"
+    },
+    {
+      "entity": "Vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "English certification test",
+      "category": "material"
+    },
+    {
+      "entity": "Reading texts",
+      "category": "material"
+    },
+    {
+      "entity": "Specialized vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "Method of organizing reading materials",
+      "category": "method"
+    },
+    {
+      "entity": "Select a concise set of reading texts",
+      "category": "task"
+    },
+    {
+      "entity": "Contain all the target vocabulary",
+      "category": "metric"
+    },
+    {
+      "entity": "Study the target vocabulary efficiently",
+      "category": "task"
+    },
+    {
+      "entity": "Gain a variety of knowledge through reading",
+      "category": "task"
+    },
+    {
+      "entity": "Organized reading materials",
+      "category": "material"
+    },
+    {
+      "entity": "available on our web site",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Free-content encyclopedia",
+      "category": "material"
+    },
+    {
+      "entity": "Reading materials",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "vocabulary learning",
+      "predicted": "vocabulary learning",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "target vocabulary",
+      "predicted": "Target vocabulary",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "English Wikipedia",
+      "predicted": "English Wikipedia",
+      "category": "material"
+    },
+    {
+      "gold": "free-content encyclopedia",
+      "predicted": "Free-content encyclopedia",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "organizing reading materials",
+      "predicted": "Reading materials",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Target corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "English certification test",
+      "category": "material"
+    },
+    {
+      "entity": "Reading texts",
+      "category": "material"
+    },
+    {
+      "entity": "Specialized vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "Method of organizing reading materials",
+      "category": "method"
+    },
+    {
+      "entity": "Select a concise set of reading texts",
+      "category": "task"
+    },
+    {
+      "entity": "Contain all the target vocabulary",
+      "category": "metric"
+    },
+    {
+      "entity": "Study the target vocabulary efficiently",
+      "category": "task"
+    },
+    {
+      "entity": "Gain a variety of knowledge through reading",
+      "category": "task"
+    },
+    {
+      "entity": "Organized reading materials",
+      "category": "material"
+    },
+    {
+      "entity": "available on our web site",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "material": 10,
+    "method": 1,
+    "task": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 10,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.11764705882352941,
+  "recall": 0.4,
+  "f1": 0.1818181818181818,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 17,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 12,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

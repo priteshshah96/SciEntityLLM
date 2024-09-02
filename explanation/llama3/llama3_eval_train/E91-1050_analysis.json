@@ -1,0 +1,161 @@
+{
+  "doc_key": "E91-1050",
+  "gold_entities": [
+    {
+      "entity": "Unification",
+      "category": "method"
+    },
+    {
+      "entity": "declarative formalism",
+      "category": "method"
+    },
+    {
+      "entity": "relations  between  representations",
+      "category": "task"
+    },
+    {
+      "entity": "feature structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "direct mappings of one feature structure into another",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "unification",
+      "category": "method"
+    },
+    {
+      "entity": "feature structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "declarative formalism",
+      "category": "method"
+    },
+    {
+      "entity": "mappings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "areas of current interest",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Unification",
+      "predicted": "unification",
+      "category": "method"
+    },
+    {
+      "gold": "declarative formalism",
+      "predicted": "declarative formalism",
+      "category": "method"
+    },
+    {
+      "gold": "feature structures",
+      "predicted": "feature structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "relations  between  representations",
+      "category": "task"
+    },
+    {
+      "entity": "direct mappings of one feature structure into another",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "mappings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "areas of current interest",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 3,
+    "material": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.6,
+  "f1": 0.5454545454545454,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 6,
+    "exact_matches": 0,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 3,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

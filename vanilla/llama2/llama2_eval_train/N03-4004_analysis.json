@@ -1,0 +1,147 @@
+{
+  "doc_key": "N03-4004",
+  "gold_entities": [
+    {
+      "entity": "TAP-XL Automated Analyst's Assistant",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual, multimedia data",
+      "category": "material"
+    },
+    {
+      "entity": "human language technology",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "TAP-XL",
+      "category": "task"
+    },
+    {
+      "entity": "Automated Analyst's Assistant",
+      "category": "task"
+    },
+    {
+      "entity": "english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multilingual",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multimedia",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human language technology",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "human language technology",
+      "predicted": "human language technology",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "TAP-XL Automated Analyst's Assistant",
+      "predicted": "Automated Analyst's Assistant",
+      "score": 0.75,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multilingual, multimedia data",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "TAP-XL",
+      "category": "task"
+    },
+    {
+      "entity": "english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multimedia",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "material": 1,
+    "method": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 6,
+    "exact_matches": 1,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

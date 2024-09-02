@@ -1,0 +1,236 @@
+{
+  "doc_key": "A92-1010",
+  "gold_entities": [
+    {
+      "entity": "cognitively well-motivated interfaces",
+      "category": "task"
+    },
+    {
+      "entity": "natural language generation",
+      "category": "task"
+    },
+    {
+      "entity": "display of graphical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "graphical information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Graphical information",
+      "category": "material"
+    },
+    {
+      "entity": "cognitively wellmotivated interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Display of graphical information",
+      "category": "method"
+    },
+    {
+      "entity": "Information",
+      "category": "material"
+    },
+    {
+      "entity": "Natural language generation",
+      "category": "method"
+    },
+    {
+      "entity": "Interaction",
+      "category": "task"
+    },
+    {
+      "entity": "situations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expectations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Information of the wrong kind",
+      "category": "material"
+    },
+    {
+      "entity": "Information being requested",
+      "category": "metric"
+    },
+    {
+      "entity": "Too little information",
+      "category": "metric"
+    },
+    {
+      "entity": "Too much information",
+      "category": "metric"
+    },
+    {
+      "entity": "Cognitively well-motivated interface design",
+      "category": "task"
+    },
+    {
+      "entity": "Wrong information",
+      "category": "material"
+    },
+    {
+      "entity": "Display",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language generation",
+      "predicted": "Natural language generation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "display of graphical information",
+      "predicted": "Display of graphical information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "graphical information",
+      "predicted": "Graphical information",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "cognitively well-motivated interfaces",
+      "predicted": "cognitively wellmotivated interfaces",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Information",
+      "category": "material"
+    },
+    {
+      "entity": "Interaction",
+      "category": "task"
+    },
+    {
+      "entity": "situations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "expectations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Information of the wrong kind",
+      "category": "material"
+    },
+    {
+      "entity": "Information being requested",
+      "category": "metric"
+    },
+    {
+      "entity": "Too little information",
+      "category": "metric"
+    },
+    {
+      "entity": "Too much information",
+      "category": "metric"
+    },
+    {
+      "entity": "Cognitively well-motivated interface design",
+      "category": "task"
+    },
+    {
+      "entity": "Wrong information",
+      "category": "material"
+    },
+    {
+      "entity": "Display",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "material": 4,
+    "otherscientificterm": 3,
+    "method": 3,
+    "task": 2,
+    "metric": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 15,
+    "exact_matches": 3,
+    "exact_matches_with_category": 0,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 11,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

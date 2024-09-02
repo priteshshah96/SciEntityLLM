@@ -1,0 +1,293 @@
+{
+  "doc_key": "NIPS_2015_10_abs",
+  "gold_entities": [
+    {
+      "entity": "non-uniform sampling strategies",
+      "category": "method"
+    },
+    {
+      "entity": "stochastic optimization algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic Variance Reduced Gradient (SVRG)",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic Dual Coordinate Ascent (SDCA)",
+      "category": "method"
+    },
+    {
+      "entity": "linear convergence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data dependent local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "loss functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "optimum",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "convergence guarantees",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "penalized empirical risk minimization problems",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Sampling strategies",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic optimization algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "Linear convergence",
+      "category": "metric"
+    },
+    {
+      "entity": "SVRG",
+      "category": "method"
+    },
+    {
+      "entity": "SDCA",
+      "category": "method"
+    },
+    {
+      "entity": "Empirical risk minimization problems",
+      "category": "task"
+    },
+    {
+      "entity": "Data dependent local smoothness",
+      "category": "metric"
+    },
+    {
+      "entity": "Loss functions",
+      "category": "metric"
+    },
+    {
+      "entity": "optimum",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Convergence guarantees",
+      "category": "metric"
+    },
+    {
+      "entity": "Bounds",
+      "category": "metric"
+    },
+    {
+      "entity": "Local smoothness",
+      "category": "metric"
+    },
+    {
+      "entity": "numerical results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "stochastic optimization algorithms",
+      "predicted": "Stochastic optimization algorithms",
+      "category": "method"
+    },
+    {
+      "gold": "linear convergence",
+      "predicted": "Linear convergence",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "data dependent local smoothness",
+      "predicted": "Data dependent local smoothness",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "loss functions",
+      "predicted": "Loss functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "optimum",
+      "predicted": "optimum",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "convergence guarantees",
+      "predicted": "Convergence guarantees",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "local smoothness",
+      "predicted": "Local smoothness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "non-uniform sampling strategies",
+      "predicted": "Sampling strategies",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "penalized empirical risk minimization problems",
+      "predicted": "Empirical risk minimization problems",
+      "score": 0.8,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "stochastic optimization algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "optimum",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "non-uniform sampling strategies",
+      "category": "method"
+    },
+    {
+      "entity": "penalized empirical risk minimization problems",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Stochastic Variance Reduced Gradient (SVRG)",
+      "category": "method"
+    },
+    {
+      "entity": "Stochastic Dual Coordinate Ascent (SDCA)",
+      "category": "method"
+    },
+    {
+      "entity": "local smoothness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "SVRG",
+      "category": "method"
+    },
+    {
+      "entity": "SDCA",
+      "category": "method"
+    },
+    {
+      "entity": "Bounds",
+      "category": "metric"
+    },
+    {
+      "entity": "numerical results",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Algorithms",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "local smoothness|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "otherscientificterm": 7,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "method": 5,
+    "metric": 6,
+    "task": 1,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 6,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 5,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 6,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.07142857142857142,
+  "recall": 0.09090909090909091,
+  "f1": 0.08,
+  "category_precision": 0.5,
+  "category_recall": 0.5833333333333334,
+  "category_f1": 0.5384615384615384,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 7,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 3,
+    "correct_predictions": 1,
+    "correct_categories": 7
+  }
+}

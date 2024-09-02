@@ -1,0 +1,189 @@
+{
+  "doc_key": "W04-1307",
+  "gold_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "realistic acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "material"
+    },
+    {
+      "entity": "linguistics",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    },
+    {
+      "entity": "simulation results",
+      "category": "metric"
+    },
+    {
+      "entity": "realistic acquisition",
+      "category": "material"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "cognitive psychology",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistics",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "computational model",
+      "predicted": "computational model",
+      "category": "method"
+    },
+    {
+      "gold": "statistical learning mechanisms",
+      "predicted": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "gold": "word segmentation",
+      "predicted": "word segmentation",
+      "category": "task"
+    },
+    {
+      "gold": "realistic acquisition",
+      "predicted": "realistic acquisition",
+      "category": "task"
+    },
+    {
+      "gold": "cognitive psychology",
+      "predicted": "cognitive psychology",
+      "category": "material"
+    },
+    {
+      "gold": "linguistics",
+      "predicted": "linguistics",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "computational model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical learning mechanisms",
+      "category": "method"
+    },
+    {
+      "entity": "word segmentation",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "simulation results",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 2,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "task": 1,
+    "metric": 1,
+    "material": 1,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.42857142857142855,
+  "recall": 0.5,
+  "f1": 0.4615384615384615,
+  "category_precision": 0.5714285714285714,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.6153846153846153,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 7,
+    "exact_matches": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 1,
+    "generic_entities": 0,
+    "correct_predictions": 3,
+    "correct_categories": 4
+  }
+}

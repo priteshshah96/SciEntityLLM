@@ -1,0 +1,291 @@
+{
+  "doc_key": "A92-1023",
+  "gold_entities": [
+    {
+      "entity": "evaluation methodology",
+      "category": "task"
+    },
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition (SR)",
+      "category": "task"
+    },
+    {
+      "entity": "speech understanding (SU)",
+      "category": "task"
+    },
+    {
+      "entity": "evaluation of  SLS systems",
+      "category": "task"
+    },
+    {
+      "entity": "NL evaluations",
+      "category": "task"
+    },
+    {
+      "entity": "automatic evaluation of  question-answering NL systems",
+      "category": "task"
+    },
+    {
+      "entity": "natural language nl interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "speech or text input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "SLS systems",
+      "category": "method"
+    },
+    {
+      "entity": "SLS systems",
+      "category": "method"
+    },
+    {
+      "entity": "Message Understanding Conferences",
+      "category": "material"
+    },
+    {
+      "entity": "\"black-box\" methodology",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "evaluation methodology",
+      "category": "task"
+    },
+    {
+      "entity": "speech recognition (SR)",
+      "category": "method"
+    },
+    {
+      "entity": "natural language (NL) interfaces",
+      "category": "material"
+    },
+    {
+      "entity": "speech understanding (SU)",
+      "category": "method"
+    },
+    {
+      "entity": "DARPA Spoken Language Systems (SLS) program",
+      "category": "material"
+    },
+    {
+      "entity": "SLS systems",
+      "category": "material"
+    },
+    {
+      "entity": "NL evaluations",
+      "category": "material"
+    },
+    {
+      "entity": "Message Understanding Conferences",
+      "category": "material"
+    },
+    {
+      "entity": "\"black-box\" methodology",
+      "category": "method"
+    },
+    {
+      "entity": "question-answering NL systems",
+      "category": "material"
+    },
+    {
+      "entity": "speech or text input",
+      "category": "method"
+    },
+    {
+      "entity": "DARPA SLS community",
+      "category": "material"
+    },
+    {
+      "entity": "problems and directions for future development",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "speech recognition (SR)",
+      "predicted": "speech recognition (SR)",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "speech understanding (SU)",
+      "predicted": "speech understanding (SU)",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "NL evaluations",
+      "predicted": "NL evaluations",
+      "gold_category": "task",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "speech or text input",
+      "predicted": "speech or text input",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "SLS systems",
+      "predicted": "SLS systems",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "\"black-box\" methodology",
+      "predicted": "\"black-box\" methodology",
+      "gold_category": "metric",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "evaluation methodology",
+      "predicted": "evaluation methodology",
+      "category": "task"
+    },
+    {
+      "gold": "Message Understanding Conferences",
+      "predicted": "Message Understanding Conferences",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "automatic evaluation of  question-answering NL systems",
+      "predicted": "question-answering NL systems",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "evaluation of  SLS systems",
+      "category": "task"
+    },
+    {
+      "entity": "natural language nl interfaces",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "SLS systems",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "natural language (NL) interfaces",
+      "category": "material"
+    },
+    {
+      "entity": "DARPA Spoken Language Systems (SLS) program",
+      "category": "material"
+    },
+    {
+      "entity": "DARPA SLS community",
+      "category": "material"
+    },
+    {
+      "entity": "problems and directions for future development",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "SLS systems|method": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 7,
+    "otherscientificterm": 2,
+    "method": 2,
+    "material": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "material": 7
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 7,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.15384615384615385,
+  "f1": 0.15384615384615385,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 13,
+    "exact_matches": 6,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 4,
+    "generic_entities": 8
+  },
+  "empty_category_entities": []
+}

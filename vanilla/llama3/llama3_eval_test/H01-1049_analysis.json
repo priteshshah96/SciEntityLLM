@@ -1,0 +1,263 @@
+{
+  "doc_key": "H01-1049",
+  "gold_entities": [
+    {
+      "entity": "Listen-Communicate-Show (LCS)",
+      "category": "task"
+    },
+    {
+      "entity": "human interaction with data sources",
+      "category": "task"
+    },
+    {
+      "entity": "LCS-Marine",
+      "category": "task"
+    },
+    {
+      "entity": "LCS-Marine",
+      "category": "task"
+    },
+    {
+      "entity": "spoken language understanding system",
+      "category": "method"
+    },
+    {
+      "entity": "intelligent mobile agents",
+      "category": "method"
+    },
+    {
+      "entity": "mobile, intelligent agent",
+      "category": "method"
+    },
+    {
+      "entity": "information sources",
+      "category": "material"
+    },
+    {
+      "entity": "new domains",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Listen-Communicate-Show",
+      "category": "task"
+    },
+    {
+      "entity": "spoken language understanding system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Intelligent mobile agents",
+      "category": "material"
+    },
+    {
+      "entity": "Users",
+      "category": "material"
+    },
+    {
+      "entity": "Information sources",
+      "category": "material"
+    },
+    {
+      "entity": "LCS-Marine",
+      "category": "method"
+    },
+    {
+      "entity": "Mobile, intelligent agent",
+      "category": "material"
+    },
+    {
+      "entity": "Database",
+      "category": "material"
+    },
+    {
+      "entity": "Requestors",
+      "category": "material"
+    },
+    {
+      "entity": "Request",
+      "category": "metric"
+    },
+    {
+      "entity": "Field exercises",
+      "category": "method"
+    },
+    {
+      "entity": "New domains",
+      "category": "material"
+    },
+    {
+      "entity": "Tactical personnel",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "LCS-Marine",
+      "predicted": "LCS-Marine",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "spoken language understanding system",
+      "predicted": "spoken language understanding system",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "intelligent mobile agents",
+      "predicted": "Intelligent mobile agents",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "mobile, intelligent agent",
+      "predicted": "Mobile, intelligent agent",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "information sources",
+      "predicted": "Information sources",
+      "category": "material"
+    },
+    {
+      "gold": "new domains",
+      "predicted": "New domains",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Listen-Communicate-Show (LCS)",
+      "category": "task"
+    },
+    {
+      "entity": "human interaction with data sources",
+      "category": "task"
+    },
+    {
+      "entity": "LCS-Marine",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Listen-Communicate-Show",
+      "category": "task"
+    },
+    {
+      "entity": "Users",
+      "category": "material"
+    },
+    {
+      "entity": "Database",
+      "category": "material"
+    },
+    {
+      "entity": "Requestors",
+      "category": "material"
+    },
+    {
+      "entity": "Request",
+      "category": "metric"
+    },
+    {
+      "entity": "Field exercises",
+      "category": "method"
+    },
+    {
+      "entity": "Tactical personnel",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "LCS-Marine|task": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "method": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 1,
+    "material": 8,
+    "method": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.2222222222222222,
+  "f1": 0.18181818181818185,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 13,
+    "exact_matches": 4,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

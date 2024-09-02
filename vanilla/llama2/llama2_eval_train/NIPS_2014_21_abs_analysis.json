@@ -1,0 +1,323 @@
+{
+  "doc_key": "NIPS_2014_21_abs",
+  "gold_entities": [
+    {
+      "entity": "real-world action recognition problems",
+      "category": "task"
+    },
+    {
+      "entity": "submodular optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "lowlevel features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rich spatialtemporal structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "highlevel concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "action attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "action attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "datadriven attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "noisy and redundant attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discriminative attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "action videos",
+      "category": "material"
+    },
+    {
+      "entity": "Olympic Sports and UCF101 datasets",
+      "category": "material"
+    },
+    {
+      "entity": "dictionary learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "Attribute-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative and compact attribute-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "greedy optimization algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "attribute-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "action recognition algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "recognition approaches",
+      "category": "method"
+    },
+    {
+      "entity": "attribute selection criteria",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Action videos",
+      "category": "task"
+    },
+    {
+      "entity": "highlevel concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Low-level features",
+      "category": "task"
+    },
+    {
+      "entity": "action attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Dictionary learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "Attribute-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "Submodular optimization problem",
+      "category": "method"
+    },
+    {
+      "entity": "Greedy optimization algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Olympic Sports dataset",
+      "category": "material"
+    },
+    {
+      "entity": "UCF101 dataset",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "submodular optimization problem",
+      "predicted": "Submodular optimization problem",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "action videos",
+      "predicted": "Action videos",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "highlevel concepts",
+      "predicted": "highlevel concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "action attributes",
+      "predicted": "action attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "dictionary learning methods",
+      "predicted": "Dictionary learning methods",
+      "category": "method"
+    },
+    {
+      "gold": "Attribute-based representation",
+      "predicted": "Attribute-based representation",
+      "category": "method"
+    },
+    {
+      "gold": "greedy optimization algorithm",
+      "predicted": "Greedy optimization algorithm",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "real-world action recognition problems",
+      "category": "task"
+    },
+    {
+      "entity": "lowlevel features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "rich spatialtemporal structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "action attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "datadriven attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "noisy and redundant attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discriminative attributes",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Olympic Sports and UCF101 datasets",
+      "category": "material"
+    },
+    {
+      "entity": "discriminative and compact attribute-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "attribute-based representation",
+      "category": "method"
+    },
+    {
+      "entity": "action recognition algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "recognition approaches",
+      "category": "method"
+    },
+    {
+      "entity": "attribute selection criteria",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Low-level features",
+      "category": "task"
+    },
+    {
+      "entity": "Olympic Sports dataset",
+      "category": "material"
+    },
+    {
+      "entity": "UCF101 dataset",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "action attributes|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 8,
+    "material": 2,
+    "method": 7,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "otherscientificterm": 2,
+    "method": 4,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 7,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5,
+  "recall": 0.25,
+  "f1": 0.3333333333333333,
+  "counts": {
+    "gold_entities": 20,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 13,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

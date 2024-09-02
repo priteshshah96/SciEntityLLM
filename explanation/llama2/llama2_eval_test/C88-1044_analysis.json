@@ -1,0 +1,174 @@
+{
+  "doc_key": "C88-1044",
+  "gold_entities": [
+    {
+      "entity": "demonstrative expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "demonstrative forms and functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "anaphoric expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "discourse processing algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "natural language generation system",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "demonstrative expressions",
+      "category": "task"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "discourse processing algorithms",
+      "category": "method"
+    },
+    {
+      "entity": "texts",
+      "category": "material"
+    },
+    {
+      "entity": "genre",
+      "category": "material"
+    },
+    {
+      "entity": "anaphoric expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language generation system",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "demonstrative expressions",
+      "predicted": "demonstrative expressions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "anaphoric expressions",
+      "predicted": "anaphoric expressions",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "English",
+      "predicted": "English",
+      "category": "material"
+    },
+    {
+      "gold": "discourse processing algorithms",
+      "predicted": "discourse processing algorithms",
+      "category": "method"
+    },
+    {
+      "gold": "natural language generation system",
+      "predicted": "natural language generation system",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "demonstrative forms and functions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "texts",
+      "category": "material"
+    },
+    {
+      "entity": "genre",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 3,
+    "material": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "material": 3,
+    "method": 2,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5714285714285714,
+  "recall": 0.6666666666666666,
+  "f1": 0.6153846153846153,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 7,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

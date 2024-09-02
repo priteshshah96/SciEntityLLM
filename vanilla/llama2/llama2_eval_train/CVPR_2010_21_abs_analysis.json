@@ -1,0 +1,283 @@
+{
+  "doc_key": "CVPR_2010_21_abs",
+  "gold_entities": [
+    {
+      "entity": "Conditional Random Field models",
+      "category": "method"
+    },
+    {
+      "entity": "graph cuts",
+      "category": "method"
+    },
+    {
+      "entity": "belief propagation",
+      "category": "method"
+    },
+    {
+      "entity": "structured learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "Iterative solutions",
+      "category": "method"
+    },
+    {
+      "entity": "large margin piece-wise learning method",
+      "category": "method"
+    },
+    {
+      "entity": "low-level computer vision problems",
+      "category": "task"
+    },
+    {
+      "entity": "Inference",
+      "category": "task"
+    },
+    {
+      "entity": "combinatorial optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "large margin estimation",
+      "category": "task"
+    },
+    {
+      "entity": "convex optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "inference problem",
+      "category": "task"
+    },
+    {
+      "entity": "optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "convex problem",
+      "category": "task"
+    },
+    {
+      "entity": "model parameters",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partition function",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Conditional Random Field",
+      "category": "task"
+    },
+    {
+      "entity": "Graph cuts",
+      "category": "method"
+    },
+    {
+      "entity": "Belief propagation",
+      "category": "method"
+    },
+    {
+      "entity": "Partition function",
+      "category": "metric"
+    },
+    {
+      "entity": "Large margin estimation",
+      "category": "method"
+    },
+    {
+      "entity": "Inference problem",
+      "category": "task"
+    },
+    {
+      "entity": "Convex optimization",
+      "category": "method"
+    },
+    {
+      "entity": "Iterative solutions",
+      "category": "method"
+    },
+    {
+      "entity": "Publicly available standard datasets",
+      "category": "material"
+    },
+    {
+      "entity": "large margin piecewise learning method",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "large margin estimation",
+      "predicted": "Large margin estimation",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "partition function",
+      "predicted": "Partition function",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "graph cuts",
+      "predicted": "Graph cuts",
+      "category": "method"
+    },
+    {
+      "gold": "belief propagation",
+      "predicted": "Belief propagation",
+      "category": "method"
+    },
+    {
+      "gold": "Iterative solutions",
+      "predicted": "Iterative solutions",
+      "category": "method"
+    },
+    {
+      "gold": "inference problem",
+      "predicted": "Inference problem",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Conditional Random Field models",
+      "predicted": "Conditional Random Field",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "large margin piece-wise learning method",
+      "predicted": "large margin piecewise learning method",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "convex optimization problem",
+      "predicted": "Convex optimization",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "structured learning methods",
+      "category": "method"
+    },
+    {
+      "entity": "low-level computer vision problems",
+      "category": "task"
+    },
+    {
+      "entity": "Inference",
+      "category": "task"
+    },
+    {
+      "entity": "combinatorial optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "optimization problem",
+      "category": "task"
+    },
+    {
+      "entity": "convex problem",
+      "category": "task"
+    },
+    {
+      "entity": "model parameters",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Publicly available standard datasets",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "task": 8,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 5,
+    "metric": 1,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 8,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.25,
+  "f1": 0.3076923076923077,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 10,
+    "exact_matches": 2,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 1,
+    "generic_entities": 6
+  },
+  "empty_category_entities": []
+}

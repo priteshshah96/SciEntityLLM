@@ -1,0 +1,199 @@
+{
+  "doc_key": "P05-3025",
+  "gold_entities": [
+    {
+      "entity": "interactively visualizing and directing the process  of  translating",
+      "category": "task"
+    },
+    {
+      "entity": "syntax-based statistical machine translation (MT)",
+      "category": "task"
+    },
+    {
+      "entity": "MT systems",
+      "category": "method"
+    },
+    {
+      "entity": "visualization method",
+      "category": "method"
+    },
+    {
+      "entity": "MT system",
+      "category": "method"
+    },
+    {
+      "entity": "syntax-based decoder",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Interactive visualization",
+      "category": "task"
+    },
+    {
+      "entity": "Machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "Model",
+      "category": "method"
+    },
+    {
+      "entity": "Syntax-based statistical machine translation",
+      "category": "method"
+    },
+    {
+      "entity": "Model's strengths and weaknesses",
+      "category": "metric"
+    },
+    {
+      "entity": "other mt systems",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "User",
+      "category": "task"
+    },
+    {
+      "entity": "Decoder",
+      "category": "method"
+    },
+    {
+      "entity": "acl",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "syntax-based statistical machine translation (MT)",
+      "predicted": "Syntax-based statistical machine translation",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "MT systems",
+      "predicted": "other mt systems",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "syntax-based decoder",
+      "predicted": "Decoder",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "interactively visualizing and directing the process  of  translating",
+      "category": "task"
+    },
+    {
+      "entity": "visualization method",
+      "category": "method"
+    },
+    {
+      "entity": "MT system",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Interactive visualization",
+      "category": "task"
+    },
+    {
+      "entity": "Machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "Model",
+      "category": "method"
+    },
+    {
+      "entity": "Model's strengths and weaknesses",
+      "category": "metric"
+    },
+    {
+      "entity": "User",
+      "category": "task"
+    },
+    {
+      "entity": "acl",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 3,
+    "metric": 1,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 9,
+    "exact_matches": 0,
+    "exact_matches_with_category": 0,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,345 @@
+{
+  "gold_entities": [
+    {
+      "entity": "abstracts of research articles",
+      "category": "Material"
+    },
+    {
+      "entity": "abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "web",
+      "category": "Material"
+    },
+    {
+      "entity": "abstract moves",
+      "category": "Material"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "language model",
+      "category": "Method"
+    },
+    {
+      "entity": "prototype concordancer",
+      "category": "Method"
+    },
+    {
+      "entity": "care",
+      "category": "Method"
+    },
+    {
+      "entity": "computational analysis of move structures",
+      "category": "Task"
+    },
+    {
+      "entity": "digital learning",
+      "category": "Task"
+    },
+    {
+      "entity": "web-based computer-assisted academic writing",
+      "category": "Task"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "move structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "computational analysis",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "abstract",
+      "category": "Material"
+    },
+    {
+      "entity": "research article",
+      "category": "Material"
+    },
+    {
+      "entity": "sentence",
+      "category": "Material"
+    },
+    {
+      "entity": "rhetorical function",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "language model",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "move-tagged abstract",
+      "category": "Material"
+    },
+    {
+      "entity": "concordancer",
+      "category": "Material"
+    },
+    {
+      "entity": "care",
+      "category": "Task"
+    },
+    {
+      "entity": "webbased computerassisted academic writing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "digital learning",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "move",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "abstract move",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "web",
+      "category": "Material"
+    },
+    {
+      "entity": "automatic gathering",
+      "category": "Method"
+    },
+    {
+      "entity": "move labeling",
+      "category": "Method"
+    },
+    {
+      "entity": "building a language model",
+      "category": "Method"
+    },
+    {
+      "entity": "exploiting move-tagged abstracts",
+      "category": "Method"
+    },
+    {
+      "entity": "providing a promising approach",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "system",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "language model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "language model",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "care",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "care",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "digital learning",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "digital learning",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "web",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "web",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "web",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "web",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "abstracts of research articles",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "research article",
+          "category": "Material"
+        },
+        {
+          "entity": "exploiting move-tagged abstracts",
+          "category": "Method"
+        }
+      ],
+      "coverage": 0.8333333333333333
+    },
+    {
+      "gold": {
+        "entity": "abstract moves",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "abstract",
+          "category": "Material"
+        },
+        {
+          "entity": "move-tagged abstract",
+          "category": "Material"
+        },
+        {
+          "entity": "abstract move",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "computational analysis of move structures",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "move structure",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "computational analysis",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "move",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "move labeling",
+          "category": "Method"
+        }
+      ],
+      "coverage": 3.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "prototype concordancer",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "concordancer",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "move-tagged abstracts",
+      "category": "Material"
+    },
+    {
+      "entity": "web-based computer-assisted academic writing",
+      "category": "Task"
+    },
+    {
+      "entity": "rhetorical functions",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "sentence",
+      "category": "Material"
+    },
+    {
+      "entity": "rhetorical function",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "webbased computerassisted academic writing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "automatic gathering",
+      "category": "Method"
+    },
+    {
+      "entity": "building a language model",
+      "category": "Method"
+    },
+    {
+      "entity": "providing a promising approach",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 20,
+    "generic_count": 5,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 3,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

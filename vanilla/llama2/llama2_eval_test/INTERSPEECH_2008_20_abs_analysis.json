@@ -1,0 +1,184 @@
+{
+  "doc_key": "INTERSPEECH_2008_20_abs",
+  "gold_entities": [
+    {
+      "entity": "expressive speech communication",
+      "category": "task"
+    },
+    {
+      "entity": "discrete (categorical) and continuous (attribute) emotional assessments",
+      "category": "task"
+    },
+    {
+      "entity": "IEMOCAP database",
+      "category": "material"
+    },
+    {
+      "entity": "expression and perception of emotion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "activationvalence space",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "emotion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Listener",
+      "category": "task"
+    },
+    {
+      "entity": "Speaker",
+      "category": "task"
+    },
+    {
+      "entity": "IEMOCAP",
+      "category": "material"
+    },
+    {
+      "entity": "Database",
+      "category": "material"
+    },
+    {
+      "entity": "Discrete",
+      "category": "method"
+    },
+    {
+      "entity": "Continuous",
+      "category": "method"
+    },
+    {
+      "entity": "activationvalence space",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "activationvalence space",
+      "predicted": "activationvalence space",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "IEMOCAP database",
+      "predicted": "IEMOCAP",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "expressive speech communication",
+      "category": "task"
+    },
+    {
+      "entity": "discrete (categorical) and continuous (attribute) emotional assessments",
+      "category": "task"
+    },
+    {
+      "entity": "expression and perception of emotion",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "emotion",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Listener",
+      "category": "task"
+    },
+    {
+      "entity": "Speaker",
+      "category": "task"
+    },
+    {
+      "entity": "Database",
+      "category": "material"
+    },
+    {
+      "entity": "Discrete",
+      "category": "method"
+    },
+    {
+      "entity": "Continuous",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 2,
+    "task": 2,
+    "material": 2,
+    "method": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.125,
+  "recall": 0.2,
+  "f1": 0.15384615384615385,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 8,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,246 @@
+{
+  "doc_key": "C08-1118",
+  "gold_entities": [
+    {
+      "entity": "medium-length speeches",
+      "category": "material"
+    },
+    {
+      "entity": "EUROPARL corpus",
+      "category": "material"
+    },
+    {
+      "entity": "frequency counts  of  word n-grams",
+      "category": "method"
+    },
+    {
+      "entity": "classification method",
+      "category": "method"
+    },
+    {
+      "entity": "word ngrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "positive markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Frequency counts",
+      "category": "metric"
+    },
+    {
+      "entity": "word ngrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "EUROPARL corpus",
+      "category": "material"
+    },
+    {
+      "entity": "Classification method",
+      "category": "method"
+    },
+    {
+      "entity": "positive markers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Medium-length speeches",
+      "category": "material"
+    },
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "culturerelated ones",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Identify",
+      "category": "task"
+    },
+    {
+      "entity": "Identifies",
+      "category": "task"
+    },
+    {
+      "entity": "Paper",
+      "category": "material"
+    },
+    {
+      "entity": "Shows",
+      "category": "task"
+    },
+    {
+      "entity": "Speeches",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "medium-length speeches",
+      "predicted": "Medium-length speeches",
+      "category": "material"
+    },
+    {
+      "gold": "EUROPARL corpus",
+      "predicted": "EUROPARL corpus",
+      "category": "material"
+    },
+    {
+      "gold": "classification method",
+      "predicted": "Classification method",
+      "category": "method"
+    },
+    {
+      "gold": "word ngrams",
+      "predicted": "word ngrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "positive markers",
+      "predicted": "positive markers",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "frequency counts  of  word n-grams",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Frequency counts",
+      "category": "metric"
+    },
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "linguistic aspects",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "culturerelated ones",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Identify",
+      "category": "task"
+    },
+    {
+      "entity": "Identifies",
+      "category": "task"
+    },
+    {
+      "entity": "Paper",
+      "category": "material"
+    },
+    {
+      "entity": "Shows",
+      "category": "task"
+    },
+    {
+      "entity": "Speeches",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "material": 2,
+    "method": 2,
+    "otherscientificterm": 2,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "metric": 1,
+    "otherscientificterm": 5,
+    "material": 4,
+    "method": 1,
+    "task": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.35714285714285715,
+  "recall": 0.7142857142857143,
+  "f1": 0.4761904761904762,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 14,
+    "exact_matches": 0,
+    "exact_matches_with_category": 5,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 9,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

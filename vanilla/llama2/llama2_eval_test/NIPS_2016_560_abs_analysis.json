@@ -1,0 +1,245 @@
+{
+  "doc_key": "NIPS_2016_560_abs",
+  "gold_entities": [
+    {
+      "entity": "Joint matrix triangularization",
+      "category": "task"
+    },
+    {
+      "entity": "signal processing",
+      "category": "task"
+    },
+    {
+      "entity": "machine learning",
+      "category": "task"
+    },
+    {
+      "entity": "approximate joint matrix triangularization",
+      "category": "task"
+    },
+    {
+      "entity": "joint matrix decomposition",
+      "category": "task"
+    },
+    {
+      "entity": "joint eigenstructure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "firstorder upper bound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "posteriori bound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "approximate joint triangularizer",
+      "category": "method"
+    },
+    {
+      "entity": "exact joint triangularizer",
+      "category": "method"
+    },
+    {
+      "entity": "triangularizer",
+      "category": "method"
+    },
+    {
+      "entity": "synthetic data",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Joint matrix triangularization",
+      "category": "task"
+    },
+    {
+      "entity": "Set M of matrices",
+      "category": "task"
+    },
+    {
+      "entity": "Set M' of noise perturbed versions of the matrices in M",
+      "category": "task"
+    },
+    {
+      "entity": "Approximate joint triangularizer",
+      "category": "task"
+    },
+    {
+      "entity": "Exact joint triangularizer",
+      "category": "task"
+    },
+    {
+      "entity": "Observed matrices in M'",
+      "category": "material"
+    },
+    {
+      "entity": "Noise level",
+      "category": "material"
+    },
+    {
+      "entity": "proximity to critical points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distance measure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "approximate joint triangularizer",
+      "predicted": "Approximate joint triangularizer",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "exact joint triangularizer",
+      "predicted": "Exact joint triangularizer",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Joint matrix triangularization",
+      "predicted": "Joint matrix triangularization",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "signal processing",
+      "category": "task"
+    },
+    {
+      "entity": "machine learning",
+      "category": "task"
+    },
+    {
+      "entity": "approximate joint matrix triangularization",
+      "category": "task"
+    },
+    {
+      "entity": "joint matrix decomposition",
+      "category": "task"
+    },
+    {
+      "entity": "joint eigenstructure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "firstorder upper bound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "posteriori bound",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "triangularizer",
+      "category": "method"
+    },
+    {
+      "entity": "synthetic data",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Set M of matrices",
+      "category": "task"
+    },
+    {
+      "entity": "Set M' of noise perturbed versions of the matrices in M",
+      "category": "task"
+    },
+    {
+      "entity": "Observed matrices in M'",
+      "category": "material"
+    },
+    {
+      "entity": "Noise level",
+      "category": "material"
+    },
+    {
+      "entity": "proximity to critical points",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "distance measure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "otherscientificterm": 3,
+    "method": 3,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 5,
+    "material": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1111111111111111,
+  "recall": 0.08333333333333333,
+  "f1": 0.09523809523809525,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 6,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

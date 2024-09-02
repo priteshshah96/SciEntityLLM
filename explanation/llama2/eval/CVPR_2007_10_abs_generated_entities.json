@@ -1,0 +1,222 @@
+{
+  "gold_entities": [
+    {
+      "entity": "linear fukunaga-koontz transform (fkt)",
+      "category": "Method"
+    },
+    {
+      "entity": "discriminative subspaces building approach",
+      "category": "Method"
+    },
+    {
+      "entity": "fkt",
+      "category": "Method"
+    },
+    {
+      "entity": "linear fkt",
+      "category": "Method"
+    },
+    {
+      "entity": "kernel fukunaga-koontz transform",
+      "category": "Method"
+    },
+    {
+      "entity": "non-linear generalization",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-class problem",
+      "category": "Task"
+    },
+    {
+      "entity": "face recognition applications",
+      "category": "Task"
+    },
+    {
+      "entity": "domain specific problems",
+      "category": "Task"
+    },
+    {
+      "entity": "small-sample-size",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "higher dimensional (kernel) subspaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discrimination ability",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "traditional linear fukunaga-koontz transform (fkt)",
+      "category": "Method"
+    },
+    {
+      "entity": "small-sample-size",
+      "category": "Material"
+    },
+    {
+      "entity": "multiclass problem",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "higher dimensional kernel subspaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discrimination ability",
+      "category": "Method"
+    },
+    {
+      "entity": "face recognition applications",
+      "category": "Method"
+    },
+    {
+      "entity": "non-linear generalization",
+      "category": "Method"
+    },
+    {
+      "entity": "domain specific problems",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "small-sample-size",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "small-sample-size",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "discrimination ability",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "discrimination ability",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "face recognition applications",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "face recognition applications",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "non-linear generalization",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "non-linear generalization",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "domain specific problems",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "domain specific problems",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "non-linear generalization",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "non-linear generalization",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "linear fukunaga-koontz transform (fkt)",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "traditional linear fukunaga-koontz transform (fkt)",
+        "category": "Method"
+      },
+      "overlap": 0.8
+    },
+    {
+      "gold": {
+        "entity": "higher dimensional (kernel) subspaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "higher dimensional kernel subspaces",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.75
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "discriminative subspaces building approach",
+      "category": "Method"
+    },
+    {
+      "entity": "fkt",
+      "category": "Method"
+    },
+    {
+      "entity": "linear fkt",
+      "category": "Method"
+    },
+    {
+      "entity": "kernel fukunaga-koontz transform",
+      "category": "Method"
+    },
+    {
+      "entity": "multi-class problem",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "multiclass problem",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 8,
+    "generic_count": 1,
+    "exact_matches": 5,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

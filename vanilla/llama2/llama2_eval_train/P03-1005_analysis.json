@@ -1,0 +1,247 @@
+{
+  "doc_key": "P03-1005",
+  "gold_entities": [
+    {
+      "entity": "Hierarchical Directed Acyclic Graph (HDAG) Kernel",
+      "category": "method"
+    },
+    {
+      "entity": "HDAG Kernel",
+      "category": "method"
+    },
+    {
+      "entity": "HDAGs",
+      "category": "method"
+    },
+    {
+      "entity": "kernel function",
+      "category": "method"
+    },
+    {
+      "entity": "HDAG Kernel",
+      "category": "method"
+    },
+    {
+      "entity": "kernel functions",
+      "category": "method"
+    },
+    {
+      "entity": "structured natural language data",
+      "category": "material"
+    },
+    {
+      "entity": "question classification  and  sentence alignment tasks",
+      "category": "task"
+    },
+    {
+      "entity": "similarity measure",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Hierarchical Directed Acyclic Graph (HDAG)",
+      "category": "task"
+    },
+    {
+      "entity": "structured natural language data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "chunks",
+      "category": "task"
+    },
+    {
+      "entity": "relations",
+      "category": "task"
+    },
+    {
+      "entity": "attribute sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "question classification",
+      "category": "task"
+    },
+    {
+      "entity": "sentence alignment",
+      "category": "task"
+    },
+    {
+      "entity": "similarity measure",
+      "category": "task"
+    },
+    {
+      "entity": "kernel function",
+      "category": "task"
+    },
+    {
+      "entity": "other kernel functions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "baseline methods",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "kernel function",
+      "predicted": "kernel function",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "structured natural language data",
+      "predicted": "structured natural language data",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "similarity measure",
+      "predicted": "similarity measure",
+      "gold_category": "metric",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [],
+  "partial_matches": [
+    {
+      "gold": "Hierarchical Directed Acyclic Graph (HDAG) Kernel",
+      "predicted": "Hierarchical Directed Acyclic Graph (HDAG)",
+      "score": 0.6,
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "kernel functions",
+      "predicted": "other kernel functions",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "HDAG Kernel",
+      "category": "method"
+    },
+    {
+      "entity": "HDAG Kernel",
+      "category": "method"
+    },
+    {
+      "entity": "HDAGs",
+      "category": "method"
+    },
+    {
+      "entity": "question classification  and  sentence alignment tasks",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "chunks",
+      "category": "task"
+    },
+    {
+      "entity": "relations",
+      "category": "task"
+    },
+    {
+      "entity": "attribute sequences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence alignment",
+      "category": "task"
+    },
+    {
+      "entity": "baseline methods",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "HDAG Kernel|method": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "material": 1,
+    "task": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 7,
+    "otherscientificterm": 4
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 11,
+    "exact_matches": 3,
+    "exact_matches_with_category": 0,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

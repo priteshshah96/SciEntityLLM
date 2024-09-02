@@ -1,0 +1,199 @@
+{
+  "gold_entities": [
+    {
+      "entity": "iemocap database",
+      "category": "Material"
+    },
+    {
+      "entity": "expressive speech communication",
+      "category": "Task"
+    },
+    {
+      "entity": "discrete (categorical) and continuous (attribute) emotional assessments",
+      "category": "Task"
+    },
+    {
+      "entity": "expression and perception of emotion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "activation-valence space",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "expressive speech communication",
+      "category": "Task"
+    },
+    {
+      "entity": "emotion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intended emotion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "na\u00a8\u0131ve listeners",
+      "category": "Material"
+    },
+    {
+      "entity": "discrete (categorical) emotional assessments",
+      "category": "Method"
+    },
+    {
+      "entity": "continuous (attribute) emotional assessments",
+      "category": "Method"
+    },
+    {
+      "entity": "iemocap database",
+      "category": "Material"
+    },
+    {
+      "entity": "actors",
+      "category": "Material"
+    },
+    {
+      "entity": "self-assessments",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mismatches",
+      "category": "Metric"
+    },
+    {
+      "entity": "activation-valence space",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "database",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "iemocap database",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "iemocap database",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "activation-valence space",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "activation-valence space",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "expressive speech communication",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "iemocap database",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "iemocap database",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "discrete (categorical) and continuous (attribute) emotional assessments",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "discrete (categorical) emotional assessments",
+          "category": "Method"
+        },
+        {
+          "entity": "continuous (attribute) emotional assessments",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "expression and perception of emotion",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "emotion",
+          "category": "OtherScientificTerm"
+        },
+        {
+          "entity": "intended emotion",
+          "category": "OtherScientificTerm"
+        }
+      ],
+      "coverage": 1.5
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "na\u00a8\u0131ve listeners",
+      "category": "Material"
+    },
+    {
+      "entity": "actors",
+      "category": "Material"
+    },
+    {
+      "entity": "self-assessments",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "mismatches",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 5,
+    "generated_count": 11,
+    "generic_count": 1,
+    "exact_matches": 3,
+    "exact_category_matches": 2,
+    "split_matches": 2,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

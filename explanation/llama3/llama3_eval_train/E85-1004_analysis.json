@@ -1,0 +1,278 @@
+{
+  "doc_key": "E85-1004",
+  "gold_entities": [
+    {
+      "entity": "analytical inverses",
+      "category": "method"
+    },
+    {
+      "entity": "Definite Clause Grammar techniques",
+      "category": "method"
+    },
+    {
+      "entity": "parser MDCC",
+      "category": "method"
+    },
+    {
+      "entity": "augmented Friedman - Warren algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Montague's PTQ",
+      "category": "method"
+    },
+    {
+      "entity": "basic DCG mechanism",
+      "category": "method"
+    },
+    {
+      "entity": "compositional syntax rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "post referencing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intenslonal logic translator lilt",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "derivational history",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduced il formulae",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parser  returning  Montague analysis trees",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "University of York",
+      "category": "material"
+    },
+    {
+      "entity": "analytical inverses",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "compositional syntax rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Definite Clause Grammar",
+      "category": "method"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "Montague analysis trees",
+      "category": "material"
+    },
+    {
+      "entity": "parser MDCC",
+      "category": "method"
+    },
+    {
+      "entity": "augmented Friedman-Warren algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "post referencing",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "intenslonal logic translator LILT",
+      "category": "material"
+    },
+    {
+      "entity": "derivational history",
+      "category": "metric"
+    },
+    {
+      "entity": "reduced IL formulae",
+      "category": "material"
+    },
+    {
+      "entity": "Montague's PTQ",
+      "category": "material"
+    },
+    {
+      "entity": "basic dcg mechanism",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "analytical inverses",
+      "predicted": "analytical inverses",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Montague's PTQ",
+      "predicted": "Montague's PTQ",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "basic DCG mechanism",
+      "predicted": "basic dcg mechanism",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "intenslonal logic translator lilt",
+      "predicted": "intenslonal logic translator LILT",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "derivational history",
+      "predicted": "derivational history",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "reduced il formulae",
+      "predicted": "reduced IL formulae",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "parser MDCC",
+      "predicted": "parser MDCC",
+      "category": "method"
+    },
+    {
+      "gold": "compositional syntax rules",
+      "predicted": "compositional syntax rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "post referencing",
+      "predicted": "post referencing",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "Definite Clause Grammar techniques",
+      "predicted": "Definite Clause Grammar",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "parser  returning  Montague analysis trees",
+      "predicted": "Montague analysis trees",
+      "score": 0.6,
+      "gold_category": "task",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "augmented Friedman - Warren algorithm",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "University of York",
+      "category": "material"
+    },
+    {
+      "entity": "parser",
+      "category": "method"
+    },
+    {
+      "entity": "augmented Friedman-Warren algorithm",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 5,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "material": 5,
+    "otherscientificterm": 4,
+    "method": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 4,
+      "exact_matches": 3,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 3,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.21428571428571427,
+  "recall": 0.25,
+  "f1": 0.23076923076923075,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 14,
+    "exact_matches": 6,
+    "exact_matches_with_category": 3,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

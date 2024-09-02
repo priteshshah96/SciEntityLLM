@@ -1,0 +1,281 @@
+{
+  "doc_key": "W99-0408",
+  "gold_entities": [
+    {
+      "entity": "user knowledge modeling architecture",
+      "category": "method"
+    },
+    {
+      "entity": "ICICLE system",
+      "category": "task"
+    },
+    {
+      "entity": "language tutoring application",
+      "category": "task"
+    },
+    {
+      "entity": "writing analysis",
+      "category": "task"
+    },
+    {
+      "entity": "feedback production",
+      "category": "task"
+    },
+    {
+      "entity": "second language and cognitive skill acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "language assessment / correction application",
+      "category": "task"
+    },
+    {
+      "entity": "deaf learners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "user proficiency",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "written English",
+      "category": "material"
+    },
+    {
+      "entity": "granularity",
+      "category": "metric"
+    },
+    {
+      "entity": "specificity",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "User knowledge modeling architecture",
+      "category": "task"
+    },
+    {
+      "entity": "ICICLE system",
+      "category": "task"
+    },
+    {
+      "entity": "Language tutoring application",
+      "category": "task"
+    },
+    {
+      "entity": "deaf learners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "written english",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Language proficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "Writing analysis",
+      "category": "task"
+    },
+    {
+      "entity": "Feedback production",
+      "category": "task"
+    },
+    {
+      "entity": "second language acquisition",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "cognitive skill acquisition",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Language assessment/correction application",
+      "category": "task"
+    },
+    {
+      "entity": "information base",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Proficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "granularity",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "specificity",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "user knowledge modeling architecture",
+      "predicted": "User knowledge modeling architecture",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "written English",
+      "predicted": "written english",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "granularity",
+      "predicted": "granularity",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "specificity",
+      "predicted": "specificity",
+      "gold_category": "metric",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "ICICLE system",
+      "predicted": "ICICLE system",
+      "category": "task"
+    },
+    {
+      "gold": "language tutoring application",
+      "predicted": "Language tutoring application",
+      "category": "task"
+    },
+    {
+      "gold": "writing analysis",
+      "predicted": "Writing analysis",
+      "category": "task"
+    },
+    {
+      "gold": "feedback production",
+      "predicted": "Feedback production",
+      "category": "task"
+    },
+    {
+      "gold": "deaf learners",
+      "predicted": "deaf learners",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "second language and cognitive skill acquisition",
+      "predicted": "second language acquisition",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "user proficiency",
+      "predicted": "Proficiency",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "language assessment / correction application",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Language proficiency",
+      "category": "metric"
+    },
+    {
+      "entity": "Language assessment/correction application",
+      "category": "task"
+    },
+    {
+      "entity": "information base",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "task": 6,
+    "otherscientificterm": 2,
+    "material": 1,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "task": 6,
+    "otherscientificterm": 7,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 4,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.4166666666666667,
+  "f1": 0.3703703703703704,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 15,
+    "exact_matches": 4,
+    "exact_matches_with_category": 5,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 4
+  },
+  "empty_category_entities": []
+}

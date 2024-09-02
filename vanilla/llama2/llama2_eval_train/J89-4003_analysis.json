@@ -1,0 +1,265 @@
+{
+  "doc_key": "J89-4003",
+  "gold_entities": [
+    {
+      "entity": "class of languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduplication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduplication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "stack",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "class of languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduplications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context-free languages",
+      "category": "material"
+    },
+    {
+      "entity": "context-free languages",
+      "category": "material"
+    },
+    {
+      "entity": "indexed languages",
+      "category": "material"
+    },
+    {
+      "entity": "natural languages",
+      "category": "material"
+    },
+    {
+      "entity": "model",
+      "category": "method"
+    },
+    {
+      "entity": "pushdown automaton",
+      "category": "method"
+    },
+    {
+      "entity": "formal models",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Model",
+      "category": "task"
+    },
+    {
+      "entity": "reduplication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context-free languages",
+      "category": "task"
+    },
+    {
+      "entity": "indexed languages",
+      "category": "task"
+    },
+    {
+      "entity": "natural languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pushdown automaton",
+      "category": "method"
+    },
+    {
+      "entity": "stack",
+      "category": "method"
+    },
+    {
+      "entity": "automaton",
+      "category": "method"
+    },
+    {
+      "entity": "constructions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "stack",
+      "predicted": "stack",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "context-free languages",
+      "predicted": "context-free languages",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "indexed languages",
+      "predicted": "indexed languages",
+      "gold_category": "material",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "natural languages",
+      "predicted": "natural languages",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "model",
+      "predicted": "Model",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "reduplication",
+      "predicted": "reduplication",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "pushdown automaton",
+      "predicted": "pushdown automaton",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "class of languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "class of languages",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduplication",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "reduplications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "context-free languages",
+      "category": "material"
+    },
+    {
+      "entity": "formal models",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "automaton",
+      "category": "method"
+    },
+    {
+      "entity": "constructions",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "class of languages|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "reduplication|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "context-free languages|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 3,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 6,
+    "material": 4,
+    "method": 3
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "otherscientificterm": 3,
+    "method": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 4,
+      "predicted": 0,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.15384615384615385,
+  "f1": 0.18181818181818185,
+  "counts": {
+    "gold_entities": 13,
+    "predicted_entities": 9,
+    "exact_matches": 5,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 2,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

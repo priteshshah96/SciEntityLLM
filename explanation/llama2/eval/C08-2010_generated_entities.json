@@ -1,0 +1,255 @@
+{
+  "gold_entities": [
+    {
+      "entity": "high-quality data",
+      "category": "Material"
+    },
+    {
+      "entity": "language resource quality",
+      "category": "Metric"
+    },
+    {
+      "entity": "automatic metrics",
+      "category": "Metric"
+    },
+    {
+      "entity": "nlp",
+      "category": "Task"
+    },
+    {
+      "entity": "nlp",
+      "category": "Task"
+    },
+    {
+      "entity": "mt",
+      "category": "Task"
+    },
+    {
+      "entity": "reference translations",
+      "category": "Task"
+    },
+    {
+      "entity": "automatic evaluations",
+      "category": "Task"
+    },
+    {
+      "entity": "mt",
+      "category": "Task"
+    },
+    {
+      "entity": "different-quality references",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "nlp",
+      "category": "Task"
+    },
+    {
+      "entity": "mt",
+      "category": "Method"
+    },
+    {
+      "entity": "reference translations",
+      "category": "Material"
+    },
+    {
+      "entity": "automatic evaluations",
+      "category": "Task"
+    },
+    {
+      "entity": "high-quality data",
+      "category": "Material"
+    },
+    {
+      "entity": "validation",
+      "category": "Task"
+    },
+    {
+      "entity": "resources",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "automatic metrics",
+      "category": "Method"
+    },
+    {
+      "entity": "limitations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scores",
+      "category": "Metric"
+    },
+    {
+      "entity": "cases",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "resources",
+      "category": "Generic"
+    },
+    {
+      "entity": "evaluation",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "nlp",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "nlp",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "mt",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "mt",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "reference translations",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "reference translations",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "automatic evaluations",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "automatic evaluations",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "high-quality data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "high-quality data",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "automatic metrics",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "automatic metrics",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "nlp",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "nlp",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "automatic evaluations",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "automatic evaluations",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "high-quality data",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "high-quality data",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "language resource quality",
+      "category": "Metric"
+    },
+    {
+      "entity": "nlp",
+      "category": "Task"
+    },
+    {
+      "entity": "mt",
+      "category": "Task"
+    },
+    {
+      "entity": "different-quality references",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "validation",
+      "category": "Task"
+    },
+    {
+      "entity": "resources",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "limitations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "scores",
+      "category": "Metric"
+    },
+    {
+      "entity": "cases",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "nlp": 2,
+    "mt": 2
+  },
+  "distinct_repeated_entities": [
+    "nlp",
+    "mt"
+  ],
+  "counts": {
+    "gold_count": 10,
+    "generated_count": 11,
+    "generic_count": 2,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

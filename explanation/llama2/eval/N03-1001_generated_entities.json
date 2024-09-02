@@ -1,0 +1,275 @@
+{
+  "gold_entities": [
+    {
+      "entity": "manual transcription",
+      "category": "Material"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "Material"
+    },
+    {
+      "entity": "spoken language system domains",
+      "category": "Material"
+    },
+    {
+      "entity": "domain independent acoustic models",
+      "category": "Method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "word-trigram recognition",
+      "category": "Method"
+    },
+    {
+      "entity": "unsupervised training",
+      "category": "Method"
+    },
+    {
+      "entity": "phone n-gram model",
+      "category": "Method"
+    },
+    {
+      "entity": "phone-string classifier",
+      "category": "Method"
+    },
+    {
+      "entity": "classification accuracy",
+      "category": "Metric"
+    },
+    {
+      "entity": "utterance classification",
+      "category": "Task"
+    },
+    {
+      "entity": "utterance classification",
+      "category": "Task"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "utterance classification",
+      "category": "Method"
+    },
+    {
+      "entity": "manual transcription",
+      "category": "Method"
+    },
+    {
+      "entity": "domain-independent acoustic models",
+      "category": "Method"
+    },
+    {
+      "entity": "off-the-shelf classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "wordtrigram recognition",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "phone n-gram model",
+      "category": "Method"
+    },
+    {
+      "entity": "phone-string classifier",
+      "category": "Method"
+    },
+    {
+      "entity": "spoken language system domains",
+      "category": "Material"
+    },
+    {
+      "entity": "classification accuracy",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "domain",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "utterance classification",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "utterance classification",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "manual transcription",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "manual transcription",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "phone n-gram model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "phone n-gram model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "phone-string classifier",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "phone-string classifier",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spoken language system domains",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "spoken language system domains",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "classification accuracy",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "classification accuracy",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "phone n-gram model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "phone n-gram model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "phone-string classifier",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "phone-string classifier",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "spoken language system domains",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "spoken language system domains",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "domain independent acoustic models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "domain-independent acoustic models",
+        "category": "Method"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "manual transcription",
+      "category": "Material"
+    },
+    {
+      "entity": "classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "word-trigram recognition",
+      "category": "Method"
+    },
+    {
+      "entity": "unsupervised training",
+      "category": "Method"
+    },
+    {
+      "entity": "utterance classification",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "off-the-shelf classifiers",
+      "category": "Method"
+    },
+    {
+      "entity": "wordtrigram recognition",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "manual transcription": 2,
+    "utterance classification": 2
+  },
+  "distinct_repeated_entities": [
+    "manual transcription",
+    "utterance classification"
+  ],
+  "counts": {
+    "gold_count": 12,
+    "generated_count": 9,
+    "generic_count": 6,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

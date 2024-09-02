@@ -1,0 +1,305 @@
+{
+  "doc_key": "P05-1076",
+  "gold_entities": [
+    {
+      "entity": "acquiring adjectival subcategorization frames  ( scfs )",
+      "category": "task"
+    },
+    {
+      "entity": "linguistic annotation  of  scfs",
+      "category": "task"
+    },
+    {
+      "entity": "subcategorization acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "subcategorization frames scfs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grammatical relations grs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "patternmatching language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inheritancebased lexica",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scfs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English   corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "training and test data",
+      "category": "material"
+    },
+    {
+      "entity": "decision-tree classifier",
+      "category": "method"
+    },
+    {
+      "entity": "robust  statistical parser",
+      "category": "method"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "adjectival subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "Decision-tree classifier",
+      "category": "method"
+    },
+    {
+      "entity": "English corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "Frequency information",
+      "category": "metric"
+    },
+    {
+      "entity": "grammatical relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hierarchical inheritance-based lexica",
+      "category": "material"
+    },
+    {
+      "entity": "Pattern-matching language",
+      "category": "method"
+    },
+    {
+      "entity": "Robust statistical parser",
+      "category": "method"
+    },
+    {
+      "entity": "Statistical parser",
+      "category": "material"
+    },
+    {
+      "entity": "Subcategorization acquisition",
+      "category": "task"
+    },
+    {
+      "entity": "subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "System",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "subcategorization acquisition",
+      "predicted": "Subcategorization acquisition",
+      "category": "task"
+    },
+    {
+      "gold": "English   corpus data",
+      "predicted": "English corpus data",
+      "category": "material"
+    },
+    {
+      "gold": "decision-tree classifier",
+      "predicted": "Decision-tree classifier",
+      "category": "method"
+    },
+    {
+      "gold": "robust  statistical parser",
+      "predicted": "Robust statistical parser",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "subcategorization frames scfs",
+      "predicted": "subcategorization frames",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "grammatical relations grs",
+      "predicted": "grammatical relations",
+      "score": 0.6666666666666666,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "acquiring adjectival subcategorization frames  ( scfs )",
+      "category": "task"
+    },
+    {
+      "entity": "linguistic annotation  of  scfs",
+      "category": "task"
+    },
+    {
+      "entity": "patternmatching language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "grs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inheritancebased lexica",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scfs",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "training and test data",
+      "category": "material"
+    },
+    {
+      "entity": "precision",
+      "category": "metric"
+    },
+    {
+      "entity": "recall",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "adjectival subcategorization frames",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Corpus data",
+      "category": "material"
+    },
+    {
+      "entity": "Frequency information",
+      "category": "metric"
+    },
+    {
+      "entity": "Hierarchical inheritance-based lexica",
+      "category": "material"
+    },
+    {
+      "entity": "Pattern-matching language",
+      "category": "method"
+    },
+    {
+      "entity": "Statistical parser",
+      "category": "material"
+    },
+    {
+      "entity": "System",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "otherscientificterm": 6,
+    "material": 2,
+    "method": 2,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "material": 5,
+    "method": 3,
+    "metric": 1,
+    "task": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.26666666666666666,
+  "f1": 0.28571428571428575,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 13,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 9,
+    "extra_entities": 7,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

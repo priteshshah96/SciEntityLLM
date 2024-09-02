@@ -1,0 +1,219 @@
+{
+  "doc_key": "P80-1026",
+  "gold_entities": [
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language input",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "parsing flexibilities",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "restricted natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer system",
+      "category": "method"
+    },
+    {
+      "entity": "FlexP",
+      "category": "method"
+    },
+    {
+      "entity": "bottom-up pattern-matching parser",
+      "category": "method"
+    },
+    {
+      "entity": "limited-domain computer system",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural settings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human listeners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Computer system",
+      "category": "task"
+    },
+    {
+      "entity": "Parsing flexibilities",
+      "category": "method"
+    },
+    {
+      "entity": "FlexP",
+      "category": "method"
+    },
+    {
+      "entity": "Bottom-up pattern-matching parser",
+      "category": "method"
+    },
+    {
+      "entity": "Limited-domain computer system",
+      "category": "material"
+    },
+    {
+      "entity": "Restricted natural language",
+      "category": "metric"
+    },
+    {
+      "entity": "Input",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "parsing flexibilities",
+      "predicted": "Parsing flexibilities",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "restricted natural language",
+      "predicted": "Restricted natural language",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "computer system",
+      "predicted": "Computer system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "limited-domain computer system",
+      "predicted": "Limited-domain computer system",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "natural language",
+      "predicted": "natural language",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "FlexP",
+      "predicted": "FlexP",
+      "category": "method"
+    },
+    {
+      "gold": "bottom-up pattern-matching parser",
+      "predicted": "Bottom-up pattern-matching parser",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "natural language input",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "natural settings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "human listeners",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Input",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 4,
+    "method": 4
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "task": 2,
+    "method": 3,
+    "material": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3,
+  "recall": 0.375,
+  "f1": 0.33333333333333326,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 10,
+    "exact_matches": 4,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 3,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

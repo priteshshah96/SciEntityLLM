@@ -1,0 +1,224 @@
+{
+  "doc_key": "C94-1088",
+  "gold_entities": [
+    {
+      "entity": "characters-based Chinese collocation system",
+      "category": "method"
+    },
+    {
+      "entity": "word-based system",
+      "category": "method"
+    },
+    {
+      "entity": "character-based collocation system",
+      "category": "method"
+    },
+    {
+      "entity": "auxiliary module of  automatic segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "Chinese text corpora",
+      "category": "material"
+    },
+    {
+      "entity": "avoiding  pre-processing distortion",
+      "category": "task"
+    },
+    {
+      "entity": "accessing  sub-lexical information",
+      "category": "task"
+    },
+    {
+      "entity": "wordbased collocational properties",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "characters-based collocation system",
+      "category": "method"
+    },
+    {
+      "entity": "word-based system",
+      "category": "method"
+    },
+    {
+      "entity": "wordbreaks",
+      "category": "metric"
+    },
+    {
+      "entity": "Chinese text corpora",
+      "category": "material"
+    },
+    {
+      "entity": "pre-processing distortion",
+      "category": "metric"
+    },
+    {
+      "entity": "sublexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word-based collocational properties",
+      "category": "metric"
+    },
+    {
+      "entity": "automatic segmentation",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "word-based system",
+      "predicted": "word-based system",
+      "category": "method"
+    },
+    {
+      "gold": "Chinese text corpora",
+      "predicted": "Chinese text corpora",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "characters-based Chinese collocation system",
+      "predicted": "characters-based collocation system",
+      "score": 0.75,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "avoiding  pre-processing distortion",
+      "predicted": "pre-processing distortion",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "wordbased collocational properties",
+      "predicted": "word-based collocational properties",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "metric"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "word-based system",
+      "category": "method"
+    },
+    {
+      "entity": "Chinese text corpora",
+      "category": "material"
+    },
+    {
+      "entity": "characters-based Chinese collocation system",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "character-based collocation system",
+      "category": "method"
+    },
+    {
+      "entity": "auxiliary module of  automatic segmentation",
+      "category": "method"
+    },
+    {
+      "entity": "accessing  sub-lexical information",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "wordbreaks",
+      "category": "metric"
+    },
+    {
+      "entity": "sublexical information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "automatic segmentation",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 4,
+    "material": 1,
+    "task": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "metric": 3,
+    "material": 1,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.25,
+  "f1": 0.25,
+  "category_precision": 0.625,
+  "category_recall": 0.625,
+  "category_f1": 0.625,
+  "counts": {
+    "gold_entities": 8,
+    "predicted_entities": 8,
+    "exact_matches": 2,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 1,
+    "correct_predictions": 2,
+    "correct_categories": 5
+  }
+}

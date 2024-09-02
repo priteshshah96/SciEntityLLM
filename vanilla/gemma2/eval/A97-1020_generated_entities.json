@@ -1,0 +1,352 @@
+{
+  "gold_entities": [
+    {
+      "entity": "english-bulgarian",
+      "category": "Material"
+    },
+    {
+      "entity": "english-estonian",
+      "category": "Material"
+    },
+    {
+      "entity": "english-hungarian",
+      "category": "Material"
+    },
+    {
+      "entity": "french-dutch",
+      "category": "Material"
+    },
+    {
+      "entity": "aligned bilingual corpus",
+      "category": "Material"
+    },
+    {
+      "entity": "glosser",
+      "category": "Method"
+    },
+    {
+      "entity": "glosser",
+      "category": "Method"
+    },
+    {
+      "entity": "disambiguated morphological analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "lemmatized indexing",
+      "category": "Method"
+    },
+    {
+      "entity": "reading and learning",
+      "category": "Task"
+    },
+    {
+      "entity": "applied natural language processing",
+      "category": "Task"
+    },
+    {
+      "entity": "intelligent computer-assisted morphological analysis (icall)",
+      "category": "Task"
+    },
+    {
+      "entity": "unix and windows '95 platforms",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "user-study",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "glosser",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reading",
+      "category": "Task"
+    },
+    {
+      "entity": "learning",
+      "category": "Task"
+    },
+    {
+      "entity": "foreign language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "language pairs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "englishbulgarian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "englishestonian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "englishhungarian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frenchdutch",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "unix",
+      "category": "Material"
+    },
+    {
+      "entity": "windows '95",
+      "category": "Material"
+    },
+    {
+      "entity": "pilot user-study",
+      "category": "Task"
+    },
+    {
+      "entity": "applied natural language processing",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intelligent computer-assisted morphological analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "icall",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "disambiguation",
+      "category": "Method"
+    },
+    {
+      "entity": "morphological analysis",
+      "category": "Method"
+    },
+    {
+      "entity": "lemmatization",
+      "category": "Method"
+    },
+    {
+      "entity": "indexing",
+      "category": "Method"
+    },
+    {
+      "entity": "aligned bilingual corpus",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "word examples",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "language pairs",
+      "category": "Generic"
+    },
+    {
+      "entity": "program",
+      "category": "Generic"
+    },
+    {
+      "entity": "components",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "glosser",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "glosser",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "applied natural language processing",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "applied natural language processing",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "aligned bilingual corpus",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "aligned bilingual corpus",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "disambiguated morphological analysis",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "intelligent computer-assisted morphological analysis",
+          "category": "Method"
+        },
+        {
+          "entity": "morphological analysis",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "reading and learning",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "reading",
+          "category": "Task"
+        },
+        {
+          "entity": "learning",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    },
+    {
+      "gold": {
+        "entity": "unix and windows '95 platforms",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "unix",
+          "category": "Material"
+        },
+        {
+          "entity": "windows '95",
+          "category": "Material"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "lemmatized indexing",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "indexing",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "english-bulgarian",
+      "category": "Material"
+    },
+    {
+      "entity": "english-estonian",
+      "category": "Material"
+    },
+    {
+      "entity": "english-hungarian",
+      "category": "Material"
+    },
+    {
+      "entity": "french-dutch",
+      "category": "Material"
+    },
+    {
+      "entity": "glosser",
+      "category": "Method"
+    },
+    {
+      "entity": "intelligent computer-assisted morphological analysis (icall)",
+      "category": "Task"
+    },
+    {
+      "entity": "user-study",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "foreign language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "language pairs",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "englishbulgarian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "englishestonian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "englishhungarian",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "frenchdutch",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pilot user-study",
+      "category": "Task"
+    },
+    {
+      "entity": "icall",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "disambiguation",
+      "category": "Method"
+    },
+    {
+      "entity": "lemmatization",
+      "category": "Method"
+    },
+    {
+      "entity": "word examples",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {
+    "glosser": 2
+  },
+  "distinct_repeated_entities": [
+    "glosser"
+  ],
+  "counts": {
+    "gold_count": 14,
+    "generated_count": 21,
+    "generic_count": 3,
+    "exact_matches": 3,
+    "exact_category_matches": 0,
+    "split_matches": 3,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

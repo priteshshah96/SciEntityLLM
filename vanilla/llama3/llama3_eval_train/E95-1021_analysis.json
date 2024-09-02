@@ -1,0 +1,275 @@
+{
+  "doc_key": "E95-1021",
+  "gold_entities": [
+    {
+      "entity": "part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "entity": "statistical and constraint-based disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "French",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "statistical model",
+      "category": "method"
+    },
+    {
+      "entity": "statistical method",
+      "category": "method"
+    },
+    {
+      "entity": "taggers",
+      "category": "method"
+    },
+    {
+      "entity": "constraint-based tagger",
+      "category": "method"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "entity": "Statistical disambiguation",
+      "category": "method"
+    },
+    {
+      "entity": "Constraint-based disambiguation",
+      "category": "method"
+    },
+    {
+      "entity": "French",
+      "category": "material"
+    },
+    {
+      "entity": "Test language",
+      "category": "material"
+    },
+    {
+      "entity": "Time limit",
+      "category": "metric"
+    },
+    {
+      "entity": "Constraint system",
+      "category": "material"
+    },
+    {
+      "entity": "Statistical model",
+      "category": "material"
+    },
+    {
+      "entity": "Accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "Statistical method",
+      "category": "method"
+    },
+    {
+      "entity": "Taggers",
+      "category": "material"
+    },
+    {
+      "entity": "English",
+      "category": "material"
+    },
+    {
+      "entity": "Rule development",
+      "category": "task"
+    },
+    {
+      "entity": "Constraint-based tagger",
+      "category": "method"
+    },
+    {
+      "entity": "disambiguation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partofspeech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tagging",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "statistical model",
+      "predicted": "Statistical model",
+      "gold_category": "method",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "taggers",
+      "predicted": "Taggers",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "part-of-speech tagging",
+      "predicted": "Part-of-speech tagging",
+      "category": "task"
+    },
+    {
+      "gold": "French",
+      "predicted": "French",
+      "category": "material"
+    },
+    {
+      "gold": "English",
+      "predicted": "English",
+      "category": "material"
+    },
+    {
+      "gold": "statistical method",
+      "predicted": "Statistical method",
+      "category": "method"
+    },
+    {
+      "gold": "constraint-based tagger",
+      "predicted": "Constraint-based tagger",
+      "category": "method"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "Accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "statistical and constraint-based disambiguation",
+      "predicted": "Statistical disambiguation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "Test language",
+      "category": "material"
+    },
+    {
+      "entity": "Time limit",
+      "category": "metric"
+    },
+    {
+      "entity": "Constraint system",
+      "category": "material"
+    },
+    {
+      "entity": "Rule development",
+      "category": "task"
+    },
+    {
+      "entity": "disambiguation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "partofspeech",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "tagging",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "material": 2,
+    "method": 4,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 4,
+    "material": 6,
+    "metric": 2,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.35294117647058826,
+  "recall": 0.6666666666666666,
+  "f1": 0.46153846153846156,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 17,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 7,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

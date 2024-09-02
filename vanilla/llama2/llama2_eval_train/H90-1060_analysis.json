@@ -1,0 +1,301 @@
+{
+  "doc_key": "H90-1060",
+  "gold_entities": [
+    {
+      "entity": "large vocabulary continuous speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "speaker-independent (SI) training  of  hidden Markov models (HMM)",
+      "category": "task"
+    },
+    {
+      "entity": "SI recognition",
+      "category": "task"
+    },
+    {
+      "entity": "speaker adaptation (SA)",
+      "category": "task"
+    },
+    {
+      "entity": "adaptation",
+      "category": "task"
+    },
+    {
+      "entity": "SI",
+      "category": "task"
+    },
+    {
+      "entity": "speech",
+      "category": "material"
+    },
+    {
+      "entity": "DARPA Resource Management corpus",
+      "category": "material"
+    },
+    {
+      "entity": "SI corpus",
+      "category": "material"
+    },
+    {
+      "entity": "averaging the statistics of independently trained models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pooling of all the speech data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "probabilistic spectral mapping",
+      "category": "method"
+    },
+    {
+      "entity": "reference model",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Hidden Markov models",
+      "category": "method"
+    },
+    {
+      "entity": "Speaker-independent",
+      "category": "task"
+    },
+    {
+      "entity": "Speech",
+      "category": "material"
+    },
+    {
+      "entity": "speakers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training",
+      "category": "task"
+    },
+    {
+      "entity": "Statistics",
+      "category": "metric"
+    },
+    {
+      "entity": "Speaker adaptation",
+      "category": "task"
+    },
+    {
+      "entity": "probabilistic spectral mapping",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "standard grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Test set",
+      "category": "material"
+    },
+    {
+      "entity": "darpa resource management corpus",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "DARPA Resource Management corpus",
+      "predicted": "darpa resource management corpus",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "probabilistic spectral mapping",
+      "predicted": "probabilistic spectral mapping",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "speech",
+      "predicted": "Speech",
+      "category": "material"
+    },
+    {
+      "gold": "error rate",
+      "predicted": "Error rate",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "adaptation",
+      "predicted": "Speaker adaptation",
+      "score": 0.5,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "large vocabulary continuous speech recognition",
+      "category": "task"
+    },
+    {
+      "entity": "speaker-independent (SI) training  of  hidden Markov models (HMM)",
+      "category": "task"
+    },
+    {
+      "entity": "SI recognition",
+      "category": "task"
+    },
+    {
+      "entity": "speaker adaptation (SA)",
+      "category": "task"
+    },
+    {
+      "entity": "SI",
+      "category": "task"
+    },
+    {
+      "entity": "SI corpus",
+      "category": "material"
+    },
+    {
+      "entity": "averaging the statistics of independently trained models",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pooling of all the speech data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word error rate",
+      "category": "metric"
+    },
+    {
+      "entity": "reference model",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Hidden Markov models",
+      "category": "method"
+    },
+    {
+      "entity": "Speaker-independent",
+      "category": "task"
+    },
+    {
+      "entity": "speakers",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training",
+      "category": "task"
+    },
+    {
+      "entity": "Statistics",
+      "category": "metric"
+    },
+    {
+      "entity": "standard grammar",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Test set",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 6,
+    "material": 3,
+    "otherscientificterm": 2,
+    "metric": 2,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "method": 1,
+    "task": 3,
+    "material": 2,
+    "otherscientificterm": 4,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 6,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.16666666666666666,
+  "recall": 0.13333333333333333,
+  "f1": 0.14814814814814814,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 12,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 10,
+    "extra_entities": 7,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

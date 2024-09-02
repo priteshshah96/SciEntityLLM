@@ -1,0 +1,248 @@
+{
+  "doc_key": "C00-2123",
+  "gold_entities": [
+    {
+      "entity": "statistical machine translation (MT)",
+      "category": "task"
+    },
+    {
+      "entity": "limited-domain spoken-language task",
+      "category": "task"
+    },
+    {
+      "entity": "dynamic programming (DP)",
+      "category": "method"
+    },
+    {
+      "entity": "DP-based solution",
+      "category": "method"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "method"
+    },
+    {
+      "entity": "search algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "word reordering",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Verbmobil task",
+      "category": "material"
+    },
+    {
+      "entity": "German-English",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Search procedure",
+      "category": "task"
+    },
+    {
+      "entity": "Statistical machine translation (MT)",
+      "category": "method"
+    },
+    {
+      "entity": "Dynamic programming (DP)",
+      "category": "method"
+    },
+    {
+      "entity": "traveling salesman problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word reordering",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "target language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation direction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experimental tests",
+      "category": "task"
+    },
+    {
+      "entity": "Verbmobil task",
+      "category": "task"
+    },
+    {
+      "entity": "germanenglish",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spokenlanguage task",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "limiteddomain",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "statistical machine translation (MT)",
+      "predicted": "Statistical machine translation (MT)",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "traveling salesman problem",
+      "predicted": "traveling salesman problem",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Verbmobil task",
+      "predicted": "Verbmobil task",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "dynamic programming (DP)",
+      "predicted": "Dynamic programming (DP)",
+      "category": "method"
+    },
+    {
+      "gold": "word reordering",
+      "predicted": "word reordering",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "limited-domain spoken-language task",
+      "category": "task"
+    },
+    {
+      "entity": "DP-based solution",
+      "category": "method"
+    },
+    {
+      "entity": "search algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "German-English",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Search procedure",
+      "category": "task"
+    },
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "target language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "translation direction",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experimental tests",
+      "category": "task"
+    },
+    {
+      "entity": "germanenglish",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "spokenlanguage task",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "limiteddomain",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "method": 4,
+    "otherscientificterm": 1,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 2,
+    "otherscientificterm": 8
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.15384615384615385,
+  "recall": 0.2222222222222222,
+  "f1": 0.18181818181818185,
+  "counts": {
+    "gold_entities": 9,
+    "predicted_entities": 13,
+    "exact_matches": 3,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 8,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

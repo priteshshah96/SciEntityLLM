@@ -1,0 +1,329 @@
+{
+  "gold_entities": [
+    {
+      "entity": "image sequences",
+      "category": "Material"
+    },
+    {
+      "entity": "image processing techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "detection rate",
+      "category": "Metric"
+    },
+    {
+      "entity": "motion estimation",
+      "category": "Task"
+    },
+    {
+      "entity": "object recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "detecting reflections in image sequences",
+      "category": "Task"
+    },
+    {
+      "entity": "reflections",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reflections in image sequences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "motion trajectories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "feature points",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reflection",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "priors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sparse and dense detection maps",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pathological motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "image sequences",
+      "category": "Task"
+    },
+    {
+      "entity": "layers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "motion estimation",
+      "category": "Method"
+    },
+    {
+      "entity": "object recognition",
+      "category": "Method"
+    },
+    {
+      "entity": "feature points",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "motion trajectories",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reflection",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "regions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "layers moving over each other",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "strong detector",
+      "category": "Method"
+    },
+    {
+      "entity": "weak detectors",
+      "category": "Method"
+    },
+    {
+      "entity": "priors",
+      "category": "Method"
+    },
+    {
+      "entity": "detection maps",
+      "category": "Method"
+    },
+    {
+      "entity": "rejection to pathological motion and occlusion",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "technique",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "detector",
+      "category": "Generic"
+    },
+    {
+      "entity": "detectors",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "image sequences",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "image sequences",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "motion estimation",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "motion estimation",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "object recognition",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "object recognition",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "feature points",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "feature points",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "motion trajectories",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "motion trajectories",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "reflection",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "reflection",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "priors",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "priors",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "feature points",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "feature points",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "motion trajectories",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "motion trajectories",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "reflection",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "reflection",
+        "category": "OtherScientificTerm"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "sparse and dense detection maps",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "detection maps",
+          "category": "Method"
+        },
+        {
+          "entity": "rejection to pathological motion and occlusion",
+          "category": "Metric"
+        }
+      ],
+      "coverage": 1.1666666666666667
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "image processing techniques",
+      "category": "Method"
+    },
+    {
+      "entity": "detection rate",
+      "category": "Metric"
+    },
+    {
+      "entity": "detecting reflections in image sequences",
+      "category": "Task"
+    },
+    {
+      "entity": "reflections",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "reflections in image sequences",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "pathological motion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occlusion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "layers",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "regions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "layers moving over each other",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "strong detector",
+      "category": "Method"
+    },
+    {
+      "entity": "weak detectors",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 15,
+    "generated_count": 14,
+    "generic_count": 4,
+    "exact_matches": 7,
+    "exact_category_matches": 3,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

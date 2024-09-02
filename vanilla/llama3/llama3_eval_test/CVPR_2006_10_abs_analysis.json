@@ -1,0 +1,282 @@
+{
+  "doc_key": "CVPR_2006_10_abs",
+  "gold_entities": [
+    {
+      "entity": "object detection",
+      "category": "task"
+    },
+    {
+      "entity": "prior on the distribution of natural images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "overfitting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prior on natural images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hyperplane",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "support vector machines",
+      "category": "method"
+    },
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "detectors",
+      "category": "method"
+    },
+    {
+      "entity": "detector",
+      "category": "method"
+    },
+    {
+      "entity": "linear and kernel SVM",
+      "category": "method"
+    },
+    {
+      "entity": "real data sets",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Object detection",
+      "category": "task"
+    },
+    {
+      "entity": "Support vector machines",
+      "category": "method"
+    },
+    {
+      "entity": "Prior on the distribution of natural images",
+      "category": "material"
+    },
+    {
+      "entity": "separating hyperplane",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "positive half space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Margin",
+      "category": "metric"
+    },
+    {
+      "entity": "Natural images",
+      "category": "material"
+    },
+    {
+      "entity": "overfitting",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Training examples",
+      "category": "material"
+    },
+    {
+      "entity": "SVM",
+      "category": "method"
+    },
+    {
+      "entity": "Kernel SVM",
+      "category": "method"
+    },
+    {
+      "entity": "Linear SVM",
+      "category": "method"
+    },
+    {
+      "entity": "background",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Real data sets",
+      "category": "material"
+    },
+    {
+      "entity": "Positive examples",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "prior on the distribution of natural images",
+      "predicted": "Prior on the distribution of natural images",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "object detection",
+      "predicted": "Object detection",
+      "category": "task"
+    },
+    {
+      "gold": "overfitting",
+      "predicted": "overfitting",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "support vector machines",
+      "predicted": "Support vector machines",
+      "category": "method"
+    },
+    {
+      "gold": "real data sets",
+      "predicted": "Real data sets",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "prior on natural images",
+      "predicted": "Natural images",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "hyperplane",
+      "predicted": "separating hyperplane",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "linear and kernel SVM",
+      "predicted": "Linear SVM",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "SVMs",
+      "category": "method"
+    },
+    {
+      "entity": "detectors",
+      "category": "method"
+    },
+    {
+      "entity": "detector",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "positive half space",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Margin",
+      "category": "metric"
+    },
+    {
+      "entity": "Training examples",
+      "category": "material"
+    },
+    {
+      "entity": "SVM",
+      "category": "method"
+    },
+    {
+      "entity": "background",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Positive examples",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 4,
+    "method": 5,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 4,
+    "material": 5,
+    "otherscientificterm": 4,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 5,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 2,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.26666666666666666,
+  "recall": 0.36363636363636365,
+  "f1": 0.30769230769230765,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 15,
+    "exact_matches": 1,
+    "exact_matches_with_category": 4,
+    "partial_matches": 3,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 6,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,273 @@
+{
+  "doc_key": "P03-1058",
+  "gold_entities": [
+    {
+      "entity": "word sense disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "entity": "acquiring sense-tagged data",
+      "category": "task"
+    },
+    {
+      "entity": "evaluating  WSD programs",
+      "category": "task"
+    },
+    {
+      "entity": "WSD programs",
+      "category": "task"
+    },
+    {
+      "entity": "manually sense-tagged data",
+      "category": "material"
+    },
+    {
+      "entity": "sense-tagged training data",
+      "category": "material"
+    },
+    {
+      "entity": "English-Chinese parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "SENSEVAL-2 English lexical sample task",
+      "category": "material"
+    },
+    {
+      "entity": "manually sense-tagged data",
+      "category": "material"
+    },
+    {
+      "entity": "supervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "senseval2 nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "domain dependence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "sense coverage",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word sense disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "entity": "manually sense-tagged data",
+      "category": "method"
+    },
+    {
+      "entity": "supervised learning",
+      "category": "method"
+    },
+    {
+      "entity": "English-Chinese parallel corpora",
+      "category": "material"
+    },
+    {
+      "entity": "SENSEVAL-2 English lexical sample task",
+      "category": "task"
+    },
+    {
+      "entity": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sensetagged data",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "domain dependence",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "manually sense-tagged data",
+      "predicted": "manually sense-tagged data",
+      "gold_category": "material",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "SENSEVAL-2 English lexical sample task",
+      "predicted": "SENSEVAL-2 English lexical sample task",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "word sense disambiguation (WSD)",
+      "predicted": "word sense disambiguation (WSD)",
+      "category": "task"
+    },
+    {
+      "gold": "English-Chinese parallel corpora",
+      "predicted": "English-Chinese parallel corpora",
+      "category": "material"
+    },
+    {
+      "gold": "supervised learning",
+      "predicted": "supervised learning",
+      "category": "method"
+    },
+    {
+      "gold": "nouns",
+      "predicted": "nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "domain dependence",
+      "predicted": "domain dependence",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "acquiring sense-tagged data",
+      "category": "task"
+    },
+    {
+      "entity": "evaluating  WSD programs",
+      "category": "task"
+    },
+    {
+      "entity": "WSD programs",
+      "category": "task"
+    },
+    {
+      "entity": "manually sense-tagged data",
+      "category": "material"
+    },
+    {
+      "entity": "sense-tagged training data",
+      "category": "material"
+    },
+    {
+      "entity": "senseval2 nouns",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sense coverage",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "sensetagged data",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "manually sense-tagged data|material": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 4,
+    "material": 5,
+    "method": 1,
+    "otherscientificterm": 3,
+    "metric": 2
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "method": 2,
+    "material": 1,
+    "otherscientificterm": 3,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 5,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.6666666666666666,
+  "recall": 0.4,
+  "f1": 0.5,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

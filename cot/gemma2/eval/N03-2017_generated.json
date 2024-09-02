@@ -1,0 +1,194 @@
+{
+  "gold_entities": [
+    {
+      "entity": "english phrases",
+      "category": "Material"
+    },
+    {
+      "entity": "french sentence",
+      "category": "Material"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "Metric"
+    },
+    {
+      "entity": "word alignment",
+      "category": "Task"
+    },
+    {
+      "entity": "syntax-based constraint",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "syntax-based constraint",
+      "category": "Method"
+    },
+    {
+      "entity": "word alignment",
+      "category": "Task"
+    },
+    {
+      "entity": "cohesion constraint",
+      "category": "Method"
+    },
+    {
+      "entity": "disjoint english phrases",
+      "category": "Material"
+    },
+    {
+      "entity": "french sentence",
+      "category": "Material"
+    },
+    {
+      "entity": "non-overlapping intervals",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "alignment quality",
+      "category": "Metric"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "constraint",
+      "category": "Generic"
+    },
+    {
+      "entity": "algorithms",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "syntax-based constraint",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "syntax-based constraint",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "word alignment",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "word alignment",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "cohesion constraint",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "cohesion constraint",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "french sentence",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "french sentence",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "alignment quality",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "alignment quality",
+        "category": "Metric"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "word alignment",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "word alignment",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "french sentence",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "french sentence",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "alignment quality",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "alignment quality",
+        "category": "Metric"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "english phrases",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "disjoint english phrases",
+        "category": "Material"
+      },
+      "overlap": 0.6666666666666666
+    }
+  ],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "non-overlapping intervals",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 6,
+    "generated_count": 7,
+    "generic_count": 4,
+    "exact_matches": 5,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

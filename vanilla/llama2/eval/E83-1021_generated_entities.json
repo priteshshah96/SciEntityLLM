@@ -1,0 +1,324 @@
+{
+  "gold_entities": [
+    {
+      "entity": "natural language (nl)",
+      "category": "Material"
+    },
+    {
+      "entity": "nl",
+      "category": "Material"
+    },
+    {
+      "entity": "structured inheritance network (si-nets) paradigm",
+      "category": "Method"
+    },
+    {
+      "entity": "si-nets",
+      "category": "Method"
+    },
+    {
+      "entity": "si-nets",
+      "category": "Method"
+    },
+    {
+      "entity": "conceptual system",
+      "category": "Method"
+    },
+    {
+      "entity": "kl-one",
+      "category": "Method"
+    },
+    {
+      "entity": "kl-conc",
+      "category": "Method"
+    },
+    {
+      "entity": "kl-conc",
+      "category": "Method"
+    },
+    {
+      "entity": "si-nets",
+      "category": "Method"
+    },
+    {
+      "entity": "conceptual operations",
+      "category": "Task"
+    },
+    {
+      "entity": "formal language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "epistemological objects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "epistemological level",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "conceptual level",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "structured inheritance network sinets",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "formal language",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "epistemological objects",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "conceptual system",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "kl-one",
+      "category": "Method"
+    },
+    {
+      "entity": "kl-conc",
+      "category": "Method"
+    },
+    {
+      "entity": "natural language",
+      "category": "Task"
+    },
+    {
+      "entity": "language",
+      "category": "Task"
+    },
+    {
+      "entity": "simulation",
+      "category": "Task"
+    },
+    {
+      "entity": "processes",
+      "category": "Task"
+    },
+    {
+      "entity": "level",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "operations",
+      "category": "Generic"
+    },
+    {
+      "entity": "operations",
+      "category": "Generic"
+    },
+    {
+      "entity": "operations",
+      "category": "Generic"
+    },
+    {
+      "entity": "experimental language",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "formal language",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "formal language",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "epistemological objects",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "epistemological objects",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "conceptual system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "conceptual system",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "kl-one",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kl-one",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "kl-conc",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kl-conc",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "formal language",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "formal language",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "epistemological objects",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "epistemological objects",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "kl-one",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kl-one",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "kl-conc",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "kl-conc",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "natural language (nl)",
+        "category": "Material"
+      },
+      "predicted": [
+        {
+          "entity": "natural language",
+          "category": "Task"
+        },
+        {
+          "entity": "language",
+          "category": "Task"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "structured inheritance network (si-nets) paradigm",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "structured inheritance network sinets",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.75
+    },
+    {
+      "gold": {
+        "entity": "epistemological level",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "level",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "nl",
+      "category": "Material"
+    },
+    {
+      "entity": "si-nets",
+      "category": "Method"
+    },
+    {
+      "entity": "si-nets",
+      "category": "Method"
+    },
+    {
+      "entity": "kl-conc",
+      "category": "Method"
+    },
+    {
+      "entity": "si-nets",
+      "category": "Method"
+    },
+    {
+      "entity": "conceptual operations",
+      "category": "Task"
+    },
+    {
+      "entity": "conceptual level",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "simulation",
+      "category": "Task"
+    },
+    {
+      "entity": "processes",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "si-nets": 3,
+    "kl-conc": 2
+  },
+  "distinct_repeated_entities": [
+    "si-nets",
+    "kl-conc"
+  ],
+  "counts": {
+    "gold_count": 15,
+    "generated_count": 11,
+    "generic_count": 4,
+    "exact_matches": 5,
+    "exact_category_matches": 4,
+    "split_matches": 1,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 5
+  }
+}

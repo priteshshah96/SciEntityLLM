@@ -1,0 +1,313 @@
+{
+  "doc_key": "J87-3001",
+  "gold_entities": [
+    {
+      "entity": "dictionary word sense definitions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "restricted vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "word sense definitions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "restricted vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "phrasal analysis rules",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "incomplete knowledge of phrasal constructions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hierarchy of  phrasal patterns",
+      "category": "method"
+    },
+    {
+      "entity": "natural language processing systems",
+      "category": "method"
+    },
+    {
+      "entity": "Longman Dictionary of Contemporary English",
+      "category": "material"
+    },
+    {
+      "entity": "incomplete  lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "classification  of new  word senses",
+      "category": "task"
+    },
+    {
+      "entity": "robustness problems",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "hierarchical pattern",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Restricted vocabulary",
+      "category": "material"
+    },
+    {
+      "entity": "Phrasal patterns",
+      "category": "method"
+    },
+    {
+      "entity": "Word sense definitions",
+      "category": "material"
+    },
+    {
+      "entity": "Longman Dictionary of Contemporary English",
+      "category": "material"
+    },
+    {
+      "entity": "Experimental system",
+      "category": "task"
+    },
+    {
+      "entity": "Phrasal analysis rules",
+      "category": "method"
+    },
+    {
+      "entity": "Patterns",
+      "category": "method"
+    },
+    {
+      "entity": "Analysis mechanism",
+      "category": "task"
+    },
+    {
+      "entity": "Natural language processing systems",
+      "category": "task"
+    },
+    {
+      "entity": "Lexicon",
+      "category": "material"
+    },
+    {
+      "entity": "Knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Phrasal constructions",
+      "category": "method"
+    },
+    {
+      "entity": "Classification",
+      "category": "task"
+    },
+    {
+      "entity": "Word senses",
+      "category": "material"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Definition",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "restricted vocabulary",
+      "predicted": "Restricted vocabulary",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "word sense definitions",
+      "predicted": "Word sense definitions",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    },
+    {
+      "gold": "phrasal analysis rules",
+      "predicted": "Phrasal analysis rules",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "natural language processing systems",
+      "predicted": "Natural language processing systems",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "Longman Dictionary of Contemporary English",
+      "predicted": "Longman Dictionary of Contemporary English",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "hierarchy of  phrasal patterns",
+      "predicted": "Phrasal patterns",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "incomplete  lexicon",
+      "predicted": "Lexicon",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "dictionary word sense definitions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "restricted vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "incomplete knowledge of phrasal constructions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classification  of new  word senses",
+      "category": "task"
+    },
+    {
+      "entity": "robustness problems",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "hierarchical pattern",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Experimental system",
+      "category": "task"
+    },
+    {
+      "entity": "Patterns",
+      "category": "method"
+    },
+    {
+      "entity": "Analysis mechanism",
+      "category": "task"
+    },
+    {
+      "entity": "Knowledge",
+      "category": "material"
+    },
+    {
+      "entity": "Phrasal constructions",
+      "category": "method"
+    },
+    {
+      "entity": "Classification",
+      "category": "task"
+    },
+    {
+      "entity": "Word senses",
+      "category": "material"
+    },
+    {
+      "entity": "Dictionary",
+      "category": "material"
+    },
+    {
+      "entity": "Definition",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "restricted vocabulary|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 6,
+    "method": 2,
+    "material": 2,
+    "task": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 1,
+    "material": 8,
+    "method": 4,
+    "task": 4
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 6,
+      "predicted": 1,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 8,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.058823529411764705,
+  "recall": 0.08333333333333333,
+  "f1": 0.06896551724137931,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 17,
+    "exact_matches": 4,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 5,
+    "extra_entities": 10,
+    "generic_entities": 5
+  },
+  "empty_category_entities": []
+}

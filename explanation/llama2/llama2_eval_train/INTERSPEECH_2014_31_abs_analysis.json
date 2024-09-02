@@ -1,0 +1,263 @@
+{
+  "doc_key": "INTERSPEECH_2014_31_abs",
+  "gold_entities": [
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "NIST Speaker Recognition Evaluations (SREs)",
+      "category": "material"
+    },
+    {
+      "entity": "SRE series",
+      "category": "material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "audio recordings",
+      "category": "material"
+    },
+    {
+      "entity": "SRE",
+      "category": "material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "fixedlength feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lowdimensional space ivectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "audio processing field",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "nist",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "task"
+    },
+    {
+      "entity": "data used in previous NIST Speaker Recognition Evaluations (SREs)",
+      "category": "material"
+    },
+    {
+      "entity": "fixed-length feature vectors projected into a low-dimensional space (i-vectors)",
+      "category": "method"
+    },
+    {
+      "entity": "audio recordings",
+      "category": "material"
+    },
+    {
+      "entity": "participants",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "systems submitted for evaluation",
+      "category": "material"
+    },
+    {
+      "entity": "initial results",
+      "category": "metric"
+    },
+    {
+      "entity": "leading system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "baseline system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "i-vector challenge",
+      "predicted": "i-vector challenge",
+      "gold_category": "material",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "audio recordings",
+      "predicted": "audio recordings",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "NIST Speaker Recognition Evaluations (SREs)",
+      "predicted": "data used in previous NIST Speaker Recognition Evaluations (SREs)",
+      "score": 0.5,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "i-vector challenge",
+      "category": "material"
+    },
+    {
+      "entity": "SRE series",
+      "category": "material"
+    },
+    {
+      "entity": "SRE",
+      "category": "material"
+    },
+    {
+      "entity": "fixedlength feature vectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "lowdimensional space ivectors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "audio processing field",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "nist",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "fixed-length feature vectors projected into a low-dimensional space (i-vectors)",
+      "category": "method"
+    },
+    {
+      "entity": "participants",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "systems submitted for evaluation",
+      "category": "material"
+    },
+    {
+      "entity": "initial results",
+      "category": "metric"
+    },
+    {
+      "entity": "leading system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "baseline system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "improvement",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {
+    "i-vector challenge|material": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 3
+  },
+  "gold_category_counts": {
+    "material": 7,
+    "otherscientificterm": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 4,
+    "task": 1,
+    "material": 3,
+    "method": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.09090909090909091,
+  "recall": 0.1,
+  "f1": 0.09523809523809525,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 7,
+    "extra_entities": 8,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

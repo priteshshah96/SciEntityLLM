@@ -1,0 +1,250 @@
+{
+  "doc_key": "P05-1018",
+  "gold_entities": [
+    {
+      "entity": "automatic assessment of  local coherence",
+      "category": "task"
+    },
+    {
+      "entity": "coherence assessment",
+      "category": "task"
+    },
+    {
+      "entity": "ranking learning problem",
+      "category": "task"
+    },
+    {
+      "entity": "entity-based representation  of  discourse",
+      "category": "method"
+    },
+    {
+      "entity": "Centering Theory",
+      "category": "method"
+    },
+    {
+      "entity": "discourse representation",
+      "category": "method"
+    },
+    {
+      "entity": "induced model",
+      "category": "method"
+    },
+    {
+      "entity": "coherence model",
+      "category": "method"
+    },
+    {
+      "entity": "raw text",
+      "category": "material"
+    },
+    {
+      "entity": "ranking function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "accuracy",
+      "category": "metric"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "entitybased representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local coherence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "centering theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Raw text",
+      "category": "material"
+    },
+    {
+      "entity": "Coherence assessment",
+      "category": "task"
+    },
+    {
+      "entity": "ranking learning problem",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ranking function",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Induced model",
+      "category": "material"
+    },
+    {
+      "entity": "Accuracy",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "ranking learning problem",
+      "predicted": "ranking learning problem",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "Centering Theory",
+      "predicted": "centering theory",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "discourse representation",
+      "predicted": "discourse representation",
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    },
+    {
+      "gold": "induced model",
+      "predicted": "Induced model",
+      "gold_category": "method",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "coherence assessment",
+      "predicted": "Coherence assessment",
+      "category": "task"
+    },
+    {
+      "gold": "raw text",
+      "predicted": "Raw text",
+      "category": "material"
+    },
+    {
+      "gold": "ranking function",
+      "predicted": "ranking function",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "accuracy",
+      "predicted": "Accuracy",
+      "category": "metric"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatic assessment of  local coherence",
+      "category": "task"
+    },
+    {
+      "entity": "entity-based representation  of  discourse",
+      "category": "method"
+    },
+    {
+      "entity": "coherence model",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "entitybased representation",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "local coherence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "method": 5,
+    "material": 1,
+    "otherscientificterm": 1,
+    "metric": 1
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 7,
+    "material": 2,
+    "task": 1,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 7,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 5,
+      "predicted": 0,
+      "exact_matches": 3,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.36363636363636365,
+  "recall": 0.36363636363636365,
+  "f1": 0.36363636363636365,
+  "counts": {
+    "gold_entities": 11,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

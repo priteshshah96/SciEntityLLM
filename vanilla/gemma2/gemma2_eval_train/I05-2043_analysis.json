@@ -1,0 +1,236 @@
+{
+  "doc_key": "I05-2043",
+  "gold_entities": [
+    {
+      "entity": "natural language processing",
+      "category": "method"
+    },
+    {
+      "entity": "NLP",
+      "category": "method"
+    },
+    {
+      "entity": "trend survey",
+      "category": "task"
+    },
+    {
+      "entity": "trend survey on  Japanese natural language processing studies",
+      "category": "task"
+    },
+    {
+      "entity": "trend surveys",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese natural language processing studies",
+      "category": "material"
+    },
+    {
+      "entity": "Japanese NLP",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "japanese nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural language processing",
+      "category": "method"
+    },
+    {
+      "entity": "trend survey",
+      "category": "task"
+    },
+    {
+      "entity": "research organization",
+      "category": "material"
+    },
+    {
+      "entity": "research area",
+      "category": "material"
+    },
+    {
+      "entity": "nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "papers published",
+      "category": "metric"
+    },
+    {
+      "entity": "relationship between research organizations and research areas",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "supporting trend surveys",
+      "category": "task"
+    },
+    {
+      "entity": "japanese",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "nlp",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language processing",
+      "predicted": "natural language processing",
+      "category": "method"
+    },
+    {
+      "gold": "NLP",
+      "predicted": "nlp",
+      "category": "method"
+    },
+    {
+      "gold": "trend survey",
+      "predicted": "trend survey",
+      "category": "task"
+    },
+    {
+      "gold": "Japanese NLP",
+      "predicted": "japanese nlp",
+      "category": "material"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "trend surveys",
+      "predicted": "supporting trend surveys",
+      "score": 0.6666666666666666,
+      "gold_category": "task",
+      "predicted_category": "task"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "natural language processing",
+      "category": "method"
+    },
+    {
+      "entity": "trend survey",
+      "category": "task"
+    },
+    {
+      "entity": "trend surveys",
+      "category": "task"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "trend survey on  Japanese natural language processing studies",
+      "category": "task"
+    },
+    {
+      "entity": "Japanese natural language processing studies",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "research organization",
+      "category": "material"
+    },
+    {
+      "entity": "research area",
+      "category": "material"
+    },
+    {
+      "entity": "nlp",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "papers published",
+      "category": "metric"
+    },
+    {
+      "entity": "relationship between research organizations and research areas",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "japanese",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 3,
+    "material": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 5,
+    "method": 1,
+    "task": 2,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 5,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 2,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.2857142857142857,
+  "f1": 0.23529411764705882,
+  "category_precision": 0.45454545454545453,
+  "category_recall": 0.7142857142857143,
+  "category_f1": 0.5555555555555556,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 0,
+    "correct_predictions": 2,
+    "correct_categories": 5
+  }
+}

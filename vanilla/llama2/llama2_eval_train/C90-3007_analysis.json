@@ -1,0 +1,141 @@
+{
+  "doc_key": "C90-3007",
+  "gold_entities": [
+    {
+      "entity": "featurebased partial descriptions",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Halliday's systemic networks",
+      "category": "method"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "hallidays systemic networks",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature-based partial descriptions",
+      "category": "task"
+    },
+    {
+      "entity": "consistency checking",
+      "category": "method"
+    },
+    {
+      "entity": "NP-complete",
+      "category": "metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "consistency checking",
+      "predicted": "consistency checking",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "featurebased partial descriptions",
+      "predicted": "feature-based partial descriptions",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Halliday's systemic networks",
+      "predicted": "hallidays systemic networks",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "NP-complete",
+      "category": "metric"
+    },
+    {
+      "entity": "algorithms",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "otherscientificterm": 1,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 1,
+    "task": 1,
+    "method": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2,
+  "recall": 0.3333333333333333,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 3,
+    "predicted_entities": 5,
+    "exact_matches": 0,
+    "exact_matches_with_category": 1,
+    "partial_matches": 2,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 2,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,288 @@
+{
+  "doc_key": "J82-3002",
+  "gold_entities": [
+    {
+      "entity": "natural language question answering system",
+      "category": "method"
+    },
+    {
+      "entity": "Chat-80",
+      "category": "method"
+    },
+    {
+      "entity": "Chat-80",
+      "category": "method"
+    },
+    {
+      "entity": "logic-based grammar formalism",
+      "category": "method"
+    },
+    {
+      "entity": "extraposition grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Chat-80",
+      "category": "method"
+    },
+    {
+      "entity": "planning algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "query optimisation",
+      "category": "method"
+    },
+    {
+      "entity": "prolog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "programming language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prolog subset of logic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logical expression",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prolog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prolog form",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relational database",
+      "category": "material"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Natural language question answering system",
+      "category": "task"
+    },
+    {
+      "entity": "Prototype",
+      "category": "task"
+    },
+    {
+      "entity": "Chat-80",
+      "category": "task"
+    },
+    {
+      "entity": "Prolog",
+      "category": "method"
+    },
+    {
+      "entity": "Logic-based grammar formalism",
+      "category": "method"
+    },
+    {
+      "entity": "Extraposition grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Planning algorithm",
+      "category": "method"
+    },
+    {
+      "entity": "Query optimisation",
+      "category": "method"
+    },
+    {
+      "entity": "relational database",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logical expression",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prolog form",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "natural language question answering system",
+      "predicted": "Natural language question answering system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Chat-80",
+      "predicted": "Chat-80",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "prolog",
+      "predicted": "Prolog",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "relational database",
+      "predicted": "relational database",
+      "gold_category": "material",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "logic-based grammar formalism",
+      "predicted": "Logic-based grammar formalism",
+      "category": "method"
+    },
+    {
+      "gold": "extraposition grammars",
+      "predicted": "Extraposition grammars",
+      "category": "method"
+    },
+    {
+      "gold": "planning algorithm",
+      "predicted": "Planning algorithm",
+      "category": "method"
+    },
+    {
+      "gold": "query optimisation",
+      "predicted": "Query optimisation",
+      "category": "method"
+    },
+    {
+      "gold": "logical expression",
+      "predicted": "logical expression",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "prolog form",
+      "predicted": "prolog form",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Chat-80",
+      "category": "method"
+    },
+    {
+      "entity": "Chat-80",
+      "category": "method"
+    },
+    {
+      "entity": "prolog",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "programming language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "logic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "prolog subset of logic",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Prototype",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "Chat-80|method": {
+      "count": 3,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "prolog|otherscientificterm": {
+      "count": 2,
+      "exact": 1,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 5
+  },
+  "gold_category_counts": {
+    "method": 8,
+    "otherscientificterm": 7,
+    "material": 1
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 5,
+    "otherscientificterm": 3
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 8,
+      "predicted": 5,
+      "exact_matches": 2,
+      "exact_matches_with_category": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.5454545454545454,
+  "recall": 0.375,
+  "f1": 0.4444444444444444,
+  "counts": {
+    "gold_entities": 16,
+    "predicted_entities": 11,
+    "exact_matches": 4,
+    "exact_matches_with_category": 6,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 1,
+    "generic_entities": 1
+  },
+  "empty_category_entities": []
+}

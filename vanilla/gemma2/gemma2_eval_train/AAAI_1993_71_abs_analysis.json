@@ -1,0 +1,255 @@
+{
+  "doc_key": "AAAI_1993_71_abs",
+  "gold_entities": [
+    {
+      "entity": "logical properties of contexts",
+      "category": "task"
+    },
+    {
+      "entity": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "propositional language of context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "propositional logic of context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classical propositional logic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "correspondence theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hilbert style proof system",
+      "category": "method"
+    },
+    {
+      "entity": "Hilbert style proof system",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "propositional language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hilbert style proof system",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classical propositional logic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "soundness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "completeness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "correspondence theory",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "syntax",
+      "predicted": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "semantics",
+      "predicted": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "classical propositional logic",
+      "predicted": "classical propositional logic",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "modality",
+      "predicted": "modality",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "correspondence theory",
+      "predicted": "correspondence theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "Hilbert style proof system",
+      "predicted": "hilbert style proof system",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "propositional language of context",
+      "predicted": "propositional language",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "syntax",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "classical propositional logic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "modality",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "correspondence theory",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "propositional language of context",
+      "category": "otherscientificterm"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "logical properties of contexts",
+      "category": "task"
+    },
+    {
+      "entity": "propositional logic of context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Hilbert style proof system",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "context",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "vocabulary",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "soundness",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "completeness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "Hilbert style proof system|method": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 1,
+    "otherscientificterm": 7,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 11
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 0,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 7,
+      "predicted": 11,
+      "exact_matches": 5,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.45454545454545453,
+  "recall": 0.5555555555555556,
+  "f1": 0.5,
+  "category_precision": 0.6363636363636364,
+  "category_recall": 0.7,
+  "category_f1": 0.6666666666666666,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 11,
+    "exact_matches": 6,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 6,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 4,
+    "generic_entities": 2,
+    "correct_predictions": 5,
+    "correct_categories": 7
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "doc_key": "C04-1112",
+  "gold_entities": [
+    {
+      "entity": "corpus-based supervised word sense disambiguation (WSD) system",
+      "category": "method"
+    },
+    {
+      "entity": "statistical classification",
+      "category": "method"
+    },
+    {
+      "entity": "maximum entropy",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "lemma-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "classifier",
+      "category": "method"
+    },
+    {
+      "entity": "lemma-based model",
+      "category": "method"
+    },
+    {
+      "entity": "wordform model",
+      "category": "method"
+    },
+    {
+      "entity": "WSD system based on lemmas",
+      "category": "method"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "Dutch Senseval-2 test data",
+      "category": "material"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguous wordform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "inflected forms",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguous word",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Word sense disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "Corpus-based",
+      "category": "method"
+    },
+    {
+      "entity": "Maximum entropy",
+      "category": "metric"
+    },
+    {
+      "entity": "linguistic information",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Lemma-based approach",
+      "category": "method"
+    },
+    {
+      "entity": "Inflected forms",
+      "category": "material"
+    },
+    {
+      "entity": "Senseval-2",
+      "category": "material"
+    },
+    {
+      "entity": "Accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "maximum entropy",
+      "predicted": "Maximum entropy",
+      "gold_category": "method",
+      "predicted_category": "metric"
+    },
+    {
+      "gold": "inflected forms",
+      "predicted": "Inflected forms",
+      "gold_category": "otherscientificterm",
+      "predicted_category": "material"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "lemma-based approach",
+      "predicted": "Lemma-based approach",
+      "category": "method"
+    },
+    {
+      "gold": "linguistic information",
+      "predicted": "linguistic information",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "corpus-based supervised word sense disambiguation (WSD) system",
+      "category": "method"
+    },
+    {
+      "entity": "statistical classification",
+      "category": "method"
+    },
+    {
+      "entity": "classifiers",
+      "category": "method"
+    },
+    {
+      "entity": "classifier",
+      "category": "method"
+    },
+    {
+      "entity": "lemma-based model",
+      "category": "method"
+    },
+    {
+      "entity": "wordform model",
+      "category": "method"
+    },
+    {
+      "entity": "WSD system based on lemmas",
+      "category": "method"
+    },
+    {
+      "entity": "Dutch",
+      "category": "material"
+    },
+    {
+      "entity": "Dutch Senseval-2 test data",
+      "category": "material"
+    },
+    {
+      "entity": "ambiguous wordform",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "ambiguous word",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Word sense disambiguation",
+      "category": "task"
+    },
+    {
+      "entity": "Corpus-based",
+      "category": "method"
+    },
+    {
+      "entity": "Senseval-2",
+      "category": "material"
+    },
+    {
+      "entity": "Accuracy",
+      "category": "metric"
+    },
+    {
+      "entity": "robustness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 9,
+    "material": 2,
+    "otherscientificterm": 4
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 2,
+    "metric": 2,
+    "otherscientificterm": 2,
+    "material": 2
+  },
+  "category_based_counts": {
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 9,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 4,
+      "predicted": 2,
+      "exact_matches": 1,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 2,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2222222222222222,
+  "recall": 0.13333333333333333,
+  "f1": 0.16666666666666669,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 9,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 11,
+    "extra_entities": 5,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

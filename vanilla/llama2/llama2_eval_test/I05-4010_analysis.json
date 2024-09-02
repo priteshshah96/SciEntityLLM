@@ -1,0 +1,218 @@
+{
+  "doc_key": "I05-4010",
+  "gold_entities": [
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "numbering system",
+      "category": "method"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "empirical MT research",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Harvesting",
+      "category": "task"
+    },
+    {
+      "entity": "englishchinese bitexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "laws of hong kong",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "legal text hierarchy",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Numbering system",
+      "category": "method"
+    },
+    {
+      "entity": "Bilingual corpus",
+      "category": "material"
+    },
+    {
+      "entity": "English words",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese characters",
+      "category": "material"
+    },
+    {
+      "entity": "empirical mt research",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "larger volume",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "empirical MT research",
+      "predicted": "empirical mt research",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "bilingual corpus",
+      "predicted": "Bilingual corpus",
+      "category": "material"
+    },
+    {
+      "gold": "numbering system",
+      "predicted": "Numbering system",
+      "category": "method"
+    },
+    {
+      "gold": "legal text hierarchy",
+      "predicted": "legal text hierarchy",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    },
+    {
+      "entity": "English-Chinese bitexts",
+      "category": "material"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Harvesting",
+      "category": "task"
+    },
+    {
+      "entity": "englishchinese bitexts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "laws of hong kong",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "web",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "English words",
+      "category": "material"
+    },
+    {
+      "entity": "Chinese characters",
+      "category": "material"
+    },
+    {
+      "entity": "larger volume",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {
+    "English-Chinese bitexts|material": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 0,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "material": 3,
+    "method": 1,
+    "otherscientificterm": 1,
+    "task": 1
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 6,
+    "method": 1,
+    "material": 3
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2727272727272727,
+  "recall": 0.5,
+  "f1": 0.3529411764705882,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 11,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

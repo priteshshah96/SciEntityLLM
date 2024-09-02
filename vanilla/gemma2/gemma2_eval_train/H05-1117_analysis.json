@@ -1,0 +1,254 @@
+{
+  "doc_key": "H05-1117",
+  "gold_entities": [
+    {
+      "entity": "automatic evaluation",
+      "category": "task"
+    },
+    {
+      "entity": "automatic evaluation  of  machine translation  and  document summarization",
+      "category": "task"
+    },
+    {
+      "entity": "machine translation",
+      "category": "task"
+    },
+    {
+      "entity": "document summarization",
+      "category": "task"
+    },
+    {
+      "entity": "automatically evaluating answers to definition questions",
+      "category": "task"
+    },
+    {
+      "entity": "POURPRE",
+      "category": "metric"
+    },
+    {
+      "entity": "POURPRE",
+      "category": "metric"
+    },
+    {
+      "entity": "TREC 2003 and TREC 2004 QA tracks",
+      "category": "material"
+    },
+    {
+      "entity": "rankings",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "official rankings",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "automatic evaluation",
+      "category": "method"
+    },
+    {
+      "entity": "machine translation",
+      "category": "method"
+    },
+    {
+      "entity": "document summarization",
+      "category": "method"
+    },
+    {
+      "entity": "POURPRE",
+      "category": "metric"
+    },
+    {
+      "entity": "automatically evaluating answers to definition questions",
+      "category": "task"
+    },
+    {
+      "entity": "information nugget",
+      "category": "material"
+    },
+    {
+      "entity": "scoring system output",
+      "category": "task"
+    },
+    {
+      "entity": "TREC 2003 QA tracks",
+      "category": "material"
+    },
+    {
+      "entity": "TREC 2004 QA tracks",
+      "category": "material"
+    },
+    {
+      "entity": "rankings",
+      "category": "metric"
+    },
+    {
+      "entity": "official rankings",
+      "category": "metric"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "automatic evaluation",
+      "predicted": "automatic evaluation",
+      "category": "task"
+    },
+    {
+      "gold": "machine translation",
+      "predicted": "machine translation",
+      "category": "task"
+    },
+    {
+      "gold": "document summarization",
+      "predicted": "document summarization",
+      "category": "task"
+    },
+    {
+      "gold": "automatically evaluating answers to definition questions",
+      "predicted": "automatically evaluating answers to definition questions",
+      "category": "task"
+    },
+    {
+      "gold": "POURPRE",
+      "predicted": "POURPRE",
+      "category": "metric"
+    },
+    {
+      "gold": "rankings",
+      "predicted": "rankings",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "official rankings",
+      "predicted": "official rankings",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "TREC 2003 and TREC 2004 QA tracks",
+      "predicted": "TREC 2003 QA tracks",
+      "score": 0.6666666666666666,
+      "gold_category": "material",
+      "predicted_category": "material"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "automatically evaluating answers to definition questions",
+      "category": "task"
+    },
+    {
+      "entity": "POURPRE",
+      "category": "metric"
+    },
+    {
+      "entity": "TREC 2003 and TREC 2004 QA tracks",
+      "category": "material"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "automatic evaluation  of  machine translation  and  document summarization",
+      "category": "task"
+    },
+    {
+      "entity": "POURPRE",
+      "category": "metric"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "information nugget",
+      "category": "material"
+    },
+    {
+      "entity": "scoring system output",
+      "category": "task"
+    }
+  ],
+  "repeated_entities": {
+    "POURPRE|metric": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 1,
+    "total_repeated_entities": 2
+  },
+  "gold_category_counts": {
+    "task": 5,
+    "metric": 2,
+    "material": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "method": 3,
+    "metric": 3,
+    "task": 2,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 0,
+      "predicted": 3,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 0,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 5,
+      "predicted": 2,
+      "exact_matches": 4,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.18181818181818182,
+  "recall": 0.2222222222222222,
+  "f1": 0.19999999999999998,
+  "category_precision": 0.45454545454545453,
+  "category_recall": 0.5,
+  "category_f1": 0.47619047619047616,
+  "counts": {
+    "gold_entities": 10,
+    "predicted_entities": 11,
+    "exact_matches": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 3,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 2,
+    "generic_entities": 4,
+    "correct_predictions": 2,
+    "correct_categories": 5
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "doc_key": "I05-3022",
+  "gold_entities": [
+    {
+      "entity": "word segmentation system",
+      "category": "method"
+    },
+    {
+      "entity": "word breaking",
+      "category": "task"
+    },
+    {
+      "entity": "OOV identification",
+      "category": "task"
+    },
+    {
+      "entity": "segmentation bakeoff",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pkopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pkclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hkopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hkclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msropen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msr closed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msropen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msrclose",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pkopen",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "word segmentation system",
+      "category": "task"
+    },
+    {
+      "entity": "word breaking",
+      "category": "method"
+    },
+    {
+      "entity": "oov identification",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "transformation",
+      "category": "method"
+    },
+    {
+      "entity": "segmentation standards",
+      "category": "material"
+    },
+    {
+      "entity": "bakeoff",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pkopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "pkclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "asclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hkopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hkclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msropen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msrclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scores",
+      "category": "metric"
+    },
+    {
+      "entity": "component",
+      "category": "method"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "word segmentation system",
+      "predicted": "word segmentation system",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "word breaking",
+      "predicted": "word breaking",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "OOV identification",
+      "predicted": "oov identification",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "pkopen",
+      "predicted": "pkopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "pkclosed",
+      "predicted": "pkclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "asopen",
+      "predicted": "asopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "asclosed",
+      "predicted": "asclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hkopen",
+      "predicted": "hkopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hkclosed",
+      "predicted": "hkclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "msropen",
+      "predicted": "msropen",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "segmentation bakeoff",
+      "predicted": "bakeoff",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "pkopen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msropen",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msr closed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "msrclose",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "transformation",
+      "category": "method"
+    },
+    {
+      "entity": "segmentation standards",
+      "category": "material"
+    },
+    {
+      "entity": "msrclosed",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "scores",
+      "category": "metric"
+    },
+    {
+      "entity": "component",
+      "category": "method"
+    },
+    {
+      "entity": "results",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "pkopen|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "msropen|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "exact_with_category": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 4
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "task": 2,
+    "otherscientificterm": 12
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "method": 3,
+    "otherscientificterm": 10,
+    "material": 2,
+    "metric": 1
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 3,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 12,
+      "predicted": 10,
+      "exact_matches": 0,
+      "exact_matches_with_category": 7,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "material": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4117647058823529,
+  "recall": 0.4666666666666667,
+  "f1": 0.43749999999999994,
+  "counts": {
+    "gold_entities": 15,
+    "predicted_entities": 17,
+    "exact_matches": 3,
+    "exact_matches_with_category": 7,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 4,
+    "extra_entities": 6,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

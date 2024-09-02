@@ -1,0 +1,488 @@
+{
+  "doc_key": "ECCV_2016_107_abs",
+  "gold_entities": [
+    {
+      "entity": "Diagrams",
+      "category": "method"
+    },
+    {
+      "entity": "Diagram Parse Graphs (DPG)",
+      "category": "method"
+    },
+    {
+      "entity": "DPGs",
+      "category": "method"
+    },
+    {
+      "entity": "LSTM-based method",
+      "category": "method"
+    },
+    {
+      "entity": "DPG-based attention model",
+      "category": "method"
+    },
+    {
+      "entity": "DPGs",
+      "category": "method"
+    },
+    {
+      "entity": "complex concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structure of a diagram",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structure of diagrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural images",
+      "category": "material"
+    },
+    {
+      "entity": "natural images",
+      "category": "material"
+    },
+    {
+      "entity": "diagrams",
+      "category": "material"
+    },
+    {
+      "entity": "Understanding natural images",
+      "category": "task"
+    },
+    {
+      "entity": "computer vision",
+      "category": "task"
+    },
+    {
+      "entity": "diagram understanding",
+      "category": "task"
+    },
+    {
+      "entity": "diagram interpretation and reasoning",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing of diagrams",
+      "category": "task"
+    },
+    {
+      "entity": "semantic interpretation and reasoning of diagrams",
+      "category": "task"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing of diagrams",
+      "category": "task"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing and question answering in diagrams",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "diagrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "complex concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural images",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "computer vision",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "diagram understanding",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Diagram interpretation",
+      "category": "task"
+    },
+    {
+      "entity": "Diagram reasoning",
+      "category": "task"
+    },
+    {
+      "entity": "structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constituents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "diagram parse graphs dpg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Syntactic parsing",
+      "category": "method"
+    },
+    {
+      "entity": "Semantic interpretation",
+      "category": "method"
+    },
+    {
+      "entity": "Reasoning",
+      "category": "method"
+    },
+    {
+      "entity": "Diagram question answering",
+      "category": "task"
+    },
+    {
+      "entity": "LSTM",
+      "category": "method"
+    },
+    {
+      "entity": "Attention model",
+      "category": "method"
+    },
+    {
+      "entity": "Dataset",
+      "category": "material"
+    },
+    {
+      "entity": "Annotations",
+      "category": "material"
+    },
+    {
+      "entity": "Constituents annotations",
+      "category": "material"
+    },
+    {
+      "entity": "Relationships annotations",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Diagrams",
+      "predicted": "diagrams",
+      "category": "method"
+    },
+    {
+      "gold": "complex concepts",
+      "predicted": "complex concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "relationships",
+      "predicted": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "events",
+      "predicted": "events",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "natural images",
+      "predicted": "natural images",
+      "category": "material"
+    },
+    {
+      "gold": "computer vision",
+      "predicted": "computer vision",
+      "category": "task"
+    },
+    {
+      "gold": "diagram understanding",
+      "predicted": "diagram understanding",
+      "category": "task"
+    },
+    {
+      "gold": "diagram question answering",
+      "predicted": "Diagram question answering",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "DPG-based attention model",
+      "predicted": "Attention model",
+      "score": 0.6666666666666666,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": "diagram interpretation and reasoning",
+      "gold_category": "task",
+      "matched_parts": [
+        {
+          "part": "diagram interpretation",
+          "matched": "Diagram interpretation",
+          "predicted_category": "task"
+        },
+        {
+          "part": "reasoning",
+          "matched": "Reasoning",
+          "predicted_category": "method"
+        }
+      ],
+      "num_predicted_entities": 2
+    }
+  ],
+  "category_matches": [
+    {
+      "entity": "complex concepts",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "events",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "task"
+    },
+    {
+      "entity": "DPG-based attention model",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "Diagram Parse Graphs (DPG)",
+      "category": "method"
+    },
+    {
+      "entity": "DPGs",
+      "category": "method"
+    },
+    {
+      "entity": "DPGs",
+      "category": "method"
+    },
+    {
+      "entity": "LSTM-based method",
+      "category": "method"
+    },
+    {
+      "entity": "structure of a diagram",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "structure of diagrams",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "natural images",
+      "category": "material"
+    },
+    {
+      "entity": "diagrams",
+      "category": "material"
+    },
+    {
+      "entity": "Understanding natural images",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing of diagrams",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing of diagrams",
+      "category": "task"
+    },
+    {
+      "entity": "semantic interpretation and reasoning of diagrams",
+      "category": "task"
+    },
+    {
+      "entity": "diagram question answering",
+      "category": "task"
+    },
+    {
+      "entity": "syntactic parsing and question answering in diagrams",
+      "category": "task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "relationships",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Diagram reasoning",
+      "category": "task"
+    },
+    {
+      "entity": "structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "semantics",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "constituents",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "diagram parse graphs dpg",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "LSTM",
+      "category": "method"
+    },
+    {
+      "entity": "Dataset",
+      "category": "material"
+    },
+    {
+      "entity": "Annotations",
+      "category": "material"
+    },
+    {
+      "entity": "Constituents annotations",
+      "category": "material"
+    },
+    {
+      "entity": "Relationships annotations",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {
+    "DPGs|method": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "natural images|material": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "syntactic parsing of diagrams|task": {
+      "count": 2,
+      "exact": 0,
+      "partial": 0,
+      "split": 0
+    },
+    "diagram question answering|task": {
+      "count": 2,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 4,
+    "total_repeated_entities": 8
+  },
+  "gold_category_counts": {
+    "method": 6,
+    "otherscientificterm": 5,
+    "material": 3,
+    "task": 10
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 12,
+    "task": 3,
+    "method": 5,
+    "material": 4
+  },
+  "category_based_counts": {
+    "task": {
+      "gold": 10,
+      "predicted": 3,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 1
+    },
+    "material": {
+      "gold": 3,
+      "predicted": 4,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 6,
+      "predicted": 5,
+      "exact_matches": 1,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 5,
+      "predicted": 12,
+      "exact_matches": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.13043478260869565,
+  "recall": 0.15,
+  "f1": 0.13953488372093023,
+  "category_precision": 0.6666666666666666,
+  "category_recall": 0.6666666666666666,
+  "category_f1": 0.6666666666666666,
+  "counts": {
+    "gold_entities": 24,
+    "predicted_entities": 24,
+    "exact_matches": 8,
+    "partial_matches": 1,
+    "split_matches": 1,
+    "category_matches": 5,
+    "generic_matches": 0,
+    "missing_entities": 14,
+    "extra_entities": 11,
+    "generic_entities": 3,
+    "correct_predictions": 3,
+    "correct_categories": 16
+  }
+}

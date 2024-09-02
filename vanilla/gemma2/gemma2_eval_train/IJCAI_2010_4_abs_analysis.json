@@ -1,0 +1,298 @@
+{
+  "doc_key": "IJCAI_2010_4_abs",
+  "gold_entities": [
+    {
+      "entity": "Bayesian machine learning",
+      "category": "task"
+    },
+    {
+      "entity": "semi-supervised learning",
+      "category": "task"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate prior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate prior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bregman divergence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric understanding of conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generative and discriminative components",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid model",
+      "category": "method"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "bregman divergence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bayesian machine learning",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generative model",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative model",
+      "category": "method"
+    },
+    {
+      "entity": "hybrid model",
+      "category": "method"
+    },
+    {
+      "entity": "semi-supervised learning",
+      "category": "task"
+    },
+    {
+      "entity": "effective sample points",
+      "category": "metric"
+    },
+    {
+      "entity": "hyperparameters",
+      "category": "metric"
+    },
+    {
+      "entity": "prior",
+      "category": "method"
+    },
+    {
+      "entity": "coupling",
+      "category": "method"
+    },
+    {
+      "entity": "generative component",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative component",
+      "category": "method"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Bayesian machine learning",
+      "predicted": "bayesian machine learning",
+      "category": "task"
+    },
+    {
+      "gold": "semi-supervised learning",
+      "predicted": "semi-supervised learning",
+      "category": "task"
+    },
+    {
+      "gold": "conjugate priors",
+      "predicted": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "bregman divergence",
+      "predicted": "bregman divergence",
+      "category": "otherscientificterm"
+    },
+    {
+      "gold": "hybrid model",
+      "predicted": "hybrid model",
+      "category": "method"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "conjugate prior",
+      "predicted": "prior",
+      "score": 0.5,
+      "gold_category": "otherscientificterm",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "category_matches": [
+    {
+      "entity": "semi-supervised learning",
+      "category": "task"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "bregman divergence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "hybrid model",
+      "category": "method"
+    }
+  ],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "conjugate prior",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "geometric understanding of conjugate priors",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "generative and discriminative components",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "generative model",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative model",
+      "category": "method"
+    },
+    {
+      "entity": "effective sample points",
+      "category": "metric"
+    },
+    {
+      "entity": "hyperparameters",
+      "category": "metric"
+    },
+    {
+      "entity": "coupling",
+      "category": "method"
+    },
+    {
+      "entity": "generative component",
+      "category": "method"
+    },
+    {
+      "entity": "discriminative component",
+      "category": "method"
+    }
+  ],
+  "repeated_entities": {
+    "conjugate priors|otherscientificterm": {
+      "count": 4,
+      "exact": 1,
+      "partial": 0,
+      "split": 0
+    },
+    "conjugate prior|otherscientificterm": {
+      "count": 2,
+      "exact": 0,
+      "partial": 1,
+      "split": 0
+    }
+  },
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 2,
+    "total_repeated_entities": 6
+  },
+  "gold_category_counts": {
+    "task": 2,
+    "otherscientificterm": 8,
+    "method": 2
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 3,
+    "method": 7,
+    "task": 1,
+    "metric": 2
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 8,
+      "predicted": 3,
+      "exact_matches": 2,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 2,
+      "predicted": 7,
+      "exact_matches": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 2,
+      "predicted": 1,
+      "exact_matches": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3076923076923077,
+  "recall": 0.5,
+  "f1": 0.380952380952381,
+  "category_precision": 0.46153846153846156,
+  "category_recall": 0.5,
+  "category_f1": 0.48000000000000004,
+  "counts": {
+    "gold_entities": 12,
+    "predicted_entities": 13,
+    "exact_matches": 5,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "category_matches": 4,
+    "generic_matches": 0,
+    "missing_entities": 6,
+    "extra_entities": 7,
+    "generic_entities": 2,
+    "correct_predictions": 4,
+    "correct_categories": 6
+  }
+}

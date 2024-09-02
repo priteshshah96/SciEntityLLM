@@ -1,0 +1,367 @@
+{
+  "gold_entities": [
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "dimensionality reduction and density estimation algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "object intrinsic representation",
+      "category": "Method"
+    },
+    {
+      "entity": "dynamical model",
+      "category": "Method"
+    },
+    {
+      "entity": "intrinsic representation",
+      "category": "Method"
+    },
+    {
+      "entity": "particle-filter style tracker",
+      "category": "Method"
+    },
+    {
+      "entity": "intrinsic object representation",
+      "category": "Method"
+    },
+    {
+      "entity": "dynamical model",
+      "category": "Method"
+    },
+    {
+      "entity": "particle-filter style tracker",
+      "category": "Method"
+    },
+    {
+      "entity": "robust visual tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "unsupervised learning of object intrinsic representation",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking of complex non-rigid motions",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking problems",
+      "category": "Task"
+    },
+    {
+      "entity": "intrinsic object structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "parameterized object state",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "low dimensional manifold",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-rigid part of object state",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intrinsic object structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complex non-rigid motions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "fish twisting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "self-occlusion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inter-frame lip motion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "novel method",
+      "category": "Task"
+    },
+    {
+      "entity": "parameterized object state",
+      "category": "Task"
+    },
+    {
+      "entity": "low dimensional manifold",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dimensionality reduction",
+      "category": "Method"
+    },
+    {
+      "entity": "density estimation",
+      "category": "Method"
+    },
+    {
+      "entity": "nonrigid part",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intrinsic representation",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dynamical model",
+      "category": "Method"
+    },
+    {
+      "entity": "trained based",
+      "category": "Method"
+    },
+    {
+      "entity": "particle-filter style tracker",
+      "category": "Task"
+    },
+    {
+      "entity": "interesting properties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "selfocclusion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "large interframe lip motion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "tracker",
+      "category": "Generic"
+    },
+    {
+      "entity": "trackers",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "parameterized object state",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "parameterized object state",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "low dimensional manifold",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "low dimensional manifold",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "intrinsic representation",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "intrinsic representation",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dynamical model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dynamical model",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "particle-filter style tracker",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "particle-filter style tracker",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "low dimensional manifold",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "low dimensional manifold",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "dynamical model",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "dynamical model",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "dimensionality reduction and density estimation algorithm",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "dimensionality reduction",
+          "category": "Method"
+        },
+        {
+          "entity": "density estimation",
+          "category": "Method"
+        }
+      ],
+      "coverage": 2.0
+    }
+  ],
+  "partial_matches": [],
+  "missing_entities": [
+    {
+      "entity": "method",
+      "category": "Method"
+    },
+    {
+      "entity": "object intrinsic representation",
+      "category": "Method"
+    },
+    {
+      "entity": "intrinsic object representation",
+      "category": "Method"
+    },
+    {
+      "entity": "dynamical model",
+      "category": "Method"
+    },
+    {
+      "entity": "particle-filter style tracker",
+      "category": "Method"
+    },
+    {
+      "entity": "robust visual tracking",
+      "category": "Task"
+    },
+    {
+      "entity": "unsupervised learning of object intrinsic representation",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking of complex non-rigid motions",
+      "category": "Task"
+    },
+    {
+      "entity": "tracking problems",
+      "category": "Task"
+    },
+    {
+      "entity": "intrinsic object structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "non-rigid part of object state",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "intrinsic object structure",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "complex non-rigid motions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "fish twisting",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "self-occlusion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inter-frame lip motion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "novel method",
+      "category": "Task"
+    },
+    {
+      "entity": "nonrigid part",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "trained based",
+      "category": "Method"
+    },
+    {
+      "entity": "interesting properties",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "selfocclusion",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "large interframe lip motion",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "repeated_entities": {
+    "dynamical model": 2,
+    "particle-filter style tracker": 2,
+    "intrinsic object structure": 2
+  },
+  "distinct_repeated_entities": [
+    "dynamical model",
+    "particle-filter style tracker",
+    "intrinsic object structure"
+  ],
+  "counts": {
+    "gold_count": 22,
+    "generated_count": 13,
+    "generic_count": 3,
+    "exact_matches": 5,
+    "exact_category_matches": 2,
+    "split_matches": 1,
+    "partial_matches": 0,
+    "distinct_repeated_entities": 3,
+    "repeated_entities": 6
+  }
+}

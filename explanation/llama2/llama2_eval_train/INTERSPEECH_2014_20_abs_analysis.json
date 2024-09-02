@@ -1,0 +1,201 @@
+{
+  "doc_key": "INTERSPEECH_2014_20_abs",
+  "gold_entities": [
+    {
+      "entity": "multilingual feature-level data sharing",
+      "category": "task"
+    },
+    {
+      "entity": "language identification",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual training",
+      "category": "task"
+    },
+    {
+      "entity": "Deep Neural Network (DNN) stacked bottleneck features",
+      "category": "method"
+    },
+    {
+      "entity": "multilingual resources",
+      "category": "material"
+    },
+    {
+      "entity": "IARPA-Babel languages",
+      "category": "material"
+    },
+    {
+      "entity": "bottleneck features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Deep Neural Network (DNN)",
+      "category": "method"
+    },
+    {
+      "entity": "stacked bottleneck features",
+      "category": "method"
+    },
+    {
+      "entity": "language identification",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "IARPA-Babel languages",
+      "category": "material"
+    },
+    {
+      "entity": "target language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "multilingual resources",
+      "category": "material"
+    },
+    {
+      "entity": "bottleneck features",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data similar to the target language",
+      "category": "material"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "language identification",
+      "predicted": "language identification",
+      "gold_category": "task",
+      "predicted_category": "otherscientificterm"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "multilingual resources",
+      "predicted": "multilingual resources",
+      "category": "material"
+    },
+    {
+      "gold": "IARPA-Babel languages",
+      "predicted": "IARPA-Babel languages",
+      "category": "material"
+    },
+    {
+      "gold": "bottleneck features",
+      "predicted": "bottleneck features",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "multilingual feature-level data sharing",
+      "category": "task"
+    },
+    {
+      "entity": "multilingual training",
+      "category": "task"
+    },
+    {
+      "entity": "Deep Neural Network (DNN) stacked bottleneck features",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Deep Neural Network (DNN)",
+      "category": "method"
+    },
+    {
+      "entity": "stacked bottleneck features",
+      "category": "method"
+    },
+    {
+      "entity": "target language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "source language",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "data similar to the target language",
+      "category": "material"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 3,
+    "method": 1,
+    "material": 2,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "method": 2,
+    "otherscientificterm": 4,
+    "material": 3
+  },
+  "category_based_counts": {
+    "material": {
+      "gold": 2,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 1,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 4,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.3333333333333333,
+  "recall": 0.42857142857142855,
+  "f1": 0.375,
+  "counts": {
+    "gold_entities": 7,
+    "predicted_entities": 9,
+    "exact_matches": 1,
+    "exact_matches_with_category": 3,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 3,
+    "extra_entities": 5,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

@@ -1,0 +1,257 @@
+{
+  "gold_entities": [
+    {
+      "entity": "news articles",
+      "category": "Material"
+    },
+    {
+      "entity": "multi-event stories",
+      "category": "Material"
+    },
+    {
+      "entity": "stochastic, graph-based method",
+      "category": "Method"
+    },
+    {
+      "entity": "trdr score",
+      "category": "Metric"
+    },
+    {
+      "entity": "question-focused sentence retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "sentence retrieval problem",
+      "category": "Task"
+    },
+    {
+      "entity": "generic summarization",
+      "category": "Task"
+    },
+    {
+      "entity": "idf-weighted word overlap",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "question-focused sentence retrieval",
+      "category": "Task"
+    },
+    {
+      "entity": "news articles",
+      "category": "Material"
+    },
+    {
+      "entity": "multi-event stories",
+      "category": "Material"
+    },
+    {
+      "entity": "questions",
+      "category": "Task"
+    },
+    {
+      "entity": "timesensitive",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "graph-based method",
+      "category": "Method"
+    },
+    {
+      "entity": "generic summarization",
+      "category": "Method"
+    },
+    {
+      "entity": "baseline",
+      "category": "Method"
+    },
+    {
+      "entity": "similarity",
+      "category": "Method"
+    },
+    {
+      "entity": "idf-weighted word overlap",
+      "category": "Method"
+    },
+    {
+      "entity": "trdr score",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "it",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "baseline",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "question-focused sentence retrieval",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "question-focused sentence retrieval",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "news articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "news articles",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multi-event stories",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "multi-event stories",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "generic summarization",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "generic summarization",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "idf-weighted word overlap",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "idf-weighted word overlap",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "trdr score",
+        "category": "Metric"
+      },
+      "predicted": {
+        "entity": "trdr score",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "question-focused sentence retrieval",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "question-focused sentence retrieval",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "news articles",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "news articles",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "multi-event stories",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "multi-event stories",
+        "category": "Material"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "stochastic, graph-based method",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "graph-based method",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "sentence retrieval problem",
+      "category": "Task"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "questions",
+      "category": "Task"
+    },
+    {
+      "entity": "timesensitive",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "sentences",
+      "category": "Material"
+    },
+    {
+      "entity": "baseline",
+      "category": "Method"
+    },
+    {
+      "entity": "similarity",
+      "category": "Method"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 8,
+    "generated_count": 12,
+    "generic_count": 5,
+    "exact_matches": 6,
+    "exact_category_matches": 3,
+    "split_matches": 0,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

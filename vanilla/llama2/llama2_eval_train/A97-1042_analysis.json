@@ -1,0 +1,190 @@
+{
+  "doc_key": "A97-1042",
+  "gold_entities": [
+    {
+      "entity": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "entity": "positions of topicbearing sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genrespecific regularities of discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "information retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "routing",
+      "category": "task"
+    },
+    {
+      "entity": "text summarization",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "position",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genre",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Information retrieval",
+      "category": "task"
+    },
+    {
+      "entity": "Routing",
+      "category": "task"
+    },
+    {
+      "entity": "Text summarization",
+      "category": "task"
+    }
+  ],
+  "exact_matches": [],
+  "exact_matches_with_category": [
+    {
+      "gold": "Optimal Position Policy",
+      "predicted": "Optimal Position Policy",
+      "category": "method"
+    },
+    {
+      "gold": "information retrieval",
+      "predicted": "Information retrieval",
+      "category": "task"
+    },
+    {
+      "gold": "routing",
+      "predicted": "Routing",
+      "category": "task"
+    },
+    {
+      "gold": "text summarization",
+      "predicted": "Text summarization",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "positions of topicbearing sentences",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genrespecific regularities of discourse structure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "topic",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "position",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "sentence",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "text",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "genre",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "discourse structure",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 1,
+    "otherscientificterm": 2,
+    "task": 3
+  },
+  "predicted_category_counts": {
+    "otherscientificterm": 6,
+    "method": 1,
+    "task": 3
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 6,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 3,
+      "predicted": 3,
+      "exact_matches": 0,
+      "exact_matches_with_category": 3,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.4,
+  "recall": 0.6666666666666666,
+  "f1": 0.5,
+  "counts": {
+    "gold_entities": 6,
+    "predicted_entities": 10,
+    "exact_matches": 0,
+    "exact_matches_with_category": 4,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 6,
+    "generic_entities": 3
+  },
+  "empty_category_entities": []
+}

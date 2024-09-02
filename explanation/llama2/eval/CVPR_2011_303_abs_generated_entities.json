@@ -1,0 +1,328 @@
+{
+  "gold_entities": [
+    {
+      "entity": "noisy training dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "data mining method",
+      "category": "Method"
+    },
+    {
+      "entity": "boosting",
+      "category": "Method"
+    },
+    {
+      "entity": "boosting decision trees",
+      "category": "Method"
+    },
+    {
+      "entity": "boosting decision stumps",
+      "category": "Method"
+    },
+    {
+      "entity": "generalization ability",
+      "category": "Metric"
+    },
+    {
+      "entity": "object, scene, and action recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "identifying discriminative co-occurrence patterns",
+      "category": "Task"
+    },
+    {
+      "entity": "object, scene, and action cat-egorization",
+      "category": "Task"
+    },
+    {
+      "entity": "co-occurrence pattern",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "binary or local features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "co-occurrence patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "conjunction (and) and disjunction (or) of binary features",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discriminative co-occurrence patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "optimal co-occurrence pattern",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "minimum empirical error",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "and and or patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dis-criminative co-occurrence patterns",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "co-occurrence pattern",
+      "category": "Method"
+    },
+    {
+      "entity": "binary or local features",
+      "category": "Material"
+    },
+    {
+      "entity": "object recognition",
+      "category": "Task"
+    },
+    {
+      "entity": "scene and action recognition",
+      "category": "Material"
+    },
+    {
+      "entity": "conjunction (and)",
+      "category": "Method"
+    },
+    {
+      "entity": "disjunction (or)",
+      "category": "Method"
+    },
+    {
+      "entity": "binary features",
+      "category": "Material"
+    },
+    {
+      "entity": "conjunction (and)",
+      "category": "Method"
+    },
+    {
+      "entity": "disjunction (or)",
+      "category": "Method"
+    },
+    {
+      "entity": "empirical error",
+      "category": "Metric"
+    },
+    {
+      "entity": "boosting",
+      "category": "Method"
+    },
+    {
+      "entity": "decision trees",
+      "category": "Method"
+    },
+    {
+      "entity": "decision stumps",
+      "category": "Method"
+    },
+    {
+      "entity": "object, scene, and action cat-egorization",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "mining procedure",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "co-occurrence pattern",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "co-occurrence pattern",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "binary or local features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "binary or local features",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "boosting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "boosting",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "object, scene, and action cat-egorization",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "object, scene, and action cat-egorization",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "boosting",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "boosting",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [
+    {
+      "gold": {
+        "entity": "boosting decision trees",
+        "category": "Method"
+      },
+      "predicted": [
+        {
+          "entity": "decision trees",
+          "category": "Method"
+        },
+        {
+          "entity": "decision stumps",
+          "category": "Method"
+        }
+      ],
+      "coverage": 1.5
+    },
+    {
+      "gold": {
+        "entity": "object, scene, and action recognition",
+        "category": "Task"
+      },
+      "predicted": [
+        {
+          "entity": "object recognition",
+          "category": "Task"
+        },
+        {
+          "entity": "scene and action recognition",
+          "category": "Material"
+        }
+      ],
+      "coverage": 1.25
+    },
+    {
+      "gold": {
+        "entity": "conjunction (and) and disjunction (or) of binary features",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": [
+        {
+          "entity": "conjunction (and)",
+          "category": "Method"
+        },
+        {
+          "entity": "disjunction (or)",
+          "category": "Method"
+        },
+        {
+          "entity": "binary features",
+          "category": "Material"
+        },
+        {
+          "entity": "conjunction (and)",
+          "category": "Method"
+        },
+        {
+          "entity": "disjunction (or)",
+          "category": "Method"
+        }
+      ],
+      "coverage": 5.0
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "minimum empirical error",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "empirical error",
+        "category": "Metric"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "noisy training dataset",
+      "category": "Material"
+    },
+    {
+      "entity": "data mining method",
+      "category": "Method"
+    },
+    {
+      "entity": "boosting decision stumps",
+      "category": "Method"
+    },
+    {
+      "entity": "generalization ability",
+      "category": "Metric"
+    },
+    {
+      "entity": "identifying discriminative co-occurrence patterns",
+      "category": "Task"
+    },
+    {
+      "entity": "co-occurrence patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "discriminative co-occurrence patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "optimal co-occurrence pattern",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "and and or patterns",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "dis-criminative co-occurrence patterns",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 18,
+    "generated_count": 14,
+    "generic_count": 1,
+    "exact_matches": 4,
+    "exact_category_matches": 1,
+    "split_matches": 3,
+    "partial_matches": 1,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

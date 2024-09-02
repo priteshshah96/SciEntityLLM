@@ -1,0 +1,281 @@
+{
+  "gold_entities": [
+    {
+      "entity": "scenes",
+      "category": "Material"
+    },
+    {
+      "entity": "multi-colored piece-wise uniform objects",
+      "category": "Material"
+    },
+    {
+      "entity": "physics-based segmentation algorithms",
+      "category": "Method"
+    },
+    {
+      "entity": "physical models",
+      "category": "Method"
+    },
+    {
+      "entity": "complexity",
+      "category": "Metric"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "physical hypotheses",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "simple image regions",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "regions of similar color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "segmentations",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "segmentation",
+      "category": "Task"
+    },
+    {
+      "entity": "framework",
+      "category": "Method"
+    },
+    {
+      "entity": "hypotheses",
+      "category": "Method"
+    },
+    {
+      "entity": "image regions",
+      "category": "Task"
+    },
+    {
+      "entity": "scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "objects",
+      "category": "Task"
+    },
+    {
+      "entity": "surfaces",
+      "category": "Task"
+    },
+    {
+      "entity": "colors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "physical models",
+      "category": "Method"
+    },
+    {
+      "entity": "segmentations",
+      "category": "Task"
+    },
+    {
+      "entity": "results",
+      "category": "Task"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "framework",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "approach",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "scenes",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "scenes",
+        "category": "Task"
+      }
+    },
+    {
+      "gold": {
+        "entity": "physical models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "physical models",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "segmentations",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "segmentations",
+        "category": "Task"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "physical models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "physical models",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "multi-colored piece-wise uniform objects",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "objects",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "physics-based segmentation algorithms",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "segmentation",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "physical hypotheses",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "hypotheses",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "simple image regions",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "image regions",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "coherent surfaces",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "surfaces",
+        "category": "Task"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "complexity",
+      "category": "Metric"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "segmentation of complex scenes",
+      "category": "Task"
+    },
+    {
+      "entity": "regions of similar color",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "coherent surfaces",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "framework",
+      "category": "Method"
+    },
+    {
+      "entity": "colors",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "results",
+      "category": "Task"
+    }
+  ],
+  "repeated_entities": {
+    "segmentation of complex scenes": 2,
+    "coherent surfaces": 2
+  },
+  "distinct_repeated_entities": [
+    "segmentation of complex scenes",
+    "coherent surfaces"
+  ],
+  "counts": {
+    "gold_count": 13,
+    "generated_count": 11,
+    "generic_count": 5,
+    "exact_matches": 3,
+    "exact_category_matches": 1,
+    "split_matches": 0,
+    "partial_matches": 5,
+    "distinct_repeated_entities": 2,
+    "repeated_entities": 4
+  }
+}

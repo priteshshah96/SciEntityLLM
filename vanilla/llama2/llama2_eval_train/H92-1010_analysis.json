@@ -1,0 +1,150 @@
+{
+  "doc_key": "H92-1010",
+  "gold_entities": [
+    {
+      "entity": "speech processing",
+      "category": "task"
+    },
+    {
+      "entity": "Human-Machine Communication",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language Processing",
+      "category": "task"
+    },
+    {
+      "entity": "Non Verbal and Multimodal Communication",
+      "category": "task"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "LIMSI",
+      "category": "task"
+    },
+    {
+      "entity": "speech processing",
+      "category": "task"
+    },
+    {
+      "entity": "Human-Machine Communication",
+      "category": "task"
+    },
+    {
+      "entity": "Natural Language Processing",
+      "category": "method"
+    },
+    {
+      "entity": "Non Verbal and Multimodal Communication",
+      "category": "method"
+    },
+    {
+      "entity": "commercial applications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "international collaborations",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Natural Language Processing",
+      "predicted": "Natural Language Processing",
+      "gold_category": "task",
+      "predicted_category": "method"
+    },
+    {
+      "gold": "Non Verbal and Multimodal Communication",
+      "predicted": "Non Verbal and Multimodal Communication",
+      "gold_category": "task",
+      "predicted_category": "method"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "speech processing",
+      "predicted": "speech processing",
+      "category": "task"
+    },
+    {
+      "gold": "Human-Machine Communication",
+      "predicted": "Human-Machine Communication",
+      "category": "task"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [],
+  "extra_entities": [
+    {
+      "entity": "LIMSI",
+      "category": "task"
+    },
+    {
+      "entity": "commercial applications",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "international collaborations",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "task": 4
+  },
+  "predicted_category_counts": {
+    "task": 3,
+    "method": 2,
+    "otherscientificterm": 2
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 4,
+      "predicted": 3,
+      "exact_matches": 2,
+      "exact_matches_with_category": 2,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.2857142857142857,
+  "recall": 0.5,
+  "f1": 0.36363636363636365,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 7,
+    "exact_matches": 2,
+    "exact_matches_with_category": 2,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 0,
+    "extra_entities": 3,
+    "generic_entities": 0
+  },
+  "empty_category_entities": []
+}

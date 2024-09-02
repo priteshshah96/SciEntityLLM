@@ -1,0 +1,211 @@
+{
+  "gold_entities": [
+    {
+      "entity": "semantic components",
+      "category": "Method"
+    },
+    {
+      "entity": "creation of city models",
+      "category": "Task"
+    },
+    {
+      "entity": "synthesizing complex, photo-realistic facade images",
+      "category": "Task"
+    },
+    {
+      "entity": "tiling",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tilings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "facade textures",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "facades",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "city models",
+      "category": "Material"
+    },
+    {
+      "entity": "photo-realistic facade images",
+      "category": "Material"
+    },
+    {
+      "entity": "single example",
+      "category": "Material"
+    },
+    {
+      "entity": "semantic components",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "tiling",
+      "category": "Method"
+    },
+    {
+      "entity": "novel tilings",
+      "category": "Method"
+    },
+    {
+      "entity": "facade textures",
+      "category": "Material"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "building styles",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "Material"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "method",
+      "category": "Generic"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "Generic"
+    },
+    {
+      "entity": "multiple standard datasets",
+      "category": "Generic"
+    },
+    {
+      "entity": "method",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "semantic components",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "semantic components",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "tiling",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "tiling",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "facade textures",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "facade textures",
+        "category": "Material"
+      }
+    }
+  ],
+  "exact_category_matches": [],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "creation of city models",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "city models",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "synthesizing complex, photo-realistic facade images",
+        "category": "Task"
+      },
+      "predicted": {
+        "entity": "photo-realistic facade images",
+        "category": "Material"
+      },
+      "overlap": 1.0
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "tilings",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "occluded parts inpainted",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "facades",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "inpainted parts",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "single example",
+      "category": "Material"
+    },
+    {
+      "entity": "novel tilings",
+      "category": "Method"
+    },
+    {
+      "entity": "genetic algorithm",
+      "category": "Method"
+    },
+    {
+      "entity": "building styles",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "standard datasets",
+      "category": "Material"
+    }
+  ],
+  "repeated_entities": {},
+  "distinct_repeated_entities": [],
+  "counts": {
+    "gold_count": 9,
+    "generated_count": 10,
+    "generic_count": 4,
+    "exact_matches": 3,
+    "exact_category_matches": 0,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 0,
+    "repeated_entities": 0
+  }
+}

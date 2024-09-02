@@ -1,0 +1,139 @@
+{
+  "doc_key": "P86-1011",
+  "gold_entities": [
+    {
+      "entity": "grammatical formalisms",
+      "category": "method"
+    },
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "Head Grammars",
+      "category": "method"
+    },
+    {
+      "entity": "linguistic expressiveness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Tree Adjoining Grammars",
+      "category": "task"
+    },
+    {
+      "entity": "Head Grammars",
+      "category": "task"
+    },
+    {
+      "entity": "Weak Equivalence",
+      "category": "metric"
+    },
+    {
+      "entity": "linguistic expressiveness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Tree Adjoining Grammars",
+      "predicted": "Tree Adjoining Grammars",
+      "gold_category": "method",
+      "predicted_category": "task"
+    },
+    {
+      "gold": "Head Grammars",
+      "predicted": "Head Grammars",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "linguistic expressiveness",
+      "predicted": "linguistic expressiveness",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "grammatical formalisms",
+      "category": "method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "Weak Equivalence",
+      "category": "metric"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 3,
+    "otherscientificterm": 1
+  },
+  "predicted_category_counts": {
+    "task": 2,
+    "metric": 1,
+    "otherscientificterm": 1
+  },
+  "category_based_counts": {
+    "otherscientificterm": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "metric": {
+      "gold": 0,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 0,
+      "predicted": 2,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "method": {
+      "gold": 3,
+      "predicted": 0,
+      "exact_matches": 2,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.25,
+  "recall": 0.25,
+  "f1": 0.25,
+  "counts": {
+    "gold_entities": 4,
+    "predicted_entities": 4,
+    "exact_matches": 2,
+    "exact_matches_with_category": 1,
+    "partial_matches": 0,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 1,
+    "extra_entities": 1,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}

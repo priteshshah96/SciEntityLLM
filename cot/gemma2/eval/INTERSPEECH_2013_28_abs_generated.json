@@ -1,0 +1,262 @@
+{
+  "gold_entities": [
+    {
+      "entity": "under-explored language genre of spoken language",
+      "category": "Material"
+    },
+    {
+      "entity": "lyrics in music",
+      "category": "Material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "rhyming lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "unsuper-vised induction",
+      "category": "Method"
+    },
+    {
+      "entity": "smt-style stochastic transduction grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "fully-automatically learned challenge-response system",
+      "category": "Method"
+    },
+    {
+      "entity": "phrase-based smt models",
+      "category": "Method"
+    },
+    {
+      "entity": "priori linguistic or phonetic knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "human evaluators",
+      "category": "OtherScientificTerm"
+    }
+  ],
+  "generated_entities": [
+    {
+      "entity": "spoken language\u2014lyrics in music",
+      "category": "Task"
+    },
+    {
+      "entity": "smt-style stochastic transduction grammar",
+      "category": "Method"
+    },
+    {
+      "entity": "challenge-response system",
+      "category": "Method"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "unsupervised induction",
+      "category": "Method"
+    },
+    {
+      "entity": "a priori linguistic or phonetic knowledge",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "fluent output",
+      "category": "Metric"
+    },
+    {
+      "entity": "human evaluators",
+      "category": "OtherScientificTerm"
+    },
+    {
+      "entity": "phrase-based smt models",
+      "category": "Method"
+    }
+  ],
+  "generic_entities": [
+    {
+      "entity": "approach",
+      "category": "Generic"
+    },
+    {
+      "entity": "model",
+      "category": "Generic"
+    },
+    {
+      "entity": "task",
+      "category": "Generic"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": {
+        "entity": "smt-style stochastic transduction grammar",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "smt-style stochastic transduction grammar",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "human evaluators",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "human evaluators",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "phrase-based smt models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "phrase-based smt models",
+        "category": "Method"
+      }
+    }
+  ],
+  "exact_category_matches": [
+    {
+      "gold": {
+        "entity": "smt-style stochastic transduction grammar",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "smt-style stochastic transduction grammar",
+        "category": "Method"
+      }
+    },
+    {
+      "gold": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      },
+      "predicted": {
+        "entity": "hip hop lyrics",
+        "category": "Material"
+      }
+    },
+    {
+      "gold": {
+        "entity": "human evaluators",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "human evaluators",
+        "category": "OtherScientificTerm"
+      }
+    },
+    {
+      "gold": {
+        "entity": "phrase-based smt models",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "phrase-based smt models",
+        "category": "Method"
+      }
+    }
+  ],
+  "split_matches": [],
+  "partial_matches": [
+    {
+      "gold": {
+        "entity": "fully-automatically learned challenge-response system",
+        "category": "Method"
+      },
+      "predicted": {
+        "entity": "challenge-response system",
+        "category": "Method"
+      },
+      "overlap": 1.0
+    },
+    {
+      "gold": {
+        "entity": "priori linguistic or phonetic knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "predicted": {
+        "entity": "a priori linguistic or phonetic knowledge",
+        "category": "OtherScientificTerm"
+      },
+      "overlap": 0.8333333333333334
+    }
+  ],
+  "missing_entities": [
+    {
+      "entity": "under-explored language genre of spoken language",
+      "category": "Material"
+    },
+    {
+      "entity": "lyrics in music",
+      "category": "Material"
+    },
+    {
+      "entity": "rhyming lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "hip hop lyrics",
+      "category": "Material"
+    },
+    {
+      "entity": "unsuper-vised induction",
+      "category": "Method"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "spoken language\u2014lyrics in music",
+      "category": "Task"
+    },
+    {
+      "entity": "unsupervised induction",
+      "category": "Method"
+    },
+    {
+      "entity": "fluent output",
+      "category": "Metric"
+    }
+  ],
+  "repeated_entities": {
+    "hip hop lyrics": 2
+  },
+  "distinct_repeated_entities": [
+    "hip hop lyrics"
+  ],
+  "counts": {
+    "gold_count": 11,
+    "generated_count": 9,
+    "generic_count": 3,
+    "exact_matches": 4,
+    "exact_category_matches": 4,
+    "split_matches": 0,
+    "partial_matches": 2,
+    "distinct_repeated_entities": 1,
+    "repeated_entities": 2
+  }
+}

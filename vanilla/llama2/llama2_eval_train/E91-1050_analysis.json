@@ -1,0 +1,190 @@
+{
+  "doc_key": "E91-1050",
+  "gold_entities": [
+    {
+      "entity": "Unification",
+      "category": "method"
+    },
+    {
+      "entity": "declarative formalism",
+      "category": "method"
+    },
+    {
+      "entity": "relations  between  representations",
+      "category": "task"
+    },
+    {
+      "entity": "feature structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "direct mappings of one feature structure into another",
+      "category": "otherscientificterm"
+    }
+  ],
+  "predicted_entities": [
+    {
+      "entity": "Unification",
+      "category": "task"
+    },
+    {
+      "entity": "relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "representations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "feature structures",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Method",
+      "category": "method"
+    },
+    {
+      "entity": "Formalism",
+      "category": "method"
+    },
+    {
+      "entity": "Mappings",
+      "category": "method"
+    },
+    {
+      "entity": "Direct",
+      "category": "method"
+    },
+    {
+      "entity": "illustrative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "areas",
+      "category": "otherscientificterm"
+    }
+  ],
+  "exact_matches": [
+    {
+      "gold": "Unification",
+      "predicted": "Unification",
+      "gold_category": "method",
+      "predicted_category": "task"
+    }
+  ],
+  "exact_matches_with_category": [
+    {
+      "gold": "feature structures",
+      "predicted": "feature structures",
+      "category": "otherscientificterm"
+    }
+  ],
+  "partial_matches": [
+    {
+      "gold": "declarative formalism",
+      "predicted": "Formalism",
+      "score": 0.5,
+      "gold_category": "method",
+      "predicted_category": "method"
+    }
+  ],
+  "split_matches": [],
+  "generic_matches": [],
+  "missing_entities": [
+    {
+      "entity": "relations  between  representations",
+      "category": "task"
+    },
+    {
+      "entity": "direct mappings of one feature structure into another",
+      "category": "otherscientificterm"
+    }
+  ],
+  "extra_entities": [
+    {
+      "entity": "relations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "representations",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "Method",
+      "category": "method"
+    },
+    {
+      "entity": "Mappings",
+      "category": "method"
+    },
+    {
+      "entity": "Direct",
+      "category": "method"
+    },
+    {
+      "entity": "illustrative",
+      "category": "otherscientificterm"
+    },
+    {
+      "entity": "areas",
+      "category": "otherscientificterm"
+    }
+  ],
+  "repeated_entities": {},
+  "repeated_entity_summary": {
+    "total_distinct_repeated_entities": 0,
+    "total_repeated_entities": 0
+  },
+  "gold_category_counts": {
+    "method": 2,
+    "task": 1,
+    "otherscientificterm": 2
+  },
+  "predicted_category_counts": {
+    "task": 1,
+    "otherscientificterm": 5,
+    "method": 4
+  },
+  "category_based_counts": {
+    "method": {
+      "gold": 2,
+      "predicted": 4,
+      "exact_matches": 1,
+      "exact_matches_with_category": 0,
+      "partial_matches": 1,
+      "split_matches": 0
+    },
+    "otherscientificterm": {
+      "gold": 2,
+      "predicted": 5,
+      "exact_matches": 0,
+      "exact_matches_with_category": 1,
+      "partial_matches": 0,
+      "split_matches": 0
+    },
+    "task": {
+      "gold": 1,
+      "predicted": 1,
+      "exact_matches": 0,
+      "exact_matches_with_category": 0,
+      "partial_matches": 0,
+      "split_matches": 0
+    }
+  },
+  "precision": 0.1,
+  "recall": 0.2,
+  "f1": 0.13333333333333333,
+  "counts": {
+    "gold_entities": 5,
+    "predicted_entities": 10,
+    "exact_matches": 1,
+    "exact_matches_with_category": 1,
+    "partial_matches": 1,
+    "split_matches": 0,
+    "generic_matches": 0,
+    "missing_entities": 2,
+    "extra_entities": 7,
+    "generic_entities": 2
+  },
+  "empty_category_entities": []
+}
